@@ -51,7 +51,10 @@ updated: YYYY-MM-DD
 
 ## Domain Tags
 
-在这里添加你的领域标签。
+2026-08-20 用户确认研究领域为陶瓷-腐蚀，新增：
+
+- `ceramics`
+- `corrosion`
 
 Example:
 

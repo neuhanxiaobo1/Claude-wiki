@@ -1,29 +1,27 @@
 ---
 type: memory
-status: template
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
+status: active
+created: 2026-08-20
+updated: 2026-08-20
 ---
 
 # Project Profile
 
-本页是 ResearchWiki 的项目说明书。新用户 clone 本项目后，先填写本页，再导入论文。
-
-本项目默认只面向论文知识库：原始资料以论文 PDF、论文导出的 Markdown、补充材料、图表附件和论文阅读笔记为主。其他资料类型请先标注为“待确认”。
+本页是 ResearchWiki 的项目说明书，由用户 2026-08-20 提供信息填写。
 
 ## Basic Information
 
-- 使用者：待填写
-- 研究领域：待填写
-- 研究阶段：待填写
-- 主要用途：待填写
-- 目标成果：待填写
+- 使用者：待确认
+- 研究领域：陶瓷-腐蚀
+- 研究阶段：博士
+- 主要用途：博士课题文献综述（用户原话「博士壳体文献综述」，「壳体」具体指向待确认）
+- 目标成果：文献综述
 
 ## Research Scope
 
 ### Included
 
-- 待填写
+- 陶瓷材料腐蚀相关文献（具体材料体系随导入逐步细化）
 
 ### Excluded
 
@@ -31,7 +29,7 @@ updated: YYYY-MM-DD
 
 ### Core Research Questions
 
-- 待填写
+- 暂无
 
 ## Paper Ingestion Priorities
 
@@ -53,28 +51,24 @@ updated: YYYY-MM-DD
 - PDF 默认目录：`raw/papers/`
 - 论文笔记默认目录：`raw/notes/`
 - 图片、表格和补充附件默认目录：`raw/assets/`
-- Zotero 导入模式：指定 collection / 待确认
-- Zotero collection 名称：待填写
+- Zotero 导入模式：指定 collection
+- Zotero collection 名称：田志林（首个导入 collection）
 - Citation key 规则：待确认
-- 是否允许复制 Zotero PDF 到 `raw/papers/`：待确认
-- Zotero 单次导入最大论文数：待确认
+- 是否允许复制 Zotero PDF 到 `raw/papers/`：是
+- Zotero 单次导入最大论文数：3（默认单篇确认制）
 
 ## Output Preferences
 
-- 默认语言：中文 / English / 待填写
-- 术语显示：中文为主 / English terms retained / 待填写
-- 引用风格：APA / IEEE / Chicago / Nature / 待填写
-- 是否需要页码或章节定位：是 / 否 / 待填写
+- 默认语言：中文（2026-08-20 用户确认）
+- 术语显示：英文原文（论文题名、期刊名、专有名词）保留英文，不翻译
+- 引用风格：待确认
+- 是否需要页码或章节定位：待确认
 - 是否优先生成 Obsidian 双链：是
 
 ## Initial Candidate Tags
 
-本节只记录候选标签。确认后再写入 `memory/tag_taxonomy.md`。
-
-- 待填写
+- `ceramics`、`corrosion`：2026-08-20 确认，已写入 `memory/tag_taxonomy.md`。
 
 ## Initial Term Aliases
 
-本节只记录候选术语映射。确认后再写入 `memory/term_aliases.md`。
-
-- 待填写
+- Ceramic Corrosion：2026-08-20 确认，已写入 `memory/term_aliases.md`。

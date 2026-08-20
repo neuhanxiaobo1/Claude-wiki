@@ -49,7 +49,13 @@ updated: YYYY-MM-DD
 
 ## Domain Terms
 
-在这里添加你的领域术语。
+### Ceramic Corrosion
+
+- Aliases: 陶瓷腐蚀、陶瓷材料腐蚀、corrosion of ceramics、ceramic corrosion
+- Recommended page: `[[wiki/topics/Ceramic Corrosion]]`
+- Recommended tag: `corrosion`
+- Note: 用户研究领域主术语（2026-08-20 确认）。
+- Status: active
 
 Example:
 
