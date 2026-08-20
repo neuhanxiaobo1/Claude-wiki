@@ -10,6 +10,10 @@
 
 > 把论文从“收藏夹”变成“可持续生长的研究 Wiki”。
 
+## 项目来源声明 / Attribution
+
+本项目基于 GitHub 开源项目 [ResearchWiki](https://github.com/jiawei601/ResearchWiki) 建立，在此感谢原作者 [jiawei601](https://github.com/jiawei601) 的工作。本项目沿用原项目的整体框架、智能体工作流与 [MIT 许可证](./LICENSE)，并根据个人研究需要做了调整。
+
 ## Table of Contents / 目录
 
 - [What This Project Is / 项目定位](#what-this-project-is--项目定位)
