@@ -28,3 +28,12 @@
 - 更新：`memory/project_profile.md`、`memory/tag_taxonomy.md`、`memory/term_aliases.md`。
 - 发现：52 个论文条目全部无入库记录（无重复）；15 个条目无 PDF 附件需确认；1 个非论文条目（文章汇总）标记待核查；子 collection「专利」未纳入。
 - 后续：用户从候选清单选择编号，按 `agents/pdf_read_agent.md` 单篇入库。
+
+## [2026-08-21] ingest | 重新读取田老师 collection 并更新候选清单
+
+- 输入：用户指示 collection 已更换，重新读取 Zotero「田老师」collection 并更新候选清单。
+- 操作：本会话 Zotero MCP 工具未加载，通过配置的 zotero-mcp HTTP 端点（http://127.0.0.1:23120/mcp）只读调用 get_collections / get_collection_details / get_subcollections / get_collection_items / get_item_details（58 条全量附件核查）；未修改 Zotero 任何数据。
+- 新建：`raw/zotero_imports/田老师/import_plan.md`、`raw/zotero_imports/田老师/manifest.json`。
+- 更新：无（`wiki/papers/` 仍为空，无重复条目）。
+- 发现：collection 由「田志林」更名为「田老师」，路径变为 毕设 > 组内文章 > 博士 > 田老师；顶层条目 53 → 58（新增 5 篇 2026 年论文：SiO2f/SiO2 透波复合材料、Bagasse 基 C/Co 吸波、BN 纳米片、BN 透波复合材料、数据驱动高熵稀土二硅酸盐）；新增 5 篇中 4 篇无 PDF 附件；原编号 1-53 不变，新条目编号 54-58；子 collection「专利」21 条、「陶瓷+腐蚀」与「吸波」为空；旧版「田志林」清单目录按 raw/ 规则保留未动。
+- 后续：用户从新清单选择编号入库；无附件条目需先确认附件。
