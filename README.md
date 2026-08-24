@@ -157,7 +157,7 @@ memory/term_aliases.md
 ### Step 4: Ingest First Paper / 入库第一篇论文
 
 从候选清单中选择一篇论文：
-
+你
 ```text
 请调用 agents/import_zotero.md 和 agents/pdf_read_agent.md，从 Zotero collection「我的研究方向」中入库论文「Example Paper Title」。
 ```
