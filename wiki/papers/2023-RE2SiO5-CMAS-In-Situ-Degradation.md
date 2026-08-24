@@ -6,7 +6,7 @@ authors: Tian Zhilin; Ming Keyu; Zheng Liya; Chen Zhilin; Zhou Fan; Liu Peng; Qi
 venue: Journal of Advanced Ceramics
 status: processed
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-24
 source: llm-for-zotero-mineru/9513/full.md（MinerU 解析缓存）
 zotero_collection: 毕设 > 组内文章 > 博士 > 田老师
 zotero_item_key: TLPXY39S
@@ -55,11 +55,13 @@ tags:
 
 ## One-Sentence Takeaway
 
-- 1500 °C 下 CMAS 与 RE2SiO5 反应的主要产物 Ca2RE8(SiO4)6O2 沿 [001] 优先生长；高温使 CMAS 粘度降至 1300 °C 的 1/4 以下，加速传质与腐蚀反应，使 RE 种类对 CMAS 抗性的影响弱化，大 RE 阳离子陶瓷在 1500 °C 下仍表现出更好的 CMAS 抗性。
+- 这篇论文的关键贡献不是简单证明 RE2SiO5 会被 CMAS 腐蚀，而是把 1500 °C 高温下的 CMAS 反应拆成三个耦合过程：低粘度熔体驱动快速传质与 Ca2RE8(SiO4)6O2 沿 [001] 优先生长，冷却到约 1400 °C 时又因 REO1.5 溶解度下降诱发短晶粒二次析出，同时大 RE 阳离子样品因更易被 CMAS 润湿而发生熔体流失，使 1500 °C 的抗蚀排序不能直接套用 1300 °C 的 RE 半径规律。
 
 ## Abstract Rewritten
 
-- 针对 EBC 表面温度将升至 1500 °C 及以上而高温 CMAS 腐蚀机制缺乏认识的现状，作者制备 7 种 RE2SiO5（RE = Tb, Dy, Ho, Y, Er, Tm, Yb）块体陶瓷，在 1500 °C 下与 33CaO-9MgO-13AlO1.5-45SiO2 CMAS 反应 5/20/50 h，并用新型高温原位观察方法记录反应过程。主要反应产物为六方 Ca2RE8(SiO4)6O2，高温促进其沿 [001] 快速生长形成长六角棱柱晶粒（可达 >400 μm），优先暴露 (100) 面；冷却过程（降至 1400 °C）加速短而水平分布晶粒的析出。升温增加 RE 元素溶解度、降低 CMAS 粘度，从而提高腐蚀反应速率，使 RE2SiO5 与 CMAS 快速相互作用，且受 RE 元素种类影响变小；大 RE 阳离子的 RE2SiO5 在 1500 °C 下 CMAS 抗性更好。
+- 论文围绕第三代 EBC 候选材料 RE2SiO5 在 1500 °C 级 CMAS 环境下的失效机制展开。作者选取 Tb、Dy、Ho、Y、Er、Tm、Yb 七种单硅酸盐，使用 33CaO-9MgO-13AlO1.5-45SiO2 CMAS，在 1500 °C 下进行 5/20/50 h 腐蚀，并结合 XRD、SEM-EDS、超深场显微、高温接触角、FactSage 粘度计算与原位观察。实验确认所有成分的主腐蚀产物均为六方 Ca2RE8(SiO4)6O2；其 (200)/(300) 峰增强和六角棱柱形貌说明晶粒沿 [001] 方向快速生长并优先暴露 (100) 面，残余 CMAS 熔体提供了快速传质通道，长晶粒可超过 400 μm。
+
+- 更重要的是，论文把高温阶段和冷却阶段的产物形成机制区分开来：Er2SiO5 原位实验中，CMAS 约 1300 °C 熔化，1500 °C 保温约 1 h 后 Ca2Er8(SiO4)6O2 缓慢析出并在熔体中继续长大；而冷却至约 1400 °C 时，大量 50–100 μm 的短水平晶粒从残余 CMAS 中快速析出，说明冷却过程会因 REO1.5 饱和度变化而额外生成腐蚀产物。与 1300 °C 原位对照相比，1500 °C 下 CMAS 粘度降至 1300 °C 的 1/4 以下，传质与反应显著加快，RE 种类对腐蚀速率的控制被削弱。因此，该文对综述最有价值的结论是：1500 °C 级服役不能只按 1300 °C 的形成焓-RE 半径规律判断抗蚀性，还必须同时考虑熔体粘度、润湿流失、冷却析出和实际热循环。
 
 ## Research Problem
 

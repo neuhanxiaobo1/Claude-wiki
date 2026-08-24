@@ -50,9 +50,9 @@ tags:
   - Related papers: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"、"[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"、"[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
   - Status: open（1300 °C 三体系一致；1500 °C 仅硅酸盐有数据且 RE 效应弱化）
 
-- Question: 1500 °C 级高温下 CMAS 粘度剧降导致的「RE 种类影响弱化」是否在钽酸盐、锆酸盐体系中同样成立？
+- Question: 1500 °C 级高温下，低粘度 CMAS 导致的快速传质、RE 种类影响弱化、润湿流失与冷却析出是否在钽酸盐、锆酸盐体系中同样成立？
   - Related papers: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
-  - Status: open（仅 #47 覆盖 1500 °C；#46、#18 均为 1300 °C）
+  - Status: open（仅 #47 覆盖 1500 °C 且只限 RE2SiO5；#46、#18 均为 1300 °C，尚不能判断高温规律是否跨体系）
 
 - Question: 结构类型（有序烧绿石 vs 无序缺陷萤石）与 RE 平均半径对 CMAS 抗性的贡献如何解耦？
   - Related papers: "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
@@ -99,7 +99,7 @@ tags:
   - Supporting claims: "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"（#46 Key Claims 1–3、#18 Key Claims 3–4、#47 1300 °C 对照数据）
   - Evidence strength: strong（三篇独立证据链：DFT + EPMA + 渗透深度/腐蚀层厚度）
 
-- Consensus: 1500 °C 时 CMAS 粘度剧降（1300 °C 的 1/4 以下），传质与反应加速，RE 种类对抗蚀性的影响弱化。
+- Consensus: 1500 °C 时 CMAS 粘度剧降（1300 °C 的 1/4 以下），传质与反应加速，RE 种类对抗蚀性的影响弱化；但 #47 同时显示大 RE 阳离子样品更易被 CMAS 润湿并发生熔体流失，冷却阶段还会诱发短 Ca2RE8(SiO4)6O2 晶粒二次析出，因此高温抗蚀排序不能简单外推自 1300 °C 的形成焓-半径规律。
   - Supporting claims: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"（#47 Key Claims 3–4）
   - Evidence strength: medium（仅单篇、单体系覆盖 1500 °C，待钽酸盐/锆酸盐高温数据交叉验证）
 

@@ -91,3 +91,12 @@
 - 更新：`.obsidian/graph.json`（search: path:wiki/）、`memory/error_log.md`（合并修正规则）。
 - 发现：上一轮 hideUnresolved 只消除悬挂幻影节点；index/inbox/README/log/AGENTS 等根目录系统页是真实存在的页面，通过 index.md Quick Links 显示为节点——这才是用户所指「文件夹链接」；「排除目录」方案本身有缺陷（排除不彻底 + 制造悬挂链接），图谱路径过滤才是正解。
 - 后续：用户在图谱面板顶部筛选框确认 `path:wiki/` 生效（Obsidian 运行中可能覆盖配置文件，需在 UI 中输入一次）；如需 synthesis/ 也进图谱，改为 `path:wiki/ OR path:synthesis/`；userIgnoreFilters 是否恢复由用户决定。
+
+## [2026-08-24] update | 当前模型重读三篇 CMAS 论文并替换入库总结
+
+- 输入：用户指出上一轮总结不全、结论不够深入，要求基于已入库三篇论文在当前模型下重新读取并替换入库总结。
+- 操作：重新读取 MinerU 缓存 `llm-for-zotero-mineru/9513/full.md`、`10100/full.md`、`10087/full.md` 的摘要、引言、实验、结果、讨论与结论关键段落；替换三篇论文页的 `One-Sentence Takeaway` 与 `Abstract Rewritten`；同步更新 topic、literature-map、core-argument-map 和 index 的主线表述。
+- 新建：无。
+- 更新：`wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation.md`、`wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening.md`、`wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput.md`、`wiki/topics/Ceramic Corrosion.md`、`synthesis/literature-map.md`、`synthesis/core-argument-map.md`、`index.md`、`log.md`。
+- 发现：#47 的高温结论应表述为低粘度传质加速 + RE 效应弱化 + 润湿流失 + 冷却二次析出的耦合，不应简化为单一“半径规律反转”；#46 的核心价值在于层叠法统一实验条件并用 TEM/EPMA 澄清 RETaO4 腐蚀产物和晶界腐蚀普遍性；#18 的核心价值在于把高熵锆酸盐设计拆成热导、TEC 与 CMAS 抗性的多参数框架。
+- 后续：下一步宜激活 `synthesis/research-positioning.md` 和 `synthesis/review-outline.md`，或继续入库 CMAS 优先论文以验证 1500 °C 普适性与结构-半径解耦问题。

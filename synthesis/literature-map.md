@@ -40,7 +40,7 @@ tags:
 | Research problem | Related papers | Methods | Solved parts | Unresolved parts | Evidence strength |
 |---|---|---|---|---|---|
 | 腐蚀产物形成焓-RE 半径关联是否普适（1300 °C） | #46、#18、#47（1300 °C 对照） | DFT 形成焓、渗透深度/腐蚀层厚度定量、润湿性 | 1300 °C 三体系一致：小半径抗蚀更好 | 1500 °C 规律弱化/反转；X1-RE2SiO5 反向报道待核查 | strong |
-| 1500 °C 高温下 RE 效应是否弱化（普适性） | #47（仅单硅酸盐） | 原位观察、FactSage 粘度 | RE2SiO5 体系证实弱化+方向反转 | 钽酸盐/锆酸盐无 1500 °C 数据 | medium |
+| 1500 °C 高温下温度效应是否跨体系普适 | #47（仅单硅酸盐） | 原位观察、FactSage 粘度、接触角/润湿观察 | RE2SiO5 体系证实低粘度促进传质、RE 效应弱化；同时观察到大 RE 样品润湿流失与冷却二次析出 | 钽酸盐/锆酸盐无 1500 °C 数据；高温排序受粘度、润湿、流失、冷却过程共同影响 | medium |
 | 结构类型（烧绿石/缺陷萤石）与 RE 半径对抗蚀性的解耦 | #18 | 高通量 19 成分、Rietveld、腐蚀层测厚 | 缺陷萤石+小半径组合抗蚀最佳 | 二者贡献未解耦，双重机制相对权重未知 | strong |
 | 冷却析出产物对涂层热循环完整性影响 | #47 | 原位观察（Movie S2） | 冷却析出机制已揭示 | 对涂层剥落/应力的影响未评估 | strong |
 | 高通量方法跨体系推广 | #46、#18、#47 | 层叠法、并行制备、原位观察 | 各方法单体系验证有效 | 三方法未联用、未跨体系 | strong |
@@ -61,9 +61,9 @@ tags:
   - Source papers: 三篇已入库论文
   - Evidence strength: strong（1300 °C）／待扩展（1500 °C）
 
-- Claim: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"（1500 °C 粘度剧降）
+- Claim: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"（1500 °C 粘度剧降与 RE 效应弱化）
   - Supports: #47 主实验
-  - Challenges: 无直接反驳；仅单体系覆盖
+  - Challenges: 无直接反驳；但 #47 还显示润湿流失和冷却析出会改变高温腐蚀表观结果，仅单体系覆盖
   - Source papers: #47
   - Evidence strength: medium
 

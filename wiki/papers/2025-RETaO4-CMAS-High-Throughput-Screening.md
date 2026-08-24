@@ -6,7 +6,7 @@ authors: Tian Zhilin; Chen Zhilin; Wen Shuping; Zhao Wenxia; Zheng Liya; Li Bin
 venue: Advanced Science
 status: processed
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-24
 source: llm-for-zotero-mineru/10100/full.md（MinerU 解析缓存）
 zotero_collection: 毕设 > 组内文章 > 博士 > 田老师
 zotero_item_key: 88RPHLC9
@@ -54,11 +54,13 @@ tags:
 
 ## One-Sentence Takeaway
 
-- 用「层叠法」高通量手段在单个样品上统一条件比较 8 种 RETaO4 的 CMAS 腐蚀行为：主腐蚀产物为 (Ca2-xREx)(Ta2-y-zMgyAlz)O7 固溶体（+少量磷灰石），CMAS 渗透深度随 RE³⁺ 半径增大而增加，小半径 RE（Er、Y、Ho）抗蚀最佳——形成焓计算与润湿性实验双重证据支持。
+- 这篇论文的核心价值在于用层叠样品把 8 种 RETaO4 放进同一次 CMAS 腐蚀实验中比较，从而把“RE 半径如何影响钽酸盐抗蚀性”和“RETaO4 腐蚀产物到底是什么”两个问题一起压实：主产物是 (Ca2-xREx)(Ta2-y-zMgyAlz)O7 固溶体并伴少量 Ca2RE8(SiO4)6O2，且晶界腐蚀普遍存在，最终小半径 RE（Er/Y/Ho）因产物形成更不利、润湿性更差而表现出更浅的 CMAS 渗透。
 
 ## Abstract Rewritten
 
-- 针对 RETaO4 作为下一代 TBC 候选但 RE 种类对 CMAS 腐蚀行为的影响不明的问题，作者提出基于层叠构型的高通量方法：将 8 种 RETaO4（RE = Nd, Sm, Eu, Gd, Dy, Ho, Y, Er）逐层压制烧结成单一层叠块体，两端附加不涂 CMAS 的 SmTaO4/YTaO4 层作渗透深度基准，在 1300 °C 下统一条件腐蚀 25–100 h。通过 TEM/EPMA 精确表征，确定主腐蚀产物为 (Ca2-xREx)(Ta2-y-zMgyAlz)O7 固溶体，另有少量 Ca2RE8(SiO4)6O2 磷灰石；两者同时出现在反应层与晶界。渗透深度随 RE 离子半径增大而增加（100 h 时 NdTaO4 196.4 μm vs ErTaO4 89.4 μm）；第一性原理计算显示大半径 RE 的腐蚀产物形成焓更负（更易生成），高温润湿性实验亦证实小半径 RE 的 RETaO4 抗蚀更好。该方法为 CMAS 抗性 TBC 材料的快速筛选提供了高效途径。
+- 论文针对 RETaO4 作为下一代 TBC 材料时面临的两个瓶颈：一是 RE 种类众多、传统单样品实验难以在一致条件下比较；二是 YTaO4 等钽酸盐的 CMAS 腐蚀产物在既有文献中存在 Ca2Ta2O7、磷灰石和复杂固溶体等互相冲突的解释。作者提出层叠法高通量设计，将 Nd、Sm、Eu、Gd、Dy、Ho、Y、Er 八种 RETaO4 逐层压制为同一块体，两端设置未涂 CMAS 的 SmTaO4/YTaO4 作为渗透深度基准，在 1300 °C 下进行 25/50/75/100 h 统一腐蚀。该设计的关键优势是每个成分承受同一炉次、同一 CMAS 配方和同一热历史，因而更适合提取 RE 半径效应。
+
+- 结果表明，CMAS 渗透深度随 RE3+ 半径增大而增加：50 h 时从 ErTaO4 的 58.3±1.9 μm 增至 NdTaO4 的 124.1±11.3 μm；100 h 时 ErTaO4 仍仅 89.4±9.9 μm，而 NdTaO4 达 196.4±5.8 μm，局部大孔缺陷处更深。TEM-SAED 与 EPMA-WDS 共同证明，反应层和晶界中的主产物不是简单 Ca2Ta2O7，而是面心立方 (Ca2-xREx)(Ta2-y-zMgyAlz)O7 固溶体，少量 Ca2RE8(SiO4)6O2 磷灰石作为次要产物存在；晶界腐蚀并不限于 YTaO4，而是所有 RETaO4 中都能观察到。DFT 计算进一步显示固溶体形成焓随 RE 半径增大而更放热，高温润湿实验也显示大半径端更易被 CMAS 完全润湿并反应，小半径端残余 CMAS 较多、接触角更大。因此，这篇论文可作为综述中“高通量筛选 + 精确产物鉴定 + RE 半径热力学解释”的核心证据，但其温度只覆盖 1300 °C，不能直接回答 1500 °C 服役下钽酸盐规律是否保持。
 
 ## Research Problem
 
