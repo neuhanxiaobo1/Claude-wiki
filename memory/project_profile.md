@@ -52,7 +52,7 @@ updated: 2026-08-20
 - 论文笔记默认目录：`raw/notes/`
 - 图片、表格和补充附件默认目录：`raw/assets/`
 - Zotero 导入模式：指定 collection
-- Zotero collection 名称：田志林（首个导入 collection）
+- Zotero collection 名称：田老师（首个导入 collection，2026-08-21 由「田志林」更名，路径 毕设 > 组内文章 > 博士 > 田老师）
 - Citation key 规则：待确认
 - 是否允许复制 Zotero PDF 到 `raw/papers/`：是
 - Zotero 单次导入最大论文数：3（默认单篇确认制）

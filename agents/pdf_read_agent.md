@@ -84,6 +84,28 @@
 - tags 必须遵守 `memory/tag_taxonomy.md`。
 - 术语和页面命名必须遵守 `memory/term_aliases.md`。
 
+## MinerU Markdown 优先读取（2026-08-23 起）
+
+用户通过 Zotero「LLM for Zotero」插件的 MinerU 功能将 PDF 解析为高质量 markdown，缓存位于：
+
+```text
+D:\shuju\zotero1\llm-for-zotero-mineru\<itemID>\
+├── full.md           论文全文（含公式 LaTeX、图表占位）
+├── manifest.json     章节/图表/表格索引（sections、allFigures、allTables）
+├── content_list.json
+├── images/           提取图片
+└── _llm_source.json  来源映射（attachmentKey、parentItemKey、sourceFilename）
+```
+
+入库前按以下顺序检查 MinerU 缓存：
+
+1. 扫描 `llm-for-zotero-mineru/` 下各目录的 `_llm_source.json`，用 `parentItemKey` 匹配目标论文的 Zotero item key，得到对应 `<itemID>`。
+2. 命中缓存 → 直接读 `full.md`（长文先读 `manifest.json` 章节索引，按需分段读取）；PDF 只作补充核对。
+3. 未命中 → 回退到 Zotero MCP `get_content` 读 PDF 全文；若 Zotero 中无 PDF 附件，标注“无附件，待确认”。
+4. `source` 字段记录 MinerU 缓存路径（如 `llm-for-zotero-mineru/9609/full.md`）。
+
+注意：MinerU 输出可能有 OCR 误差（尤其公式与上下标），关键数据与 Zotero 元数据或原 PDF 抽查核对；不确定处按规则标注。
+
 ## Zotero 注意事项
 
 - 不移动、不删除、不重命名 Zotero 原文件。

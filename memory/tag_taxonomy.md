@@ -56,6 +56,11 @@ updated: YYYY-MM-DD
 - `ceramics`
 - `corrosion`
 
+2026-08-23 入库 CMAS/EBC 方向论文（#47、#46、#18），新增：
+
+- `cmas`
+- `ebc`
+
 Example:
 
 - `example-domain`

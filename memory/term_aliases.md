@@ -57,6 +57,22 @@ updated: YYYY-MM-DD
 - Note: 用户研究领域主术语（2026-08-20 确认）。
 - Status: active
 
+### CMAS
+
+- Aliases: 钙镁铝硅酸盐、钙-镁-铝-硅酸盐、calcium-magnesium-aluminosilicate、CMAS melts
+- Recommended page: `[[wiki/topics/Ceramic Corrosion]]`
+- Recommended tag: `cmas`
+- Note: EBC/TBC 领域主要腐蚀介质（2026-08-23 入库时确认）。
+- Status: active
+
+### EBC
+
+- Aliases: 环境障涂层、environmental barrier coating、环境屏障涂层
+- Recommended page: `[[wiki/topics/Ceramic Corrosion]]`
+- Recommended tag: `ebc`
+- Note: 稀土硅酸盐第三代 EBC 是用户研究方向核心（2026-08-23 入库时确认）。
+- Status: active
+
 Example:
 
 ### Example Method

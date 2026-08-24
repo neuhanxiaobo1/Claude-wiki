@@ -29,6 +29,33 @@
 - 发现：52 个论文条目全部无入库记录（无重复）；15 个条目无 PDF 附件需确认；1 个非论文条目（文章汇总）标记待核查；子 collection「专利」未纳入。
 - 后续：用户从候选清单选择编号，按 `agents/pdf_read_agent.md` 单篇入库。
 
+## [2026-08-23] ingest | 系统补全 + 入库 #1：Si3N4 高温熔盐-水氧腐蚀（MinerU 流程首篇）
+
+- 输入：田老师 import plan #1（Zotero item MUIK76GL，DOI: 10.15541/jim20230391）；MinerU 解析缓存 `llm-for-zotero-mineru/9609/full.md`。
+- 操作：补全系统漏洞（创建 `wiki/` 九个子目录结构）；更新 `agents/pdf_read_agent.md` 加入 MinerU full.md 优先读取规则；按新流程读 MinerU markdown 全文入库 #1。
+- 新建：`wiki/papers/2024-Si3N4-Molten-Salt-Corrosion.md`、`wiki/topics/Ceramic Corrosion.md`。
+- 更新：`index.md`（Papers/Topics/Maintenance）、`agents/pdf_read_agent.md`、`raw/zotero_imports/田老师/import_plan.md`（#1 标记已入库 + MinerU 缓存映射附录）。
+- 发现：MinerU 缓存位于 `D:\shuju\zotero1\llm-for-zotero-mineru\<itemID>\`（LLM for Zotero 插件，2026-08-23 解析）；田老师 58 篇中 40 篇已有 full.md，17 篇 Zotero 无 PDF 附件，1 篇（#45）有附件但暂无缓存（疑似队列中）。
+- 后续：继续按编号入库；#45 缓存生成后核对；积累数篇后运行 `agents/lint_agent.md`。
+
+## [2026-08-23] ingest | 替换入库：3 篇 CMAS 腐蚀论文（#47、#46、#18）
+
+- 输入：用户指示 #1（Si3N4 熔盐-水氧腐蚀）参考意义较低，替换为 3 篇 CMAS 腐蚀论文入库：RE2SiO5 1500 °C 原位降解（#47）、RETaO4 层叠法高通量筛选（#46）、高熵稀土锆酸盐高通量研究（#18）。
+- 操作：按 MinerU 优先流程读缓存（itemID 9513/10100/10087 的 full.md）入库三篇；将 Si3N4 论文页归档至 `raw/notes/`（wiki 中移除）；重写主题页 Ceramic Corrosion（以 CMAS 腐蚀为主线，3 条共识/2 条争议/4 条 gap）；标签体系新增 `cmas`、`ebc`；术语表新增 CMAS、EBC 条目。
+- 新建：`wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation.md`、`wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening.md`、`wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput.md`；归档 `raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md`。
+- 更新：`index.md`、`wiki/topics/Ceramic Corrosion.md`、`memory/tag_taxonomy.md`、`memory/term_aliases.md`、`raw/zotero_imports/田老师/import_plan.md`（#1 标记替换移除；#47/#46/#18 标记已入库）。
+- 发现：三篇论文同属田志林组 CMAS 腐蚀系列工作，主线一致——腐蚀产物形成焓随 RE 半径增大更放热（1300 °C 下小半径抗蚀更好）；#47 揭示 1500 °C 时 CMAS 粘度剧降使 RE 效应弱化；#46 澄清钽酸盐腐蚀产物之争；#18 建立高熵锆酸盐成分-结构-性能关联。三篇 MinerU 缓存均命中，OCR 化学式上下标需引用前核对。
+- 后续：继续按编号入库；清理 `tmp_zcopy.sqlite` 遗留临时文件已完成；积累数篇后运行 `agents/lint_agent.md`。
+
+## [2026-08-23] lint + synthesis | 首轮健康检查与知识沉淀（claim/gap 页面化）
+
+- 输入：3 篇已入库 CMAS 论文 + 主题页 Ceramic Corrosion（3 共识/2 争议/4 gap）；lint_agent.md、claim/gap 模板。
+- 操作：运行 lint 健康检查（标签/术语/双链/孤页/证据标注，无严重问题）；将主题页共识与澄清争议沉淀为 4 个 claim 页；将主题页 4 条 gap 形式化为 4 个 gap 页；激活 synthesis/literature-map.md、open-questions.md、core-argument-map.md（原模板状态）；回填 3 篇论文页与主题页的 claims/gaps frontmatter 字段及 Linked Pages；更新 import_plan.md 的 #45 MinerU 缓存映射（itemID 10110 正文 + 9500/9501 补充，缓存已生成）。
+- 新建：`wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend.md`、`wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening.md`、`wiki/claims/RETaO4-CMAS-Corrosion-Product-Clarification.md`、`wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism.md`、`wiki/gaps/CMAS-Corrosion-Data-1500C.md`、`wiki/gaps/Structure-Radius-Decoupling.md`、`wiki/gaps/Cooling-Precipitation-Coating-Integrity.md`、`wiki/gaps/High-Throughput-Screening-Transfer.md`。
+- 更新：`index.md`（Claims/Gaps 分区 + Maintenance）、`synthesis/literature-map.md`、`synthesis/open-questions.md`、`synthesis/core-argument-map.md`、3 篇论文页、`wiki/topics/Ceramic Corrosion.md`、`raw/zotero_imports/田老师/import_plan.md`。
+- 发现：#45（ZSR932E8，Si3N4 多孔）MinerU 缓存已生成（此前疑似解析队列中）；论文页另有 6 条小 gap 暂留原位未建页（待积累后升级，已列入 open-questions 的 Not Yet True Gaps）；用户决定暂时暂停入库。
+- 后续：待用户决定是否继续入库；积累 ≥8–10 篇后运行 synthesis_agent/review_agent 生成综述大纲。
+
 ## [2026-08-21] ingest | 重新读取田老师 collection 并更新候选清单
 
 - 输入：用户指示 collection 已更换，重新读取 Zotero「田老师」collection 并更新候选清单。
