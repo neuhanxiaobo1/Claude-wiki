@@ -64,3 +64,30 @@
 - 更新：无（`wiki/papers/` 仍为空，无重复条目）。
 - 发现：collection 由「田志林」更名为「田老师」，路径变为 毕设 > 组内文章 > 博士 > 田老师；顶层条目 53 → 58（新增 5 篇 2026 年论文：SiO2f/SiO2 透波复合材料、Bagasse 基 C/Co 吸波、BN 纳米片、BN 透波复合材料、数据驱动高熵稀土二硅酸盐）；新增 5 篇中 4 篇无 PDF 附件；原编号 1-53 不变，新条目编号 54-58；子 collection「专利」21 条、「陶瓷+腐蚀」与「吸波」为空；旧版「田志林」清单目录按 raw/ 规则保留未动。
 - 后续：用户从新清单选择编号入库；无附件条目需先确认附件。
+
+## [2026-08-24] error-fix | git 推送失败排查 + 代理启动器
+
+- 输入：用户报告 git 无法正常上传；`vscode.git.Git.log`。
+- 操作：定位为直连 github.com 不稳定（19:49–19:59 四次 `Connection was reset` / `Could not connect to server`）；确认本机代理 127.0.0.1:7897 可用（3.5s vs 直连 10.7s 且时断时续）但 git 未配置代理；命令行 push 成功补齐本地领先的 3 个提交（`cb263cd..eb06043`），main 与 origin 已同步；按用户要求新建 `git-proxy-fix.bat` 启动器（GBK+CRLF 编码，双击即设置 github.com 代理并测试连通，`off` 参数关闭）。
+- 新建：`git-proxy-fix.bat`。
+- 更新：git 全局配置 `http.https://github.com.proxy = http://127.0.0.1:7897`（已生效）。
+- 发现：Git Bash 终端（UTF-8）下看 GBK 批处理输出为乱码属正常，双击 cmd（CP936）显示正常；.bat 必须 GBK+CRLF，UTF-8/LF 会导致 cmd 解析错乱。
+- 后续：再遇推送失败时双击 `git-proxy-fix.bat`；代理端口变更需改脚本首行 PROXY 变量。
+
+## [2026-08-24] error-fix | Obsidian 图谱「文件夹链接」问题根治
+
+- 输入：用户反馈 Obsidian 关系图谱仍出现文件夹样式的链接节点。
+- 操作：排查 `.obsidian/app.json`（userIgnoreFilters 排除 memory/、synthesis/、agents/、templates/、raw/、docs/ 等）与 graph.json；用脚本验证全部非排除文件的 wikilink 解析情况；将 graph.json 的 `hideUnresolved` 改为 true（图谱过滤器「只显示已有文件」）。
+- 新建：无。
+- 更新：`.obsidian/graph.json`（hideUnresolved: true）。
+- 发现：根因是 index.md 中 26 个指向被排除规则层文件（memory/synthesis/agents/templates）的 wikilink 在图中成为悬挂链接（dangling）——被排除文件不进入图谱索引；AGENTS.md 第 6/7 节示例链接均在代码块内，Obsidian 不解析，非污染源；showOrphans 已由用户改为 false。
+- 后续：重启 Obsidian 或重开图谱面板验证；index.md 规则层导航链接保留不动；未来新增断链将被 hideUnresolved 隐藏，需靠 lint_agent 定期兜底检查。
+
+## [2026-08-24] error-fix | 图谱问题二次修复：路径过滤 scope 到 wiki/
+
+- 输入：用户反馈重启 Obsidian 后 index/inbox/README 等系统页的链接仍显示在关系图谱中。
+- 操作：复查 `.obsidian/` 配置与 git diff；发现 app.json 的 userIgnoreFilters 已被清空为 null（规则层目录全部重新进入图谱）；将 graph.json 的 `search` 过滤条件设为 `path:wiki/`（图谱只显示 wiki/ 知识层）。
+- 新建：无。
+- 更新：`.obsidian/graph.json`（search: path:wiki/）、`memory/error_log.md`（合并修正规则）。
+- 发现：上一轮 hideUnresolved 只消除悬挂幻影节点；index/inbox/README/log/AGENTS 等根目录系统页是真实存在的页面，通过 index.md Quick Links 显示为节点——这才是用户所指「文件夹链接」；「排除目录」方案本身有缺陷（排除不彻底 + 制造悬挂链接），图谱路径过滤才是正解。
+- 后续：用户在图谱面板顶部筛选框确认 `path:wiki/` 生效（Obsidian 运行中可能覆盖配置文件，需在 UI 中输入一次）；如需 synthesis/ 也进图谱，改为 `path:wiki/ OR path:synthesis/`；userIgnoreFilters 是否恢复由用户决定。

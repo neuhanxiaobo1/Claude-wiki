@@ -1,19 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": false,
-  "userIgnoreFilters": [
-    "agents/",
-    "docs/",
-    "memory/",
-    "raw/",
-    "synthesis/",
-    "templates/",
-    "raw/assets/",
-    "raw/notes/",
-    "raw/papers/",
-    "raw/zotero_imports/",
-    "wiki/authors/"
-  ],
+  "userIgnoreFilters": null,
   "useMarkdownLinks": false,
   "newLinkFormat": "shortest"
 }

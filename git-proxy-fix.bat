@@ -1,28 +1,27 @@
 @echo off
-chcp 65001 >nul
-title Git ä»£ç†ä¿®å¤å¯åŠ¨å™¨
+title Git ´úÀíĞŞ¸´Æô¶¯Æ÷
 
-rem æœ¬åœ°ä»£ç†åœ°å€ï¼ˆå¦‚ç«¯å£å˜äº†æ”¹è¿™é‡Œï¼‰
+rem ±¾µØ´úÀíµØÖ·£¨Èç¶Ë¿Ú±äÁË¸ÄÕâÀï£©
 set "PROXY=http://127.0.0.1:7897"
 
 if /i "%~1"=="off" goto disable
 
 git config --global http.https://github.com.proxy %PROXY%
 echo.
-echo  [OK] å·²è®¾ç½® git èµ°æœ¬åœ°ä»£ç†: %PROXY%
-echo  æ­£åœ¨æµ‹è¯•è¿æ¥ github.com ...
+echo  [OK] ÒÑÉèÖÃ git ×ß±¾µØ´úÀí: %PROXY%
+echo  ÕıÔÚ²âÊÔÁ¬½Ó github.com ...
 git ls-remote https://github.com/neuhanxiaobo1/Claude-wiki.git HEAD >nul 2>&1
 if %errorlevel%==0 (
-    echo  [OK] è¿æ¥æ­£å¸¸ï¼Œç°åœ¨å¯ä»¥æ¨é€äº†ã€‚
+    echo  [OK] Á¬½ÓÕı³££¬ÏÖÔÚ¿ÉÒÔÍÆËÍÁË¡£
 ) else (
-    echo  [FAIL] ä»æ— æ³•è¿æ¥ github.comã€‚è¯·ç¡®è®¤ä»£ç†è½¯ä»¶å·²å¼€å¯ï¼ˆç«¯å£ 7897ï¼‰ã€‚
+    echo  [FAIL] ÈÔÎŞ·¨Á¬½Ó github.com¡£ÇëÈ·ÈÏ´úÀíÈí¼şÒÑ¿ªÆô£¨¶Ë¿Ú 7897£©¡£
 )
 goto end
 
 :disable
 git config --global --unset http.https://github.com.proxy >nul 2>&1
 echo.
-echo  [OK] å·²å…³é—­ github.com ä»£ç†ï¼Œæ¢å¤ç›´è¿ã€‚
+echo  [OK] ÒÑ¹Ø±Õ github.com ´úÀí£¬»Ö¸´Ö±Á¬¡£
 goto end
 
 :end

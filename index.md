@@ -103,5 +103,5 @@
 
 ## Maintenance
 
-- 当前状态：已导入 3 篇论文（2026-08-23，均为 CMAS 腐蚀方向），MinerU markdown 优先入库流程已启用；2026-08-23 完成首轮 lint 健康检查（无严重问题），并沉淀 4 个 claim 页、4 个 gap 页，激活 literature-map / open-questions / core-argument-map。
+- 当前状态：已导入 3 篇论文（2026-08-23，均为 CMAS 腐蚀方向），MinerU markdown 优先入库流程已启用；2026-08-23 完成首轮 lint 健康检查（无严重问题），并沉淀 4 个 claim 页、4 个 gap 页，激活 literature-map / open-questions / core-argument-map；2026-08-24 修复 Obsidian 图谱悬挂链接（graph.json hideUnresolved: true，图谱只显示已有文件）。
 - 下一步：继续按 `raw/zotero_imports/田老师/import_plan.md` 编号入库（CMAS 优先 #36/#23/#48/#52）；每批入库后运行 `agents/lint_agent.md`。
