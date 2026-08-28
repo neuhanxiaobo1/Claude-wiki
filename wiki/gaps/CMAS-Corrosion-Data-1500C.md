@@ -2,19 +2,22 @@
 type: gap
 status: open
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-27
 priority: high
 evidence_strength: strong
 papers:
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
   - "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
+  - "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
+  - "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
 methods:
 claims:
   - "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"
   - "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"
+  - "[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]"
 tags:
   - gap
   - cmas
@@ -27,11 +30,11 @@ tags:
 
 ## Gap Description
 
-- 1500 °C 下 CMAS 粘度剧降导致「RE 种类影响弱化」的现象目前仅在 RE2SiO5 体系得到证实（#47）；RETaO4（#46）与高熵锆酸盐（#18）的 CMAS 腐蚀数据均为 1300 °C 单一温度，无法验证该规律的普适性。
+- 1500 °C 下 CMAS 粘度剧降导致「RE 种类影响弱化」的现象目前在 RE2SiO5 体系已获两篇论文证实（#47 七体系 + #16 Lu2SiO5 单体系深度机制），且 #16 进一步揭示 1500 °C 相分解诱导晶间渗透的新失效机制；但 RETaO4（#46）、高熵锆酸盐（#18）、高熵 RE2SiO5（#48）的 CMAS 腐蚀数据均为 1300 °C 单一温度，无法验证「高温 RE 效应弱化」与「相分解」的跨体系普适性。
 
 ## Why It Matters
 
-- 第三代 EBC/TBC 的服役温度正推向 1500 °C（HfO2–Si 粘结层使 EBC 使用温度升至 1482 °C 以上）；若「高温 RE 效应弱化」普适成立，则成分设计准则需按服役温度分级，1300 °C 下的小半径优选策略可能在高温度失效。
+- 第三代 EBC/TBC 的服役温度正推向 1500 °C（HfO2–Si 粘结层使 EBC 使用温度升至 1482 °C 以上）；若「高温 RE 效应弱化」或「相分解诱导渗透」普适成立，则成分设计准则需按服役温度分级，1300 °C 下的小半径优选策略可能在高温失效。
 
 ## Supporting Evidence
 
@@ -48,6 +51,16 @@ tags:
 - Paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - Evidence: 该论文 1500 °C 数据（7 种 RE2SiO5）证实规律弱化/反转，但仅覆盖单硅酸盐一体系。
   - Source section/page/table/figure: 图 18(a)
+  - Evidence strength: strong
+
+- Paper: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
+  - Evidence: 1500 °C 下 Lu2SiO5 渗透 219 μm（1300 °C 的 >4 倍）且发生相分解——RE2SiO5 体系 1500 °C 数据已补强至「双论文 + 机制层面」，但该体系内其他成分的分解行为仍未知。
+  - Source section/page/table/figure: 图 9、图 6/7
+  - Evidence strength: strong
+
+- Paper: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
+  - Evidence: 高熵 RE2SiO5 仅 1300 °C/20 h 单条件腐蚀，无 1500 °C 数据；高熵样品的高温相稳定性（结合 #16 的分解发现）未知。
+  - Source section/page/table/figure: §2 实验设计
   - Evidence strength: strong
 
 ## Cross-Page Basis
@@ -69,8 +82,8 @@ tags:
 
 ## What Remains Unsolved
 
-- Unsolved part: 1500 °C 下钽酸盐、锆酸盐的腐蚀产物类型、渗透动力学、RE 半径依赖方向。
-- Why unresolved: 现有高通量工作（#46、#18）均以 1300 °C 为腐蚀温度；高温高通量腐蚀装置与方法尚缺。
+- Unsolved part: 1500 °C 下钽酸盐、锆酸盐、高熵硅酸盐的腐蚀产物类型、渗透动力学、RE 半径依赖方向与相分解行为。
+- Why unresolved: 现有高通量工作（#46、#18）与高熵设计工作（#48）均以 1300 °C 为腐蚀温度；高温高通量腐蚀装置与方法尚缺。
 
 ## Possible Research Questions
 
@@ -92,10 +105,10 @@ tags:
 
 ## Related Pages
 
-- Papers: 三篇已入库 CMAS 论文
+- Papers: 五篇已入库 CMAS 论文（#47、#46、#18、#16、#48）
 - Topics: "[[wiki/topics/Ceramic Corrosion]]"
 - Methods:
-- Claims: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"
+- Claims: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"、"[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]"
 - Reviews:
 
 ## Uncertainty

@@ -73,6 +73,14 @@ updated: YYYY-MM-DD
 - Note: 稀土硅酸盐第三代 EBC 是用户研究方向核心（2026-08-23 入库时确认）。
 - Status: active
 
+### TBC
+
+- Aliases: 热障涂层、thermal barrier coating、热障涂层材料
+- Recommended page: `[[wiki/topics/Thermal Barrier Coatings]]`
+- Recommended tag: `tbc`
+- Note: 与 CMAS 腐蚀按失效源拆分：CMAS 外来侵蚀归 Ceramic Corrosion，TGO 内生界面反应归本主题（2026-08-27 入库 #29 时确认）。
+- Status: active
+
 Example:
 
 ### Example Method

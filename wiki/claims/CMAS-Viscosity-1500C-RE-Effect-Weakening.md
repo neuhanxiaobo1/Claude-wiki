@@ -2,15 +2,16 @@
 type: claim
 status: active
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-27
 source_papers:
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
+  - "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
 methods:
 datasets:
 metrics:
-confidence: medium（单篇、单体系覆盖）
+confidence: medium-high（双论文，但仅 RE2SiO5 单体系覆盖）
 tags:
   - claim
   - cmas
@@ -44,21 +45,26 @@ tags:
   - Evidence: 7 种 RE2SiO5 × 5/20/50 h 系统数据 + 原位观察 + FactSage 粘度。
   - Notes: 原位观察（Er2SiO5）显示 1500 °C 保温约 1 h 产物才缓慢析出，1300 °C 对照 2.5 h 无产物——反应速率差异的直接证据。
 
+- Paper: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
+  - Evidence: Lu2SiO5 渗透深度 1300 °C/50 h 约 50 μm → 1500 °C/50 h 219 μm（>4 倍）；原位观察 1500 °C 保温无可见反应、冷却起始大量析出 vs 1300 °C 保温降温全程无产物。
+  - Notes: 为「1500 °C 下 RE 效应弱化/反转」提供第二篇独立证据（1300 °C 最优的 Lu 成分在 1500 °C 失效）；同时揭示相分解诱导晶间渗透的附加机制（见 "[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]"）。
+
 ## Challenging or Limiting Evidence
 
 - 无直接反驳证据；主要限制是覆盖范围：
-  - 仅 RE2SiO5 单体系有 1500 °C 数据；钽酸盐、锆酸盐均为 1300 °C 数据（"[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"）。
+  - 1500 °C 数据仅 RE2SiO5 单体系（两篇论文）；钽酸盐、锆酸盐均为 1300 °C 数据（"[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"）。
   - 粘度来自 FactSage 计算而非实测；REO1.5 在 CMAS 中的溶解度差异为定性推断（#47 Limitations）。
+  - #16 显示 Lu2SiO5 的 1500 °C 失效叠加了相分解因素——「粘度-RE 效应弱化」与「相分解」的相对贡献未定量。
 
 ## Use in Review Writing
 
 - Possible section: 「温度对 RE 成分调控规律的影响」段落。
 - Possible sentence role: contrast（与 1300 °C 规律对比）+ limitation（高温数据稀缺）
-- Citation need: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
+- Citation need: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"、"[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
 
 ## Related Pages
 
-- Papers: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
+- Papers: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"、"[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
 - Topics: "[[wiki/topics/Ceramic Corrosion]]"
 - Methods:
 - Datasets:
@@ -70,7 +76,7 @@ tags:
 
 - 待确认：该规律在钽酸盐、锆酸盐体系中是否成立（主题 Main Question 2）。
 - 待核查：MinerU OCR 粘度数值（1/4 以下）与原文核对。
-- AI 推断：1500 °C 方向反转的机理（粘度-溶解度-反应动力学耦合）为定性推断。
+- AI 推断：1500 °C 方向反转的机理（粘度-溶解度-反应动力学-相稳定性耦合）为定性推断。
 
 ## Maintenance Checklist
 

@@ -61,6 +61,10 @@ updated: YYYY-MM-DD
 - `cmas`
 - `ebc`
 
+2026-08-27 入库 TBC 方向论文（#29 Hf6Ta2O17-Al2O3），新增：
+
+- `tbc`
+
 Example:
 
 - `example-domain`

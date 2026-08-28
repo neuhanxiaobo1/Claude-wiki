@@ -2,11 +2,12 @@
 type: gap
 status: open
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-27
 priority: medium
 evidence_strength: strong
 papers:
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
+  - "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
 methods:
@@ -23,7 +24,7 @@ tags:
 
 ## Gap Description
 
-- #47 原位观察揭示冷却过程（约 1400 °C）加速短而水平分布 Ca2RE8(SiO4)6O2 晶粒的析出，与高温阶段沿 [001] 生长的长晶粒属不同形成机制；但该冷却析出相对涂层完整性（剥落、开裂、残余应力）的影响未评估。
+- #47 原位观察揭示冷却过程（约 1400 °C）加速短而水平分布 Ca2RE8(SiO4)6O2 晶粒的析出，与高温阶段沿 [001] 生长的长晶粒属不同形成机制；#16 进一步证实 Lu2SiO5 在 1500 °C 保温阶段无可见反应、腐蚀产物（Ca2Lu8(SiO4)6O2）在冷却起始时大量垂直析出——「冷却析出」成为高温 CMAS 腐蚀产物形成的主要途径之一（两篇独立原位证据）。但该冷却析出相对涂层完整性（剥落、开裂、残余应力）的影响仍未评估。
 
 ## Why It Matters
 
@@ -34,6 +35,11 @@ tags:
 - Paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - Evidence: Er2SiO5 原位观察（Movie S2、图 15）：降温至 1400 °C 大量 50–100 μm 短水平晶粒从残余熔体析出；作者明确指出 REO1.5 溶解度随温度降低而下降是该析出的驱动力，但未评估对涂层的影响（#47 Potential Gaps 2）。
   - Source section/page/table/figure: §4.1、图 15、Movie S2
+  - Evidence strength: strong
+
+- Paper: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
+  - Evidence: 1500 °C 保温 40 min 无可见反应，冷却起始时 Ca2Lu8(SiO4)6O2 大量垂直析出形成织构；1300 °C 对照保温降温全程无析出——「冷却析出」与服役温度强相关，但析出层对涂层完整性的影响未评估（#16 Potential Gaps 2）。
+  - Source section/page/table/figure: Movie 1、§3.1
   - Evidence strength: strong
 
 ## Cross-Page Basis
@@ -78,7 +84,7 @@ tags:
 
 ## Related Pages
 
-- Papers: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
+- Papers: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"、"[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
 - Topics: "[[wiki/topics/Ceramic Corrosion]]"
 - Methods:
 - Claims:

@@ -2,7 +2,7 @@
 type: synthesis
 status: active
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-27
 tags:
   - synthesis
   - context
@@ -32,21 +32,22 @@ tags:
 
 ## Current Paper Corpus
 
-- 已入库 3 篇（田志林组 CMAS 腐蚀系列）：#47 RE2SiO5 1500 °C 原位降解（JAC 2023）、#46 RETaO4 层叠法高通量（Adv. Sci. 2025）、#18 高熵锆酸盐高通量（JECS 2026）。
-- 已沉淀：1 个主题页（Ceramic Corrosion）、4 个 claim 页、4 个 gap 页；literature-map 与 open-questions 已激活（2026-08-23）。
-- 主线论点：形成焓随 RE 半径增大更放热（1300 °C 小半径抗蚀好，三体系一致）；1500 °C 下低粘度 CMAS 使传质与反应加速、RE 效应弱化，但 #47 同时暴露润湿流失和冷却二次析出两个高温变量，因此不能把 1300 °C 的半径规律直接外推到 1500 °C。
-- 候选待入库：58 篇清单剩 55 篇；CMAS 相关优先 #36/#23/#48/#52；#45 Si3N4 多孔缓存已生成。
+- 已入库 6 篇（田志林组）：#47 RE2SiO5 1500 °C 原位降解（JAC 2023）、#46 RETaO4 层叠法高通量（Adv. Sci. 2025）、#18 高熵锆酸盐高通量（JECS 2026）、#16 Lu2SiO5 1500 °C 原位定向生长（Surf. Coat. Technol. 2024）、#48 高熵 (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5（JAC 2022）、#29 Hf6Ta2O17-Al2O3 热化学相容性（JECS 2025）。
+- 已沉淀：2 个主题页（Ceramic Corrosion、Thermal Barrier Coatings）、8 个 claim 页、5 个 gap 页；literature-map 与 open-questions 已更新（2026-08-27）。
+- 主线论点：形成焓随 RE 半径增大更放热（1300 °C 小半径抗蚀好，三体系一致；#48 证明规律在固溶体/高熵体系同样成立——渗透排序与平均半径完全对应）；1500 °C 下低粘度 CMAS 使传质与反应加速、RE 效应弱化（#47 七体系 + #16 Lu2SiO5 219 μm 双证据），且 #16 揭示相分解诱导晶间渗透新机制、#47 暴露润湿流失与冷却二次析出——1300 °C 半径规律不能外推到 1500 °C；姊妹方向 TBC：#29 表明 TBC-TGO 热化学相容性是选材缺失判据。
+- 候选待入库：58 篇清单剩 52 篇；CMAS 相关优先 #36/#23/#52；#45 Si3N4 多孔缓存已生成。
 
 ## Next Tasks
 
-- 继续按 import_plan 编号入库（CMAS 优先 #36/#23/#48/#52）。
+- 继续按 import_plan 编号入库（CMAS 优先 #36/#23/#52）。
 - 积累 ≥8–10 篇后运行 `agents/synthesis_agent.md` 深化文献地图、`agents/review_agent.md` 生成综述大纲。
 - 待用户填写 `memory/project_profile.md` 的核心研究问题与 Excluded 范围。
 - 每批入库后运行 `agents/lint_agent.md`。
 
 ## Open Questions
 
-- 1500 °C RE 效应弱化的普适性（钽酸盐/锆酸盐缺高温数据）。
+- 1500 °C RE 效应弱化与相分解的跨体系普适性（钽酸盐/锆酸盐/高熵硅酸盐缺高温数据）。
 - 结构类型与 RE 半径的解耦（高熵锆酸盐二者共线）。
-- 冷却析出产物对涂层热循环完整性的影响。
+- 冷却析出产物对涂层热循环完整性的影响（#47/#16 两篇原位证据，后果未评估）。
 - 高通量方法跨体系推广（方法学机会点）。
+- TBC-TGO 相容性判据与扩散障方案（姊妹方向，#29 单体系证据）。

@@ -100,3 +100,12 @@
 - 更新：`wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation.md`、`wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening.md`、`wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput.md`、`wiki/topics/Ceramic Corrosion.md`、`synthesis/literature-map.md`、`synthesis/core-argument-map.md`、`index.md`、`log.md`。
 - 发现：#47 的高温结论应表述为低粘度传质加速 + RE 效应弱化 + 润湿流失 + 冷却二次析出的耦合，不应简化为单一“半径规律反转”；#46 的核心价值在于层叠法统一实验条件并用 TEM/EPMA 澄清 RETaO4 腐蚀产物和晶界腐蚀普遍性；#18 的核心价值在于把高熵锆酸盐设计拆成热导、TEC 与 CMAS 抗性的多参数框架。
 - 后续：下一步宜激活 `synthesis/research-positioning.md` 和 `synthesis/review-outline.md`，或继续入库 CMAS 优先论文以验证 1500 °C 普适性与结构-半径解耦问题。
+
+## [2026-08-27] ingest | 第二批三篇论文入库（#16 Lu2SiO5 1500 °C 原位 / #48 高熵 RE2SiO5 / #29 Hf6Ta2O17-Al2O3）
+
+- 输入：用户指定三篇论文入库，并确认 PDF 附件与 MinerU 缓存均已就绪。
+- 操作：按 MinerU 缓存优先流程读取 `llm-for-zotero-mineru/10149`（#16）、`10117/10119/10121`（#48）、#29 缓存全文；Zotero MCP 只读校验条目与附件键（#16 RLNIRS7B→JNS38XK5、#29 5PSRPWAQ→GSDAE8IV、#48 8IPQUSQL→I929AL9M/DMBMXKHX/DQTEV4JP）；按模板新建论文页并联动更新主题/claim/gap/synthesis/index。
+- 新建：`wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth.md`、`wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC.md`、`wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility.md`、`wiki/claims/Phase-Decomposition-Intergranular-Infiltration.md`、`wiki/claims/Garnet-Product-RE2SiO5-CMAS.md`、`wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design.md`、`wiki/claims/Hf6Ta2O17-TGO-Incompatibility.md`、`wiki/gaps/TBC-TGO-High-Temperature-Compatibility.md`、`wiki/topics/Thermal Barrier Coatings.md`。
+- 更新：`wiki/topics/Ceramic Corrosion.md`（+2 论文、+3 claims、Main Question 5、路线 4、产物谱争议）、`wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend.md`（+#16/#48 固溶体证据，high）、`wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening.md`（+#16 双论文证据，medium→medium-high）、`wiki/gaps/CMAS-Corrosion-Data-1500C.md`（+相分解维度）、`wiki/gaps/Cooling-Precipitation-Coating-Integrity.md`（+#16 两篇独立原位证据）、`synthesis/open-questions.md`（Q1/Q3/Q4/Q5 更新，+Q6 相分解、Q7 TBC-TGO）、`synthesis/literature-map.md`（+3 论文、+4 claims、+2 方法路线、+TBC-TGO gap）、`synthesis/core-argument-map.md`（6 篇语料、主线扩充）、`index.md`、`raw/zotero_imports/田老师/import_plan.md`（#16/#29/#48 已入库 + 附件键 + 缓存附录更正）。
+- 发现：#16 揭示 1500 °C 保温无反应、冷却起始析出 + 相分解诱导晶间渗透（219 μm，1300 °C 的 >4 倍），与 #47 构成 1500 °C 双证据；#48 渗透排序与平均 RE 半径完全对应（固溶体/高熵体系半径规律证据），并首次在 RE2SiO5-CMAS 鉴定石榴石型产物；#29 表明 Hf6Ta2O17 与 TGO 在 >1400 °C 反应生成 AlHf3TaO10、界面热应力超 YSZ 许用——TBC 选材缺 TGO 相容性判据。
+- 后续：待运行 `agents/lint_agent.md` 健康检查（本轮批次后例行）；继续入库 CMAS 优先 #36/#23/#52。

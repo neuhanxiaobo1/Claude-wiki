@@ -2,17 +2,19 @@
 type: claim
 status: active
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-27
 source_papers:
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
   - "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
+  - "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
+  - "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
 methods:
 datasets:
 metrics:
-confidence: high（1300 °C 三体系一致）
+confidence: high（1300 °C 三体系一致，新增两篇独立支持）
 tags:
   - claim
   - cmas
@@ -63,6 +65,14 @@ tags:
   - Evidence: 1300 °C 对照渗透深度-半径关联。
   - Notes: 该论文主实验在 1500 °C，1300 °C 数据为对照。
 
+- Paper: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
+  - Evidence: 1300 °C/20 h 渗透深度排序 Lu(40.2) < Yb(75.1) < 高熵(125.4) < Ho(166.5) < Eu(248.6)，与 RE³⁺ 平均半径排序完全一致。
+  - Notes: 高熵样品按平均半径（0.894 Å）恰好落在 Yb（0.868）与 Ho（0.901）之间——半径规律在固溶体/高熵体系同样成立；同时给出固溶体半径调控的设计含义。
+
+- Paper: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
+  - Evidence: 1300 °C 下 Lu2SiO5（最小半径）抗蚀最优（渗透约 50 μm），作者直接引用 Costa et al. 形成焓数据解释。
+  - Notes: 该论文主实验在 1500 °C（Lu2SiO5 失效，见 "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"）；1300 °C 数据为对照且与本 claim 一致。
+
 ## Challenging or Limiting Evidence
 
 - Paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
@@ -77,11 +87,11 @@ tags:
 
 - Possible section: 综述中「RE 成分对 CMAS 抗蚀性的调控规律」核心段落。
 - Possible sentence role: background（1300 °C 规律）+ contrast（1500 °C 反转）
-- Citation need: 三篇论文 + Costa et al. 热化学原始文献
+- Citation need: 五篇已入库 CMAS 论文 + Costa et al. 热化学原始文献
 
 ## Related Pages
 
-- Papers: 三篇已入库 CMAS 论文
+- Papers: 五篇已入库 CMAS 论文（#47、#46、#18、#16、#48）
 - Topics: "[[wiki/topics/Ceramic Corrosion]]"
 - Methods:
 - Datasets:
