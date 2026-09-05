@@ -2,12 +2,13 @@
 type: synthesis
 status: active
 created: 2026-08-23
-updated: 2026-08-27
+updated: 2026-08-28
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
   - "[[wiki/topics/Thermal Barrier Coatings]]"
 methods:
 papers:
+  - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
   - "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
@@ -42,17 +43,17 @@ tags:
 - Research field: 高温结构陶瓷 CMAS 腐蚀（EBC/TBC 方向）
 - Included topics: 稀土单硅酸盐 RE2SiO5（含高熵 (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5）、稀土钽酸盐 RETaO4、高熵稀土锆酸盐 (5RE0.2)2Zr2O7 的 CMAS 腐蚀机制与成分调控；TBC 候选材料 Hf6Ta2O17 与 TGO 的热化学相容性；高温原位观察与高通量筛选方法。
 - Excluded topics: 氯化物熔盐腐蚀（Si3N4 篇已归档）；烧蚀/吸波/透波方向（田老师 collection 内但非本主题）。
-- Time range: 2022–2026（已入库 6 篇）；上游热化学依据为 Costa et al. 系列（原始文献待入库）。
+- Time range: 2019–2026（已入库 7 篇）；上游热化学依据为 Costa et al. / Risbud et al. 系列（原始文献待入库）。
 
 ## Research Problem Map
 
 | Research problem | Related papers | Methods | Solved parts | Unresolved parts | Evidence strength |
 |---|---|---|---|---|---|
-| 腐蚀产物形成焓-RE 半径关联是否普适（1300 °C） | #46、#18、#47（1300 °C 对照）、#48、#16（1300 °C 对照） | DFT 形成焓、渗透深度/腐蚀层厚度定量、润湿性 | 1300 °C 三体系一致：小半径抗蚀更好；#48 证明规律在固溶体/高熵体系成立（排序与平均半径完全对应） | 1500 °C 规律弱化/反转；X1-RE2SiO5 反向报道待核查 | strong |
+| 腐蚀产物形成焓-RE 半径关联是否普适（1300 °C） | #36、#46、#18、#47（1300 °C 对照）、#48、#16（1300 °C 对照） | 衰退层/渗透深度/腐蚀层厚度定量、DFT 形成焓、量热、光学碱度、润湿性 | 1300 °C 三体系一致：小半径抗蚀更好；#36 奠基单组分 8 组分线性规律 + ΔΛ 判据，#48 证明规律在固溶体/高熵体系成立（排序与平均半径完全对应） | 1500 °C 规律弱化/反转；X1 大半径系列内部趋势反向（#21 未入库，晶型依赖翻转） | strong |
 | 1500 °C 高温下温度效应是否跨体系普适 | #47、#16（均限 RE2SiO5） | 原位观察、FactSage 粘度、接触角/润湿观察、无 CMAS 对照 | RE2SiO5 体系两篇证实低粘度促进传质、RE 效应弱化（Lu2SiO5 1300 °C 最优 → 1500 °C 219 μm）；同时观察到大 RE 样品润湿流失、冷却析出与相分解 | 钽酸盐/锆酸盐/高熵硅酸盐无 1500 °C 数据；高温排序受粘度、润湿、流失、冷却过程与相稳定性共同影响 | medium-high |
 | 1500 °C 相分解（2Lu2SiO5 = Lu2Si2O7 + Lu2O3）的普适性与高熵抑制 | #16、#48（无高温数据） | 无 CMAS 对照、TEM 晶界表征 | Lu2SiO5 分解证实并定位为晶间渗透通道 | 其他 RE2SiO5 与高熵样品是否分解未知；熵稳定效应待验证 | strong（单体系）/ weak（普适性） |
-| 结构类型（烧绿石/缺陷萤石）与 RE 半径对抗蚀性的解耦 | #18 | 高通量 19 成分、Rietveld、腐蚀层测厚 | 缺陷萤石+小半径组合抗蚀最佳 | 二者贡献未解耦，双重机制相对权重未知 | strong |
-| 冷却析出产物对涂层热循环完整性影响 | #47、#16 | 原位观察（Movie S1–S3 / Movie 1–2） | 冷却析出机制两篇独立证实（#16：1500 °C 保温无反应、冷却起始析出） | 对涂层剥落/应力的影响未评估 | strong |
+| 结构类型（烧绿石/缺陷萤石、X1/X2 晶型）与 RE 半径对抗蚀性的解耦 | #18、#36（X2 侧）、#21（X1 侧，未入库） | 高通量 19 成分、Rietveld、腐蚀层测厚、衰退层测厚 | 缺陷萤石+小半径组合抗蚀最佳；X2 段衰退层随半径减小变薄，X1 系列内部反向（#47 引述）——晶型依赖翻转被两文佐证 | 结构/晶型与半径贡献未解耦；#36 大半径组晶型归属待核查 | strong |
+| 冷却析出产物对涂层热循环完整性影响 | #47、#16、#36 | 原位观察（Movie S1–S3 / Movie 1–2）、截面裂纹观察 | 冷却析出机制两篇独立证实（#16：1500 °C 保温无反应、冷却起始析出）；#36 最早观察衰退层 E/TEC 失配的冷却热应力剥落 | 对涂层剥落/应力的影响未定量评估 | strong |
 | 高通量方法跨体系推广 | #46、#18、#47、#48 | 层叠法、并行制备、原位观察、高熵对照设计 | 各方法单体系验证有效 | 四方法未联用、未跨体系 | strong |
 | TBC-TGO 热化学相容性（>1400 °C） | #29 | 粉末反应、扩散偶、CTE/E 实测、应力估算 | Hf6Ta2O17-Al2O3 不相容已证实（AlHf3TaO10 生成 + 热应力超 YSZ 许用） | 其他候选材料无数据；扩散障方案未验证；真实涂层未闭环 | strong（单体系） |
 
@@ -69,9 +70,9 @@ tags:
 ## Claims Map
 
 - Claim: "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"（形成焓-RE 半径关联）
-  - Supports: #46（DFT+渗透深度+润湿性）、#18（腐蚀层厚度）、#47（1300 °C 对照）
-  - Challenges: #47（1500 °C 方向反转）；X1-RE2SiO5 文献反向报道（待核查）
-  - Source papers: 三篇已入库论文
+  - Supports: #36（8 组分衰退层-半径线性规律 + Risbud 量热 + ΔΛ 判据）、#46（DFT+渗透深度+润湿性）、#18（腐蚀层厚度）、#47（1300 °C 对照）、#48（渗透排序）、#16（1300 °C 对照）
+  - Challenges: #47（1500 °C 方向反转）；X1-RE2SiO5 大半径系列内部反向（#21，未入库——晶型依赖翻转）
+  - Source papers: 六篇已入库论文
   - Evidence strength: strong（1300 °C）／待扩展（1500 °C）
 
 - Claim: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"（1500 °C 粘度剧降与 RE 效应弱化）
@@ -100,8 +101,8 @@ tags:
 
 - Claim: "[[wiki/claims/Garnet-Product-RE2SiO5-CMAS]]"（石榴石型腐蚀产物）
   - Supports: #48 EPMA 定量 + 反应式
-  - Challenges: #47/#16 未报道石榴石——单组分体系是否存在待核查
-  - Source papers: #48
+  - Challenges: #47/#16 未报道石榴石——单组分体系硅酸盐石榴石是否存在待核查；#36 单组分小半径组检出铝酸盐石榴石 RE3Al5O12（不同物相，两类石榴石需区分）
+  - Source papers: #48、#36（对照）
   - Evidence strength: strong（高熵体系单篇）
 
 - Claim: "[[wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design]]"（高熵元素功能分工）
@@ -124,18 +125,18 @@ tags:
   - Related open question: 主题 Main Question 2；"[[synthesis/open-questions]]" Q1
 
 - Gap: "[[wiki/gaps/Structure-Radius-Decoupling]]"（结构-半径解耦）
-  - Related direction: 高熵 TBC 成分设计准则
-  - Supporting evidence: #18 结构-半径共线
+  - Related direction: 高熵 TBC 成分设计准则；EBC 单硅酸盐晶型选择
+  - Supporting evidence: #18 结构-半径共线；#36/#21 的 X1/X2 晶型翻转
   - Related open question: 主题 Main Question 3；"[[synthesis/open-questions]]" Q2
 
 - Gap: "[[wiki/gaps/Cooling-Precipitation-Coating-Integrity]]"（冷却析出影响）
   - Related direction: 热循环损伤评估
-  - Supporting evidence: #47 原位观察冷却析出
+  - Supporting evidence: #47 原位观察冷却析出；#16 冷却起始析出；#36 冷却热应力剥落
   - Related open question: 主题 Main Question 4；"[[synthesis/open-questions]]" Q3
 
 - Gap: "[[wiki/gaps/High-Throughput-Screening-Transfer]]"（高通量方法推广）
   - Related direction: 方法学组合与跨体系应用
-  - Supporting evidence: 五篇 CMAS 论文方法各自单体系验证
+  - Supporting evidence: 六篇 CMAS 论文方法各自单体系验证
   - Related open question: "[[synthesis/open-questions]]" Q4
 
 - Gap: "[[wiki/gaps/TBC-TGO-High-Temperature-Compatibility]]"（TBC-TGO 相容性数据缺失）

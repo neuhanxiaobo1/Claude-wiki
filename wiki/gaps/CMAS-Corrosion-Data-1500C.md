@@ -2,10 +2,11 @@
 type: gap
 status: open
 created: 2026-08-23
-updated: 2026-08-27
+updated: 2026-08-28
 priority: high
 evidence_strength: strong
 papers:
+  - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
   - "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
@@ -30,13 +31,18 @@ tags:
 
 ## Gap Description
 
-- 1500 °C 下 CMAS 粘度剧降导致「RE 种类影响弱化」的现象目前在 RE2SiO5 体系已获两篇论文证实（#47 七体系 + #16 Lu2SiO5 单体系深度机制），且 #16 进一步揭示 1500 °C 相分解诱导晶间渗透的新失效机制；但 RETaO4（#46）、高熵锆酸盐（#18）、高熵 RE2SiO5（#48）的 CMAS 腐蚀数据均为 1300 °C 单一温度，无法验证「高温 RE 效应弱化」与「相分解」的跨体系普适性。
+- 1500 °C 下 CMAS 粘度剧降导致「RE 种类影响弱化」的现象目前在 RE2SiO5 体系已获两篇论文证实（#47 七体系 + #16 Lu2SiO5 单体系深度机制），且 #16 进一步揭示 1500 °C 相分解诱导晶间渗透的新失效机制；但 RE2SiO5 奠基工作（#36）、RETaO4（#46）、高熵锆酸盐（#18）、高熵 RE2SiO5（#48）的 CMAS 腐蚀数据均为 1300 °C 单一温度，无法验证「高温 RE 效应弱化」与「相分解」的跨体系普适性。
 
 ## Why It Matters
 
 - 第三代 EBC/TBC 的服役温度正推向 1500 °C（HfO2–Si 粘结层使 EBC 使用温度升至 1482 °C 以上）；若「高温 RE 效应弱化」或「相分解诱导渗透」普适成立，则成分设计准则需按服役温度分级，1300 °C 下的小半径优选策略可能在高温失效。
 
 ## Supporting Evidence
+
+- Paper: "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
+  - Evidence: 1300 °C 单温度点系统研究，文中自述对高温（≥1500 °C）抗蚀性缺乏认识——该空白自 2019 年奠基工作即被作者明确指出，直至 #47/#16 才部分填补。
+  - Source section/page/table/figure: 结论/局限部分
+  - Evidence strength: strong
 
 - Paper: "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
   - Evidence: 实验设计仅 1300 °C（§5），无温度梯度；作者未声明更高温度计划。
@@ -72,7 +78,7 @@ tags:
 ## Gap Type
 
 - Type: 真实 gap
-- Reason: 三篇论文的实验设计明确缺失该数据（非推断）；1500 °C 实验存在客观难度（CMAS 流失、设备），但并非不可行（#47 已实现）。
+- Reason: 四篇论文的实验设计明确缺失该数据（非推断）；1500 °C 实验存在客观难度（CMAS 流失、设备），但并非不可行（#47 已实现）。
 
 ## How Existing Work Handles It
 
@@ -105,7 +111,7 @@ tags:
 
 ## Related Pages
 
-- Papers: 五篇已入库 CMAS 论文（#47、#46、#18、#16、#48）
+- Papers: 六篇已入库 CMAS 论文（#36、#47、#46、#18、#16、#48）
 - Topics: "[[wiki/topics/Ceramic Corrosion]]"
 - Methods:
 - Claims: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"、"[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]"

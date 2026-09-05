@@ -2,10 +2,11 @@
 type: gap
 status: open
 created: 2026-08-23
-updated: 2026-08-27
+updated: 2026-08-28
 priority: medium
 evidence_strength: strong
 papers:
+  - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
 topics:
@@ -24,13 +25,18 @@ tags:
 
 ## Gap Description
 
-- #47 原位观察揭示冷却过程（约 1400 °C）加速短而水平分布 Ca2RE8(SiO4)6O2 晶粒的析出，与高温阶段沿 [001] 生长的长晶粒属不同形成机制；#16 进一步证实 Lu2SiO5 在 1500 °C 保温阶段无可见反应、腐蚀产物（Ca2Lu8(SiO4)6O2）在冷却起始时大量垂直析出——「冷却析出」成为高温 CMAS 腐蚀产物形成的主要途径之一（两篇独立原位证据）。但该冷却析出相对涂层完整性（剥落、开裂、残余应力）的影响仍未评估。
+- #47 原位观察揭示冷却过程（约 1400 °C）加速短而水平分布 Ca2RE8(SiO4)6O2 晶粒的析出，与高温阶段沿 [001] 生长的长晶粒属不同形成机制；#16 进一步证实 Lu2SiO5 在 1500 °C 保温阶段无可见反应、腐蚀产物（Ca2Lu8(SiO4)6O2）在冷却起始时大量垂直析出——「冷却析出」成为高温 CMAS 腐蚀产物形成的主要途径之一（两篇独立原位证据）。但该冷却析出相对涂层完整性（剥落、开裂、残余应力）的影响仍未评估。另：#36 更早观察到腐蚀后冷却热应力（衰退层弹性模量/TEC 失配）在衰退区下方基体诱发裂纹并导致剥落——「冷却损伤」在 1300 °C 即已存在，且与冷却析出是两个可分离的损伤途径（见 Supporting Evidence）。
 
 ## Why It Matters
 
 - 实际服役含热循环（起停循环），每次冷却都是一次额外析出事件；若冷却析出相在涂层/反应层界面富集并引入应力，将成为热循环寿命的关键损伤源——目前 CMAS 腐蚀研究普遍只做等温腐蚀，系统性低估了热循环损伤。
 
 ## Supporting Evidence
+
+- Paper: "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
+  - Evidence: 衰退层与基体结合紧密，但裂纹出现在衰退区下方基体内——作者归因于衰退层弹性模量与 TEC 失配在冷却时引入热应力，导致剥落。这是「冷却损伤」的最早直接观察（1300 °C 已出现），但仅定性、无应力定量（#36 Key Claim 3）。
+  - Source section/page/table/figure: 截面裂纹位置观察
+  - Evidence strength: medium-high
 
 - Paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - Evidence: Er2SiO5 原位观察（Movie S2、图 15）：降温至 1400 °C 大量 50–100 μm 短水平晶粒从残余熔体析出；作者明确指出 REO1.5 溶解度随温度降低而下降是该析出的驱动力，但未评估对涂层的影响（#47 Potential Gaps 2）。
@@ -84,7 +90,7 @@ tags:
 
 ## Related Pages
 
-- Papers: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"、"[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
+- Papers: "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"、"[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"、"[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
 - Topics: "[[wiki/topics/Ceramic Corrosion]]"
 - Methods:
 - Claims:

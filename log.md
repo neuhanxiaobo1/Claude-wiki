@@ -109,3 +109,76 @@
 - 更新：`wiki/topics/Ceramic Corrosion.md`（+2 论文、+3 claims、Main Question 5、路线 4、产物谱争议）、`wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend.md`（+#16/#48 固溶体证据，high）、`wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening.md`（+#16 双论文证据，medium→medium-high）、`wiki/gaps/CMAS-Corrosion-Data-1500C.md`（+相分解维度）、`wiki/gaps/Cooling-Precipitation-Coating-Integrity.md`（+#16 两篇独立原位证据）、`synthesis/open-questions.md`（Q1/Q3/Q4/Q5 更新，+Q6 相分解、Q7 TBC-TGO）、`synthesis/literature-map.md`（+3 论文、+4 claims、+2 方法路线、+TBC-TGO gap）、`synthesis/core-argument-map.md`（6 篇语料、主线扩充）、`index.md`、`raw/zotero_imports/田老师/import_plan.md`（#16/#29/#48 已入库 + 附件键 + 缓存附录更正）。
 - 发现：#16 揭示 1500 °C 保温无反应、冷却起始析出 + 相分解诱导晶间渗透（219 μm，1300 °C 的 >4 倍），与 #47 构成 1500 °C 双证据；#48 渗透排序与平均 RE 半径完全对应（固溶体/高熵体系半径规律证据），并首次在 RE2SiO5-CMAS 鉴定石榴石型产物；#29 表明 Hf6Ta2O17 与 TGO 在 >1400 °C 反应生成 AlHf3TaO10、界面热应力超 YSZ 许用——TBC 选材缺 TGO 相容性判据。
 - 后续：待运行 `agents/lint_agent.md` 健康检查（本轮批次后例行）；继续入库 CMAS 优先 #36/#23/#52。
+
+## [2026-08-28] synthesis | 激活研究定位与综述大纲（暂停入库后第一步）
+
+- 输入：用户指示暂停入库、进入下一步；经确认选择「研究定位 + 综述大纲」。
+- 操作：按 AGENTS.md 路由，以 gap_agent 流程激活 `synthesis/research-positioning.md`，以 review_agent 流程激活 `synthesis/review-outline.md`；两页均由模板状态转为 active。
+- 新建：无（两页为激活，非新建）。
+- 更新：`synthesis/research-positioning.md`（研究主线三层结构、5 条可继承方法、3 个拥挤方向、6 个切入空间、3 条定位方向：1500 °C 跨体系抗性地图 / 相稳定性优先设计 / TBC-TGO 相容性判据）；`synthesis/review-outline.md`（核心论题三段式、六节大纲、8 个 claim 章节映射、核心论题段草稿）；`index.md`、`synthesis/core-argument-map.md`、`log.md`。
+- 发现：3 条定位方向均为 AI 基于 6 篇语料的推断（已在页内标注），待用户填写 `memory/project_profile.md` 核心研究问题与 Excluded 范围后校准；Positioning 1/2 存在窗口期风险（田志林组工作节奏快，Q4 提示需检索该组 2026 新工作）；Positioning 3（TBC-TGO）与主线偏离度最大，标注供用户权衡。
+- 后续：与用户讨论定位方向取舍；按选定方向决定是否恢复入库及选号（Positioning 1 对应 CMAS 优先 #36/#23/#52）。
+
+## [2026-08-28] query | 窗口期检索：该组 2026 新工作 + X1 反向报道溯源
+
+- 输入：定位方向讨论前的证据核查（Positioning 1/2 窗口期风险、Q5/X1 争议溯源）。
+- 操作：WebSearch 检索田志林组 2026 年 CMAS 相关工作与 X1-RE2SiO5 反向报道原始文献；结果全部标注「待核查原文」写入知识库。
+- 新建：无。
+- 更新：`inbox.md`（Pending Papers +6 篇检索候选，均不在田老师 collection 清单内）；`synthesis/research-positioning.md`（Positioning 1 风险具体化——该组已发表 Extreme Materials 2025 层叠法 RE2SiO5 筛选，窗口部分收窄；Positioning 2 补第三方佐证；Next Evidence Needed 更新）；`synthesis/open-questions.md`（Q1 补 Li et al. 2025 第三方方向佐证；Q5 反向报道源头锁定 #36）；`wiki/topics/Ceramic Corrosion.md`（争议 1 与 Uncertainty 的 X1 条目溯源更新）；`log.md`。
+- 发现：① Extreme Materials 2025（1(4): 27–32）层叠法 RE2SiO5 筛选不在 import_plan 58 篇清单内，若已含 1500 °C 则 Positioning 1 的 RE2SiO5 部分被抢占；② X1 反向报道源头为 #36（Tian et al., Corros. Sci. 2019, DOI: 10.1016/j.corsci.2018.12.032），检索摘要显示其整体趋势与主线一致（小半径层薄），争议可能在 X1 亚组内部；③ Li et al.（Ceram. Int. 2025）高熵单硅酸盐 1500 °C 层厚随平均半径单调递减，与 #47 高温反转方向一致，为第三方方向佐证。
+- 后续：检索候选论文是否补录入库待用户确认；定位方向取舍待用户决定。
+
+## [2026-08-28] ingest | 入库 #36（Tian 2019 Corros. Sci.，1300 °C 单硅酸盐总规律）——X1 争议核实
+
+- 输入：用户「先补证据再定」——为核实 X1 反向报道与 1300 °C 主线证据，短暂恢复入库 #36（缓存 9612/full.md 已就绪）。
+- 操作：按 MinerU 缓存优先流程读取 9612/full.md 全文；新建论文页并联动更新 2 个 claim、2 个 gap、主题页、index、import_plan、全部 synthesis 页。
+- 新建：`wiki/papers/2019-RE2SiO5-CMAS-General-Trend.md`。
+- 更新：`wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend.md`（+#36 奠基证据链，六篇独立支持；X1 反向挑战项溯源至 #21 JECS 2019）、`wiki/claims/Garnet-Product-RE2SiO5-CMAS.md`（+#36 铝酸盐石榴石 RE3Al5O12 对照，两类石榴石区分）、`wiki/gaps/Cooling-Precipitation-Coating-Integrity.md`（+#36 冷却热应力剥落最早证据）、`wiki/gaps/Structure-Radius-Decoupling.md`（+X1/X2 晶型翻转证据）、`wiki/topics/Ceramic Corrosion.md`（+论文/代表论文/共识 1/争议 1/3、Uncertainty）、`index.md`、`raw/zotero_imports/田老师/import_plan.md`（#36 → 已入库）、`synthesis/literature-map.md`、`synthesis/core-argument-map.md`、`synthesis/open-questions.md`、`synthesis/research-positioning.md`、`synthesis/review-outline.md`。
+- 发现：① #36 为 1300 °C 半径规律奠基工作——8 组分衰退层-半径近似线性 + Risbud 量热 + 光学碱度 ΔΛ 判据（Tb 0.134 → Lu 0.094），Lu2SiO5 约 50 μm/50 h 与 #16 的 1300 °C 对照定量吻合；② X1 反向报道澄清：源头为 #21（Tian et al., JECS 2019, DOI 10.1016/j.jeurceramsoc.2018.12.015，La/Nd/Sm/Eu/Gd X1 系列），#36 覆盖 Tb–Lu 段为递减趋势——1300 °C 半径规律存在晶型依赖翻转，归入 Structure-Radius-Decoupling gap；③ #36 单组分小半径组检出铝酸盐石榴石 RE3Al5O12（与 #48 硅酸盐石榴石物相不同），产物谱争议需区分两类石榴石；④ 衰退层 E/TEC 失配的冷却热应力剥落是「冷却损伤」最早观察。
+- 后续：恢复入库暂停状态；定位方向取舍待与用户讨论（Positioning 1 对应 CMAS 优先 #23/#52；检索候选 #59–64 待确认）；待运行 lint。
+
+## [2026-08-28] query | 核实 #59（Extreme Materials 2025 层叠法 RE2SiO5）原文——定位方向证据补充
+
+- 输入：用户选择「先核实 #59 再定」定位方向，并将 #59 加入 Zotero collection。
+- 操作：定位 MinerU 缓存 10185（与 10070=#58 透波二硅酸盐区分）；通读 full.md 全文核实实验条件与结论。
+- 新建：无（未正式入库）。
+- 更新：`raw/zotero_imports/田老师/import_plan.md`（#59 行 + 附录缓存映射）、`inbox.md`（#59 条目标注已核实）、`synthesis/research-positioning.md`（Positioning 1 Risks/Literature needed/Status）、`synthesis/open-questions.md`（Q4）、`wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend.md`（+Challenging Evidence：#59 渗透深度排序非单调）、`wiki/topics/Ceramic Corrosion.md`（+新争议：最优成分指标依赖）。
+- 发现：① 腐蚀条件为 1300 °C/20 h 单温度（C33M9A13S45，30 mg/cm²）——**未覆盖 1500 °C，RE2SiO5 高温窗口未收窄**；② 按渗透深度排序 Er2SiO5 最浅（非 Lu）——与 #36 衰退层厚度指标（Lu 最薄）不一致，最优成分因评价指标而异；③ 产物量仍随半径减小而减少（形成焓规律成立），但小半径端渗透反而深于 Er（溶解强、析出弱）；④ 观察到大半径侧热应力裂纹（Y2SiO5 区域，σ=EαΔT）——与 #36 冷却损伤一致；⑤ Y 缺 4f 电子被用来解释偏离规律。
+- 后续：#59 是否正式入库待用户决策（缓存已就绪）；定位方向取舍重新开放（Positioning 1 高温窗口未收窄但需先统一评价指标）。
+
+
+## [2026-09-05] lint | 本地知识库系统流程检查
+
+- 输入：用户暂停论文修改，要求先检查系统是否造成执行繁杂。
+- 操作：检查规则、路由、模板、上下文和七篇论文基础元数据；八个启动文件合计 31,896 字符。
+- 新建：docs/system-audit-2026-09-05.md。
+- 更新：index.md、memory/error_log.md、log.md。
+- 发现：启动读取过重、缺少局部修订和下游待复核机制；2022 高熵论文元数据类型错误；执行者重复读取和补丁错误也增加耗时。
+- 后续：先分步调整系统，再恢复论文修订。本轮未改规则、论文或综合结论；未执行完整事实/链接审计。
+
+## [2026-09-05] review | 完整规则审视与分步完善计划
+
+- 输入：用户要求完整了解现有规则，重点审视论文解读、评价、总结和入库机制，并设计分步完善计划。
+- 操作：通读或复用本次连续检查中已读的入口、六个任务规则、七个模板、八个 memory 文件及配套说明；将缺口映射到证据提取、判断、比较、gap、大纲和维护流程。
+- 新建：docs/rules-improvement-plan.md。
+- 更新：index.md、memory/error_log.md、log.md。
+- 发现：现有原则并非缺失，但缺少可操作的证据类型/强度/核查区分、比较资格、独立数据溯源、下游复核状态和语义验收；执行者也有未落实已有规则的问题。
+- 后续：九阶段计划尚未实施；建议先修改 hard_memory 与 AGENTS 中公共证据底线和任务边界，再改论文阅读规则与模板。本轮未修改业务规则、论文或综合结论。
+
+## [2026-09-05] update | 规则完善阶段 1：公共证据标准与任务边界
+
+- 输入：用户要求按九阶段计划逐步完善。
+- 操作：修改 AGENTS.md 与 memory/hard_memory.md，区分三类论文任务及证据类型/支持程度/核查状态；明确增量读取、索引更新条件、原件保护与下游待复核规则。
+- 新建：无。
+- 更新：上述两份核心规则；docs/rules-improvement-plan.md、index.md、memory/decision_log.md、memory/error_log.md、log.md 维护记录。
+- 发现：转引、计算、指标不一致和未观察到等典型案例已有对应判断边界；旧任务/模板按新公共规则过渡。桌面案例与格式检查完成，尚未做真实论文试运行。
+- 后续：阶段 2 修改 pdf_read_agent 和两份入库模板；本轮未修改论文或综合结论，不自动进入下一阶段。
+
+## [2026-09-05] update | 版本快照 calude_wiki_gpt1
+
+- 输入：用户明确要求上传当前版本，并命名为 calude_wiki_gpt1。
+- 操作：将当前知识库未提交内容及规则完善第 1 阶段纳入版本，提交名和 Git 标签均为 calude_wiki_gpt1；目标为现有 origin/main。
+- 新建：Git 版本标签；无新增论文内容。
+- 更新：index.md 版本说明；清理本次核查产生的三个临时脚本/状态文件，不上传原始 PDF 或忽略的 Zotero 资料。
+- 发现：准备时远程 main 与本地基线一致，远程不存在同名标签；此快照不表示七篇论文结论已完成修订。
+- 后续：推送结果以远程 main/tag 引用核验为准；后续继续规则完善第 2 阶段。
