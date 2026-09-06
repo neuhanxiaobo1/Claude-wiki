@@ -182,3 +182,102 @@
 - 更新：index.md 版本说明；清理本次核查产生的三个临时脚本/状态文件，不上传原始 PDF 或忽略的 Zotero 资料。
 - 发现：准备时远程 main 与本地基线一致，远程不存在同名标签；此快照不表示七篇论文结论已完成修订。
 - 后续：推送结果以远程 main/tag 引用核验为准；后续继续规则完善第 2 阶段。
+
+## [2026-09-06] update | 规则完善阶段 2：论文阅读与入库模板
+
+- 输入：用户要求继续第二阶段。
+- 操作：重构 pdf_read_agent、pdf_ingestion_template 和 paper 模板；建立来源身份、实际覆盖、关键原件回查、E# 证据记录、结论七步评价、三种任务模式与下游复核流程。
+- 新建：无。
+- 更新：上述三份规则/模板；docs/rules-improvement-plan.md、index.md、memory/decision_log.md、memory/error_log.md、log.md。
+- 发现：旧流程的重复长模板已被拆成过程检查单与唯一 paper 输出；processed 与证据复核状态已分开；阶段 3 前旧 claim/topic/method 仍沿用旧结构。
+- 后续：三份文件 YAML、格式及典型错误桌面验收通过；未修改论文或综合结论。下一阶段规范 claim、topic、method 模板。
+
+## [2026-09-06] update | 规则完善阶段 3：claim、topic、method 模板
+
+- 输入：用户要求继续下一阶段。
+- 操作：重构三类可复用知识模板；claim 增加单一论断、独立数据来源组和使用门槛，topic 增加语料覆盖与代表性，method 增加操作定义、验证用途和误用边界。
+- 新建：无。
+- 更新：templates/claim.md、templates/topic.md、templates/method.md；docs/rules-improvement-plan.md、index.md、memory/decision_log.md、memory/error_log.md、log.md。
+- 发现：旧 confidence/strong/weak 自由文本不再作为模板核心；同源转引、不可比冲突和“被使用即有效”均有明确拦截字段。旧知识页面仍需后续逐页迁移。
+- 后续：三份模板 YAML、格式和典型错误桌面验收通过；未修改任何论文、claim 实例或综合页面。下一阶段规范 synthesis、gap agent 和 gap 模板。
+
+## [2026-09-06] update | 规则完善阶段 4：跨论文综合与 Gap
+
+- 输入：用户要求继续下一阶段。
+- 操作：重构 synthesis_agent、gap_agent 和 gap 模板；增加语料边界、比较矩阵、三级比较资格、独立数据来源、冲突检查、gap 四级分类与新颖性检索记录。
+- 新建：无。
+- 更新：agents/synthesis_agent.md、agents/gap_agent.md、templates/gap.md；docs/rules-improvement-plan.md、index.md、memory/decision_log.md、memory/error_log.md、log.md。
+- 发现：不同指标/条件不再允许直接求倍数或统一排名；共同转引不重复计数；未完成范围明确的检索时，gap 只能停留在论文局限、语料缺口或候选问题。
+- 后续：规则/模板 YAML、格式和典型案例桌面验收通过；未修改实际 synthesis、gap 或论文页面。下一阶段规范 review_agent 和 review 模板。
+
+## [2026-09-06] update | 规则完善阶段 5：综述大纲与写作
+
+- 输入：用户要求继续下一阶段。
+- 操作：重构 review_agent 和 review 模板；增加写作契约、证据准入、Evidence Matrix、候选主线压力测试、章节 readiness、句子级来源追溯与前提变化后的重组规则。
+- 新建：无。
+- 更新：agents/review_agent.md、templates/review.md；docs/rules-improvement-plan.md、index.md、memory/decision_log.md、memory/error_log.md、log.md。
+- 发现：旧大纲、日志和 synthesis 不再能单独支撑写作；needs-review 或不可比证据不能写成确定事实；核心证据失效会触发 thesis 和章节结构重审。
+- 后续：规则/模板 YAML、格式和典型案例桌面验收通过；未修改实际 review、综述大纲或论文。下一阶段完善上下文、project profile 和风格规则。
+
+## [2026-09-06] update | 规则完善阶段 6：上下文与项目适配
+
+- 输入：用户要求继续下一阶段。
+- 操作：将固定启动清单改为增量读取与任务恢复；在 context_policy 保存短状态；分离用户目标、语料观察与可选 CMAS 阅读项；统一来源定位要求和阶段汇报风格。
+- 新建：无。
+- 更新：memory/context_policy.md、memory/project_profile.md、memory/style_snapshot.md；docs/rules-improvement-plan.md、index.md、memory/decision_log.md、memory/error_log.md、log.md。
+- 发现：旧规则把操作待办混入科学论点页，且将证据定位列为待确认偏好；新规则明确分工，保留用户原有来源与批次配置。
+- 后续：增量恢复、局部修订和领域适配案例已桌面审查，格式与范围检查通过；未修改论文或综合页。下一阶段完善 lint 与维护规则。
+
+## [2026-09-06] update | 规则完善阶段 7：校验与维护
+
+- 输入：用户要求继续第七阶段。
+- 操作：重构 lint 的结构/证据/流程检查、问题分级和旧页迁移；更新标签状态语义、术语同义边界与历史决策适用性。
+- 新建：无；本阶段未增加自动校验工具。
+- 更新：agents/lint_agent.md、memory/tag_taxonomy.md、memory/term_aliases.md、memory/decision_log.md；memory/context_policy.md、memory/error_log.md、docs/rules-improvement-plan.md、index.md、log.md。
+- 发现：有限抽查确认 2022 论文仍有类型及来源字段问题，保持待迁移；别名表的失效推荐页已改为目录导航，研究方向和相关概念不再被当成同义定义。
+- 后续：规则桌面审查、有限结构抽查与差异格式检查完成；未执行整库语义检查或修改科学页面。下一阶段对齐入口及来源说明。
+
+## [2026-09-06] update | 规则完善阶段 8：入口及来源说明
+
+- 输入：用户要求继续第八阶段。
+- 操作：对齐候选集合、已知来源、已有页修订的任务路由；明确工具可用性、稳定清单编号、生成记录同步、已有授权复用与独立发行范围。
+- 新建：无。
+- 更新：agents/import_zotero.md、agents/pdf_read_agent.md、CLAUDE.md、README.md、QUICKSTART.md、docs/zotero-workflow.md、docs/initialization.md、docs/privacy-and-gitignore.md；计划、index、context_policy、decision_log、error_log、log。
+- 发现：旧入口重复启动与确认、固定联动以及发布约束已对齐公共规则；不会因已入库而跳过用户要求的修订。
+- 后续：manifest 示例 JSON 解析、本地链接、冲突措辞与差异格式检查通过。未连接 Zotero、修改 raw/wiki/synthesis 或提交推送；下一阶段以 2019 论文逐节试运行。
+
+## [2026-09-06] query | Zotero MCP 原文连接核验
+
+- 输入：用户指出可通过 Zotero MCP 索取 PDF/MD，要求尝试连接和读取。
+- 操作：当前会话没有直接 Zotero 工具；从本机现有配置发现端点，完成 initialize、tools/list 及只读 get_item_details/get_content 调用；实际打开 PDF 验证 12 页。
+- 新建：无。
+- 更新：本记录、context_policy、error_log；未修改 Zotero 条目、附件或论文页。
+- 发现：服务 zotero-integrated-mcp 1.1.0 在 http://127.0.0.1:23120/mcp 可用；9Q7A46HL 的附件 R6YQ3KNM 是链接附件。PDF 实际路径为 `C:/Users/youthcookie/OneDrive/1.Science/1.Zotero/pdf2/2019-(Corrosion Science)/Tian 等 - 2019 - General trend on the phase stability and corrosion resistance of rare earth monosilicates to molten.pdf`；此前 storage 目录无 PDF 不能证明原件缺失。
+- 后续：get_content 使用 complete + preserveOriginal + prioritizeCompleteness + maxContentLength=100000 返回 33875 字符，truncated=false；preview 会抽句压缩，不用于证据完整性判断。MD 仍可复用 `D:/shuju/zotero1/llm-for-zotero-mineru/9612/full.md`。连接与读取已验证，论文修正尚未写回，继续阶段 9 时直接核对原 PDF。
+
+## [2026-09-06] error-fix | 阶段 9：2019 论文复核与修订
+
+- 输入：用户要求定位 llm-for-zotero 生成的 MD，继续第九阶段核对。
+- 操作：核对 9612/_llm_source.json 与 PDF 映射，复用已读全文/图表并回查 PDF 争议段落及原页，写回 E1–E8 和保留/限定/撤回结论。
+- 新建：无知识页；仅在系统临时目录渲染 PDF 页供核查。
+- 更新：wiki/papers/2019-RE2SiO5-CMAS-General-Trend.md；index、计划、context_policy、error_log、log。
+- 发现：当前 PDF 形成焓措辞存在内部不一致；OB 只有七种数据且不是定量预测；跨材料图指标与条件混杂；裂纹观察不能独立证明冷却起裂；X1/X2 翻转及“首次/最早”缺乏本轮证据。
+- 后续：论文主要证据按声明范围 checked，原始重复统计、晶型/跨文献比较与正式版差异保留未决；下游具体影响见论文页，其他六篇和综合页未改。YAML、证据编号、链接与差异格式检查通过；第九阶段单篇试运行完成，未提交推送。
+
+## [2026-09-06] error-fix | 2023 RE₂SiO₅–CMAS 原位降解论文复核
+
+- 输入：用户要求继续复核下一篇；沿 2019 半径趋势问题继续复核 2023 原位降解论文。
+- 操作：通过本机 Zotero MCP 核对 TLPXY39S 的三份附件及 9513/_llm_source.json；MD 对应 T33IHQL9 中英混排附件，改以 9VVGQ2M5 英文 PDF 为主。阅读英文正文并视觉核对 pp. 4、8、9、12、13、14；建立 E1–E8，逐项替换过强总结。
+- 新建：无知识页；PDF 核查图仅写入系统临时目录。
+- 更新：wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation.md、index.md、docs/rules-improvement-plan.md、memory/context_policy.md、memory/error_log.md、log.md。
+- 发现：Ho 升温过程误归 Er；20 h 缺 Tb、50 h 缺 Tb/Dy/Ho；Fig. 18 的 5 h 趋势非严格单调。黏度来自 FactSage，2019/2023 指标及实验条件不一致，不能确证黏度造成半径反转。Fig. 15(c) 为 1223 °C，约 1400 °C 析出起始仅按正文报告。
+- 后续：ESM Fig. S1–S3、Movie S1–S3 未取得/未读；测量端点、起始时间、模型复现和下游论断保留待核。YAML、E1–E8 唯一性、源页双链及差异格式检查通过。现已按声明范围复核 2/7 篇，其余五篇和下游逐项处理；原始资料未改，未提交或推送。
+
+## [2026-09-06] update | Claude_wiki_all 版本上传
+
+- 输入：用户明确要求上传当前版本，并将上传记录命名为 Claude_wiki_all。
+- 操作：将当前规则、模板、文档及 2019/2023 论文复核改动纳入同一版本；提交名及版本标签均使用 Claude_wiki_all，上传目标为现有 origin/main。
+- 新建：版本标签 Claude_wiki_all（随本次提交创建）。
+- 更新：本次版本包含此前尚未提交的阶段完善与两篇论文修订，以及本条操作记录。
+- 发现：差异格式检查通过；本次变更为 Markdown 文档，没有新增原始 PDF 或 Zotero 附件。
+- 后续：提交后核对远程 main 与同名标签是否指向本次提交；论文复核仍为 2/7 篇按声明范围完成，其余五篇及下游待逐步处理。

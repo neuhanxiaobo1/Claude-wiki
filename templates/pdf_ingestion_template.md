@@ -1,133 +1,112 @@
 ---
 type: template
-template_for: pdf-ingestion
+template_for: pdf-ingestion-checklist
 status: active
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-09-06
 tags:
   - ingestion
 ---
 
-# PDF Ingestion Template
+# PDF Ingestion Checklist
 
-本模板用于单篇论文读取与入库前的结构化整理。最终论文页面应保存到 `wiki/papers/YYYY-ShortTitle.md`。
+本文件是阅读过程检查单，不是第二份论文卡片。工作结果写入 `templates/paper.md` 对应的 paper 页面。新入库和完整复核完整使用；局部修订只填与指定论断有关的部分。
 
-## 0. Processing Metadata
+## 1. Task Scope
 
-- Processing date: 待确认
-- Agent: `agents/pdf_read_agent.md`
-- Source type: PDF / Zotero PDF / Markdown export / 待确认
-- Source file: 待确认
-- Copied to `raw/papers/`: 是 / 否 / 待确认
-- Related existing paper page: 待确认
+- Mode: new-ingestion / full-review / local-revision
+- Target paper/page:
+- Requested claim or sections:
+- Allowed downstream changes:
+- Completion condition:
 
-## 1. Paper Metadata
+## 2. Source Identity
 
-- Title: 待确认
-- Authors: 待确认
-- Year: 待确认
-- Venue: 待确认
-- DOI / arXiv / URL: 待确认
-- Zotero collection: 待确认
-- Zotero item key: 待确认
-- Zotero attachment key: 待确认
-- PDF attachment name: 待确认
-- Citation string: 待确认
+- Bibliographic identity and identifier:
+- Source versions available: formal PDF / preprint / MinerU / translation / supplement / video / other
+- Primary reading source:
+- Zotero item / attachment (if applicable):
+- Existing page / duplicate check:
+- Source limitations:
 
-## 2. Reading Coverage
+## 3. Reading Coverage
 
-- Abstract: 已读 / 未读 / 待确认
-- Introduction: 已读 / 未读 / 待确认
-- Method: 已读 / 未读 / 待确认
-- Experiments / Results: 已读 / 未读 / 待确认
-- Discussion / Limitations: 已读 / 未读 / 待确认
-- Conclusion: 已读 / 未读 / 待确认
+| Part/material | Status | Evidence actually checked | Missing material and impact |
+|---|---|---|---|
+| Abstract/introduction | read / partial / unavailable |  |  |
+| Methods | read / partial / unavailable |  |  |
+| Results/discussion | read / partial / unavailable |  |  |
+| Conclusion/limitations | read / partial / unavailable |  |  |
+| Key figures/tables/formulas | checked / partial / unavailable |  |  |
+| Supplement/video | checked / description-only / unavailable / not needed |  |  |
 
-## 3. One-Sentence Takeaway
+PDF recheck triggers: number/unit/sign/sample/formula/trend; figure-dependent comparison; OCR/translation conflict; error bars, missing combinations or exceptions.
 
-- 待确认
+## 4. Study Design and Comparability
 
-## 4. Abstract Rewritten
+- Objects/materials/data:
+- Necessary conditions and coverage:
+- Controls/baselines and whether same-condition:
+- Metrics and operational definitions:
+- Values, units, uncertainty/repeats/statistics:
+- Measured, calculated, figure-estimated or cited:
+- Variables that change together:
+- Data source independence:
 
-- 待确认
+## 5. Key Evidence Records
 
-## 5. Research Problem
+Create only the records needed for major conclusions or disputes.
 
-- Problem:
-- Why it matters:
-- Source section/page: 待确认
+### E1
 
-## 6. Method / Model / Framework
+- Evidence type: direct observation/measurement / calculation/model / author interpretation / cited prior work / AI inference
+- Object and conditions:
+- Metric and result:
+- Source locator:
+- Supports:
+- Does not establish / alternative explanation:
+- Verification status and material checked:
 
-- Method name:
-- Core idea:
-- Key components:
-- Assumptions:
-- Source section/page: 待确认
+Repeat as E2, E3… only when needed.
 
-## 7. Innovations
+## 6. Claim Evaluation
 
-- Innovation:
-  - Evidence:
-  - Compared with:
-  - Source section/page: 待确认
-
-## 8. Experiments
-
-- Datasets / objects / materials:
-- Metrics:
-- Baselines:
-- Main results:
-- Ablation / sensitivity analysis:
-- Source tables/figures/pages: 待确认
-
-## 9. Key Claims
-
-每个重要 claim 应能回链到论文证据；重要 claim 可创建到 `wiki/claims/`。
+For each proposed key finding:
 
 - Claim:
-  - Evidence:
-  - Evidence strength: strong / weak / AI 推断 / 待确认
-  - Limitation:
-  - Source section/page: 待确认
+- Evidence IDs:
+- Support: sufficient / partial / insufficient — reason:
+- Scope and exceptions:
+- Author interpretation separated:
+- Wording risks: causal / significant / none / all / first / best / universal / superior
+- Decision: retain / narrow / withdraw / pending
 
-## 10. Limitations
+## 7. Contribution, Limitations and Open Questions
 
-- Limitation:
-  - Stated by authors: 是 / 否 / 待确认
-  - Evidence:
-  - Source section/page: 待确认
+- Author-stated contribution:
+- Contribution confirmed by this reading:
+- Author-stated limitations:
+- Additional limitations from evidence boundary (`AI 推断`):
+- Corpus gap or candidate question (optional):
+- Field gap status: not assessed / searched within stated scope / pending
 
-## 11. Potential Gaps
+## 8. Write and Propagate
 
-每个 gap 应链接或创建到 `wiki/gaps/`；无直接证据时标注 `AI 推断`。
+- Paper sections created/changed:
+- Reused evidence IDs:
+- Related pages updated within scope:
+- Downstream claims/pages marked `needs-review` or listed for review:
+- Error log needed:
+- Index change needed and reason:
+- Log entry added:
 
-- Gap:
-  - Evidence:
-  - Evidence strength: strong / weak / AI 推断 / 待确认
-  - Why it matters:
-  - Possible research question:
+## Completion Gate
 
-## 12. Links to Existing Wiki
-
-- Topics:
-- Methods:
-- Datasets:
-- Metrics:
-- Claims:
-- Gaps:
-- Reviews:
-
-## 13. Uncertainty and Follow-Up
-
-- 待确认：
-- 待核查：
-- 需要用户判断：
-
-## Maintenance Checklist
-
-- [ ] Paper page created or updated in `wiki/papers/`.
-- [ ] Related topic/method/dataset/metric/claim/gap pages checked.
-- [ ] New important pages added to `index.md`.
-- [ ] Operation appended to `log.md`.
-- [ ] Uncertain content marked as `待确认`、`待核查` or `AI 推断`.
+- [ ] Source identity and actual coverage are explicit.
+- [ ] Major findings include conditions, metric, result, locator, evidence type and verification status.
+- [ ] Author interpretation, cited work and AI inference are not presented as direct measurements.
+- [ ] Comparability and data independence were checked before rankings, ratios or synthesis.
+- [ ] Missing evidence limits only the dependent conclusion and is recorded nearby.
+- [ ] Summary wording does not exceed the evidence.
+- [ ] Local revision did not silently become a whole-page or whole-wiki rewrite.
+- [ ] Downstream impact, log and index conditions were checked.

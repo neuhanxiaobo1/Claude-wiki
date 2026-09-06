@@ -1,182 +1,83 @@
 # Import Zotero Agent
 
-本 agent 用于通过 Codex Zotero 插件 / connector 读取用户指定的 Zotero collection 或文件夹，生成候选入库清单，并在用户确认后把单篇论文交给 `agents/pdf_read_agent.md` 入库。
+本规程用于读取用户指定的 Zotero collection、识别候选论文并维护 import_plan/manifest。单篇新入库、完整复核、局部修订交给 `agents/pdf_read_agent.md`；已知论文、附件、缓存或已有页面直接进入阅读流程，不为它重建 collection 清单。
 
-本 agent 不直接深度解读论文，不批量写 paper 页面，不读取 Zotero 本地数据库文件，也不要求用户手动复制 PDF 到项目中。
+## 1. 启动与授权
 
-## 启动前读取
+- 遵循 AGENTS/context_policy 的增量读取；只读相关来源配置、已有清单、论文索引与必要的近期记录，不重复加载全部规则或历史。
+- 用户只要求候选清单时止于清单。用户已指定题名、条目标识、清单编号/范围或明确筛选条件并要求入库时，复用该授权，不再逐篇确认同一范围。
+- 编号必须绑定具体 collection 与清单版本；存在多份清单或编号歧义时先定位，必要时询问。collection 同名时优先用已给路径/key 消歧，仍不能确定才询问。
+- 批次大小遵循 project_profile 及当前用户指令；按已授权范围逐篇完成，不默认扩展至整个文库。实际目标身份不明时暂停该条，不阻断其他已确认条目。
+- 本规程不深度解读论文，不直接批量生成 paper 页面。
 
-1. `AGENTS.md`
-2. `memory/project_profile.md`
-3. `memory/hard_memory.md`
-4. `memory/context_policy.md`
-5. `memory/error_log.md`
-6. `memory/tag_taxonomy.md`
-7. `memory/term_aliases.md`
-8. `index.md`
-9. `log.md`
-10. `agents/pdf_read_agent.md`
+## 2. 来源访问与边界
 
-## 适用任务
+- 使用当前可用的 Zotero 插件/connector 读取指定 collection；先核对能力，文档不保证本机已连接或有特定工具。
+- 不遍历整个 library/storage，不读取 Zotero 本地数据库，不为候选清单扫描全部 raw/papers，不自动安装工具或搭建同步服务。
+- 读取元数据、条目标识和附件标识；只有准备阅读指定论文时才访问其附件路径或全文。附件标识不可得时记录实际缺失。
+- connector 不可用时如实说明；可继续核对已有清单、用户提供的导出元数据或已知本地来源，明确来源与更新时间，不能伪称刚从 Zotero 同步。
+- Zotero 条目、PDF、缓存正文、译文及补充材料均按 hard_memory 的原件规则保护。不要求为了阅读而复制 PDF；确需复制时按用户当前指令及已记录授权判断，复制不等于移动。
+- raw/zotero_imports 下本系统生成的 import_plan.md/manifest.json 是管理记录，可在已授权清单或入库任务内同步；该权限不延伸到其他原件或 Zotero 写操作。身份不明的文件先核实。
 
-- 用户给出 Zotero collection / 文件夹名称，要求识别其中论文。
-- 使用 Codex Zotero 插件 / connector 读取指定 collection 中的条目。
-- 读取论文元数据：题名、作者、年份、DOI、Zotero item key、附件 key。
-- 检查条目是否已存在于 `wiki/papers/` 或 `index.md`。
-- 生成候选入库清单和机器可读 manifest。
-- 等待用户确认编号后，将单篇论文交给 `pdf_read_agent.md` 入库。
+## 3. 身份、去重与状态
 
-## 不适用任务
+先用 DOI、Zotero item key 等标识核对已有 paper/index；无可靠标识时结合题名、作者、年份与版本。近似标题只是线索，不自动合并预印本、正式版或不同论文；必要时查相关日志，不回读整段历史。
 
-- 不读取 Zotero 本地数据库文件。
-- 不新增 `scripts/zotero_collection_sync.py`。
-- 不新增 `configs/zotero_sync_config.yaml`。
-- 不要求用户手动复制 Zotero PDF 到项目中。
-- 不扫描整个 Zotero storage。
-- 不扫描整个 `raw/papers/`。
-- 不修改、不删除、不重命名 Zotero 条目、附件或原始 PDF。
-- 不深度解读论文内容。
-- 不默认批量入库。
+- 待入库：未发现已有对应页，且身份足够明确；只在入库授权范围内继续。
+- 已入库：对应页面已存在，不再重复建页；若本轮要求复核或修订，转阅读流程处理原页。
+- 待核查：身份、版本、重复关系或关键来源未确定；记录具体原因和影响。可由可用证据自行解决，不强制把每个疑点转成用户确认。
+- DOI 缺失或非 Zotero 来源无 item key 不当然阻塞阅读；明确未报告、不适用或待核查。
+- 已入库/processed 仅是处理状态，不能代表 review_status: checked。
 
-## 输入要求
+## 4. 清单与 manifest
 
-执行前必须确认：
+输出到 `raw/zotero_imports/<safe_collection_name>/`。目录名需合法且不与其他 collection 冲突，保留原始名称、路径或 key；同名时用稳定标识区分，不覆盖无关清单。
 
-- Zotero collection / 文件夹名称：待确认
-- 是否只生成候选清单：默认是
-- 是否继续入库：默认否
-- 若继续入库，用户必须明确指定编号或编号范围
+import_plan.md 记录生成/更新日期、实际来源、collection 身份、版本/覆盖范围及以下表格：
 
-示例用户输入：
+| 编号 | Item key | Attachment key | 题名 | 作者 | 年份 | DOI | 已有页面 | 推荐状态 | 原因/备注 |
+|---|---|---|---|---|---|---|---|---|---|
 
-```text
-使用 import_zotero.md 读取 Zotero collection：Example Collection，先生成候选清单，不要入库。
-```
-
-```text
-根据 raw/zotero_imports/Example Collection/import_plan.md，入库编号 1 和 3。
-```
-
-## Zotero 插件读取规则
-
-- 默认通过 Codex Zotero 插件 / connector 读取用户指定 collection。
-- 只读取该 collection 中的论文条目。
-- 如果 collection 名称不唯一，必须让用户确认目标 collection。
-- 只在准备入库具体论文时读取该条目的附件路径或全文。
-- 不遍历整个 Zotero library。
-- 不扫描整个 Zotero storage。
-- 不修改 Zotero library。
-
-## 候选条目字段
-
-每个候选条目至少记录：
-
-- 编号
-- Zotero collection 名称
-- Zotero item key
-- Zotero attachment key，如果有
-- 论文题名
-- 作者
-- 年份
-- DOI
-- 是否已有 `wiki/papers/` 页面
-- 推荐状态：待入库 / 已入库 / 待核查
-- 备注
-
-## 去重检查
-
-对每个 Zotero 条目，至少检查：
-
-- `wiki/papers/` 中是否已有相同或近似标题页面。
-- `index.md` 是否已有相同标题、DOI、Zotero item key 或 arXiv ID。
-- `log.md` 是否记录过该论文入库。
-- 若有 DOI，优先用 DOI 判断重复。
-- 若无 DOI，使用标题、作者、年份和 Zotero item key 判断。
-
-推荐状态：
-
-- `待入库`：未发现重复，可由用户确认后入库。
-- `已入库`：已存在对应 wiki/papers 页面，不重复处理。
-- `待核查`：元数据缺失、疑似重复或匹配不确定。
-
-## 输出位置
-
-每次读取 Zotero collection 后，生成：
-
-```text
-raw/zotero_imports/<collection_name>/import_plan.md
-raw/zotero_imports/<collection_name>/manifest.json
-```
-
-如果 collection 名称包含不适合文件名的字符，应使用安全文件夹名，并在文件中记录原始 collection 名称。
-
-## import_plan.md 格式
-
-```markdown
-# Zotero Import Plan: <collection_name>
-
-- Generated: YYYY-MM-DD
-- Source: Zotero plugin / connector
-- Collection: <collection_name>
-- Status: draft
-
-| 编号 | Zotero collection | Zotero item key | Attachment key | 论文题名 | 作者 | 年份 | DOI | 已有 wiki/papers | 推荐状态 | 备注 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 待确认 | 待确认 | 待确认 | 待确认 | 待确认 | 待确认 | 待确认 | 否 | 待入库 |  |
-```
-
-## manifest.json 结构
+manifest.json 使用对应字段，例如（示例占位不是真实数据）：
 
 ```json
 {
-  "collection_name": "待确认",
-  "generated": "YYYY-MM-DD",
-  "source": "zotero-plugin",
+  "collection_name": "<原始名称>",
+  "collection_key": null,
+  "collection_path": null,
+  "generated": "<实际日期>",
+  "source": "<实际 connector 或导出来源>",
+  "coverage": "<完整或部分；说明未读取范围>",
   "items": [
     {
       "number": 1,
-      "collection_name": "待确认",
-      "zotero_item_key": "待确认",
-      "zotero_attachment_key": "待确认",
-      "title": "待确认",
-      "authors": ["待确认"],
-      "year": "待确认",
-      "doi": "待确认",
+      "collection_name": "<原始名称>",
+      "zotero_item_key": null,
+      "zotero_attachment_key": null,
+      "title": "<题名>",
+      "authors": [],
+      "year": null,
+      "doi": null,
       "existing_wiki_page": null,
-      "recommended_status": "待入库",
-      "notes": ""
+      "recommended_status": "待核查",
+      "notes": "<缺失原因及影响>"
     }
   ]
 }
 ```
 
-## 执行流程
+- 实际 JSON 必须可解析，缺失值用 null/空列表并在 notes 说明，不补造元数据。
+- 刷新已有清单时保留稳定编号、用户备注和已处理记录；新候选追加编号。旧候选移出 collection 时标记变化，不重用编号或静默抹去历史。
+- 部分读取不能宣称完整覆盖，也不能据未返回条目推断已移除。
+- 两份记录的编号、身份、已有页面与推荐状态须一致。旧格式只迁移本轮需要部分，不机械重建所有 collection。
 
-1. 确认用户指定的 Zotero collection / 文件夹名称。
-2. 使用 Zotero 插件 / connector 读取该 collection。
-3. 提取条目元数据和附件 key。
-4. 检查 `wiki/papers/`、`index.md` 和 `log.md`，判断是否已入库。
-5. 生成 `import_plan.md` 和 `manifest.json`。
-6. 向用户汇报候选数量、已入库数量、待入库数量、待核查数量。
-7. 等待用户选择编号或编号范围。
-8. 对用户确认的单篇论文，交给 `pdf_read_agent.md` 读取附件并入库。
+## 5. 执行与收尾
 
-## 批量入库规则
+1. 确定目标、来源和本轮是列候选还是同时入库。
+2. 读取指定范围，核对身份与重复，生成或增量更新两份记录。
+3. 只列候选时报告数量、覆盖与未决项；尚无具体入库授权时等待选择。
+4. 已获入库/修订授权时直接交给 pdf_read_agent，逐篇按对应模式处理；已有页保持原路径。
+5. 以实际成功建页结果同步推荐状态；失败或未完成条目记录原因，不提前标已入库。
+6. 检查两份记录一致性、原件保护与实际覆盖。重要操作追加 log、实际错误写 error_log，index 仅按成员/说明/重要状态变化维护。
 
-- 默认禁止批量入库。
-- 用户必须明确指定编号或编号范围，例如 `入库编号 1-3`。
-- 对 `已入库` 条目不重复入库。
-- 对 `待核查` 条目必须先确认，不自动入库。
-
-## 收尾检查
-
-完成前确认：
-
-- 是否只读取了用户指定 collection。
-- 是否没有扫描整个 Zotero storage。
-- 是否没有扫描整个 `raw/papers/`。
-- 是否没有修改、删除、重命名 Zotero 条目或 PDF。
-- 是否生成了 `import_plan.md`。
-- 是否生成了 `manifest.json`。
-- 是否等待用户确认后才把论文交给 `pdf_read_agent.md`。
-- 是否更新了 `log.md`。
+汇报本轮交付、已完成与未决项即可；不强制输出整份清单或整篇论文。

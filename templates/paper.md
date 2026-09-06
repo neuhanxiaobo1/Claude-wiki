@@ -5,113 +5,139 @@ year: 待确认
 authors: 待确认
 venue: 待确认
 status: processed
+review_status: draft
 created: 待确认
 updated: 待确认
 source: 待确认
+source_version: 待确认
 zotero_collection: 待确认
 zotero_item_key: 待确认
 zotero_attachment_key: 待确认
 pdf_attachment_name: 待确认
 doi: 待确认
-topics:
-methods:
-datasets:
-metrics:
-claims:
-gaps:
+topics: []
+methods: []
+datasets: []
+metrics: []
+claims: []
+gaps: []
 tags:
   - paper
 ---
 
 # {{title}}
 
-## Metadata
+删除不适用的可选栏目和空占位符。`status` 表示卡片处理状态；`review_status` 使用 `draft / checked / needs-review`，不能由已有页面自动继承为 checked。
 
-- Title: 待确认
-- Authors: 待确认
-- Year: 待确认
-- Venue: 待确认
-- DOI / arXiv / URL: 待确认
-- Source file: 待确认
-- Zotero collection: 待确认
-- Zotero item key: 待确认
-- Zotero attachment key: 待确认
-- PDF attachment name: 待确认
+## Metadata and Sources
 
-## Reading Status
+- Citation:
+- DOI / arXiv / other identifier:
+- Primary source and version:
+- Zotero collection / item / attachment (if applicable):
+- Other materials checked: PDF / MinerU / translation / supplement / video / other
+- Source limitations:
 
-- Coverage: abstract / introduction / method / experiments / limitations / conclusion / 待确认
-- Confidence: high / medium / low / 待确认
-- Missing sections: 待确认
+## Reading and Verification Status
 
-## One-Sentence Takeaway
+- Processing mode: new-ingestion / full-review / local-revision
+- Sections read:
+- Figures/tables/formulas rechecked:
+- Supplement/video status:
+- Missing material and affected conclusions:
+- Scope covered by `review_status`:
 
-- 待确认
+## Takeaway
 
-## Abstract Rewritten
+用一至三句话说明在什么条件和指标下得到什么主要认识，并指出最重要的证据边界。最后填写，不得强于下方证据。
 
-- 待确认
+## Research Problem and Contribution
 
-## Research Problem
-
-- Problem:
+- Research problem:
 - Why it matters:
-- Source:
+- Author-stated contribution:
+- Contribution supported by this reading:
+- Novelty status: confirmed within stated search scope / author claim only / not assessed
 
-## Method
+## Study Design
 
-- Method summary:
-- Key components:
-- Assumptions:
-- Source:
+| Element | Details | Source |
+|---|---|---|
+| Objects/materials/data |  |  |
+| Conditions and actual coverage |  |  |
+| Controls/baselines |  |  |
+| Metrics and operational definitions |  |  |
+| Measurement/model and assumptions |  |  |
+| Uncertainty/repeats/statistics |  |  |
 
-## Innovations
+只记录理解主要结论所需的设计。领域专属条件可增行；未报告写“原文未报告”。
 
-- Innovation:
-  - Evidence:
-  - Source:
+## Key Evidence
 
-## Experiments
+### E1 — {{short evidence label}}
 
-- Datasets / objects / materials:
-- Metrics:
-- Baselines:
-- Main results:
-- Ablation / sensitivity analysis:
-- Source tables/figures/pages:
+- Evidence type: direct observation/measurement / calculation/model / author interpretation / cited prior work / AI inference
+- Object and conditions:
+- Metric and result:
+- Source locator: section / figure / table / equation / PDF page
+- Supports:
+- Does not establish / alternative explanation:
+- Verification status: checked against … / text only / pending because …
 
-## Key Claims
+按需要增加 E2、E3。核心证据只在这里记录一次，其他章节引用编号。
 
-- Claim:
-  - Evidence:
-  - Evidence strength: strong / weak / AI 推断 / 待确认
-  - Related page:
+## Findings and Interpretation
 
-## Limitations
+### Finding 1
 
-- Limitation:
-  - Stated by authors: 是 / 否 / 待确认
-  - Evidence:
-  - Source:
+- Finding:
+- Evidence: E#
+- Support: sufficient / partial / insufficient — reason
+- Applies to:
+- Does not establish / exceptions:
+- Author interpretation:
+- This reading's assessment:
 
-## Potential Gaps
+只保留重要 finding。观察结果、作者解释和本次评价分别写；不得把 cited prior work 当作本文直接数据。
 
-- Gap:
-  - Evidence strength: strong / weak / AI 推断 / 待确认
-  - Related page:
+## Conclusions for Reuse
+
+- Retain:
+- Narrow:
+- Withdraw or pending:
+- Safe wording for later synthesis:
+
+这一节是下游 claim 和综述可引用的入口。每条必须回指 Finding/E#，并保留适用条件。
+
+## Limitations and Open Questions
+
+- Author-stated limitation:
+- Evidence-boundary limitation (`AI 推断`):
+- Corpus gap / candidate research question (optional):
+- Field gap status: not assessed / searched within stated scope / pending
+
+“本文没做”不能自动写成全领域 gap。没有可靠 gap 时可以省略候选问题。
 
 ## Relation to Existing Wiki
 
 - Supports:
-- Challenges:
+- Challenges or limits:
 - Extends:
-- Contradicts:
+- Comparison status: directly comparable / qualitative only / not directly comparable — reason
+
+## Downstream Review
+
+- Updated within this task:
+- Needs review: page + affected claim + reason
+- Unaffected after check:
+
+来源修正后列具体论断，不将整篇或整库笼统标成失效。未完成复核的旧下游结论不能继续作为确定依据。
 
 ## Notes for Review Writing
 
-- 可用于综述的位置：
-- 可引用论断：
-- 待补证据：
+- Possible section/function:
+- Safe claim and evidence IDs:
+- Missing evidence before use:
 
 ## Linked Pages
 
@@ -123,15 +149,11 @@ tags:
 - Gaps:
 - Reviews:
 
-## Uncertainty
+## Maintenance
 
-- 待确认：
-- 待核查：
-- AI 推断：
-
-## Maintenance Checklist
-
-- [ ] Added to `index.md`.
-- [ ] Operation added to `log.md`.
-- [ ] Tags checked against `memory/tag_taxonomy.md`.
-- [ ] Terms checked against `memory/term_aliases.md`.
+- [ ] Page path, metadata and source identity checked.
+- [ ] Evidence types, support and verification status separated.
+- [ ] Conditions, metric definitions and independent source status checked.
+- [ ] Related pages were updated only within scope or listed under Downstream Review.
+- [ ] `log.md` appended; `index.md` changed only when navigation, description or important status changed.
+- [ ] Tags and aliases checked when new terms/pages were introduced.

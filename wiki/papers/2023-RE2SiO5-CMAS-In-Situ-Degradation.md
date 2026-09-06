@@ -5,13 +5,15 @@ year: 2023
 authors: Tian Zhilin; Ming Keyu; Zheng Liya; Chen Zhilin; Zhou Fan; Liu Peng; Qiu Zihao; Wei Donghui; Li Bin; Wang Jingyang
 venue: Journal of Advanced Ceramics
 status: processed
+review_status: checked
 created: 2026-08-23
-updated: 2026-08-24
-source: llm-for-zotero-mineru/9513/full.md（MinerU 解析缓存）
+updated: 2026-09-06
+source: Zotero 9VVGQ2M5 英文 PDF；9513/full.md 为 T33IHQL9 中英混排附件缓存
+source_version: Journal of Advanced Ceramics 12(12), 2315–2330；英文正文优先
 zotero_collection: 毕设 > 组内文章 > 博士 > 田老师
 zotero_item_key: TLPXY39S
-zotero_attachment_key: T33IHQL9
-pdf_attachment_name: 待确认（PDF 附件 x3）
+zotero_attachment_key: 9VVGQ2M5
+pdf_attachment_name: Tian 等 - 2023 - In-situ observation and mechanism of calcium–magnesium–alumina–silicate (CMAS) melts-induced 2.pdf
 doi: 10.26599/JAC.2023.9220822
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
@@ -35,167 +37,143 @@ tags:
 
 # In-situ observation and mechanism of CMAS melts-induced degradation of RE2SiO5 ceramics at 1500 °C
 
-## Metadata
+## Metadata and Sources
 
-- Title: In-situ observation and mechanism of calcium–magnesium–alumina–silicate (CMAS) melts-induced degradation of RE2SiO5 (RE = Tb, Dy, Ho, Y, Er, Tm, and Yb) ceramics at 1500 °C
-- Authors: Tian Zhilin, Ming Keyu, Zheng Liya, Chen Zhilin, Zhou Fan, Liu Peng, Qiu Zihao, Wei Donghui, Li Bin, Wang Jingyang（中山大学深圳校区材料学院；东北大学冶金学院；中科院金属所）
-- Year: 2023
-- Venue: Journal of Advanced Ceramics（先进陶瓷）
-- DOI / arXiv / URL: 10.26599/JAC.2023.9220822
-- Source file: MinerU 缓存 `llm-for-zotero-mineru/9513/full.md`
-- Zotero collection: 毕设 > 组内文章 > 博士 > 田老师
-- Zotero item key: TLPXY39S
-- Zotero attachment key: T33IHQL9
+- Citation: Zhilin Tian, Keyu Ming, Liya Zheng, Zhilin Chen, Fan Zhou, Peng Liu, Zihao Qiu, Donghui Wei, Bin Li, Jingyang Wang. Journal of Advanced Ceramics 12(12) (2023), 2315–2330. DOI: [10.26599/JAC.2023.9220822](https://doi.org/10.26599/JAC.2023.9220822)。
+- Zotero item：`TLPXY39S`；本轮通过 MCP 核对三份 PDF 附件，均 16 页。英文正文附件为 `9VVGQ2M5`（文件名末尾 2.pdf）；`T33IHQL9`（1.pdf）为中英混排，`GIEZI8NS` 为翻译附件。
+- 英文 PDF：`C:/Users/youthcookie/OneDrive/1.Science/1.Zotero/pdf2/2023-(J. Adv. Ceram.)/Tian 等 - 2023 - In-situ observation and mechanism of calcium–magnesium–alumina–silicate (CMAS) melts-induced 2.pdf`。
+- MD：`D:/shuju/zotero1/llm-for-zotero-mineru/9513/full.md`；`_llm_source.json` 确认其对应 T33IHQL9，而非英文附件。混排/OCR 只作辅助，关键事实回查英文 PDF。
+- 本页 PDF p. 1–16 对应印刷页 2315–2330；出版年份按卷期保留 2023。出版平台另标线上发布日 2024-01-04，二者不混用。[出版社页面](https://www.sciopen.com/article/10.26599/JAC.2023.9220822)
 
-## Reading Status
+## Reading and Verification Status
 
-- Coverage: abstract / introduction / method / experiments / limitations / conclusion（MinerU full.md 全文，含 ESM 说明与参考文献）
-- Confidence: high
-- Missing sections: 无（ESM Movie S1–S3 为视频，正文已覆盖其要点）
+- 模式：full-review；2026-09-06 完成现有主要结论复核及源页修订。
+- 已读：MD 的来源/摘要/引言；英文 PDF 的摘要、引言、方法、结果、讨论、结论及参考文献目录。正文阅读以英文版本为准。
+- 重点视觉核对：PDF pp. 4、8、9、12、13、14（Fig. 2/3、8、9/10、15、16/17、18），覆盖样品、物相、时长缺失、原位图、黏度与渗透深度趋势。
+- **未读取 ESM 实体**：出版社列出 JAC0822_ESM.pdf 和 Movie S1–S3，本轮页面未提供可直接调用的附件下载链接；现有 Zotero 条目未列这些附件。正文/截图已读不等于视频已播放。S1–S3 的测量标记及视频起始时刻仍待核查。
+- checked 仅表示下列已声明的正文/图示结果、解释边界与纠错完成；未决的 ESM 测量复现、视频时间核验、模型参数及跨文献比较不自动通过。
 
-## One-Sentence Takeaway
+## Takeaway
 
-- 这篇论文的关键贡献不是简单证明 RE2SiO5 会被 CMAS 腐蚀，而是把 1500 °C 高温下的 CMAS 反应拆成三个耦合过程：低粘度熔体驱动快速传质与 Ca2RE8(SiO4)6O2 沿 [001] 优先生长，冷却到约 1400 °C 时又因 REO1.5 溶解度下降诱发短晶粒二次析出，同时大 RE 阳离子样品因更易被 CMAS 润湿而发生熔体流失，使 1500 °C 的抗蚀排序不能直接套用 1300 °C 的 RE 半径规律。
+本文在 1500 °C 的块体实验中报告 Ca₂RE₈(SiO₄)₆O₂ 产物及不同 RE 成分的渗透深度，并用 Ho 的升温过程和 Er 的保温/冷却观察展示熔体流失与析出行为（E1–E4）。冷却能改变最终观察到的产物形貌；但“黏度下降造成 RE 效应弱化或反转”仍是结合计算和转引对照的解释，不能视为已控制其他变量的因果结果（E5–E7）。
 
-## Abstract Rewritten
+## Research Problem and Contribution
 
-- 论文围绕第三代 EBC 候选材料 RE2SiO5 在 1500 °C 级 CMAS 环境下的失效机制展开。作者选取 Tb、Dy、Ho、Y、Er、Tm、Yb 七种单硅酸盐，使用 33CaO-9MgO-13AlO1.5-45SiO2 CMAS，在 1500 °C 下进行 5/20/50 h 腐蚀，并结合 XRD、SEM-EDS、超深场显微、高温接触角、FactSage 粘度计算与原位观察。实验确认所有成分的主腐蚀产物均为六方 Ca2RE8(SiO4)6O2；其 (200)/(300) 峰增强和六角棱柱形貌说明晶粒沿 [001] 方向快速生长并优先暴露 (100) 面，残余 CMAS 熔体提供了快速传质通道，长晶粒可超过 400 μm。
+作者关注较高温度下 RE₂SiO₅ 与 CMAS 的相互作用及产物形成过程。可确认的贡献为七种成分的部分时长比较，以及有限样品上的原位观察；并非完整七成分 × 三时长矩阵，也不是覆盖所有 RE 的原位试验。引言已列举先前 1500 °C 工作 [28,29]，撤回“填补此前无人研究的高温空白”等绝对新颖性结论；本轮未做领域首创性检索。
 
-- 更重要的是，论文把高温阶段和冷却阶段的产物形成机制区分开来：Er2SiO5 原位实验中，CMAS 约 1300 °C 熔化，1500 °C 保温约 1 h 后 Ca2Er8(SiO4)6O2 缓慢析出并在熔体中继续长大；而冷却至约 1400 °C 时，大量 50–100 μm 的短水平晶粒从残余 CMAS 中快速析出，说明冷却过程会因 REO1.5 饱和度变化而额外生成腐蚀产物。与 1300 °C 原位对照相比，1500 °C 下 CMAS 粘度降至 1300 °C 的 1/4 以下，传质与反应显著加快，RE 种类对腐蚀速率的控制被削弱。因此，该文对综述最有价值的结论是：1500 °C 级服役不能只按 1300 °C 的形成焓-RE 半径规律判断抗蚀性，还必须同时考虑熔体粘度、润湿流失、冷却析出和实际热循环。
+## Key Evidence
 
-## Research Problem
+### E1
 
-- Problem: 稀土硅酸盐 EBC 的 CMAS 腐蚀研究集中在 1300–1400 °C；随 HfO2–Si 粘结层将 EBC 使用温度推至 1482 °C 以上，RE2SiO5 在 ≥1500 °C 的 CMAS 降解机制缺乏认识，且高温 CMAS 诱导腐蚀的原位观察仍是挑战。
-- Why it matters: 扩散、反应、粘度等腐蚀相关过程均为热激活，1500 °C 下 CMAS 侵蚀将显著加剧，直接决定第三代 EBC 的服役上限。
-- Source: full.md 引言
+**对象、条件和实际覆盖｜方法及本文表征。**
 
-## Method
+- RE = Tb、Dy、Ho、Y、Er、Tm、Yb。1550 °C/1.5 h 制粉，冷等静压 200 MPa/15 min，1550 °C/10 h 无压烧结块体；密度大于理论值 92%，晶粒约 1.6–2.9 μm。Tm/Yb 样品检出少量 RE₂Si₂O₇ 杂相，不能称全部纯相或完全同微结构。
+- CMAS：33CaO–9MgO–13AlO₁.₅–45SiO₂，按该氧化物单元的摩尔口径；13AlO₁.₅ 不等于 13Al₂O₃。CMAS 1200 °C/24 h 预处理，表面涂覆 35 mg/cm²，1500 °C 马弗炉暴露。
+- 5 h：七种均有结果；20 h：Dy/Ho/Y/Er/Tm/Yb，**缺 Tb**；50 h：Y/Er/Tm/Yb，**缺 Tb/Dy/Ho**。作者将缺失归因于熔体流下边缘，不补零值或推断缺失样品长期最好。
+- 定位：§2、§3，PDF pp. 2–3、5、7–9；Fig. 1–12。已读英文正文与关键图示。本文未给出独立控制孔隙、杂相及熔体剩余量的完整实验设计。
 
-- Method summary: 固相烧结制备块体 RE2SiO5 + CMAS 浆料涂覆（35 mg/cm²）+ 1500 °C 马弗炉腐蚀 5/20/50 h + XRD/SEM-EDS/超深场显微镜/自制高温接触角仪/FactSage 粘度计算 + 高温原位观察（相机记录，ESM Movie S1–S3）。
-- Key components: 7 种 RE2SiO5（RE = Tb, Dy, Ho, Y, Er, Tm, Yb，1550 °C 无压烧结 10 h，密度 >92% 理论密度，晶粒 1.6–2.9 μm）；CMAS 成分 33CaO–9MgO–13AlO1.5–45SiO2（mol%），1200 °C 煅烧 24 h；1300 °C 腐蚀作对照。
-- Assumptions: 以 CMAS 渗透深度（截面 SEM 测量原始表面至渗透最深位置）作为 CMAS 抗性判据；以 FactSage 计算粘度替代实测。
-- Source: full.md §2 实验
+### E2
 
-## Innovations
+**产物与形貌｜XRD/SEM/EDS 观察，晶体生长方向为作者解释。**
 
-- Innovation: 首次系统研究 7 种 RE2SiO5 在 1500 °C 的 CMAS 腐蚀，填补 ≥1500 °C 高温 CMAS 腐蚀机制空白。
-  - Evidence: 引言明确指出现有研究集中在 1300–1400 °C、1500 °C 研究很少；本文 7 种成分 × 3 个时长系统实验。
-  - Source: full.md 引言、§3
+- 所报告样品/时长中主要产物为 Ca₂RE₈(SiO₄)₆O₂；5 h 图示覆盖七种。长六角棱柱状晶粒与增强的 (200)/(300) 峰被作者用于解释 [001] 优先生长、(100) 面优先暴露。
+- 不能仅以相对峰强就当作独立取向/生长速率测量；未报告某产物也不等于排除了所有微量相。
+- §3 报告部分晶粒长度可超过 400 μm，**这是产物晶粒长度，不是 CMAS 渗透深度**。
+- 截面中 Dy/Ho/Y/Er 的较致密产物层及较平界面，与 Tm/Yb 的粗糙、局部伸入基体的界面形成对比。作者解释为反应层阻碍进一步溶解；这不是独立测得扩散阻断系数。
+- 定位/核查：§3、§4.1；Fig. 3–9、11–14；重点查看 PDF pp. 4、8、9 的 XRD/截面。观察可保留，晶面暴露及阻碍机制按解释使用。
 
-- Innovation: 新型高温原位观察方法，首次原位记录 Ca2RE8(SiO4)6O2 在 CMAS 熔体中的析出与生长，区分「高温阶段生长」与「冷却阶段析出」两类晶粒形成机制。
-  - Evidence: Movie S1–S3 + 图 10/15；1500 °C 原位观察 1 h 后产物缓慢析出，冷却至 1400 °C 大量短水平晶粒析出；1300 °C 原位对照 2.5 h 无产物。
-  - Source: full.md §4.1
+### E3
 
-## Experiments
+**升温润湿及熔体流失｜Ho₂SiO₅ 原位图，不是 Er。**
 
-- Datasets / objects / materials: 7 种 RE2SiO5 块体陶瓷（RE = Tb, Dy, Ho, Y, Er, Tm, Yb）；CMAS 玻璃（33CaO-9MgO-13AlO1.5-45SiO2）。
-- Metrics: 反应产物相组成与形貌（XRD/SEM）、CMAS 渗透深度、接触角、粘度（FactSage 计算）。
-- Baselines: 1300 °C 腐蚀（文献与本文原位对照）；腐蚀时长 5/20/50 h 梯度。
-- Main results:
-  - 1500 °C/5 h：所有 RE2SiO5 表面生成 Ca2RE8(SiO4)6O2（六方 P63/m，六角棱柱晶粒），(200)/(300) 峰显著增强表明优先暴露 (100) 面；晶粒长达 >400 μm，残余 CMAS 为其生长提供快速传质通道。
-  - 原位观察（Er2SiO5）：CMAS 1310 °C 开始熔化、1330 °C 成半球滴、1350 °C 润湿整个表面；1500 °C 保温约 1 h 后 Ca2Er8(SiO4)6O2 缓慢析出且晶粒可在熔盐中流动；冷却至 1400 °C 时大量 50–100 μm 短水平晶粒析出。
-  - 1300 °C 对照：Er2SiO5 与 CMAS 反应 2.5 h 无产物析出，与 1500 °C 形成鲜明对比。
-  - FactSage 粘度：CMAS 在 1300 °C 的粘度是 1500 °C 的 4 倍以上。
-  - 渗透深度：1300 °C 时随 RE³⁺ 半径减小近线性减小（与 Ca2RE8(SiO4)6O2 形成焓关联，Costa et al.）；1500 °C 时渗透深度随 RE³⁺ 半径减小仅缓慢增加，RE 种类影响弱化，大 RE 阳离子（Tb、Dy、Ho、Y、Er）抗性更好。
-  - 界面形貌：Tb/Dy/Ho/Y/Er 反应区界面平滑（致密产物层阻碍 RE2SiO5 溶解）；Tm/Yb 界面粗糙，产物向基体生长甚至渗入基体。
-  - 润湿性副作用：CMAS 对大 RE 阳离子 RE2SiO5 润湿性更好，1405 °C 起沿样品边缘流下，导致 Tb/Dy/Ho 的 50 h 腐蚀数据缺失。
-  - 晶粒尺寸（1.6–2.9 μm，差异小）与孔隙率（3.1–7.7%，孤立闭孔）对 CMAS 渗透影响弱；未发现显著晶界腐蚀。
-- Source tables/figures/pages: 图 1–18、图 S1–S3、Movie S1–S3
+- Fig. 10 的对象是 Ho₂SiO₅：正文报告约 1310 °C 开始熔化，1330 °C 成滴，1350 °C 铺展，1405 °C 开始沿边缘流下，1475 °C 出现熔体波动。
+- 作者据此解释大 RE 样品容易流失 CMAS。图证支持该 Ho 样品的形态演变与流失，不能单独建立七种成分的定量接触角排序。
+- 该原位试验放置块状 CMAS，不能默认与 35 mg/cm² 涂覆暴露具有相同供液边界。流失既造成 E1 的缺测，也限制“固有抗蚀性”解释。
+- 定位/核查：§3，PDF pp. 8–9、Fig. 10；图与文字已核对。Movie S1 未播放，不能报告已核验连续动态或精确起点。
 
-## Key Claims
+### E4
 
-- Claim: 1500 °C 下 CMAS 与 RE2SiO5 的主要反应产物为 Ca2RE8(SiO4)6O2（六方 P63/m），沿 [001] 优先生长、优先暴露 (100) 晶面。
-  - Evidence: 7 种 RE2SiO5 腐蚀后 XRD 均检出该相且 (200)/(300) 峰异常强；SEM 显示长六角棱柱晶粒（>400 μm）。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+**保温与冷却析出｜Er₂SiO₅ 原位图及作者报告。**
 
-- Claim: 冷却过程（约 1400 °C）促进短而水平分布的 Ca2RE8(SiO4)6O2 析出，与高温阶段（>1400 °C）生长的长晶粒属不同形成机制（REO1.5 在 CMAS 中溶解度随温度降低而下降）。
-  - Evidence: Er2SiO5 原位观察（Movie S2、图 15）：降温至 1400 °C 大量短晶粒从残余熔体水平析出。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+- §4.1 报告 1500 °C 保温约 1 h 后 Ca₂Er₈(SiO₄)₆O₂ 逐渐可见并长大；冷却至约 1400 °C 开始有较多约 50–100 μm 的短、水平晶粒析出。
+- Fig. 15(a,b) 是 1500 °C 保温帧，但 (c) 的屏显温度是 **1223 °C**。因此“约 1400 °C 起始”来自正文对视频的描述，不能写成 Fig. 15(c) 直接显示的温度；Movie S2 未读，起始温度/时刻尚待逐帧验证。
+- 1300 °C 的 Er 对照：正文说约 2.5 h 未在熔体中观察到 Ca₂Er₈(SiO₄)₆O₂；**未见可见析出不等于无溶解、无反应或界面无产物**。Fig. 15(d–f) 是选帧，其中 (f) 为冷却后的 995 °C，不能全部标为 1300 °C 保温帧；Movie S3 未读。
+- 作者将冷却析出解释为 REO₁.₅ 溶解度/饱和条件随温度变化；本研究没有定量测得该溶解度曲线。可保留冷却改变可见产物的现象，不升级为七种成分均有同一起始温度、同一机制。
+- 定位/核查：§4.1，PDF p. 12（2326）、Fig. 15。文字及温标已核对，视频覆盖明确未完成。
 
-- Claim: 1500 °C 时 CMAS 粘度降至 1300 °C 的 1/4 以下，加速传质与腐蚀反应速率，使 RE 种类对 CMAS 抗性的影响弱化（区别于 1300 °C 下渗透深度随 RE³⁺ 半径减小近线性减小的规律）。
-  - Evidence: FactSage 粘度计算（图 16）；1500 °C 渗透深度数据分散度小（图 18(a)）。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+### E5
 
-- Claim: 大 RE 阳离子的 RE2SiO5 在 1500 °C 下 CMAS 抗性更好（渗透深度更小）。
-  - Evidence: 渗透深度随 RE³⁺ 半径减小缓慢增加（图 18(a)）；大阳离子体系形成致密产物层抑制进一步腐蚀（图 18(b)）。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+**黏度与反应速率｜FactSage 计算 + 理论解释。**
 
-- Claim: CMAS 对大 RE 阳离子 RE2SiO5 润湿性更好，导致熔体沿样品边缘流失（Tb/Dy/Ho 50 h 实验因此缺失）。
-  - Evidence: Ho2SiO5 原位观察（Movie S1、图 10）：1405 °C CMAS 开始沿边缘流下。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+- §2.3、§4.1 与 Fig. 16 说明黏度来自 FactSage 计算。作者报告 1300 °C 计算黏度超过 1500 °C 的四倍；不是本文直接黏度测量，也不是腐蚀深度或速率的四倍关系。
+- Eq. (1) ζ = A exp(−E/RT) 用于定性解释升温效应；没有拟合本文样品的活化能 E 或独立反应速率常数。
+- 正文没有足够的数据库/模型设置供本轮复现黏度曲线；没有控制黏度而保持其他量不变的实验，也未测量随反应演化的熔体黏度。因此降低黏度、增加溶解度/反应速率的联合作用可作为作者解释，不能单独证明“黏度导致 RE 差异消失”。
+- 定位/核查：PDF pp. 3、12–13，Fig. 16 与 Eq. (1)；原图/公式已核对。
 
-## Limitations
+### E6
 
-- Limitation: 因 CMAS 流失，Tb/Dy/Ho 的 50 h 腐蚀数据缺失；原位观察仅针对 Er2SiO5（1500 °C 与 1300 °C）和 Ho2SiO5（升温过程），其余成分靠离位表征推断。
-  - Stated by authors: 是
-  - Evidence: §3 多处注明「CMAS flowed down the edge」
-  - Source: full.md §3
+**渗透深度与成分｜截面测量的报告结果。**
 
-- Limitation: 渗透深度为截面二维表征，未给出腐蚀动力学定量模型；REO1.5 在 CMAS 中的溶解度差异为定性推断，未直接测量。
-  - Stated by authors: 否
-  - Evidence: §4.1 讨论以溶解度与阿伦尼乌斯方程定性解释
-  - Source: full.md §4.1
+- §4.2 将渗透深度定义为**原始表面至 CMAS 渗透最深处**；操作示意见 ESM Fig. S1–S3。本轮核对定义和 Fig. 18，但未取得 ESM，尚不能复核所有测量端点与原始统计。
+- Fig. 18(a) 的 5 h 曲线呈非严格单调形态：小半径端较深，但大半径端 Tb 也高于中间部分成分；不能概括为每个时点都随半径减小单调加深。
+- 20/50 h 曲线覆盖不同的成分子集；Fig. 18(b) 仅比较 **Y、Er、Tm、Yb 四种**的时间变化，不是七种全覆盖。曲线显示渗透继续增加，不能说完全停止。
+- 原图有误差棒，但本轮已读正文/图注未找到独立重复数、误差定义或成分差异统计检验；不把“not as significant”翻译成已作显著性检验的结论。未将图上估读数写成精确原始值。
+- 定位/核查：§4.2、Fig. 18，PDF pp. 13–14；原图已看。可保留实际子集中的有限趋势；“所有大 RE 成分在 1500 °C 更优”的普遍排名证据不足，且受流失/杂相/孔隙等边界限制。
 
-- Limitation: 仅有 1300 °C 与 1500 °C 两个温度，无中间温度（1400 °C）体系数据。
-  - Stated by authors: 否
-  - Evidence: 实验设计仅设两个温度点
-  - Source: full.md §2.2
+### E7
 
-## Potential Gaps
+**1300/1500 °C 与热化学比较｜本文观察、既有数据和作者推断混合。**
 
-- Gap: 1500 °C 下 RE 种类对 REO1.5 在 CMAS 中溶解度的定量影响尚未直接测量，是理解高温 CMAS 抗性成分依赖的关键。
-  - Evidence strength: AI 推断
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+- §4.2 的 1300 °C 成分趋势指向 [25]，即 [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]。该文实际测的是衰退层厚度，从溶解前沿到含磷灰石层顶部；本文称其为 infiltration depth，不能据名称直接把两个指标合并。
+- 两研究还有制备方式、密度、负载（30/35 mg/cm²）、凹坑储池与流失条件、成分覆盖及时间差异。当前不足以确认“仅升温造成半径规律反转”，也不能把被转引的 1300 °C 数据再计为独立复现。
+- 本文自己的 Er 1300/1500 °C 原位观察是另一个比较，范围是可见析出行为；不是七种样品同条件层厚温度实验。
+- Fig. 17 是 Tb 在 1300 °C/50 h 与 1500 °C/5 h 的形貌比较，温度与时长共同改变，不能据此计算单独温度效应。
+- Costa [31] 的形成焓为外部量热来源，本文没有新测形成焓。本轮确认转引身份，不对该原始量热重新作完整复核；形成焓不能单独等同腐蚀自由能或速率。
+- 定位：§1、§4.1–4.2、Fig. 17、References [25,31]；PDF pp. 2、12–13、15–16；结合已复核的 2019 页 E1/E6。
 
-- Gap: 冷却过程析出的 Ca2RE8(SiO4)6O2 对涂层完整性（剥落、开裂）的影响未评估——实际服役含热循环，冷却析出不可忽视。
-  - Evidence strength: strong（论文明确指出冷却促进析出，但未评估其对涂层的影响）
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+### E8
 
-- Gap: 高温原位观察方法可推广至 RE2Si2O7、高熵稀土硅酸盐及其他 EBC 材料体系的 CMAS 腐蚀研究。
-  - Evidence strength: strong（方法本身新颖且本文仅用于 RE2SiO5）
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+**晶粒、孔隙与晶界腐蚀｜有限表征及作者排除性解释。**
 
-- Gap: 大 RE 阳离子润湿性更好导致 CMAS 流失，实际服役中熔体持续补给，润湿性-流失-抗蚀性的耦合关系尚待厘清。
-  - Evidence strength: AI 推断
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+- §4.3 报告 Tb/Dy/Ho/Y/Er/Tm/Yb 孔隙率分别 7.7/3.6/4.1/4.8/6.9/3.1/4.5%，认为孔隙主要孤立、晶粒差异较小，未见明显晶界腐蚀，因而影响较弱。
+- 本次评价：这些是有限样本中的观察与解释，没有同成分孔隙梯度或独立三维连通性验证，不能宣称孔隙、晶粒及晶界作用已全部排除。Tm/Yb 少量二硅酸盐杂相亦应保留为可能混杂因素，不擅自认定其主导腐蚀。
+- 定位/核查：§3、Fig. 1/2、§4.3，PDF pp. 3–4、14。孔隙与晶粒数值按正文记录；未把检测不到等同不存在。
 
-## Relation to Existing Wiki
+## Conclusions for Reuse
 
-- Supports: "[[wiki/topics/Ceramic Corrosion]]" 主题下 CMAS 腐蚀三阶段机制（溶解→饱和析出→平衡浸润）。
-- Challenges: 无。
-- Extends: 陶瓷腐蚀主题从氯化物熔盐体系扩展到 CMAS 高温腐蚀体系；补充 1500 °C 高温机制与原位观察方法。
-- Contradicts: 无。
+- **保留**：所报告暴露条件下主要磷灰石产物及反应层形貌；Ho 升温流失；Er 保温与冷却可见产物不同；FactSage 计算黏度随温度升高而下降的结果（E1–E5）。
+- **限定**：[001] 生长/晶面暴露为结合形貌和 XRD 的作者解释；冷却起始温度按正文报告且视频待核；成分排序只用于实际覆盖子集，不能跨缺测点外推（E2/E4/E6）。
+- **撤回**：把 Ho 温标写给 Er；“七种 × 三时长均完整”；“1300 °C 2.5 h 无反应”；黏度实测或四倍腐蚀；已证实单调大半径优势、普适半径反转和已排除微结构影响（E1/E3–E8）。
+- 可用于综述：本文表明高温 CMAS 评价需同时记录供液/流失边界与观察所处热阶段；在 Er 示例中，保温和冷却形成的可见晶粒不同。半径规律的温度变化仍需统一指标、边界条件及缺失数据后再判定。
 
-## Notes for Review Writing
+## Limitations and Open Questions
 
-- 可用于综述的位置：RE2SiO5 EBC 的 CMAS 腐蚀机制与温度效应；Ca2RE8(SiO4)6O2 反应产物形成机制（高温生长 vs 冷却析出）；RE 种类/离子半径对 CMAS 抗性的调控规律（1300 °C vs 1500 °C 对比）。
-- 可引用论断：「1500 °C 下 CMAS 粘度降至 1300 °C 的 1/4 以下，RE 种类影响弱化」；「大 RE 阳离子 RE2SiO5 高温 CMAS 抗性更好」；「冷却阶段析出短水平 Ca2RE8(SiO4)6O2 晶粒」。
-- 待补证据：REO1.5 溶解度定量数据；热循环条件下析出相的影响。
+- ESM Fig. S1–S3 与 Movie S1–S3 未读；保留测量端点、起始温度/时刻的待核查，不再写“无缺失”。
+- 图示原位对象为 Ho 与 Er；不代表七种全覆盖。冷却析出影响开裂/剥落的定量证据缺失，本文不能单独证明涂层损伤因果。
+- 基础 CMAS 黏度模型和实际反应后熔体性质未独立验证；测量重复性及杂相/孔隙影响未充分解耦。
+- 方法向其他体系推广为候选研究问题（AI 推断）；本文未做不代表领域未做，也不能写成作者已明确验证推广有效。
+- 未进行领域检索，不新建确定 gap；不由论文叙事推定用户研究方向。
 
-## Linked Pages
+## Downstream Review
 
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Datasets:
-- Metrics:
-- Claims: "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"、"[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"
-- Gaps: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"、"[[wiki/gaps/Cooling-Precipitation-Coating-Integrity]]"、"[[wiki/gaps/High-Throughput-Screening-Transfer]]"
-- Reviews:
+本轮只改本论文页与必要维护记录。下列页面的对应论断待复核，不继续作为确定事实沿用：
 
-## Uncertainty
+| 页面 | 具体影响 |
+|---|---|
+| [[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]] | 黏度应标计算；“致弱化/方向反转”需限定为解释，检查非单调曲线、缺测与跨温度指标不一致 |
+| [[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]] | 1300 °C 引自 2019，量热引自 Costa，不能新增独立实验计数或作为普适机制证明 |
+| [[wiki/claims/Garnet-Product-RE2SiO5-CMAS]] | 仅报道主要磷灰石不等于排除微量石榴石，不能以未提及作绝对反证 |
+| [[wiki/gaps/Cooling-Precipitation-Coating-Integrity]] | Er 冷却现象可保留；起始温度是正文报告，损伤因果及七种推广尚未验证 |
+| [[wiki/gaps/CMAS-Corrosion-Data-1500C]] | 本文有七种但时长覆盖不全，不能称完整温度/成分矩阵或证明跨体系效应 |
+| [[wiki/gaps/High-Throughput-Screening-Transfer]] | 可推广为候选问题；“作者指出推广”和“尚未推广”须查原文与检索范围 |
+| [[wiki/topics/Ceramic Corrosion]] | 高温趋势、证据独立性、微结构排除及产物形成的共识措辞需限定 |
+| [[synthesis/literature-map]] | 统一数值比较和强度评价需重审 |
+| [[synthesis/review-outline]] | 将“低黏度导致规律反转”作已证实章节前提的结构须重审 |
+| [[synthesis/open-questions]] | 半径弱化、冷却损伤及数据缺口的问题前提需重核 |
+| [[synthesis/research-positioning]]、[[synthesis/core-argument-map]] | 已有主线中对 #47 的弱化/反转证据定位需按 E5–E7 重审 |
 
-- 待确认：PDF 附件名（Zotero 附件 x3，未逐个核对文件名）
-- 待核查：MinerU OCR 中化学式上下标（如 RE2SiO5、Ca2RE8(SiO4)6O2）引用前与原文核对
-- AI 推断：1500 °C 下 RE 溶解度差异的定量机制；润湿性-流失-抗蚀性耦合关系
+与 [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]] 的来源关系已核对；本轮不改其正文，也不提前复核 2024 Lu₂SiO₅ 论文。后者与本文的“两个独立高温证据”能支持什么，需该篇复核后判断。
 
-## Maintenance Checklist
+## Revision Record
 
-- [x] Added to `index.md`.
-- [x] Operation added to `log.md`.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Terms checked against `memory/term_aliases.md`.
+2026-09-06：核对三份附件及 MD 的真实版本，主来源切换至英文 PDF；保留正确条件和观察，以 E1–E8 替换混合总结，修正样品串用、缺测、指标与解释层级。下游保持原页，具体影响已列出；ESM/视频未决保留，不宣称完成其核查。

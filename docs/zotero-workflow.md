@@ -1,12 +1,34 @@
-# Zotero Workflow
+# Zotero 与本地来源流程
 
-ResearchWiki supports a cautious Zotero workflow.
+操作细则见 `agents/import_zotero.md` 和 `agents/pdf_read_agent.md`；公共证据及原件保护标准见 `memory/hard_memory.md`。
 
-1. Read a user-specified Zotero collection.
-2. Generate an import plan and manifest.
-3. Check whether papers are already in `wiki/papers/`.
-4. Wait for user confirmation.
-5. Ingest confirmed papers one at a time through `agents/pdf_read_agent.md`.
+## 选择入口
 
-The import workflow should not scan the full Zotero storage, modify Zotero items, or move original PDFs.
+| 任务 | 来源与处理 |
+|---|---|
+| 从 collection 选论文 | 可用 connector 读取指定集合，去重后生成 import_plan/manifest；用户只要清单时止于清单 |
+| 已明确入库对象 | 复用题名、条目标识或指定清单编号的授权，进入 pdf_read_agent；无需再次列整个集合 |
+| 已知本地 PDF/缓存 | 核对论文身份、版本和已有页，直接阅读；不扫描整个 Zotero storage |
+| 已有页面修订 | 按完整复核或局部修订范围回查来源，保留页面路径；不重新入库 |
 
+## 来源可用性与证据
+
+文档不保证插件已安装或已连接。工具不可用时说明影响；可继续使用已知文件或用户提供的导出记录，注明实际来源和覆盖日期，不能宣称实时同步。
+
+阅读时可使用已确认映射的 MinerU 正文；其 manifest 是解析缓存信息，与 raw/zotero_imports 中的候选 manifest 不是同一种记录。译文、正文、PDF、补充材料和视频分别标明实际覆盖。关键数据、图表和冲突按阅读规则回查原件；缺原件时保留已确认部分并限定未决判断。
+
+## 清单维护
+
+- 用 collection 路径/key 消除同名歧义；编号绑定具体清单，刷新时保留身份、编号和用户备注。
+- 根据实际覆盖记录完整/部分读取；部分结果不能用于判断未返回条目已被删除。
+- import_plan 和 manifest 的身份、编号、页面链接、推荐状态保持一致；只在实际建页后标已入库。
+- 已有页要求纠错时转修订，不能因已入库而跳过用户任务；已入库仅是处理状态。
+- 同 DOI/近似标题须核对版本，不自动合并；缺 DOI 或不适用的 Zotero key 不自动阻塞阅读。
+
+## 文件与授权
+
+原始 PDF、Zotero 附件、缓存全文、译文和补充材料按原件保护。仅在已有明确授权且任务需要时复制 PDF，不强制复制、不移动原件。系统生成的 import_plan/manifest 可在获授权任务内更新；此权限不包含 Zotero 条目写入或修改解析缓存。
+
+用户只要候选清单时，下一步入库需其选择；已明确对象和入库范围时直接继续，不重复确认。不能确定身份或范围时才询问。批次限制见 project_profile，用户当前明确指令优先。
+
+重要操作追加 log，错误记录至 error_log；索引只在相关变化时更新。公开发行所需处理另按独立发布任务确定，不插入论文阅读流程。

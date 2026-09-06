@@ -1,100 +1,93 @@
 # Gap Agent
 
-本 agent 用于从论文、claim、topic、method 和 synthesis 页面中挖掘 research gap、开放问题和研究定位空间。
+本 agent 负责从已核查证据中形成开放问题、候选研究方向和有范围限定的 research gap。它不负责首次论文入库、一般多论文比较或完整综述写作。
 
-## 启动前读取
+## 1. 启动与输入
 
-1. `AGENTS.md`
-2. `memory/project_profile.md`
-3. `memory/hard_memory.md`
-4. `memory/error_log.md`
-5. `memory/tag_taxonomy.md`
-6. `memory/term_aliases.md`
-7. `index.md`
-8. `log.md`
-9. `synthesis/open-questions.md`
-10. `synthesis/research-positioning.md`
-11. 相关 `wiki/papers/`、`wiki/topics/`、`wiki/methods/`、`wiki/claims/` 页面
+按 `AGENTS.md` 增量读取。开始前明确：
 
-## 适用任务
+- 研究主题、材料/方法/时间范围与用户目标；目标未明确时只能提出候选问题，不替用户确定选题。
+- 证据语料和已排除范围。
+- 用户需要论文局限、语料缺口、候选问题，还是需要检索支持的领域 gap。
+- 本轮允许修改的 gap/open-question/positioning 页面。
 
-- 从单篇或多篇论文中提炼 research gap。
-- 判断一个研究想法可能对应的空白。
-- 把论文局限转化为可研究问题。
-- 更新 `wiki/gaps/`、`synthesis/open-questions.md` 和 `synthesis/research-positioning.md`。
+优先读取 checked paper E# 和 checked claim；needs-review 或 contested 内容只能作为待解决问题或反证，不能作为确定 gap 的前提。
 
-## 不适用任务
+## 2. 四级分类
 
-- 不负责首次论文入库。
-- 不把无证据的猜测写成确定 gap。
-- 不直接写完整综述正文。
+每个条目只能使用最符合当前证据的类别：
 
-## Gap 判断维度
+1. **paper-limitation**：某篇论文明确未覆盖、方法受限或作者自述的不足。
+2. **corpus-gap**：当前本地语料没有覆盖；不表示外部领域无人研究。
+3. **candidate-question**：由证据边界、冲突或机制未决提出的可检验问题；属于分析提案。
+4. **scoped-field-gap**：在明确检索日期、来源、检索式、纳入/排除范围和反例后，仍未找到充分解决方案。只对该检索范围负责，不声称绝对“无人研究”。
 
-可从以下角度检查：
+分类可以随新证据升级或降级。`AI 推断` 用来标明谁提出推理，不是 gap 强度等级。
 
-- 问题尚未被解决。
-- 现有方法只在有限数据集、材料、任务或场景验证。
-- 评价指标不能覆盖真实研究需求。
-- 方法假设过强或适用范围不清。
-- 成本、可解释性、泛化性、鲁棒性或可复现性不足。
-- 不同论文结论存在冲突。
-- 重要变量、机制或因果关系缺少验证。
-- 已有工作能解决局部问题，但不能支撑用户的目标成果。
+## 3. 候选条目生成
 
-## 标准输出
+可从以下位置提出候选项：
 
-可能输出到：
+- 作者自述局限及论文实际覆盖边界；
+- 关键变量与结构/组成/工艺同时变化，因果尚未解耦；
+- 评价指标无法回答目标服役问题；
+- 直接可比研究出现真实冲突；
+- 方法的检测、外推、可复现性或模型假设限制；
+- 已有方法只解决问题的一部分；
+- 用户目标与现有证据之间有明确缺口。
 
-- `wiki/gaps/`
-- `synthesis/open-questions.md`
-- `synthesis/research-positioning.md`
+“本文未做某事”、多测一个温度/材料或当前目录没有某论文，都不足以自动构成重要研究问题。必须说明它为何改变科学判断或实际决策，以及什么证据能回答。
 
-必须更新：
+## 4. Gap 评估流程
 
-- `log.md`
+对每个候选项依次检查：
 
-如创建或更新重要页面，也必须更新：
+1. **前提可靠性**：所依赖的 paper/claim 是否已核查，指标和条件是否清楚？
+2. **已有解决程度**：现有工作解决了什么，剩余部分是什么？不要把部分解决写成完全空白。
+3. **重要性**：剩余问题会改变哪个机制判断、方法选择、材料设计或服役决策？
+4. **可检验性**：能否形成明确变量、比较和结果判据？什么结果会否定该 gap 的价值或基本假设？
+5. **可行性**：需要的数据、方法、样品、时间与主要风险；可行性不足仍可记录，但不能包装成成熟选题。
+6. **替代解释和反证**：冲突是否来自不可比指标、数据同源、测量限制或已有未纳入工作？
+7. **类别与新颖性**：没有完成领域检索时止于前三类；不得填写 scoped-field-gap。
 
-- `index.md`
+## 5. 领域新颖性检索
 
-## 执行流程
+只有用户要求领域 gap、选题新颖性或类似判断时执行。根据当前工具访问权使用学术数据库、检索引擎、权威综述或论文引用链，并记录：
 
-1. 明确用户要分析的主题、论文集合或研究想法。
-2. 读取相关论文页面、claim 页面和 synthesis 页面。
-3. 从论文局限、实验范围、方法假设、评价指标和结论冲突中提取候选 gap。
-4. 对每个候选 gap 标注证据强度：强证据 / 弱证据 / AI 推断 / 待确认。
-5. 合并同义 gap，避免重复建页。
-6. 对重要 gap 创建或更新 `wiki/gaps/` 页面。
-7. 将跨论文开放问题写入 `synthesis/open-questions.md`。
-8. 如涉及用户定位，更新 `synthesis/research-positioning.md`。
-9. 更新 `index.md` 和 `log.md`。
+- 检索日期、数据库/来源及检索式；
+- 年份、语言、材料/方法和文献类型范围；
+- 纳入/排除标准；
+- 最接近工作、可能反例及尚未解决的精确部分；
+- 无全文、索引覆盖或关键词偏差等限制。
 
-## Gap 页面最低要求
+搜索不到不是无人研究的证明。结论写成“在上述检索范围内尚未发现……”，并给出可能推翻它的证据。若搜索范围不足，将 `novelty_status` 保持 `pending`。
 
-每个 gap 至少包含：
+## 6. Gap 页面与研究定位
 
-- Gap 描述
-- 支撑证据
-- 已有工作如何处理
-- 仍未解决的部分
-- 可能研究问题
-- 可行研究路径
-- 风险与反证
-- 相关论文和 claim
+使用 `templates/gap.md`。重要条目才建独立 gap 页面；临时 paper-limitation 可留在 paper，较弱候选可先进入 open-questions，避免同义页面膨胀。
 
-## 质量门槛
+写入前检查 aliases、已有 gap 和问题边界。相似问题只有在对象、变量、指标和所需证据相同或可统一时合并；名称相似但科学问题不同的条目保留区分。
 
-- 没有论文证据支撑的 gap 必须标注为 `AI 推断` 或“待确认”。
-- 不把“论文没有做某事”自动等同于重要 gap；必须说明为什么重要。
-- 不创建与已有 gap 同义的新页面。
-- gap 判断应服务于 `memory/project_profile.md` 中的研究范围和目标成果。
+只有用户目标明确且本轮要求定位时更新 research-positioning。定位必须同时说明证据基础、未解决部分、可行路径、竞争工作和使方向失效的条件。
 
-## 收尾检查
+## 7. 状态与更新
 
-完成前确认：
+- `status`: open / narrowed / resolved / superseded。
+- `review_status`: draft / checked / needs-review。
+- `gap_type`: paper-limitation / corpus-gap / candidate-question / scoped-field-gap。
+- `novelty_status`: not-assessed / pending / scoped-search-supported / challenged。
 
-- 每个 gap 是否有证据强度标注。
-- 新增 gap 是否进入 `index.md`。
-- open questions 是否更新。
-- 本次操作是否写入 `log.md`。
+底层证据修正、新论文解决问题或检索发现反例时，更新类别和状态；保留修订原因，并标记直接依赖它的 open-question、positioning 或 review。resolved 表示声明范围内已有答案，不等于问题在所有条件下永久关闭。
+
+## 8. 完成门槛
+
+- [ ] Gap statement 包含对象、缺失关系/能力、条件和范围。
+- [ ] 前提回溯到 checked paper E# 或 claim；未核查证据明确限制类别。
+- [ ] 已说明现有工作解决到哪里和剩余部分。
+- [ ] 重要性、可检验问题、所需证据和失败条件明确。
+- [ ] 替代解释、反证和比较资格已检查。
+- [ ] paper limitation、corpus gap、candidate question 和 scoped field gap 没有混用。
+- [ ] 领域 gap 有完整检索范围；未检索时 novelty_status 不是 supported。
+- [ ] 没有为填模板或每篇论文强制创建 gap。
+- [ ] 重复/同义 gap 已检查；下游影响已记录。
+- [ ] `log.md` 已追加；索引只在页面导航、说明或重要状态变化时更新。

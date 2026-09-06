@@ -1,14 +1,12 @@
 # Privacy And Gitignore
 
-Before publishing your repository, check that you are not committing:
+本页适用于用户明确要求公开发布或制作开源发行副本时，不是日常入库、修订、lint 或阶段继续的启动步骤。当前工作库可以保留私人研究内容；历史空白模板决策不授权删除这些内容。
 
-- copyrighted PDFs;
-- Zotero import records;
-- local file paths;
-- personal research logs;
-- real paper notes you do not want public;
-- private DOI lists or citation keys;
-- `.obsidian/workspace.json`.
+发布前按用户指定的目标、可见性与范围检查：
 
-Run a text search for local paths, Zotero keys, collection names, and paper titles before pushing.
+- PDF 等原始资料是否适合随发行内容分发；
+- Zotero 导入记录、collection 名称、本机路径与个人日志是否属于拟公开内容；
+- 研究笔记、选题定位及引用标识是否包含用户不愿公开的信息；
+- Obsidian workspace 等本机状态是否需要排除。
 
+.gitignore 不能自动取消已经跟踪的文件。需要排除或整理时，先给出具体文件及处理方案，在独立发行副本或用户授权范围内操作；不为了发布清空当前知识库。提交、推送与公开发布按本轮及已有明确授权执行，不由阅读或修订任务自动触发。

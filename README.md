@@ -79,7 +79,7 @@ ResearchWiki 使用三层结构：
 - 论文卡片不是终点；
 - topic、method、claim、gap 是跨论文连接的基本节点；
 - synthesis、review 和 research positioning 是知识库真正发挥作用的位置；
-- 所有重要判断都要尽量回到论文证据；
+- 所有重要判断必须可追溯到具体原文证据，并保留条件、指标和不确定性；
 - 不确定内容必须标注为 `待确认`、`待核查` 或 `AI 推断`。
 
 ## Core Workflow / 核心工作流
@@ -87,16 +87,17 @@ ResearchWiki 使用三层结构：
 ```mermaid
 flowchart TD
     A["Zotero Collection<br/>指定文献集合"] --> B["import_zotero.md<br/>生成候选清单"]
-    B --> C["pdf_read_agent.md<br/>单篇论文入库"]
+    B -->|已有明确入库授权| C["pdf_read_agent.md<br/>新入库 / 完整复核 / 局部修订"]
+    L["已知 PDF / 附件 / 缓存 / 已有页面"] --> C
     C --> D["wiki/papers<br/>论文卡片"]
-    D --> E["wiki/topics / methods<br/>主题与方法"]
-    D --> F["wiki/claims / gaps<br/>证据判断与研究空白"]
+    D -->|明确关系且属于本轮范围| E["wiki/topics / methods<br/>主题与方法"]
+    D -->|证据与任务需要| F["wiki/claims / gaps<br/>限定判断与候选问题"]
     E --> G["synthesis_agent.md<br/>literature map"]
     F --> H["gap_agent.md<br/>open questions / positioning"]
     G --> I["review_agent.md<br/>review outline"]
     H --> I
     I --> J["lint_agent.md<br/>健康检查"]
-    J --> K["memory / synthesis<br/>长期维护"]
+    J --> K["memory / log<br/>维护记录与当前任务"]
 
     style B fill:#eef2ff,stroke:#4f46e5,stroke-width:2px
     style C fill:#ecfeff,stroke:#0891b2,stroke-width:2px
@@ -106,20 +107,20 @@ flowchart TD
 
 ### Workflow Contract / 流程契约
 
-1. **Import**：从用户指定 Zotero collection 读取论文，生成候选清单。
-2. **Ingest**：对用户确认的单篇论文入库，生成论文卡片。
-3. **Link**：更新 topic、method、claim、gap 页面。
-4. **Synthesize**：多论文综合，生成 literature-map。
-5. **Gap**：生成 open questions 和 research positioning。
-6. **Review**：生成文献综述大纲或 related work。
-7. **Lint**：检查标签、证据、重复页面、索引、日志和上下文压缩需求。
+按本轮任务选择步骤，不要求每次执行整条链：
+
+1. **候选清单**：需要从指定 collection 选论文时使用 import_zotero；只要清单就止于清单。
+2. **阅读或修订**：已知论文、PDF、缓存、附件或已有页直接进入 pdf_read_agent；复用已明确的对象与授权。
+3. **关联维护**：只更新有明确关系且属于本轮范围的页面，其余受影响论断记录待复核。
+4. **综合与写作**：按用户问题核对证据和可比性，再生成综合、候选 gap 或大纲，不按论文数量强制产出。
+5. **检查**：按范围分开检查结构、证据和流程；结构通过与 processed 均不代表科学结论已核实。
 
 ## Quick Start / 快速开始
 
 ### Step 0: Clone / 克隆项目
 
 ```bash
-git clone https://github.com/jiawei601/ResearchWiki.git
+git clone <你要使用的仓库地址> ResearchWiki
 cd ResearchWiki
 ```
 
@@ -137,7 +138,7 @@ memory/tag_taxonomy.md
 memory/term_aliases.md
 ```
 
-至少填写：
+首次使用填写已确定的信息；已有项目复用配置，未确定的研究问题可保留待确认：
 
 - 研究领域；
 - 研究目标；
@@ -148,7 +149,7 @@ memory/term_aliases.md
 
 ### Step 3: Connect Zotero / 连接 Zotero
 
-如果使用 Codex Zotero 插件，可以指定某个 Zotero collection：
+需要从 collection 选论文且当前 Zotero 插件/connector 可用时，可以指定集合；使用已知本地来源可跳过此步：
 
 ```text
 请按照 ResearchWiki 项目规则，调用 agents/import_zotero.md，从 Zotero collection「我的研究方向」中生成候选论文清单。
@@ -156,10 +157,9 @@ memory/term_aliases.md
 
 ### Step 4: Ingest First Paper / 入库第一篇论文
 
-从候选清单中选择一篇论文：
-你
+从具体候选清单选择一篇论文，或直接指定已知对象；已有明确入库授权不再重复确认：
 ```text
-请调用 agents/import_zotero.md 和 agents/pdf_read_agent.md，从 Zotero collection「我的研究方向」中入库论文「Example Paper Title」。
+请按 agents/pdf_read_agent.md 入库 raw/zotero_imports/我的研究方向/import_plan.md 中编号 1 的论文。
 ```
 
 也可以直接读取本地 PDF：
@@ -179,11 +179,11 @@ memory/term_aliases.md
 | Agent | File | Role |
 |---|---|---|
 | Zotero Import Agent | `agents/import_zotero.md` | 从 Zotero collection 识别论文、生成候选清单、交给入库流程 |
-| PDF Read Agent | `agents/pdf_read_agent.md` | 单篇论文结构化入库 |
+| PDF Read Agent | `agents/pdf_read_agent.md` | 新入库、完整复核、局部修订 |
 | Synthesis Agent | `agents/synthesis_agent.md` | 多论文综合、literature map、方法对比 |
 | Gap Agent | `agents/gap_agent.md` | research gap、open questions、选题定位 |
 | Review Agent | `agents/review_agent.md` | 文献综述、related work、review outline |
-| Lint Agent | `agents/lint_agent.md` | 标签、证据、重复页面、上下文健康检查 |
+| Lint Agent | `agents/lint_agent.md` | 按范围区分结构、证据和流程检查 |
 
 ## Knowledge Layers / 知识库分层
 
@@ -202,7 +202,7 @@ memory/term_aliases.md
 
 ## Zotero And PDF Ingestion / Zotero 与 PDF 入库
 
-ResearchWiki 支持通过 Codex Zotero 插件读取指定 collection。默认安全边界如下：
+ResearchWiki 可通过当前可用的 Zotero 插件/connector 读取指定 collection；工具不可用时明确影响，不假装已读取。已知本地 PDF/缓存直接进入阅读流程，详见 [来源流程](docs/zotero-workflow.md)。范围如下：
 
 - 只处理用户指定 collection；
 - 不扫描整个 Zotero library；
@@ -210,7 +210,9 @@ ResearchWiki 支持通过 Codex Zotero 插件读取指定 collection。默认安
 - 不修改 Zotero 原始条目；
 - 不删除、不移动、不重命名 Zotero 附件；
 - 单篇入库默认优先；
-- 批量入库需要用户明确指定编号或范围。
+- 批次由明确对象、清单编号/范围或筛选条件界定，遵循 project_profile 与当前用户指令；已有授权不逐篇重问。
+- 原始 PDF、解析缓存、译文和补充材料受保护；不强制复制 PDF。
+- 系统生成的 import_plan/manifest 可在获授权任务内同步，不能因此修改原件或 Zotero 条目。
 
 示例：
 
@@ -219,7 +221,7 @@ ResearchWiki 支持通过 Codex Zotero 插件读取指定 collection。默认安
 ```
 
 ```text
-请调用 agents/import_zotero.md 和 agents/pdf_read_agent.md，从 Zotero collection「我的研究方向」中入库 3 篇有 PDF 附件的论文。
+请按 agents/pdf_read_agent.md 入库 raw/zotero_imports/我的研究方向/import_plan.md 中编号 1–3 的论文。
 ```
 
 ## Wiki Pages / Wiki 页面类型
@@ -239,7 +241,7 @@ ResearchWiki 支持通过 Codex Zotero 插件读取指定 collection。默认安
 
 ## Synthesis, Gap And Review / 综合、Gap 与综述
 
-入库多篇论文后，不要让知识库停留在“收藏夹”状态。建议每入库 3-5 篇论文，就做一次 synthesis、gap 和 lint。
+需要比较或写作时再开展综合：先核查具体证据、条件与独立来源，再组织论点；语料缺口不能自动称为领域空白。旧页面不会因已入库而自动通过复核。
 
 ```text
 请调用 agents/synthesis_agent.md，基于当前已入库论文生成 literature-map。
@@ -257,9 +259,9 @@ ResearchWiki 支持通过 Codex Zotero 插件读取指定 collection。默认安
 
 长期使用时，不要依赖聊天历史保存规则；最终决策应该沉淀到 `memory/` 或 `synthesis/`。
 
-- `memory/context_policy.md`：上下文预算与压缩规则。
+- `memory/context_policy.md`：增量读取、当前任务与恢复入口。
 - `memory/style_snapshot.md`：默认输出风格。
-- `synthesis/core-argument-map.md`：核心论点和项目状态快照。
+- `synthesis/core-argument-map.md`：科学主张、证据关系与研究假设，不保存操作进度。
 - `memory/error_log.md`：AI 曾经犯过的错误和修正规则。
 - `memory/decision_log.md`：结构性决策。
 - `agents/lint_agent.md`：定期检查知识库健康。
@@ -271,7 +273,7 @@ ResearchWiki 支持通过 Codex Zotero 插件读取指定 collection。默认安
 | `memory/project_profile.md` | 项目领域、目标、用户用途 |
 | `memory/tag_taxonomy.md` | 标签体系 |
 | `memory/term_aliases.md` | 术语别名和标准写法 |
-| `memory/context_policy.md` | 上下文预算和压缩规则 |
+| `memory/context_policy.md` | 增量读取、当前任务与恢复入口 |
 | `memory/style_snapshot.md` | 默认输出风格 |
 | `templates/paper.md` | 论文卡片模板 |
 | `templates/claim.md` | claim 页面模板 |
@@ -354,13 +356,19 @@ ResearchWiki 支持通过 Codex Zotero 插件读取指定 collection。默认安
 ### 单篇论文入库
 
 ```text
-请调用 agents/import_zotero.md 和 agents/pdf_read_agent.md，入库 Zotero collection「我的研究方向」中的论文「Example Paper Title」。
+请调用 agents/pdf_read_agent.md，入库已知论文「Example Paper Title」，先核对来源并检查是否已有页面。
 ```
 
 ### 批量测试入库
 
 ```text
-请按 ResearchWiki 项目规则，从 Zotero collection「我的研究方向」中入库 3 篇有 PDF 附件的论文。
+请按 agents/pdf_read_agent.md 入库 raw/zotero_imports/我的研究方向/import_plan.md 中编号 1–3 的论文。
+```
+
+### 已有论文局部修订
+
+```text
+请按 agents/pdf_read_agent.md 修订 wiki/papers/<已有论文>.md 中指定结论，核对原文及支撑图表，只更新受影响段落并记录下游待复核项。
 ```
 
 ### 多论文综合
@@ -389,20 +397,17 @@ ResearchWiki 支持通过 Codex Zotero 插件读取指定 collection。默认安
 
 ## Recommended Workflow / 推荐使用流程
 
-1. 配置 `memory/project_profile.md`。
-2. 配置 `memory/tag_taxonomy.md` 和 `memory/term_aliases.md`。
-3. 从 Zotero 或本地 PDF 入库第一篇论文。
-4. 运行 `agents/lint_agent.md`。
-5. 入库 3-5 篇论文。
-6. 运行 `agents/synthesis_agent.md`。
-7. 运行 `agents/gap_agent.md`。
-8. 生成 `synthesis/review-outline.md`。
-9. 根据缺口继续补论文。
-10. 定期 lint 和 context compaction。
+1. 首次使用填写配置；继续任务时从 context_policy 恢复。
+2. 按已知输入选择候选清单、新入库或已有页面修订。
+3. 完成证据与论文页，再检查本轮相关引用及必要维护项。
+4. 有明确问题时进行综合、gap 或综述写作，证据不足处保留未决。
+5. 阶段切换时更新短状态；需要维护时做限定范围 lint。
+
+本库规则完善进度见 [九阶段计划](docs/rules-improvement-plan.md)；规则更新不代表既有七篇论文和大纲已修复。
 
 ## Privacy And Open Source Notes / 隐私与开源注意事项
 
-请不要提交：
+以下检查只适用于用户明确要求公开发布或制作开源发行副本时。当前工作库可保留私人研究内容；日常阅读、修订和 lint 不触发数据清理或发布。发行内容需逐项确定是否包含：
 
 - 受版权保护的 PDF；
 - `raw/papers/` 中的真实论文；
@@ -411,15 +416,15 @@ ResearchWiki 支持通过 Codex Zotero 插件读取指定 collection。默认安
 - 本地文件路径、个人操作日志或私有研究方向；
 - `.obsidian/workspace.json` 等本地工作区状态。
 
-开源模板应使用空白结构和示例占位。项目已提供 `.gitignore`，但发布前仍建议手动搜索本地路径、论文题名、Zotero key 和 DOI。
+制作空白发行模板时在独立副本或用户授权范围内处理，不清空当前工作库。`.gitignore` 不会取消已跟踪文件，具体检查见 [发布说明](docs/privacy-and-gitignore.md)。历史一次上传不自动授权后续提交、推送或公开发布。
 
 ## Roadmap / 后续计划
 
 - 更稳定的 Zotero 批量导入。
 - Obsidian Dataview 查询模板。
 - Claim matrix 自动生成。
-- Review outline 自动更新。
-- Context compaction agent。
+- 按证据变化修订 review outline。
+- 轻量增量上下文维护（不新增专用 agent）。
 - 可选本地 PDF 解析工具。
 - 可视化 literature map。
 

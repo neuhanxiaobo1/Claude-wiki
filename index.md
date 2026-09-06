@@ -63,13 +63,13 @@
 
 ## Papers
 
-- [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]：RE2SiO5 (RE = Tb, Dy, Ho, Y, Er, Tm, Yb) 在 1500 °C 的 CMAS 降解原位观察与机制，Ca2RE8(SiO4)6O2 沿 [001] 优先生长（2023, J. Adv. Ceram., DOI: 10.26599/JAC.2023.9220822）。
+- [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]：2026-09-06 已复核英文 PDF 主要证据；修正 Ho/Er 归属、时长缺测及半径趋势，限定黏度因果解释；ESM/视频和下游待核查（2023, J. Adv. Ceram.）。
 - [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]：层叠法高通量筛选 CMAS 抗性 RETaO4，主产物 (Ca2-xREx)(Ta2-y-zMgyAlz)O7 固溶体，渗透深度随 RE 半径增大而增加（2025, Adv. Sci., DOI: 10.1002/advs.202412717）。
 - [[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]：高通量研究 19 种高熵稀土锆酸盐的热物性与 CMAS 抗性，小平均半径缺陷萤石结构抗蚀最佳（2026, J. Eur. Ceram. Soc., DOI: 10.1016/j.jeurceramsoc.2025.118014）。
 - [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]：Lu2SiO5 在 1500 °C 的 CMAS 腐蚀原位观察，冷却起始析出 + 相分解诱导晶间渗透（渗透 219 μm，1300 °C 的 >4 倍）（2024, Surf. Coat. Technol., DOI: 10.1016/j.surfcoat.2024.131196）。
 - [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]：高熵 (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5 的元素功能分工多目标设计，低热导 + TEC 匹配 SiC + 良好 CMAS 抗性，首次鉴定石榴石型腐蚀产物（2022, J. Adv. Ceram., DOI: 10.1007/s40145-022-0609-z）。
 - [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility]]：Hf6Ta2O17 与 TGO（Al2O3）>1400 °C 反应生成 AlHf3TaO10，界面热应力超 YSZ 许用——TBC-TGO 热化学不相容（2025, J. Eur. Ceram. Soc., DOI: 10.1016/j.jeurceramsoc.2024.117109）。
-- [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]：8 种 RE2SiO5 在 1300 °C 的 CMAS 衰退层厚度-RE 半径系统规律（小半径抗蚀更好），首次提出光学碱度差 ΔΛ 筛选判据（2019, Corros. Sci., DOI: 10.1016/j.corsci.2018.12.032）。
+- [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]：2026-09-06 已复核当前 PDF/MD 的主要证据；保留 1300 °C 条件下层厚总体趋势，收窄形成焓、OB 与跨材料比较结论；下游待复核详见论文页（2019, Corros. Sci.）。
 
 ## Topics
 
@@ -91,7 +91,7 @@
 ## Claims
 
 - [[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]：腐蚀产物形成焓随 RE 半径增大更放热，1300 °C 下小半径成分抗蚀更好（#36 奠基 8 组分数据 + 三体系 + 固溶体/高熵证据链）。
-- [[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]：1500 °C CMAS 粘度剧降致 RE 效应弱化且方向反转（双论文、仅硅酸盐体系，medium-high）。
+- [[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]：待复核；2023 源页 E5–E7 已限定计算黏度与 RE 趋势的关联，“致弱化/反转”及双篇证据独立性尚未成立，旧页强度评级不能直接沿用。
 - [[wiki/claims/RETaO4-CMAS-Corrosion-Product-Clarification]]：RETaO4 主腐蚀产物澄清为 (Ca2-xREx)(Ta2-y-zMgyAlz)O7 固溶体+少量磷灰石，晶界腐蚀普遍。
 - [[wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism]]：小半径缺陷萤石高熵锆酸盐抗蚀最佳的双重机制（动力学+热力学）。
 - [[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]：Lu2SiO5 在 1500 °C 相分解（2Lu2SiO5 = Lu2Si2O7 + Lu2O3）诱导 CMAS 晶间快速渗透（medium-high）。
@@ -115,7 +115,7 @@
 
 - 版本快照：`calude_wiki_gpt1`（2026-09-05）；包含当前知识库内容、系统审视计划和规则完善第 1 阶段。论文结论与大纲的后续复核仍未完成。
 
-- [[docs/rules-improvement-plan]]：九阶段完善计划；第 1 阶段公共证据标准与任务边界已完成，下一步为论文阅读规则和模板；论文修订继续暂停。
+- [[docs/rules-improvement-plan]]：九阶段规则完善与单篇试运行已完成；2019、2023 论文已按声明范围复核，局部未决及下游影响已记录，其余五篇和实际大纲仍待逐步修订。
 
 - [[docs/system-audit-2026-09-05]]：系统检查报告；当前暂停论文修改，先处理启动读取、局部修订与纠错传播问题。下方为历史状态。
 
