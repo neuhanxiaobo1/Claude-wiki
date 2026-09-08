@@ -1,10 +1,12 @@
 ---
 type: gap
-status: open
+status: narrowed
+review_status: checked
+gap_type: corpus-gap
+novelty_status: not-assessed
 created: 2026-08-23
-updated: 2026-08-28
-priority: high
-evidence_strength: strong
+updated: 2026-09-07
+priority: pending
 papers:
   - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
@@ -27,106 +29,61 @@ tags:
   - ebc
 ---
 
-# 钽酸盐/锆酸盐体系 1500 °C 级 CMAS 腐蚀数据缺失
+# 当前语料中若干材料的 1500 °C CMAS 对照数据缺口
 
-## Gap Description
+## Gap Statement
 
-- 1500 °C 下 CMAS 粘度剧降导致「RE 种类影响弱化」的现象目前在 RE2SiO5 体系已获两篇论文证实（#47 七体系 + #16 Lu2SiO5 单体系深度机制），且 #16 进一步揭示 1500 °C 相分解诱导晶间渗透的新失效机制；但 RE2SiO5 奠基工作（#36）、RETaO4（#46）、高熵锆酸盐（#18）、高熵 RE2SiO5（#48）的 CMAS 腐蚀数据均为 1300 °C 单一温度，无法验证「高温 RE 效应弱化」与「相分解」的跨体系普适性。
+截至本轮，七篇已复核论文中的 RETaO₄、高熵锆酸盐和四元高熵 RE₂SiO₅ 未提供 1500 °C、与自身 1300 °C 结果具有统一指标及实验边界的 CMAS 腐蚀对照。该缺口仅指当前语料，不能写成领域缺少高温研究。
+
+- Current classification: corpus-gap
+- 边界：仅复用七篇复核源页与八项新版 claim；本轮未做领域新颖性检索。review_status: checked 指前提、分类和使用边界已核查，不表示问题已解答或实验可行性已确认。
+
+## Origin and Preconditions
+
+evidence boundary。依据实际温度/时长覆盖，不以“半径规律已反转”或“分解普遍发生”为前提。黏度因果 claim 为 insufficient-evidence，Lu 相演化 claim 为 partially-supported，均不能充当待跨体系验证的既定规律。
+
+## Existing Coverage
+
+| Work/evidence | What is already addressed / conditions | What remains | Independence / review status |
+|---|---|---|---|
+| [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E1]]；[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E8]] | RETaO₄ 层叠腐蚀 1300 °C/25–100 h | 更高温润湿不等于 1500 °C 长时腐蚀；跨温度对照未覆盖 | 本文实验；checked |
+| [[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E1]]；[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E7]] | 高熵锆酸盐 1300 °C/5 h | 温度/时长扩展未覆盖；样品映射先待核 | 本文实验；checked，映射未决 |
+| [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E6]]；[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E8]] | 四元单硅酸盐 1300 °C/20 h 性能折中 | 未检验 1500 °C 及熵稳定作用 | 本文实验；checked |
+| [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E1]]；[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E6]] | 2023 年单硅酸盐已有 1500 °C 数据 | 5 h 七 RE；20 h 缺 Tb；50 h 仅 Y/Er/Tm/Yb；并非完全无高温数据 | 本文实验；checked，ESM 未读 |
+| [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E7]]；[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E1]] | Lu 的 1500 °C 最深渗透与 2019 的 1300 °C 衰退层 | 指标、负载和制备不同，不算四倍温度效应 | 2019 对照同源；not-directly-comparable |
 
 ## Why It Matters
 
-- 第三代 EBC/TBC 的服役温度正推向 1500 °C（HfO2–Si 粘结层使 EBC 使用温度升至 1482 °C 以上）；若「高温 RE 效应弱化」或「相分解诱导渗透」普适成立，则成分设计准则需按服役温度分级，1300 °C 下的小半径优选策略可能在高温失效。
+AI 推断：若要用当前 1300 °C 的限定排序评价更高温条件，缺少可比对照会影响外推。1500 °C 是本语料的问题边界，不是用户已确认的目标服役温度；补测一个温度本身不保证科学创新。
 
-## Supporting Evidence
+## Novelty Assessment
 
-- Paper: "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
-  - Evidence: 1300 °C 单温度点系统研究，文中自述对高温（≥1500 °C）抗蚀性缺乏认识——该空白自 2019 年奠基工作即被作者明确指出，直至 #47/#16 才部分填补。
-  - Source section/page/table/figure: 结论/局限部分
-  - Evidence strength: strong
+- Novelty status: not-assessed。
+- 本轮没有执行领域检索，不能声称“尚无人研究”“首次”或“领域普遍缺失”；旧 high/medium 和 strong 不能作为新颖性或选题优先级。
+- 已有最接近工作及限制见上表。外部工作可能已解决问题，后续若要认定 scoped-field-gap，必须记录日期、检索源/检索式、纳排范围、最接近工作及反例。
 
-- Paper: "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
-  - Evidence: 实验设计仅 1300 °C（§5），无温度梯度；作者未声明更高温度计划。
-  - Source section/page/table/figure: §5、全文
-  - Evidence strength: strong
+## Research Question and Required Evidence
 
-- Paper: "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
-  - Evidence: CMAS 腐蚀为单一条件 1300 °C/5 h，无时间梯度与更高温度数据。
-  - Source section/page/table/figure: §2.3
-  - Evidence strength: strong
+- 可检验问题（AI 推断）：选定一种材料体系后，在统一测厚定义、制备/孔隙、CMAS 配方负载、保持方式及相同时长下，1300 与 1500 °C 的成分排序及产物分布是否改变？
+- 所需证据与比较：建立独立试样重复、原始截面和熔体保持记录；分别报告最深渗透、基体消耗/反应层等实际可测指标，不能事后混成一个厚度。预先规定排序变化的统计判据，测温、暴露与熔体流失需可追溯。
+- 回答或削弱前提的结果：若可比实验重复显示排序变化，可建立该体系的温度关联；若排序稳定，应撤回该范围内的反转假设。即使变化成立，也需额外控制才能归因黏度。已有外部工作若已覆盖同样条件，入库后可缩小或解决本语料缺口。
 
-- Paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
-  - Evidence: 该论文 1500 °C 数据（7 种 RE2SiO5）证实规律弱化/反转，但仅覆盖单硅酸盐一体系。
-  - Source section/page/table/figure: 图 18(a)
-  - Evidence strength: strong
+## Feasibility and Research Path
 
-- Paper: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
-  - Evidence: 1500 °C 下 Lu2SiO5 渗透 219 μm（1300 °C 的 >4 倍）且发生相分解——RE2SiO5 体系 1500 °C 数据已补强至「双论文 + 机制层面」，但该体系内其他成分的分解行为仍未知。
-  - Source section/page/table/figure: 图 9、图 6/7
-  - Evidence strength: strong
+AI 推断：先统一一组既有数据的指标与样品条件，再评估单体系小规模温度对照；不预设必须搭建高通量装置。所需炉温、样品和表征能力尚未确认，可行性 pending。熔体流失、相演化与热历程差异可能改变有效接触条件。
 
-- Paper: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
-  - Evidence: 高熵 RE2SiO5 仅 1300 °C/20 h 单条件腐蚀，无 1500 °C 数据；高熵样品的高温相稳定性（结合 #16 的分解发现）未知。
-  - Source section/page/table/figure: §2 实验设计
-  - Evidence strength: strong
+## Risks, Alternative Explanations and Counter-Evidence
 
-## Cross-Page Basis
+局部缺测不等于材料完全抗蚀；升温引起的多变量变化不能拆成已证黏度效应。取消旧页 HfO₂–Si/1482 °C 服役论据、2019 作者明确宣称高温领域空白及双篇已证反转等未经本轮支持的表述。
 
-- Page: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"
-  - What it shows: 1500 °C 下 RE 效应弱化且方向反转，但证据强度仅 medium（单体系）。
-  - Why it supports this gap: 该 claim 的普适性恰恰受本 gap 限制——二者互为表里。
+## Status and Revision History
 
-## Gap Type
+- 2026-09-07：status 改为 narrowed；用复核后的证据替换旧“真实 gap”及确定性机制前提，保留原路径。priority: pending 表示未完成研究价值、资源和新颖性排序。
+- 本轮完成五项 gap 的前提与分类修订，并同步 index、计划和维护记录；未改原始资料或重新复核外部文献。
+- 下游待复核：[[synthesis/open-questions]] 应替换旧问题前提与评级；[[synthesis/research-positioning]] 应撤回依赖旧 gap 的确定方向；[[synthesis/review-outline]]、[[synthesis/core-argument-map]] 和 [[synthesis/literature-map]] 应依据当前边界重组，不将候选当作已证领域结论。
+- 相关主题正文仍待同步：[[wiki/topics/Ceramic Corrosion]]。源页/claim 历史 gap 待办由本轮修订接续；具体原文未决仍有效。
 
-- Type: 真实 gap
-- Reason: 四篇论文的实验设计明确缺失该数据（非推断）；1500 °C 实验存在客观难度（CMAS 流失、设备），但并非不可行（#47 已实现）。
+## Use in Positioning or Review
 
-## How Existing Work Handles It
-
-- Existing approach:
-  - Paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
-  - Remaining limitation: 仅单硅酸盐；大 RE 阳离子体系（Tb/Dy/Ho）因 CMAS 润湿流失缺失 50 h 数据。
-
-## What Remains Unsolved
-
-- Unsolved part: 1500 °C 下钽酸盐、锆酸盐、高熵硅酸盐的腐蚀产物类型、渗透动力学、RE 半径依赖方向与相分解行为。
-- Why unresolved: 现有高通量工作（#46、#18）与高熵设计工作（#48）均以 1300 °C 为腐蚀温度；高温高通量腐蚀装置与方法尚缺。
-
-## Possible Research Questions
-
-- Question: 1500 °C 下 RETaO4 与高熵锆酸盐的 CMAS 腐蚀行为是否符合「粘度剧降-RE 效应弱化」规律？
-  - Feasibility: medium（高温实验可实现，但高通量高温装置需自行搭建）
-  - Evidence needed: 1500 °C 腐蚀截面数据（渗透深度/腐蚀层厚度）至少 3–5 种 RE 成分 × 2 体系。
-
-## Possible Research Paths
-
-- Path: 将层叠法高通量筛选（#46）推广至 1500 °C 腐蚀条件。
-  - Required method/data: 高温（≥1500 °C）腐蚀炉 + 层叠块体制备 + 截面定量表征。
-  - Risk: CMAS 在 1500 °C 粘度极低、流失严重（#47 已观察到），需解决熔体保持问题。
-
-## Risks and Counter-Evidence
-
-- Risk: 该 gap 可能因「1500 °C 下成分选择不再重要」而失去工程意义（若 RE 效应确实完全弱化）。
-  - Evidence: #47 显示 1500 °C 仍存在方向反转（大 RE 抗性更好），说明成分效应未消失，只是规律改变。
-  - How to check: 补充钽酸盐/锆酸盐 1500 °C 数据后判断。
-
-## Related Pages
-
-- Papers: 六篇已入库 CMAS 论文（#36、#47、#46、#18、#16、#48）
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Claims: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"、"[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]"
-- Reviews:
-
-## Uncertainty
-
-- 待确认：无
-- 待核查：无
-- AI 推断：无
-
-## Maintenance Checklist
-
-- [x] Added to `index.md`.
-- [x] Evidence strength marked.
-- [x] Related open question updated if needed.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Aliases checked against `memory/term_aliases.md`.
+- Safe wording: 当前已复核语料尚不足以对 RETaO₄、高熵锆酸盐和四元单硅酸盐作统一口径的 1300/1500 °C 腐蚀比较；外部研究覆盖与选题价值尚待评估。
+- 更强使用前提：先解决会改变论断的原始证据疑点，再按用户研究范围评估已有研究、可行性与新颖性；本页不是用户已确认的选题。

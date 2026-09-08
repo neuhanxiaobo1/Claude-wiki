@@ -1,10 +1,12 @@
 ---
 type: gap
-status: open
+status: narrowed
+review_status: checked
+gap_type: candidate-question
+novelty_status: not-assessed
 created: 2026-08-27
-updated: 2026-08-27
-priority: high
-evidence_strength: strong
+updated: 2026-09-07
+priority: pending
 papers:
   - "[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility]]"
 topics:
@@ -19,81 +21,60 @@ tags:
   - tbc
 ---
 
-# TBC-TGO 高温热化学相容性数据缺失
+# Hf₆Ta₂O₁₇–Al₂O₃ 反应向实际 TGO 界面行为的外推
 
-## Gap Description
+## Gap Statement
 
-- 1600 °C 级 TBC 候选材料（Hf6Ta2O17 等新型高熔点氧化物）与粘结层氧化产物 TGO（α-Al2O3）的高温热化学相容性数据普遍缺乏；现有选材几乎只评估热导、相稳定性与 CMAS 抗性，TGO 界面反应这一失效维度被系统性忽略（#29 为体系内首篇系统研究，即发现 >1400 °C 不相容）。
+对 Hf₆Ta₂O₁₇ 而言，本文粉末/块体扩散偶观察到的 Al₂O₃ 反应，在明确定义的涂层—粘结层—TGO 热历程中是否发生，以及其对界面损伤的影响如何？当前证据未建立这一服役外推。
+
+- Current classification: candidate-question
+- 边界：仅复用七篇复核源页与八项新版 claim；本轮未做领域新颖性检索。review_status: checked 指前提、分类和使用边界已核查，不表示问题已解答或实验可行性已确认。
+
+## Origin and Preconditions
+
+evidence boundary + AI inference。Hf–Al₂O₃ claim supported 仅限指定工艺下反应，不能由它推出所有高温 TBC 缺相容性数据、反应必致失效或材料一票否决。
+
+## Existing Coverage
+
+| Work/evidence | What is already addressed / conditions | What remains | Independence / review status |
+|---|---|---|---|
+| [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E1]]；[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E2]] | 粉末 1300–1600 °C/10 h 相比较；1400 °C 已见反应 | 离散条件不能确定绝对反应阈值；1300 °C XRD 变化小不等于无反应 | 本文相表征；checked |
+| [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E3]] | 1400 °C/40 MPa/10 min 热压已有反应层，追加退火有层厚序列 | 块体热压工艺与实际 TGO 生长不同，不能直接外推速率/寿命 | 本文实验；checked |
+| [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E4]]；[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E6]] | 裂纹/微孔观察及简化热应力估算 | 单向扩散、Kirkendall 未确证；YSZ 剪切许用值不可直接套用 | 观察与模型分开；checked |
+| [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E8]] | 作者示意图及此前 Li 工作线索 | 未测涂层循环；前文摘要已涉及结构/扩散，全文争议未裁定 | 示意非实验；Li 仅摘要已核 |
 
 ## Why It Matters
 
-- TBC 服役中 TGO 在粘结层表面必然形成；若 TBC 材料与 TGO 反应生成低 CTE 中间相，界面热应力可达 GPa 级（#29 中 880–1031 MPa，超 YSZ 许用范围），直接威胁涂层寿命——候选材料可能因 TGO 相容性被一票否决，必须在选材阶段提前排除。
+AI 推断：若用户将该材料用于含 Al₂O₃ 界面的涂层，界面反应与损伤的联系会影响材料/结构评估。这个条件性用途不支持“整个选材领域系统忽略 TGO”，也不是用户已确定的 TBC 路线。
 
-## Supporting Evidence
+## Novelty Assessment
 
-- Paper: "[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility]]"
-  - Evidence: Hf6Ta2O17-Al2O3 在 >1400 °C 反应生成 AlHf3TaO10，界面热应力 880–1031 MPa 超 YSZ 许用；作者指出该维度此前未被澄清。
-  - Source section/page/table/figure: 全文、Fig 12（机制示意）
-  - Evidence strength: strong
+- Novelty status: not-assessed。
+- 本轮没有执行领域检索，不能声称“尚无人研究”“首次”或“领域普遍缺失”；旧 high/medium 和 strong 不能作为新颖性或选题优先级。
+- 已有最接近工作及限制见上表。外部工作可能已解决问题，后续若要认定 scoped-field-gap，必须记录日期、检索源/检索式、纳排范围、最接近工作及反例。
 
-## Cross-Page Basis
+## Research Question and Required Evidence
 
-- Page: "[[wiki/claims/Hf6Ta2O17-TGO-Incompatibility]]"
-  - What it shows: 单体系不相容已证实（三重证据链）。
-  - Why it supports this gap: 单体系证据凸显「其他候选材料普遍缺乏此类数据」的方法学空白。
+- 可检验问题（AI 推断）：在指定涂层结构与热历程中，反应层组成/厚度是否随暴露演化，并相对初始缺陷、TGO 生长和热失配等因素，对裂纹或界面结合产生可区分的影响？
+- 所需证据与比较：先定义候选涂层/粘结层、实际界面温度和循环程序；测初始界面与后续反应相、厚度、损伤和重复变异。需要匹配热历史与工艺的对照；计算应使用对应几何/物性与应力分量并经实验验证，不能靠套用 YSZ 剪切限值判废。
+- 回答或削弱前提的结果：若目标热历程下未检测到反应或反应并未产生可区分损伤，应限定原先的失效担忧；若反应与独立损伤证据一致，才支持该结构/条件下的风险判断。无检测结果仍需报告检测能力，不能推断全条件惰性。
 
-## Gap Type
+## Feasibility and Research Path
 
-- Type: 真实 gap
-- Reason: 粉末 + 扩散偶方法成熟（#29 已示范），但 1600 °C 级候选材料库中仅此一例系统研究；方法可推广而数据未积累。
+AI 推断：先判断目标涂层结构是否需要该相容性评价，再设计从块体到界面的分级对照。涂层制备、热循环与界面表征资源未确认，可行性 pending；不默认粉末筛选成熟即真实界面验证可行。
 
-## How Existing Work Handles It
+## Risks, Alternative Explanations and Counter-Evidence
 
-- Existing approach:
-  - Paper: "[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility]]"
-  - Remaining limitation: 仅 Hf6Ta2O17 单体系；扩散偶动力学仅 1400 °C；块体几何而非真实涂层。
+温度梯度、TGO 生长、工艺残余应力、蠕变松弛和界面几何可能改变行为。保留粉末反应已解决的内容，撤回领域普遍缺数据、首篇系统研究、>1400 °C 阈值、GPa 实测及一票否决。
 
-## What Remains Unsolved
+## Status and Revision History
 
-- Unsolved part: 各候选材料（稀土钽酸盐、高熵锆酸盐、稀土硅酸盐等）与 Al2O3 的反应阈值温度、产物相、扩散动力学。
-- Why unresolved: TBC 选材流程未纳入该判据；高通量粉末反应筛选未建立。
+- 2026-09-07：status 改为 narrowed；用复核后的证据替换旧“真实 gap”及确定性机制前提，保留原路径。priority: pending 表示未完成研究价值、资源和新颖性排序。
+- 本轮完成五项 gap 的前提与分类修订，并同步 index、计划和维护记录；未改原始资料或重新复核外部文献。
+- 下游待复核：[[synthesis/open-questions]] 应替换旧问题前提与评级；[[synthesis/research-positioning]] 应撤回依赖旧 gap 的确定方向；[[synthesis/review-outline]]、[[synthesis/core-argument-map]] 和 [[synthesis/literature-map]] 应依据当前边界重组，不将候选当作已证领域结论。
+- 相关主题正文仍待同步：[[wiki/topics/Thermal Barrier Coatings]]。源页/claim 历史 gap 待办由本轮修订接续；具体原文未决仍有效。
 
-## Possible Research Questions
+## Use in Positioning or Review
 
-- Question: 如何建立 TBC-TGO 相容性高通量筛选方法并将其纳入选材判据？
-  - Feasibility: high（粉末混合退火 + 自动 XRD 判相可实现）
-  - Evidence needed: 候选材料 × Al2O3 粉末对在 1300–1600 °C 的反应矩阵。
-
-## Possible Research Paths
-
-- Path: 高通量粉末反应筛选（多成分平行制样 + 分段退火 + XRD 自动判相）。
-  - Required method/data: 高通量制样平台、高温退火炉、自动 XRD 分析流程。
-  - Risk: 粉末反应与涂层界面反应的热力学阈值可能不一致（界面应变能贡献），需扩散偶复核。
-
-## Risks and Counter-Evidence
-
-- Risk: 该 gap 可能随「无粘结层新型 TBC 体系（直接沉积）」出现而重要性下降。
-  - Evidence: 当前主流 TBC 仍依赖 MCrAlY/Pt-Al 粘结层，TGO 不可避免。
-  - How to check: 跟踪无粘结层涂层技术成熟度。
-
-## Related Pages
-
-- Papers: "[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility]]"
-- Topics: "[[wiki/topics/Thermal Barrier Coatings]]"
-- Methods:
-- Claims: "[[wiki/claims/Hf6Ta2O17-TGO-Incompatibility]]"
-- Reviews:
-
-## Uncertainty
-
-- 待确认：无
-- 待核查：无
-- AI 推断：无
-
-## Maintenance Checklist
-
-- [x] Added to `index.md`.
-- [x] Evidence strength marked.
-- [x] Related open question updated if needed.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Aliases checked against `memory/term_aliases.md`.
+- Safe wording: 该论文已证明指定粉末/扩散偶条件下的 Hf₆Ta₂O₁₇–Al₂O₃ 反应；实际 TGO 界面中的反应—损伤关系仍是需要明确结构与热历程后检验的候选问题。
+- 更强使用前提：先解决会改变论断的原始证据疑点，再按用户研究范围评估已有研究、可行性与新颖性；本页不是用户已确认的选题。

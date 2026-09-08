@@ -1,8 +1,10 @@
 ---
 type: claim
 status: active
+review_status: checked
+assessment: partially-supported
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-07
 source_papers:
   - "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
 topics:
@@ -10,7 +12,6 @@ topics:
 methods:
 datasets:
 metrics:
-confidence: medium-high（单体系单篇论文，但含无 CMAS 对照与 TEM 双重排除实验）
 tags:
   - claim
   - cmas
@@ -19,62 +20,49 @@ tags:
   - ebc
 ---
 
-# 相分解诱导晶间渗透
+# Lu₂SiO₅ 相演化对晶间侵入的可能贡献
 
-## Claim
+## Claim Statement
 
-- 1500 °C 下 Lu2SiO5 发生相分解 2Lu2SiO5 = Lu2Si2O7 + Lu2O3；分解生成的 Lu2Si2O7 被 CMAS 优先侵蚀并成为晶间快速渗透通道，导致 CMAS 沿晶界向基体内部快速渗透——高温下稀土单硅酸盐 EBC 的失效根源可以是基体相失稳，而非 CMAS 反应产物本身。
+- Statement: 在本文 1500 °C 的 Lu₂SiO₅–CMAS 实验中，基体相演化及二硅酸盐相关区域可能参与晶间侵入路径的形成。
+- Claim type: causal mechanism
+- Assessment: partially-supported
+- Review status: checked
 
-## Evidence
+本轮基于七篇已复核论文页的 E1–E8 进行下游证据迁移。checked 表示本页判断及边界已核查，不代表未决原文、外部转引或机制均已验证。
 
-- Source paper: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]" Key Claim 3
-- Source section/page/table/figure: 图 6/7（无 CMAS 的 1500 °C/50 h 分解对照）、图 5（反应前沿 fringes）、图 8（TEM 晶界洁净）
-- Evidence summary: 无 CMAS 对照实验直接证实分解（出现 Lu2Si2O7 与 Lu2O3 两相，Eq 1）；腐蚀样品反应前沿出现 Ca2Lu8(SiO4)6O2 fringes 与三叉晶界处残余 CMAS；TEM/EDS 显示晶界无非晶相与成分偏聚，排除晶界偏聚假说——Lu2Si2O7 是晶间渗透主因。渗透深度 1500 °C/50 h 219 μm（1300 °C 约 50 μm 的 >4 倍）。
-- Evidence strength: strong（对 Lu2SiO5 体系内部结论）
+## Scope and Definitions
 
-## Scope
+无压烧结 Lu₂SiO₅ 块体初始含 0.3 wt% Lu₂Si₂O₇；CMAS 35 mg/cm²，1500 °C/5、20、50 h；无 CMAS 对照为 1500 °C/50 h。判断涉及相演化的可能贡献，未限定为唯一或主要根源。
 
-- Applies to: 1500 °C 下 Lu2SiO5 的 CMAS 腐蚀。
-- Does not apply to: 1300 °C（Lu2SiO5 相稳定、渗透仅约 50 μm）；其他 RE2SiO5 成分（是否分解未核查）。
-- Conditions: 分解在 1500 °C 无 CMAS 条件下即自发进行；Lu2Si2O7 与 CMAS 的高反应性引用本组前作（RE2Si2O7「blister」现象，ref [24]）。
+## Evidence Ledger
 
-## Supporting Papers
+| Evidence | Role | Evidence type | Independence group / original data source | Conditions and metric | What it supports | Verification |
+|---|---|---|---|---|---|---|
+| [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E1]] | limit | direct | 2024-Lu-initial | Fig. 1 精修 | 初始已有二硅酸盐，不能把全部二硅酸盐算作新生分解量 | checked |
+| [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E5]] | support | direct / author interpretation | 2024-Lu-heat-control | 无 CMAS 1500 °C/50 h；Fig. 6/7 | 相组合/邻近关系支持 2Lu₂SiO₅ = Lu₂Si₂O₇ + Lu₂O₃ 的分解解释 | checked；缺定量相平衡 |
+| [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E4]] | support | direct / author interpretation | 2024-Lu-corrosion | Fig. 5 截面与点分析 | 存在晶间侵入及二硅酸盐相关区域；先后顺序非实时追踪 | checked |
+| [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E6]] | limit | direct | 2024-Lu-heat-control | Fig. 8 局部 TEM/线扫 | 局部未见非晶膜/明显偏聚，不能排除全部晶界因素 | checked |
+| [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E3]]；[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E7]] | limit | direct / cited prior work | 2024-Lu-corrosion；2019-corrosion | 原位选帧及 219 μm 最深渗透 | 析出时序冲突；与 2019 约 50 μm 衰退层不直接可比 | partial |
 
-- Paper: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
-  - Evidence: 分解对照 + TEM + 渗透深度（1500 °C/50 h 219 μm vs 1300 °C 约 50 μm）。
-  - Notes: 与「冷却起始析出 + 垂直定向生长」共同解释 Lu2SiO5 的 1500 °C 失效。
+同组原始数据的多种表征或多篇转引不重复计数。Verification 中的 partial/pending 保留对应证据的未决，不被页面 checked 覆盖。
+
+## Assessment Rationale
+
+无 CMAS 热处理对照和侵入形貌为作者机制提供部分支持；缺少初始杂相梯度、取向控制、同位置路径追踪及分解量测定，尚不能确立优先侵蚀次序或量化贡献。产物排列通路与其他晶界因素也未排除。
 
 ## Challenging or Limiting Evidence
 
-- 无直接反驳证据；主要限制：
-  - 单体系（Lu2SiO5）单篇论文；#47（七体系 1500 °C）未做 TEM 与无 CMAS 对照，无法判断分解是否普遍。
-  - #47 将 1500 °C RE 效应弱化归因于粘度剧降；本文提出相分解机制——二者可能叠加，相对权重未定量。
+有/无 CMAS 条件对照可 qualitative-only 支持相演化解释，不能当作独立控制了所有杂相和取向的因果试验。219/50 μm 跨研究 not-directly-comparable，不保留四倍劣化。单个 Lu 结果不证明全部 RE 或高熵样品同样分解。
 
-## Use in Review Writing
+## Use in Synthesis or Review
 
-- Possible section: 「稀土单硅酸盐 EBC 的 1500 °C 失效机制」段落。
-- Possible sentence role: contrast（与 1300 °C 对比）+ limitation（相稳定性作为选材判据）
-- Citation need: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
+- Safe wording: Lu₂SiO₅ 的 1500 °C 热处理对照显示支持分解解释的相组合，结合 CMAS 晶间侵入形貌提示相演化可能参与侵蚀；其独立贡献与优先侵蚀过程尚待验证。
+- 使用边界：仅作为待验证解释、研究限制或候选问题使用，不得作为已成立前提组织大纲。
 
-## Related Pages
+## Revision History and Downstream Review
 
-- Papers: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Datasets:
-- Metrics:
-- Gaps: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"
-- Reviews:
-
-## Uncertainty
-
-- 待确认：相分解在其他 RE2SiO5 成分（Tb–Yb）中是否普遍存在。
-- 待核查：MinerU OCR 中分解反应式与 EDS 数据引用前与原文核对。
-- AI 推断：高熵 RE2SiO5（#48）的 1500 °C 相分解行为（熵稳定效应是否抑制分解）。
-
-## Maintenance Checklist
-
-- [x] Added to `index.md`.
-- [x] Source evidence checked.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Aliases checked against `memory/term_aliases.md`.
+- 2026-09-07：保留原路径和正确证据，替换旧 Claim/Confidence；撤回初始完全纯相、TEM 排除全部晶界因素、分解为唯一主因、二硅酸盐全由本次分解新生及温度劣化四倍。
+- 本轮更新：本 claim、其余七项 claim 及索引/维护记录；未重写 gap、topic 或综合页正文。
+- 下游待复核：[[wiki/gaps/CMAS-Corrosion-Data-1500C]] 与 [[synthesis/review-outline]] 的普遍分解主线、[[synthesis/research-positioning]] 的高熵必然抑制分解前提待修。
+- 共同入口：[[synthesis/literature-map]]、[[synthesis/core-argument-map]] 应使用当前 Assessment 与独立来源分组替换旧强度/共识；[[synthesis/open-questions]] 的候选前提须随之核对。用户核心研究问题仍未确定，本页不代替选题确认。

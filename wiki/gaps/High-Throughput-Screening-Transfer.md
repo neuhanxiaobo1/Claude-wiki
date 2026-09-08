@@ -1,10 +1,12 @@
 ---
 type: gap
-status: open
+status: narrowed
+review_status: checked
+gap_type: candidate-question
+novelty_status: not-assessed
 created: 2026-08-23
-updated: 2026-08-23
-priority: medium
-evidence_strength: strong
+updated: 2026-09-07
+priority: pending
 papers:
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
@@ -20,91 +22,60 @@ tags:
   - ceramics
 ---
 
-# 高通量筛选方法向其他 EBC/TBC 体系推广
+# 层叠筛选结果的独立试样可复现性与迁移边界
 
-## Gap Description
+## Gap Statement
 
-- 层叠法高通量筛选（#46）与高温原位观察（#47）均已在单一体系验证其有效性，但尚未推广到其他 EBC/TBC 材料体系（如 RE2SiO5、RE2Si2O7、高熵稀土硅酸盐/锆酸盐）；三篇论文使用的高通量策略（层叠法、19 成分并行制备）也未统一到同一框架下。
+在已研究 RETaO₄ 层叠 CMAS 筛选条件下，层间接触和跨 RE 产物组成是否改变成分排序与产物归属，相对独立试样的偏差能否被量化？跨体系推广须以此类验证为依据。
+
+- Current classification: candidate-question
+- 边界：仅复用七篇复核源页与八项新版 claim；本轮未做领域新颖性检索。review_status: checked 指前提、分类和使用边界已核查，不表示问题已解答或实验可行性已确认。
+
+## Origin and Preconditions
+
+evidence boundary + AI inference。新版 RETaO₄ claim 支持产物类别，明确不支持层间完全化学独立。问题是测量/比较有效性，不是把层叠、并行制备与原位观察组合本身称为创新。
+
+## Existing Coverage
+
+| Work/evidence | What is already addressed / conditions | What remains | Independence / review status |
+|---|---|---|---|
+| [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E1]]；[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E2]] | 八 RE 十层试样已有同炉暴露与跨 RE 点成分 | Nd/Er 区域见其他 RE，影响来源和大小未被独立分离 | 本文实验；checked |
+| [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E3]]；[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E5]] | 已报告深度及产物组成 | 误差棒不是仪器精度；阳离子归一化不是完全计量证明 | 本文实验；checked |
+| [[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E1]]；[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E7]] | 19 组成并行制备/表征 | 不是层叠；样品映射问题影响回归，不能当作迁移验证 | checked；映射未决 |
+| [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E3]]；[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E4]] | 高温原位观察提供时序信息 | 与批量筛选任务不同，不自动验证高通量或跨体系精度 | checked；视频未读 |
 
 ## Why It Matters
 
-- 加速成分筛选是用户课题的方法学机会：把「层叠法统一条件对比 + 原位观察机制」组合推广到稀土硅酸盐/二硅酸盐体系，可直接生成「成分-结构-温度-抗蚀性」多维数据，支持综述中的规律归纳与选题定位。
+AI 推断：若层叠排序对邻层或位置敏感，后续选材可能误将实验配置差异当成材料差异。若独立复现成立，则可明确方法在所测边界内的用途；并不自动意味着其他材料体系适用或用户已选择方法开发。
 
-## Supporting Evidence
+## Novelty Assessment
 
-- Paper: "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
-  - Evidence: 作者强调层叠法可推广至其他体系（#46 Potential Gaps 2）；层叠法目前在钽酸盐体系的渗透深度定量已达 ±2–10 μm 精度。
-  - Source section/page/table/figure: 全文方法部分、Conclusion
-  - Evidence strength: strong
+- Novelty status: not-assessed。
+- 本轮没有执行领域检索，不能声称“尚无人研究”“首次”或“领域普遍缺失”；旧 high/medium 和 strong 不能作为新颖性或选题优先级。
+- 已有最接近工作及限制见上表。外部工作可能已解决问题，后续若要认定 scoped-field-gap，必须记录日期、检索源/检索式、纳排范围、最接近工作及反例。
 
-- Paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
-  - Evidence: 高温原位观察方法仅用于 RE2SiO5（#47 Potential Gaps 3）；作者指出可推广至 RE2Si2O7、高熵稀土硅酸盐等。
-  - Source section/page/table/figure: 全文
-  - Evidence strength: strong
+## Research Question and Required Evidence
 
-- Paper: "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
-  - Evidence: 19 成分高通量制备+表征流水线已建立，但腐蚀条件单一（1300 °C/5 h），未与层叠法/原位观察联用。
-  - Source section/page/table/figure: §2
-  - Evidence strength: strong
+- 可检验问题（AI 推断）：保持相同名义烧结/腐蚀条件时，独立 RETaO₄ 试样与不同层序/邻层的层叠试样，是否给出一致的深度分布和产物类别？
+- 所需证据与比较：需独立样品、层序/位置变换、腐蚀前后跨 RE 元素分布、微结构及相同测厚定义；记录重复数、样品间变异和预先确定的实用等效界限。不以差异不显著等同方法等效，也不把多个层片当独立重复。
+- 回答或削弱前提的结果：若改变邻层/位置导致超出重复变异的系统变化，应限制原筛选排序并检查来源；若独立样品在预设等效界限内复现，则在所测条件下支持有效性，该候选问题可收窄或解决。
 
-## Cross-Page Basis
+## Feasibility and Research Path
 
-- Page: "[[wiki/topics/Ceramic Corrosion]]"
-  - What it shows: 主题页 Method Routes 已归纳 3 条方法路线（原位观察、层叠法、并行制备），但三者相互独立、无交叉验证。
-  - Why it supports this gap: 方法路线之间的「组合」本身是空白——这正是可做的研究。
+AI 推断：优先验证现有体系，再决定跨体系；需要可控层序制样、元素/相分布和重复暴露，不默认任意体系层间扩散程度。资源、成本和可实现对照尚待确认，可行性 pending。
 
-## Gap Type
+## Risks, Alternative Explanations and Counter-Evidence
 
-- Type: 真实 gap
-- Reason: 三篇论文各自声明方法可推广但均未跨体系实施（作者自述 + 客观空白）。
+跨 RE 成分不能单独证明污染来源或已改变排序；几何、烧结历史与局部 CMAS 供给也可能造成差异。旧页 #36 实为已入库 2019 单硅酸盐，#48 亦已入库，撤回错误身份/待入库叙述。旧记录中的未复核跨体系候选（如 #59）仅是待查线索，不能据其肯定或否定领域新颖性。
 
-## How Existing Work Handles It
+## Status and Revision History
 
-- Existing approach:
-  - Paper: "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
-  - Remaining limitation: 并行制备流水线仅覆盖锆酸盐；层叠法的统一条件优势（消除样品间误差）与并行制备的高成分通量尚未结合。
+- 2026-09-07：status 改为 narrowed；用复核后的证据替换旧“真实 gap”及确定性机制前提，保留原路径。priority: pending 表示未完成研究价值、资源和新颖性排序。
+- 本轮完成五项 gap 的前提与分类修订，并同步 index、计划和维护记录；未改原始资料或重新复核外部文献。
+- 下游待复核：[[synthesis/open-questions]] 应替换旧问题前提与评级；[[synthesis/research-positioning]] 应撤回依赖旧 gap 的确定方向；[[synthesis/review-outline]]、[[synthesis/core-argument-map]] 和 [[synthesis/literature-map]] 应依据当前边界重组，不将候选当作已证领域结论。
+- 相关主题正文仍待同步：[[wiki/topics/Ceramic Corrosion]]。源页/claim 历史 gap 待办由本轮修订接续；具体原文未决仍有效。
 
-## What Remains Unsolved
+## Use in Positioning or Review
 
-- Unsolved part: 跨体系（硅酸盐/二硅酸盐/钽酸盐/锆酸盐）统一方法框架下的可比数据；原位观察与高通量腐蚀的联用。
-- Why unresolved: 各方法由同一研究组分别开发，跨体系推广需要解决高温 CMAS 保持、层间扩散、成分-结构表征通量等具体问题。
-
-## Possible Research Questions
-
-- Question: 层叠法能否在 RE2SiO5/RE2Si2O7 体系中复现「渗透深度-RE 半径」规律并与钽酸盐数据直接对比？
-  - Feasibility: high（方法成熟、材料制备工艺成熟）
-  - Evidence needed: 层叠硅酸盐块体 + 1300 °C 腐蚀截面数据。
-
-## Possible Research Paths
-
-- Path: 层叠法 + 原位观察联用于稀土二硅酸盐体系（填补 #36/#23 入库后的体系对比需求）。
-  - Required method/data: 层叠压制烧结 + 高温接触角仪/相机 + 截面 SEM/EPMA。
-  - Risk: 二硅酸盐层间固相扩散高于钽酸盐，层间污染需预验证。
-
-## Risks and Counter-Evidence
-
-- Risk: 跨体系推广可能被他人抢先（该组工作节奏快，58 篇清单中已有大量后续工作）。
-  - Evidence: 2025–2026 年该组已连续发表高通量系列（#46、#18、#58 数据驱动），方法学空白窗口有限。
-  - How to check: 检索该组 2026 年新论文确认是否有跨体系工作（#52 中文综述可能已涉及）。
-
-## Related Pages
-
-- Papers: "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"、"[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"、"[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Claims:
-- Reviews:
-
-## Uncertainty
-
-- 待确认：该 gap 是否已被该组 2026 年新工作覆盖（待入库 #36/#23/#48/#52 核查）。
-- 待核查：无
-- AI 推断：跨体系推广的技术障碍程度。
-
-## Maintenance Checklist
-
-- [x] Added to `index.md`.
-- [x] Evidence strength marked.
-- [x] Related open question updated if needed.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Aliases checked against `memory/term_aliases.md`.
+- Safe wording: 层叠筛选已产生可用的条件内结果，但跨 RE 组成使其与独立试样的一致性值得核验；跨体系迁移目前是候选验证方向，不能称尚无人实施的方法空白。
+- 更强使用前提：先解决会改变论断的原始证据疑点，再按用户研究范围评估已有研究、可行性与新颖性；本页不是用户已确认的选题。

@@ -1,8 +1,9 @@
 ---
 type: synthesis
 status: active
+review_status: checked
 created: 2026-08-23
-updated: 2026-08-28
+updated: 2026-09-07
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
   - "[[wiki/topics/Thermal Barrier Coatings]]"
@@ -36,118 +37,108 @@ tags:
 
 # Literature Map
 
-本页维护跨论文文献地图，由 `agents/synthesis_agent.md` 维护。
+## Working Question and Corpus Boundary
 
-## Scope
+临时工作问题：这七篇已复核论文支持哪些限定判断，哪些比较有资格进入后续综述？这不是用户已确认的核心论题。用户研究领域与用途见 [[memory/project_profile]]。
 
-- Research field: 高温结构陶瓷 CMAS 腐蚀（EBC/TBC 方向）
-- Included topics: 稀土单硅酸盐 RE2SiO5（含高熵 (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5）、稀土钽酸盐 RETaO4、高熵稀土锆酸盐 (5RE0.2)2Zr2O7 的 CMAS 腐蚀机制与成分调控；TBC 候选材料 Hf6Ta2O17 与 TGO 的热化学相容性；高温原位观察与高通量筛选方法。
-- Excluded topics: 氯化物熔盐腐蚀（Si3N4 篇已归档）；烧蚀/吸波/透波方向（田老师 collection 内但非本主题）。
-- Time range: 2019–2026（已入库 7 篇）；上游热化学依据为 Costa et al. / Risbud et al. 系列（原始文献待入库）。
+- 纳入：元数据所列七篇，2019–2026 年；六篇 CMAS 研究与一篇 Hf–Al₂O₃ 相容性研究。复用各源页 E1–E8、八项 claim 和五项 gap 的最新版本。
+- 来源集中：来自同一 Zotero collection，作者重叠；是 local corpus，不代表全部团队、材料路线或领域共识。
+- 不纳入确定性比较：未完成本轮复核的 JECS 2019、旧 #59 等候选，以及仅转引的外部数据。Risbud 已核摘要/讨论、Costa 转引身份和 Li 摘要的覆盖各按源页声明，不冒充全部原文已核。
+- 真实涂层热循环与寿命、本体之外的其他腐蚀介质及领域新颖性不在本轮综合范围；这不构成用户永久排除范围。
+- review_status: checked 仅指本矩阵的条件、来源与结论边界已核查；原始映射、视频、统计与机制未决仍有效。本轮没有重新完整读取全部 PDF 或执行领域检索。
 
-## Research Problem Map
+## Experimental Evidence Matrix
 
-| Research problem | Related papers | Methods | Solved parts | Unresolved parts | Evidence strength |
-|---|---|---|---|---|---|
-| 腐蚀产物形成焓-RE 半径关联是否普适（1300 °C） | #36、#46、#18、#47（1300 °C 对照）、#48、#16（1300 °C 对照） | 衰退层/渗透深度/腐蚀层厚度定量、DFT 形成焓、量热、光学碱度、润湿性 | 1300 °C 三体系一致：小半径抗蚀更好；#36 奠基单组分 8 组分线性规律 + ΔΛ 判据，#48 证明规律在固溶体/高熵体系成立（排序与平均半径完全对应） | 1500 °C 规律弱化/反转；X1 大半径系列内部趋势反向（#21 未入库，晶型依赖翻转） | strong |
-| 1500 °C 高温下温度效应是否跨体系普适 | #47、#16（均限 RE2SiO5） | 原位观察、FactSage 粘度、接触角/润湿观察、无 CMAS 对照 | RE2SiO5 体系两篇证实低粘度促进传质、RE 效应弱化（Lu2SiO5 1300 °C 最优 → 1500 °C 219 μm）；同时观察到大 RE 样品润湿流失、冷却析出与相分解 | 钽酸盐/锆酸盐/高熵硅酸盐无 1500 °C 数据；高温排序受粘度、润湿、流失、冷却过程与相稳定性共同影响 | medium-high |
-| 1500 °C 相分解（2Lu2SiO5 = Lu2Si2O7 + Lu2O3）的普适性与高熵抑制 | #16、#48（无高温数据） | 无 CMAS 对照、TEM 晶界表征 | Lu2SiO5 分解证实并定位为晶间渗透通道 | 其他 RE2SiO5 与高熵样品是否分解未知；熵稳定效应待验证 | strong（单体系）/ weak（普适性） |
-| 结构类型（烧绿石/缺陷萤石、X1/X2 晶型）与 RE 半径对抗蚀性的解耦 | #18、#36（X2 侧）、#21（X1 侧，未入库） | 高通量 19 成分、Rietveld、腐蚀层测厚、衰退层测厚 | 缺陷萤石+小半径组合抗蚀最佳；X2 段衰退层随半径减小变薄，X1 系列内部反向（#47 引述）——晶型依赖翻转被两文佐证 | 结构/晶型与半径贡献未解耦；#36 大半径组晶型归属待核查 | strong |
-| 冷却析出产物对涂层热循环完整性影响 | #47、#16、#36 | 原位观察（Movie S1–S3 / Movie 1–2）、截面裂纹观察 | 冷却析出机制两篇独立证实（#16：1500 °C 保温无反应、冷却起始析出）；#36 最早观察衰退层 E/TEC 失配的冷却热应力剥落 | 对涂层剥落/应力的影响未定量评估 | strong |
-| 高通量方法跨体系推广 | #46、#18、#47、#48 | 层叠法、并行制备、原位观察、高熵对照设计 | 各方法单体系验证有效 | 四方法未联用、未跨体系 | strong |
-| TBC-TGO 热化学相容性（>1400 °C） | #29 | 粉末反应、扩散偶、CTE/E 实测、应力估算 | Hf6Ta2O17-Al2O3 不相容已证实（AlHf3TaO10 生成 + 热应力超 YSZ 许用） | 其他候选材料无数据；扩散障方案未验证；真实涂层未闭环 | strong（单体系） |
+CMAS 六篇名义配方均为 33CaO–9MgO–13AlO₁.₅–45SiO₂（单阳离子氧化物摩尔口径），不能改成 13Al₂O₃。名义配方相同仍不能抹去制备、负载、供液、指标和微结构差异。下表数值均按原作者报告，不补造重复数或误差定义。
 
-## Method Routes
+| Paper / evidence | Object and variable | Necessary conditions / preparation | Metric and operational definition | Retained result | Original data group | Review boundary |
+|---|---|---|---|---|---|---|
+| 2019 单硅酸盐：[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E1]]、[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E2]] | Tb/Dy/Ho/Er/Y/Tm/Yb/Lu；RE 与时长 | 热压块体，密度 >95%；1300 °C/50 h 八 RE，100 h 五 RE；30 mg/cm²，凹坑储池 | 衰退层：溶解前沿至玻璃中含磷灰石层顶部，含产物层 | 小半径组总体较薄；Lu 约 50 μm/50 h、79 μm/100 h；非严格线性/寿命律 | 2019-corrosion | checked；原始统计、晶型细节及正式版差异未决 |
+| 2023 单硅酸盐：[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E1]]、[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E6]]、[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E7]] | 七 RE，不含 Lu；成分与时长 | 无压烧结，密度 >92%；1500 °C；35 mg/cm²；5 h 七种，20 h 六种，50 h 四种 | 原表面至最深 CMAS 位置；与 2019 衰退层不同 | 存在成分/时间差异，非简单单调；缺测与熔体流失有关，不补零值 | 2023-corrosion；1300 对照属 2019-corrosion | checked 范围内；ESM/视频未读，统计与缺测限制排名 |
+| 2024 Lu：[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E1]]、[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E5]]、[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E7]] | Lu₂SiO₅；时长、有/无 CMAS | 无压烧结，约 95%；初始 0.3 wt% 二硅酸盐；1500 °C/5、20、50 h，35 mg/cm²；无 CMAS 对照 50 h | 原表面至最深渗透位置；热处理相组合为另类证据 | 50 h 报告 219 μm；相组合支持分解解释，不确认唯一侵入主因 | 2024-Lu-corrosion；2024-Lu-heat-control；1300 对照同属 2019-corrosion | checked；Movie/析出时序、分解量与统计未决 |
+| 2022 四元单硅酸盐：[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E1]]、[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E6]]、[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E7]] | 四元配方及 Ho/Lu/Yb/Eu 对照 | HE 块体含二硅酸盐；1300 °C/20 h，约 35 mg/cm²；Eu 晶型不同 | 作者 infiltration depth，图示黄线 d；完整端点定义未充分说明 | Lu 40.2±3.2、Yb 75.1±2.0、HE 125.4±8.7、Ho 166.5±23.6、Eu 248.6±14.3 μm；相类别支持石榴石 | 2022-HE-corrosion / products（同试验的多种表征） | checked；比较限本篇名义条件；精确通式和统计未决 |
+| 2025 RETaO₄：[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E1]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E2]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E3]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E4]] | 八 RE 十层；层位置/成分及时长 | 1650 °C/20 h 烧结层叠块体；1300 °C/25、50、75、100 h；30 mg/cm² | 未涂外层提供原表面参照，结合截面/Ca、RE 面扫定渗透区 | Nd/Er 在 100 h 为 196.4±5.8 / 89.4±9.9 μm；全序非严格单调；主要复杂固溶体/少量磷灰石 | 2025-RETa-stack | checked；跨 RE 组成限制化学独立性；局部 TEM 只覆盖 Y/Nd 50 h |
+| 2026 高熵锆酸盐：[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E1]]、[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E2]]、[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E7]] | 19 五元组合；结构与平均半径 | 并行制备，1600 °C/10 h 烧结；1300 °C/5 h，25 mg/cm²；并非层叠 | 残余 CMAS 与相对未反应基体间腐蚀区厚度；非最深 Ca 侵入 | 作者报告约 20–70 μm；补充表 19 行均值 25.000–63.690 μm，但无样品 ID | 2026-zirconate-corrosion | checked 指已发现冲突；样品—半径—厚度未对应，不能回归/选最优 |
+| 2025 Hf 相容性：[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E1]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E2]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E3]] | Hf₆Ta₂O₁₇–Al₂O₃；粉末/扩散偶及热历程 | 粉末 1300–1600 °C/10 h 空气；扩散偶真空 1400 °C/40 MPa/10 min 热压，再空气 10/30/50 h | 反应相及界面反应层厚度；不是 CMAS 渗透 | 1400 °C 已反应；热压初始 2.93±0.38 μm，追加退火依次 3.16±0.35、4.32±0.43、4.61±0.62 μm | 2025-Hf-powder-products；2025-Hf-diffusion-couple | checked；阈值、单向扩散、损伤因果/真实 TGO 未建立 |
 
-| Route | Core idea | Representative methods | Representative papers | Strength | Limitation |
-|---|---|---|---|---|---|
-| 高温原位观察 | 相机记录 CMAS 熔化-铺展-产物析出全过程，区分高温生长与冷却析出；无 CMAS 对照分离基体失稳与熔体反应 | 高温接触角仪、超深场显微镜、FactSage 粘度、无 CMAS 退火对照、TEM 晶界表征 | "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"、"[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]" | 直接捕捉动态过程，时间/温度分辨；#16 用对照实验揭示相分解机制 | 单样品表面，通量低 |
-| 层叠法高通量筛选 | 多种成分压制于同一块体，统一条件一次腐蚀、截面直接对比 | 层叠压制烧结、截面渗透深度、TEM/EPMA、DFT | "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]" | 消除样品间误差，高效获得成分依赖规律 | 层间致密度差异；防层间扩散 |
-| 高通量并行制备 | 多成分并行制样 + 热物性/腐蚀联合表征 | 高通量球磨/压片、Rietveld、LFA、DIL、腐蚀层测厚 | "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]" | 大样本成分-结构-性能关联 | 腐蚀条件单一（1300 °C/5 h） |
-| 高熵多组分对照设计 | 元素功能分工 + 高熵样品与单组分同条件对照，多目标（热导/TEC/CMAS）协同评估 | 高熵固溶体制备、晶格畸变定量、XPS、LFA/DIL、纳米压痕、EPMA 产物定量 | "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]" | 「选成分」升级为「多目标设计」；对照使元素贡献可归因 | 单腐蚀条件；等摩尔单成分点 |
-| 粉末反应 + 扩散偶联用（TBC-TGO 相容性） | 混合粉末定反应阈值与产物相，扩散偶定动力学与扩散方向 | 混合粉末退火、Rietveld、SEM-EDS 梯度、Kirkendall 空洞、CTE/E、应力估算 | "[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility]]" | 低成本定相容性阈值；直接反映界面反应动力学 | 块体几何 ≠ 涂层 TGO 薄层；需真实涂层闭环 |
+这些 source group 表示数据来源身份，不是统计独立重复数。各试验的取点误差、样品间重复与显著性不能由列数、层数或测点数补造。
 
-## Claims Map
+## Calculations, Interpretations and Shared Sources
 
-- Claim: "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"（形成焓-RE 半径关联）
-  - Supports: #36（8 组分衰退层-半径线性规律 + Risbud 量热 + ΔΛ 判据）、#46（DFT+渗透深度+润湿性）、#18（腐蚀层厚度）、#47（1300 °C 对照）、#48（渗透排序）、#16（1300 °C 对照）
-  - Challenges: #47（1500 °C 方向反转）；X1-RE2SiO5 大半径系列内部反向（#21，未入库——晶型依赖翻转）
-  - Source papers: 六篇已入库论文
-  - Evidence strength: strong（1300 °C）／待扩展（1500 °C）
+| Evidence | Type / source | What can be used | What cannot be inferred |
+|---|---|---|---|
+| [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E5]]、[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E6]] | 光学碱度计算；Risbud-2001 转引外推 | 粗筛相关指标；原始无 Ca 氧磷灰石与含 Ca 产物不同 | OB 定量预测、本文直接量热或统一含 Ca 焓序列；源内方向矛盾未解决 |
+| [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E5]] | 2023-FactSage 计算 | 作者计算 1300 °C 黏度 > 1500 °C 四倍 | 实测黏度、腐蚀四倍、黏度单独导致排序反转 |
+| [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E6]] | 2025-RETa-DFT 固定成分模型 | 保留模型对象与 Fig. 15 数值方向的原始记录 | 正值且参考态/符号/归一化未清，不能译为更负/更放热；实际产物含跨 RE |
+| [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E7]]、[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E8]]、[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E8]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E6]]、[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E8]] | Costa-thermochemistry，共同外部转引 | 作为作者热化学解释的来源线索，原文未全面复核 | 多次转引不等于多次独立量热；形成焓不单独等于腐蚀自由能或速率 |
+| [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E2]]、[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E4]] | 2022 实测扩散/膨胀、估算 cₚ/孔隙校正及外部对照 | 特定配方热导 1.07–1.47 W·m⁻¹·K⁻¹ 与所列 TEC 范围 | 全部直接实测、同批热物性对照、精确 SiC 全温匹配或已证元素分工 |
+| [[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E3]]、[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E8]] | 2026 热导计算、孔隙校正与机制解释 | 方法及量级；无序输运作为候选解释 | 密度/热导端点冲突未决；未直接测输运，不能确认所有缺陷萤石更优 |
+| [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E5]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E6]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E8]] | Hf 物性/转引参数与简化弹性模型；Li 前文仅摘要 | 指定假设下约 272.6/880.6/1030.8 MPa 模型输出 | 实测服役应力、套 YSZ 剪切限值或已裁定前文全文争议 |
 
-- Claim: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"（1500 °C 粘度剧降与 RE 效应弱化）
-  - Supports: #47 主实验
-  - Challenges: 无直接反驳；但 #47 还显示润湿流失和冷却析出会改变高温腐蚀表观结果，仅单体系覆盖
-  - Source papers: #47
-  - Evidence strength: medium
+## Comparison Eligibility
 
-- Claim: "[[wiki/claims/RETaO4-CMAS-Corrosion-Product-Clarification]]"（钽酸盐产物澄清）
-  - Supports: #46 TEM+EPMA 证据链
-  - Challenges: 文献旧报道（Ca2Ta2O7/磷灰石）已被澄清
-  - Source papers: #46
-  - Evidence strength: strong
+| Comparison / intended question | Status | Reason and permitted use |
+|---|---|---|
+| 2019 同温同时长已测成分的衰退层 | directly-comparable | 本篇定义内描述总体关联；不宣称每相邻差异显著或独立半径因果 |
+| 2023 同时长且实际有数据的样品 | directly-comparable，限已测指标 | 保留 5/20/50 h 覆盖差异、微结构及熔体流失，不外推完整七 RE 长时排序 |
+| 2022 五样品名义同条件腐蚀深度 | directly-comparable，限本篇描述 | 可以保留 Lu < Yb < HE < Ho < Eu；控制不足，不能量化熵/平均半径因果 |
+| 2025 RETa 同次层叠截面几何深度 | directly-comparable，仅所测层位置 | 能描述层片数值差异；作为独立成分本征性能仅 qualitative-only，跨 RE/孔隙/邻层影响未分离 |
+| 2024 Lu 自身 1500 °C 时长序列 | directly-comparable，限本篇指标 | 可描述时间变化，统计不足，不拟合未经验证速率或寿命 |
+| 2025 Hf 自身扩散偶热历程序列 | directly-comparable，限层厚 | 区分热压初始与追加退火，不据少数时点推出普适动力学 |
+| 2019 与 2023/2024 的 1300/1500 °C 数值 | not-directly-comparable | 2019 衰退层含产物，与最深渗透不同；制备、负载、供液与覆盖亦不同，禁止 219/50 温度劣化倍数 |
+| 不同 CMAS 材料体系深度；Hf 反应层与 CMAS 深度 | not-directly-comparable | 指标、介质、温度/时长、几何与材料不同，不统一排名或合并回归 |
+| 2026 全样品半径/结构—厚度及与 YSZ/Gd₂Zr₂O₇ 文献比较 | not-directly-comparable | 原始映射未清；外部条件/介质含 CAS 差异；分组形貌仅 qualitative-only |
+| 2019/2022 石榴石类、2023 Er/2024 Lu 原位线索 | qualitative-only | 前者相类别不是精确式/首创；后者材料、热历程和图帧时序不一致 |
+| Hf 粉末/扩散偶与实际 TGO；正应力与 YSZ 剪切限值 | 前者 qualitative-only，后者 not-directly-comparable | 不把块体反应和模型幅值直接转换成涂层失效结论 |
 
-- Claim: "[[wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism]]"（缺陷萤石双重机制）
-  - Supports: #18 19 成分系统数据
-  - Challenges: 结构与半径共线、未解耦（#18 自述）
-  - Source papers: #18
-  - Evidence strength: strong
+directly-comparable 表示该行限定指标可以描述比较，不代表所有干扰变量已控制或样品统计独立。模型与实测也不能因为单位相同而合并。
 
-- Claim: "[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]"（相分解诱导晶间渗透）
-  - Supports: #16 无 CMAS 对照 + TEM + 渗透深度
-  - Challenges: 无直接反驳；#47 未观察到/未核查分解，机制相对权重（粘度 vs 相分解）未定量
-  - Source papers: #16
-  - Evidence strength: strong（Lu2SiO5 单体系）
+## Claims and Synthesis Judgments
 
-- Claim: "[[wiki/claims/Garnet-Product-RE2SiO5-CMAS]]"（石榴石型腐蚀产物）
-  - Supports: #48 EPMA 定量 + 反应式
-  - Challenges: #47/#16 未报道石榴石——单组分体系硅酸盐石榴石是否存在待核查；#36 单组分小半径组检出铝酸盐石榴石 RE3Al5O12（不同物相，两类石榴石需区分）
-  - Source papers: #48、#36（对照）
-  - Evidence strength: strong（高熵体系单篇）
+| Claim | Assessment / review status | Independent evidence basis | Conditions | Reusable role and boundary |
+|---|---|---|---|---|
+| [[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]] | insufficient-evidence / checked | 2019 原始腐蚀关联；2022/2025 有限比较，2026 映射未决；Risbud/Costa 为外部来源 | 约 1300 °C，指标与材料不同 | 跨体系半径—形成焓因果仅候选解释 |
+| [[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]] | insufficient-evidence / checked | 2023 FactSage 与腐蚀实验；2024 Lu 不是第二次多 RE 排名验证 | 1300/1500 °C；对照指标/条件不同 | 保留黏度模型结果，不确认导致排序反转 |
+| [[wiki/claims/RETaO4-CMAS-Corrosion-Product-Clarification]] | supported / checked | 2025 同一层叠试验的 XRD、局部 Y/Nd TEM、EPMA | 1300 °C/25–100 h，30 mg/cm² | 主要复杂固溶体及少量磷灰石；精确组成和独立性受限 |
+| [[wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism]] | insufficient-evidence / checked | 2026 腐蚀/结构数据；Costa 转引不新增量热 | 1300 °C/5 h，25 mg/cm²；映射冲突 | 无序输运/热化学双机制未确立 |
+| [[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]] | partially-supported / checked | 2024 Lu 热处理对照与腐蚀形貌；局部 TEM | 1500 °C，初始 0.3 wt% 二硅酸盐 | 相演化可能参与侵入；不是唯一根源 |
+| [[wiki/claims/Garnet-Product-RE2SiO5-CMAS]] | supported / checked | 2022 XRD/EPMA；2019 既有石榴石类为首次性限制 | 四元单硅酸盐，1300 °C/20 h | 相类别可用；精确通式、首次性及作用未确立 |
+| [[wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design]] | supported / checked | 2022 特定配方测量/计算；部分热物性对照为转引 | 各热物性温区及 1300 °C/20 h 腐蚀 | 性能折中，不等于已证元素分工/熵协同 |
+| [[wiki/claims/Hf6Ta2O17-TGO-Incompatibility]] | supported / checked | 2025 粉末物相与块体扩散偶；同一研究的不同表征 | 指定 1400 °C 工艺 | 发生反应；不确定实际 TGO 损伤与寿命 |
 
-- Claim: "[[wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design]]"（高熵元素功能分工）
-  - Supports: #48 四单组分同条件对照
-  - Challenges: CMAS 抗性未超过 Lu/Yb 单组分；1500 °C 相稳定性未知（#16 提示单硅酸盐高温分解风险）
-  - Source papers: #48
-  - Evidence strength: strong（性能数据）/ medium（机理）
+四项 supported 是收窄后的具体事实，一项 partially-supported 为 Lu 相演化的可能贡献，三项 insufficient-evidence 为未确立因果假说。source page 的 checked 不自动提高 Assessment；该表的来源分组、条件与反证边界须随写作一起保留。
 
-- Claim: "[[wiki/claims/Hf6Ta2O17-TGO-Incompatibility]]"（TBC-TGO 不相容）
-  - Supports: #29 粉末反应 + 扩散偶 + 热物性三重证据
-  - Challenges: Li et al.（2011）旧结论已被修正；真实涂层体系未闭环
-  - Source papers: #29
-  - Evidence strength: strong（单体系）
+可据此形成的综合结论是：当前语料提供多组限定实验事实及机制线索，但尚不足以建立跨体系半径—形成焓普适律、已证高温反转或实际涂层寿命排序。这是对本证据集支持边界的评价，不是否定所有材料规律或领域已有工作。
 
-## Gap Map
+## Unresolved Conflicts and Next Evidence
 
-- Gap: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"（1500 °C 数据缺失）
-  - Related direction: 温度效应普适性验证
-  - Supporting evidence: #46/#18 实验设计仅 1300 °C；#47 仅单硅酸盐
-  - Related open question: 主题 Main Question 2；"[[synthesis/open-questions]]" Q1
+| Issue | Current classification | Evidence needed before stronger use |
+|---|---|---|
+| 2019 焓方向、2025 DFT 正值/参考态 | 来源内部定义/表述未决，非已证物理反转 | 对应原始热化学定义、计算基准或正式更正 |
+| 2026 样品—半径—厚度映射 | 原始数据对应冲突 | 可追溯样品 ID 与作图/测量数据，不按行猜配 |
+| 2023/2024 原位温标与析出起点 | 热历史与选帧冲突 | 原视频、时间—温度记录或可重复观察 |
+| 2022 石榴石式、Table 7 比值/Eq. 12 | 类别有支持，精确计量/路径未决 | 可靠相鉴定、组成/占位及反应计量核对 |
+| Hf 与 Li 前文差异 | 前文仅摘要，全文比较未完成 | 对应全文与方法/条件核对；不以温度不足猜测解释 |
 
-- Gap: "[[wiki/gaps/Structure-Radius-Decoupling]]"（结构-半径解耦）
-  - Related direction: 高熵 TBC 成分设计准则；EBC 单硅酸盐晶型选择
-  - Supporting evidence: #18 结构-半径共线；#36/#21 的 X1/X2 晶型翻转
-  - Related open question: 主题 Main Question 3；"[[synthesis/open-questions]]" Q2
+## Gap Map and Writing Handoff
 
-- Gap: "[[wiki/gaps/Cooling-Precipitation-Coating-Integrity]]"（冷却析出影响）
-  - Related direction: 热循环损伤评估
-  - Supporting evidence: #47 原位观察冷却析出；#16 冷却起始析出；#36 冷却热应力剥落
-  - Related open question: 主题 Main Question 4；"[[synthesis/open-questions]]" Q3
+- [[wiki/gaps/CMAS-Corrosion-Data-1500C]]：corpus-gap；所列 RETaO₄/高熵材料缺统一口径温度对照。
+- [[wiki/gaps/Structure-Radius-Decoupling]]：candidate-question；先核清样品/半径/厚度，再评估独立变量。
+- [[wiki/gaps/Cooling-Precipitation-Coating-Integrity]]：candidate-question；先核时序，再检验相演化对损伤的贡献。
+- [[wiki/gaps/High-Throughput-Screening-Transfer]]：candidate-question；层叠与独立试样的一致性及迁移边界。
+- [[wiki/gaps/TBC-TGO-High-Temperature-Compatibility]]：candidate-question；Hf–Al₂O₃ 反应向实际 TGO 界面外推。
 
-- Gap: "[[wiki/gaps/High-Throughput-Screening-Transfer]]"（高通量方法推广）
-  - Related direction: 方法学组合与跨体系应用
-  - Supporting evidence: 六篇 CMAS 论文方法各自单体系验证
-  - Related open question: "[[synthesis/open-questions]]" Q4
+五项均 narrowed/checked、novelty_status: not-assessed、priority: pending；一项语料缺口和四项候选问题，不是五个已确认领域 gap。领域新颖性与用户选题仍需分别处理。
 
-- Gap: "[[wiki/gaps/TBC-TGO-High-Temperature-Compatibility]]"（TBC-TGO 相容性数据缺失）
-  - Related direction: TBC 选材判据扩展与界面工程
-  - Supporting evidence: #29 单体系系统研究；其他候选材料空白
-  - Related open question: "[[synthesis/open-questions]]" Q7
+下一步可按“限定事实 → 比较边界 → 待检验解释/问题”的顺序更新开放问题和大纲；这只是证据组织提案（AI 推断），不提前固定研究方向。
 
-## Maintenance Checklist
+## Downstream Review
 
-- [x] Updated after major paper ingestion.
-- [x] Important new topics/methods/claims/gaps linked.
-- [x] Evidence strength marked for major synthesis claims.
-- [x] Important additions reflected in `index.md`.
-- [x] Operation recorded in `log.md`.
+2026-09-07：本轮替换两个 topic 与 [[synthesis/literature-map]] 的旧正文，保留路径。源页、claim、gap 历史交接中的 topic/matrix 待办由本轮接续；原始证据未决仍保留。
+
+- [[synthesis/open-questions]]：按新版五项 gap 替换旧问题前提和高/中优先级。
+- [[synthesis/research-positioning]]：撤回以普适规律、领域空白和必然失效推出的确定方向，不冒充用户选题。
+- [[synthesis/review-outline]]：用当前矩阵重构主线与段落依据；不保留“1300 °C 公理—1500 °C 反转”的确定叙事。
+- [[synthesis/core-argument-map]]：旧快照仍待替换；恢复任务以 [[memory/context_policy]] 与本轮矩阵为入口。
+
+上述四页本轮未重写，不能因主题/矩阵 checked 而认定其旧结论已同步。

@@ -1,8 +1,10 @@
 ---
 type: claim
 status: active
+review_status: checked
+assessment: supported
 created: 2026-08-27
-updated: 2026-08-28
+updated: 2026-09-07
 source_papers:
   - "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
   - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
@@ -11,7 +13,6 @@ topics:
 methods:
 datasets:
 metrics:
-confidence: strong（EPMA 定量 + 反应式证据链，单篇；#36 提供铝酸盐石榴石对照）
 tags:
   - claim
   - cmas
@@ -20,67 +21,47 @@ tags:
   - ebc
 ---
 
-# RE2SiO5-CMAS 腐蚀产物中的石榴石相
+# 特定四元 RE₂SiO₅–CMAS 反应产物中的石榴石型相
 
-## Claim
+## Claim Statement
 
-- RE2SiO5 与 CMAS 在 1300 °C 反应除生成磷灰石 Ca2RE8(SiO4)6O2 外，还生成石榴石型产物 (CaxRE3-x)(MgyAlzSi5-y-z)O12（(Ca+RE):(Mg+Al+Si)≈3:5）；该相为 RE2SiO5-CMAS 体系首次报道，将硅酸盐 EBC 的腐蚀产物谱从「单一磷灰石」扩展为「磷灰石 + 石榴石」。
+- Statement: (Ho₀.₂₅Lu₀.₂₅Yb₀.₂₅Eu₀.₂₅)₂SiO₅ 在本文 1300 °C/20 h CMAS 暴露后的产物中具有石榴石型相的 XRD 与成分证据。
+- Claim type: descriptive result
+- Assessment: supported
+- Review status: checked
 
-## Evidence
+本轮基于七篇已复核论文页的 E1–E8 进行下游证据迁移。checked 表示本页判断及边界已核查，不代表未决原文、外部转引或机制均已验证。
 
-- Source paper: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]" Key Claim 5
-- Source section/page/table/figure: EPMA 点定量（表 7）、反应式 Eq 11/12、产物形貌（块状 vs 棒状）
-- Evidence summary: 1300 °C/20 h 腐蚀后高熵样品反应层中检出块状石榴石 (CaxRE3-x)(MgyAlzSi5-y-z)O12，EPMA 定量 (Ca+RE):(Mg+Al+Si)≈3:5；棒状磷灰石（Ca:RE≈1:4）并存。
-- Evidence strength: strong
+## Scope and Definitions
 
-## Scope
+2022 年具体四元块体，C33M9A13S45（AlO₁.₅ 计量）、约 35 mg/cm²；限定于相类别识别，不包括精确占位/通式、生成时序或保护效果。
 
-- Applies to: (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5-CMAS 1300 °C 腐蚀。
-- Does not apply to: 单组分 RE2SiO5-CMAS 体系是否同样生成未核查（#47/#16 仅报道磷灰石）。
-- Conditions: 腐蚀条件 1300 °C/20 h 单点；石榴石形成可能与高熵成分（多 RE 混合、Eu 价态）有关，亦可能为普遍现象但此前被忽略。
+## Evidence Ledger
 
-## Supporting Papers
+| Evidence | Role | Evidence type | Independence group / original data source | Conditions and metric | What it supports | Verification |
+|---|---|---|---|---|---|---|
+| [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E7]] | support | direct | 2022-HE-products | Fig. 11(b) XRD、Table 7 EPMA | Garnet 衍射线及富 Ca/Mg/Al/Si、含 RE 区域支持相类别 | checked |
+| [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E7]] | limit | calculated / author interpretation | 2022-HE-products | Table 7 点 C、Eq. 12 | 比值约 0.507 而非严格 0.600；反应式一般 z 非零时 Al 未配平 | checked；精确通式未决 |
+| [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E4]] | limit | direct | 2019-products | 1300 °C/50 h；Er/Tm/Yb/Lu 的 XRD 指认 | 2019 已报道石榴石类，限制首次性与高熵专属论断 | checked |
 
-- Paper: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
-  - Evidence: EPMA 定量 + 反应式（Eq 11/12）+ 形貌。
-  - Notes: 论文给出反应路径，但石榴石对 CMAS 抗性的作用（有益/有害）未厘清。
+同组原始数据的多种表征或多篇转引不重复计数。Verification 中的 partial/pending 保留对应证据的未决，不被页面 checked 覆盖。
+
+## Assessment Rationale
+
+XRD 相类别证据不能因 EPMA 的计量疑点被全部抹去；同时，类别支持也不能提升为精确晶体化学鉴定。supported 仅针对本页收窄后的相类别事实。
 
 ## Challenging or Limiting Evidence
 
-- Paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
-  - Challenge: 7 种单组分 RE2SiO5 在 1500 °C 的腐蚀产物均报道为 Ca2RE8(SiO4)6O2，未提及石榴石。
-  - Evidence: #47 XRD/SEM-EDS（1500 °C）；#16（Lu2SiO5，1500 °C）亦未报道石榴石。
-- 限制：仅高熵体系单篇报道；石榴石在单组分体系中「未生成」还是「未检出」待核查。
+2019 与 2022 的产物类别可 qualitative-only 对照，时长/配方组成与微结构不同，不能确定组成互斥或生成分界。2019 理想式 RE₃Al₅O₁₂ 不证明实际产物绝对不含 Si；其他文章未报道不能证明不存在。
 
-- Paper: "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"（对照证据）
-  - Challenge: #36 在 1300 °C 单组分小半径组（Er/Tm/Yb/Lu）检出铝酸盐石榴石 RE3Al5O12（不含 Si）——与本 claim 的硅酸盐石榴石 (CaxRE3-x)(MgyAlzSi5-y-z)O12 是不同物相，不构成对本 claim 的否定，但说明石榴石型产物在单组分 RE2SiO5-CMAS 体系中此前已有报道（含铝酸盐石榴石，被后文普遍忽略）。
-  - Evidence: #36 XRD（Fig. 5/7）+ 引证 Jiang et al.（ref [13]）。两类石榴石需严格区分，见本页 Uncertainty。
+## Use in Synthesis or Review
 
-## Use in Review Writing
+- Safe wording: 2022 年四元单硅酸盐在 1300 °C/20 h CMAS 暴露后出现石榴石型产物的 XRD 与成分线索，但复杂相的精确通式及其抗蚀作用尚未确定。
+- 使用边界：可作为限定事实用于综述，必须保留上述材料、条件、指标及 E# 来源；不能外推为机制或服役定律。
 
-- Possible section: 「RE2SiO5-CMAS 腐蚀产物谱与反应路径」段落。
-- Possible sentence role: background（产物谱扩展）+ future work（石榴石作用未明）
-- Citation need: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
+## Revision History and Downstream Review
 
-## Related Pages
-
-- Papers: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"、"[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Datasets:
-- Metrics:
-- Gaps:
-- Reviews:
-
-## Uncertainty
-
-- 待确认：硅酸盐石榴石 (CaxRE3-x)(MgyAlzSi5-y-z)O12 是否仅高熵体系特有，或单组分体系中同样存在（此前报道聚焦磷灰石）；#36 单组分体系检出的铝酸盐石榴石 RE3Al5O12 与本 claim 的硅酸盐石榴石物相不同，二者关系（共存、互变、生成条件分界）未澄清。
-- 待核查：石榴石的晶体学数据（空间群、晶格参数）与 MinerU OCR 反应式核对。
-- AI 推断：石榴石形成与 Eu2+/氧空位或 Mg/Al 富集的关系。
-
-## Maintenance Checklist
-
-- [x] Added to `index.md`.
-- [x] Source evidence checked.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Aliases checked against `memory/term_aliases.md`.
+- 2026-09-07：保留原路径和正确证据，替换旧 Claim/Confidence；撤回首次发现、仅高熵生成、严格 3:5 定量确认及反应式独立证实路径。
+- 本轮更新：本 claim、其余七项 claim 及索引/维护记录；未重写 gap、topic 或综合页正文。
+- 下游待复核：[[wiki/topics/Ceramic Corrosion]]、[[synthesis/review-outline]] 的产物谱和首次性须修订；不得以此直接建立高熵专属产物或保护机制。
+- 共同入口：[[synthesis/literature-map]]、[[synthesis/core-argument-map]] 应使用当前 Assessment 与独立来源分组替换旧强度/共识；[[synthesis/open-questions]] 的候选前提须随之核对。用户核心研究问题仍未确定，本页不代替选题确认。

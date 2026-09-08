@@ -1,8 +1,10 @@
 ---
 type: claim
 status: active
+review_status: checked
+assessment: insufficient-evidence
 created: 2026-08-23
-updated: 2026-08-27
+updated: 2026-09-07
 source_papers:
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
@@ -11,7 +13,6 @@ topics:
 methods:
 datasets:
 metrics:
-confidence: medium-high（双论文，但仅 RE2SiO5 单体系覆盖）
 tags:
   - claim
   - cmas
@@ -20,67 +21,48 @@ tags:
   - ebc
 ---
 
-# 1500 °C CMAS 粘度剧降致 RE 效应弱化
+# 黏度降低导致 RE 抗蚀性规律弱化或反转（待验证）
 
-## Claim
+## Claim Statement
 
-- 1500 °C 时 CMAS 粘度降至 1300 °C 的 1/4 以下，传质与腐蚀反应加速，使 RE 种类对 CMAS 抗蚀性的影响弱化；且 RE2SiO5 的渗透深度-RE³⁺ 半径关系在 1500 °C 出现方向反转（大 RE 阳离子抗性更好），区别于 1300 °C 的小半径优势。
+- Statement: 待检验假说：CMAS 从 1300 °C 升至 1500 °C 时的黏度降低，导致 RE₂SiO₅ 抗蚀性与 RE 成分的关系弱化或反转。
+- Claim type: causal mechanism
+- Assessment: insufficient-evidence
+- Review status: checked
 
-## Evidence
+本轮基于七篇已复核论文页的 E1–E8 进行下游证据迁移。checked 表示本页判断及边界已核查，不代表未决原文、外部转引或机制均已验证。
 
-- Source paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]" Key Claims 3–4
-- Source section/page/table/figure: 图 16（FactSage 粘度）、图 18(a)（渗透深度对比）
-- Evidence summary: FactSage 计算 1300 °C 粘度 >4 倍于 1500 °C；1300 °C 渗透深度随 RE³⁺ 半径减小近线性减小，1500 °C 时仅随半径减小缓慢增加、数据分散度小；大阳离子（Tb、Dy、Ho、Y、Er）体系形成致密产物层、界面平滑（图 18(b)）。
-- Evidence strength: strong（对 #47 内部结论）／ medium（跨体系普适性）
+## Scope and Definitions
 
-## Scope
+以 2023 年单硅酸盐研究为主，区分 FactSage 黏度计算、块体侵入深度与原位可见析出。因变量为成分—抗蚀指标关系，解释变量为黏度；升温同时改变溶解、析出、相稳定性等，未实现黏度独立控制。
 
-- Applies to: 1500 °C 级 CMAS 腐蚀（已证实：RE2SiO5 体系）。
-- Does not apply to: 1300 °C（规律相反，见 "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"）。
-- Conditions: 结论基于渗透深度判据 + FactSage 计算粘度（非实测）。
+## Evidence Ledger
 
-## Supporting Papers
+| Evidence | Role | Evidence type | Independence group / original data source | Conditions and metric | What it supports | Verification |
+|---|---|---|---|---|---|---|
+| [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E5]] | support | calculated | 2023-FactSage | 1300/1500 °C 黏度 | 作者计算前者大于后者四倍；不等于黏度实测或腐蚀倍数 | checked；模型参数未完整复现 |
+| [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E1]]；[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E6]] | limit | direct | 2023-corrosion | 1500 °C；5/20/50 h 覆盖样品不同 | 5 h 七 RE，20 h 缺 Tb，50 h 仅 Y/Er/Tm/Yb；趋势非简单单调 | checked；ESM 未读 |
+| [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E7]] | limit | cited prior work | 2019-corrosion | 1300 °C 对照来自 2019 | 对照不是同批温度单变量试验，测厚定义不同 | checked |
+| [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E3]]；[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E7]]；[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E8]] | limit | direct / author interpretation | 2024-Lu-corrosion | 仅 Lu；1500 °C/50 h 最深渗透 219 μm | 未测黏度/多 RE 排名；冷却析出时序存在图文冲突 | partial |
 
-- Paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
-  - Evidence: 7 种 RE2SiO5 × 5/20/50 h 系统数据 + 原位观察 + FactSage 粘度。
-  - Notes: 原位观察（Er2SiO5）显示 1500 °C 保温约 1 h 产物才缓慢析出，1300 °C 对照 2.5 h 无产物——反应速率差异的直接证据。
+同组原始数据的多种表征或多篇转引不重复计数。Verification 中的 partial/pending 保留对应证据的未决，不被页面 checked 覆盖。
 
-- Paper: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
-  - Evidence: Lu2SiO5 渗透深度 1300 °C/50 h 约 50 μm → 1500 °C/50 h 219 μm（>4 倍）；原位观察 1500 °C 保温无可见反应、冷却起始大量析出 vs 1300 °C 保温降温全程无产物。
-  - Notes: 为「1500 °C 下 RE 效应弱化/反转」提供第二篇独立证据（1300 °C 最优的 Lu 成分在 1500 °C 失效）；同时揭示相分解诱导晶间渗透的附加机制（见 "[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]"）。
+## Assessment Rationale
+
+计算支持名义熔体黏度随升温下降这一模型结果，但不足以归因成分排序变化。2023 缺测与非单调数据不能写成完整七成分三时长的反转；2024 单一 Lu 不能作第二次多 RE 排名验证。
 
 ## Challenging or Limiting Evidence
 
-- 无直接反驳证据；主要限制是覆盖范围：
-  - 1500 °C 数据仅 RE2SiO5 单体系（两篇论文）；钽酸盐、锆酸盐均为 1300 °C 数据（"[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"）。
-  - 粘度来自 FactSage 计算而非实测；REO1.5 在 CMAS 中的溶解度差异为定性推断（#47 Limitations）。
-  - #16 显示 Lu2SiO5 的 1500 °C 失效叠加了相分解因素——「粘度-RE 效应弱化」与「相分解」的相对贡献未定量。
+2023 同时长且实际有数据的样品可按本篇指标比较（directly-comparable，统计仍有限）。与 2019 衰退层对照 not-directly-comparable；2023 与 2024 原位不同材料/热历程仅 qualitative-only。未见表面析出不等于无溶解或无反应。
 
-## Use in Review Writing
+## Use in Synthesis or Review
 
-- Possible section: 「温度对 RE 成分调控规律的影响」段落。
-- Possible sentence role: contrast（与 1300 °C 规律对比）+ limitation（高温数据稀缺）
-- Citation need: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"、"[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
+- Safe wording: 2023 年研究的 FactSage 计算给出 1300 °C 黏度大于 1500 °C 的四倍；作者据此讨论传输影响，但现有实验未独立证明黏度使 RE 抗蚀性规律反转。
+- 使用边界：仅作为待验证解释、研究限制或候选问题使用，不得作为已成立前提组织大纲。
 
-## Related Pages
+## Revision History and Downstream Review
 
-- Papers: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"、"[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Datasets:
-- Metrics:
-- Gaps: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"
-- Reviews:
-
-## Uncertainty
-
-- 待确认：该规律在钽酸盐、锆酸盐体系中是否成立（主题 Main Question 2）。
-- 待核查：MinerU OCR 粘度数值（1/4 以下）与原文核对。
-- AI 推断：1500 °C 方向反转的机理（粘度-溶解度-反应动力学-相稳定性耦合）为定性推断。
-
-## Maintenance Checklist
-
-- [x] Added to `index.md`.
-- [x] Source evidence checked.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Aliases checked against `memory/term_aliases.md`.
+- 2026-09-07：保留原路径和正确证据，替换旧 Claim/Confidence；撤回已证方向反转、双篇独立确认、Lu 抗蚀性劣化四倍、保温全程无反应及完整七成分×三时长数据等表述。
+- 本轮更新：本 claim、其余七项 claim 及索引/维护记录；未重写 gap、topic 或综合页正文。
+- 下游待复核：[[wiki/gaps/CMAS-Corrosion-Data-1500C]]、[[wiki/gaps/Cooling-Precipitation-Coating-Integrity]] 以及 [[synthesis/review-outline]] 的温度反转与仅冷却析出前提待修。
+- 共同入口：[[synthesis/literature-map]]、[[synthesis/core-argument-map]] 应使用当前 Assessment 与独立来源分组替换旧强度/共识；[[synthesis/open-questions]] 的候选前提须随之核对。用户核心研究问题仍未确定，本页不代替选题确认。

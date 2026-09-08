@@ -1,32 +1,30 @@
 ---
-type: topic
-status: active
+type: paper
+title: (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5 high-entropy ceramic with low thermal conductivity, tunable thermal expansion coefficient, and excellent resistance to CMAS corrosion
+year: 2022
+authors: Chen Zhilin; Tian Zhilin; Zheng Liya; Ming Keyu; Ren Xiaomin; Wang Jingyang; Li Bin
+venue: Journal of Advanced Ceramics
+status: processed
+review_status: checked
 created: 2026-08-23
-updated: 2026-08-27
-papers:
-  - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
-  - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
-  - "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
-  - "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
-  - "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
-methods:
-datasets:
-metrics:
+updated: 2026-09-07
+source: Zotero I929AL9M 英文 PDF；10119/full.md 对应英文正文
+source_version: Journal of Advanced Ceramics 11(8), 1279–1293；15 页英文正文
+zotero_collection: 毕设 > 组内文章 > 博士 > 田老师
+zotero_item_key: 8IPQUSQL
+zotero_attachment_key: I929AL9M
+pdf_attachment_name: Chen 等 - 2022 - (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5 high-entropy ceramic with low thermal conductivity, tunable thermal 1.pdf
+doi: 10.1007/s40145-022-0609-z
+topics:
+  - "[[wiki/topics/Ceramic Corrosion]]"
 claims:
   - "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"
-  - "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"
-  - "[[wiki/claims/RETaO4-CMAS-Corrosion-Product-Clarification]]"
-  - "[[wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism]]"
-  - "[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]"
   - "[[wiki/claims/Garnet-Product-RE2SiO5-CMAS]]"
   - "[[wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design]]"
 gaps:
   - "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"
-  - "[[wiki/gaps/Structure-Radius-Decoupling]]"
-  - "[[wiki/gaps/Cooling-Precipitation-Coating-Integrity]]"
-  - "[[wiki/gaps/High-Throughput-Screening-Transfer]]"
 tags:
-  - topic
+  - paper
   - corrosion
   - ceramics
   - cmas
@@ -35,166 +33,155 @@ tags:
 
 # (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5 high-entropy ceramic with low thermal conductivity, tunable thermal expansion coefficient, and excellent resistance to CMAS corrosion
 
-## Metadata
+## Metadata and Sources
 
-- Title: (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5 high-entropy ceramic with low thermal conductivity, tunable thermal expansion coefficient, and excellent resistance to CMAS corrosion
-- Authors: Chen Zhilin, Tian Zhilin, Zheng Liya, Ming Keyu, Ren Xiaomin, Wang Jingyang, Li Bin（中山大学深圳校区材料学院；中科院金属所；中科大）
-- Year: 2022
-- Venue: Journal of Advanced Ceramics（先进陶瓷，双语）
-- DOI / arXiv / URL: 10.1007/s40145-022-0609-z
-- Source file: MinerU 缓存 `llm-for-zotero-mineru/10117/full.md`（正文）、10119/10121（补充）
-- Zotero collection: 毕设 > 组内文章 > 博士 > 田老师
-- Zotero item key: 8IPQUSQL
-- Zotero attachment key: I929AL9M（正文 PDF）、DMBMXKHX、DQTEV4JP（补充 x2）
+- Citation：Zhilin Chen, Zhilin Tian, Liya Zheng, Keyu Ming, Xiaomin Ren, Jingyang Wang, Bin Li. Journal of Advanced Ceramics 11(8) (2022), 1279–1293. DOI：[10.1007/s40145-022-0609-z](https://doi.org/10.1007/s40145-022-0609-z)。
+- 本轮通过 Zotero MCP 核对 item `8IPQUSQL` 的三份 PDF；`I929AL9M`（1.pdf）为英文原件，`DMBMXKHX`（2.pdf）为中文译文，`DQTEV4JP`（无数字后缀）为中英混排。后二者不是补充材料。
+- 主 PDF：`C:/Users/youthcookie/OneDrive/1.Science/1.Zotero/pdf2/2022-(J Adv Ceram)/Chen 等 - 2022 - (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5 high-entropy ceramic with low thermal conductivity, tunable thermal 1.pdf`，15 页。
+- 缓存根目录：`D:/shuju/zotero1/llm-for-zotero-mineru/`；`10119/full.md` → I929AL9M 英文，`10117/full.md` → DQTEV4JP 混排，`10121/full.md` → DMBMXKHX 中文。三份 _llm_source.json 与 manifest 已核。
+- 本轮没有取得独立补充材料，也未发现正文主要论证必须依赖某个补充编号；不能以译文充当“补充 x2”。
 
-## Reading Status
+## Reading and Verification Status
 
-- Coverage: abstract / introduction / method / experiments / discussion / conclusion（MinerU full.md 全文，含图表说明与参考文献）
-- Confidence: high
-- Missing sections: 无
+- 模式：full-review；2026-09-07 完成已有主要结论复核与源页修订。
+- 已读英文 MD 摘要、引言、方法及结构部分；结果、机制、结论及参考文献目录以英文 PDF 续读/回查。译文仅核对来源与开头，不计为独立证据。
+- 视觉核对 PDF pp. 3、4、6、8–13：方法公式、粉体/块体 XRD、热物性曲线、XPS、畸变表、压痕、腐蚀 XRD/截面/EPMA 和多指标比较图（重点 Fig. 4、7–15，Tables 5–7）。Table 1/2/3/4 的文字与数值亦已读。
+- checked 限于本页声明的证据范围；腐蚀测量端点的完整操作定义、统计重复、石榴石精确化学式、缺陷浓度及因果解释仍有逐项未决。参考文献原文未在本轮全面复核。
 
-## One-Sentence Takeaway
+## Takeaway
 
-- 这篇论文把高熵设计从「追求单相」升级为「元素功能分工的多目标协同」：(Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5 中 Lu/Yb 负责 CMAS 抗性与低 TEC、Ho 负责力学与隔热、Eu 通过 Eu2+（半满 4f7 稳定）引入氧空位，配合严重的晶格畸变（负 Grüneisen 声子贡献），同时实现接近 Clarke 极限的热导（1.07 W/mK @600 °C）、匹配 SiC 的 TEC（(4.0–5.9)×10⁻⁶/K）与良好的 CMAS 抗性（渗透 125.4 μm，优于 Ho/Eu 单硅酸盐与五元平均），并在 RE2SiO5-CMAS 体系中首次鉴定石榴石型腐蚀产物 (CaxRE3-x)(MgyAlzSi5-y-z)O12。
+该四元样品兼具较低的推算热导和接近所引 SiC 范围的热膨胀系数，但其烧结块体含少量二硅酸盐杂相（E1–E4）。1300 °C/20 h 下的作者所称渗透深度为 **125.4 ± 8.7 μm**，低于 Ho/Eu、高于 Lu/Yb，属于性能折中，不是全面优于单组元（E6）。石榴石型相有 XRD 与成分线索支持，精确通式和优先权未得到充分确认；元素分工、氧空位和负 Grüneisen 声子贡献保留为解释（E3/E4/E7/E8）。
 
-## Abstract Rewritten
+## Research Problem and Contribution
 
-- 低热导、匹配的 TEC 与良好的 CMAS 抗性是 Si 基陶瓷 EBC 的三项核心要求。稀土硅酸盐是抗水氧腐蚀最有前景的 EBC 候选，但较高的热导与 TEC 限制了应用。受高熵效应启发，作者设计并制备四元高熵固溶体 (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5（X2 相，C2/c；Rwp=5.862%，GOF=1.27；理论密度 6.83 g/cm³，孔隙率约 5%）。
-- 性能：热导 1.07–1.47 W/mK（600 °C 时 1.07，接近 Clarke 极限 κmin=0.99）；α⁻¹-T 拟合截距 953150（系列中第二大，表明高质量/氧空位点缺陷浓度）；XPS 证实 Eu3+/Eu2+ 共存（1125.69/1155.49 eV 为 Eu2+ 3d 峰）；TEC 在 RT–1200 °C 为 (4.0–5.9)×10⁻⁶/K，与 SiC 基体 (4.5–5.5) 匹配，归因于严重晶格畸变（[REO7] 3.975‰、[REO6] 4.499‰、[SiO4] 2.531‰，均高于对照系列）与化学键变化（负 Grüneisen 参数声子贡献）；纳米压痕折合模量 149.0±16.5 GPa、硬度 11.7±2.1 GPa。
-- CMAS（1300 °C/20 h）腐蚀：高熵样品渗透深度 125.4±8.7 μm，优于 Ho2SiO5（166.5±23.6）、Eu2SiO5（248.6±14.3）与四元单硅酸盐算术平均（132.6±10.7），但劣于 Lu2SiO5（40.2±3.2）与 Yb2SiO5（75.1±2.0）。腐蚀产物为磷灰石（棒状，Ca:RE≈1:4）+ 石榴石型 (CaxRE3-x)(MgyAlzSi5-y-z)O12（块状，(Ca+RE):(Mg+Al+Si)≈3:5），后者为 RE2SiO5-CMAS 体系首次报道。
+作者依据既有单组元性能选择 Ho/Lu/Yb/Eu，尝试兼顾隔热、热膨胀和 CMAS 抗性。可确认贡献是这一具体等摩尔组成的制备及多性能表征，不能由一组配方证明各元素贡献已独立分离或熵稳定机制已成立。引言 [23,24] 已列四元稀土单硅酸盐，撤回旧页“首次制备四元高熵单硅酸盐”；本轮不作领域优先权认定。
 
-## Research Problem
+## Key Evidence
 
-- Problem: 单组分 RE2SiO5 难以同时满足 EBC 三项核心要求——各 RE 各有短板（如 Lu2SiO5 低 TEC 但 Lu 稀缺昂贵、Ho2SiO5 力学/隔热好但 TEC 偏高、Eu2SiO5 热导低但 TEC 高且抗蚀差）；高熵化能否通过多 RE 功能分工实现多目标协同，此前缺乏实验证据。
-- Why it matters: EBC 的实用化需要同时解决隔热、热匹配与抗蚀问题；若高熵设计有效，将为 EBC 成分设计开辟新自由度。
-- Source: full.md 引言
+### E1
 
-## Method
+**样品、物相和设计｜本文实验与精修。**
 
-- Method summary: 固相烧结制备高熵 (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5 与四种单组分对照 + XRD/Rietveld 精修 + 多面体晶格畸变定量 + XPS（Eu 价态）+ LFA 热导（含 κmin 计算与 α⁻¹-T 点缺陷拟合）+ DIL 热膨胀 + 纳米压痕 + CMAS（33CaO-9MgO-13AlO1.5-45SiO2）1300 °C/20 h 腐蚀 + SEM/EPMA 产物定量。
-- Key components: 高熵样品（X2 相，C2/c）与 Lu2SiO5、Yb2SiO5、Ho2SiO5、Eu2SiO5 四种单组分对照；CMAS 标准成分。
-- Assumptions: 以渗透深度作为 CMAS 抗性判据；点缺陷浓度以 α⁻¹-T 拟合截距表征；TEC 降低机制以晶格畸变 + 负 Grüneisen 声子解释（DFT/理论推断部分）。
-- Source: full.md §2 实验、§3 结果
+- 原料氧化物 Ho₂O₃/Lu₂O₃/Yb₂O₃/Eu₂O₃/SiO₂ 按 1:1:1:1:4 摩尔比混合；1650 °C/8 h 制粉，5 MPa 单轴压制、200 MPa/15 min 冷等静压，1550 °C/12 h 烧结块体。
+- 粉体 XRD/精修支持 X2、C2/c 固溶体；Rwp = 5.862%、GOF = 1.27 是拟合质量指标。**块体 Fig. 4 及 Fig. 6/Table 3 指出少量 RE₂Si₂O₇**，不能把粉体单相结论无条件转移到性能试样。
+- 理论密度 6.83 g/cm³，报告孔隙率约 5%。Table 2 的 Ho/Eu 偏好 RE1、Lu/Yb 偏好 RE2 是精修模型结果，不是逐原子独立成像，也未证明随机等占位或熵稳定。
+- Eu₂SiO₅ 对照为 X1、P2₁/c，而高熵及 Ho/Lu/Yb 为 X2；成分比较同时含晶型差异，不能据此隔离平均半径效应。
+- 定位：§2.1–2.2、§3.1，PDF pp. 2–6、Fig. 2–6、Tables 1–3。对照材料完整制备/密度信息未统一列全，不宣称全部同微结构。
 
-## Innovations
+### E2
 
-- Innovation: 首次制备四元高熵稀土单硅酸盐 EBC，提出「元素功能分工」设计策略（Lu/Yb 保抗蚀与低 TEC、Ho 保力学与隔热、Eu 引入氧空位）。
-  - Evidence: 设计逻辑贯穿全文；四元素各自贡献由对照实验与表征分别支撑。
-  - Source: full.md 引言、§3
+**热导｜热扩散实测 + 热容估算、孔隙校正及模型下限。**
 
-- Innovation: 首次在 RE2SiO5-CMAS 体系鉴定石榴石型腐蚀产物 (CaxRE3-x)(MgyAlzSi5-y-z)O12（此前仅报道磷灰石）。
-  - Evidence: EPMA 定量成分（(Ca+RE):(Mg+Al+Si)≈3:5）+ 形貌 + 反应式（Eq 11/12）。
-  - Source: full.md §3.4
+- LFA 测热扩散率，RT–1000 °C；热导由 κ = αρcₚ（Eq. 1）得到，其中 cₚ 用 Neumann–Kopp 规律估算，并按 Eq. (2) 作全致密孔隙校正。不能统称“直接实测热导与热容”。
+- Fig. 7(b) 和正文报告 1.07–1.47 W·m⁻¹·K⁻¹，600 °C 附近为 1.07；保留为该估算/校正流程的结果。Fig. 7(a) 热扩散率与 (b) 热导是不同指标，其“最低”温度范围不同。
+- κmin = 0.99 W·m⁻¹·K⁻¹ 为 Clarke 模型 Eq. (3) 计算值；接近模型估计值不等于已测得绝对物理极限。模型依赖密度、模量和热容/孔隙处理，不能直接证明实际涂层隔热寿命。
+- 单组元热物性曲线标引 [15,25]，属于既有数据比较，不是所有曲线均为本轮同批新测。Fig. 7 的高温回升被作者归因热辐射，不能直接当作纯晶格热导的趋势。
+- 定位/核查：§2.3、§3.2，PDF pp. 3、6–7，Fig. 7、Eqs. (1)–(3)。未重新拟合原始 LFA 数据。
 
-- Innovation: 揭示「晶格畸变 → 负 Grüneisen 参数声子 → TEC 降低」的机理链条，为 TEC 提供成分设计之外的新调控自由度。
-  - Evidence: 三种多面体畸变定量（均系列最高）+ TEC 实测 (4.0–5.9)×10⁻⁶/K。
-  - Source: full.md §3.2
+### E3
 
-## Experiments
+**Eu 价态及散射机制｜XPS 拟合、模型及作者解释。**
 
-- Datasets / objects / materials: 高熵 (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5 块体；Lu2SiO5/Yb2SiO5/Ho2SiO5/Eu2SiO5 对照块体；CMAS 玻璃。
-- Metrics: 相组成与晶格参数（XRD/Rietveld）、晶格畸变度、Eu 价态（XPS）、热导（LFA）、TEC（DIL）、硬度/模量（纳米压痕）、CMAS 渗透深度、产物成分（SEM/EPMA）。
-- Baselines: 四种单组分 RE2SiO5 同条件对照（热物性与腐蚀）。
-- Main results:
-  - 相与结构：单相 X2（C2/c）；[REO7] 畸变 3.975‰、[REO6] 4.499‰、[SiO4] 2.531‰，均高于对照系列；Rwp=5.862%。
-  - 热导：1.07–1.47 W/mK（1.07 @600 °C），接近 κmin=0.99（Clarke）；α⁻¹-T 拟合截距 953150（系列第二大，点缺陷浓度高）。
-  - XPS：Eu3+ 与 Eu2+ 共存（Eu2+ 3d 峰 1125.69/1155.49 eV），Eu2+ 半满 4f7 稳定，等价取代引入氧空位。
-  - TEC：RT–1200 °C 为 (4.0–5.9)×10⁻⁶/K，匹配 SiC（(4.5–5.5)×10⁻⁶/K）。
-  - 力学：折合模量 149.0±16.5 GPa、硬度 11.7±2.1 GPa。
-  - CMAS 1300 °C/20 h 渗透深度（μm）：Lu2SiO5 40.2±3.2 < Yb2SiO5 75.1±2.0 < 高熵 125.4±8.7 < Ho2SiO5 166.5±23.6 < Eu2SiO5 248.6±14.3；四元平均 132.6±10.7，高熵略优于平均。
-  - 腐蚀产物：磷灰石（棒状，Ca:RE≈1:4）+ 石榴石 (CaxRE3-x)(MgyAlzSi5-y-z)O12（块状，(Ca+RE):(Mg+Al+Si)≈3:5）。
-- Source tables/figures/pages: 图 1–14、表 1–7（EPMA 点分析见表 7）
+- Fig. 8(d) 将 1125.69/1155.49 eV 峰指认为 Eu²⁺，1134.90/1164.87 eV 为 Eu³⁺，支持表面谱中存在混合价态的作者拟合解释；未提供本轮可复算的原始谱、体相价态比例或直接氧空位浓度。
+- 由 Eu²⁺/Eu³⁺ 的电荷补偿推断氧空位可能形成，是作者解释。旧页“等价取代引入氧空位”错误：此处讨论的是价态变化引起的电荷补偿，不是等价取代已直接测得空位。
+- Table 4：α⁻¹ = 2550T + 953150；953150 为逆热扩散率拟合截距（单位随 α⁻¹，为 s/m²），不是缺陷浓度值。作者据简化散射模型解释温度无关项；拟合主要讨论 RT–400 °C，超过该段有辐射偏离，不外推为整个温区的定量缺陷计数。
+- 质量失配、尺寸失配、晶界及其他因素并未通过独立对照完全分离。无去除 Eu/调氧分压的系统对照，不能分配各机制的确定贡献比例。
+- 作者提出氧空位不会显著加速粘结层氧化，但依赖价态/迁移能解释及外部 [40] Yb₂SiO₅ 数据；本文没有直接测本高熵样品的氧扩散或粘结层氧化，不能据此确认代价已排除。
+- 定位/核查：§3.2，PDF pp. 7–8，Fig. 8、Table 4、Eqs. (4)–(9)。价态观察与缺陷/服役因果分开使用。
 
-## Key Claims
+### E4
 
-- Claim: 高熵 (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5 同时实现低热导（1.07–1.47 W/mK，接近 κmin=0.99）、TEC (4.0–5.9)×10⁻⁶/K 匹配 SiC 与适中力学性能（折合模量 149.0 GPa、硬度 11.7 GPa）。
-  - Evidence: LFA/DIL/纳米压痕系统数据。
-  - Evidence strength: strong
-  - Related page: "[[wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design]]"
+**热膨胀与畸变｜膨胀测量、结构计算及转引机制。**
 
-- Claim: 严重晶格畸变（[REO7] 3.975‰、[REO6] 4.499‰、[SiO4] 2.531‰，均系列最高）通过负 Grüneisen 参数声子贡献使 TEC 降至与 SiC 匹配——高熵化提供 TEC 设计自由度。
-  - Evidence: 畸变定量 + TEC 实测；机理为理论解释。
-  - Evidence strength: medium（TEC 数据 strong，机理为推断）
-  - Related page: "[[wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design]]"
+- 光学膨胀仪测量；正文/结论报告 RT–1200 °C 的 TEC 范围 (4.0–5.9)×10⁻⁶ K⁻¹，Fig. 9 展示温度依赖曲线。所比较 SiC 的 (4.5–5.5)×10⁻⁶ K⁻¹ 为转引 [41]，并非本文测量同一 SiC 基底。
+- 可以说数值范围接近，不等于所有温度逐点完全匹配或已经通过涂层热循环完整性验证；TEC 的瞬时/平均口径及原始膨胀曲线没有在正文完整说明。
+- Table 5/Eq. (10) 从键长计算畸变：[REO₇] 3.975‰、[REO₆] 4.499‰、[SiO₄] 2.531‰（作者表列值）。这是结构模型的畸变指标，不是直接声子测量。
+- “畸变使负 Grüneisen 声子贡献增加”在正文用 may 表述并援引 [23,43]；本论文没有给该高熵组成的独立声子谱/Grüneisen 参数计算，撤回“本文 DFT 证实此链条”。
+- 杂相对 TEC 影响较小的论证借用 [42] 的其他样品，不是本文高熵样品的控杂相实验，不能彻底排除其贡献。
+- 定位/核查：§2.3、§3.2，PDF pp. 3、9–10，Fig. 9、Table 5、Eq. (10)。保留测量和表列计算，因果仅部分支持。
 
-- Claim: Eu3+/Eu2+ 共存（XPS 3d 峰），Eu2+（半满 4f7 稳定）引入氧空位，与质量失配共同贡献点缺陷声子散射（α⁻¹-T 截距 953150，系列第二大）。
-  - Evidence: XPS 峰位 + 热导拟合。
-  - Evidence strength: medium
-  - Related page: "[[wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design]]"
+### E5
 
-- Claim: 1300 °C/20 h CMAS 渗透 125.4±8.7 μm：优于 Ho/Eu 单硅酸盐与四元平均（132.6），但劣于 Lu（40.2）/Yb（75.1）——高熵样品 CMAS 抗性介于各单组分之间，与平均 RE 半径对应。
-  - Evidence: 五样品同条件渗透深度对比。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+**硬度与折合模量｜局部纳米压痕。**
 
-- Claim: RE2SiO5-CMAS 腐蚀产物除磷灰石外还存在石榴石型 (CaxRE3-x)(MgyAlzSi5-y-z)O12（(Ca+RE):(Mg+Al+Si)≈3:5），为 RE2SiO5-CMAS 体系首次报道。
-  - Evidence: EPMA 定量 + 形貌 + 反应式（Eq 11/12）。
-  - Evidence strength: strong
-  - Related page: "[[wiki/claims/Garnet-Product-RE2SiO5-CMAS]]"
+- 40×40 μm² 区域采集 400 个点；Fig. 10/Table 6：折合模量 149.0 ± 16.5 GPa，硬度 11.7 ± 2.1 GPa。
+- 表中 Ho/Lu/Yb/Eu 模量分别 146.0/156.2/164.1/147.0 GPa；高熵均值位于其中，不是最高强度材料。折合模量不能直接改写成独立测量的杨氏模量；文中仅作近似联系。
+- 400 个点不等于 400 个独立试样；± 的完整统计定义、样品间重复未明确。不用误差重叠情况下的均值差宣称统计显著。
+- 较低模量可能影响热应力是设计解释，不能据压痕直接证明更高弯曲强度、断裂韧性或涂层抗剥落寿命。
+- 定位/核查：§2.3、§3.3，PDF pp. 3、10，Fig. 10、Table 6。局部统计与块体/涂层服役性能分开。
 
-## Limitations
+### E6
 
-- Limitation: CMAS 腐蚀仅 1300 °C/20 h 单条件，无高温（1500 °C）与动力学数据；高熵样品的高温相稳定性未知。
-  - Stated by authors: 否
-  - Evidence: 实验设计单温度单时长
-  - Source: full.md §2
+**CMAS 深度比较｜本文同一名义暴露条件，有限统计与指标定义。**
 
-- Limitation: 高熵样品 CMAS 抗性劣于 Lu/Yb 单硅酸盐——「元素功能分工」的比例未经优化（如提高 Lu/Yb 占比能否逼近 Lu2SiO5 抗性未知）。
-  - Stated by authors: 否
-  - Evidence: 仅等摩尔 1:1:1:1 一种成分
-  - Source: full.md §3.4
+- 33CaO–9MgO–13AlO₁.₅–45SiO₂，单阳离子氧化物摩尔比；CMAS 1200 °C/24 h 预处理、约 35 mg/cm² 涂覆，1300 °C/20 h。HE 与四个单组元均有该名义条件下的截面结果；不是“热物性和腐蚀所有数据均同批新测”。
+- 作者所称 infiltration depth（μm）：
 
-- Limitation: 石榴石产物的形成机制及其对 CMAS 抗性的作用（促进致密层/消耗 CaO 有益，还是加速侵蚀有害）未厘清。
-  - Stated by authors: 否
-  - Evidence: §3.4 仅定量与形貌描述
-  - Source: full.md §3.4
+| 样品 | 报告值 |
+|---|---:|
+| Lu₂SiO₅ | 40.2 ± 3.2 |
+| Yb₂SiO₅ | 75.1 ± 2.0 |
+| 高熵四元 | 125.4 ± 8.7 |
+| Ho₂SiO₅ | 166.5 ± 23.6 |
+| Eu₂SiO₅ | 248.6 ± 14.3 |
 
-## Potential Gaps
+- Fig. 12(a)/14 用截面黄线标示 d，但正文没有像 2024 文那样明确写“原始表面至最深渗透位置”的完整操作定义。保留作者指标名和图示定位，**不默认等同 2019 衰退层或 2023/2024 最深渗透深度**。
+- 四个单组元报告均值的算术平均为 132.6 μm，论文给 132.6 ± 10.7 μm；HE 低 7.2 μm、约 5.4%（本轮算术核对）。原文未明确重复数、± 定义、平均误差计算或显著性检验，不由该差值确认统计显著协同，也不把算术平均当成实际混合物抗蚀试验。
+- Lu < Yb < HE < Ho < Eu 的深度排序可保留为该组名义条件下的结果；HE 并未优于 Lu/Yb。温度/时长仅一组，无动力学或长期/1500 °C 结论。
+- 平均半径没有独立控制：Eu 晶型、价态、占位、孔隙及杂相可能不同；旧页“平均半径 0.894 Å 恰好证明固溶体半径规律”不作为本文验证结果保留。
+- 定位/核查：§2.4、§3.4，PDF pp. 3、11–13，Fig. 12/14/15。本轮复核了截面和算术，不补造测量端点或原始重复数据。
 
-- Gap: 高熵 RE2SiO5 成分优化空白——等摩尔设计下 CMAS 抗性未超过最优单组分，RE 比例/种类的系统优化（数据驱动或实验）尚未开展。
-  - Evidence strength: AI 推断
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+### E7
 
-- Gap: 高熵单硅酸盐在 1500 °C 的 CMAS 行为与相稳定性未知（结合 #16：Lu2SiO5 在 1500 °C 相分解失效，高熵化是否抑制分解待验证）。
-  - Evidence strength: strong（实验空白明确）
-  - Related page: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"
+**腐蚀产物｜XRD、EPMA 的相类别支持与具体式子边界。**
 
-- Gap: 石榴石型产物对涂层完整性与热循环寿命的影响未评估。
-  - Evidence strength: AI 推断
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+- Fig. 11(b) 标出磷灰石及 Garnet 峰，并列参考衍射线；Table 7 点 B 的 Ca:RE 接近 1:4，与杆状磷灰石指认一致。石榴石型相不是只有形貌猜测，XRD 线索应保留。
+- 点 C 富 Ca/Mg/Al/Si 并含 RE；作者用 may be 描述其石榴石型归属，继而提出 **(CaₓRE₃₋ₓ)(MgᵧAl_zSi₅₋ᵧ₋z)O₁₂**。未给该复杂相的独立结构精修、占位或确定 x/y/z，不能写成精确晶体化学已完全鉴定。
+- 原文称 (Ca+RE):(Mg+Al+Si) 约 3:5；按 Table 7 点 C 原数核算为 33.66:66.34 ≈ 0.507，而 3/5 = 0.600。该近似偏差应记录，不能静默改数据或视其为严格化学计量吻合；也不能仅凭此否定所有 XRD 相类别线索。
+- Eq. (11) 为作者提出的磷灰石反应式；Eq. (12) 的 PDF 原式写 zAl₂O₃，右侧为 Al_z，按式面计数左 2z、右 z，**一般 z 非零时 Al 未配平**（本轮代数核查）。不擅自修成另一条作者反应式，亦不把该式作为独立证实反应路径的证据。
+- 撤回“RE₂SiO₅–CMAS 体系首次发现石榴石”及“只有高熵才有”。[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]] 已有作者指认的石榴石类产物；两文具体相组成须分别核对，不能靠本篇通式建立已确定的互斥分类。
+- 定位/核查：§3.4，PDF pp. 11–13，Fig. 11–13、Table 7、Eqs. (11)/(12)。相类别有支持，精确通式、生成路径和有益/有害作用证据不足；未作领域首创性检索。
 
-## Relation to Existing Wiki
+### E8
 
-- Supports: "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"（渗透深度排序 Lu < Yb < 高熵 < Ho < Eu 与 RE³⁺ 平均半径排序完全一致，高熵样品按平均半径 0.894 Å 恰好落在 Yb（0.868）与 Ho（0.901）之间——半径规律在固溶体体系同样成立）。
-- Challenges: 无。
-- Extends: 主题的成分调控维度从「单一 RE 半径选择」扩展到「高熵多元素功能分工」；腐蚀产物相图从磷灰石扩展到磷灰石 + 石榴石。
-- Cited by: #16（ref [16]）引用本文作为高熵稀土硅酸盐 EBC 设计背景。
+**多性能“协同”及外推｜作者设计解释与本次评价。**
 
-## Notes for Review Writing
+- Fig. 15 比较相对四个单组元平均值：渗透深度约 −5%、热导 −26%、TEC −22%、模量 −3%。它是选定指标/参考均值的展示，不是全温区统一改善幅度，更不是全指标超过最优单组元或涂层综合寿命验证。
+- Lu/Yb 保抗蚀、Ho 保力学、Eu 引入空位是作者的选材逻辑；只有一组等摩尔配方，缺少逐元素去除、比例梯度或同平均化学组成的熵效应对照，不能确立独立功能分工或熵稳定因果。
+- 腐蚀机理中的形成焓引自 Costa [50]，先前半径趋势引自 [12]（2019），析出速度讨论还转引 [51] 的高熵锆酸盐。本文没有直接测各 RE 析出速度，也没有测该多元磷灰石形成焓。
+- 1500 °C 抗蚀、高熵是否抑制 [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]] 所述分解、配方优化和热循环损伤，只能列候选问题（AI 推断）；本文没测不等于全领域空白。
+- 定位/核查：引言、§3.4、§4，PDF pp. 1–2、12–15，Fig. 15、References [12,15,23–25,50,51]；已核转引身份，未全面复核外部原始文献。
 
-- 可用于综述的位置：EBC 多目标设计策略（高熵元素功能分工）；RE2SiO5-CMAS 腐蚀产物谱（磷灰石 vs 石榴石）；晶格畸变-TEC 关联机理。
-- 可引用论断：「高熵化使 RE2SiO5 同时逼近 κmin 并匹配 SiC TEC」；「RE2SiO5-CMAS 体系中存在石榴石型产物 (CaxRE3-x)(MgyAlzSi5-y-z)O12」；「高熵样品 CMAS 渗透深度与平均 RE 半径对应，未超过最优单组分」。
-- 待补证据：高熵样品 1500 °C 行为与相稳定性；RE 比例优化。
+## Conclusions for Reuse
 
-## Linked Pages
+- **保留**：这一具体块体组成的低推算/校正热导、较低 TEC、压痕数据，以及五样品名义同条件腐蚀深度排序（E1–E6）。
+- **限定**：适用性能有收益也有代价；“接近 SiC”“接近 Clarke 估计值”只对应所列指标。氧空位、声子机制及元素分工尚未被独立控制实验分离（E2–E5/E8）。
+- **修正/撤回**：块体完全单相、三份附件含补充材料、所有对照均同批热物性实测、等价取代引空位、首次四元/首次石榴石、严格 3:5 验证通式、显著超平均及普适半径规律（E1–E8）。
+- 可用于综述：该多元组成展示了低热导、较低 TEC 与中等 CMAS 抗性的组合，说明选材需逐指标比较；不能以“高熵协同”掩盖单组元 Lu/Yb 在本组腐蚀指标上的优势。
 
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Datasets:
-- Metrics:
-- Claims: "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"、"[[wiki/claims/Garnet-Product-RE2SiO5-CMAS]]"、"[[wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design]]"
-- Gaps: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"
-- Reviews:
+## Limitations and Open Questions
 
-## Uncertainty
+- 块体二硅酸盐含量、对照微结构及腐蚀端点/统计定义未完整给出；不能直接与其他论文统一拟合或排名。
+- 缺陷浓度、体相 Eu 价态、声子参数及粘结层氧化没有直接验证；保留作者解释及其潜在代价。
+- Table 7 比例近似及 Eq. (12) 配平问题未由原始数据/更正稿解决；石榴石精确化学组成需进一步相鉴定。
+- 没有用译文充作补充材料；没有宣称读取不存在的补充表，也未完成领域 gap 检索。
 
-- 待核查：MinerU OCR 中化学式与数值（(CaxRE3-x)(MgyAlzSi5-y-z)O12、畸变值、α⁻¹-T 截距等）引用前与原文核对
-- 待核查：石榴石产物的晶体学数据（空间群、晶格参数）是否在正文/补充中给出
-- AI 推断：高熵样品 1500 °C 相分解行为；石榴石产物的有益/有害作用
+## Downstream Review
 
-## Maintenance Checklist
+本轮只修订该源页及维护记录，下列旧结论待复核，不能继续作为确定依据。
 
-- [x] Added to `index.md`.
-- [x] Operation added to `log.md`.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Terms checked against `memory/term_aliases.md`.
+| 页面 | 具体影响 |
+|---|---|
+| [[wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design]] | 热导估算/校正、文献对照、性能代价及机制因果须分开；撤回“功能分工已独立验证” |
+| [[wiki/claims/Garnet-Product-RE2SiO5-CMAS]] | 补入 XRD 线索，收窄精确化学式及首次性；Table 7 比值/Eq. 12 不能直接当作强证据 |
+| [[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]] | 单配方深度排序不能证明平均半径普适因果；转引焓与 2019 数据不重复计数 |
+| [[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]] | 高熵样品块体已含二硅酸盐；不能由多元化假定无杂相或熵稳定抑制分解 |
+| [[wiki/gaps/CMAS-Corrosion-Data-1500C]]、[[wiki/gaps/High-Throughput-Screening-Transfer]] | 本文未测高温/配方梯度仅说明研究范围，领域空白和推广有效性需另核 |
+| [[wiki/topics/Ceramic Corrosion]] | 单相、产物谱、热物性来源、半径趋势及性能“协同”措辞需更新 |
+| [[synthesis/literature-map]]、[[synthesis/core-argument-map]] | #48 不作为普适半径/高熵全面优越的独立机制证明 |
+| [[synthesis/review-outline]] | 多目标设计章节应保留收益/代价及机制层级，撤回首次性和确定声子因果 |
+| [[synthesis/open-questions]]、[[synthesis/research-positioning]] | 高熵稳定、石榴石功能及配方优化保留为候选，不冒充已确立研究方向 |
+
+## Revision Record
+
+2026-09-07：将误设为 topic 的页面恢复为 paper，补齐论文元数据并清除误复制的无关关联字段；核对英文附件/缓存映射，建立 E1–E8，替换单相、性能协同、机制及石榴石通式的过强总结。保留原路径、正确数值和局部未决，原始资料及其他论文未改。

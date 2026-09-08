@@ -1,8 +1,9 @@
 ---
 type: synthesis
 status: active
+review_status: checked
 created: 2026-08-23
-updated: 2026-08-28
+updated: 2026-09-07
 questions:
 gaps:
   - "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"
@@ -33,103 +34,49 @@ tags:
 
 # Open Questions
 
-本页记录跨论文开放问题（对应 `wiki/topics/Ceramic Corrosion` 的 Main Questions 与 `wiki/gaps/` 页面）。
+## Scope and Status
+
+本页依据 [[synthesis/literature-map]]、八项新版 claim 与五项 gap 更新，覆盖七篇已复核论文。Q1–Q7 保留旧编号便于追溯，但问题含义按本页修订；旧优先级、确定反转与领域空白结论不再有效。
+
+问题均为当前语料边界或 AI 推断的候选，未完成领域新颖性检索，研究优先级 pending。用户尚未确定材料主线/核心研究问题，见 [[memory/project_profile]]。checked 只表示问题前提与分类已核查，不表示已有答案。
 
 ## Question Triage
 
-| Question | Priority | Related gap | Evidence strength | Status |
+| ID | Current question | Basis and assessment | Classification / dependency | Evidence that could answer or weaken it |
 |---|---|---|---|---|
-| Q1 1500 °C「RE 效应弱化」是否普适 | high | "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]" | strong（缺失为事实） | open |
-| Q2 结构类型与 RE 半径如何解耦 | high | "[[wiki/gaps/Structure-Radius-Decoupling]]" | strong | open |
-| Q3 冷却析出对涂层完整性的影响 | medium | "[[wiki/gaps/Cooling-Precipitation-Coating-Integrity]]" | strong（析出事件 ×2 篇）/ weak（后果推断） | open |
-| Q4 高通量方法能否跨体系推广 | medium | "[[wiki/gaps/High-Throughput-Screening-Transfer]]" | strong | open |
-| Q5 形成焓-RE 半径规律是否普适热力学规律 | medium | —（隐含于 Q1） | strong（1300 °C，含固溶体） | open |
-| Q6 1500 °C 相分解是否普适、高熵化能否抑制 | high | "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]" | strong（Lu2SiO5 单体系）/ weak（普适性） | open |
-| Q7 TBC-TGO 相容性是否应成为选材强制判据 | medium | "[[wiki/gaps/TBC-TGO-High-Temperature-Compatibility]]" | strong（单体系证据） | open |
+| Q1 | 统一指标和实验边界后，指定体系的 1300/1500 °C 成分排序是否变化？ | [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E7]]、[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E7]]；旧温度对照不可直接比较 | [[wiki/gaps/CMAS-Corrosion-Data-1500C]]，corpus-gap；不预设黏度致反转 | 同制备/供液/指标与重复统计的温度对照；排序稳定则削弱反转假说 |
+| Q2 | 样品映射修复后，结构/半径效应是否可辨识？ | [[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E2]]、[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E7]]；双机制 claim insufficient-evidence | [[wiki/gaps/Structure-Radius-Decoupling]]，candidate-question；先核身份 | 可追溯样品/半径/厚度、实测结构与可实现对照；映射修复后趋势消失则撤回原设计依据 |
+| Q3 | 经确认的析出变化是否对冷却损伤有独立贡献？ | [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E7]]、[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E4]]、[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E3]]；时序冲突，离位裂纹不证因果 | [[wiki/gaps/Cooling-Precipitation-Coating-Integrity]]，candidate-question | 原视频/热历史、相演化与起裂同步及匹配对照；裂纹早于析出或受控后无贡献会削弱致裂解释 |
+| Q4 | 层叠结果是否可由独立试样复现，邻层/位置造成多大偏差？ | [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E1]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E2]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E3]]；跨 RE 组成已观察，偏差未定量 | [[wiki/gaps/High-Throughput-Screening-Transfer]]，candidate-question；先验证再迁移 | 独立试样、层序/位置变换与预设等效界限；复现成立则收窄方法担忧 |
+| Q5 | 统一热化学对象/参考态后，形成焓能解释哪些条件内腐蚀关联？ | [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E6]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E6]]、[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E8]]；跨体系因果 insufficient-evidence | candidate-question，留在本页；不新增同义 gap | 原始量热/计算定义与可比反应体系；关联消失或受其他变量解释则削弱统一因果 |
+| Q6 | Lu 的相演化在侵入中贡献多少，其他配方是否出现类似过程？ | [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E1]]、[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E5]]、[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E6]]；局部机制 partially-supported；[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E8]] 不证熵稳定 | candidate-question；与 Q1 的温度覆盖相关但不同 | 初始杂相定量、有/无 CMAS、相分数/路径追踪与可比配方；无相演化贡献或其他配方不分解则限定范围 |
+| Q7 | 指定 Hf 涂层/TGO 结构中，块体反应是否转化为可区分损伤？ | [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E1]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E3]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E6]]；反应 supported，服役外推未验证 | [[wiki/gaps/TBC-TGO-High-Temperature-Compatibility]]，candidate-question | 明确界面温度/热历程、相层与损伤对照；目标条件下无可分离损伤则限定失效担忧 |
 
-## High Priority Questions
+Q1 的“语料缺口”不等于全领域缺数据；Q5/Q6 是候选提案，不因没有独立 gap 页而消失，也不因引用多就升级为确定领域 gap。可行性与新颖性尚未确认，具体资源/混杂因素见对应 gap。
 
-- Question: Q1 1500 °C 下 CMAS 粘度剧降导致的「RE 种类影响弱化」在钽酸盐、锆酸盐体系中是否同样成立？
-  - Why important: 决定成分设计准则是否需按服役温度分级；若普适，1300 °C 小半径优选策略在高温失效。
-  - Related gap: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"
-  - Supporting papers: #47（七体系）、#16（Lu2SiO5 单体系深度，219 μm vs 50 μm）；#46/#18/#48（仅 1300 °C，构成空白）；第三方方向佐证——Li et al.（Ceram. Int. 2025）高熵单硅酸盐 1500 °C 层厚随平均半径单调递减、1300 °C 非单调（2026-08-28 检索发现，待核查原文）
-  - Related claims: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"
-  - Evidence strength: strong（空白是事实）；weak（规律外推）
-  - Next evidence needed: 钽酸盐/锆酸盐 1500 °C 腐蚀截面数据（≥3 RE 成分 × 2 体系）
+## Verification Order
 
-- Question: Q2 结构类型（烧绿石 vs 缺陷萤石；X1 vs X2 晶型）与 RE 平均半径对 CMAS 抗性的贡献如何解耦？
-  - Why important: 决定高熵 TBC 设计优先「选结构」还是「选半径」；X1/X2 晶型翻转表明结构效应可能大到反转半径规律，EBC 单硅酸盐同样面临此问题。
-  - Related gap: "[[wiki/gaps/Structure-Radius-Decoupling]]"
-  - Supporting papers: #18（19 成分共线数据）；#36（X2 段衰退层随半径减小变薄，Fig. 11）与 #21（X1 系列内部反向，#47 引言引文 [18]，未入库）构成晶型依赖翻转证据
-  - Related claims: "[[wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism]]"、"[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"
-  - Evidence strength: strong（共线/翻转为事实）；weak（双重机制解释）
-  - Next evidence needed: 同半径异结构/同结构异半径正交成分组腐蚀数据；#21 X1 系列原文数值核实；#36 大半径组晶型归属核查
+以下是证据依赖顺序（AI 推断），不是研究价值排行榜：
 
-- Question: Q6 Lu2SiO5 在 1500 °C 的相分解（2Lu2SiO5 = Lu2Si2O7 + Lu2O3）是否普适于其他 RE2SiO5？高熵化（熵稳定效应）能否抑制分解？
-  - Why important: 若分解普遍，1500 °C 下「选成分」不如「保相稳定」重要；高熵化可能同时是解药（熵稳定）与未知数（#48 无高温数据）。
-  - Related gap: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"
-  - Supporting papers: #16（Lu2SiO5 分解证实 + 晶间渗透机制）、#47（1500 °C 七体系但未做 TEM/对照）、#48（高熵样品无 1500 °C 数据）
-  - Related claims: "[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]"
-  - Evidence strength: strong（Lu2SiO5 单体系）；weak（普适性）
-  - Next evidence needed: 其他 RE2SiO5 与高熵样品的 1500 °C 无 CMAS 对照 + TEM 晶界表征
+1. 写作中只使用已经核实的事实与限制；Q2 映射、Q3 时序、Q5 参考态有疑点时暂停相关强推论。
+2. 若要回答温度或方法比较（Q1/Q4），先统一指标、样品身份和实验边界，不能从不可比旧数值直接计算效应。
+3. 若推进机制或涂层外推（Q3/Q6/Q7），先确认实际目标与可行对照，再决定是否需要新实验；本文提案不表示已启动实验。
+4. 若要评估选题新颖性，围绕选定范围检索最接近工作和反例；历史检索线索不是本轮完整检索结论。
 
-## Medium Priority Questions
+## Smaller Candidate Questions
 
-- Question: Q3 冷却析出的 Ca2RE8(SiO4)6O2 晶粒及冷却热应力对涂层热循环完整性（剥落、开裂）的影响？
-  - Why important: 实际服役含热循环，等温腐蚀研究系统性低估冷却损伤；#16 显示 1500 °C 保温无反应、产物集中于冷却起始析出，冷却环节的权重进一步上升；#36 表明 1300 °C 已存在冷却热应力剥落。
-  - Related gap: "[[wiki/gaps/Cooling-Precipitation-Coating-Integrity]]"
-  - Supporting papers: #47（约 1400 °C 短水平晶粒析出）、#16（冷却起始垂直定向析出）、#36（衰退层 E/TEC 失配冷却热应力致基体裂纹剥落）
-  - Evidence strength: strong（析出事件 ×2 + 剥落观察 ×1）；weak（后果为 AI 推断）
-  - Next evidence needed: 热循环实验 + 裂纹/剥落统计
+| Candidate | Known basis | What remains / disconfirming evidence |
+|---|---|---|
+| 石榴石型相的作用 | [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E7]]，相类别有支持；精确式未决 | 先相鉴定再控制相含量/分布与侵入；无独立影响会削弱保护/损伤假说 |
+| 四元配方比例与性能折中 | [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E6]]、[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E8]]，HE 不优于 Lu/Yb | 比例梯度与统一指标/微结构；收益伴代价或无改善均是可能结果，不预设最优 |
+| RETaO₄ 晶间侵蚀的力学后果 | [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E4]]，局部产物与晶间形貌 | 独立损伤/力学数据及对照；产物存在本身不证明失效 |
+| 锆酸盐富 Zr 颗粒的形成路径 | [[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E6]]，相类别/成分线索 | 先核精确相与时序，再检验反应路径；不把含 Ca 区域直接当纯 ZrO₂ |
+| Er/Lu 原位差异 | [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E4]]、[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E3]] | 纳入 Q3 前置核查；视频/温标核清前不归因为 RE 形成焓差异 |
 
-- Question: Q4 层叠法/原位观察/并行制备/高熵设计四条路线能否跨体系推广并统一到同一框架？
-  - Why important: 方法学组合是用户课题的机会点；该组工作节奏快，窗口期有限。
-  - Related gap: "[[wiki/gaps/High-Throughput-Screening-Transfer]]"
-  - Supporting papers: 六篇 CMAS 论文（各自方法单体系验证；#48 高熵设计可与 #46/#18 高通量联用；#36 凹坑储池长时腐蚀设计）
-  - Evidence strength: strong（作者自述可推广）
-  - Next evidence needed: 跨体系预实验；检索该组 2026 年新工作确认空白是否已被填补（2026-08-28 已核实：Extreme Materials 2025 层叠法 RE2SiO5 筛选为 1300 °C/20 h——1500 °C 层叠法空白仍在）
+这些条目均为 AI 推断的候选，novelty_status: not-assessed，不另建 gap，不据此确认学术优先权。
 
-- Question: Q5 腐蚀产物形成焓随 RE 半径增大更放热是否为 CMAS 腐蚀的普适热力学规律？
-  - Why important: 综述核心论点；若普适可成为设计公理，若不普适需按体系/温度分段表述。
-  - Related gap: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"（高温段验证）、"[[wiki/gaps/Structure-Radius-Decoupling]]"（X1/X2 翻转）
-  - Supporting papers: 六篇（#36 单组分 8 组分奠基数据 + 1300 °C 三体系 + #48 固溶体/高熵体系排序 + #16 Lu 对照）
-  - Evidence strength: strong（1300 °C，含固溶体）
-  - Next evidence needed: X1-RE2SiO5 反向报道原文数值核查（2026-08-28 #36 原文核实完成：反向趋势为 X1 大半径系列内部现象，源头为 #21 Tian et al., JECS 2019, DOI 10.1016/j.jeurceramsoc.2018.12.015，未入库）；高温数据
+## Revision and Handoff
 
-- Question: Q7 TBC-TGO 热化学相容性是否应成为 TBC 选材的强制性判据？如何低成本评估？
-  - Why important: #29 表明 Hf6Ta2O17 本体性能占优但 >1400 °C 与 TGO 反应、界面热应力超 YSZ 许用——选材流程缺此维度可能系统性漏检；与用户 EBC/CMAS 课题属姊妹方向，方法（粉末+扩散偶）可迁移。
-  - Related gap: "[[wiki/gaps/TBC-TGO-High-Temperature-Compatibility]]"
-  - Supporting papers: #29（单体系系统证据）
-  - Related claims: "[[wiki/claims/Hf6Ta2O17-TGO-Incompatibility]]"
-  - Evidence strength: strong（单体系）；weak（判据普适性）
-  - Next evidence needed: 其他候选材料 × Al2O3 反应矩阵；真实涂层循环氧化验证
+2026-09-07：替换旧高/中优先级和确定机制前提，保留 Q1–Q7 身份，增加可回答/否定条件。此前提到的 #59、JECS 2019 及其他第三方候选仅保留在历史记录中作为检索线索，未经本轮原文核查的排序不进入当前证据。
 
-## Not Yet True Gaps
-
-- Candidate: 「晶界腐蚀对 RETaO4 力学性能的影响」（#46 Potential Gaps 3）
-  - Why not yet a real gap: 晶界腐蚀普遍性已被证实，但力学后果目前仅 AI 推断，无任何直接证据链——待更多论文支撑后再升级为 gap 页。
-  - Evidence needed: 晶界腐蚀产物的力学测试或服役失效案例。
-
-- Candidate: 「ZrO2 球形颗粒形成机制」（#18 Potential Gaps 2）
-  - Why not yet a real gap: 仅单篇观察，机制为 AI 推断；先积累 Zr 析出相关文献。
-  - Evidence needed: ZrO2 析出路径的表征或热力学计算。
-
-- Candidate: 「石榴石型腐蚀产物的有益/有害作用」（#48 Potential Gaps 3）
-  - Why not yet a real gap: 硅酸盐石榴石 (CaxRE3-x)(MgyAlzSi5-y-z)O12 仅单篇（高熵体系）报道，其对 CMAS 抗性的作用未厘清——#36 单组分小半径组另检出铝酸盐石榴石 RE3Al5O12（物相不同），单组分体系产物复查需区分两类石榴石。
-  - Evidence needed: 单组分 RE2SiO5-CMAS 的产物复查（区分硅酸盐/铝酸盐石榴石）；石榴石层致密性/渗透行为表征。
-
-- Candidate: 「高熵 RE2SiO5 成分比例优化」（#48 Potential Gaps 1）
-  - Why not yet a real gap: 等摩尔设计下 CMAS 抗性未超过 Lu/Yb 单组分，「比例优化可逼近最优」目前是 AI 推断；若后续有梯度成分研究则升级。
-  - Evidence needed: 高熵 RE2SiO5 成分梯度（RE 比例变化）的 CMAS 腐蚀数据。
-
-- Candidate: 「#47 与 #16 原位析出行为差异」（Er2SiO5 保温约 1 h 缓慢析出 vs Lu2SiO5 保温无析出）
-  - Why not yet a real gap: 差异可能源于 RE 种类（形成焓）或观察分辨率，未构成明确研究空白；先核查两文实验细节。
-  - Evidence needed: 同一装置/条件下多 RE 的原位对照观察。
-
-## Maintenance Checklist
-
-- [x] New important gaps reflected here.
-- [x] Each high-priority question linked to evidence or marked as `AI 推断`.
-- [x] Answered questions moved out of active sections.
-- [x] Important changes reflected in `index.md`.
-- [x] Operation recorded in `log.md`.
+[[synthesis/research-positioning]] 将这些问题作为条件性提案；[[synthesis/review-outline]] 只以其作为局限或候选研究方向。本页不决定用户课题，也不默认恢复新论文入库。

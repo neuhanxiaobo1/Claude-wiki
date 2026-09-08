@@ -1,8 +1,10 @@
 ---
 type: claim
 status: active
+review_status: checked
+assessment: supported
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-07
 source_papers:
   - "[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility]]"
 topics:
@@ -10,7 +12,6 @@ topics:
 methods:
 datasets:
 metrics:
-confidence: strong（粉末反应 + 扩散偶 + 热物性三重证据链，单篇）
 tags:
   - claim
   - ceramics
@@ -18,63 +19,49 @@ tags:
   - tbc
 ---
 
-# Hf6Ta2O17 与 TGO（Al2O3）的高温热化学不相容
+# Hf₆Ta₂O₁₇ 与 Al₂O₃ 在指定热处理下的反应不相容
 
-## Claim
+## Claim Statement
 
-- >1400 °C 时 Hf6Ta2O17 与 Al2O3（粘结层 TGO 主相）发生固相反应生成 AlHf3TaO10（Pbcn，与 HfTiO4 同构，约 9.2% 体积膨胀）；反应由 Al 单向扩散驱动（Al2O3 侧形成 Kirkendall 空洞），AlHf3TaO10 低 CTE（4.31×10⁻⁶/K）导致界面热应力达 880–1031 MPa、超出 YSZ 许用范围（330–862 MPa）——Hf6Ta2O17 基 TBC 存在 TGO 相容性短板，修正 Li et al.（2011）「无反应」结论。
+- Statement: Hf₆Ta₂O₁₇ 与 Al₂O₃ 在本文 1400 °C 粉末反应及热压/退火扩散偶条件下发生反应，形成含 AlHf₃TaO₁₀ 的产物或界面反应层。
+- Claim type: descriptive result
+- Assessment: supported
+- Review status: checked
 
-## Evidence
+本轮基于七篇已复核论文页的 E1–E8 进行下游证据迁移。checked 表示本页判断及边界已核查，不代表未决原文、外部转引或机制均已验证。
 
-- Source paper: "[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility]]" Key Claims 1–4
-- Source section/page/table/figure: 粉末反应 XRD（1300–1600 °C/10 h）、Rietveld 精修、扩散偶层厚（2.93–4.61 μm）、EDS 成分梯度、CTE/E 实测、应力估算、Bramfitt 错配度
-- Evidence summary: 1300 °C 无反应；>1400 °C 生成 AlHf3TaO10（Eq 2）；扩散偶 1400 °C/10–50 h 层厚递增；Al 含量跨界面 90.0→16.6 at%；界面热应力 Al2O3/AlHf3TaO10 880.6 MPa、Hf6Ta2O17/AlHf3TaO10 1030.8 MPa（Al2O3/Hf6Ta2O17 直接界面仅 272.6 MPa）；Bramfitt ε=27.5%（>15% 非共格）。
-- Evidence strength: strong
+## Scope and Definitions
 
-## Scope
+粉末混合物空气 1400 °C/10 h；块体扩散偶真空 1400 °C、40 MPa/10 min 热压后追加空气退火。Al₂O₃ 用作相容性对照材料；并非真实粘结层上生长的 TGO。
 
-- Applies to: Hf6Ta2O17-Al2O3 体系，>1400 °C（粉末实验 1300–1600 °C；扩散偶 1400 °C）。
-- Does not apply to: ≤1300 °C（无反应）；其他 TBC 候选材料-TGO 组合未覆盖。
-- Conditions: 块体扩散偶几何；热应力为简化一维弹性估算（未考虑蠕变松弛与成分梯度）。
+## Evidence Ledger
 
-## Supporting Papers
+| Evidence | Role | Evidence type | Independence group / original data source | Conditions and metric | What it supports | Verification |
+|---|---|---|---|---|---|---|
+| [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E1]]；[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E2]] | support | direct | 2025-Hf-powder-products | 粉末 XRD/Raman 及参考相精修/局部 TEM | 1400 °C 已出现新相；综合鉴定支持 AlHf₃TaO₁₀/Pbcn | checked |
+| [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E3]] | support | direct | 2025-Hf-diffusion-couple | 热压后与追加 10/30/50 h | 层厚依次 2.93±0.38 / 3.16±0.35 / 4.32±0.43 / 4.61±0.62 μm | checked |
+| [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E4]] | limit | direct / author interpretation | 2025-Hf-diffusion-couple | 裂纹、微孔及元素线扫 | 不独立证明 Al 单向扩散、Kirkendall 或 9.2% 实测膨胀 | checked |
+| [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E5]]；[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E6]] | limit | calculated / cited prior work | 2025-Hf-elastic-model | 简化弹性应力与外部材料参数 | 应力为模型；YSZ 剪切许用值不是本材料相同应力分量判据 | checked |
+| [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E8]] | limit | cited prior work | Li-prior-abstract | 出版社摘要为 2012 年、1600 °C/8 h | 摘要已谈结构变化和 Al 扩散，不能说低于阈值所以未反应 | partial；全文未核 |
 
-- Paper: "[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility]]"
-  - Evidence: 粉末反应 + 扩散偶 + 热物性三重证据。
-  - Notes: 论文给出失效机制示意（Fig 12）：反应层形成 → 体积膨胀 + 热失配应力 → 界面开裂/剥落风险。
+同组原始数据的多种表征或多篇转引不重复计数。Verification 中的 partial/pending 保留对应证据的未决，不被页面 checked 覆盖。
+
+## Assessment Rationale
+
+粉末物相与扩散偶反应层充分支持所列条件下的反应不相容。初始热压层与追加退火层必须分开；少数时点、有限误差说明不足以确定动力学定律、温度阈值或涂层寿命。
 
 ## Challenging or Limiting Evidence
 
-- Paper: Li et al.（2011, Key Eng. Mater.，未入库）
-  - Challenge: 曾报道 Hf6Ta2O17 与 Al2O3 无反应。
-  - Evidence: 被本文系统实验修正（可能因其温度未达反应阈值或表征不充分，原文实验条件待核查）。
-- 限制：扩散偶为块体-块体，真实涂层中 TGO 为 μm 级薄层，反应动力学与应力状态可能不同；无涂层体系循环氧化验证。
+本篇扩散偶按同一工艺序列可 directly-comparable 描述层厚，但不宣称各增量统计显著。粉末、扩散偶与实际 TGO 仅 qualitative-only；模型正应力与 YSZ 剪切许用范围 not-directly-comparable。1300 °C XRD 变化小不等于绝对无反应。
 
-## Use in Review Writing
+## Use in Synthesis or Review
 
-- Possible section: 「TBC 选材判据与 TGO 相容性」段落。
-- Possible sentence role: background（相容性判据）+ gap（扩散障/改性粘结层）
-- Citation need: "[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility]]"
+- Safe wording: 该研究在 1400 °C 粉末及块体扩散偶实验中发现 Hf₆Ta₂O₁₇–Al₂O₃ 反应及含 AlHf₃TaO₁₀ 的反应层，提示需评估其作为涂层候选时的界面相容性；实际 TGO 热循环失效尚未验证。
+- 使用边界：可作为限定事实用于综述，必须保留上述材料、条件、指标及 E# 来源；不能外推为机制或服役定律。
 
-## Related Pages
+## Revision History and Downstream Review
 
-- Papers: "[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility]]"
-- Topics: "[[wiki/topics/Thermal Barrier Coatings]]"
-- Methods:
-- Datasets:
-- Metrics:
-- Gaps: "[[wiki/gaps/TBC-TGO-High-Temperature-Compatibility]]"
-- Reviews:
-
-## Uncertainty
-
-- 待确认：反应层对真实 TBC 体系（TGO 薄层、涂层应力状态）的定量影响。
-- 待核查：Li et al.（2011）原文实验条件；MinerU OCR 中晶格参数与应力数值引用前核对。
-- AI 推断：扩散障层（如 HfO2 基）缓解不相容的可行性。
-
-## Maintenance Checklist
-
-- [x] Added to `index.md`.
-- [x] Source evidence checked.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Aliases checked against `memory/term_aliases.md`.
+- 2026-09-07：保留原路径和正确证据，替换旧 Claim/Confidence；撤回 >1400 °C 才反应、2.93 μm 对应退火 10 h、Al 单向扩散已证、应力实测并越过本材料失效阈值及已推翻 Li 全文等判断。
+- 本轮更新：本 claim、其余七项 claim 及索引/维护记录；未重写 gap、topic 或综合页正文。
+- 下游待复核：[[wiki/gaps/TBC-TGO-High-Temperature-Compatibility]]、[[wiki/topics/Thermal Barrier Coatings]] 与 [[synthesis/review-outline]] 的阈值、扩散机制及涂层失效推论待修。
+- 共同入口：[[synthesis/literature-map]]、[[synthesis/core-argument-map]] 应使用当前 Assessment 与独立来源分组替换旧强度/共识；[[synthesis/open-questions]] 的候选前提须随之核对。用户核心研究问题仍未确定，本页不代替选题确认。

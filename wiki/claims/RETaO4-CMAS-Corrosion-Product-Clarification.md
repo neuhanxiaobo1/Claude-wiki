@@ -1,8 +1,10 @@
 ---
 type: claim
 status: active
+review_status: checked
+assessment: supported
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-07
 source_papers:
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
 topics:
@@ -10,7 +12,6 @@ topics:
 methods:
 datasets:
 metrics:
-confidence: high（证据链完整，澄清文献之争）
 tags:
   - claim
   - cmas
@@ -18,62 +19,48 @@ tags:
   - ceramics
 ---
 
-# RETaO4 CMAS 腐蚀产物澄清：主产物为固溶体
+# 层叠 RETaO₄–CMAS 试验中的主要固溶体产物
 
-## Claim
+## Claim Statement
 
-- RETaO4 与 CMAS 在 1300 °C 反应的主产物是 (Ca2-xREx)(Ta2-y-zMgyAlz)O7 面心立方固溶体（而非简单的 Ca2Ta2O7 或硅酸盐相），另有少量 Ca2RE8(SiO4)6O2 磷灰石；两种产物同时出现在反应层与晶界，且晶界腐蚀在所有 RETaO4 中普遍存在（此前仅在 YTaO4 中报道）。
+- Statement: 本文 1300 °C 的 RETaO₄ 层叠筛选试验主要产物可归属为含 Ca/RE/Ta/Mg/Al 的复杂固溶体，并伴有少量磷灰石。
+- Claim type: descriptive result
+- Assessment: supported
+- Review status: checked
 
-## Evidence
+本轮基于七篇已复核论文页的 E1–E8 进行下游证据迁移。checked 表示本页判断及边界已核查，不代表未决原文、外部转引或机制均已验证。
 
-- Source paper: "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]" Key Claims 1、4
-- Source section/page/table/figure: 图 9–12（TEM/SAED/EPMA）、表 1、图 8（晶界腐蚀）
-- Evidence summary: TEM-SAED 确认面心立方结构（(2̄22) 面间距 2.807 Å）；EPMA-WDS 定量 Ca+RE 与 Mg+Al+Ta 各约 50%，与固溶体模型一致；磷灰石 (033̄0) 面间距 2.720 Å；8 种 RETaO4 反应前沿均观察到晶界腐蚀产物。
-- Evidence strength: strong
+## Scope and Definitions
 
-## Scope
+八种 RE（Nd、Sm、Eu、Gd、Dy、Ho、Y、Er）的十层组合；C33M9A13S45（AlO₁.₅ 计量）、30 mg/cm²，1300 °C/25–100 h。支持产物类别，不将层片当作八套化学独立的单 RE 试验。
 
-- Applies to: 1300 °C、33CaO-9MgO-13AlO1.5-45SiO2 CMAS；8 种 RETaO4（RE = Nd, Sm, Eu, Gd, Dy, Ho, Y, Er）。
-- Does not apply to: 更高温度（1500 °C）行为未验证（"[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"）。
-- Conditions: 产物成分由 EPMA 平均组成定量；固溶体成分存在波动（Ca 0.65–1.11、RE 0.89–1.35）。
+## Evidence Ledger
 
-## Supporting Papers
+| Evidence | Role | Evidence type | Independence group / original data source | Conditions and metric | What it supports | Verification |
+|---|---|---|---|---|---|---|
+| [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E4]] | support | direct | 2025-RETa-stack-products | XRD 与 Y/Nd 层 50 h 的 TEM/SAED | 支持主要复杂固溶体及少量磷灰石；局部 TEM 支持 FCC/六方类别 | checked |
+| [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E5]] | support / limit | direct / author interpretation | 2025-RETa-stack-products | EPMA 阳离子归一化 | Ca+RE 与 Ta+Mg+Al 约各半；排除了 O/Si，非完整原子分数 | checked |
+| [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E2]] | limit | direct | 2025-RETa-stack-products | Nd/Er 区域的跨 RE 点成分 | 存在其他 RE，不能将实际产物等同纯单 RE 模型 | checked |
+| [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E6]] | limit | calculated | 2025-RETa-DFT | 固定成分 Fd-3m 模型 | 模型不代替实际多 RE 产物的精确组成鉴定 | checked；能量定义未决 |
 
-- Paper: "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
-  - Evidence: TEM + EPMA 精确定量 + 反应式推演（(2-x)CaO + yMgO + z/2Al2O3 + xRETaO4 + (2-x-y-z)/2Ta2O5 → 固溶体）。
-  - Notes: 层叠法在统一条件下同时验证 8 种成分，结论不受样品间差异影响。
+同组原始数据的多种表征或多篇转引不重复计数。Verification 中的 partial/pending 保留对应证据的未决，不被页面 checked 覆盖。
+
+## Assessment Rationale
+
+XRD、局部 TEM/SAED 与成分分析共同支持所列产物类别。作者名义式 (Ca2−xREx)(Ta2−y−zMgyAlz)O7 及 Ca₂RE₈(SiO₄)₆O₂ 可作为相指认表达；不能据归一化比例断言全部占位/化学计量已确定，也不能把全部样品/时长均写成做过 TEM。
 
 ## Challenging or Limiting Evidence
 
-- Paper: 文献中早前报道（#46 引言引述）
-  - Challenge: 文献对 YTaO4/RETaO4 CMAS 腐蚀产物长期存在矛盾结论（Ca2Ta2O7 vs 磷灰石 vs 固溶体）。
-  - Evidence: #46 以 TEM+EPMA 精确定量澄清；主题页已标记该争议为「已澄清」。
+同一层叠试验内可 qualitative-only 比较产物类别；不同层的跨 RE 组成使化学独立性未成立。与旧文献不同材料/条件的争议为 not-directly-comparable，未逐篇复核前不能宣布全部争议彻底解决。
 
-## Use in Review Writing
+## Use in Synthesis or Review
 
-- Possible section: RETaO4 TBC 的 CMAS 腐蚀机制；晶界腐蚀普遍性。
-- Possible sentence role: background（争议回顾）+ 定论性陈述（#46 澄清）
-- Citation need: "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
+- Safe wording: 在这组 1300 °C 层叠 RETaO₄–CMAS 试验中，XRD、局部 TEM 与成分分析支持主要复杂固溶体和少量磷灰石的归属；产物存在跨 RE 组成，精确化学计量和层间独立性仍需限定。
+- 使用边界：可作为限定事实用于综述，必须保留上述材料、条件、指标及 E# 来源；不能外推为机制或服役定律。
 
-## Related Pages
+## Revision History and Downstream Review
 
-- Papers: "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Datasets:
-- Metrics:
-- Gaps:
-- Reviews:
-
-## Uncertainty
-
-- 待确认：固溶体产物形成的动力学路径（反应层与晶界产物是否同源）未深入讨论。
-- 待核查：MinerU OCR 中固溶体化学式上下标与原文核对。
-- AI 推断：无
-
-## Maintenance Checklist
-
-- [x] Added to `index.md`.
-- [x] Source evidence checked.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Aliases checked against `memory/term_aliases.md`.
+- 2026-09-07：保留原路径和正确证据，替换旧 Claim/Confidence；撤回精确化学计量全面确认、八种独立单 RE 同时验证、所有局部均有 TEM 以及彻底澄清既有文献争议。
+- 本轮更新：本 claim、其余七项 claim 及索引/维护记录；未重写 gap、topic 或综合页正文。
+- 下游待复核：[[wiki/topics/Ceramic Corrosion]] 的争议已澄清表述、[[wiki/gaps/High-Throughput-Screening-Transfer]] 的层间完全独立假设及 [[synthesis/review-outline]] 的确定性机制结论待修。
+- 共同入口：[[synthesis/literature-map]]、[[synthesis/core-argument-map]] 应使用当前 Assessment 与独立来源分组替换旧强度/共识；[[synthesis/open-questions]] 的候选前提须随之核对。用户核心研究问题仍未确定，本页不代替选题确认。

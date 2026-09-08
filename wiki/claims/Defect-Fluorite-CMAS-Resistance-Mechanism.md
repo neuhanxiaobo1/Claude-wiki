@@ -1,8 +1,10 @@
 ---
 type: claim
 status: active
+review_status: checked
+assessment: insufficient-evidence
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-07
 source_papers:
   - "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
 topics:
@@ -10,7 +12,6 @@ topics:
 methods:
 datasets:
 metrics:
-confidence: high（19 成分系统数据）
 tags:
   - claim
   - cmas
@@ -18,62 +19,48 @@ tags:
   - ceramics
 ---
 
-# 缺陷萤石结构 CMAS 抗蚀双重机制
+# 缺陷萤石高熵锆酸盐的 CMAS 抗蚀双机制解释（未确立）
 
-## Claim
+## Claim Statement
 
-- 小平均半径的缺陷萤石结构高熵稀土锆酸盐 CMAS 抗蚀最佳（腐蚀层 20–70 μm，远薄于 YSZ 150–200 μm 与 Gd2Zr2O7 80–120 μm），源于双重机制：动力学上无序结构缺乏低能扩散通道、抑制离子输运；热力学上小 RE 半径使磷灰石 Ca2RE8(SiO4)6O2 形成焓升高、析出不利。
+- Statement: 待检验假说：在所研究五元稀土锆酸盐中，缺陷萤石无序抑制离子输运，并与小 RE 半径引起的产物热化学变化共同降低 CMAS 腐蚀层厚度。
+- Claim type: causal mechanism
+- Assessment: insufficient-evidence
+- Review status: checked
 
-## Evidence
+本轮基于七篇已复核论文页的 E1–E8 进行下游证据迁移。checked 表示本页判断及边界已核查，不代表未决原文、外部转引或机制均已验证。
 
-- Source paper: "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]" Key Claims 4–5
-- Source section/page/table/figure: 图 11（截面腐蚀层对比）、图 13（厚度-平均半径关联）
-- Evidence summary: 19 种 (5RE0.2)2Zr2O7 中 S13–S19 缺陷萤石（Fm3m）腐蚀层显著薄于 S1–S12 烧绿石；腐蚀层厚度与 RE 平均离子半径正相关；棒状磷灰石主要分布于残余 CMAS、球形 ZrO2 富集于反应前沿；热力学论证引 Costa et al. 磷灰石热化学数据。
-- Evidence strength: strong
+## Scope and Definitions
 
-## Scope
+19 种五元等摩尔块体，1300 °C/5 h、CMAS 25 mg/cm²；评价反应层厚度与结构/平均半径关系。这里只评价双机制因果，不把厚度范围当作涂层寿命。
 
-- Applies to: 1300 °C/5 h 单一腐蚀条件；(5RE0.2)2Zr2O7 五元等摩尔高熵锆酸盐。
-- Does not apply to: 时间演化与更高温度行为未验证（"[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"）；结构与半径效应未解耦（"[[wiki/gaps/Structure-Radius-Decoupling]]"）。
-- Conditions: 结构判据为 Subramanian 半径比（1.46–1.78 烧绿石，<1.46 缺陷萤石）。
+## Evidence Ledger
 
-## Supporting Papers
+| Evidence | Role | Evidence type | Independence group / original data source | Conditions and metric | What it supports | Verification |
+|---|---|---|---|---|---|---|
+| [[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E2]] | support / limit | direct | 2026-zirconate-structure | XRD/Raman 的结构分组 | 支持结构类别；部分样品标注冲突须保留 | partial |
+| [[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E7]] | limit | direct | 2026-zirconate-corrosion | Fig. 13 与补充厚度表 | S3/S8 等半径映射冲突；补充表无样品 ID，不能按行补配 | partial |
+| [[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E8]] | limit | author interpretation | 2026-mechanism-interpretation | 无新扩散实验或本体系扩散能垒计算 | 输运抑制未直接验证，结构/半径效应未分离 | checked |
+| [[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E8]] | limit | cited prior work | Costa-thermochemistry | 产物形成焓转引 | 未测多元产物形成焓，原始热化学未全面复核 | pending |
 
-- Paper: "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
-  - Evidence: 19 成分系统腐蚀层数据 + 结构与半径定量关联。
-  - Notes: 烧绿石反应剧烈（表面颗粒状产物多）、缺陷萤石温和（棒状产物少）——形貌证据与双重机制一致。
+同组原始数据的多种表征或多篇转引不重复计数。Verification 中的 partial/pending 保留对应证据的未决，不被页面 checked 覆盖。
+
+## Assessment Rationale
+
+当前不足首先涉及样品—半径—厚度映射可信度，其次才是机制分离。不能在底层数据未对应时继续保留强定量趋势，只把剩余问题表述为“两机制贡献比例未知”。组间存在重叠，19 个组成也不等于 19 次机制独立验证。
 
 ## Challenging or Limiting Evidence
 
-- Paper: "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
-  - Challenge: 本文中结构类型与 RE 半径高度相关（小半径 → 缺陷萤石），无法区分「结构贡献」与「半径贡献」；作者的双重机制解释未设计解耦实验。
-  - Evidence: #18 自身 Potential Gaps 3；S1–S12 全为烧绿石、S13–S19 全为缺陷萤石。
+本研究结构组间目前仅 qualitative-only；映射解决前不做定量回归或最佳配方排名。YSZ/Gd₂Zr₂O₇ 的旧文献厚度存在材料、介质与条件差异（含 CAS 与 CMAS），属于 not-directly-comparable，不能据区间直接宣布全面优越。
 
-## Use in Review Writing
+## Use in Synthesis or Review
 
-- Possible section: 高熵 TBC 的 CMAS 抗性设计原则；「选结构」vs「选半径」权衡。
-- Possible sentence role: background + gap 引出（解耦实验缺失）
-- Citation need: "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
+- Safe wording: 该研究提出无序输运与产物热化学共同影响腐蚀的解释；但关键图表映射尚未核清，且未独立测量输运或分离半径与结构贡献，因此该解释仍待验证。
+- 使用边界：仅作为待验证解释、研究限制或候选问题使用，不得作为已成立前提组织大纲。
 
-## Related Pages
+## Revision History and Downstream Review
 
-- Papers: "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Datasets:
-- Metrics:
-- Gaps: "[[wiki/gaps/Structure-Radius-Decoupling]]"
-- Reviews:
-
-## Uncertainty
-
-- 待确认：动力学（无序抑制输运）与热力学（形成焓）两机制各自的相对贡献未定量。
-- 待核查：ZrO2 球形颗粒的形成机制（#18 未深入讨论，AI 推断）。
-- AI 推断：双重机制的相对权重。
-
-## Maintenance Checklist
-
-- [x] Added to `index.md`.
-- [x] Source evidence checked.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Aliases checked against `memory/term_aliases.md`.
+- 2026-09-07：保留原路径和正确证据，替换旧 Claim/Confidence；撤回小半径缺陷萤石最佳、显著薄于全部烧绿石、优于 YSZ/Gd₂Zr₂O₇ 的统一排名及已证双机制。
+- 本轮更新：本 claim、其余七项 claim 及索引/维护记录；未重写 gap、topic 或综合页正文。
+- 下游待复核：[[wiki/gaps/Structure-Radius-Decoupling]] 应先区分数据对应问题与实验解耦问题；[[synthesis/research-positioning]]、[[synthesis/review-outline]] 不得沿用已验证设计准则。
+- 共同入口：[[synthesis/literature-map]]、[[synthesis/core-argument-map]] 应使用当前 Assessment 与独立来源分组替换旧强度/共识；[[synthesis/open-questions]] 的候选前提须随之核对。用户核心研究问题仍未确定，本页不代替选题确认。

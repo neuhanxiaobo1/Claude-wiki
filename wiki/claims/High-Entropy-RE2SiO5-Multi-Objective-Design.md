@@ -1,8 +1,10 @@
 ---
 type: claim
 status: active
+review_status: checked
+assessment: supported
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-07
 source_papers:
   - "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
 topics:
@@ -10,7 +12,6 @@ topics:
 methods:
 datasets:
 metrics:
-confidence: medium-high（热物性数据 strong；负 Grüneisen 机理为推断）
 tags:
   - claim
   - cmas
@@ -19,65 +20,48 @@ tags:
   - ebc
 ---
 
-# 高熵 RE2SiO5 元素功能分工多目标设计
+# 四元高熵 RE₂SiO₅ 的多性能组合与抗蚀代价
 
-## Claim
+## Claim Statement
 
-- 四元高熵 (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5 通过元素功能分工（Lu/Yb 保 CMAS 抗性与低 TEC、Ho 保力学与隔热、Eu 通过 Eu2+ 引入氧空位）同时实现：热导 1.07–1.47 W/mK（接近 κmin=0.99）、TEC (4.0–5.9)×10⁻⁶/K 匹配 SiC、良好 CMAS 抗性（渗透 125.4 μm，优于 Ho/Eu 单硅酸盐与四元平均）；TEC 降低归因于严重晶格畸变经负 Grüneisen 参数声子的贡献。
+- Statement: 本文四元 (Ho₀.₂₅Lu₀.₂₅Yb₀.₂₅Eu₀.₂₅)₂SiO₅ 展示低推算热导、较低热膨胀与中等 CMAS 抗性的性能组合，其腐蚀深度优于 Ho/Eu、劣于 Lu/Yb 对照，属于性能折中。
+- Claim type: descriptive result
+- Assessment: supported
+- Review status: checked
 
-## Evidence
+本轮基于七篇已复核论文页的 E1–E8 进行下游证据迁移。checked 表示本页判断及边界已核查，不代表未决原文、外部转引或机制均已验证。
 
-- Source paper: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]" Key Claims 1–3
-- Source section/page/table/figure: LFA 热导、DIL 膨胀、XPS（Eu 价态）、α⁻¹-T 拟合、多面体畸变定量
-- Evidence summary: 热导 1.07–1.47 W/mK（600 °C 时 1.07，κmin=0.99）；TEC (4.0–5.9)×10⁻⁶/K 匹配 SiC (4.5–5.5)；畸变 [REO7] 3.975‰、[REO6] 4.499‰、[SiO4] 2.531‰ 均系列最高；XPS 证实 Eu3+/Eu2+ 共存；α⁻¹-T 截距 953150（系列第二大，点缺陷浓度高）。
-- Evidence strength: strong（性能数据）／ medium（机理：负 Grüneisen 声子、元素功能分工为设计解释）
+## Scope and Definitions
 
-## Scope
+限定于本配方块体及所列温区/腐蚀条件；烧结块体含少量二硅酸盐。多性能组合是描述性结果，不将元素功能分工、熵效应或全面最优包含在此判断中。
 
-- Applies to: 四元等摩尔高熵 RE2SiO5（X2 相，C2/c）。
-- Does not apply to: 其他 RE 组合/比例未验证；1500 °C 行为未知。
-- Conditions: 等摩尔设计下 CMAS 抗性未超过 Lu/Yb 单组分——「分工」有效但「最优」未达。
+## Evidence Ledger
 
-## Supporting Papers
+| Evidence | Role | Evidence type | Independence group / original data source | Conditions and metric | What it supports | Verification |
+|---|---|---|---|---|---|---|
+| [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E1]]；[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E2]] | support / limit | direct / calculated | 2022-HE-thermal | RT–1000 °C；LFA、估算 cₚ 与孔隙校正 | 热导报告 1.07–1.47 W·m⁻¹·K⁻¹；非热导/热容全部直接实测 | checked |
+| [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E4]] | support / limit | direct / cited prior work | 2022-HE-expansion；SiC-reference | RT–1200 °C；TEC (4.0–5.9)×10⁻⁶ K⁻¹ | 与所引 SiC 范围接近；不等于同基底逐点匹配或热循环验证 | checked；外部原文未全面复核 |
+| [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E6]] | support | direct | 2022-HE-corrosion | 1300 °C/20 h；约 35 mg/cm²；作者渗透指标 | Lu 40.2、Yb 75.1、HE 125.4、Ho 166.5、Eu 248.6 μm | checked；统计及端点定义有限 |
+| [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E3]]；[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E4]]；[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E8]] | limit | author interpretation / calculated | 2022-HE-mechanism | XPS 拟合、畸变与单配方设计 | 不独立确认氧空位浓度、声子因果或逐元素贡献 | checked |
 
-- Paper: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
-  - Evidence: 高熵样品与四种单组分同条件系统对比（热物性 + 腐蚀）。
-  - Notes: 渗透深度排序 Lu(40.2) < Yb(75.1) < HE(125.4) < Ho(166.5) < Eu(248.6)，与平均 RE 半径排序一致（支持半径规律，见 "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"）；HE 略优于四元平均（132.6），熵效应贡献有限。
+同组原始数据的多种表征或多篇转引不重复计数。Verification 中的 partial/pending 保留对应证据的未决，不被页面 checked 覆盖。
+
+## Assessment Rationale
+
+限定配方与指标后的性能折中有数据支持；HE 深度 125.4±8.7 μm 高于 Lu/Yb。比四单组元均值 132.6 μm 低约 5.4% 不证明显著协同，更不能量化熵效应。低模量也不直接等于高强度或长寿命。
 
 ## Challenging or Limiting Evidence
 
-- Paper: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
-  - Challenge: 高熵样品 CMAS 抗性劣于 Lu2SiO5/Yb2SiO5——高熵化未在所有目标上同时达到单组分最优。
-  - Evidence: 同条件渗透深度对比。
-- Paper: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
-  - Challenge: Lu2SiO5 在 1500 °C 相分解失效；高熵样品高温相稳定性与分解行为未知，元素分工策略的 1500 °C 有效性待验证。
-  - Evidence: #16 无 CMAS 对照分解实验（1500 °C）。
+五样品腐蚀结果可在名义同条件、本篇指标内作 directly-comparable 描述性排序，但微结构、Eu 晶型和统计不足限制因果。热物性部分单组元对照来自文献，只作 qualitative-only 比较，不称全部同批新测。与 2019/2024 的深度不直接合并。
 
-## Use in Review Writing
+## Use in Synthesis or Review
 
-- Possible section: 「EBC 多目标设计策略（高熵 vs 单组分）」段落。
-- Possible sentence role: background（高熵设计策略）+ gap（成分优化、1500 °C 验证）
-- Citation need: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
+- Safe wording: 该四元单硅酸盐展示低推算热导和较低 TEC；1300 °C/20 h 下其 CMAS 深度位于 Lu/Yb 与 Ho/Eu 之间，体现所选配方的性能折中。元素分工和熵效应仍是待验证解释。
+- 使用边界：可作为限定事实用于综述，必须保留上述材料、条件、指标及 E# 来源；不能外推为机制或服役定律。
 
-## Related Pages
+## Revision History and Downstream Review
 
-- Papers: "[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC]]"
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Datasets:
-- Metrics:
-- Gaps: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"
-- Reviews:
-
-## Uncertainty
-
-- 待确认：元素功能分工的定量归因（各元素对性能的独立贡献未做对照剥离）。
-- 待核查：MinerU OCR 数值（畸变值、α⁻¹-T 截距、XPS 峰位）引用前与原文核对。
-- AI 推断：RE 比例优化（提高 Lu/Yb 占比）能否逼近 Lu2SiO5 抗性；高熵化的 1500 °C 相稳定性。
-
-## Maintenance Checklist
-
-- [x] Added to `index.md`.
-- [x] Source evidence checked.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Aliases checked against `memory/term_aliases.md`.
+- 2026-09-07：保留原路径和正确证据，替换旧 Claim/Confidence；撤回功能分工已有效验证、全温区精确匹配 SiC、截距即缺陷浓度、本文 DFT 已证负 Grüneisen 机制、平均半径定律及显著熵协同。
+- 本轮更新：本 claim、其余七项 claim 及索引/维护记录；未重写 gap、topic 或综合页正文。
+- 下游待复核：[[wiki/gaps/CMAS-Corrosion-Data-1500C]]、[[synthesis/research-positioning]]、[[synthesis/review-outline]] 的高熵全面优越或确定稳定化前提待修。
+- 共同入口：[[synthesis/literature-map]]、[[synthesis/core-argument-map]] 应使用当前 Assessment 与独立来源分组替换旧强度/共识；[[synthesis/open-questions]] 的候选前提须随之核对。用户核心研究问题仍未确定，本页不代替选题确认。

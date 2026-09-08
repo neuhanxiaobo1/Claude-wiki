@@ -1,10 +1,12 @@
 ---
 type: gap
-status: open
+status: narrowed
+review_status: checked
+gap_type: candidate-question
+novelty_status: not-assessed
 created: 2026-08-23
-updated: 2026-08-28
-priority: medium
-evidence_strength: strong
+updated: 2026-09-07
+priority: pending
 papers:
   - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
@@ -21,91 +23,60 @@ tags:
   - ebc
 ---
 
-# 冷却析出产物对涂层热循环完整性的影响
+# 析出时序与冷却后损伤之间的因果关系（候选问题）
 
-## Gap Description
+## Gap Statement
 
-- #47 原位观察揭示冷却过程（约 1400 °C）加速短而水平分布 Ca2RE8(SiO4)6O2 晶粒的析出，与高温阶段沿 [001] 生长的长晶粒属不同形成机制；#16 进一步证实 Lu2SiO5 在 1500 °C 保温阶段无可见反应、腐蚀产物（Ca2Lu8(SiO4)6O2）在冷却起始时大量垂直析出——「冷却析出」成为高温 CMAS 腐蚀产物形成的主要途径之一（两篇独立原位证据）。但该冷却析出相对涂层完整性（剥落、开裂、残余应力）的影响仍未评估。另：#36 更早观察到腐蚀后冷却热应力（衰退层弹性模量/TEC 失配）在衰退区下方基体诱发裂纹并导致剥落——「冷却损伤」在 1300 °C 即已存在，且与冷却析出是两个可分离的损伤途径（见 Supporting Evidence）。
+在 RE₂SiO₅–CMAS 体系中，先核清保温/冷却期间的析出时序，再检验析出相变化是否对冷却后裂纹产生独立贡献；涂层热循环寿命是后续验证层级，不能由块体离位裂纹直接确定。
+
+- Current classification: candidate-question
+- 边界：仅复用七篇复核源页与八项新版 claim；本轮未做领域新颖性检索。review_status: checked 指前提、分类和使用边界已核查，不表示问题已解答或实验可行性已确认。
+
+## Origin and Preconditions
+
+evidence boundary + AI inference。2019 的裂纹是离位观察及作者热应力解释；2023/2024 的原位时序仍有限制。候选问题不要求“仅冷却析出”为真；若该前提不成立，研究对象应改为已核实热历程内的相演化与损伤。
+
+## Existing Coverage
+
+| Work/evidence | What is already addressed / conditions | What remains | Independence / review status |
+|---|---|---|---|
+| [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E7]] | 观察到衰退区下方裂纹；作者解释为冷却热应力 | 未测起裂时刻/应力，不能称最早直接冷却致裂证据 | 直接形貌与解释分开；checked |
+| [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E4]] | Er 原位选帧和正文讨论保温/冷却析出 | 正文约 1400 °C 与 Fig. 15(c) 1223 °C 不一致；视频未读 | 正文/图已核；时序局部未决 |
+| [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E3]] | Lu 的保温/冷却选帧 | Fig. 4(d) 保温标注已有晶粒，与仅冷却起始说法冲突；Movie 未取得 | partial；不确认唯一起点 |
+| [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E8]] | 块体实验与作者应用讨论 | 没有直接检验实际涂层热循环损伤 | checked；应用为外推 |
 
 ## Why It Matters
 
-- 实际服役含热循环（起停循环），每次冷却都是一次额外析出事件；若冷却析出相在涂层/反应层界面富集并引入应力，将成为热循环寿命的关键损伤源——目前 CMAS 腐蚀研究普遍只做等温腐蚀，系统性低估了热循环损伤。
+AI 推断：若相演化在相同热历史下仍改变裂纹萌生，可能影响损伤解释；也可能保护反应层或没有可分离贡献。当前未证其为主要寿命控制因素，用户也未确定涂层结构或热循环目标。
 
-## Supporting Evidence
+## Novelty Assessment
 
-- Paper: "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
-  - Evidence: 衰退层与基体结合紧密，但裂纹出现在衰退区下方基体内——作者归因于衰退层弹性模量与 TEC 失配在冷却时引入热应力，导致剥落。这是「冷却损伤」的最早直接观察（1300 °C 已出现），但仅定性、无应力定量（#36 Key Claim 3）。
-  - Source section/page/table/figure: 截面裂纹位置观察
-  - Evidence strength: medium-high
+- Novelty status: not-assessed。
+- 本轮没有执行领域检索，不能声称“尚无人研究”“首次”或“领域普遍缺失”；旧 high/medium 和 strong 不能作为新颖性或选题优先级。
+- 已有最接近工作及限制见上表。外部工作可能已解决问题，后续若要认定 scoped-field-gap，必须记录日期、检索源/检索式、纳排范围、最接近工作及反例。
 
-- Paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
-  - Evidence: Er2SiO5 原位观察（Movie S2、图 15）：降温至 1400 °C 大量 50–100 μm 短水平晶粒从残余熔体析出；作者明确指出 REO1.5 溶解度随温度降低而下降是该析出的驱动力，但未评估对涂层的影响（#47 Potential Gaps 2）。
-  - Source section/page/table/figure: §4.1、图 15、Movie S2
-  - Evidence strength: strong
+## Research Question and Required Evidence
 
-- Paper: "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
-  - Evidence: 1500 °C 保温 40 min 无可见反应，冷却起始时 Ca2Lu8(SiO4)6O2 大量垂直析出形成织构；1300 °C 对照保温降温全程无析出——「冷却析出」与服役温度强相关，但析出层对涂层完整性的影响未评估（#16 Potential Gaps 2）。
-  - Source section/page/table/figure: Movie 1、§3.1
-  - Evidence strength: strong
+- 可检验问题（AI 推断）：在确认析出时序后，能否在尽量匹配温度历史和既有损伤的比较中，将析出量/分布变化与后续起裂或界面损伤联系起来，并排除单纯冷却热应力解释？
+- 所需证据与比较：先取得原视频与温度—时间记录或重现实验，同步记录相演化与损伤；有/无 CMAS、腐蚀前后损伤基线及可比热历史的独立重复为必要对照。快慢冷同时改变应力，不能单独证明析出因果。若扩展到涂层，应明确基底/粘结层/涂层结构并直接测循环损伤指标。
+- 回答或削弱前提的结果：若裂纹早于相关析出或匹配热历史后析出变化不影响损伤，应削弱其致裂假说；若相变与起裂时序、位置及控制实验一致，才支持局部因果。仍不能把相关性写成全服役寿命规律。
 
-## Cross-Page Basis
+## Feasibility and Research Path
 
-- Page: "[[wiki/topics/Ceramic Corrosion]]"
-  - What it shows: 主题页 Related Gaps 已列出本条（来源 #47 Potential Gaps 2）。
-  - Why it supports this gap: 主题页 Main Question 4 直接对应本条（open 状态）。
+AI 推断：先解决已有图帧冲突，再做块体可追踪对照，最后决定是否进入涂层验证。需要视频/热历史、可识别相变化的表征及损伤观测；资源和检测能力未确认，可行性 pending。无需为保持旧 gap 而假定现成联用方法不存在。
 
-## Gap Type
+## Risks, Alternative Explanations and Counter-Evidence
 
-- Type: 真实 gap
-- Reason: 析出事件本身已被原位实验证实（strong 证据），缺的是「析出 → 涂层损伤」的因果链评估。
+制样裂纹、温度梯度、初始杂相、残余熔体和产物排列均可影响观察；不同 RE、装置和热历史仅作 qualitative-only 对照。撤回每次冷却必然额外析出、领域系统低估损伤及两篇独立确认纯冷却析出。
 
-## How Existing Work Handles It
+## Status and Revision History
 
-- Existing approach:
-  - Paper: "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
-  - Remaining limitation: 实验为等温腐蚀 + 冷却观察，块体样品无涂层体系；未做热循环实验。
+- 2026-09-07：status 改为 narrowed；用复核后的证据替换旧“真实 gap”及确定性机制前提，保留原路径。priority: pending 表示未完成研究价值、资源和新颖性排序。
+- 本轮完成五项 gap 的前提与分类修订，并同步 index、计划和维护记录；未改原始资料或重新复核外部文献。
+- 下游待复核：[[synthesis/open-questions]] 应替换旧问题前提与评级；[[synthesis/research-positioning]] 应撤回依赖旧 gap 的确定方向；[[synthesis/review-outline]]、[[synthesis/core-argument-map]] 和 [[synthesis/literature-map]] 应依据当前边界重组，不将候选当作已证领域结论。
+- 相关主题正文仍待同步：[[wiki/topics/Ceramic Corrosion]]。源页/claim 历史 gap 待办由本轮修订接续；具体原文未决仍有效。
 
-## What Remains Unsolved
+## Use in Positioning or Review
 
-- Unsolved part: 冷却析出相的空间分布（界面富集？）、对界面结合强度与残余应力的影响、多循环累积效应。
-- Why unresolved: 需要涂层体系（基体+粘结层+EBC）热循环实验，成本高于块体等温腐蚀；原位观察冷却析出与力学测试联用尚无现成方法。
-
-## Possible Research Questions
-
-- Question: CMAS 腐蚀后的 EBC 在热循环中，冷却析出 Ca2RE8(SiO4)6O2 如何影响涂层剥落寿命？
-  - Feasibility: medium（等离子喷涂涂层 + 腐蚀 + 热循环炉实验成熟）
-  - Evidence needed: 热循环后截面形貌/裂纹统计 + 界面结合强度对比（有/无 CMAS 腐蚀）。
-
-## Possible Research Paths
-
-- Path: 块体层腐蚀 → 冷却 → 循环热震，统计裂纹萌生位置与析出相分布的相关性。
-  - Required method/data: 热震/热循环装置、截面 SEM、微区应力测量（如 Raman 光谱）。
-  - Risk: 块体与涂层体系应力状态不同，结论外推需谨慎。
-
-## Risks and Counter-Evidence
-
-- Risk: 冷却析出相可能反而致密化反应层、阻碍进一步腐蚀（正向作用），gap 的实际重要性下降。
-  - Evidence: #47 界面形貌显示大 RE 体系致密产物层确实抑制溶解——冷却析出可能参与该致密化。
-  - How to check: 先做冷却速率对比实验（快冷/慢冷）观察析出量对渗透深度的影响。
-
-## Related Pages
-
-- Papers: "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"、"[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"、"[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Claims:
-- Reviews:
-
-## Uncertainty
-
-- 待确认：冷却析出对涂层完整性是损伤作用还是保护作用（或兼有）。
-- 待核查：无
-- AI 推断：析出相界面富集导致应力集中的具体机制。
-
-## Maintenance Checklist
-
-- [x] Added to `index.md`.
-- [x] Evidence strength marked.
-- [x] Related open question updated if needed.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Aliases checked against `memory/term_aliases.md`.
+- Safe wording: 现有源页保留析出时序的局部未决及离位裂纹观察；相演化是否对冷却后损伤产生独立贡献可作为候选问题，尚非已确认的涂层寿命机制或领域空白。
+- 更强使用前提：先解决会改变论断的原始证据疑点，再按用户研究范围评估已有研究、可行性与新颖性；本页不是用户已确认的选题。

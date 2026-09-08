@@ -5,9 +5,11 @@ year: 2024
 authors: Tian Zhilin; Ming Keyu; Zheng Liya; Chen Zhilin; Zhang Yingpeng; Liu Peng; Li Bin
 venue: Surface and Coatings Technology
 status: processed
+review_status: checked
 created: 2026-08-27
-updated: 2026-08-27
-source: llm-for-zotero-mineru/10149/full.md（MinerU 解析缓存）
+updated: 2026-09-07
+source: Zotero JNS38XK5 英文 PDF；10149/full.md 为对应 MinerU 缓存
+source_version: Surface and Coatings Technology 492 (2024) 131196；9 页英文正文
 zotero_collection: 毕设 > 组内文章 > 博士 > 田老师
 zotero_item_key: RLNIRS7B
 zotero_attachment_key: JNS38XK5
@@ -32,164 +34,142 @@ tags:
   - cmas
   - ebc
 ---
-
 # In-situ observation and directional growth of Ca2Lu8(SiO4)6O2 in Lu2SiO5 attacked by CMAS at 1500 °C
 
-## Metadata
+## Metadata and Sources
 
-- Title: In-situ observation and directional growth of Ca2Lu8(SiO4)6O2 in Lu2SiO5 attacked by CMAS at 1500 °C
-- Authors: Tian Zhilin, Ming Keyu, Zheng Liya, Chen Zhilin, Zhang Yingpeng, Liu Peng, Li Bin（中山大学深圳校区材料学院）
-- Year: 2024
-- Venue: Surface and Coatings Technology（表面与涂层技术）
-- DOI / arXiv / URL: 10.1016/j.surfcoat.2024.131196
-- Source file: MinerU 缓存 `llm-for-zotero-mineru/10149/full.md`
-- Zotero collection: 毕设 > 组内文章 > 博士 > 田老师
-- Zotero item key: RLNIRS7B
-- Zotero attachment key: JNS38XK5
+- Citation：Zhilin Tian, Keyu Ming, Liya Zheng, Zhilin Chen, Yingpeng Zhang, Peng Liu, Bin Li. Surface and Coatings Technology 492 (2024), 131196. DOI：[10.1016/j.surfcoat.2024.131196](https://doi.org/10.1016/j.surfcoat.2024.131196)。
+- Zotero：item `RLNIRS7B` / attachment `JNS38XK5`；2026-09-07 通过本机 MCP 核对，条目仅列此 PDF，未列 Movie 1/2。
+- 原文：`C:/Users/youthcookie/OneDrive/1.Science/1.Zotero/pdf2/2024-(Surface and Coatings Technology)/Tian 等 - 2024 - In-situ observation and directional growth of Ca2Lu8(SiO4)6O2 in Lu2SiO5 attacked by CMAS at 1500 °C.pdf`，9 页英文正式排版。
+- MD：`D:/shuju/zotero1/llm-for-zotero-mineru/10149/full.md`；`_llm_source.json` 核对附件映射，manifest 存在图块拆分/低置信度合并，重要图号、温标和公式以 PDF 为准。
+- [出版社条目](https://www.sciencedirect.com/science/article/abs/pii/S0257897224008272)可检索元数据，但本轮打开返回 403，未取得补充视频。科学复核以本地原文为依据。
 
-## Reading Status
+## Reading and Verification Status
 
-- Coverage: abstract / introduction / method / experiments / conclusion（MinerU full.md 全文，含图表说明与参考文献）
-- Confidence: high
-- Missing sections: 无（Movie 1/2 为视频，正文已覆盖其要点）
+- 模式：full-review；2026-09-07 完成现有主要结论的证据复核与替换。
+- 已读 MD 摘要、引言、实验、结果讨论、结论及参考文献目录；PDF 回查方法与机制文字，视觉核对 pp. 3–8 的 Fig. 1–10、图内 EDS、温标和深度标记，以及 Eq. (1)。
+- Movie 1/2 未取得、未播放；正文的视频描述不是本轮逐帧验证。**冷却析出起点与 Fig. 4(d) 的冲突未解决**（E3），不再将“只在冷却起始析出”作为已确认结论。
+- checked 表示本页声明的正文/图示范围及结论边界已核查，不表示视频时序、全部相鉴定、原始统计和机制因果均获证实。未读参考文献全文不计入已复核来源。
 
-## One-Sentence Takeaway
+## Takeaway
 
-- 这篇论文用原位观察把 Lu2SiO5 在 1500 °C 的 CMAS 腐蚀拆成两个此前未被区分的环节：1500 °C 保温阶段 CMAS 熔体平静、无可见反应（LuO1.5 持续溶入熔体），冷却起始时 Ca2Lu8(SiO4)6O2 才大量析出并沿 [001] 垂直定向生长形成织构；更关键的是 Lu2SiO5 本身在 1500 °C 不稳定，分解生成的 Lu2Si2O7（2Lu2SiO5 = Lu2Si2O7 + Lu2O3）成为 CMAS 晶间快速渗透通道，使 1300 °C 下抗蚀最优的 Lu2SiO5 在 1500 °C/50 h 渗透深度达 219 μm（>4 倍）——高温失效的根源是基体相失稳，而非 CMAS 反应产物本身。
+本文在 Lu₂SiO₅ 块体的 1500 °C、5/20/50 h CMAS 实验中观察到主要磷灰石产物、择优排列及晶间侵入形貌，50 h 最深渗透指标报告为 219 μm（E1/E2/E4/E7）。无 CMAS 热处理后出现的相组合为分解解释提供支持，但不足以证明分解是唯一失效根源；初始杂相、局部 TEM 和原位时序均须保留边界（E3/E5/E6）。旧页“纯冷却析出”“抗蚀下降四倍”“第二篇独立证明半径反转”等强结论撤回。
 
-## Abstract Rewritten
+## Research Problem and Contribution
 
-- 论文以 EBC 候选材料 Lu2SiO5 为对象，用自制高温接触角仪原位观察 CMAS 熔化、铺展与反应产物生长全过程。CMAS 约 1300 °C 开始熔化，接触角随温度快速下降至约 1360 °C 后趋于稳定；1500 °C 保温阶段熔体表面平静、无可见反应，冷却起始时 Ca2Lu8(SiO4)6O2 晶粒大量析出并全部垂直生长，六方棱柱端面暴露于残余熔体中，XRD (002)/(004) 峰异常增强证实其沿 [001] 优先生长的织构特征。1300 °C 原位对照实验保温 2 h 及降温全程均无产物析出。
-- 离位腐蚀实验显示 1300 °C/50 h 渗透深度约 50 μm，而 1500 °C/50 h 高达 219 μm（>4 倍）。机制研究揭示：Lu2SiO5 在 1500 °C 发生分解反应 2Lu2SiO5 = Lu2Si2O7 + Lu2O3（无 CMAS 对照实验直接证实），分解生成的 Lu2Si2O7 被 CMAS 优先侵蚀并充当晶间快速渗透通道，反应前沿形成 Ca2Lu8(SiO4)6O2 fringes；TEM 证实晶界洁净无偏析，排除晶界偏聚假说。论文结论：1500 °C 下 Lu2SiO5 的 CMAS 失效由「高温加速反应 + 基体相失稳诱导晶间渗透」共同驱动，为稀土硅酸盐 EBC 设计增加相稳定性这一新判据。
+作者关注 Lu₂SiO₅ 在较高温度下与 CMAS 的相互作用、产物取向及相稳定性。可确认贡献为该单成分的分时长表征、原位选帧与无 CMAS 热处理对照。没有其他 RE 的同条件排名，也未测量涂层服役寿命；不能称已证明 Lu 在 1500 °C 的排名逆转。“首次”仅为作者声称，本轮未进行领域优先权检索。
 
-## Research Problem
+## Key Evidence
 
-- Problem: Lu2SiO5 在 1300 °C 是抗 CMAS 最优的稀土单硅酸盐（渗透仅约 50 μm），但 1500 °C 级 EBC 服役条件下的行为缺乏直接观察；CMAS 高温腐蚀过程长期依赖离位产物表征，缺乏原位证据。
-- Why it matters: 1500 °C 是第三代 EBC 的目标服役温度；若 1300 °C 最优候选材料在该温度失效，需弄清是 CMAS 反应加剧还是基体自身失稳，二者对应完全不同的设计策略。
-- Source: full.md 摘要、引言
+### E1
 
-## Method
+**制备与试验覆盖｜本文方法及表征。**
 
-- Method summary: 固相烧结 Lu2SiO5 块体 + CMAS 浆料涂覆 + 1500 °C/1300 °C 腐蚀 5–50 h + XRD/SEM-EDS/HRTEM + 自制高温接触角仪原位观察（接触角-温度曲线 + Movie 1（1500 °C）/Movie 2（1300 °C））+ 无 CMAS 的 1500 °C/50 h 相稳定性对照实验。
-- Key components: Lu2SiO5（1550 °C/10 h 烧结，相对密度 95%，晶粒 2.0±0.7 μm）；CMAS 33CaO-9MgO-13AlO1.5-45SiO2（mol%）；1300 °C 腐蚀作对照。
-- Assumptions: 以截面渗透深度（原始表面至最深渗透位置）作为 CMAS 抗性判据；分解产物 Lu2Si2O7 与 CMAS 的反应性引用本组前作（ref [24]，JECS 2019「blister」现象）。
-- Source: full.md §2 实验、§3 结果
+- 1550 °C/1.5 h 制粉；直径 13 mm 压坯，200 MPa/15 min 冷等静压，1550 °C/10 h 无压烧结。相对密度约 95%，晶粒 2.0 ± 0.7 μm。
+- Fig. 1 精修：99.7 wt% Lu₂SiO₅ + **0.3 wt% Lu₂Si₂O₇**，不是完全纯相。晶粒统计的 ± 含义及独立样品重复数未明确说明。
+- CMAS 配方 33CaO–9MgO–13AlO₁.₅–45SiO₂，保留单阳离子氧化物配比口径，不把 13AlO₁.₅ 改成 13Al₂O₃；1200 °C/24 h 预处理，乙醇浆料涂覆至 35 mg/cm²。1500 °C 静止空气马弗炉暴露 5、20、50 h。
+- 无 CMAS 对照为 1500 °C/50 h。原位观察使用激光扫描显微镜；高温接触角由自制测试仪测量，不能将两套观测全部归为接触角仪。
+- 定位/核查：§2、§3.1，PDF pp. 2–3、Fig. 1。原位负载及完整升降温速率未明确给出，不能默认与离位试验全部相同；对象为块体，不是实际多层 EBC。
 
-## Innovations
+### E2
 
-- Innovation: 首次原位记录 Lu2SiO5-CMAS 在 1500 °C 的完整交互过程，发现「保温阶段无反应 + 冷却起始析出」的时间分辨行为。
-  - Evidence: Movie 1；1300 °C 对照（Movie 2）全程无产物，凸显 1500 °C 的特殊性。
-  - Source: full.md §3.1
+**产物与取向｜XRD、SEM/EDS、表面形貌；择优生长解释。**
 
-- Innovation: 首次提出「相分解诱导晶间渗透」机制：Lu2SiO5 自身在 1500 °C 分解为 Lu2Si2O7 + Lu2O3，Lu2Si2O7 成为 CMAS 渗入通道；用无 CMAS 对照实验直接证实分解，并用 TEM 排除晶界偏聚假说。
-  - Evidence: Fig 6/7（无 CMAS 对照分解）、Fig 8（TEM 晶界洁净）、Fig 5（反应前沿 fringes）。
-  - Source: full.md §3.2、§3.3
+- 5/20/50 h 主要报道 Ca₂Lu₈(SiO₄)₆O₂。5 h 有垂直及水平晶粒；20/50 h 的 (002)/(004) 相对峰强增强，结合截面与表面形貌支持择优排列及作者的 [001] 生长解释，不能写全部晶粒始终垂直。
+- 20 h 表面残余 CMAS 较少，50 h 所示表面未见明显残余；Fig. 5 的反应前沿仍有作者指认的残余 CMAS。表面未见不等于体系所有熔体均耗尽，也不是质量平衡测量。
+- 未见定量织构分布、独立晶面生长速率或受控取向对照；取向促进渗透仍属作者机制解释（E5）。长时离位形貌不能直接确定晶粒何时形成。
+- 定位/核查：§3.1–3.2，PDF pp. 2–5、Fig. 2/3/5；图文已核对。
 
-- Innovation: 揭示 Ca2Lu8(SiO4)6O2 沿 [001] 垂直定向生长形成织构，且织构化晶粒排列本身为 CMAS 渗透提供直达通道。
-  - Evidence: Fig 3 表面形貌、(002)/(004) 峰增强；讨论指出定向排列晶粒间的直通道促进渗透。
-  - Source: full.md §3.1、§3.3
+### E3
 
-## Experiments
+**润湿和析出时序｜两种原位观测，存在原文内部冲突。**
 
-- Datasets / objects / materials: Lu2SiO5 块体陶瓷；CMAS 玻璃（33CaO-9MgO-13AlO1.5-45SiO2）。
-- Metrics: 反应产物相组成与形貌（XRD/SEM）、渗透深度、接触角-温度曲线、晶界成分（TEM/EDS）。
-- Baselines: 1300 °C 腐蚀（本文原位对照 + 本组前作 ref [18] 的 50 μm 数据）；无 CMAS 的 1500 °C/50 h 相稳定性对照。
-- Main results:
-  - 原位观察（1500 °C）：CMAS 约 1300 °C 熔化；保温阶段熔体平静无可见反应；40 min 后开始降温时 Ca2Lu8(SiO4)6O2 大量析出，晶粒被熔体固定、垂直生长，六角棱柱端面暴露于残余熔体；随腐蚀时间延长晶粒变粗并致密排列；降温后期不再有新晶粒析出（表明 LuO1.5 已在高温阶段消耗殆尽）。
-  - 原位观察（1300 °C 对照）：CMAS 约 1200 °C 开始熔化、1300 °C 流动性良好但不及 1500 °C；2 h 保温仅见小颗粒漂浮，无产物析出；降温过程亦无产物。
-  - 渗透深度：1300 °C/50 h 约 50 μm（ref [18]）→ 1500 °C/50 h 219 μm（>4 倍）；1500 °C 下渗透深度随时间缓慢增长。
-  - 相稳定性对照：无 CMAS 时 1500 °C/50 h 加热后出现 Lu2Si2O7（红色晶粒）与 Lu2O3，证实分解反应 2Lu2SiO5 = Lu2Si2O7 + Lu2O3（Eq 1）。
-  - 反应前沿：1500 °C 各时长样品均观察到 Ca2Lu8(SiO4)6O2 凸入基体、CMAS 残留在三叉晶界；当 CMAS 缺 CaO 或出现新渗透路径时反应终止，留下圆形未腐蚀 Lu2SiO5。
-  - TEM：1500 °C/50 h 加热后三叉晶界无非晶相与杂质，RE/Si 在晶粒与晶界均匀分布（面扫+线扫），排除晶界偏聚——Lu2Si2O7 是晶间渗透主因。
-  - 接触角：随温度快速下降至约 1360 °C 后稳定，1500 °C 下 CMAS 流动性明显优于 1300 °C。
-- Source tables/figures/pages: 图 1–10、Movie 1–2
+- 接触角试验 Fig. 4(a,b)：约 1300 °C 开始熔化/铺展，接触角至约 1360 °C 快速下降后近平台。正文对 Movie 1 的描述却为约 510 s、1200 °C 开始熔化；两者观测装置/历史不同，不合并成唯一“熔点”。接触角并非直接黏度测量。
+- §3.2 描述 Movie 1 在保温阶段表面平静，作用约 40 min 后开始冷却时多数晶粒析出。但 **Fig. 4(d) 标注 Heat preservation stage、1500 °C、4439.62 s，已呈明显晶粒形貌**；(c) 为 1500 °C、2828.41 s，(e) 才是 Cooling stage、1412.4 °C、4847.71 s。
+- 因此正文“冷却开始析出”与选帧标注存在需核对的时序问题。不能自行认定图标错，也不能忽略 (d) 写“保温全程无析出”。在视频/热历程未核清前，只保留选帧差异和作者的时序描述，不确认唯一析出起点。
+- 正文随后又写冷却过程中不再析出，并据此推断大部分 LuO₁.₅ 在高温阶段已消耗；这是解释，未见熔体成分连续测量，不能补写成已确定的“降温后期耗尽”。
+- 1300 °C、约 2 h 对照的保温/冷却未见析出，仅来自正文对 Movie 2 的描述；不等于无溶解、无反应或界面无产物。
+- 定位/核查：§3.2，PDF pp. 3–4、6、Fig. 4；图中温标已看，Movie 1/2 未读。新陈述不以“无可见反应”代替明确观测对象。
 
-## Key Claims
+### E4
 
-- Claim: 1500 °C 保温阶段无可见反应产物，Ca2Lu8(SiO4)6O2 在冷却起始时大量析出并沿 [001] 垂直定向生长，形成织构（(002)/(004) 峰增强）。
-  - Evidence: Movie 1 原位记录 + Fig 3 表面形貌 + XRD 织构峰。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+**反应前沿与晶间侵入｜离位截面及点分析。**
 
-- Claim: 1300 °C 下 Lu2SiO5-CMAS 保温与降温全程无产物析出（原位），渗透仅约 50 μm；1500 °C/50 h 渗透 219 μm（>4 倍）——Lu2SiO5 由 1300 °C 最优变为 1500 °C 抗蚀差。
-  - Evidence: Movie 2 + Fig 9 渗透深度对比。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+- Fig. 5 在不同暴露时长展示凸入基体的磷灰石区域、晶界/三叉结附近的残余相及点分析，支持存在晶间侵入、反应前沿不平整的观察。
+- 作者将 Fig. 5(a) 点 2 指认为 Lu₂Si₂O₇，结合三叉结残余 CMAS 提出优先侵蚀路径；这不是追踪同一位置的实时侵蚀顺序或流速测量。
+- “缺 CaO/转向新路径导致局部反应停止”及“二硅酸盐优先被侵蚀”为作者解释，不能仅由残余圆形晶粒直接证明反应终止原因。
+- 定位/核查：§3.2，PDF pp. 4–6、Fig. 5。SEM/EDS 已看；元素配比提供物相线索，不将每个点分析都写成独立晶体结构鉴定。
 
-- Claim: Lu2SiO5 在 1500 °C 分解为 Lu2Si2O7 + Lu2O3，Lu2Si2O7 被 CMAS 优先侵蚀并成为晶间快速渗透通道（相分解诱导晶间渗透机制）。
-  - Evidence: 无 CMAS 对照（Fig 6/7）证实分解；Fig 5 反应前沿 fringes；Fig 8 TEM 排除晶界偏聚。
-  - Evidence strength: strong
-  - Related page: "[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]"
+### E5
 
-- Claim: 接触角随温度快速下降至约 1360 °C 后趋于稳定，1500 °C 下 CMAS 流动性优于 1300 °C，加剧腐蚀。
-  - Evidence: Fig 4(b) 接触角-温度曲线。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+**无 CMAS 热处理与分解｜相组合观察 + 作者反应解释。**
 
-## Limitations
+- 无 CMAS 的 1500 °C/50 h 对照，Fig. 6 XRD/形貌显示 Lu₂SiO₅ 与 Lu₂Si₂O₇；Fig. 7 指认邻近的 Lu₂O₃ 和 Lu₂Si₂O₇。作者据此提出 Eq. (1)：**2Lu₂SiO₅ = Lu₂Si₂O₇ + Lu₂O₃**。
+- 该相组合及邻近关系支持分解解释，尤其说明二硅酸盐并非必须在有 CMAS 时才出现；但 §3.2 的“初始纯相”与 Fig. 1 的 0.3 wt% 杂相不一致。未给热处理前后完整定量相分数、物料平衡或原位相变过程，不能将全部二硅酸盐归为本次新生分解产物，亦不能据两种不同保温时长确认相变阈值。
+- Fig. 6 的图例、着色和正文对颜色名称表述不完全一致，按物相/分析定位，不以颜色单独判相；Fig. 7 的 Lu₂O₃ 指认主要依赖所示局部成分信息，不包装成 Fig. 6 已独立检出全部三相。
+- 作者同时提出取向产物间的通路与基体相稳定性共同促进渗透；“分解是根源，而非产物本身”既超过证据，也删去了作者的共同作用解释。
+- Lu₂Si₂O₇ 易受侵蚀及 blister 行为引自 [24]（2019 JECS），相对反应驱动力讨论引自 [16]；本轮未复核这两篇原文，不将其计为本文独立实测。
+- 定位/核查：§3.2，PDF pp. 6–7、Fig. 6/7、Eq. (1)。未有受控杂相梯度/取向对照或连通通道追踪，故机制为部分支持，不是唯一原因的排他证明。
 
-- Limitation: 原位观察仅针对 Lu2SiO5 单体系；相分解是否在其他 RE2SiO5（#47 七体系）中发生未核查。
-  - Stated by authors: 否
-  - Evidence: 实验设计仅 Lu2SiO5
-  - Source: full.md §2
+### E6
 
-- Limitation: 1500 °C 保温阶段 LuO1.5 溶解进入 CMAS 为间接推断（由降温析出反推），未直接测量熔体成分。
-  - Stated by authors: 否
-  - Evidence: 讨论以「LuO1.5 已在高温阶段消耗殆尽」解释降温后期无析出
-  - Source: full.md §3.1
+**TEM 的排除范围｜局部观察，不能排除全部晶界作用。**
 
-- Limitation: 无 1500 °C 腐蚀动力学定量模型；冷却速率对析出行为的定量影响未研究。
-  - Stated by authors: 否
-  - Evidence: Fig 9 仅给出深度-时间关系
-  - Source: full.md §3.3
+- Fig. 8 为无 CMAS、1500 °C/50 h 热处理样品的局部 HRTEM/HAADF-STEM 与元素面扫、两条线扫；作者称未检出非晶相和其他杂质、未见明显偏聚。
+- **Fig. 8(c) 明确标注 Lu₂Si₂O₇ 与 Lu₂SiO₅ 相邻**，不能将“局部未见非晶膜”扩大成“所有晶界均无第二相”。面扫/线扫的空间范围及检测能力也不能排除全部偏聚，更不能直接代表有 CMAS 的侵蚀前沿。
+- 因而“排除晶界偏聚，所以分解必为主因”不是充分排他论证。保留所示位置未见明显非晶膜/元素富集的有限观察。
+- 定位/核查：§3.2，PDF pp. 6–7、Fig. 8；相标及扫描位置已核对。对 [25] 的 YSZ 类比仅为转引，未读其原文，不作为本次排除机制的证据。
 
-## Potential Gaps
+### E7
 
-- Gap: 其他 RE2SiO5 成分（Tb–Yb 系列）在 1500 °C 的相分解行为未知——若分解普遍存在，则 #47 的 1500 °C 抗蚀排序需用相稳定性重新解释。
-  - Evidence strength: AI 推断
-  - Related page: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"
+**渗透深度及跨温度比较｜本文测量与既有数据拼接。**
 
-- Gap: 冷却起始析出的织构化 Ca2Lu8(SiO4)6O2 层对涂层完整性（剥落、开裂）的影响未评估。
-  - Evidence strength: strong（论文明确指出冷却析出，但未评估涂层影响）
-  - Related page: "[[wiki/gaps/Cooling-Precipitation-Coating-Integrity]]"
+- 本文定义：原始表面到 CMAS 最深渗透位置。1500 °C 下 5/20/50 h 的图示深度逐步增加，50 h 正文报告 **219 μm**；Fig. 9(a–c) 有测量线，(d) 有误差棒，但未明确独立重复数、误差定义或统计检验，不补造精确中间点或拟合速率。
+- Fig. 9(d) 实际是三个 1500 °C 时长与一个 1300 °C/50 h 外部对照；图注“随温度增加”不代表所有柱都是同一时长的温度序列。
+- 1300 °C/50 h 的约 50 μm 引自 [18]，即 [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]。原文指标是衰退层厚度，包含反应产物层，与本文最深渗透指标不同。
+- 2019 热压样品、>95% 密度、30 mg/cm² 及凹坑储池，与本文无压烧结、约 95%、35 mg/cm² 条件亦不同。故 219/50 只能识别为作者对不同来源数值的算术比较，**不保留“抗蚀性下降四倍”或单独温度效应倍数**。
+- 本文新增的是 Lu 的高温实验，不是新的 1300 °C 独立复现，也没有同温度多 RE 排名；不能作为“半径效应反转”的第二篇独立验证。
+- 定位/核查：§3.2、Fig. 9、[18]，PDF pp. 6、8–9；结合已复核 2019 页 E1/E2/E8。图、定义、来源已核对，原始统计未取得。
 
-- Gap: 相分解诱导晶间渗透机制是否适用于高熵稀土硅酸盐（如 #48 的 (Ho0.25Lu0.25Yb0.25Eu0.25)2SiO5）尚待验证。
-  - Evidence strength: AI 推断
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+### E8
 
-## Relation to Existing Wiki
+**热化学、跨论文关系及应用｜转引与本次评价。**
 
-- Supports: "[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"（Lu2SiO5 1300 °C 最优 → 1500 °C 219 μm，为「1500 °C RE 效应弱化/反转」提供第二篇独立证据）；"[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"（1300 °C 对照：Lu 最小半径、形成焓最不易放热、抗蚀最优，与 Costa et al. 热化学一致）。
-- Challenges: 无。
-- Extends: #47 的 1500 °C 机制框架——新增「基体相分解诱导晶间渗透」与「冷却起始析出」两个机制；#47 提出 1500 °C RE 效应弱化，本文给出单体系深度机制解释。
-- Nuance: #47 中 Er2SiO5 在 1500 °C 保温约 1 h 后观察到缓慢析出，本文 Lu2SiO5 保温阶段无可见析出（RE 种类差异：Lu 的磷灰石形成焓最不易放热）；#47 观察到的冷却析出（约 1400 °C 大量短水平晶粒）与本文「冷却起始析出 + 垂直定向生长」在晶粒取向与形态上不同，二者关系待厘清。
-- Cites: 引用 #48（ref [16]）作为高熵稀土硅酸盐 EBC 设计背景；引用 Costa et al.（ref [22]）热化学数据。
+- 形成焓来自 Costa [22]，本文未新测形成焓，也未测或计算黏度。接触角、侵入深度、相组合不能独立证明“黏度下降使 RE 规律弱化”。
+- 与 [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]] 的 Er 观察可作有限对照，但 RE、保温时间及本篇时序不确定性同时存在；不能直接将差异归因于 Lu 磷灰石形成焓。
+- 本文研究块体而非热循环涂层。冷却产物造成开裂/剥落、高熵化能否抑制分解、其他 RE 是否同样分解，均只能作为候选问题（AI 推断），并非已检索确认的领域空白。
+- 定位/核查：§1、§3.2、§4、References [18,22,24]，PDF pp. 1–2、4、6、9；转引身份已核对，外部热化学/二硅酸盐全文未在本轮复核。
 
-## Notes for Review Writing
+## Conclusions for Reuse
 
-- 可用于综述的位置：RE2SiO5 EBC 的 CMAS 腐蚀温度效应（1300 °C vs 1500 °C）；单硅酸盐相稳定性作为高温 EBC 选材判据；Ca2RE8(SiO4)6O2 织构化生长机制。
-- 可引用论断：「1500 °C 下 Lu2SiO5 的失效根源是相分解诱导的晶间渗透，而非 CMAS 反应产物本身」；「腐蚀产物在冷却起始时析出并垂直定向生长」；「1300 °C 最优的 Lu2SiO5 在 1500 °C 渗透深度为 1300 °C 的 4 倍以上」。
-- 待补证据：其他 RE2SiO5 的 1500 °C 相稳定性；冷却速率与析出量的定量关系。
+- **保留**：本文条件下的主要磷灰石产物、择优排列、晶间侵入形貌和 50 h 的 219 μm 报告值；无 CMAS 热处理后的相组合（E1/E2/E4–E7）。
+- **限定**：分解、优先侵蚀与取向通路为具有表征支持的作者机制解释，尚无独立控制实验分离其贡献；TEM 仅支持局部观察（E5/E6）。
+- **撤回或暂停采用**：保温全程无反应、只在冷却起始析出、全部晶粒垂直、初始完全纯相、排除一切晶界因素、分解是唯一根源、抗蚀下降四倍和独立确认半径反转（E1–E8）。
+- 可用于综述：Lu₂SiO₅ 的本组高温实验提示应同时考察初始杂相、长时相演化和产物排列；跨温度评价须统一测量指标和实验边界，原位时序应核对图帧及温标，不能由离位产物反推全部形成过程。
 
-## Linked Pages
+## Limitations and Open Questions
 
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Datasets:
-- Metrics:
-- Claims: "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"、"[[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]]"、"[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]]"
-- Gaps: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"、"[[wiki/gaps/Cooling-Precipitation-Coating-Integrity]]"
-- Reviews:
+- Movie 1/2 与原始温度时间记录未取得，Fig. 4(d) 对析出起点的冲突保留待核；暂不判定究竟正文还是图标有误。
+- 需定量相分数及充分相鉴定来界定分解量；初始 0.3 wt% 杂相、局部 Lu₂O₃ 指认和 Fig. 6 颜色表述均不能静默忽略。
+- 原始重复测量、误差定义、完整热历程及取向/杂相控制实验缺失，限制定量因果和排名。
+- 参考文献的机制转引及新颖性均未完成领域级核查；没有新增确定 claim/gap。
 
-## Uncertainty
+## Downstream Review
 
-- 待核查：相分解在其他 RE2SiO5 成分中的普适性（#47 未报道，但 #47 未做 TEM 与无 CMAS 对照）
-- 待核查：MinerU OCR 中化学式上下标（Ca2Lu8(SiO4)6O2、Lu2Si2O7 等）引用前与原文核对
-- AI 推断：高温保温阶段 LuO1.5 溶解-冷却析出的定量机制；#47 与本文原位析出行为差异的原因
+本轮修订源论文及维护记录；以下旧论断尚未在目标页重写，后续不得继续作确定依据。
 
-## Maintenance Checklist
+| 页面 | 具体待复核论断及原因 |
+|---|---|
+| [[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]] | “纯相直接分解、TEM 排除偏聚、唯一主因”的强度须按 E1/E5/E6 重评 |
+| [[wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening]] | 撤回本篇作为半径反转的第二次独立验证；本文未测黏度，跨温度倍数不具比较资格（E7/E8） |
+| [[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]] | 50 μm 及形成焓均为既有来源，不新增独立验证（E7/E8） |
+| [[wiki/gaps/Cooling-Precipitation-Coating-Integrity]] | “保温无反应、仅冷却析出”存在图文时序冲突；损伤因果未研究（E3/E8） |
+| [[wiki/gaps/CMAS-Corrosion-Data-1500C]] | Lu 单成分范围不能证明跨 RE 规律；其他体系缺口仍需检索（E7/E8） |
+| [[wiki/topics/Ceramic Corrosion]] | 原位时序、四倍劣化、相失稳主因及双篇共识须重核 |
+| [[synthesis/literature-map]]、[[synthesis/core-argument-map]] | #16 的证据强度与“半径—高温失效”链条须拆分观察和解释 |
+| [[synthesis/review-outline]] | 不以“仅冷却析出/唯一分解根源/四倍劣化”继续组织确定性章节 |
+| [[synthesis/open-questions]]、[[synthesis/research-positioning]] | 问题前提与高熵抑制分解设想须按局部未决降格为候选，不冒充已确认研究目标 |
 
-- [x] Added to `index.md`.
-- [x] Operation added to `log.md`.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Terms checked against `memory/term_aliases.md`.
+## Revision Record
+
+2026-09-07：复用 10149 MD 并通过 MCP 核对附件，回查英文 PDF Fig. 1–10；建立 E1–E8，替换纯相、原位时序、排他机制及跨温度倍数的过强结论，保留正确结果及局部未决。未修改原始附件、其他论文或下游正文。

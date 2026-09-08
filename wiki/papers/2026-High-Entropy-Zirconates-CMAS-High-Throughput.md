@@ -5,19 +5,18 @@ year: 2026
 authors: Chi Lin; Chen Zhilin; Zheng Liya; Tian Zhilin; Lv Bowen; Li Bin
 venue: Journal of the European Ceramic Society
 status: processed
+review_status: checked
 created: 2026-08-23
-updated: 2026-08-24
-source: llm-for-zotero-mineru/10087/full.md（MinerU 解析缓存）
+updated: 2026-09-07
+source: Zotero L4TEUBTX 英文 PDF；10087/full.md；出版社正式补充 DOCX
+source_version: Journal of the European Ceramic Society 46(5), 118014；12 页正文及 mmc1.docx
 zotero_collection: 毕设 > 组内文章 > 博士 > 田老师
 zotero_item_key: YPQHNP84
-zotero_attachment_key: GIE2FCRB
-pdf_attachment_name: 待确认（PDF 附件 x3）
+zotero_attachment_key: L4TEUBTX
+pdf_attachment_name: Chi 等 - 2026 - Exploration of thermal properties and CMAS corrosion resistance of high-entropy rare-earth zirconate 2.pdf
 doi: 10.1016/j.jeurceramsoc.2025.118014
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
-methods:
-datasets:
-metrics:
 claims:
   - "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"
   - "[[wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism]]"
@@ -30,166 +29,158 @@ tags:
   - corrosion
   - ceramics
   - cmas
-  - ebc
+  - tbc
 ---
 
 # Exploration of thermal properties and CMAS corrosion resistance of high-entropy rare-earth zirconates by high-throughput method
 
-## Metadata
+## Metadata and Sources
 
-- Title: Exploration of thermal properties and CMAS corrosion resistance of high-entropy rare-earth zirconates by high-throughput method
-- Authors: Chi Lin, Chen Zhilin（共同一作）, Zheng Liya, Tian Zhilin, Lv Bowen, Li Bin（中山大学深圳校区材料学院；广东省科学院新材料研究所）
-- Year: 2026（在线发表，DOI 编号 2025）
-- Venue: Journal of the European Ceramic Society
-- DOI / arXiv / URL: 10.1016/j.jeurceramsoc.2025.118014
-- Source file: MinerU 缓存 `llm-for-zotero-mineru/10087/full.md`
-- Zotero collection: 毕设 > 组内文章 > 博士 > 田老师
-- Zotero item key: YPQHNP84
-- Zotero attachment key: GIE2FCRB
+- Citation：Lin Chi, Zhilin Chen, Liya Zheng, Zhilin Tian, Bowen Lv, Bin Li. Journal of the European Ceramic Society 46(5) (2026), 118014。DOI：[10.1016/j.jeurceramsoc.2025.118014](https://doi.org/10.1016/j.jeurceramsoc.2025.118014)。
+- 英文 PDF 首页明确 **2025-11-17 在线发表**；2026 是卷期年份，不是在线发表年份。署名行将 Chen Zhilin 次序写反，但共同一作脚注明确 Lin Chi 与 Zhilin Chen；Zotero 也继承了姓名字段次序问题，本轮未修改 Zotero。
+- Zotero item `YPQHNP84`；MCP complete 核对 `L4TEUBTX`（2.pdf）为 12 页英文，`JME28GD9`（1.pdf）为中英混排，`2B3M2DQ5`（无数字后缀）为中文。后二者不是补充材料；旧 key GIE2FCRB 不再用作主附件标识。
+- 英文 PDF：`C:/Users/youthcookie/OneDrive/1.Science/1.Zotero/pdf2/2026-(Journal of the European Ceramic Society)/Chi 等 - 2026 - Exploration of thermal properties and CMAS corrosion resistance of high-entropy rare-earth zirconate 2.pdf`。
+- 英文 MD：`D:/shuju/zotero1/llm-for-zotero-mineru/10087/full.md`；`_llm_source.json` 已确认 attachmentId 10087、attachmentKey L4TEUBTX、parentItemKey YPQHNP84。
+- 正式补充材料：2026-09-07 从[出版社 mmc1.docx](https://ars.els-cdn.com/content/image/1-s2.0-S0955221925008350-mmc1.docx) 下载，题名、作者和正文对应。实际内容为 **5 张表、8 幅图**：Tables S1、S2、S3，以及两张均题为 S4 的表；Figures S1–S8。下文用“Table S4（键长）”和“Table S4（厚度）”消歧，不自行修改原件编号。正文所引 EDS Fig. S3–S7 与实际补充 Fig. S4–S8 不一致。
 
-## Reading Status
+## Reading and Verification Status
 
-- Coverage: abstract / introduction / method / experiments / limitations / conclusion（MinerU full.md 全文，含参考文献）
-- Confidence: high
-- Missing sections: 无（Supporting Information 为 Rietveld 精修与 EDS 图，正文已覆盖要点）
+- 模式：full-review；2026-09-07 完成主要结果、方法和推理链复核。
+- 已读英文 MD 的摘要、引言、方法、结果和讨论，关键数据、公式、结论及来源目录回查英文 PDF；视觉检查正文 Fig. 2–13（pp. 3–10），Fig. 1 的方法与图注已读。补充五表文字/数值及八幅图全部读取/查看。
+- checked 表示本页声明证据已复核，**不表示原论文数据映射已可靠重建**。下述图表冲突已经查实；受影响的精确组成排序、参数关联和机制结论保留待核查，不能进入确定性 claim。
+- 未修改原始 PDF/MD；补充副本及核查图保存在系统临时目录，原始下载地址在上方。未全面复核转引文献，也未取得作者原始作图、精修输入或仪器数据。
 
-## One-Sentence Takeaway
+## Takeaway
 
-- 这篇论文把高熵稀土锆酸盐的设计问题从“多元素掺杂是否有效”推进到“哪些结构参数真正控制性能”：19 种 (5RE0.2)2Zr2O7 证明 ΔR/R 和键长畸变主要控制低热导，RE 半径分散度影响 TEC，而小平均 RE 半径对应的缺陷萤石结构通过抑制离子输运和提高磷灰石形成难度获得更强 CMAS 抗性。
+本文批量制备 19 种五元等摩尔稀土锆酸盐，展示了两类结构、热物性及 1300 °C/5 h 的 CMAS 腐蚀现象。磷灰石型产物与富 Zr 颗粒层有 XRD、截面和成分线索支持；作者报告腐蚀层约 20–70 μm（E1/E2/E6/E7）。但样品标签、半径坐标、畸变参数和密度表存在相互不一致，热导端点也与文字范围不完全吻合。旧页“已建立可靠三参数设计规律”“已证实缺陷萤石双重抗蚀机制”应撤回，保留为需要重建数据映射后检验的解释（E3–E5/E7/E8）。
 
-## Abstract Rewritten
+## Research Problem and Contribution
 
-- 论文面向先进 TBC 材料需要同时满足低热导、高 TEC、相稳定和 CMAS 抗性的多目标约束，采用高通量固相反应制备 19 种五元等摩尔高熵稀土锆酸盐 (5RE0.2)2Zr2O7，并系统考察平均 RE 离子半径、RE 半径分散度、结构类型与性能之间的关系。结构上，较大平均 RE 半径的样品倾向有序烧绿石，较小平均 RE 半径的样品形成无序缺陷萤石；Raman、XRD 和 Rietveld 精修共同确认两类结构及其晶格畸变特征。热物性方面，1000 °C 热导率为 1.19–2.03 W·m⁻¹·K⁻¹，整体低于或接近典型 TBC 候选材料；ΔR/R 和键长畸变与热导率呈负相关，说明多 RE 离子尺寸差导致的晶格畸变通过增强声子散射降低热导。TEC 位于 (10–12)×10⁻⁶ K⁻¹，与 YSZ 接近，且半径分散度越小 TEC 越高，表明高熵设计不能只追求最大无序度，还要平衡热膨胀匹配。
+作者尝试通过高通量混料和压片，比较多种 TBC 候选块体的热导、热膨胀与 CMAS 反应。可确认贡献是批量制备与多性能表征框架，以及所示结构和腐蚀产物的观察。19 个名义配方均为五元等摩尔，未以熵为独立变量设计梯度；不同组成的性能差异不自动证明“高熵效应”的独立贡献。该批量独立制样流程也不同于 [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]] 的层叠共体方法，不能仅凭“高通量”视为相同实验设计。
 
-- CMAS 腐蚀部分显示，1300 °C/5 h 后腐蚀产物主要包括棒状 Ca2RE8(SiO4)6O2 磷灰石和反应前沿球形 ZrO2；腐蚀层厚度为 20–70 μm，明显低于文献中 YSZ 的 150–200 μm 和 Gd2Zr2O7 的 80–120 μm。更关键的是，腐蚀层厚度与平均 RE 离子半径正相关，小平均半径的缺陷萤石结构表现出最强 CMAS 抗性。作者给出双重解释：动力学上，缺陷萤石高度无序、缺少低能扩散通道，可抑制 CMAS 熔体中的快速离子输运；热力学上，小 RE 半径使 Ca2RE8(SiO4)6O2 形成焓升高，腐蚀产物形成更不利。因此，该文为“高熵 TBC 成分设计”提供了三参数框架：用 ΔR/R/键长畸变降低热导，用较小半径分散度维持较高 TEC，用较小平均 RE 半径和缺陷萤石结构提高 CMAS 抗性。但由于腐蚀实验只有 1300 °C/5 h，结构类型与平均半径又高度共线，仍需正交成分设计和高温长时腐蚀来验证机制权重。
+## Key Evidence
 
-## Research Problem
+### E1
 
-- Problem: 单组分 RE2Zr2O7 无法兼顾热物性与 CMAS 抗性（La2Zr2O7 隔热好但 TEC 低不匹配高温合金；Gd2Zr2O7 TEC 高但 CMAS 抗性差）；高熵策略有望平衡，但不同 RE 种类对性能的影响规律缺乏系统认识，成分设计缺乏指导原则，传统试错法低效。
-- Why it matters: 涡轮入口温度持续升高，YSZ 在 >1200 °C 相变剥落且 CMAS 渗透加速失效，先进 TBC 需同时满足隔热、相稳定、CMAS 抗性三项要求。
-- Source: full.md Introduction
+**制备与腐蚀协议｜本文实验。**
 
-## Method
+- 名义配方为 (RE₁₀.₂RE₂₀.₂RE₃₀.₂RE₄₀.₂RE₅₀.₂)₂Zr₂O₇，19 种组合、S1–S19；元素池为 La、Ce、Nd、Sm、Eu、Gd、Tb、Dy、Ho、Er、Tm、Yb、Lu、Y。具体编号的歧义见 E2，不能把不一致标签静默统一。
+- 按总 RE₂O₃:ZrO₂ = 1:2、五种 RE₂O₃ 等摩尔配料；高通量混料 10 h，80 °C/24 h 干燥，1600 °C/20 h 合成，再球磨 8 h，批量压片、200 MPa 冷等静压，1600 °C/10 h 烧结。正文将原料统一写为 RE₂O₃；含 Ce 的实际价态不能由此视为已测得全三价。
+- CMAS 为 33CaO–9MgO–13AlO₁.₅–45SiO₂，按阳离子氧化物摩尔比例；250 r/min 混料 8 h，1400 °C/30 min 熔制、空气冷却、研磨。负载约 **25 mg/cm²**，**1300 °C/5 h** 腐蚀。
+- 支持程度：对名义流程充分；没有量化效率提升、实际涂层寿命或所有干扰变量已配平的证据。
+- 定位与核查：§2.1–2.3，PDF pp. 2–3，Table S2；已核查。
 
-- Method summary: 高通量固相反应制备 19 种五元等摩尔 (5RE0.2)2Zr2O7 + Rietveld 精修定结构 + LFA 激光闪射测热扩散率（Neumann-Kopp 定律算 Cp）测热导 + DIL 402 膨胀仪测 TEC + CMAS 涂覆腐蚀（1300 °C/5 h）+ XRD/SEM-EDS 表征腐蚀产物与反应层厚度。
-- Key components: 19 种成分（S1–S19），RE 池 = La, Ce, Nd, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Y；高通量球磨机 + 高通量压片机批量制样；1600 °C/20 h 合成 → 1600 °C/10 h 烧结；CMAS 33CaO-9MgO-13AlO1.5-45SiO2，25 mg/cm²；结构判据 Subramanian 半径比 r(RE³⁺)/r(Zr⁴⁺)（1.46–1.78 烧绿石，<1.46 缺陷萤石）；畸变参数 ΔR/R（离子半径标准偏差/平均半径）与 Δd（键长畸变度）。
-- Assumptions: 以腐蚀层厚度（截面 SEM）作为 CMAS 抗性判据；Cp 由 Neumann-Kopp 定律计算而非实测。
-- Source: full.md §2 实验、§3 结果
+### E2
 
-## Innovations
+**结构类别与样品身份｜XRD/Raman/精修；标签冲突。**
 
-- Innovation: 高通量制备 19 种五元等摩尔高熵稀土锆酸盐，建立「RE 平均半径/半径分散度/结构类型 → 热导、TEC、CMAS 抗性」的系统定量关联，为 RE2Zr2O7 TBC 提出实用成分筛选指导。
-  - Evidence: 全文系统数据（图 4–13）；结论明确给出设计三要素。
-  - Source: full.md Introduction、Conclusion
+- Fig. 2 的超结构峰、Fig. 3 的 Raman 差异及 Fig. S1/S2 的精修，支持作者将 S1–S12 归为烧绿石、S13–S19 归为缺陷萤石。平均半径较小组对应后者，但结构、组成与半径未正交分离。
+- §3.1 前段将缺陷萤石写为 Fm-3m，随后又写 Fd-3m，存在源文空间群记法冲突；保留结构类别，不声称全部占位、氧空位数量或局域无序程度已由此定量测得。
+- **S3**：Table S2/Fig. 2 为 LaCeNdSmGd；Fig. 10/11 标 LaCeNdSmDy，Fig. S1(c) 与 Fig. S4(c) 标 LaCeNdSmTb；Fig. S4(c) 元素图却列 Gd。不能认定所有面板已正确对应同一组成。
+- **S11**：Table S2 及部分正文图为 NdSmEuGdYb，Fig. S2(a)/S6(b) 标 NdSmEuDyYb，而 S6(b) 元素图又列 Gd。**S16**：Table S2 化学式为 SmEuErYbY，缩写列却是 SmEuTmYbY。
+- Fig. S8(a) 的 S18 名义配方含 Ho，元素面扫标签却出现 Sm；只能记录标签冲突，不能据此判定样品实际含 Sm。
+- 支持程度：两组平均结构分类有支持；精确的“组成—精修—性能”逐样品映射未决。不得将所有标签冲突一律归咎于 MinerU，它们在原始图像/DOCX 中存在。
+- 定位与核查：§3.1，Fig. 2–4、10–11，Tables S2、Fig. S1/S2/S4/S6/S8；已核查。
 
-- Innovation: 揭示缺陷萤石结构的双重 CMAS 抗蚀机制：动力学上无序结构缺乏低能扩散通道抑制离子输运，热力学上小 RE 半径使磷灰石形成焓升高（析出不利）。
-  - Evidence: 腐蚀层厚度与平均半径正相关（图 13）；结合 Costa et al. 磷灰石热化学数据论证。
-  - Source: full.md §3.3
+### E3
 
-## Experiments
+**热导是计算并经孔隙校正的量｜实测扩散率、估算热容与源内差异。**
 
-- Datasets / objects / materials: 19 种 (5RE0.2)2Zr2O7 高熵稀土锆酸盐（S1–S12 烧绿石结构，S13–S19 缺陷萤石结构）；CMAS 玻璃（33CaO-9MgO-13AlO1.5-45SiO2，1400 °C 熔制）。
-- Metrics: 热扩散率/热导率（RT–1000 °C）、TEC（RT–1000 °C）、晶格常数与畸变度（Rietveld/键长）、腐蚀层厚度（截面 SEM）、腐蚀产物相与成分（XRD/EDS）。
-- Baselines: 单组分 RE2Zr2O7 数据与 8YSZ（热导 2.2–2.5、TEC ~10.5×10⁻⁶）、文献中 YSZ 腐蚀层 150–200 μm、Gd2Zr2O7 80–120 μm 作参照。
-- Main results:
-  - 结构：S1–S12 烧绿石（Fd3m，有序，36–46° 出现 (331)/(511) 超结构峰，Raman 310/390/520 cm⁻¹ 尖峰）；S13–S19 缺陷萤石（Fm3m，无序，Raman 仅 665 cm⁻¹ 宽峰）；晶格常数随 RE 平均半径减小而减小、密度增大。
-  - 热导率：1000 °C 时烧绿石 1.19–2.03、缺陷萤石 1.29–1.69 W·m⁻¹·K⁻¹（无序+随机氧空位散射声子）；ΔR/R 与热导负相关（RT 下 0.209→0.215 Å 对应 1.898→1.478）；Δd 0.196%→0.269% 对应 2.15→1.47；含 Ce 组分（S1–S5）热导偏高（Ce 多价 +3/+4 抑制氧空位形成、弱化声子散射）。
-  - TEC：(10–12)×10⁻⁶ K⁻¹，超过单相 La2Zr2O7（9.7），与 YSZ（~11）相当；S12 LaCeNdSmTb 最高 11.9×10⁻⁶ K⁻¹；TEC 与 ΔR/R 负相关（最大 ΔR/R 的 S19 最低 10.34）。
-  - 相稳定性：升温过程热膨胀率线性无突变，高温相稳定。
-  - CMAS 腐蚀（1300 °C/5 h）：主产物棒状 Ca2RE8(SiO4)6O2 磷灰石（主要分布于残余 CMAS 中）+ 球形 ZrO2（富集于反应前沿腐蚀层）；烧绿石结构反应剧烈（表面颗粒状产物多），缺陷萤石结构温和（棒状产物少）。
-  - 腐蚀层厚度 20–70 μm，显著薄于 YSZ（150–200 μm）与 Gd2Zr2O7（80–120 μm）；厚度与 RE 平均离子半径正相关，小半径（缺陷萤石）抗蚀最佳。
-- Source tables/figures/pages: 图 1–13、表 1、图 S1–S7、表 S2
+- 室温至 1000 °C 激光闪射测热扩散率，每个温度测三次；这不等于每个配方有三份独立制备样品。Cp 依 Neumann–Kopp 定律和热化学表估算，κ = αρCp；Eq. (3) 进一步给出完全致密样品的 κ₀ 孔隙校正。
+- 撤回旧页暗示“未作密度归一化”的表述：作者给了校正式和 Table S3 密度/孔隙数据；但校正输入本身仍需核对。Table S2 的 S3 理论密度 **6.53 g/cm³**，Table S3 对应行为 **6.767 g/cm³**；S8 分别 **6.42** 与 **6.563 g/cm³**，不是仅末位舍入差异。
+- Table S3 每行列三次密度读数、平均值、标准差及孔隙率，所报孔隙率约 **2.09%–9.69%**；不能写成全部同样致密。这些是作者表值，未在密度映射厘清前重算成新“正确值”。
+- 摘要/§3.2/结论报告 1000 °C 烧绿石组 **1.19–2.03**、缺陷萤石组 **1.29–1.69 W·m⁻¹·K⁻¹**。但 Fig. 5(c) 的 1000 °C 端点最低约 1.36、最高约 2.10，Fig. 5(d) 的最高端点约 1.75，无法与文字精确范围直接对应。图读数仅用于指出差异，不替代原始数据；引用文字范围必须标“作者报告，端点待核”。
+- 两组热导范围重叠，不能说任意缺陷萤石都低于任意烧绿石；含 Ce 的部分样品较高，Ce 价态/氧空位解释未有直接价态或空位测量支持。
+- 支持程度：方法路径与低热导量级有支持；精确数值、组间优越性及其原因部分支持/待核。
+- 定位与核查：§2.2，Eqs. (2)–(3)，Fig. 5，Tables S2/S3、Fig. S3；已核查。
 
-## Key Claims
+### E4
 
-- Claim: 高熵稀土锆酸盐的晶格畸变（ΔR/R、Δd）与热导率负相关——畸变加剧声子散射、缩短声子平均自由程，是降低热导的主导机制。
-  - Evidence: 图 6、7 定量关联；Debye 模型公式（Eq. 7）与实验数据一致。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+**半径分散与键长畸变｜定义可核，数据关联待重建。**
 
-- Claim: 高熵效应使 (5RE0.2)2Zr2O7 的 TEC 提升至 (10–12)×10⁻⁶ K⁻¹（与 YSZ 相当），且 TEC 随 RE 半径分散度 ΔR/R 增大而降低。
-  - Evidence: 图 8；S12 达 11.9×10⁻⁶ K⁻¹，S19（最大 ΔR/R）降至 10.34×10⁻⁶ K⁻¹。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+- Eq. (5) 定义 ΔR 为离子半径标准差，Eq. (6) 的 ΔR/R 为其除以平均半径的比值，故 **ΔR/R 无量纲**。正文把 0.209→0.215 写成 Å，与公式和 Table S1 的单位栏不一致；不继续复制这一量纲错误。
+- Fig. 6/8 使用约 0.209–0.223 的 ΔR/R。Table S2 对 S19 列 **0.2135**，但 Fig. 8(b) 将 S19 放在约 **0.223**；S16 在表中为 **0.2090**，图中约 **0.218**。这会影响热导/TEC 对参数的拟合，不能只修单位后继续沿用回归结论。
+- Eq. (8) 给出由键长计算的畸变度。Table S2 的 S13 Δd 为 **0.2500%**，Table S4（键长）的 Δd 为 **0.001993**，转为百分数是 **0.1993%**；S19 分别为 **0.2284%** 与 **0.002563 = 0.2563%**。已明确区分百分数与小数，差异仍存在。
+- Fig. 7 的向下趋势可作为作者展示的关联，但没有原始键长、精修模型和样品映射核验，不能认定已建立可复现的畸变—热导定量规律。Debye 散射式属于模型解释，未在本实验直接测得声子平均自由程或各散射项贡献。
+- 支持程度：参数定义和源内冲突已核查；具体样品参数、拟合强度与“主导机制”未决。
+- 定位与核查：§3.2，Eqs. (5)–(8)，Fig. 6–8，Tables S1/S2/S4（键长）；已核查。
 
-- Claim: (5RE0.2)2Zr2O7 与 CMAS 在 1300 °C 反应的主产物为 Ca2RE8(SiO4)6O2 磷灰石（棒状）+ ZrO2（球形，富集于反应前沿），与 RE2SiO5 体系的产物类型一致。
-  - Evidence: XRD + EDS（表 1 组分 A/B/C 分析）
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+### E5
 
-- Claim: 腐蚀层厚度与 RE 平均离子半径正相关：小平均半径的缺陷萤石结构 CMAS 抗蚀最佳，源于无序结构抑制离子输运（动力学）与磷灰石形成焓升高（热力学）双重机制。
-  - Evidence: 图 13；缺陷萤石反应层显著更薄（图 11）；Costa et al. 磷灰石热化学数据支撑。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+**TEC 与热稳定性｜膨胀测量、作者归因和编号修正。**
 
-- Claim: 高熵稀土锆酸盐的 CMAS 抗性整体优于 YSZ 与 Gd2Zr2O7（腐蚀层 20–70 μm vs 150–200/80–120 μm）。
-  - Evidence: 图 11、13 与文献数据对比。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+- DIL 402 在室温至 1000 °C 测长度变化，试样 9.0 × 3.0 × 2.0 mm；Eq. (1) 为长度相对变化除以温差，不应混写成任意温度下瞬时微分 TEC。Fig. 8(b) 未在图注单独注明对应温度，不能自行补成另一温度协议。
+- 作者报告 TEC 约 **(10–12) × 10⁻⁶ K⁻¹**。§3.2 将最高者写为“S12 LaCeNdSmTb，11.9 × 10⁻⁶ K⁻¹”；Fig. 8(b) 最高点却标 **S2 LaCeNdSmTb**，与 Table S2 的 S2 一致，S12 实为 NdSmGdDyY。旧页的 S12 最高结论撤回，按图/表记录为 S2，并注明正文编号冲突。
+- 正文将 S19 记为最大 ΔR/R、最低 TEC，前一判断与 Table S2 冲突（E4）；图中整体分组差异不能替代各配方的稳定负相关律。
+- 升温长度变化未见明显突变，只支持本次至 1000 °C 膨胀曲线没有明显异常；不是原位高温 XRD，也不证明长期高温/热循环相稳定及涂层寿命。
+- “高熵提高 TEC”“负 Grüneisen 声子比例增多”“无序氧空位降低膨胀”属于作者解释和转引，没有本文声子谱/空位浓度或熵变量对照直接验证。La₂Zr₂O₇/YSZ 热膨胀参照来自文献，非同批实测基线。
+- 支持程度：膨胀量级和图中所示 S2 高值有支持；普适负相关、熵因果和服役稳定性证据不足。
+- 定位与核查：§2.2、§3.2，Eq. (1)，Fig. 8，Table S2；已核查。
 
-## Limitations
+### E6
 
-- Limitation: CMAS 腐蚀为单一条件（1300 °C/5 h），无时间梯度与更高温度数据，无法给出腐蚀动力学。
-  - Stated by authors: 否
-  - Evidence: §2.3 实验设计
-  - Source: full.md §2.3
+**腐蚀产物及空间分布｜XRD、SEM 与 EDS 点/面分析。**
 
-- Limitation: 热导率对比未完全归一化致密度（样品相对密度存在差异），含 Ce 组分的热导异常偏高仅给出定性解释。
-  - Stated by authors: 否
-  - Evidence: §3.2 对 S1–S5 的讨论
-  - Source: full.md §3.2
+- 1300 °C/5 h 后 Fig. 9 的 XRD 支持磷灰石型相及 ZrO₂ 类相；Fig. 10–12 和 Fig. S4–S8 显示上部残余 CMAS 中有棒状富 RE 产物，中部反应区富集近球形、富 Zr 颗粒，下部为基体。并非“全部棒状产物只在熔体层”，反应区也见棒状相。
+- 名义磷灰石通式采用正文 XRD/讨论中的 **Ca₂RE₈(SiO₄)₆O₂**；§3.3 多处又写成 **Ca₂RE₈(SiO₆)₄O₂**，属于原文不一致，不能当作同一式子的无关排版变化。
+- Table 1 是 **S6 LaNdSmEuGd** 的三个 EDS 点，不是全部 19 样品的精确化学计量验证。按表中数据合计 RE，A 的 Ca:RE:Si 约 **1:1.626:1.840**，C 约 **1:1.509:1.560**，均非名义式的 1:4:3。这是本次据原表计算的比例，不是新的实验。
+- B 点含 **Ca 4.35 at%、Zr 40.43 at%、O 55.22 at%**，不能直接称化学纯 ZrO₂。XRD 与富 Zr 颗粒共同支持 ZrO₂ 类相；固溶、混合测点及分析影响的具体贡献待核，不自行指定。
+- 产物类别有支持，但无定量相分数、各配方精确固溶组成或直接动态析出序列。旧页“与 RE₂SiO₅ 的产物类型一致”撤回：可讨论共有磷灰石，不能把 ZrO₂ 相等同于硅酸盐体系全部产物。
+- 定位与核查：§3.3，Fig. 9–12、Table 1，Fig. S4–S8；已核查，精确计量与部分标签未决。
 
-- Limitation: Cp 由 Neumann-Kopp 定律计算而非实测，高温热导率存在系统误差；Δd 键长畸变计算依赖 Rietveld 精修精度。
-  - Stated by authors: 否
-  - Evidence: §2.2 方法说明
-  - Source: full.md §2.2
+### E7
 
-## Potential Gaps
+**腐蚀层厚度与半径图｜保留测量量级，暂停定量规律。**
 
-- Gap: 高熵锆酸盐 CMAS 腐蚀的时间演化与 1500 °C 级高温行为缺数据（本文 1300 °C/5 h 单一条件）；与 [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]] 的 1500 °C 硅酸盐工作形成温度区间互补。
-  - Evidence strength: strong
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+- 指标是截面中间反应/腐蚀区厚度：上方为残余 CMAS、下方为相对未反应基体；不是从原表面到全部 Ca 的最深渗透距离，也不是涂层损伤寿命。Fig. 11 的标尺跨 20、50、100 μm，不能直接按面板视觉厚薄比较。
+- 作者报告约 **20–70 μm**。Table S4（厚度）有 **19 行、每行五个测量值、均值及标准差**，均值范围为 **25.000–63.690 μm**，与所报量级相符；但 **没有样品编号列**，不可默认逐行就是 S1–S19，更不能把五个读数当五份独立制样重复。测点位置、原始端点及独立重复仍未交代完整。
+- 核心 Fig. 13 存在坐标映射冲突：标为 **S3 LaCeNdSmGd** 的点横坐标约 **1.060 Å**，Table S2 的同名样品为 **1.1088 Å**；标为 **S8 NdSmEuGdY** 的点约 **1.10 Å**，表中等价组成 NdSmGdEuY 为 **1.0652 Å**。不是图读末位精度造成的差异。正文还误将厚度关系指向 Fig. 12，实际为 Fig. 13。
+- Fig. 13 所画缺陷萤石组总体较薄，但组间有重叠、组内不单调；截面/EDS 也可作为分组现象线索。**在样品—半径—厚度映射重建前，不能将“平均半径越小抗蚀越强”作为已核实定量规律，也不宜据图作最优配方排序。**
+- 不把所有错误猜成一个排列后自行换标签重画图；需作者作图数据或可追溯的原始测量。Table S3 所示孔隙差异亦限制单变量解释，热导孔隙校正不能自动校正腐蚀过程。
+- 支持程度：对本实验腐蚀区及厚度量级有支持；分组趋势仅部分支持，精确相关、统计显著性和因果排名未决。
+- 定位与核查：§3.3，Fig. 11–13，Tables S2/S3/S4（厚度），Fig. S4–S8；已核查。
 
-- Gap: 腐蚀层中 ZrO2 球形颗粒的形成机制（Zr 从基体析出的路径）与对涂层完整性的影响未深入讨论。
-  - Evidence strength: AI 推断
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+### E8
 
-- Gap: 结构类型（烧绿石 vs 缺陷萤石）与 RE 半径对 CMAS 抗性的贡献尚未解耦（本文二者高度相关）。
-  - Evidence strength: strong（作者以双重机制解释但未设计解耦实验）
-  - Related page: "[[wiki/topics/Ceramic Corrosion]]"
+**机制、外部比较与设计边界｜作者解释、转引和 AI 评价。**
 
-## Relation to Existing Wiki
+- 作者将较薄反应区解释为缺陷萤石无序结构缺少低能扩散通道，以及小 RE 半径使磷灰石形成更不利。本文未测离子扩散系数、迁移能垒或实际熔体输运，也没有本体系形成焓/反应自由能计算；不能写成已经验证的动力学—热力学双机制。
+- Costa 等 [56] 是磷灰石热化学转引；将其应用到五 RE 产物、实际 CMAS 和成核过程属于外推。与其他源页重复引用 Costa 不是独立复现；形成焓趋势也不直接给出成核势垒。
+- YSZ **150–200 μm**、Gd₂Zr₂O₇ **80–120 μm** 来自 [57–59] 的文献比较，非本文同批对照。[59] 的题名明确涉及 **CAS 衍生硅酸盐熔体**，正文仅称“相似条件”；未核全配方、微结构、时长及指标，比较资格为 **not-directly-comparable**，撤回“整体显著优于 YSZ/Gd₂Zr₂O₇”的确定评级。
+- 热物性至 1000 °C、腐蚀仅 1300 °C/5 h；未测试 1500 °C、时间梯度、实际涂层循环寿命和断裂后果。属于 paper-limitation，不是已证明的领域空白。
+- 将结构、半径、孔隙和热物性做可重复映射，再设计解耦验证是 **AI 推断的 candidate-question**；本篇不能直接提供已经验证的多目标最优配方。
+- 定位与核查：§3.3–4、References [56–62]，结合 E1–E7；作者解释和引用身份已核查，外部原文条件未全面复核。
 
-- Supports: "[[wiki/topics/Ceramic Corrosion]]" 主题下「腐蚀产物形成焓随 RE 半径变化」主线——与 [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]] 中 Costa et al. 磷灰石/固溶体热化学结论互证（同一研究组系列工作）。
-- Challenges: 无。
-- Extends: 主题扩展到高熵稀土锆酸盐 TBC 体系与高通量成分筛选方法；补充热物性（热导/TEC）与腐蚀性的耦合设计视角。
-- Contradicts: 无。
+## Conclusions for Reuse
 
-## Notes for Review Writing
+- **可用**：批量制备与名义试验流程；XRD/Raman 支持的两组结构类别；热膨胀约 10⁻⁵ K⁻¹、计算热导约 1–2 W·m⁻¹·K⁻¹ 的量级；磷灰石型/富 Zr 产物及本条件下几十微米的反应区。附对应 E#，精确数字按各条未决项限制。
+- **须限定**：作者图示的结构分组现象、热导/TEC 与畸变关联及 CMAS 半径趋势。后两类不能在图表映射未复原时充当确定设计规则。
+- **撤回**：缺陷萤石全部性能更优、已证实高熵或氧空位的独立因果、抑制熔体离子输运的直接证据、同条件全面优于 YSZ/Gd₂Zr₂O₇，以及已验证长期高温相稳定。
+- **写作位置**：高通量多性能筛选案例及数据一致性/机制验证的限制；不可继续将其作为“结构—半径—热化学”闭合因果主线的核心证明。
 
-- 可用于综述的位置：高熵策略对 TBC 热物性与 CMAS 抗性的协同调控；RE 平均半径/半径分散度双参数设计原则；缺陷萤石 vs 烧绿石结构的 CMAS 抗性对比；TBC 材料 CMAS 抗性横向比较（YSZ/Gd2Zr2O7/高熵锆酸盐/硅酸盐/钽酸盐）。
-- 可引用论断：「晶格畸变与热导率负相关」；「TEC 随 ΔR/R 增大而降低」；「小平均半径缺陷萤石结构 CMAS 抗蚀最佳（双重机制）」；「腐蚀层 20–70 μm 远薄于 YSZ」。
-- 待补证据：1500 °C 与长时间腐蚀数据；结构与半径效应的解耦。
+## Downstream Review
 
-## Linked Pages
+本轮只修订源页与维护记录。以下对应旧判断仍待复核，不能继续作为确定依据；源页 checked 不会自动使下游 claim 合格。
 
-- Topics: "[[wiki/topics/Ceramic Corrosion]]"
-- Methods:
-- Datasets:
-- Metrics:
-- Claims: "[[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]]"、"[[wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism]]"
-- Gaps: "[[wiki/gaps/CMAS-Corrosion-Data-1500C]]"、"[[wiki/gaps/Structure-Radius-Decoupling]]"、"[[wiki/gaps/High-Throughput-Screening-Transfer]]"
-- Reviews:
+| 页面 | 受影响的具体内容 |
+|---|---|
+| [[wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism]] | 双机制由已证实改为作者解释；记录 Fig. 13/Table S2 映射冲突、孔隙及结构/半径混杂（E2/E7/E8） |
+| [[wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend]] | 本篇没有独立形成焓计算，Costa 为共同转引；成核/输运不可从形成焓直接推出（E8） |
+| [[wiki/gaps/Structure-Radius-Decoupling]] | 先恢复参数与样品映射，再讨论解耦；不能把现图当已可靠的定量前提（E2–E5/E7） |
+| [[wiki/gaps/High-Throughput-Screening-Transfer]] | 分开批量制样和层叠法；方法效率及跨体系性能规律未因此验证（E1/E8） |
+| [[wiki/gaps/CMAS-Corrosion-Data-1500C]] | 本篇未做高温长时是论文局限，不能自动升级成领域空白（E8） |
+| [[wiki/topics/Ceramic Corrosion]] | 修正全局排名、产物完全一致、熵因果及半径规律的证据强度（E3–E8） |
+| [[synthesis/literature-map]]、[[synthesis/review-outline]] | 撤回以本文证明三参数定量设计和独立机制互证的段落，先核查数据一致性及对照资格 |
+| [[synthesis/open-questions]] | 把映射重建、结构/半径解耦及服役验证保留为分级候选问题，不预设已有主线正确 |
 
-## Uncertainty
+## Unresolved Items
 
-- 待确认：PDF 附件名（Zotero 附件 x3，未逐个核对文件名）
-- 待核查：MinerU OCR 中化学式上下标（如 (5RE0.2)2Zr2O7、Ca2RE8(SiO4)6O2）引用前与原文核对
-- AI 推断：ZrO2 球形颗粒形成机制；结构-半径效应解耦
+1. S3、S11 等配方/图像对应关系；S16 缩写、S18 面扫标签及两张 S4 的版本/编号问题。
+2. Table S2 与 Fig. 6/8/13 的半径/畸变映射；Table S2 与 S4（键长）的 Δd，以及精修输入和局域结构解释。
+3. Table S2/S3 理论密度对应、κ/κ₀ 实际作图数据及 1000 °C 文字范围与端点差异。
+4. 厚度表每行身份、测量端点/独立重复、Fig. 13 原始坐标；未厘清前暂停精确成分排名与定量半径规律。
+5. 磷灰石精确组成和富 Zr 相固溶情况；独立热化学、输运及长期服役证据。
 
-## Maintenance Checklist
+## Maintenance
 
-- [x] Added to `index.md`.
-- [x] Operation added to `log.md`.
-- [x] Tags checked against `memory/tag_taxonomy.md`.
-- [x] Terms checked against `memory/term_aliases.md`.
+保留原页面路径，标签修正为 TBC；索引、错误记录、任务快照、计划和日志同步维护。原始资料未改，其他论文及下游正文未重写，本轮未提交或上传。

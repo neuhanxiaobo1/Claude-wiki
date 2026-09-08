@@ -2,7 +2,7 @@
 type: memory
 status: active
 created: 2026-06-02
-updated: 2026-09-06
+updated: 2026-09-07
 tags:
   - context
 ---
@@ -77,14 +77,21 @@ tags:
 
 ## 当前任务
 
-- 更新日期：2026-09-06。
-- 对象与类型：九阶段规则完善后的逐篇论文复核；本轮为 2023 RE₂SiO₅–CMAS 原位降解论文。
-- 计划入口：[[docs/rules-improvement-plan]]；最近完成记录：log.md 的“2023 RE₂SiO₅–CMAS 原位降解论文复核”。
-- 已完成：第 1–9 阶段；2019、2023 两篇均写回 E1–E8 及结论修正，保留原路径，记录直接下游待复核。当前为 2/7 篇按声明范围复核。
-- 下一步：按用户节奏逐篇继续或处理下游论断；若继续下一篇，可优先 2024 Lu₂SiO₅（与 2023 高温解释直接相关）。复用已核对来源，不重复完整启动。
-- 已确认来源：2026-09-06 通过本机 Zotero MCP `http://127.0.0.1:23120/mcp` 获取 item 9Q7A46HL / attachment R6YQ3KNM。PDF 是 OneDrive 下的链接附件，路径见 log 最近“Zotero MCP 原文连接核验”；12 页，MCP complete 返回 33875 字符且 truncated=false。后续复用此映射，不再推测 storage 路径或重复全文检索。
-- MD 来源：`D:/shuju/zotero1/llm-for-zotero-mineru/9612/full.md`；同目录 `_llm_source.json` 已核对条目/附件映射。
-- 2023 来源：item TLPXY39S；英文 PDF 附件 9VVGQ2M5，16 页，OneDrive 实际路径见论文页。`D:/shuju/zotero1/llm-for-zotero-mineru/9513/full.md` 对应中英混排附件 T33IHQL9（_llm_source.json 已核）；不能当成英文原件的转写。已读英文正文并视觉核对 PDF pp. 4、8、9、12、13、14。
-- 范围：本轮仅修改 2023 源论文页与必要维护记录；2019 正文未改，其余五篇、旧 claim/gap 与实际大纲未改。
-- 未决：2023 ESM Fig. S1–S3 和 Movie S1–S3 未读，测量端点/冷却析出起始温度保留待核；其他局部未决及下游具体论断见两篇源页。2019 晶型、重复统计及正式版差异仍待核；用户核心研究问题未定。
-- 授权边界：单篇修订与维护已完成；历史版本上传不代表自动提交或推送。
+- 更新日期：2026-09-07。
+- 对象与类型：规则完善后的七篇论文逐篇复核已完成（7/7）；最近完成 2025 Hf₆Ta₂O₁₇–Al₂O₃。入口：[[docs/rules-improvement-plan]]、log.md 最近复核记录。
+- 完成边界：各源页建立 E1–E8、结论边界和 Downstream Review；checked 表示声明证据已核查，不表示原论文所有结论可靠或未决已解决。源页局部未决继续保留；下游 claim 已完成本轮迁移，五项 gap 亦已完成前提/分类迁移；两个 topic 与 literature-map 已完成迁移；其余四个综合页亦已完成本轮迁移。
+- 下游进度：八项 claim 已逐页完成证据账本与 Assessment（4 supported、1 partially-supported、3 insufficient-evidence），review_status 均为 checked；仅四项收窄后的事实可确定复用，其余为解释/候选。
+- Gap 进度：5/5 narrowed/checked；1 corpus-gap（1500 °C 对照），4 candidate-question（冷却损伤、筛选独立性、结构/半径可辨识性、实际 TGO 外推）。novelty_status 均 not-assessed，未做领域检索，priority 均 pending。
+- 综合进度：两个 topic 与 literature-map 已修订/checked；矩阵覆盖七篇实验、计算/同源转引、比较资格、八项 claim 和五项 gap。无领域共识或新颖性确认。
+- 下一步：依据矩阵更新 open-questions、research-positioning、review-outline 与 core-argument-map；不重做已完成层级。用户核心研究问题仍未确定，定位只能列候选。
+- 来源通道：本机 Zotero MCP `http://127.0.0.1:23120/mcp`；OneDrive 链接附件以 complete 返回路径为准。MinerU 根目录 `D:/shuju/zotero1/llm-for-zotero-mineru/`，不由 storage 缺文件推断原件不存在。
+- 2019：9Q7A46HL/R6YQ3KNM，英文 12 页，9612/full.md；晶型、原始统计和正式版差异待核。
+- 2023：TLPXY39S/9VVGQ2M5，英文 16 页；9513 对应混排 T33IHQL9。ESM Fig. S1–S3、Movie S1–S3 未读，转引与独立验证须分开。
+- 2024 Lu：RLNIRS7B/JNS38XK5，英文 9 页，10149/full.md；Fig. 1–10 已视觉核对，Movie 1/2 未取得。Fig. 4(d) 的保温图与冷却解释冲突、杂相和 219 μm 跨指标比较边界见源页。
+- 2022 高熵硅酸盐：8IPQUSQL/I929AL9M，英文 15 页，10119/full.md；10117/10121 为混排/中文。块体杂相、估算热容/文献对照及性能折中已修正，石榴石精确式与统计/机制仍未决。
+- 2025 RETaO₄：88RPHLC9/9TBX9XTZ，英文 13 页，10100/full.md；Method 3/4 为混排/中文。正式 ADVS-12-2412717-s001.docx 四表六图已读，下载入口见源页。跨 RE 成分限制层间独立性，Fig. 15 正值/参考态未决，深度不是严格单调。
+- 2026 高熵锆酸盐：YPQHNP84/L4TEUBTX，英文 12 页，10087/full.md；1.pdf 为混排，无后缀为中文。正式 mmc1.docx 五表八图已读，两表重号 S4。样品标签、半径、畸变、密度和热导端点存在源内冲突，不能沿用定量设计规律及已证双机制。
+- 2025 Hf：5PSRPWAQ/GSDAE8IV，英文 12 页，10141/full.md；正文 Fig. 1–12/Tables 1–3 已核。热压 1400 °C/10 min 已有 2.93 μm 层，追加 10/30/50 h 为 3.16/4.32/4.61 μm。应力为简化计算，单向扩散/Kirkendall 和涂层失效未独立证明；Li 前文仅核出版社摘要（1600 °C/8 h、2012 年），全文仍未核。
+- 下游：七个源页 Downstream Review 中的 claim 待办是历史交接项，已由 2026-09-07 八项 claim 修订接续；其中 gap 待办已由五页新版本接续，topic 与 literature-map 待办亦由本轮接续，其余四个综合页待办亦由本轮替换接续。以新版 claim/gap/topic/synthesis 为当前状态，不重复执行已完成迁移；历史待办中指向原始证据缺失的部分仍未解决。被撤回旧论断不得继续作为确定性依据。
+- 维护纠错：前两轮经 PowerShell 向 Python 传递中文时发生有损编码，导致维护记录问号化、快照只变数字未变描述；本轮已用 Unicode 安全补丁恢复。以后检查实际文字与状态，不能只检查 YAML/数字。
+- 版本：此前 Claude_wiki_all 为 1381ee0；2026-09-08 用户已授权提交并上传当前修订为 calude_wiki_R，同名提交与标签定位此次快照；远程完成状态以 Git 核验为准，后续改动不自动发布。
