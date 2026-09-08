@@ -5,9 +5,10 @@ review_status: checked
 gap_type: candidate-question
 novelty_status: not-assessed
 created: 2026-08-23
-updated: 2026-09-07
+updated: 2026-09-08
 priority: pending
 papers:
+  - "[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]"
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput]]"
@@ -66,7 +67,7 @@ AI 推断：优先验证现有体系，再决定跨体系；需要可控层序�
 
 ## Risks, Alternative Explanations and Counter-Evidence
 
-跨 RE 成分不能单独证明污染来源或已改变排序；几何、烧结历史与局部 CMAS 供给也可能造成差异。旧页 #36 实为已入库 2019 单硅酸盐，#48 亦已入库，撤回错误身份/待入库叙述。旧记录中的未复核跨体系候选（如 #59）仅是待查线索，不能据其肯定或否定领域新颖性。
+跨 RE 成分不能单独证明污染来源或已改变排序；几何、烧结历史与局部 CMAS 供给也可能造成差异。旧页 #36 实为已入库 2019 单硅酸盐，#48 亦已入库，撤回错误身份/待入库叙述。#59 已于 2026-09-08 核查主文并入库：[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E2]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E5]] 提供另一套层叠方法及相对 Er 测厚，但清晰 EDS 分区并不独立验证零传输；实际局部 CMAS 分布亦不均。该研究说明跨体系层叠筛选已有实施，不能称方法尚未迁移；独立试样/换序复现仍为候选验证问题，未作领域新颖性检索。
 
 ## Status and Revision History
 

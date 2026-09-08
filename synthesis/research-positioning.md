@@ -3,7 +3,7 @@ type: synthesis
 status: draft
 review_status: checked
 created: 2026-08-28
-updated: 2026-09-07
+updated: 2026-09-08
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
   - "[[wiki/topics/Thermal Barrier Coatings]]"
@@ -26,7 +26,7 @@ tags:
 
 用户已确认陶瓷-腐蚀领域和文献综述用途，尚未确定核心问题与具体材料主线（[[memory/project_profile]]）。本轮任务是纠正旧定位的证据前提，**没有选定研究方向**。以下均为 AI 推断、provisional；新颖性 not-assessed、资源可行性 pending，不使用 promising/high 等成熟选题评级。
 
-七篇语料与比较边界见 [[synthesis/literature-map]]；Q 编号以 [[synthesis/open-questions]] 为准。同一 collection 的材料实例不足以判定一个方向“拥挤”“无人研究”或“窗口仍开放”。
+八篇语料与比较边界见 [[synthesis/literature-map]]；Q 编号以 [[synthesis/open-questions]] 为准。同一 collection 的材料实例不足以判定一个方向“拥挤”“无人研究”或“窗口仍开放”。
 
 ## Existing Contributions and Remaining Boundaries
 
@@ -43,10 +43,11 @@ tags:
 
 - 对应：Q1/Q4；[[wiki/gaps/CMAS-Corrosion-Data-1500C]]、[[wiki/gaps/High-Throughput-Screening-Transfer]]。
 - 候选定位：选定一个材料体系，先检验指标、供液与试样配置对排序的影响，再判断是否有必要扩展温度；不以“验证已知高温反转”为出发点。
+- 新增直接基础：[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E1]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E2]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E3]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E5]] 表明七组分层叠筛选已实施，Er为相对侵入基准，且存在局部供液差异。P1需要验证测厚与构型对排序的影响，不能再把“把层叠法迁移至单硅酸盐”本身作为待实现贡献，也不以未校准推断方法无效。
 - 已有基础：[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E1]]、[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E7]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E2]] 明确比较/独立性边界。潜在贡献是可验证的条件内评价关系，不是预设跨体系抗性总榜。
-- 最小路径（AI 推断）：统一测厚/试样定义 → 独立试样与配置对照 → 预设重复性/等效判据 → 有目标依据时加温度对照。
+- 最小路径（AI 推断）：统一绝对/相对测厚与试样定义 → 独立试样、位置/层序及局部供液对照 → 预设重复性/等效判据 → 有目标依据时加温度对照。
 - 可行性 pending：需要制样、热历程、熔体保持和表征资源；“仅把温度升高即可”不成立。
-- 竞争工作/新颖性 not-assessed：需检索同材料、指标、方法与温区的最接近研究，包括历史层叠硅酸盐线索；不能由当前语料缺失判断空白。
+- 竞争工作/新颖性 not-assessed：需检索同材料、指标、方法与温区的最接近研究，包括已核主文的#59及其最接近独立试样/供液对照研究；不能由当前语料缺失判断空白。
 - 收窄/放弃条件：已有工作已充分回答同问题；配置偏差可忽略且温度扩展不改变目标判断；或对照无法实现且无法界定外推范围。
 - 状态：provisional，尚未由用户选择。
 
@@ -84,3 +85,5 @@ tags:
 ## Revision Record
 
 2026-09-07：撤回“1300 °C 公理—1500 °C 失效—缺失判据”定位、拥挤程度/空白窗口判断与高可行性承诺。P1/P2/P3 继承旧三条提案的讨论身份，但内容已收窄，均未确认为用户方向。大纲见 [[synthesis/review-outline]]，任务快照见 [[synthesis/core-argument-map]]。
+
+2026-09-08：#59 正式补入P1及竞争工作范围；相对深度不作为绝对值、清晰EDS不作为完全独立性证明。P1继续provisional；本轮写作从评价指标部分展开不等于用户已选择P1作为博士课题。P2/P3不作扩展，新颖性和资源仍待评估。

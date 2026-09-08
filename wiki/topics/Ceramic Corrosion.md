@@ -3,8 +3,9 @@ type: topic
 status: active
 review_status: checked
 created: 2026-08-23
-updated: 2026-09-07
+updated: 2026-09-08
 papers:
+  - "[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]"
   - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
@@ -39,13 +40,13 @@ tags:
 
 ## Definition and Scope
 
-本页组织陶瓷腐蚀相关文献；当前证据范围是六篇 CMAS 实验研究中的稀土单硅酸盐（含四元配方）、RETaO₄ 与高熵锆酸盐。CMAS 为各文指定配方，不与其他腐蚀介质混同。详细条件见 [[synthesis/literature-map]]。
+本页组织陶瓷腐蚀相关文献；当前证据范围是七篇 CMAS 实验研究中的稀土单硅酸盐（含四元配方）、RETaO₄ 与高熵锆酸盐。CMAS 为各文指定配方，不与其他腐蚀介质混同。详细条件见 [[synthesis/literature-map]]。
 
 用户确认的研究领域是陶瓷-腐蚀、用途为文献综述；具体材料主线与核心问题尚未确定，见 [[memory/project_profile]]。本页不替用户排除其他腐蚀体系，也不把当前语料等同其博士选题。[[wiki/topics/Thermal Barrier Coatings]] 当前集中于 Hf–Al₂O₃ 相容性案例，两主题有应用交集，不是互斥的失效分类。
 
 ## Corpus Coverage
 
-- 实际纳入：元数据所列六篇，2019、2022、2023、2024、2025、2026 年；源页 E1–E8 与七项相关 claim 已复核。
+- 实际纳入：元数据所列七篇，2019、2022、2023、2024、2025、2026 年；源页 E1–E8 与七项相关 claim 已复核。
 - 来源集中：来自同一 Zotero collection（田老师），作者有重叠；属于 local corpus，未进行覆盖领域的系统检索。
 - 证据以块体/层叠试样、离位截面和局部原位选帧为主；不能代表实际涂层热循环、其他介质或全部材料路线。
 - checked 仅表示本页综合判断与边界完成复核；视频、样品映射和部分外部原文仍未决。
@@ -76,6 +77,8 @@ tags:
 
 ## Corpus-Supported Understanding
 
+- 新增 [[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]：1300 °C/20 h、30 mg/cm² 层叠试样中，产物较少的 Lu 并非相对侵入最浅；以 Er 为参照的深度须单列。局部供液、层间独立性及补充成分证据边界见 E2–E6。
+
 - [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E1]]、[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E2]] 支持 2019 年 1300 °C/50 h 八种单硅酸盐中小半径组总体衰退层较薄；只在本篇指标内作描述比较（directly-comparable），不延伸成普适线性定律。
 - [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E2]]、[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E4]]、[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E6]] 支持特定四元配方的推算/校正热导、TEC 与腐蚀性能组合。腐蚀深度低于 Ho/Eu、高于 Lu/Yb；热容估算、外部热物性对照和机制解释须保留身份。
 - [[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E7]] 与 [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E4]] 分别支持四元单硅酸盐的石榴石型相、层叠 RETaO₄ 的主要复杂固溶体/少量磷灰石。它们不提供共同保护机制或精确组成互斥关系。
@@ -91,7 +94,7 @@ tags:
 | 2019 与 2022 石榴石类产物 | qualitative-only | 已有类别线索限制首次性；理想式不证明实际绝对无 Si |
 | RETaO₄ 与旧文献产物争议 | not-directly-comparable | 未逐篇核清条件/组成，不能宣布全部争议已解决 |
 
-X1/X2 翻转和旧 #59 排序不属于本轮已复核证据集；不据旧摘要恢复其确定结论。形成焓方向/参考态、局部 TEM 和统计缺失详见源页，不能汇总成“六篇独立共识”。
+X1/X2 翻转不属于已复核证据集。#59 已于 2026-09-08 核查主文：[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E2]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E3]] 支持本层叠试样中 Er 相对侵入最浅；不是绝对零侵入或对 2019 不同指标的直接反证。形成焓方向/参考态、局部 TEM 和统计缺失详见源页，不能汇总成“七篇独立共识”。
 
 ## Method and Evidence Routes
 

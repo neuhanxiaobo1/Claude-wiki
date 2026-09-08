@@ -6,6 +6,8 @@ path:wiki/
 
 ## Pending Papers
 
+2026-09-08 更新：本次实时核对确认 #59 已在田老师 collection（X55RXI85/JNPL926R），其余 #60–64 未在该父 collection 匹配；未检查整个文库。下方为历史检索记录，其中机制、排序及新颖性描述不作为已复核证据；当前补证据顺序见 [[docs/collection-candidates-2026-09-08]]。
+
 2026-08-28 检索发现（均待核查原文；不在「田老师」collection 清单内，入库需用户确认；已按用户确认补录至 import_plan 编号 #59–64）：
 
 - "Screening of CMAS corrosion-resistant RE2SiO5 for environmental barrier coating application by a high-throughput multilayer stacking method"（Zheng, Ming, Tian et al., Extreme Materials 2025, 1(4): 27–32, DOI: 10.1016/j.exm.2025.10.001）——2026-08-28 已核实（MinerU 缓存 10185）：腐蚀 1300 °C/20 h 单温度、未覆盖 1500 °C；层叠法用于 RE2SiO5（与 #46 钽酸盐平行）；结论 Er2SiO5 渗透最浅（指标依赖，与 #36 衰退层指标 Lu 最薄不同）。是否正式入库待用户决策。

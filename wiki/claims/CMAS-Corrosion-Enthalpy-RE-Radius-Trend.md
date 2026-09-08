@@ -4,8 +4,9 @@ status: active
 review_status: checked
 assessment: insufficient-evidence
 created: 2026-08-23
-updated: 2026-09-07
+updated: 2026-09-08
 source_papers:
+  - "[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]"
   - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
@@ -53,6 +54,10 @@ tags:
 | [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E7]]；[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E8]]；[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E8]]；[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E6]]；[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E8]] | limit | cited prior work | Costa-thermochemistry | 多篇机制段转引同一热化学来源 | 原文未全面复核；不按转引次数计为独立量热 | pending |
 
 同组原始数据的多种表征或多篇转引不重复计数。Verification 中的 partial/pending 保留对应证据的未决，不被页面 checked 覆盖。
+
+## 2026-09-08 新增 #59 证据
+
+[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E1]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E2]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E3]] 提供新实验组 2025-RE2SiO5-stack：1300 °C/20 h、30 mg/cm² 下 Er 区相对侵入最浅，最小半径 Lu 并非最浅。它限制普适单调排序，但与 2019 衰退层不可直接对比。[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E8]] 的 Costa 转引不新增量热验证，主文形成焓方向亦不一致；assessment 保持 insufficient-evidence。历史“#59 未核”状态由本记录接续，不沿用旧摘要。
 
 ## Assessment Rationale
 

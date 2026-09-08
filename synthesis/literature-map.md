@@ -3,12 +3,13 @@ type: synthesis
 status: active
 review_status: checked
 created: 2026-08-23
-updated: 2026-09-07
+updated: 2026-09-08
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
   - "[[wiki/topics/Thermal Barrier Coatings]]"
 methods:
 papers:
+  - "[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]"
   - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
@@ -39,17 +40,17 @@ tags:
 
 ## Working Question and Corpus Boundary
 
-临时工作问题：这七篇已复核论文支持哪些限定判断，哪些比较有资格进入后续综述？这不是用户已确认的核心论题。用户研究领域与用途见 [[memory/project_profile]]。
+临时工作问题：这八篇已入库论文支持哪些限定判断，哪些比较有资格进入后续综述？这不是用户已确认的核心论题。用户研究领域与用途见 [[memory/project_profile]]。
 
-- 纳入：元数据所列七篇，2019–2026 年；六篇 CMAS 研究与一篇 Hf–Al₂O₃ 相容性研究。复用各源页 E1–E8、八项 claim 和五项 gap 的最新版本。
+- 纳入：元数据所列八篇，2019–2026 年；七篇 CMAS 研究与一篇 Hf–Al₂O₃ 相容性研究。复用各源页 E1–E8、八项 claim 和五项 gap 的最新版本。
 - 来源集中：来自同一 Zotero collection，作者重叠；是 local corpus，不代表全部团队、材料路线或领域共识。
-- 不纳入确定性比较：未完成本轮复核的 JECS 2019、旧 #59 等候选，以及仅转引的外部数据。Risbud 已核摘要/讨论、Costa 转引身份和 Li 摘要的覆盖各按源页声明，不冒充全部原文已核。
+- 不纳入确定性比较：未完成本轮复核的 JECS 2019 等候选，以及仅转引的外部数据。Risbud 已核摘要/讨论、Costa 转引身份和 Li 摘要的覆盖各按源页声明，不冒充全部原文已核。
 - 真实涂层热循环与寿命、本体之外的其他腐蚀介质及领域新颖性不在本轮综合范围；这不构成用户永久排除范围。
 - review_status: checked 仅指本矩阵的条件、来源与结论边界已核查；原始映射、视频、统计与机制未决仍有效。本轮没有重新完整读取全部 PDF 或执行领域检索。
 
 ## Experimental Evidence Matrix
 
-CMAS 六篇名义配方均为 33CaO–9MgO–13AlO₁.₅–45SiO₂（单阳离子氧化物摩尔口径），不能改成 13Al₂O₃。名义配方相同仍不能抹去制备、负载、供液、指标和微结构差异。下表数值均按原作者报告，不补造重复数或误差定义。
+CMAS 七篇名义配方均为 33CaO–9MgO–13AlO₁.₅–45SiO₂（单阳离子氧化物摩尔口径），不能改成 13Al₂O₃。名义配方相同仍不能抹去制备、负载、供液、指标和微结构差异。下表数值均按原作者报告，不补造重复数或误差定义。
 
 | Paper / evidence | Object and variable | Necessary conditions / preparation | Metric and operational definition | Retained result | Original data group | Review boundary |
 |---|---|---|---|---|---|---|
@@ -60,8 +61,11 @@ CMAS 六篇名义配方均为 33CaO–9MgO–13AlO₁.₅–45SiO₂（单阳离
 | 2025 RETaO₄：[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E1]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E2]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E3]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E4]] | 八 RE 十层；层位置/成分及时长 | 1650 °C/20 h 烧结层叠块体；1300 °C/25、50、75、100 h；30 mg/cm² | 未涂外层提供原表面参照，结合截面/Ca、RE 面扫定渗透区 | Nd/Er 在 100 h 为 196.4±5.8 / 89.4±9.9 μm；全序非严格单调；主要复杂固溶体/少量磷灰石 | 2025-RETa-stack | checked；跨 RE 组成限制化学独立性；局部 TEM 只覆盖 Y/Nd 50 h |
 | 2026 高熵锆酸盐：[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E1]]、[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E2]]、[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E7]] | 19 五元组合；结构与平均半径 | 并行制备，1600 °C/10 h 烧结；1300 °C/5 h，25 mg/cm²；并非层叠 | 残余 CMAS 与相对未反应基体间腐蚀区厚度；非最深 Ca 侵入 | 作者报告约 20–70 μm；补充表 19 行均值 25.000–63.690 μm，但无样品 ID | 2026-zirconate-corrosion | checked 指已发现冲突；样品—半径—厚度未对应，不能回归/选最优 |
 | 2025 Hf 相容性：[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E1]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E2]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E3]] | Hf₆Ta₂O₁₇–Al₂O₃；粉末/扩散偶及热历程 | 粉末 1300–1600 °C/10 h 空气；扩散偶真空 1400 °C/40 MPa/10 min 热压，再空气 10/30/50 h | 反应相及界面反应层厚度；不是 CMAS 渗透 | 1400 °C 已反应；热压初始 2.93±0.38 μm，追加退火依次 3.16±0.35、4.32±0.43、4.61±0.62 μm | 2025-Hf-powder-products；2025-Hf-diffusion-couple | checked；阈值、单向扩散、损伤因果/真实 TGO 未建立 |
+| 2025 单硅酸盐层叠：[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E1]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E2]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E3]] | Tb/Dy/Y/Er/Tm/Yb/Lu，七层 | 无压烧结 1550 °C/12 h，微量二硅酸盐；1300 °C/20 h，30 mg/cm² | 以 Er 最浅区为零点的相对侵入；不是原表面起算的绝对深度 | Er 最浅、Tm 次之；Y/Lu/Yb 中间，Tb/Dy 更深；无显著性推断 | 2025-RE2SiO5-stack；非独立层片重复 | 主文/图 checked；S1 未读、误差定义未明、供液与独立性受限 |
 
 这些 source group 表示数据来源身份，不是统计独立重复数。各试验的取点误差、样品间重复与显著性不能由列数、层数或测点数补造。
+
+新增 #59 的比较资格：同一截面内相对位置可描述比较；与其他论文绝对厚度 not-directly-comparable。其形成焓仍转引 Costa，不能新增独立量热计数；主文焓方向矛盾和 S1 缺失见 [[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E6]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E8]]。
 
 ## Calculations, Interpretations and Shared Sources
 

@@ -3,7 +3,7 @@ type: synthesis
 status: active
 review_status: checked
 created: 2026-08-23
-updated: 2026-09-07
+updated: 2026-09-08
 tags:
   - synthesis
   - context
@@ -21,13 +21,13 @@ tags:
 
 ## Current Corpus and Verified Layers
 
-- 七篇 source paper 均 checked，E1–E8 定位及局部未决保留；六篇 CMAS、一篇 Hf–Al₂O₃，来自同一 collection，作者重叠，非领域代表性综述。
+- 当前八篇 source paper 为 checked（各自声明范围），E1–E8 定位及局部未决保留；七篇 CMAS、一篇 Hf–Al₂O₃，来自同一 collection，作者重叠，非领域代表性综述。
 - 八项 claim：4 supported（限定产物/性能/反应事实）、1 partially-supported（Lu 相演化可能贡献）、3 insufficient-evidence（跨体系半径因果、黏度反转、缺陷萤石双机制）；均已完成评价。
 - 五项 gap：1 corpus-gap、4 candidate-question；narrowed/checked，novelty_status: not-assessed、priority: pending。
-- 两个 topic 与七篇 [[synthesis/literature-map]] 已同步条件、指标、独立来源和比较资格。
+- 两个 topic 与八篇 [[synthesis/literature-map]] 已同步条件、指标、独立来源和比较资格。
 - [[synthesis/open-questions]]：Q1–Q7 已收窄，旧编号保留但旧前提/优先级撤回。
 - [[synthesis/research-positioning]]：P1 可比评价、P2 相演化贡献、P3 实际界面外推，全部 provisional，未选定方向。
-- [[synthesis/review-outline]]：暂定五节加可选界面模块、R1–R8 写作证据矩阵及三段草稿；证据映射 checked，写作 status: draft，不是完整综述。
+- [[synthesis/review-outline]]：暂定五节加可选界面模块、R1–R10 写作证据矩阵及五段草稿；#59 已进入章节和小节卡片，附定向补证据表。证据映射 checked，写作 status: draft，不是完整综述。
 - 至此，本轮声明范围内 paper → claim → gap → topic → 五个 synthesis 页面迁移已接续完成；历史 Downstream Review 中这些页面的待办以新版本为准。
 
 ## Safe Scientific Starting Points
@@ -55,3 +55,9 @@ tags:
 ## Revision
 
 2026-09-07：删除过时论文计数、已选主线/固定引用格式、候选队列数量和确定机制快照；用本轮实际结果与未决替换。此页不是新增用户规则，日志见 [[log]]，阶段验收见 [[docs/rules-improvement-plan]]。
+
+
+2026-09-08：按用户指定完成 #59 入库，[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]；主文及 Fig. 1–7/Eq. (1) 已核，Table S1 未取得。矩阵、CMAS 主题、相关 claim/gap 已作最小同步，Q1/Q4、P1 与大纲评价/筛选段留待按范围扩写；不重复旧七篇迁移，不自动上传新修改。
+
+
+2026-09-08 #59整合接续：已完成大纲R9/R10、小节卡片及两段新增草稿，正式更新Q1/Q4/Q5与P1。此前“仅留交接/待整合”任务已完成；当前大纲覆盖8篇（7篇CMAS），共5段草稿，status仍draft。下一步可扩写第1节并按其定向证据清单补文献；S1等原文未决保留，不重做入库或旧七篇迁移。
