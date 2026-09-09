@@ -5,6 +5,8 @@ review_status: checked
 created: 2026-08-23
 updated: 2026-09-08
 papers:
+  - "[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration]]"
+  - "[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C]]"
   - "[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]"
   - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
@@ -40,13 +42,13 @@ tags:
 
 ## Definition and Scope
 
-本页组织陶瓷腐蚀相关文献；当前证据范围是七篇 CMAS 实验研究中的稀土单硅酸盐（含四元配方）、RETaO₄ 与高熵锆酸盐。CMAS 为各文指定配方，不与其他腐蚀介质混同。详细条件见 [[synthesis/literature-map]]。
+本页组织陶瓷腐蚀相关文献；当前证据范围是九篇 CMAS 实验研究中的稀土单硅酸盐（含四元配方）、二硅酸盐、RETaO₄ 与高熵锆酸盐。CMAS 为各文指定配方，不与其他腐蚀介质混同。详细条件见 [[synthesis/literature-map]]。
 
 用户确认的研究领域是陶瓷-腐蚀、用途为文献综述；具体材料主线与核心问题尚未确定，见 [[memory/project_profile]]。本页不替用户排除其他腐蚀体系，也不把当前语料等同其博士选题。[[wiki/topics/Thermal Barrier Coatings]] 当前集中于 Hf–Al₂O₃ 相容性案例，两主题有应用交集，不是互斥的失效分类。
 
 ## Corpus Coverage
 
-- 实际纳入：元数据所列七篇，2019、2022、2023、2024、2025、2026 年；源页 E1–E8 与七项相关 claim 已复核。
+- 实际纳入：元数据所列九篇，2019、2022、2023、2024、2025、2026 年；源页 E1–E8 与七项相关 claim 已复核。
 - 来源集中：来自同一 Zotero collection（田老师），作者有重叠；属于 local corpus，未进行覆盖领域的系统检索。
 - 证据以块体/层叠试样、离位截面和局部原位选帧为主；不能代表实际涂层热循环、其他介质或全部材料路线。
 - checked 仅表示本页综合判断与边界完成复核；视频、样品映射和部分外部原文仍未决。
@@ -76,6 +78,9 @@ tags:
 | [[wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design]] | supported / checked | 2022 特定配方测量/计算；部分热物性对照为转引 | 各热物性温区及 1300 °C/20 h 腐蚀 | 性能折中，不等于已证元素分工/熵协同 |
 
 ## Corpus-Supported Understanding
+
+- [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E2]]、[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E3]]：1300 °C独立M-YTaO₄块体的浅表反应区与深晶界侵入并存；[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E7]]只支持所示截面未见分层，未验证热循环寿命。
+- [[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E1]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E4]]：新增三种二硅酸盐1300/1500 °C、50 h同篇形貌对照；高温所示截面侵入/裂纹广泛，但不提供统一厚度的排序反转或普适临界温度。
 
 - 新增 [[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]：1300 °C/20 h、30 mg/cm² 层叠试样中，产物较少的 Lu 并非相对侵入最浅；以 Er 为参照的深度须单列。局部供液、层间独立性及补充成分证据边界见 E2–E6。
 

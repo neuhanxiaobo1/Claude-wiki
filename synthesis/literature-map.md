@@ -9,6 +9,8 @@ topics:
   - "[[wiki/topics/Thermal Barrier Coatings]]"
 methods:
 papers:
+  - "[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration]]"
+  - "[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C]]"
   - "[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]"
   - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
@@ -40,9 +42,9 @@ tags:
 
 ## Working Question and Corpus Boundary
 
-临时工作问题：这八篇已入库论文支持哪些限定判断，哪些比较有资格进入后续综述？这不是用户已确认的核心论题。用户研究领域与用途见 [[memory/project_profile]]。
+临时工作问题：这十篇已入库论文支持哪些限定判断，哪些比较有资格进入后续综述？这不是用户已确认的核心论题。用户研究领域与用途见 [[memory/project_profile]]。
 
-- 纳入：元数据所列八篇，2019–2026 年；七篇 CMAS 研究与一篇 Hf–Al₂O₃ 相容性研究。复用各源页 E1–E8、八项 claim 和五项 gap 的最新版本。
+- 纳入：元数据所列十篇，2019–2026 年；九篇 CMAS 研究与一篇 Hf–Al₂O₃ 相容性研究。复用各源页 E1–E8、八项 claim 和五项 gap 的最新版本。
 - 来源集中：来自同一 Zotero collection，作者重叠；是 local corpus，不代表全部团队、材料路线或领域共识。
 - 不纳入确定性比较：未完成本轮复核的 JECS 2019 等候选，以及仅转引的外部数据。Risbud 已核摘要/讨论、Costa 转引身份和 Li 摘要的覆盖各按源页声明，不冒充全部原文已核。
 - 真实涂层热循环与寿命、本体之外的其他腐蚀介质及领域新颖性不在本轮综合范围；这不构成用户永久排除范围。
@@ -50,7 +52,7 @@ tags:
 
 ## Experimental Evidence Matrix
 
-CMAS 七篇名义配方均为 33CaO–9MgO–13AlO₁.₅–45SiO₂（单阳离子氧化物摩尔口径），不能改成 13Al₂O₃。名义配方相同仍不能抹去制备、负载、供液、指标和微结构差异。下表数值均按原作者报告，不补造重复数或误差定义。
+CMAS 九篇名义配方均为 33CaO–9MgO–13AlO₁.₅–45SiO₂（单阳离子氧化物摩尔口径），不能改成 13Al₂O₃。名义配方相同仍不能抹去制备、负载、供液、指标和微结构差异。下表数值均按原作者报告，不补造重复数或误差定义。
 
 | Paper / evidence | Object and variable | Necessary conditions / preparation | Metric and operational definition | Retained result | Original data group | Review boundary |
 |---|---|---|---|---|---|---|
@@ -62,6 +64,8 @@ CMAS 七篇名义配方均为 33CaO–9MgO–13AlO₁.₅–45SiO₂（单阳离
 | 2026 高熵锆酸盐：[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E1]]、[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E2]]、[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E7]] | 19 五元组合；结构与平均半径 | 并行制备，1600 °C/10 h 烧结；1300 °C/5 h，25 mg/cm²；并非层叠 | 残余 CMAS 与相对未反应基体间腐蚀区厚度；非最深 Ca 侵入 | 作者报告约 20–70 μm；补充表 19 行均值 25.000–63.690 μm，但无样品 ID | 2026-zirconate-corrosion | checked 指已发现冲突；样品—半径—厚度未对应，不能回归/选最优 |
 | 2025 Hf 相容性：[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E1]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E2]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E3]] | Hf₆Ta₂O₁₇–Al₂O₃；粉末/扩散偶及热历程 | 粉末 1300–1600 °C/10 h 空气；扩散偶真空 1400 °C/40 MPa/10 min 热压，再空气 10/30/50 h | 反应相及界面反应层厚度；不是 CMAS 渗透 | 1400 °C 已反应；热压初始 2.93±0.38 μm，追加退火依次 3.16±0.35、4.32±0.43、4.61±0.62 μm | 2025-Hf-powder-products；2025-Hf-diffusion-couple | checked；阈值、单向扩散、损伤因果/真实 TGO 未建立 |
 | 2025 单硅酸盐层叠：[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E1]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E2]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E3]] | Tb/Dy/Y/Er/Tm/Yb/Lu，七层 | 无压烧结 1550 °C/12 h，微量二硅酸盐；1300 °C/20 h，30 mg/cm² | 以 Er 最浅区为零点的相对侵入；不是原表面起算的绝对深度 | Er 最浅、Tm 次之；Y/Lu/Yb 中间，Tb/Dy 更深；无显著性推断 | 2025-RE2SiO5-stack；非独立层片重复 | 主文/图 checked；S1 未读、误差定义未明、供液与独立性受限 |
+| 2024 M-YTaO₄：[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E1]]、[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E2]]、[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E3]] | 独立单组分块体；三时长 | 无压烧结1650 °C/20 h，密度92%；1300 °C/5、50、80 h，约30 mg/cm² | Fig.3浅表区与Fig.4晶界侵入分别测量；完整原表面/统计未明 | 浅区12.8/28.6/43.7 μm；晶界85.8/142.6/346.3 μm（误差见源页）；未见分层限所示截面 | 2024-MYTa-corrosion | checked；不称热循环寿命已验证、晶界软化因果已证 |
+| 2019 二硅酸盐：[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E1]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E2]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E4]] | γ-Y/β-Yb/β-Lu二硅酸盐；两温50 h | 不同热压温度/晶型；1300/1500 °C、50 h，约30 mg/cm²、凹坑 | 1300 °C作者反应区；1500 °C形貌/元素分布贯穿所示截面，无统一深度序列 | 1300 °C约155/125/330 μm；1500 °C广泛晶界玻璃及blister裂纹 | 2019-disilicate-corrosion；内耗部分转引 | checked；两温定性比较，不证统一深度排名反转/温度阈值 |
 
 这些 source group 表示数据来源身份，不是统计独立重复数。各试验的取点误差、样品间重复与显著性不能由列数、层数或测点数补造。
 
@@ -79,6 +83,8 @@ CMAS 七篇名义配方均为 33CaO–9MgO–13AlO₁.₅–45SiO₂（单阳离
 | [[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E3]]、[[wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput#E8]] | 2026 热导计算、孔隙校正与机制解释 | 方法及量级；无序输运作为候选解释 | 密度/热导端点冲突未决；未直接测输运，不能确认所有缺陷萤石更优 |
 | [[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E5]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E6]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E8]] | Hf 物性/转引参数与简化弹性模型；Li 前文仅摘要 | 指定假设下约 272.6/880.6/1030.8 MPa 模型输出 | 实测服役应力、套 YSZ 剪切限值或已裁定前文全文争议 |
 
+新增来源关系：#17以#23（其[28]）辅助解释晶界弱化，二者腐蚀实验独立但类比链不等于两次因果控制；#23的Fig.11部分转引既有Yb/Lu内耗，不全计为新物性。#17的局部reduced modulus也不同于直接高温Young’s modulus，见[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E5]]、[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E6]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E6]]。
+
 ## Comparison Eligibility
 
 | Comparison / intended question | Status | Reason and permitted use |
@@ -94,6 +100,8 @@ CMAS 七篇名义配方均为 33CaO–9MgO–13AlO₁.₅–45SiO₂（单阳离
 | 2026 全样品半径/结构—厚度及与 YSZ/Gd₂Zr₂O₇ 文献比较 | not-directly-comparable | 原始映射未清；外部条件/介质含 CAS 差异；分组形貌仅 qualitative-only |
 | 2019/2022 石榴石类、2023 Er/2024 Lu 原位线索 | qualitative-only | 前者相类别不是精确式/首创；后者材料、热历程和图帧时序不一致 |
 | Hf 粉末/扩散偶与实际 TGO；正应力与 YSZ 剪切限值 | 前者 qualitative-only，后者 not-directly-comparable | 不把块体反应和模型幅值直接转换成涂层失效结论 |
+
+#17两深度可以在本篇图示定义内描述对照，不能用浅区代替最深侵入；与2025层叠Y区只作qualitative-only，尚无配对校准。#23同材料两温形貌qualitative-only；因两温指标不同，不作定量倍数/全序反转。
 
 directly-comparable 表示该行限定指标可以描述比较，不代表所有干扰变量已控制或样品统计独立。模型与实测也不能因为单位相同而合并。
 

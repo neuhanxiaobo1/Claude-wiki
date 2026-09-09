@@ -4,8 +4,9 @@ status: active
 review_status: checked
 assessment: supported
 created: 2026-08-23
-updated: 2026-09-07
+updated: 2026-09-08
 source_papers:
+  - "[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration]]"
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
@@ -48,6 +49,10 @@ tags:
 ## Assessment Rationale
 
 XRD、局部 TEM/SAED 与成分分析共同支持所列产物类别。作者名义式 (Ca2−xREx)(Ta2−y−zMgyAlz)O7 及 Ca₂RE₈(SiO₄)₆O₂ 可作为相指认表达；不能据归一化比例断言全部占位/化学计量已确定，也不能把全部样品/时长均写成做过 TEM。
+
+## 2026-09-08 独立单组分补充
+
+[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E4]] 提供1300 °C/5、50、80 h、约30 mg/cm²下独立M-YTaO₄的XRD/局部EDS及50 h EPMA，支持主要复杂固溶体、M′-YTaO₄与少量磷灰石的类别。原始数据组2024-MYTa-corrosion，与层叠实验不同；方法间仅qualitative-only。此来源补强相类别，保持本claim原层叠范围与supported评价，不证明八层独立性或全部前文错误。晶内/晶界两深度及热循环边界见E2/E3/E7。
 
 ## Challenging or Limiting Evidence
 

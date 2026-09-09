@@ -5,9 +5,10 @@ review_status: checked
 gap_type: corpus-gap
 novelty_status: not-assessed
 created: 2026-08-23
-updated: 2026-09-07
+updated: 2026-09-08
 priority: pending
 papers:
+  - "[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C]]"
   - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening]]"
@@ -33,14 +34,18 @@ tags:
 
 ## Gap Statement
 
-截至本轮，七篇已复核论文中的 RETaO₄、高熵锆酸盐和四元高熵 RE₂SiO₅ 未提供 1500 °C、与自身 1300 °C 结果具有统一指标及实验边界的 CMAS 腐蚀对照。该缺口仅指当前语料，不能写成领域缺少高温研究。
+当前十篇语料中的 RETaO₄、高熵锆酸盐和四元高熵 RE₂SiO₅ 未提供 1500 °C、与自身 1300 °C 结果具有统一指标及实验边界的 CMAS 腐蚀对照。该缺口仅指当前语料，不能写成领域缺少高温研究。
 
 - Current classification: corpus-gap
-- 边界：仅复用七篇复核源页与八项新版 claim；本轮未做领域新颖性检索。review_status: checked 指前提、分类和使用边界已核查，不表示问题已解答或实验可行性已确认。
+- 边界：在原七篇复核基础上纳入新增论文的声明范围证据；八项claim的机制强度不因入库自动升级；本轮未做领域新颖性检索。review_status: checked 指前提、分类和使用边界已核查，不表示问题已解答或实验可行性已确认。
 
 ## Origin and Preconditions
 
 evidence boundary。依据实际温度/时长覆盖，不以“半径规律已反转”或“分解普遍发生”为前提。黏度因果 claim 为 insufficient-evidence，Lu 相演化 claim 为 partially-supported，均不能充当待跨体系验证的既定规律。
+
+## 新增覆盖：二硅酸盐已有同篇两温实验
+
+[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E1]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E4]] 已提供γ-Y/β-Yb/β-Lu二硅酸盐在1300/1500 °C、50 h、30 mg/cm²下的腐蚀形貌对照。不能再将“当前库没有同篇两温实验”作为前提；但它不补齐本gap指定RETaO₄/高熵材料的1500 °C对照，且自身缺两温统一深度序列，不能据此认定成分排序反转。
 
 ## Existing Coverage
 

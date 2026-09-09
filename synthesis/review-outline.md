@@ -5,6 +5,7 @@ review_status: checked
 created: 2026-08-28
 updated: 2026-09-08
 reviews:
+  - "[[wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability]]"
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
   - "[[wiki/topics/Thermal Barrier Coatings]]"
@@ -134,6 +135,8 @@ ready 只表示可写表中限定功能。blocked 的强论证包括：普适半
 
 ## Draft Paragraphs
 
+第一节连续正文已于2026-09-08试写为 [[wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability]]，含1.1–1.3及指标对照表；下方五段保留为大纲层的论证示例，不代表五个章节全文均已完成。第一节仍为draft，现阶段优先审阅其范围和行文，再决定扩写第2节或定向补证据。
+
 ### Paragraph 1 — 指标与温度比较
 
 2019 年单硅酸盐研究将衰退层定义为溶解前沿至玻璃中含磷灰石层顶部的距离；2024 年 Lu₂SiO₅ 研究采用原表面至最深 CMAS 渗透位置，两者测量对象不同。[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E1]] [[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E7]] 后者引用前者约 50 μm 的 1300 °C/50 h 数据，与自身 1500 °C/50 h 的 219 μm 比较时，还存在制备、负载及供液差异，因此这一数值比不能解释为单独升温造成的抗蚀性劣化倍数。[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E7]]
@@ -176,3 +179,8 @@ RE₂SiO₅ 与 RETaO₄ 研究均已采用层叠试样开展多成分 CMAS 比�
 2026-09-07：核心 thesis、章节顺序和原示例段落整体替换；每个实质性句子均有 E# 依据，不使用未读外部候选的精确排序或首次性。此次完成大纲及示例的证据映射，未完成全文撰写、领域检索或用户选题确认。同步 [[synthesis/core-argument-map]]，不保留旧主线作为恢复任务的入口。
 
 2026-09-08：正式纳入 #59 至元数据、R9/R10、T1压力测试、五节大纲及小节卡片；新增两段有E#定位的草稿和定向补证据表。R1–R8保留原编号；五节主结构与可选Hf模块保留。Q1/Q4/Q5与P1已同步；写作仍为draft，未形成完整正文或确认研究选题。
+
+
+## 2026-09-08 #17与#23入库交接
+
+当前库10篇（9篇CMAS）；上文保留已完成的8篇大纲/定位版本，本次未重写全部章节。新增 [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration]] 的浅表/晶界双深度、独立M-YTaO₄产物与局部模量，以及 [[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C]] 的三种二硅酸盐同篇1300/1500 °C、50 h形貌对照。第1/3/4节、P1/P2后续整合须保留：双深度端点不同；热循环寿命未验证；两温形貌不同不等于统一指标排名反转；内耗/TEM支持机制线索，不证明软化独立因果。Q1和指定材料高温gap已作最小覆盖修正。

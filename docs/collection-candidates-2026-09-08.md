@@ -41,3 +41,8 @@
 ## 后续状态：#59 已入库
 
 2026-09-08 按用户指定完成 [[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]。上文保留筛选时点记录；当前父 collection 对应8篇知识页、49篇期刊论文尚无知识页。已核主文与 Fig. 1–7，Er 是相对测厚基准；Table S1 尚未取得。其余候选不自动入库。
+
+
+## 后续状态：#17与#23已入库
+
+2026-09-08用户指定两篇入库，[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C]]已完成。当前10篇知识页、47篇父collection期刊论文无知识页。上方候选推荐为筛选时点历史，#17摘要热循环表述已按主文缺协议收窄；其他候选未自动入库。

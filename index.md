@@ -57,13 +57,16 @@
 
 五个综合页均已完成本轮证据迁移（2026-09-07）。研究定位与大纲仍为 draft；checked 指证据映射已核查，不代表领域检索、完整综述或用户选题已完成。
 
-- [[synthesis/literature-map]]：八篇论文的实验/计算证据矩阵（#59 补充表待核），含比较资格、独立来源、八项 claim 与五项 gap。
+- [[synthesis/literature-map]]：十篇论文的实验/计算证据矩阵（#59 补充表待核），含比较资格、独立来源、八项 claim 与五项 gap。
 - [[synthesis/core-argument-map]]：已同步全链迁移状态、可用结论、未决证据和恢复入口。
 - [[synthesis/open-questions]]：已重评 Q1–Q7，含前提、证据依赖与可回答/否定条件。
 - [[synthesis/research-positioning]]：三个 provisional 候选定位；目标、新颖性与资源尚未确定，不是已选方向。
 - [[synthesis/review-outline]]：已重构暂定五节大纲及可选界面模块，含 R1–R10 证据映射、五段草稿与定向补证据清单；#59已正式融入相关小节。
 
 ## Papers
+
+- [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration]]：#17已入库；1300 °C浅表/晶界双深度与局部物性，热循环寿命未验证。
+- [[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C]]：#23已入库；二硅酸盐1300/1500 °C、50 h同篇形貌对照，内耗来源/速率和因果边界保留。
 
 - [[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]：#59 已入库（2026-09-08）；1300 °C/20 h 层叠筛选，Er 为相对侵入零点；主文/图已核，S1、统计及机制边界保留。
 
@@ -79,7 +82,7 @@
 
 两页主题已依据新版 claim/gap 修订（2026-09-07，checked），均限定为当前语料认识，未声称领域共识。
 
-- [[wiki/topics/Ceramic Corrosion]]：七篇 CMAS 论文的限定认识、七项 claim、四项 gap 与方法边界；普适规律及反转未确立。
+- [[wiki/topics/Ceramic Corrosion]]：九篇 CMAS 论文的限定认识、七项 claim、四项 gap 与方法边界；普适规律及反转未确立。
 - [[wiki/topics/Thermal Barrier Coatings]]：单篇 Hf–Al₂O₃ 相容性证据；区分块体反应、模型应力与实际 TGO 外推。
 
 ## Methods
@@ -119,13 +122,16 @@
 
 ## Reviews
 
-待导入论文后更新。
+- [[wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability]]：第一节试写稿，含评价范围、三种测厚基准与实验比较边界；五篇直接证据、指标对照表及核查记录，draft/checked。
 
 ## Maintenance
 
+- [[docs/progress-and-background-2026-09-09]]：10篇语料的进度与CMAS核心背景；区分实验事实、应用背景及候选研究问题。
+- 版本记录：`calude_wiki_10papers_section1`（2026-09-09）；第一节试写、#17/#23入库及进度背景说明，同名提交/标签定位；远程完成以Git核验为准。
+
 - 版本记录：`calude_wiki_59_outline`（2026-09-08）；用户授权上传候选核对、#59入库及大纲整合成果，同名提交与附注标签定位，远程结果以Git核验为准。当前8篇，写作仍为draft。
 
-- [[docs/collection-candidates-2026-09-08]]：实时核对田老师59个父collection条目；检索时7篇已入库；随后按用户指令入库 #59，现为8篇，其余候选未入库。
+- [[docs/collection-candidates-2026-09-08]]：实时核对田老师59个父collection条目；检索时7篇已入库；随后按用户指令入库 #59，再入库#17/#23，现为10篇，其余候选未入库。
 
 - 版本记录：`calude_wiki_R`（2026-09-08）；用户授权提交并上传当前源页复核与下游迁移成果，使用同名提交和标签；原文未决与大纲草稿状态保留。
 
@@ -135,5 +141,5 @@
 
 - [[docs/system-audit-2026-09-05]]：系统检查报告；当前暂停论文修改，先处理启动读取、局部修订与纠错传播问题。下方为历史状态。
 
-- 当前状态：已导入 8 篇论文，新增 #59（2026-09-08）。以下为历史：已导入 7 篇论文（2026-08-23 首批 3 篇 + 2026-08-27 第二批 3 篇 + 2026-08-28 #36），MinerU markdown 优先入库流程已启用；2026-08-23 完成首轮 lint 健康检查（无严重问题），并沉淀 4 个 claim 页、4 个 gap 页，激活 literature-map / open-questions / core-argument-map；2026-08-24 已基于 MinerU full.md 用当前模型重读三篇核心论文并替换论文页核心入库总结，重点补强 1500 °C 温度效应、层叠法证据链、高熵锆酸盐设计准则；同日修复 Obsidian 图谱悬挂链接与系统页污染。2026-08-27 完成第二批入库（#16 Lu2SiO5 1500 °C 原位、#48 高熵 RE2SiO5、#29 Hf6Ta2O17-Al2O3），新增 4 个 claim 页、1 个 gap 页、1 个 TBC 主题页，升级全部综合页。2026-08-28 按用户指示暂停入库，激活 research-positioning（3 条定位方向）与 review-outline（综述大纲 + 示例段落）；同日为核实 X1 争议溯源短暂恢复入库 #36（Tian 2019 Corros. Sci.，1300 °C 奠基性工作）。
-- 下一步：#59 已融入大纲及两段新增草稿，可扩写第1节“评价对象、测量基准与比较资格”，按定向清单补证据；Table S1仍待取得，旧七篇迁移不重复执行。
+- 当前状态：已导入 10 篇论文，新增 #59/#17/#23（2026-09-08）。以下为历史：已导入 7 篇论文（2026-08-23 首批 3 篇 + 2026-08-27 第二批 3 篇 + 2026-08-28 #36），MinerU markdown 优先入库流程已启用；2026-08-23 完成首轮 lint 健康检查（无严重问题），并沉淀 4 个 claim 页、4 个 gap 页，激活 literature-map / open-questions / core-argument-map；2026-08-24 已基于 MinerU full.md 用当前模型重读三篇核心论文并替换论文页核心入库总结，重点补强 1500 °C 温度效应、层叠法证据链、高熵锆酸盐设计准则；同日修复 Obsidian 图谱悬挂链接与系统页污染。2026-08-27 完成第二批入库（#16 Lu2SiO5 1500 °C 原位、#48 高熵 RE2SiO5、#29 Hf6Ta2O17-Al2O3），新增 4 个 claim 页、1 个 gap 页、1 个 TBC 主题页，升级全部综合页。2026-08-28 按用户指示暂停入库，激活 research-positioning（3 条定位方向）与 review-outline（综述大纲 + 示例段落）；同日为核实 X1 争议溯源短暂恢复入库 #36（Tian 2019 Corros. Sci.，1300 °C 奠基性工作）。
+- 下一步：第一节已试写；可将#17双深度和#23同篇两温形貌证据纳入对应章节，再继续第2节。#59 Table S1及各原文未决仍保留，不重复旧迁移。

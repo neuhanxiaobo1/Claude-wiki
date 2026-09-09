@@ -99,7 +99,12 @@ tags:
 
 ### 2026-09-08 单篇入库接续
 
+最新写作入口：[[wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability]] 已完成第一节1.1–1.3试写和指标对照表；draft/checked限定为本次证据映射。由此接续审阅或第2节，不重读全库；本次正文尚未提交上传。
+
 用户指定 #59 已完成入库：[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]；X55RXI85/JNPL926R，10185/full.md，主文6页，PDF Fig. 1–7 与公式已核。当前8篇（7篇CMAS+1篇相容性）；Table S1 未取得，形成焓源内方向及相对测厚边界保留。原七篇下游迁移已完成，新增证据已同步相关矩阵/主题/claim/gap，三个写作页仅留交接。后续不重跑旧迁移或自动上传。
 
 
 2026-09-08 #59整合接续：已完成大纲R9/R10、小节卡片及两段新增草稿，正式更新Q1/Q4/Q5与P1。此前“仅留交接/待整合”任务已完成；当前大纲覆盖8篇（7篇CMAS），共5段草稿，status仍draft。下一步可扩写第1节并按其定向证据清单补文献；S1等原文未决保留，不重做入库或旧七篇迁移。
+
+
+2026-09-08 #17/#23入库恢复入口：[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C]]；两篇processed/checked限各自E1–E8，库共10篇。MD缓存10158/9636，PDF分别8页/10页。#17摘要热循环缺协议、reduced modulus近似与局部TEM限制；#23内耗4/10 °C/min冲突和部分曲线转引均保留。当前第一节稿及本次入库尚未上传，后续可整合新证据。

@@ -21,10 +21,10 @@ tags:
 
 ## Current Corpus and Verified Layers
 
-- 当前八篇 source paper 为 checked（各自声明范围），E1–E8 定位及局部未决保留；七篇 CMAS、一篇 Hf–Al₂O₃，来自同一 collection，作者重叠，非领域代表性综述。
+- 当前十篇 source paper 为 checked（各自声明范围），E1–E8 定位及局部未决保留；九篇 CMAS、一篇 Hf–Al₂O₃，来自同一 collection，作者重叠，非领域代表性综述。
 - 八项 claim：4 supported（限定产物/性能/反应事实）、1 partially-supported（Lu 相演化可能贡献）、3 insufficient-evidence（跨体系半径因果、黏度反转、缺陷萤石双机制）；均已完成评价。
 - 五项 gap：1 corpus-gap、4 candidate-question；narrowed/checked，novelty_status: not-assessed、priority: pending。
-- 两个 topic 与八篇 [[synthesis/literature-map]] 已同步条件、指标、独立来源和比较资格。
+- 两个 topic 与十篇 [[synthesis/literature-map]] 已同步条件、指标、独立来源和比较资格。
 - [[synthesis/open-questions]]：Q1–Q7 已收窄，旧编号保留但旧前提/优先级撤回。
 - [[synthesis/research-positioning]]：P1 可比评价、P2 相演化贡献、P3 实际界面外推，全部 provisional，未选定方向。
 - [[synthesis/review-outline]]：暂定五节加可选界面模块、R1–R10 写作证据矩阵及五段草稿；#59 已进入章节和小节卡片，附定向补证据表。证据映射 checked，写作 status: draft，不是完整综述。
@@ -48,6 +48,8 @@ tags:
 
 ## Next Step and Recovery
 
+2026-09-08最新写作进度：第一节已形成独立试写稿 [[wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability]]，覆盖1.1–1.3、指标对照表与证据核查记录；正文draft，声明范围证据映射checked。下一步先审阅本节，再决定第2节或定向补文献，不重复第一节启动。原五段大纲示例保留，完整综述尚未完成。本次草稿晚于calude_wiki_59_outline上传，尚未发布。
+
 已完成旧大纲证据迁移。后续可围绕暂定大纲的具体章节逐段写作，或围绕用户指定问题补证据/做新颖性检索；不自动重新阅读七篇、扩展新论文入库或开展实验。研究定位若要升级为选定方向，须有用户目标和相应新颖性/可行性证据。
 
 来源路径及版本状态见 [[memory/context_policy]]；优先复用已核 E#，仅回查影响当前论断的缺失部分。原始资料不改。2026-09-08 用户已授权将当前修订提交并上传为 calude_wiki_R；后续新改动不自动发布。
@@ -61,3 +63,6 @@ tags:
 
 
 2026-09-08 #59整合接续：已完成大纲R9/R10、小节卡片及两段新增草稿，正式更新Q1/Q4/Q5与P1。此前“仅留交接/待整合”任务已完成；当前大纲覆盖8篇（7篇CMAS），共5段草稿，status仍draft。下一步可扩写第1节并按其定向证据清单补文献；S1等原文未决保留，不重做入库或旧七篇迁移。
+
+
+2026-09-08最新入库：#17与#23已完成本地MD/PDF主要证据核查，当前10篇（9CMAS+1相容性）。来源分别Q8P9YVUF/T4GDW2SM/10158、42UX6GZL/V3N9RG9C/9636。矩阵、CMAS主题、相关产物claim、高温gap和Q1已最小同步；大纲/定位保留8篇整合版本并列出新增来源交接，第一节仍是原五篇直接引用范围。后续整合双深度与同篇两温证据，不重读全库或自动上传。
