@@ -530,3 +530,25 @@ docs/scopus-screening-2026-09-09/report及四collection导入管理记录；未�
 ### 以后避免方式
 
 缺摘要不等于无全文，跨collection出现同一item key不等于重复条目；筛选逐条记录实际阅读范围和来源。
+
+## 2026-09-09 | 上传配套CSV被通用忽略规则排除
+
+### 错误表现
+
+筛选报告链接screening.csv，但首次提交87e3625未包含该表。
+
+### 原因
+
+仓库.gitignore的*.csv规则使常规git add未纳入配套派生文件，首次提交前未逐项核对新增文件清单。
+
+### 修正规则
+
+仅显式加入docs/scopus-screening-2026-09-09/screening.csv，补充提交a383aef并上传同名完整标签calude_wiki_scopus_screening_complete；不改变所有CSV的忽略策略或强制加入原始数据。
+
+### 影响范围
+
+首次报告版本的CSV下载链接；完整上传版本已修复，远程main和标签均核验。
+
+### 以后避免方式
+
+上传前核对报告相对链接是否在Git实际跟踪文件中，不能仅以本地文件存在作为上传完成依据。

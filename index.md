@@ -10,6 +10,9 @@
 - [[log]]
 - [[AGENTS]]
 - [[memory/project_profile]]
+- [[memory/ceramic_corrosion_reading_rules]]：陶瓷腐蚀方向的组内/组外口径与组外作者信息规则。
+- 版本记录：`calude_wiki_1`（2026-09-09）；方向阅读规则、组外作者登记表和10篇组内分类，提交/附注标签同名，远程状态以Git核验为准。
+- [[synthesis/external-literature-register]]：已入库组外论文的作者、发表时单位、国家、年份及当前方向登记，当前为空表。
 - [[memory/hard_memory]]
 - [[memory/context_policy]]
 - [[memory/style_snapshot]]

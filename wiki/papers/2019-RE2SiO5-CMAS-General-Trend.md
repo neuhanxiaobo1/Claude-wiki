@@ -6,6 +6,9 @@ authors: Tian Zhilin; Zhang Jie; Zheng Liya; Hu Wanpeng; Ren Xiaomin; Lei Yiming
 venue: Corrosion Science
 status: processed
 review_status: checked
+group_origin: internal
+group_origin_basis: "Existing complete authors metadata includes Tian Zhilin or Zhilin Tian; user-defined grouping, not a new full-text review"
+group_origin_checked: 2026-09-09
 created: 2026-08-28
 updated: 2026-09-06
 source: D:/shuju/zotero1/llm-for-zotero-mineru/9612/full.md

@@ -6,6 +6,9 @@ authors: Chi Lin; Chen Zhilin; Zheng Liya; Tian Zhilin; Lv Bowen; Li Bin
 venue: Journal of the European Ceramic Society
 status: processed
 review_status: checked
+group_origin: internal
+group_origin_basis: "Existing complete authors metadata includes Tian Zhilin or Zhilin Tian; user-defined grouping, not a new full-text review"
+group_origin_checked: 2026-09-09
 created: 2026-08-23
 updated: 2026-09-07
 source: Zotero L4TEUBTX 英文 PDF；10087/full.md；出版社正式补充 DOCX

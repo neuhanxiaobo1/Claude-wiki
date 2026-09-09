@@ -513,3 +513,21 @@ TITLE-ABS-KEY((CMAS OR "molten silicate*") AND ("thermal barrier coating*" OR "e
 - 更新：本日志。
 - 发现：原始PDF和被忽略的raw管理文件沿用已有上传范围，不纳入本次提交。
 - 后续：上传后独立增补陶瓷腐蚀方向的组内/组外及组外作者信息规则；本条不提前声明推送成功。
+
+## [2026-09-09] update | 上传完成及方向专用作者信息规则
+
+- 输入：用户要求先上传，后续区别组内/组外，额外记录组外一作/通讯作者单位、年份、国家与当前研究方向，仅作用当前方向。
+- 操作：成功推送筛选报告版本87e3625；检查发现通用*.csv忽略规则排除配套表，显式加入该派生CSV并补推完整版本calude_wiki_scopus_screening_complete。远程main及完整标签均解引用至a383aef3b6261769800865b5cb702fd53faa57ce。
+- 新建：memory/ceramic_corrosion_reading_rules.md与synthesis/external-literature-register.md。
+- 更新：仅project_profile加入方向规则入口、index导航、当前10篇paper的组内分类字段及恢复记录；未修改AGENTS、hard_memory、通用agent或通用模板。
+- 发现：当前10篇作者元数据均含Tian Zhilin/Zhilin Tian，包括#17/#23，按用户指定口径记internal。未来新候选逐篇核查，不能按collection或检索批次判断。组外登记表当前为空，未虚构作者单位或研究方向。
+- 后续：新入库组外论文按方向规则补充一作/通讯作者资料，非关键缺项待核；论文处理尚未开始。此次规则增补在上传快照之后，仍为本地未提交修改。
+
+## [2026-09-09] update | calude_wiki_1版本记录
+
+- 输入：用户要求上传当前版本，并命名为calude_wiki_1。
+- 操作：将方向专用阅读规则、组外文献登记表、当前10篇组内分类及相关维护记录纳入同名提交和附注标签，推送既有origin main；远程完成状态以Git核验为准。
+- 新建：calude_wiki_1版本提交及标签。
+- 更新：index、context_policy及本日志的版本入口。
+- 发现：本版本延续已上传的筛选报告与CSV；通用规则未改动，未新增论文入库。
+- 后续：从calude_wiki_1接续，按方向规则处理选定组外论文，继续暂停扩写。

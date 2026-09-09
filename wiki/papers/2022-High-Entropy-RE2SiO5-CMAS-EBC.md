@@ -6,6 +6,9 @@ authors: Chen Zhilin; Tian Zhilin; Zheng Liya; Ming Keyu; Ren Xiaomin; Wang Jing
 venue: Journal of Advanced Ceramics
 status: processed
 review_status: checked
+group_origin: internal
+group_origin_basis: "Existing complete authors metadata includes Tian Zhilin or Zhilin Tian; user-defined grouping, not a new full-text review"
+group_origin_checked: 2026-09-09
 created: 2026-08-23
 updated: 2026-09-07
 source: Zotero I929AL9M 英文 PDF；10119/full.md 对应英文正文

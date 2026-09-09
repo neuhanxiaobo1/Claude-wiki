@@ -6,6 +6,9 @@ authors: [Liya Zheng, Keyu Ming, Zhilin Tian]
 venue: Extreme Materials
 status: processed
 review_status: checked
+group_origin: internal
+group_origin_basis: "Existing complete authors metadata includes Tian Zhilin or Zhilin Tian; user-defined grouping, not a new full-text review"
+group_origin_checked: 2026-09-09
 created: 2026-09-08
 updated: 2026-09-08
 source: Zotero PDF and MinerU full.md

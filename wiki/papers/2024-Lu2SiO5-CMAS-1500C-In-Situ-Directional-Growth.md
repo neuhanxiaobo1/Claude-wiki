@@ -6,6 +6,9 @@ authors: Tian Zhilin; Ming Keyu; Zheng Liya; Chen Zhilin; Zhang Yingpeng; Liu Pe
 venue: Surface and Coatings Technology
 status: processed
 review_status: checked
+group_origin: internal
+group_origin_basis: "Existing complete authors metadata includes Tian Zhilin or Zhilin Tian; user-defined grouping, not a new full-text review"
+group_origin_checked: 2026-09-09
 created: 2026-08-27
 updated: 2026-09-07
 source: Zotero JNS38XK5 英文 PDF；10149/full.md 为对应 MinerU 缓存
