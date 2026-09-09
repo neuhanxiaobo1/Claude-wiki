@@ -61,7 +61,7 @@
 - [[synthesis/core-argument-map]]：已同步全链迁移状态、可用结论、未决证据和恢复入口。
 - [[synthesis/open-questions]]：已重评 Q1–Q7，含前提、证据依赖与可回答/否定条件。
 - [[synthesis/research-positioning]]：三个 provisional 候选定位；目标、新颖性与资源尚未确定，不是已选方向。
-- [[synthesis/review-outline]]：已重构暂定五节大纲及可选界面模块，含 R1–R10 证据映射、五段草稿与定向补证据清单；#59已正式融入相关小节。
+- [[synthesis/review-outline]]：已重构暂定五节大纲及可选界面模块，含 R1–R13 证据映射、五段草稿与定向补证据清单；#59/#17/#23已正式融入相关小节。
 
 ## Papers
 
@@ -122,11 +122,12 @@
 
 ## Reviews
 
-- [[wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability]]：第一节试写稿，含评价范围、三种测厚基准与实验比较边界；五篇直接证据、指标对照表及核查记录，draft/checked。
+- [[wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability]]：第一节试写稿，含评价范围、三种测厚基准与实验比较边界；七篇直接证据、指标对照表及核查记录，draft/checked。
 
 ## Maintenance
 
 - [[docs/progress-and-background-2026-09-09]]：10篇语料的进度与CMAS核心背景；区分实验事实、应用背景及候选研究问题。
+- [[docs/scopus-screening-2026-09-09/report]]：四个Zotero collection共186篇分层初筛；12篇优先全文核查、14篇第二批候选，附全量CSV及逐条理由。只筛选，未新增入库。
 - 版本记录：`calude_wiki_10papers_section1`（2026-09-09）；第一节试写、#17/#23入库及进度背景说明，同名提交/标签定位；远程完成以Git核验为准。
 
 - 版本记录：`calude_wiki_59_outline`（2026-09-08）；用户授权上传候选核对、#59入库及大纲整合成果，同名提交与附注标签定位，远程结果以Git核验为准。当前8篇，写作仍为draft。
@@ -142,4 +143,4 @@
 - [[docs/system-audit-2026-09-05]]：系统检查报告；当前暂停论文修改，先处理启动读取、局部修订与纠错传播问题。下方为历史状态。
 
 - 当前状态：已导入 10 篇论文，新增 #59/#17/#23（2026-09-08）。以下为历史：已导入 7 篇论文（2026-08-23 首批 3 篇 + 2026-08-27 第二批 3 篇 + 2026-08-28 #36），MinerU markdown 优先入库流程已启用；2026-08-23 完成首轮 lint 健康检查（无严重问题），并沉淀 4 个 claim 页、4 个 gap 页，激活 literature-map / open-questions / core-argument-map；2026-08-24 已基于 MinerU full.md 用当前模型重读三篇核心论文并替换论文页核心入库总结，重点补强 1500 °C 温度效应、层叠法证据链、高熵锆酸盐设计准则；同日修复 Obsidian 图谱悬挂链接与系统页污染。2026-08-27 完成第二批入库（#16 Lu2SiO5 1500 °C 原位、#48 高熵 RE2SiO5、#29 Hf6Ta2O17-Al2O3），新增 4 个 claim 页、1 个 gap 页、1 个 TBC 主题页，升级全部综合页。2026-08-28 按用户指示暂停入库，激活 research-positioning（3 条定位方向）与 review-outline（综述大纲 + 示例段落）；同日为核实 X1 争议溯源短暂恢复入库 #36（Tian 2019 Corros. Sci.，1300 °C 奠基性工作）。
-- 下一步：第一节已试写；可将#17双深度和#23同篇两温形貌证据纳入对应章节，再继续第2节。#59 Table S1及各原文未决仍保留，不重复旧迁移。
+- 下一步：按用户指令暂停扩写；已完成Scopus结果分层初筛，先获取优先清单缺失PDF并按背景缺口核查。第一节及大纲已整合#17/#23；#59 Table S1及各原文未决仍保留。

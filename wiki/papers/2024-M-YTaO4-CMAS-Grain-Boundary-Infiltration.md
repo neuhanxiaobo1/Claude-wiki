@@ -117,3 +117,6 @@ tags: [paper, ceramics, corrosion, cmas, tbc]
 ## Maintenance
 
 已核来源、去重、Fig.1–7/Tables1–4及局部未决；使用已有标签与关系，入库记录、索引、log/error_log同步。未修改Zotero/原件，未上传。
+
+
+2026-09-09下游接续：本篇已正式整合至第一节正文与大纲R11–R13、P1/P2和相应Q问题。上述具体待整合事项已完成，原始证据未决仍保留；未修改本篇科学评价或重新宣称原文全核。

@@ -4,10 +4,12 @@ title: CMAS腐蚀评价对象、测量基准与比较资格
 status: draft
 review_status: checked
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-09-09
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
 papers:
+  - "[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration]]"
+  - "[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C]]"
   - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
   - "[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth]]"
@@ -32,13 +34,16 @@ Tian 等在 2019 年 RE₂SiO₅ 研究中，将衰退层厚度定义为溶解�
 
 Zheng 等在 2025 年七组分 RE₂SiO₅ 层叠筛选中采用了另一种参照：以侵入最浅的 Er 区域为基准，比较各组分区域的相对 CMAS 侵入深度。Fig. 7 中 Er 位于零点，其他组分的柱状数据向负方向延伸；这里的零表示参照位置，负值表示相对于该位置的图示差异，均不应按绝对腐蚀量解释。该图支持 Er 区域在本次试样中侵入最浅，却不支持 Er 未发生腐蚀。缺少与原始表面对应的共同基准时，也不能将这些相对数值直接接入其他论文的绝对侵入序列。[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E2]] [[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E3]]
 
+同一试样内也可能存在不同侵入尺度。Chen等对独立M-YTaO₄块体进行1300 °C、约30 mg/cm²的CMAS暴露，分别测量浅表腐蚀区和更深的晶界侵入；80 h时，两者报告值为43.7±6.6 μm和346.3±3.7 μm。[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E1]] [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E2]] [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E3]] 这些数值说明，仅记录浅表区会遗漏更深的晶界侵入。两项测量应保留作者的图示端点，不能自行统一为原表面起算的同一深度；误差定义和独立重复亦未充分报告。[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E2]] [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E3]]
+
 | 指标与代表研究 | 起止位置或参照 | 可以描述的结果 | 比较时须保留的限制 |
 |---|---|---|---|
 | 衰退层厚度；2019 RE₂SiO₅ | 溶解前沿至玻璃中含磷灰石层顶部 | 本文定义下的反应区层厚及其变化 | 包含产物层，不是净基体消耗或最深侵入 |
 | 最深侵入距离；2023 RE₂SiO₅、2024 Lu₂SiO₅ | 原始表面至最深 CMAS 位置 | 对应截面内被识别的最深侵入范围 | 定义相近仍须核对试样、条件、测点与统计 |
 | 相对侵入深度；2025 RE₂SiO₅ 层叠 | 以 Er 最浅侵入区为相对零点 | 同一配置内各区域相对参照的差异 | 不提供 Er 的绝对侵入量，不能跨论文直接合并 |
+| 浅表区与晶界侵入分别测量；2024 M-YTaO₄ | Fig.3浅层、Fig.4深部晶界区域的图示端点 | 同研究中反应层与晶界侵入的尺度差别 | 原表面恢复/取点未充分定义，浅层不能代替最深侵入 |
 
-表中定义分别依据上述论文的方法和图示；它们是本节选取的三种实例，不是对所有 CMAS 腐蚀指标的穷尽分类。RETaO₄ 层叠研究还通过未涂 CMAS 的外层保留原表面参照，结合截面与元素分布确定渗透区。这说明即使同属层叠方法，测量基准也未必相同，不能仅按方法名称归并数据。[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E1]] [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E3]]
+表中定义分别依据上述论文的方法和图示；它们是本节选取的三种基准及一组双深度实例，不是对所有 CMAS 腐蚀指标的穷尽分类。RETaO₄ 层叠研究还通过未涂 CMAS 的外层保留原表面参照，结合截面与元素分布确定渗透区。这说明即使同属层叠方法，测量基准也未必相同，不能仅按方法名称归并数据。[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E1]] [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E3]]
 
 ## 1.3 实验边界与比较资格
 
@@ -46,7 +51,11 @@ Zheng 等在 2025 年七组分 RE₂SiO₅ 层叠筛选中采用了另一种参�
 
 Lu₂SiO₅ 的跨温度比较体现了这些条件差异的影响。2024 年论文报告 1500 °C/50 h 的最深侵入距离为 219 μm，并引用 2019 年 1300 °C/50 h 的约 50 μm 作对照。然而，后一个数值属于包含产物层的衰退厚度，且来自不同的制样与供液配置。因此，两数之比不能解释为单独升温造成的抗蚀性能劣化倍数。后续论文引用同一 2019 年数据，也不能增加独立的低温实验次数。[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E7]] [[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E7]]
 
+与上述跨文献拼接不同，2019年二硅酸盐研究在同篇内对γ-Y₂Si₂O₇、β-Yb₂Si₂O₇和β-Lu₂Si₂O₇分别开展了1300/1500 °C、50 h、约30 mg/cm²的试验，使用相同名义负载与凹坑配置。[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E1]] 1300 °C时作者报告三种材料的反应区约为155、125、330 μm；1500 °C时所示截面则呈现广泛晶界玻璃、Ca分布和blister状裂纹。[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E2]] [[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E4]] 这为同材料两温条件下的形貌差异提供直接实验依据。然而，1500 °C没有与低温反应区一致的定量厚度序列，各RE的晶型与热压温度又不同，因而仍不足以建立统一指标的成分排序反转或确定普适临界温度。[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E1]] [[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E4]] [[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E8]]
+
 同炉层叠可以在共同热历程下提供多组分观察，但各层的局部接触条件仍需单独判断。2025 年 RE₂SiO₅ 试样保留清晰的 RE 分区，同时观察到 CMAS 分布不均和侧边流动；RETaO₄ 研究则在部分名义单 RE 层的产物测点中检出其他 RE。前者不能仅凭清晰分区证明全部传输为零，后者也不能单凭跨 RE 点成分确定迁移路径或量化其对排序的影响。两项研究各自的观察支持进一步检验层间独立性，尚不足以证明所有层叠结果均有同一种偏差。[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E5]] [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E2]]
+
+独立试样资料的存在也不等于方法间已经完成校准。2024年M-YTaO₄研究虽提供单组分试样，但其浅表/晶界双深度与2025年RETaO₄层叠方法的测量基准、时长和配置尚未配对统一，不能直接据其判断层叠Y层是否复现独立材料性能。[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E8]] 同时，M-YTaO₄所示截面未见分层裂纹，仅是一项限定观察；文中缺少热循环协议及寿命终点，不能将深度测量或局部还原模量过渡直接转换成可靠性结论。[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E6]] [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E7]]
 
 测量覆盖和统计定义同样限定排序的含义。2023 年多组分研究在 5、20、50 h 分别覆盖七、六、四种成分，作者将部分缺测归因于熔体从边缘流失；缺失数据不能补为零值，也不能据此推断未测成分的长期优势。2019 年、2025 年 RE₂SiO₅ 层叠及 RETaO₄ 研究虽报告误差棒或“±”数值，但现有已核材料不足以确定全部独立重复数、取点规则和误差统计含义。本节因此保留各论文实际覆盖中的描述性差异，不据误差棒自行给出相邻成分差异显著的结论。[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E1]] [[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E2]] [[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E3]] [[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E3]]
 
@@ -56,13 +65,15 @@ Lu₂SiO₅ 的跨温度比较体现了这些条件差异的影响。2024 年论
 
 ## 写作与核查记录（不属于拟投稿正文）
 
+2026-09-09：正式整合#17/#23；正文直接来源增为七篇。新增双深度、同篇两温和独立试样比较三段，保留1.1–1.3结构。
+
 - 输出：第一节试写稿；沿用 [[synthesis/review-outline]] 的临时问题和中文写作约定，具体期刊、篇幅与正式引文样式尚未确定。
-- 证据范围：本节直接使用元数据所列五篇；全库为八篇，其中七篇CMAS。本轮复用已核源页证据，未重新完整阅读原文或开展网络检索。
+- 证据范围：本节直接使用元数据所列七篇；全库为十篇，其中九篇CMAS。本轮复用已核源页证据，未重新完整阅读原文或开展网络检索。
 - `status: draft` 表示尚待内容与行文审阅；`review_status: checked` 仅指本次引用、指标、条件与推论边界已核对。
 
 | 本节论点 | 对应大纲 / 来源 | 比较资格与独立性 | 当前允许的强度 |
 |---|---|---|---|
-| 三种基准与含义不同 | R1/R9；2019 E1、2023 E6、2024 E7、#59 E2 | 不同定义 not-directly-comparable；各研究保留来源身份 | 支持定义及比较限制，不声称指标三分法覆盖全部领域 |
+| 三种基准及双深度与含义不同 | R1/R9；2019 E1、2023 E6、2024 E7、#59 E2 | 不同定义 not-directly-comparable；各研究保留来源身份 | 支持定义及比较限制，不声称指标三分法覆盖全部领域 |
 | 相同名义配方不足以保证实验匹配 | R1；2019 E1、2023 E1/E7、2024 E1/E7 | 制样/供液/指标不同，跨温度数值不直接比较 | 支持本组比较限制，不定量分配各因素贡献 |
 | 层叠比较与独立性不同 | R10；#59 E5、RETaO₄ E1–E3 | 方法 qualitative-only；层片不是独立暴露重复 | 支持各自观察与验证必要性，因果来源和排序偏差未定 |
 | 数据覆盖及统计限制 | 2023 E1/E6、2019 E2、#59 E3、RETaO₄ E3 | 同篇描述限实际有数据的对象，转引2019不重复计数 | 保留描述性结果，不补缺测或显著性 |
@@ -72,5 +83,4 @@ Lu₂SiO₅ 的跨温度比较体现了这些条件差异的影响。2024 年论
 - 下一节衔接：按大纲第2节分别写条件内成分差异、产物形貌/相类别与多性能折中；本节不提前确认普适排序或博士选题。
 - 维护：已检查来源链接与E#，已关联大纲/索引并追加log；没有新增科学claim或更改源论文判断。
 
-
-2026-09-08新增来源交接：#17的浅表/晶界双深度和#23的同篇两温证据已入库。当前正文仍是原五篇直接来源的试写范围，未自动扩写；后续更新可用 [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E2]]、[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E3]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E1]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E4]]。原文中针对2019单硅酸盐与2023/2024的不可比判断保留，但不能扩大为所有两温试验均来自跨文献拼接。
+- 新增证据映射：双深度段及表行→#17 E1–E3（R11）；两温段→#23 E1/E2/E4/E8（R12）；独立试样/损伤段→#17 E6–E8（R13/R10）。同篇温度形貌为qualitative-only，不替代统一量纲因果对照。

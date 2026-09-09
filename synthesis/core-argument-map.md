@@ -3,7 +3,7 @@ type: synthesis
 status: active
 review_status: checked
 created: 2026-08-23
-updated: 2026-09-08
+updated: 2026-09-09
 tags:
   - synthesis
   - context
@@ -27,7 +27,7 @@ tags:
 - 两个 topic 与十篇 [[synthesis/literature-map]] 已同步条件、指标、独立来源和比较资格。
 - [[synthesis/open-questions]]：Q1–Q7 已收窄，旧编号保留但旧前提/优先级撤回。
 - [[synthesis/research-positioning]]：P1 可比评价、P2 相演化贡献、P3 实际界面外推，全部 provisional，未选定方向。
-- [[synthesis/review-outline]]：暂定五节加可选界面模块、R1–R10 写作证据矩阵及五段草稿；#59 已进入章节和小节卡片，附定向补证据表。证据映射 checked，写作 status: draft，不是完整综述。
+- [[synthesis/review-outline]]：暂定五节加可选界面模块、R1–R13 写作证据矩阵及五段示例；#59/#17/#23 已进入章节和小节卡片，第一节独立正文使用七篇直接来源，附定向补证据表。证据映射 checked，写作 status: draft，不是完整综述。
 - 至此，本轮声明范围内 paper → claim → gap → topic → 五个 synthesis 页面迁移已接续完成；历史 Downstream Review 中这些页面的待办以新版本为准。
 
 ## Safe Scientific Starting Points
@@ -66,3 +66,6 @@ tags:
 
 
 2026-09-08最新入库：#17与#23已完成本地MD/PDF主要证据核查，当前10篇（9CMAS+1相容性）。来源分别Q8P9YVUF/T4GDW2SM/10158、42UX6GZL/V3N9RG9C/9636。矩阵、CMAS主题、相关产物claim、高温gap和Q1已最小同步；大纲/定位保留8篇整合版本并列出新增来源交接，第一节仍是原五篇直接引用范围。后续整合双深度与同篇两温证据，不重读全库或自动上传。
+
+
+2026-09-09最新状态：calude_wiki_10papers_section1（3266d7161e854d1228f6679240740067422f55f2）已上传，远程main及标签解引用均核验一致。随后#17/#23正式整合到10篇大纲R1–R13、第一节七篇直接来源、P1/P2及Q3/Q4/Q6；原“待整合”交接已完成。下一步审阅第一节并展开第2节；机制/统计未决不升级。本次整合晚于该上传版本，尚未提交发布。

@@ -3,13 +3,15 @@ type: synthesis
 status: draft
 review_status: checked
 created: 2026-08-28
-updated: 2026-09-08
+updated: 2026-09-09
 reviews:
   - "[[wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability]]"
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
   - "[[wiki/topics/Thermal Barrier Coatings]]"
 papers:
+  - "[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration]]"
+  - "[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C]]"
   - "[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening]]"
   - "[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend]]"
   - "[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation]]"
@@ -45,13 +47,13 @@ tags:
 - 输出：暂定综述大纲、论证映射和五段可复用草稿，不是完整论文或已确定投稿结构。
 - 用途：用户陶瓷-腐蚀领域的文献综述积累；具体读者/目标期刊、篇幅、格式和核心研究问题待确认。
 - Working question：当前语料中，哪些实验结果能够支持陶瓷腐蚀评价，哪些机制与设计推论仍需证据？
-- 范围：截至 2026-09-08 已入库的八篇论文；七篇 CMAS 为当前主要语料，Hf–Al₂O₃ 为可选界面案例。未建立领域系统检索覆盖，不永久排除其他材料/介质。
+- 范围：截至 2026-09-09 已入库的十篇论文；九篇 CMAS 为当前主要语料，Hf–Al₂O₃ 为可选界面案例。未建立领域系统检索覆盖，不永久排除其他材料/介质。
 - 语言与引用：中文，英文题名/期刊保留；本页用 paper E# / claim 双链追溯源页图表与 DOI。正式引用样式未确定。
 - 完成边界：旧主线、章节和草稿已替换，证据映射完成；不表示源内冲突、新颖性或用户选题已解决。
 
 ## Corpus and Evidence Readiness
 
-完整实验/计算与比较矩阵见 [[synthesis/literature-map]]；材料范围见两个 topic。八篇来源集中于同一 collection 且作者有重叠，属于 local corpus。
+完整实验/计算与比较矩阵见 [[synthesis/literature-map]]；材料范围见两个 topic。十篇来源集中于同一 collection 且作者有重叠，属于 local corpus。
 
 四项 claim supported、Lu 相演化机制 partially-supported、三项跨体系/温度/双机制因果 insufficient-evidence。只有条件内事实可以确定陈述；后两类在正文中明确作为解释、局限或问题。五项 gap 为一项 corpus-gap 与四项 candidate-question，均无本轮领域新颖性检索支持。
 
@@ -69,17 +71,21 @@ tags:
 | R8 | Hf 指定工艺反应不能直接转换为 TGO 寿命 | [[wiki/claims/Hf6Ta2O17-TGO-Incompatibility]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E3]]、[[wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility#E6]] | 2025 粉末/扩散偶及弹性模型 | 1400 °C 已反应；热压初始与追加退火分开 | 反应 supported/checked；向 TGO qualitative-only | 不套 YSZ 剪切限值判废，实际涂层验证未覆盖 |
 | R9 | 相对侵入与可见产物不是同一评价指标 | [[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E1]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E2]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E3]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E4]] | 2025-RE2SiO5-stack；本文新增实验，非2019数据转引 | 七RE层叠块体；1300 °C/20 h，30 mg/cm²；以Er为相对深度零点 | 本试样图示描述 supported/checked；与2019/2023/2024厚度 not-directly-comparable | Er最浅、Tm次之；Lu可见产物少却非最浅；零点非零侵入，不称显著最优或普适排名 |
 | R10 | 层叠同炉比较已有实现，独立试样等效性仍需验证 | [[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E1]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E5]]；[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E2]] | 2025-RE2SiO5-stack 与 2025-RETa-stack；不同研究配置 | #59相对Er基准；RETaO₄原表面参照；各文条件分别保留 | 方法实施 supported/checked；跨方法 qualitative-only，独立成分本征排序未确立 | #59清晰EDS分区和局部供液差异，不能照搬RETaO₄跨RE点成分为其已证污染；未校准不等于方法无效 |
+| R11 | 浅表层薄不代表晶界侵入浅 | [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E1]]、[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E2]]、[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E3]] | 2024-MYTa-corrosion | 独立块体，1300 °C/5、50、80 h，约30 mg/cm²；双深度 | 同篇描述 supported/checked；跨文献 not-directly-comparable | 80 h浅区43.7±6.6、晶界346.3±3.7 μm；不以浅层代替最深侵入，不拟合普适速率 |
+| R12 | 二硅酸盐已有同篇两温形貌证据 | [[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E1]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E2]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E4]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E5]] | 2019-disilicate-corrosion | 三种二硅酸盐，1300/1500 °C、50 h、约30 mg/cm² | 条件内形貌 supported/checked；两温 qualitative-only | 1500 °C广泛晶界玻璃/裂纹并存于Y/Yb表面磷灰石；无统一深度排名反转或普适临界温度 |
+| R13 | 晶界物性、侵入与损伤须分别评价 | [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E5]]、[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E6]]、[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E7]]；[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E6]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E7]] | 两篇腐蚀实验各自独立；#17引用#23作类比，#23部分内耗转引 | #17局部热处理TEM/5 h还原模量；#23内耗与离位裂纹 | 观察/测量checked；软化及损伤因果partial/insufficient，qualitative-only | 不能计为两次受控软化验证；未见分层不证热循环寿命；内耗4/10 °C/min冲突保留 |
 
 ## Candidate Thesis and Stress Test
 
 ### T1 — 从可比指标出发评价条件内结果与机制边界
 
 - Thesis：这组文献提供了条件内成分差异、产物类别、性能折中及相对侵入筛选的证据；将它们用于机制解释或选材之前，应保留测量定义、实验边界与原始来源，当前尚不能合成普适抗蚀排序。
-- Evidence：R1–R7、R9/R10；包含 2019、2022、2023、2024、2025、2026 的不同原始实验组，但同源转引不重复计数。
-- Scope：七篇 CMAS 的本地语料综合；不声称领域不存在规律或其他研究未解决问题。
+- Evidence：R1–R7、R9–R13；包含 2019、2022、2023、2024、2025、2026 的不同原始实验组，但同源转引不重复计数。
+- Scope：九篇 CMAS 的本地语料综合；不声称领域不存在规律或其他研究未解决问题。
 - Status：provisional（写作框架）；其使用的限定事实/限制按矩阵评级。用户核心问题未确认，不能将框架写回 project_profile。
-- Stress test：去掉 2019，需删去其成分趋势和被转引温度对照讨论，但 2022 性能折中、2025 独立性及 2026 映射问题仍支持证据分层的组织。去掉 2022，需删除特定四元性能/石榴石段，不以其他数据顶替。
+- Stress test：去掉2019单硅酸盐论文，需删去其成分趋势和被转引温度对照讨论，但 2022 性能折中、2025 独立性及 2026 映射问题仍支持证据分层的组织。去掉 2022，需删除特定四元性能/石榴石段，不以其他数据顶替。
 - #59 压力测试：去掉本篇，须删除 Er 相对参照及 Lu 产物/侵入对照实例；R1 的既有指标差异和 RETaO₄ 方法边界仍支持 T1。加入本篇不把 2019 与 2025 的不同排序改写为已证规律反转；S1 缺失不影响相对基准论证，但阻止其逐点组成进入确定机制。
+- 新增来源压力测试：去掉#17须删除双深度和局部模量/无分层实例；去掉#23须删除同篇两温二硅酸盐实例。原指标比较框架仍成立，但不再由这两项补充支撑。#17对#23的类比及部分内耗转引不能重复计为独立软化验证。
 - 依赖检查：不把三项 insufficient-evidence 机制当成正确前提；不将不可比数值用于排名。若后续取得统一指标/独立控制证据，应相应提升局部判断并调整章节。
 - Result：reorganize；替代旧“公理—反转—缺失判据”叙事。
 
@@ -97,11 +103,11 @@ tags:
 
 | Section | Question / function | Allowed claim sequence | Evidence IDs | Boundary / counter-evidence | Missing evidence | Readiness |
 |---|---|---|---|---|---|---|
-| 1 评价对象、测量基准与比较资格 | 明确测了什么，哪些数据能比较 | 材料/语料 → 衰退层、最深侵入与相对侵入 → 制备/供液/时长边界 | R1/R9/R10；literature-map | Er相对零点非零腐蚀；不比较绝对厚度倍数 | 领域背景与最终纳排范围；#59绝对基准/统计 | ready（定义与限定比较） |
-| 2 条件内成分结果、产物与性能折中 | 区分侵入结果、产物表征和多性能收益 | 单篇关联 → #59 Er/Lu形貌与相对侵入 → 四元收益/代价 → 相类别 | R2/R3/R4/R9 | 图示排序限本配置；可见产物不是总产率；不同论文不合并排名 | 统计、定量产物/溶解量、S1与精确相式 | ready（限定事实） |
-| 3 溶解、析出与侵入的机制证据 | 从哪些观察可以走向机制解释 | 终态形貌/组成 → 黏度与焓模型 → Lu相演化 → 时序/损伤 | R5/R6/R7；#59 E6–E8 | S1未读；焓方向源内矛盾；裂纹不证明冷却析出因果；不重复计Costa | S1、视频、热化学定义、样品映射和独立控制 | provisional（作者解释与未决分开） |
-| 4 层叠筛选的验证与候选研究问题 | 如何验证条件内排序向独立试样迁移 | 两种层叠已实施 → 各自基准/供液/层间证据 → 独立/换序对照 → 条件性温度比较 | R1/R9/R10；Q1/Q4，机制问题接Q3/Q5/Q6 | 方法已实施不等于已校准；未校准不等于无效；不称跨体系尚无人尝试 | 独立试样、位置/层序、重复与等效判据；新颖性/资源 | provisional（候选验证路径） |
-| 5 当前语料的综合认识 | 回答working question | 分开产物/溶解/侵入 → 保留条件内结果 → 明确机制与选材外推条件 | R1–R7、R9/R10 | 七篇CMAS不是领域代表性共识；不把未证实写成全领域错误 | 最终范围与领域补证据 | ready（本语料总结） |
+| 1 评价对象、测量基准与比较资格 | 明确测了什么，哪些数据能比较 | 材料/语料 → 衰退层、最深侵入与相对侵入与#17双深度 → 制备/供液/时长边界 | R1/R9/R10/R11/R12；literature-map | Er相对零点非零腐蚀；不比较绝对厚度倍数 | 领域背景与最终纳排范围；#59绝对基准/统计 | ready（定义与限定比较） |
+| 2 条件内成分结果、产物与性能折中 | 区分侵入结果、产物表征和多性能收益 | 单篇关联及#23两温形貌 → #59 Er/Lu形貌与相对侵入 → 四元收益/代价 → 相类别 | R2/R3/R4/R9/R11/R12 | 图示排序限本配置；可见产物不是总产率；不同论文不合并排名 | 统计、定量产物/溶解量、S1与精确相式 | ready（限定事实） |
+| 3 溶解、析出与侵入的机制证据 | 从哪些观察可以走向机制解释 | 终态形貌/组成 → 黏度与焓模型 → Lu相演化 → 晶界物性/时序/损伤 | R5/R6/R7/R13；#59 E6–E8 | S1未读；焓方向源内矛盾；裂纹不证明冷却析出因果；不重复计Costa | S1、视频、热化学定义、样品映射和独立控制 | provisional（作者解释与未决分开） |
+| 4 层叠筛选的验证与候选研究问题 | 如何验证条件内排序向独立试样迁移 | 两种层叠已实施 → 各自基准/供液/层间证据 → 已有#17独立试样与配对缺口 → 独立/换序对照 → 条件性温度比较 | R1/R9/R10/R11/R12；Q1/Q4，机制问题接Q3/Q5/Q6 | 方法已实施不等于已校准；未校准不等于无效；不称跨体系尚无人尝试 | 独立试样、位置/层序、重复与等效判据；新颖性/资源 | provisional（候选验证路径） |
+| 5 当前语料的综合认识 | 回答working question | 分开产物/溶解/侵入 → 保留条件内结果 → 明确机制与选材外推条件 | R1–R7、R9–R13 | 九篇CMAS不是领域代表性共识；不把未证实写成全领域错误 | 最终范围与领域补证据 | ready（本语料总结） |
 | 可选模块 A Hf–Al₂O₃ 界面案例 | 区分反应存在与服役损伤 | 指定工艺反应 → 模型应力 → 实际 TGO 候选验证 | R8；Q7 | 单篇、块体/真实界面不同、应力分量不可套用 | 目标结构、实际热历程、前文全文 | provisional（纳入范围待定） |
 
 ready 只表示可写表中限定功能。blocked 的强论证包括：普适半径律、已证黏度反转、无序输运确证、冷却析出必然致裂与 TGO 必然判废；这些不作为待填充的确定章节保留。
@@ -110,16 +116,16 @@ ready 只表示可写表中限定功能。blocked 的强论证包括：普适半
 
 | Subsection | Function / claim sequence | Evidence / comparison | Boundary and transition | Readiness |
 |---|---|---|---|---|
-| 1.1 对象与数据范围 | 七篇CMAS块体研究；界面案例单列 | literature-map；R1–R10各自范围 | 本地语料，不能代表全部涂层服役研究 | ready |
-| 1.2 三种深度基准 | 2019衰退层 → 2023/2024最深侵入 → #59相对Er基准 | R1/R9；跨论文 not-directly-comparable | 先定义再解释排序；相对零点不提供绝对侵入量 | ready |
-| 1.3 比较资格 | 温度、时长、负载、制样及局部供液逐项核对 | R1/R10；方法 qualitative-only | 同名指标、同炉和同名义配方均不能单独保证等效 | ready |
-| 2.1 条件内成分差异 | 分别报告2019、RETaO₄与#59本试样结果 | R2/R9；内部限定描述，跨篇不总排名 | 把不同结果带入指标/实验边界解释，不预设物理反转 | ready |
+| 1.1 对象与数据范围 | 九篇CMAS块体研究；界面案例单列 | literature-map；R1–R13各自范围 | 本地语料，不能代表全部涂层服役研究 | ready |
+| 1.2 测量基准与双深度 | 2019衰退层 → 2023/2024最深侵入 → #59相对Er基准 → #17浅表/晶界双深度 | R1/R9/R11；跨论文 not-directly-comparable | 先定义再解释排序；相对零点不提供绝对侵入量 | ready |
+| 1.3 比较资格 | 温度、时长、负载、制样及局部供液逐项核对，区分跨文献拼接与#23同篇两温 | R1/R10/R12/R13；方法 qualitative-only | 同名指标、同炉和同名义配方均不能单独保证等效 | ready |
+| 2.1 条件内成分差异 | 分别报告2019、RETaO₄与#59本试样结果 | R2/R9/R11/R12；内部限定描述，跨篇不总排名 | 把不同结果带入指标/实验边界解释，不预设物理反转 | ready |
 | 2.2 产物形貌与侵入 | #59 Lu可见产物少但Er相对侵入更浅 | R9；同一试样内对照 | 可见覆盖不是总产率或析出速率；过渡到第3节机制证据 | ready |
 | 2.3 物相与性能折中 | 保留原四元性能及产物类别段 | R3/R4 | #59整体XRD不能代替逐组精确相组成 | ready |
 | 3.1 溶解—析出解释 | 把主文解释与实测结果分开列出 | #59 E4/E6/E8；R6 | S1未核、焓冲突及终态成分不能独立分离通量；不写成已证协同机制 | provisional |
-| 3.2 相演化与损伤 | 原Lu线索/时序限制，加#59裂纹观察 | R5/R7；#59 E7 | 冷却后截面不能给出起裂时刻，不升级为共同冷却致裂机制 | provisional |
+| 3.2 相演化与损伤 | Lu相演化与#23晶界弱化假说分开；#17物性/未见分层与#59裂纹观察 | R5/R7/R13；#59 E7 | 冷却后截面不能给出起裂时刻，不升级为共同冷却致裂机制 | provisional |
 | 4.1 两套层叠筛选 | 描述RETaO₄和RE₂SiO₅各自已实现的比较 | R10；qualitative-only | 相对基准与原表面参照不同；两文污染/供液证据不能互相移植 | ready（方法事实） |
-| 4.2 排序的验证路径 | 独立试样、层序/位置、局部供液、预设重复/等效界限 | Q4/P1；AI推断的候选对照 | 复现成立则收窄方法担忧；统计不显著不自动等效 | provisional |
+| 4.2 排序的验证路径 | #17独立试样仅线索；层序/位置、局部供液、预设重复/等效界限 | Q4/P1；AI推断的候选对照 | 复现成立则收窄方法担忧；统计不显著不自动等效 | provisional |
 | 4.3 定向补证据 | 先补能改变章节判断的来源，再评估温度扩展 | 下表；Q1/Q4/Q5 | 不以缺文献推断领域空白 | provisional |
 
 ## Targeted Evidence Needs
@@ -130,7 +136,7 @@ ready 只表示可写表中限定功能。blocked 的强论证包括：普适半
 |---|---|---|---|
 | #59 Table S1及测点/误差定义 | 2.2、3.1 | 核对残余熔体组成和统计；即使取得也不自动证明溶解通量 | 缺少时保留主文作者报告，不阻塞1.2/2.2限定事实 |
 | 明确测厚端点、熔体负载/保持及独立试样的研究 | 1.2–1.3、4.1–4.2；Q1/Q4 | 判断指标与构型差异是否已有校准，补充其他团队视角 | 下一轮定向筛选，不能仅按相同材料关键词入库 |
-| 同材料层叠/独立试样或位置/供液对照 | 4.2；P1 | 可支持或削弱配置偏差问题；决定P1是否仍有研究必要 | 先查最接近工作，再谈创新性 |
+| 同材料层叠/独立试样或位置/供液对照 | 4.2；P1 | 可支持或削弱配置偏差问题；决定P1是否仍有研究必要 | #17已有独立Y试样，尚非配对校准；先查最接近工作，再谈创新性 |
 | Costa原始热化学及计算参考态 | 3.1；Q5 | 明确热化学对象、方向与可外推范围 | 不按多篇转引累计独立验证 |
 
 ## Draft Paragraphs
@@ -180,7 +186,4 @@ RE₂SiO₅ 与 RETaO₄ 研究均已采用层叠试样开展多成分 CMAS 比�
 
 2026-09-08：正式纳入 #59 至元数据、R9/R10、T1压力测试、五节大纲及小节卡片；新增两段有E#定位的草稿和定向补证据表。R1–R8保留原编号；五节主结构与可选Hf模块保留。Q1/Q4/Q5与P1已同步；写作仍为draft，未形成完整正文或确认研究选题。
 
-
-## 2026-09-08 #17与#23入库交接
-
-当前库10篇（9篇CMAS）；上文保留已完成的8篇大纲/定位版本，本次未重写全部章节。新增 [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration]] 的浅表/晶界双深度、独立M-YTaO₄产物与局部模量，以及 [[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C]] 的三种二硅酸盐同篇1300/1500 °C、50 h形貌对照。第1/3/4节、P1/P2后续整合须保留：双深度端点不同；热循环寿命未验证；两温形貌不同不等于统一指标排名反转；内耗/TEM支持机制线索，不证明软化独立因果。Q1和指定材料高温gap已作最小覆盖修正。
+2026-09-09：#17/#23正式整合；大纲覆盖10篇，R1–R13及更新后小节卡片；第一节已由五篇扩展为七篇直接来源。第二节及后续仍为大纲/示例，未假定机制确证。P1/P2与Q1/Q3/Q4/Q6同步边界，未确认选题。

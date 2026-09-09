@@ -450,3 +450,66 @@
 - 更新：索引、源页关联、比较矩阵、问题与恢复记录。当前10篇；大纲/定位仍draft，#17/#23的正文整合待接续。
 - 发现：CMAS背景需分开应用需求、反应/侵入/损伤及评价口径；本地证据不等于领域新颖性检索。
 - 后续：整合新增两篇至第一节/大纲后扩写第二节；原文未决保留。PDF/MD及被忽略导入管理文件不上传，后续改动不自动发布。
+
+
+## [2026-09-09] update | 远程上传核验及#17/#23正式整合
+
+- 输入：用户确认上传至既有GitHub仓库，并要求整合两篇论文。
+- 操作：成功推送calude_wiki_10papers_section1；远程main与同名标签均解引用至3266d7161e854d1228f6679240740067422f55f2。随后完成新一轮正文整合。
+- 新建：无独立页面；大纲新增R11–R13，第一节新增双深度、同篇两温和独立试样/损伤段。
+- 更新：10篇大纲、七篇直接来源的第一节、P1/P2、Q3/Q4/Q6及索引/恢复/源页交接。
+- 发现：同篇两温不等于统一深度反转，独立样品不等于已校准层叠，物性线索不等于软化/损伤因果确证。
+- 后续：第一节可审阅，第2节可接续；本次后续整合尚未提交上传。
+
+## [2026-09-09] query | 暂停扩写，背景文献查漏补缺
+
+- 输入：用户要求2–3条Scopus检索式或网上下载候选。
+- 操作：检查当前语料、大纲与定位；核查Scopus官方语法，初筛出版社页面。尚未实际运行Scopus，无检索命中数或完整性声明。
+- 新建：无。
+- 更新：本日志；未扩写、未新增入库或提升科学判断。
+- 发现：建议补应用/天然沉积物背景、熔体组成与物性、实际涂层微结构及损伤。这是语料缺口，不是已确认领域gap。
+- 后续：优先筛选2篇背景综述与4–6篇直接研究，获取PDF及补充材料后去重核查；暂不扩写第二节。
+
+可复用Scopus Advanced Search检索式：
+
+```text
+TITLE-ABS-KEY((CMAS OR "molten silicate*" OR "volcanic ash" OR "sand deposit*") AND ("thermal barrier coating*" OR "environmental barrier coating*") AND (degrad* OR corrosion OR damage OR deposit*))
+
+TITLE-ABS-KEY((CMAS OR "calcium magnesium aluminosilicate" OR "molten silicate*") AND ("rare earth silicate*" OR "rare-earth silicate*" OR monosilicate* OR disilicate* OR tantalate*) AND (composition OR viscosity OR wetting OR thermodynamic* OR dissolution OR crystallization OR precipitation))
+
+TITLE-ABS-KEY((CMAS OR "molten silicate*") AND ("thermal barrier coating*" OR "environmental barrier coating*") AND (infiltration OR penetration) AND (microstructure OR porosity OR "thermal cycl*" OR stress OR crack* OR delamination OR spallation))
+```
+
+下载候选仅见出版社页面/摘要片段，未读全文、未查collection重复：
+
+- Effect of CMAS viscosity on the infiltration depth in thermal barrier coatings of different microstructures：https://www.sciencedirect.com/science/article/pii/S0257897221012135
+- Resistance of ytterbium silicate environmental barrier coatings against molten calcium-magnesium-aluminosilicate (CMAS): A comprehensive study：https://www.sciencedirect.com/science/article/pii/S0257897224001701
+- CMAS infiltration behavior of atmospheric plasma-sprayed thermal barrier coating with tailored pore structures：https://www.sciencedirect.com/science/article/pii/S0272884223027980
+- 语法来源：https://www.elsevier.support/scopus/answer/how-can-i-best-use-the-advanced-search
+
+## [2026-09-09] error-fix | Scopus检索兼容性修正
+
+- 输入：用户反馈通配符、特殊字符或字段代码报错。
+- 操作：复查Scopus官方字段及高级检索说明；回复最小入口测试与三条不含通配符的替代式。
+- 新建：无。
+- 更新：memory/error_log.md及本日志。
+- 发现：TITLE-ABS-KEY为受支持字段；缺少实际提交式及入口，报错具体原因未确定，替代式亦未实际运行。
+- 后续：用户先测试TITLE-ABS-KEY(CMAS)，再分别运行应用背景、熔体行为、涂层损伤三组查询；仍报错时核对完整输入和入口。
+
+## [2026-09-09] query | Scopus三个collection与指定三篇标题摘要分层筛选
+
+- 输入：用户指定scopus_1/scopus_2/scopus_3及田老师下陶瓷+腐蚀的三篇，要求基于标题和摘要筛选。
+- 操作：本机Zotero Integrated MCP实时读取四个collection直接成员92/124/6/3条，分页至空页；225次成员记录对应186个不同item key及186个DOI/题名分组。39次为跨collection重叠；未改变Zotero条目。
+- 新建：docs/scopus-screening-2026-09-09/report.md、screening.csv；四份raw/zotero_imports下管理清单、manifest及本轮元数据/联合筛选记录（原件未修改）。
+- 更新：index、context_policy及error_log中的元数据待核记录。
+- 发现：12篇A优先、14篇B1第二批、87篇B2专题储备、73篇C本轮暂不纳入。全部检查题名及摘要/节选，A/B1完整摘要阅读，其余实际覆盖逐条标注；2篇缺摘要从已有PDF首页补读。仅指定3篇返回PDF附件，与现有10篇wiki未发现DOI/item key对应。
+- 后续：先补优先候选全文和补充材料，再按2–3篇处理；没有自动入库或升级科学claim，没有上传。暂停扩写，EBC系统背景、原始热化学和层叠配对校准仍需补查。
+
+## [2026-09-09] update | 筛选版本上传准备
+
+- 输入：用户要求处理新文献前先上传当前版本。
+- 操作：本次版本命名为calude_wiki_scopus_screening，包含#17/#23整合及186篇筛选报告、CSV和检索修正记录；上传既有origin main。
+- 新建：版本提交与同名标签（结果以Git核验为准）。
+- 更新：本日志。
+- 发现：原始PDF和被忽略的raw管理文件沿用已有上传范围，不纳入本次提交。
+- 后续：上传后独立增补陶瓷腐蚀方向的组内/组外及组外作者信息规则；本条不提前声明推送成功。

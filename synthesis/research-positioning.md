@@ -3,7 +3,7 @@ type: synthesis
 status: draft
 review_status: checked
 created: 2026-08-28
-updated: 2026-09-08
+updated: 2026-09-09
 topics:
   - "[[wiki/topics/Ceramic Corrosion]]"
   - "[[wiki/topics/Thermal Barrier Coatings]]"
@@ -26,7 +26,7 @@ tags:
 
 用户已确认陶瓷-腐蚀领域和文献综述用途，尚未确定核心问题与具体材料主线（[[memory/project_profile]]）。本轮任务是纠正旧定位的证据前提，**没有选定研究方向**。以下均为 AI 推断、provisional；新颖性 not-assessed、资源可行性 pending，不使用 promising/high 等成熟选题评级。
 
-八篇语料与比较边界见 [[synthesis/literature-map]]；Q 编号以 [[synthesis/open-questions]] 为准。同一 collection 的材料实例不足以判定一个方向“拥挤”“无人研究”或“窗口仍开放”。
+十篇语料与比较边界见 [[synthesis/literature-map]]；Q 编号以 [[synthesis/open-questions]] 为准。同一 collection 的材料实例不足以判定一个方向“拥挤”“无人研究”或“窗口仍开放”。
 
 ## Existing Contributions and Remaining Boundaries
 
@@ -45,6 +45,7 @@ tags:
 - 候选定位：选定一个材料体系，先检验指标、供液与试样配置对排序的影响，再判断是否有必要扩展温度；不以“验证已知高温反转”为出发点。
 - 新增直接基础：[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E1]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E2]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E3]]、[[wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening#E5]] 表明七组分层叠筛选已实施，Er为相对侵入基准，且存在局部供液差异。P1需要验证测厚与构型对排序的影响，不能再把“把层叠法迁移至单硅酸盐”本身作为待实现贡献，也不以未校准推断方法无效。
 - 已有基础：[[wiki/papers/2019-RE2SiO5-CMAS-General-Trend#E1]]、[[wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation#E7]]、[[wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening#E2]] 明确比较/独立性边界。潜在贡献是可验证的条件内评价关系，不是预设跨体系抗性总榜。
+- #17/#23补充：[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E2]]、[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E3]] 的双深度使P1还需区分浅表层与晶界侵入；[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E8]] 表明独立Y试样已有，但尚未与层叠配对校准。[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E1]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E4]] 已有同篇两温形貌证据，不能把“首次增加1500 °C试验”作为贡献；要解决的是特定材料/指标和配置下仍未回答的比较问题。
 - 最小路径（AI 推断）：统一绝对/相对测厚与试样定义 → 独立试样、位置/层序及局部供液对照 → 预设重复性/等效判据 → 有目标依据时加温度对照。
 - 可行性 pending：需要制样、热历程、熔体保持和表征资源；“仅把温度升高即可”不成立。
 - 竞争工作/新颖性 not-assessed：需检索同材料、指标、方法与温区的最接近研究，包括已核主文的#59及其最接近独立试样/供液对照研究；不能由当前语料缺失判断空白。
@@ -56,6 +57,7 @@ tags:
 - 对应：Q3/Q6，必要时联系 Q2；[[wiki/gaps/Cooling-Precipitation-Coating-Integrity]]、[[wiki/gaps/Structure-Radius-Decoupling]]。
 - 候选定位：对明确定义的单硅酸盐组成，先核查初始杂相及高温/冷却时序，再检验相演化与侵入/损伤的因果联系；高熵是否稳定仅是可选待检验假说。
 - 已有基础：[[wiki/claims/Phase-Decomposition-Intergranular-Infiltration]] 为 partially-supported；[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E1]]、[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E3]]、[[wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth#E6]] 限制排他机制；[[wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC#E8]] 不支持已证熵稳定。
+- 新增机制边界：[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E4]]、[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E6]] 和 [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E5]] 提供晶界侵入/内耗线索，但不等于单硅酸盐相分解机制；不因新增论文扩大P2为所有陶瓷共同根源。[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E6]]、[[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration#E7]] 的局部还原模量/未见分层不证热循环可靠性；[[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C#E7]] 的裂纹没有原位起裂证据。P2如扩展到晶界状态，应先区分相分解、初始杂相、软化和孔隙影响，并确认具体材料与可行对照。
 - 最小路径（AI 推断）：核清视频/原始相证据 → 定量初始杂相和相演化 → 匹配热历史/微结构的对照 → 追踪侵入或损伤。若选择锆酸盐结构问题，须先解决样品映射，不能直接套此路线。
 - 可行性 pending：需要可追踪相变化、定量相组成与适当损伤/路径测量；局部 TEM 不能独立排除全部晶界因素。
 - 竞争工作/新颖性 not-assessed：需检索相稳定、杂相侵蚀与时序研究，区分本文未做和已有答案；不能把相稳定性列为此前缺失的普适首要判据。
@@ -88,7 +90,4 @@ tags:
 
 2026-09-08：#59 正式补入P1及竞争工作范围；相对深度不作为绝对值、清晰EDS不作为完全独立性证明。P1继续provisional；本轮写作从评价指标部分展开不等于用户已选择P1作为博士课题。P2/P3不作扩展，新颖性和资源仍待评估。
 
-
-## 2026-09-08 #17与#23入库交接
-
-当前库10篇（9篇CMAS）；上文保留已完成的8篇大纲/定位版本，本次未重写全部章节。新增 [[wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration]] 的浅表/晶界双深度、独立M-YTaO₄产物与局部模量，以及 [[wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C]] 的三种二硅酸盐同篇1300/1500 °C、50 h形貌对照。第1/3/4节、P1/P2后续整合须保留：双深度端点不同；热循环寿命未验证；两温形貌不同不等于统一指标排名反转；内耗/TEM支持机制线索，不证明软化独立因果。Q1和指定材料高温gap已作最小覆盖修正。
+2026-09-09：正式整合#17/#23至P1/P2；P3保留原范围。新增证据收窄所需验证，不作为选题已定或新颖性已证的依据。
