@@ -44,7 +44,7 @@ tags:
 
 | ID | Proposed point | Evidence/claim | Independent source basis | Conditions and metric | Assessment/review status | Comparison status | Counter-evidence/limit | Allowed wording |
 |---|---|---|---|---|---|---|---|---|
-| R1 |  | [[D/wiki/claims/Claim]] or [[D/wiki/papers/Paper]]#E1 |  |  |  | directly-comparable / qualitative-only / not-directly-comparable |  |  |
+| R1 |  | [[D/wiki/claims/Claim]] or [[D/wiki/papers/Paper#E1]] |  |  |  | directly-comparable / qualitative-only / not-directly-comparable |  |  |
 
 只纳入与写作问题相关的证据。旧大纲、日志和索引不能单独充当证据。
 
@@ -161,4 +161,4 @@ tags:
 - [ ] Index/log/tags/aliases were updated only when applicable.
 
 
-<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。 -->
+<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。证据链接按根AGENTS第6节核对真实标题；#E1仅适用于存在标题E1的页面。页面状态与证据核查范围按hard_memory的Evidence Rules第1节区分。 -->

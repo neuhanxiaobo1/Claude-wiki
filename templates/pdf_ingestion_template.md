@@ -3,113 +3,26 @@ type: template
 template_for: pdf-ingestion-checklist
 status: active
 created: 2026-06-02
-updated: 2026-09-06
+updated: 2026-09-10
 tags:
   - ingestion
 ---
 
 # PDF Ingestion Checklist
 
-本文件是阅读过程检查单，不是第二份论文卡片。工作结果写入 `templates/paper.md` 对应的 paper 页面。新入库和完整复核完整使用；局部修订只填与指定论断有关的部分。
+本文件是一次完成核对入口，不是待填写或另存的论文卡片；结果只写目标paper及必要维护记录。执行步骤和阅读覆盖以agents/pdf_read_agent.md为准，证据底线见hard_memory，收尾触发条件见根AGENTS第7节。
 
-## 1. Task Scope
+新入库/完整复核核对全部适用项；局部修订只核对指定判断及直接影响，不重填整卡。用户要求保存核对报告时可另存本次结果，但引用已有证据，不重复转录一套数据。
 
-- Mode: new-ingestion / full-review / local-revision
-- Target paper/page:
-- Requested claim or sections:
-- Allowed downstream changes:
-- Completion condition:
+| 核对项 | 判据 | 结果落点 |
+|---|---|---|
+| 任务与来源 | 对象、模式、范围明确；来源身份/版本与去重已核；非关键缺项不阻塞独立工作 | Metadata and Sources；必要的任务记录 |
+| 阅读覆盖 | 实际章节、图表/公式、补充材料与未读影响明确；按阅读流程触发原件回查 | Reading and Verification Status |
+| 设计与比较 | 对象、条件、对照、指标定义、单位、误差/统计及数据独立性足以判断；不可比不排名 | Study Design / E# |
+| 证据定位 | 主要结论回指真实E#或等价原文定位；稳定ID与真实标题可对应 | Key Evidence |
+| 结论评价 | 结果、作者解释、转引、AI推断分开；支持理由和适用边界明确 | Conclusions for Reuse / Finding |
+| 局限与未决 | 作者局限、证据缺失与影响未丢失；语料缺口不自动升为领域gap；不确定性紧邻判断 | E# / Finding / Limitations and Open Questions |
+| 直接下游 | 仅改本轮范围内直接依赖，范围外列具体待复核；不继续采用已知错误 | Downstream Review |
+| 状态与收尾 | 局部核查不升级整页；原件未改；新标签/别名按需核对；记录只按触发条件更新 | 页面状态；所属范围log/index/短状态等 |
 
-## 2. Source Identity
-
-- Bibliographic identity and identifier:
-- Source versions available: formal PDF / preprint / MinerU / translation / supplement / video / other
-- Primary reading source:
-- Zotero item / attachment (if applicable):
-- Existing page / duplicate check:
-- Source limitations:
-
-## 3. Reading Coverage
-
-| Part/material | Status | Evidence actually checked | Missing material and impact |
-|---|---|---|---|
-| Abstract/introduction | read / partial / unavailable |  |  |
-| Methods | read / partial / unavailable |  |  |
-| Results/discussion | read / partial / unavailable |  |  |
-| Conclusion/limitations | read / partial / unavailable |  |  |
-| Key figures/tables/formulas | checked / partial / unavailable |  |  |
-| Supplement/video | checked / description-only / unavailable / not needed |  |  |
-
-PDF recheck triggers: number/unit/sign/sample/formula/trend; figure-dependent comparison; OCR/translation conflict; error bars, missing combinations or exceptions.
-
-## 4. Study Design and Comparability
-
-- Objects/materials/data:
-- Necessary conditions and coverage:
-- Controls/baselines and whether same-condition:
-- Metrics and operational definitions:
-- Values, units, uncertainty/repeats/statistics:
-- Measured, calculated, figure-estimated or cited:
-- Variables that change together:
-- Data source independence:
-
-## 5. Key Evidence Records
-
-Create only the records needed for major conclusions or disputes.
-
-### E1
-
-- Evidence type: direct observation/measurement / calculation/model / author interpretation / cited prior work / AI inference
-- Object and conditions:
-- Metric and result:
-- Source locator:
-- Supports:
-- Does not establish / alternative explanation:
-- Verification status and material checked:
-
-Repeat as E2, E3… only when needed.
-
-## 6. Claim Evaluation
-
-For each proposed key finding:
-
-- Claim:
-- Evidence IDs:
-- Support: sufficient / partial / insufficient — reason:
-- Scope and exceptions:
-- Author interpretation separated:
-- Wording risks: causal / significant / none / all / first / best / universal / superior
-- Decision: retain / narrow / withdraw / pending
-
-## 7. Contribution, Limitations and Open Questions
-
-- Author-stated contribution:
-- Contribution confirmed by this reading:
-- Author-stated limitations:
-- Additional limitations from evidence boundary (`AI 推断`):
-- Corpus gap or candidate question (optional):
-- Field gap status: not assessed / searched within stated scope / pending
-
-## 8. Write and Propagate
-
-- Paper sections created/changed:
-- Reused evidence IDs:
-- Related pages updated within scope:
-- Downstream claims/pages marked `needs-review` or listed for review:
-- Error log needed:
-- Index change needed and reason:
-- Log entry added:
-
-## Completion Gate
-
-- [ ] Source identity and actual coverage are explicit.
-- [ ] Major findings include conditions, metric, result, locator, evidence type and verification status.
-- [ ] Author interpretation, cited work and AI inference are not presented as direct measurements.
-- [ ] Comparability and data independence were checked before rankings, ratios or synthesis.
-- [ ] Missing evidence limits only the dependent conclusion and is recorded nearby.
-- [ ] Summary wording does not exceed the evidence.
-- [ ] Local revision did not silently become a whole-page or whole-wiki rewrite.
-- [ ] Downstream impact, log and index conditions were checked.
-
-
-<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。 -->
+检查不通过时修正本轮可处理项，其余在受影响判断旁标明未决与使用限制；不得用一行“已检查”代替实际证据。已有页面记录足够时直接核对，不复制表格、不逐项写通过流水。

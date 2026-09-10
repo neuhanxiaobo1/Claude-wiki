@@ -134,8 +134,8 @@ cd ResearchWiki
 
 ```text
 D/memory/project_profile.md
-memory/tag_taxonomy.md
-memory/term_aliases.md
+D/memory/tag_taxonomy.md
+D/memory/term_aliases.md
 ```
 
 首次使用填写已确定的信息；已有项目复用配置，未确定的研究问题可保留待确认：
@@ -146,6 +146,8 @@ memory/term_aliases.md
 - Zotero 设置；
 - 输出语言和引用偏好；
 - 初始标签和术语别名。
+
+个人默认偏好见`memory/user_profile.md`。公共词表`memory/tag_taxonomy.md`与`memory/term_aliases.md`提供通用约定，领域词条只写上方D内词表。规则出处和冲突处理见根AGENTS第3节。
 
 ### Step 3: Connect Zotero / 连接 Zotero
 
@@ -194,7 +196,7 @@ memory/term_aliases.md
 - `D/wiki/gaps/`：研究空白、限制和机会。
 - `D/wiki/reviews/`：综述草稿和 related work。
 - `D/synthesis/`：跨论文综合页面。
-- `memory/`：长期规则、项目配置、错误记录和上下文管理。
+- 根`memory/`：公共规则、默认偏好与公共维护；`D/memory/`：本方向研究配置、状态与记录。
 - `templates/`：页面模板。
 - `agents/`：任务型智能体规则。
 
@@ -271,8 +273,8 @@ ResearchWiki 可通过当前可用的 Zotero 插件/connector 读取指定 colle
 | File | Purpose |
 |---|---|
 | `D/memory/project_profile.md` | 项目领域、目标、用户用途 |
-| `memory/tag_taxonomy.md` | 标签体系 |
-| `memory/term_aliases.md` | 术语别名和标准写法 |
+| `memory/tag_taxonomy.md` / `D/memory/tag_taxonomy.md` | 公共标签规则 / 本方向领域标签 |
+| `memory/term_aliases.md` / `D/memory/term_aliases.md` | 通用术语约定 / 本方向术语别名 |
 | `memory/context_policy.md` | 公共恢复机制与架构任务入口 |
 | `D/memory/current_context.md` | 所选方向研究进度与恢复入口 |
 | `memory/user_profile.md` | 使用者与公共默认偏好 |
@@ -363,7 +365,7 @@ ResearchWiki/
 4. 有明确问题时进行综合、gap 或综述写作，证据不足处保留未决。
 5. 阶段切换时更新短状态；需要维护时做限定范围 lint。
 
-本库规则完善进度见 [九阶段计划](directions/ceramic-corrosion/docs/rules-improvement-plan.md)；规则更新不代表既有七篇论文和大纲已修复。
+本库公共完善进度见[总索引](index.md)和[当前公共任务](memory/context_policy.md)；各方向论文数量与研究进度见其索引和短状态。旧九阶段计划保留在原方向docs中作为历史记录，规则更新不代表旧论文或大纲已经完成证据复核。
 
 ## Privacy And Open Source Notes / 隐私与开源注意事项
 

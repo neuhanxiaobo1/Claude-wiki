@@ -61,9 +61,9 @@ Method 页面描述可重复使用的实验、计算、数据处理或综合方�
 
 ## Validated Uses
 
-| Use case | Evidence | Conditions/sample | What was established | Verification |
+| Use case | Evidence | Conditions/sample | What was established | Evidence verification scope |
 |---|---|---|---|---|
-|  | [[D/wiki/papers/Paper]]#E1 |  |  | checked / partial / pending |
+|  | [[D/wiki/papers/Paper#E1]] |  |  | 已核材料与范围；未决及影响 |
 
 “被论文使用”不等于“方法有效”。Validated Uses 应链接具体证据，说明方法在什么条件下回答了什么问题。
 
@@ -126,4 +126,4 @@ Method 页面描述可重复使用的实验、计算、数据处理或综合方�
 - [ ] Index/log/tags/aliases were updated only when applicable.
 
 
-<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。 -->
+<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。证据链接按根AGENTS第6节核对真实标题；#E1仅适用于存在标题E1的页面。页面状态与证据核查范围按hard_memory的Evidence Rules第1节区分。 -->

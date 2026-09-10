@@ -1,0 +1,34 @@
+{
+  "mode": "direction",
+  "direction": "ceramic-corrosion",
+  "selected_files": 40,
+  "read_files": 41,
+  "links_seen": 963,
+  "errors": 0,
+  "warnings": 2,
+  "findings": [
+    {
+      "level": "warning",
+      "code": "link_ambiguous",
+      "path": "directions/ceramic-corrosion/index.md",
+      "message": "index",
+      "line": 3
+    },
+    {
+      "level": "warning",
+      "code": "link_ambiguous",
+      "path": "directions/ceramic-corrosion/index.md",
+      "message": "AGENTS",
+      "line": 15
+    }
+  ],
+  "limitations": [
+    "Structure only: no scientific evidence, source availability, tag semantics or DOI deduplication review.",
+    "No raw, external files, hidden directories, symlinks/junctions or historical report/log contents scanned.",
+    "Wikilinks: scoped file targets, aliases, exact ATX headings and block ID existence; not desktop rendering.",
+    "Markdown: simple inline local file targets only; anchors and complex/reference-style syntax not validated.",
+    "Fenced code, inline code and HTML comments excluded; explicit template placeholders are not real pages.",
+    "No write protection for other programs, backup creation, restore or concurrent-write locking is provided."
+  ],
+  "scientific_evidence_checked": false
+}

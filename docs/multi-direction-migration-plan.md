@@ -1,14 +1,14 @@
 ---
 status: draft
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-11
 ---
 
 # 多研究方向知识库改造方案
 
 本方案依据用户 2026-09-09 的需求：教授同时开展多个研究方向，保留当前陶瓷腐蚀方向的积累，新增方向有独立规则、资料、总结和记录；不同方向允许明确借鉴，每次开始研究工作时选择继续某方向或新建方向。
 
-当前进度：阶段0–4已完成各自声明范围工作；第二个实际方向已创建，见 [[docs/migration-stage4-2026-09-09/report]]。阶段5真实论文试运行尚未执行。阶段2目录/规则已切换，旧screening.csv因Windows占用留有退役副本待清理，见 [[docs/migration-stage2-2026-09-09/report]]；阶段3文件演练与规则逐案检查见 [[docs/migration-stage3-2026-09-09/report]]，不等于独立新会话或真实论文试运行。阶段1材料保留为迁移前快照；后文阶段0/1当时边界是历史说明，不代表当前仍使用旧目录。
+当前进度：阶段0–4已完成各自声明范围工作；第二个实际方向见 [[docs/migration-stage4-2026-09-09/report]]。阶段5的首篇电子封装真实论文入库已完成，见 [[docs/optimization-stage-d-2026-09-10/report]]；独立新会话、Obsidian桌面、跨方向借鉴和备份恢复仍待真实案例验证。阶段2目录/规则已切换，旧screening.csv因Windows占用留有退役副本待清理，见 [[docs/migration-stage2-2026-09-09/report]]。阶段1材料保留为迁移前快照；后文阶段0/1当时边界是历史说明，不代表当前仍使用旧目录。
 
 ## 1. 架构选择
 
@@ -182,4 +182,4 @@ ResearchWiki/
 
 ## 10. 下一步入口
 
-下一步阶段5：用户已指定并建立电子封装方向（electronic-packaging）；待指定首篇论文/PDF或Zotero collection，再开展真实阅读与总结试运行。旧CSV占用解除后只清理该退役副本，不重做迁移；受保护raw笔记旧链接继续通过映射溯源。外部Zotero/MinerU原件未备份也不搬动。
+阶段5接续：电子封装方向（electronic-packaging）已从指定Zotero collection完成首篇真实论文阅读与总结试运行；后续按 [[docs/optimization-stage-d-2026-09-10/report]] 验证局部修订、跨方向借鉴、独立会话/桌面及备份恢复。旧CSV占用解除后只清理该退役副本，不重做迁移；受保护raw笔记旧链接继续通过映射溯源。外部Zotero/MinerU原件未备份也不搬动。

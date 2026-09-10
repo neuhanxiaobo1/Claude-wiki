@@ -2,7 +2,7 @@
 type: memory
 status: active
 created: 2026-08-20
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # Project Profile
@@ -54,7 +54,7 @@ updated: 2026-09-09
 - Zotero collection 名称：田老师（首个导入 collection，2026-08-21 由「田志林」更名，路径 毕设 > 组内文章 > 博士 > 田老师）
 - Citation key 规则：待确认
 - 是否允许复制 Zotero PDF 到 `directions/ceramic-corrosion/raw/papers/`：是
-- Zotero 单次导入最大论文数：3（默认单篇确认制）
+- Zotero 单次导入最大论文数：3；未选定对象时默认先选定单篇，已明确授权的单篇或批次不逐篇再次确认，当前用户指令优先。
 
 已有用户指定的单篇或批次授权时，在上述范围及当前指令内执行，不重复索取同一确认；已知论文直接走阅读/修订流程。路径或附件不可用时记录实际缺失，不把默认路径当成已读取的证据。
 

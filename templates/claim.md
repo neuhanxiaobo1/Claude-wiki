@@ -41,9 +41,9 @@ tags:
 
 每条证据引用 paper 页面中的 `E#` 或等价的具体原文定位。相同原始数据被多篇论文转引时使用同一 `independence_group`；这只算一个独立数据来源。
 
-| Evidence | Role | Evidence type | Independence group / original data source | Conditions and metric | What it supports | Verification |
+| Evidence | Role | Evidence type | Independence group / original data source | Conditions and metric | What it supports | Evidence verification scope |
 |---|---|---|---|---|---|---|
-| [[D/wiki/papers/Paper]]#E1 | support / challenge / limit | direct / calculated / author interpretation / cited prior work | dataset-or-experiment-1 |  |  | checked / partial / pending |
+| [[D/wiki/papers/Paper#E1]] | support / challenge / limit | direct / calculated / author interpretation / cited prior work | dataset-or-experiment-1 |  |  | 已核材料与范围；未决及影响 |
 
 ### Evidence Notes
 
@@ -108,4 +108,4 @@ tags:
 - [ ] Index/log/tags/aliases were updated only when applicable.
 
 
-<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。 -->
+<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。证据链接按根AGENTS第6节核对真实标题；#E1仅适用于存在标题E1的页面。页面状态与证据核查范围按hard_memory的Evidence Rules第1节区分。 -->

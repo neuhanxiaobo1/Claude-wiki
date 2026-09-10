@@ -4,9 +4,9 @@
 
 ## 方向绑定与路径约定
 
-先遵循根目录AGENTS.md绑定本会话方向，再显式读取 `D/AGENTS.md`。D是已注册方向的真实根路径；未选方向不能写研究文件。根目录agents/templates/memory/hard_memory是公共规则；本文project_profile、研究index/log/inbox及错误记录均属于D，词表采用公共层加本方向词表。仅使用本方向声明的阅读/综合/写作扩展，未声明则沿用通用流程。模板中的D与direction_id必须展开，生成双链使用vault完整路径。
+先按根`AGENTS.md`第2–3节完成启动，绑定本会话D并显式读取方向AGENTS、profile和短状态；已读未变规则复用，仅加载本任务适用扩展。
 
-默认读写范围限D；另一方向资源只按具体需要定向读取、来源方向默认只读。跨方向同DOI页面可以独立存在，但同一原始数据不能重复计为独立验证。去重/别名合并限本方向。公共架构lint无需科研方向，写入根级维护记录；单方向任务不得更新其他方向。
+读写范围与跨方向借鉴遵循根AGENTS第4–7节，证据底线遵循`memory/hard_memory.md`；写入前展开D和direction_id。未选方向不写研究文件，来源方向默认只读。
 
 ## 1. 启动与范围
 
@@ -19,6 +19,8 @@
 
 优先读取相关 paper 的 Conclusions for Reuse、Key Evidence、review_status 和 Downstream Review，再读 claim/topic/method。旧 synthesis、日志和大纲只帮助定位，不能作为原始证据。关键 claim 为 `needs-review`、证据不足或与原文定位不符时，回到 paper E#；若需新读原文，按 pdf_read_agent 的局部复核流程处理或列为阻塞该判断的待办。
 
+新模板在Conclusions for Reuse内合并Finding与限定措辞；旧页可从原Findings或等价结论段定位，不因缺少新栏目要求重排正文。无论布局如何都回查对应证据与未决，不把栏目存在当作核查通过。
+
 ## 2. 语料边界
 
 综合前记录：实际纳入论文、排除及原因、年份/材料/方法覆盖、研究组或来源集中程度，以及缺失视角。当前语料的共同认识不能自动称为领域共识。
@@ -29,11 +31,13 @@
 
 先建立服务于研究问题的最小矩阵，再写叙事。至少包含：
 
-| Paper/evidence | Research object | Key variable | Necessary conditions | Metric/operational definition | Result | Original data source / independence group | Review status |
-|---|---|---|---|---|---|---|---|
-| [[D/wiki/papers/Paper]]#E1 |  |  |  |  |  |  | checked / partial / needs-review |
+| Paper/evidence | Research object | Key variable | Necessary conditions | Metric/operational definition | Result | Original data source / independence group | Source page review_status | Evidence verification scope |
+|---|---|---|---|---|---|---|---|---|
+| [[D/wiki/papers/Paper#E1]] |  |  |  |  |  |  | draft / checked / needs-review | 已核材料与范围；未决及影响 |
 
 按任务增加结构、制备、对照、误差或模型假设等列；不为表格完整而补造未报告字段。
+
+状态含义见hard_memory的Evidence Rules第1节；缺少页面状态时记录缺失，不推定checked。示例假设目标有真实标题E1；旧页须使用实际标题，见根AGENTS第6节。
 
 ### 比较资格
 
@@ -92,4 +96,4 @@
 - [ ] 未用旧 D/synthesis/log/大纲代替 paper E# 或原文证据。
 - [ ] 候选问题没有被自动升级为领域 gap。
 - [ ] 仅在本轮范围内更新页面；下游待复核已记录。
-- [ ] `D/log.md` 已追加；只有索引导航/说明/重要状态变化时更新 `D/index.md`。
+- [ ] 记录按根AGENTS第7节实际触发；重要综合写主log，普通只读问答按例外处理，索引/短状态不重复抄写证据和流水。

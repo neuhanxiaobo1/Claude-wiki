@@ -1,6 +1,6 @@
 # 电子封装方向索引
 
-研究重点：烧结使用的电子银膏。主要关注焊接温度、剪切强度、孔隙率、热导率、导电性能。当前为新方向初始化，尚无论文入库。
+研究重点：烧结使用的电子银膏。主要关注焊接温度、剪切强度、孔隙率、热导率、导电性能。已完成首篇真实论文入库；当前数量和后续任务以本页及方向短状态为准。
 
 ## 配置与工作入口
 
@@ -16,11 +16,11 @@
 
 ## Papers
 
-暂无。
+- [[directions/electronic-packaging/wiki/papers/2015-Bimodal-AgNP-Paste-Thermal-Conductivity-Shear-Strength|Li et al. (2015) — Bimodal sintered silver nanoparticle paste]]：250 °C/30 min双峰AgNP浆料；孔隙率、热导率及热循环前后剪切强度。主PDF已核，SI与电学性能缺项已标明。
 
 ## Topics / Methods / Authors / Datasets / Metrics
 
-暂无知识页；初始标签/术语不是已建立的科学页面。
+暂无独立知识页；初始标签/术语不是已建立的科学页面。
 
 ## Claims / Gaps / Reviews / Synthesis
 

@@ -4,9 +4,9 @@
 
 ## 方向绑定与路径约定
 
-先遵循根目录AGENTS.md绑定本会话方向，再显式读取 `D/AGENTS.md`。D是已注册方向的真实根路径；未选方向不能写研究文件。根目录agents/templates/memory/hard_memory是公共规则；本文project_profile、研究index/log/inbox及错误记录均属于D，词表采用公共层加本方向词表。仅使用本方向声明的阅读/综合/写作扩展，未声明则沿用通用流程。模板中的D与direction_id必须展开，生成双链使用vault完整路径。
+先按根`AGENTS.md`第2–3节完成启动，绑定本会话D并显式读取方向AGENTS、profile和短状态；已读未变规则复用，仅加载本任务适用扩展。
 
-默认读写范围限D；另一方向资源只按具体需要定向读取、来源方向默认只读。跨方向同DOI页面可以独立存在，但同一原始数据不能重复计为独立验证。去重/别名合并限本方向。公共架构lint无需科研方向，写入根级维护记录；单方向任务不得更新其他方向。
+读写范围与跨方向借鉴遵循根AGENTS第4–7节，证据底线遵循`memory/hard_memory.md`；写入前展开D和direction_id。未选方向不写研究文件，来源方向默认只读。
 
 ## 1. 启动与写作契约
 
@@ -37,9 +37,11 @@
 
 | Proposed point | Evidence/claim | Independent source basis | Conditions and metric | Assessment/review status | Comparison status | Counter-evidence/limit | Allowed wording |
 |---|---|---|---|---|---|---|---|
-|  | [[D/wiki/claims/Claim]] or [[D/wiki/papers/Paper]]#E1 |  |  |  | directly-comparable / qualitative-only / not-directly-comparable |  |  |
+|  | [[D/wiki/claims/Claim]] or [[D/wiki/papers/Paper#E1]] |  |  |  | directly-comparable / qualitative-only / not-directly-comparable |  |  |
 
 矩阵只保留与当前写作问题相关的证据。不同指标、条件或同源数据不得因为写入同一段落就变成可直接比较。
+
+页面review_status与本条证据核查范围按hard_memory的Evidence Rules第1节区分；局部已核不代表整页checked。证据链接按根AGENTS第6节核对真实标题，示例中的E1不替代旧页实际标题。
 
 ## 4. 候选主线与压力测试
 

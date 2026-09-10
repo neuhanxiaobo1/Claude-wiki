@@ -1,0 +1,146 @@
+{
+  "mode": "public",
+  "direction": null,
+  "selected_files": 34,
+  "read_files": 35,
+  "links_seen": 79,
+  "errors": 0,
+  "warnings": 18,
+  "findings": [
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: what-this-project-is--项目定位",
+      "line": 19
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: why-this-project-exists--为什么需要它",
+      "line": 20
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: core-idea--核心思想",
+      "line": 21
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: core-workflow--核心工作流",
+      "line": 22
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: quick-start--快速开始",
+      "line": 23
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: agent-system--智能体体系",
+      "line": 24
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: knowledge-layers--知识库分层",
+      "line": 25
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: zotero-and-pdf-ingestion--zotero-与-pdf-入库",
+      "line": 26
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: wiki-pages--wiki-页面类型",
+      "line": 27
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: synthesis-gap-and-review--综合gap-与综述",
+      "line": 28
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: context-and-maintenance--上下文与维护",
+      "line": 29
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: configuration--配置入口",
+      "line": 30
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: file-structure--文件结构",
+      "line": 31
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: usage-examples--使用示例",
+      "line": 32
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: recommended-workflow--推荐使用流程",
+      "line": 33
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: privacy-and-open-source-notes--隐私与开源注意事项",
+      "line": 34
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: roadmap--后续计划",
+      "line": 35
+    },
+    {
+      "level": "warning",
+      "code": "anchor_not_checked",
+      "path": "README.md",
+      "message": "Markdown/nested heading anchor requires manual check: license--许可证",
+      "line": 36
+    }
+  ],
+  "limitations": [
+    "Structure only: no scientific evidence, source availability, tag semantics or DOI deduplication review.",
+    "No raw, external files, hidden directories, symlinks/junctions or historical report/log contents scanned.",
+    "Wikilinks: scoped file targets, aliases, exact ATX headings and block ID existence; not desktop rendering.",
+    "Markdown: simple inline local file targets only; anchors and complex/reference-style syntax not validated.",
+    "Fenced code, inline code and HTML comments excluded; explicit template placeholders are not real pages.",
+    "No write protection for other programs, backup creation, restore or concurrent-write locking is provided."
+  ],
+  "scientific_evidence_checked": false
+}
