@@ -1,4 +1,5 @@
 ---
+direction_id: "{{direction_id}}"
 type: claim
 status: active
 review_status: draft
@@ -42,7 +43,7 @@ tags:
 
 | Evidence | Role | Evidence type | Independence group / original data source | Conditions and metric | What it supports | Verification |
 |---|---|---|---|---|---|---|
-| [[wiki/papers/Paper]]#E1 | support / challenge / limit | direct / calculated / author interpretation / cited prior work | dataset-or-experiment-1 |  |  | checked / partial / pending |
+| [[D/wiki/papers/Paper]]#E1 | support / challenge / limit | direct / calculated / author interpretation / cited prior work | dataset-or-experiment-1 |  |  | checked / partial / pending |
 
 ### Evidence Notes
 
@@ -105,3 +106,6 @@ tags:
 - [ ] Challenging evidence and comparability were assessed.
 - [ ] Downstream impact is recorded when evidence or wording changes.
 - [ ] Index/log/tags/aliases were updated only when applicable.
+
+
+<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。 -->

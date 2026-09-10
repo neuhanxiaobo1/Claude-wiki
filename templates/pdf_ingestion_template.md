@@ -110,3 +110,6 @@ For each proposed key finding:
 - [ ] Summary wording does not exceed the evidence.
 - [ ] Local revision did not silently become a whole-page or whole-wiki rewrite.
 - [ ] Downstream impact, log and index conditions were checked.
+
+
+<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。 -->

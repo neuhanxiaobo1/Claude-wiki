@@ -1,4 +1,5 @@
 ---
+direction_id: "{{direction_id}}"
 type: method
 status: active
 review_status: draft
@@ -62,7 +63,7 @@ Method 页面描述可重复使用的实验、计算、数据处理或综合方�
 
 | Use case | Evidence | Conditions/sample | What was established | Verification |
 |---|---|---|---|---|
-|  | [[wiki/papers/Paper]]#E1 |  |  | checked / partial / pending |
+|  | [[D/wiki/papers/Paper]]#E1 |  |  | checked / partial / pending |
 
 “被论文使用”不等于“方法有效”。Validated Uses 应链接具体证据，说明方法在什么条件下回答了什么问题。
 
@@ -123,3 +124,6 @@ Method 页面描述可重复使用的实验、计算、数据处理或综合方�
 - [ ] Calculated/inferred outputs are separated from direct measurements.
 - [ ] Limitations connect to affected claims and detection boundaries.
 - [ ] Index/log/tags/aliases were updated only when applicable.
+
+
+<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。 -->

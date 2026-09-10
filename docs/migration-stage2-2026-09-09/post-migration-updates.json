@@ -1,0 +1,38 @@
+{
+  "agents/lint_agent.md": {
+    "sha256": "b03e9cc93bdcba50bb2a4e0c7263658e288bee744e723e310313681bb3705e7a",
+    "reason": "Stage3 scoped rule correction, navigation and completion records; no scientific content change"
+  },
+  "directions/ceramic-corrosion/index.md": {
+    "sha256": "4a4acb8fa871fa8ee517fb9f00717c3a438eee25b986c899d665b3f3a4cb508f",
+    "reason": "Stage3 scoped rule correction, navigation and completion records; no scientific content change"
+  },
+  "docs/multi-direction-migration-plan.md": {
+    "sha256": "6ee738211ca62dcaa6a6e95581798bf5560f90d63f2654b56703cc9ea38b869a",
+    "reason": "Stage3 scoped rule correction, navigation and completion records; no scientific content change"
+  },
+  "index.md": {
+    "sha256": "d146b4efd1948038710c90414dc16bb7866738481c8b99406f50e43a5151e862",
+    "reason": "Stage3 scoped rule correction, navigation and completion records; no scientific content change"
+  },
+  "log.md": {
+    "sha256": "70d9551f8d8e88c8a9685d8f73ad0d416320d69f8c4404e70869becb445b3d44",
+    "reason": "Stage3 scoped rule correction, navigation and completion records; no scientific content change"
+  },
+  "memory/context_policy.md": {
+    "sha256": "dff1d9a1a6ca62e71ce5686c86876e587563a66c13d4272b62e0a2729335bf7a",
+    "reason": "Stage3 scoped rule correction, navigation and completion records; no scientific content change"
+  },
+  "memory/error_log.md": {
+    "sha256": "f6a3b49304a48f95f43e9c0b740c217c367c38c6c879bdaa40794814fb132fa8",
+    "reason": "Stage3 scoped rule correction, navigation and completion records; no scientific content change"
+  },
+  "memory/tag_taxonomy.md": {
+    "sha256": "377cd9bd51057ba6e1afbb191cb33c9a9aba706f2c1bc10c08e7950f444eae14",
+    "reason": "Stage3 scoped rule correction, navigation and completion records; no scientific content change"
+  },
+  "agents/pdf_read_agent.md": {
+    "sha256": "011c5829a7fce57dd2247fee3730080e9912038337fa82139126828ed7631c70",
+    "reason": "Remove extra trailing blank line after domain section extraction; no rule change"
+  }
+}

@@ -1,4 +1,5 @@
 # Raw and private research materials
+/.migration-backups/
 raw/papers/**
 raw/assets/**
 raw/notes/**
@@ -22,6 +23,7 @@ raw/zotero_imports/**
 # Obsidian local state
 .obsidian/workspace*
 .obsidian/workspace-mobile*
+/.claude/settings.local.json
 
 # OS and cache files
 .DS_Store
@@ -29,3 +31,12 @@ Thumbs.db
 **/__pycache__/
 *.pyc
 
+# Per-direction original/private materials (including JSON and Markdown)
+/directions/*/raw/**
+!/directions/*/raw/**/
+!/directions/*/raw/**/.gitkeep
+!/directions/*/raw/**/README.md
+
+# Reviewed derived screening table migrated from tracked docs
+!/directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/screening.csv
+!/directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/pdf_download_links.csv

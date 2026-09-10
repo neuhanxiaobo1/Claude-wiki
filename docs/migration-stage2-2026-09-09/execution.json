@@ -1,0 +1,783 @@
+{
+  "mode": "apply-recovered",
+  "source_count": 120,
+  "output_count": 129,
+  "retired": [
+    "docs/collection-candidates-2026-09-08.md",
+    "docs/progress-and-background-2026-09-09.md",
+    "docs/rules-improvement-plan.md",
+    "docs/scopus-screening-2026-09-09/items_master.json",
+    "docs/scopus-screening-2026-09-09/merge_pdf_links.py",
+    "docs/scopus-screening-2026-09-09/pdf_download_links.csv",
+    "docs/scopus-screening-2026-09-09/pdf_download_links.md",
+    "docs/scopus-screening-2026-09-09/pdf_links.json",
+    "docs/scopus-screening-2026-09-09/query_unpaywall.py",
+    "docs/scopus-screening-2026-09-09/report.md",
+    "docs/scopus-screening-2026-09-09/screening.csv",
+    "docs/scopus-screening-2026-09-09/unpaywall_results.json",
+    "docs/system-audit-2026-09-05.md",
+    "memory/ceramic_corrosion_reading_rules.md",
+    "memory/project_profile.md",
+    "raw/assets/.gitkeep",
+    "raw/notes/.gitkeep",
+    "raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+    "raw/papers/.gitkeep",
+    "raw/zotero_imports/.gitkeep",
+    "raw/zotero_imports/ceramics_corrosion_QUNDVKXV/import_plan.md",
+    "raw/zotero_imports/ceramics_corrosion_QUNDVKXV/manifest.json",
+    "raw/zotero_imports/ceramics_corrosion_QUNDVKXV/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/scopus_1/import_plan.md",
+    "raw/zotero_imports/scopus_1/manifest.json",
+    "raw/zotero_imports/scopus_1/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/scopus_2/import_plan.md",
+    "raw/zotero_imports/scopus_2/manifest.json",
+    "raw/zotero_imports/scopus_2/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/scopus_3/import_plan.md",
+    "raw/zotero_imports/scopus_3/manifest.json",
+    "raw/zotero_imports/scopus_3/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/screening_union_2026-09-09.json",
+    "raw/zotero_imports/田志林/import_plan.md",
+    "raw/zotero_imports/田志林/manifest.json",
+    "raw/zotero_imports/田老师/import_plan.md",
+    "raw/zotero_imports/田老师/manifest.json",
+    "synthesis/core-argument-map.md",
+    "synthesis/external-literature-register.md",
+    "synthesis/literature-map.md",
+    "synthesis/open-questions.md",
+    "synthesis/research-positioning.md",
+    "synthesis/review-outline.md",
+    "wiki/authors/.gitkeep",
+    "wiki/claims/.gitkeep",
+    "wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend.md",
+    "wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening.md",
+    "wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism.md",
+    "wiki/claims/Garnet-Product-RE2SiO5-CMAS.md",
+    "wiki/claims/Hf6Ta2O17-TGO-Incompatibility.md",
+    "wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design.md",
+    "wiki/claims/Phase-Decomposition-Intergranular-Infiltration.md",
+    "wiki/claims/RETaO4-CMAS-Corrosion-Product-Clarification.md",
+    "wiki/datasets/.gitkeep",
+    "wiki/gaps/.gitkeep",
+    "wiki/gaps/CMAS-Corrosion-Data-1500C.md",
+    "wiki/gaps/Cooling-Precipitation-Coating-Integrity.md",
+    "wiki/gaps/High-Throughput-Screening-Transfer.md",
+    "wiki/gaps/Structure-Radius-Decoupling.md",
+    "wiki/gaps/TBC-TGO-High-Temperature-Compatibility.md",
+    "wiki/methods/.gitkeep",
+    "wiki/metrics/.gitkeep",
+    "wiki/papers/.gitkeep",
+    "wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C.md",
+    "wiki/papers/2019-RE2SiO5-CMAS-General-Trend.md",
+    "wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC.md",
+    "wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation.md",
+    "wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth.md",
+    "wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration.md",
+    "wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility.md",
+    "wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening.md",
+    "wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening.md",
+    "wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput.md",
+    "wiki/reviews/.gitkeep",
+    "wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability.md",
+    "wiki/topics/.gitkeep",
+    "wiki/topics/Ceramic Corrosion.md",
+    "wiki/topics/Thermal Barrier Coatings.md"
+  ],
+  "backup": ".migration-backups/stage2-preflight-20260909T141522079688Z.zip",
+  "backup_sha256": "211586656c3562f691f1816d7525c75751cfffdfe19a881b021cc58124926f6a",
+  "preview": ".migration-backups/stage2-preview-20260909T141522079688Z.zip",
+  "preview_sha256": "a9286b6e46354d11de64aeb75f7ec0dcbe0f1c74eaee97fb80f9cc60ff7d7197",
+  "protected_raw": [
+    "raw/assets/.gitkeep",
+    "raw/notes/.gitkeep",
+    "raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+    "raw/papers/.gitkeep",
+    "raw/zotero_imports/.gitkeep",
+    "raw/zotero_imports/ceramics_corrosion_QUNDVKXV/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/scopus_1/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/scopus_2/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/scopus_3/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/screening_union_2026-09-09.json"
+  ],
+  "scientific_pages": [
+    "synthesis/core-argument-map.md",
+    "synthesis/external-literature-register.md",
+    "synthesis/literature-map.md",
+    "synthesis/open-questions.md",
+    "synthesis/research-positioning.md",
+    "synthesis/review-outline.md",
+    "wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend.md",
+    "wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening.md",
+    "wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism.md",
+    "wiki/claims/Garnet-Product-RE2SiO5-CMAS.md",
+    "wiki/claims/Hf6Ta2O17-TGO-Incompatibility.md",
+    "wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design.md",
+    "wiki/claims/Phase-Decomposition-Intergranular-Infiltration.md",
+    "wiki/claims/RETaO4-CMAS-Corrosion-Product-Clarification.md",
+    "wiki/gaps/CMAS-Corrosion-Data-1500C.md",
+    "wiki/gaps/Cooling-Precipitation-Coating-Integrity.md",
+    "wiki/gaps/High-Throughput-Screening-Transfer.md",
+    "wiki/gaps/Structure-Radius-Decoupling.md",
+    "wiki/gaps/TBC-TGO-High-Temperature-Compatibility.md",
+    "wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C.md",
+    "wiki/papers/2019-RE2SiO5-CMAS-General-Trend.md",
+    "wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC.md",
+    "wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation.md",
+    "wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth.md",
+    "wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration.md",
+    "wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility.md",
+    "wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening.md",
+    "wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening.md",
+    "wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput.md",
+    "wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability.md",
+    "wiki/topics/Ceramic Corrosion.md",
+    "wiki/topics/Thermal Barrier Coatings.md"
+  ],
+  "mapping": {
+    ".gitignore": ".gitignore",
+    ".obsidian/app.json": ".obsidian/app.json",
+    ".obsidian/appearance.json": ".obsidian/appearance.json",
+    ".obsidian/core-plugins.json": ".obsidian/core-plugins.json",
+    ".obsidian/graph.json": ".obsidian/graph.json",
+    ".obsidian/workspace.json": ".obsidian/workspace.json",
+    ".vscode/settings.json": ".vscode/settings.json",
+    "AGENTS.md": "AGENTS.md",
+    "CLAUDE.md": "CLAUDE.md",
+    "LICENSE": "LICENSE",
+    "QUICKSTART.md": "QUICKSTART.md",
+    "README.md": "README.md",
+    "agents/gap_agent.md": "agents/gap_agent.md",
+    "agents/import_zotero.md": "agents/import_zotero.md",
+    "agents/lint_agent.md": "agents/lint_agent.md",
+    "agents/pdf_read_agent.md": "agents/pdf_read_agent.md",
+    "agents/review_agent.md": "agents/review_agent.md",
+    "agents/synthesis_agent.md": "agents/synthesis_agent.md",
+    "docs/collection-candidates-2026-09-08.md": "directions/ceramic-corrosion/docs/collection-candidates-2026-09-08.md",
+    "docs/initialization.md": "docs/initialization.md",
+    "docs/multi-direction-migration-plan.md": "docs/multi-direction-migration-plan.md",
+    "docs/obsidian-setup.md": "docs/obsidian-setup.md",
+    "docs/privacy-and-gitignore.md": "docs/privacy-and-gitignore.md",
+    "docs/progress-and-background-2026-09-09.md": "directions/ceramic-corrosion/docs/progress-and-background-2026-09-09.md",
+    "docs/rules-improvement-plan.md": "directions/ceramic-corrosion/docs/rules-improvement-plan.md",
+    "docs/scopus-screening-2026-09-09/report.md": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/report.md",
+    "docs/scopus-screening-2026-09-09/screening.csv": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/screening.csv",
+    "docs/system-audit-2026-09-05.md": "directions/ceramic-corrosion/docs/system-audit-2026-09-05.md",
+    "docs/zotero-workflow.md": "docs/zotero-workflow.md",
+    "git-proxy-fix.bat": "git-proxy-fix.bat",
+    "inbox.md": "directions/ceramic-corrosion/inbox.md",
+    "index.md": "directions/ceramic-corrosion/index.md",
+    "log.md": "directions/ceramic-corrosion/log.md",
+    "memory/ceramic_corrosion_reading_rules.md": "directions/ceramic-corrosion/memory/reading_rules.md",
+    "memory/context_policy.md": "directions/ceramic-corrosion/memory/current_context.md",
+    "memory/decision_log.md": "directions/ceramic-corrosion/memory/decision_log.md",
+    "memory/error_log.md": "directions/ceramic-corrosion/memory/error_log.md",
+    "memory/hard_memory.md": "memory/hard_memory.md",
+    "memory/project_profile.md": "directions/ceramic-corrosion/memory/project_profile.md",
+    "memory/style_snapshot.md": "memory/style_snapshot.md",
+    "memory/tag_taxonomy.md": "directions/ceramic-corrosion/memory/tag_taxonomy.md",
+    "memory/term_aliases.md": "directions/ceramic-corrosion/memory/term_aliases.md",
+    "raw/assets/.gitkeep": "directions/ceramic-corrosion/raw/assets/.gitkeep",
+    "raw/notes/.gitkeep": "directions/ceramic-corrosion/raw/notes/.gitkeep",
+    "raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+    "raw/papers/.gitkeep": "directions/ceramic-corrosion/raw/papers/.gitkeep",
+    "raw/zotero_imports/.gitkeep": "directions/ceramic-corrosion/raw/zotero_imports/.gitkeep",
+    "raw/zotero_imports/ceramics_corrosion_QUNDVKXV/import_plan.md": "directions/ceramic-corrosion/raw/zotero_imports/ceramics_corrosion_QUNDVKXV/import_plan.md",
+    "raw/zotero_imports/ceramics_corrosion_QUNDVKXV/manifest.json": "directions/ceramic-corrosion/raw/zotero_imports/ceramics_corrosion_QUNDVKXV/manifest.json",
+    "raw/zotero_imports/ceramics_corrosion_QUNDVKXV/screening_metadata_2026-09-09.json": "directions/ceramic-corrosion/raw/zotero_imports/ceramics_corrosion_QUNDVKXV/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/scopus_1/import_plan.md": "directions/ceramic-corrosion/raw/zotero_imports/scopus_1/import_plan.md",
+    "raw/zotero_imports/scopus_1/manifest.json": "directions/ceramic-corrosion/raw/zotero_imports/scopus_1/manifest.json",
+    "raw/zotero_imports/scopus_1/screening_metadata_2026-09-09.json": "directions/ceramic-corrosion/raw/zotero_imports/scopus_1/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/scopus_2/import_plan.md": "directions/ceramic-corrosion/raw/zotero_imports/scopus_2/import_plan.md",
+    "raw/zotero_imports/scopus_2/manifest.json": "directions/ceramic-corrosion/raw/zotero_imports/scopus_2/manifest.json",
+    "raw/zotero_imports/scopus_2/screening_metadata_2026-09-09.json": "directions/ceramic-corrosion/raw/zotero_imports/scopus_2/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/scopus_3/import_plan.md": "directions/ceramic-corrosion/raw/zotero_imports/scopus_3/import_plan.md",
+    "raw/zotero_imports/scopus_3/manifest.json": "directions/ceramic-corrosion/raw/zotero_imports/scopus_3/manifest.json",
+    "raw/zotero_imports/scopus_3/screening_metadata_2026-09-09.json": "directions/ceramic-corrosion/raw/zotero_imports/scopus_3/screening_metadata_2026-09-09.json",
+    "raw/zotero_imports/screening_union_2026-09-09.json": "directions/ceramic-corrosion/raw/zotero_imports/screening_union_2026-09-09.json",
+    "raw/zotero_imports/田志林/import_plan.md": "directions/ceramic-corrosion/raw/zotero_imports/田志林/import_plan.md",
+    "raw/zotero_imports/田志林/manifest.json": "directions/ceramic-corrosion/raw/zotero_imports/田志林/manifest.json",
+    "raw/zotero_imports/田老师/import_plan.md": "directions/ceramic-corrosion/raw/zotero_imports/田老师/import_plan.md",
+    "raw/zotero_imports/田老师/manifest.json": "directions/ceramic-corrosion/raw/zotero_imports/田老师/manifest.json",
+    "synthesis/core-argument-map.md": "directions/ceramic-corrosion/synthesis/core-argument-map.md",
+    "synthesis/external-literature-register.md": "directions/ceramic-corrosion/synthesis/external-literature-register.md",
+    "synthesis/literature-map.md": "directions/ceramic-corrosion/synthesis/literature-map.md",
+    "synthesis/open-questions.md": "directions/ceramic-corrosion/synthesis/open-questions.md",
+    "synthesis/research-positioning.md": "directions/ceramic-corrosion/synthesis/research-positioning.md",
+    "synthesis/review-outline.md": "directions/ceramic-corrosion/synthesis/review-outline.md",
+    "templates/claim.md": "templates/claim.md",
+    "templates/gap.md": "templates/gap.md",
+    "templates/method.md": "templates/method.md",
+    "templates/paper.md": "templates/paper.md",
+    "templates/pdf_ingestion_template.md": "templates/pdf_ingestion_template.md",
+    "templates/review.md": "templates/review.md",
+    "templates/topic.md": "templates/topic.md",
+    "wiki/authors/.gitkeep": "directions/ceramic-corrosion/wiki/authors/.gitkeep",
+    "wiki/claims/.gitkeep": "directions/ceramic-corrosion/wiki/claims/.gitkeep",
+    "wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend.md": "directions/ceramic-corrosion/wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend.md",
+    "wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening.md": "directions/ceramic-corrosion/wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening.md",
+    "wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism.md": "directions/ceramic-corrosion/wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism.md",
+    "wiki/claims/Garnet-Product-RE2SiO5-CMAS.md": "directions/ceramic-corrosion/wiki/claims/Garnet-Product-RE2SiO5-CMAS.md",
+    "wiki/claims/Hf6Ta2O17-TGO-Incompatibility.md": "directions/ceramic-corrosion/wiki/claims/Hf6Ta2O17-TGO-Incompatibility.md",
+    "wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design.md": "directions/ceramic-corrosion/wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design.md",
+    "wiki/claims/Phase-Decomposition-Intergranular-Infiltration.md": "directions/ceramic-corrosion/wiki/claims/Phase-Decomposition-Intergranular-Infiltration.md",
+    "wiki/claims/RETaO4-CMAS-Corrosion-Product-Clarification.md": "directions/ceramic-corrosion/wiki/claims/RETaO4-CMAS-Corrosion-Product-Clarification.md",
+    "wiki/datasets/.gitkeep": "directions/ceramic-corrosion/wiki/datasets/.gitkeep",
+    "wiki/gaps/.gitkeep": "directions/ceramic-corrosion/wiki/gaps/.gitkeep",
+    "wiki/gaps/CMAS-Corrosion-Data-1500C.md": "directions/ceramic-corrosion/wiki/gaps/CMAS-Corrosion-Data-1500C.md",
+    "wiki/gaps/Cooling-Precipitation-Coating-Integrity.md": "directions/ceramic-corrosion/wiki/gaps/Cooling-Precipitation-Coating-Integrity.md",
+    "wiki/gaps/High-Throughput-Screening-Transfer.md": "directions/ceramic-corrosion/wiki/gaps/High-Throughput-Screening-Transfer.md",
+    "wiki/gaps/Structure-Radius-Decoupling.md": "directions/ceramic-corrosion/wiki/gaps/Structure-Radius-Decoupling.md",
+    "wiki/gaps/TBC-TGO-High-Temperature-Compatibility.md": "directions/ceramic-corrosion/wiki/gaps/TBC-TGO-High-Temperature-Compatibility.md",
+    "wiki/methods/.gitkeep": "directions/ceramic-corrosion/wiki/methods/.gitkeep",
+    "wiki/metrics/.gitkeep": "directions/ceramic-corrosion/wiki/metrics/.gitkeep",
+    "wiki/papers/.gitkeep": "directions/ceramic-corrosion/wiki/papers/.gitkeep",
+    "wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C.md": "directions/ceramic-corrosion/wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C.md",
+    "wiki/papers/2019-RE2SiO5-CMAS-General-Trend.md": "directions/ceramic-corrosion/wiki/papers/2019-RE2SiO5-CMAS-General-Trend.md",
+    "wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC.md": "directions/ceramic-corrosion/wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC.md",
+    "wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation.md": "directions/ceramic-corrosion/wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation.md",
+    "wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth.md": "directions/ceramic-corrosion/wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth.md",
+    "wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration.md": "directions/ceramic-corrosion/wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration.md",
+    "wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility.md": "directions/ceramic-corrosion/wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility.md",
+    "wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening.md": "directions/ceramic-corrosion/wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening.md",
+    "wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening.md": "directions/ceramic-corrosion/wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening.md",
+    "wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput.md": "directions/ceramic-corrosion/wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput.md",
+    "wiki/reviews/.gitkeep": "directions/ceramic-corrosion/wiki/reviews/.gitkeep",
+    "wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability.md": "directions/ceramic-corrosion/wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability.md",
+    "wiki/topics/.gitkeep": "directions/ceramic-corrosion/wiki/topics/.gitkeep",
+    "wiki/topics/Ceramic Corrosion.md": "directions/ceramic-corrosion/wiki/topics/Ceramic Corrosion.md",
+    "wiki/topics/Thermal Barrier Coatings.md": "directions/ceramic-corrosion/wiki/topics/Thermal Barrier Coatings.md",
+    ".claude/settings.local.json": ".claude/settings.local.json",
+    "docs/scopus-screening-2026-09-09/items_master.json": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/items_master.json",
+    "docs/scopus-screening-2026-09-09/merge_pdf_links.py": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/merge_pdf_links.py",
+    "docs/scopus-screening-2026-09-09/pdf_download_links.csv": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/pdf_download_links.csv",
+    "docs/scopus-screening-2026-09-09/pdf_download_links.md": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/pdf_download_links.md",
+    "docs/scopus-screening-2026-09-09/pdf_links.json": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/pdf_links.json",
+    "docs/scopus-screening-2026-09-09/query_unpaywall.py": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/query_unpaywall.py",
+    "docs/scopus-screening-2026-09-09/unpaywall_results.json": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/unpaywall_results.json"
+  },
+  "outputs": [
+    {
+      "path": ".gitignore",
+      "sha256": "70f2f4145b0f30b6c8d9703075bf2df9a49782cf1caf090db98d3e353a7d3485"
+    },
+    {
+      "path": ".obsidian/app.json",
+      "sha256": "047a348291471a4dbd24311887bc91b5c71a8b7e9d3d04784a2d8f0234689b7e"
+    },
+    {
+      "path": ".obsidian/graph.json",
+      "sha256": "899456dc1addaeb15ea10b7a897e2ad62af005a66fb7b50015b517b10cc5fd86"
+    },
+    {
+      "path": ".obsidian/workspace.json",
+      "sha256": "65ecacb8fdadbced41c17a5145c69a0c53a8d75b217ba12c60b4d8b197acc6fc"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "ae47670b24184797e32928301e64f8d6abcaa8ea8cf3bf0647379f7edab1872e"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "38400da7d15d43fe8b517e3bb4d2e714df45ffbc3a7e7bcd45e7acb28d7dec94"
+    },
+    {
+      "path": "QUICKSTART.md",
+      "sha256": "d14ac261514b4b87c8f2be651981a0c4719a31e9b9419cdd99408262adfe04ef"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1519d4f5d76ff6d924f3782ada92cfcece4f2fd6fb1dac5ce10bc0ac1327cc44"
+    },
+    {
+      "path": "agents/gap_agent.md",
+      "sha256": "13b2ef4fccfc4c5839570d404b0829f381af10dc75ddfdb10b00af24c2e248e0"
+    },
+    {
+      "path": "agents/import_zotero.md",
+      "sha256": "f36a01acaef2e60b3b7b22957a87231ee22333d36d4e47dd6de3faad08b7454a"
+    },
+    {
+      "path": "agents/lint_agent.md",
+      "sha256": "b6d3f460fe0c7924b67d8fc9f57d2fd2461e4c4c366105153272885a93a8d86b"
+    },
+    {
+      "path": "agents/pdf_read_agent.md",
+      "sha256": "0ff5a6929c6b298c7c107e80fa1d649d5301e1521209104696bb755e990dd898"
+    },
+    {
+      "path": "agents/review_agent.md",
+      "sha256": "fece6344bd6142f237ab531ef4ddd83ed77c2e28b760cc9887a175628a8d54c6"
+    },
+    {
+      "path": "agents/synthesis_agent.md",
+      "sha256": "2b3d272ac87ec4292488c2161566f519cdf904981ca61b17df2ed472880eb3dc"
+    },
+    {
+      "path": "directions/ceramic-corrosion/AGENTS.md",
+      "sha256": "fa9200d68f53a34e91f48da38d0eca7a5beb5490b5d542719ecda106241f7c09"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/collection-candidates-2026-09-08.md",
+      "sha256": "0a1631ff6323f0adcc4cadcb0d35c3620a743ad1ab488ab10c10a595200f58e4"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/context-history-pre-migration.md",
+      "sha256": "ca0c07a723f25fb1416b9b7af81b2b6402ccc3ee1abbeb061fa8952ba6186ce7"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/progress-and-background-2026-09-09.md",
+      "sha256": "68db25c895f9e4473e011de9bb356d1636a39095e503e257fe190d5b6b7d1c89"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/rules-improvement-plan.md",
+      "sha256": "e39d32225330d25712fecf2b37d9aa3e1fd1d63b8ba2445c48e4a33858cfbd7d"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/items_master.json",
+      "sha256": "a9460f5621b7a6f0c85f7d819268d0972d4c8b8f668dd893202ed129f35a4705"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/merge_pdf_links.py",
+      "sha256": "43ede9f0b53b4746d377b5af238ab33b77c34d504bc4ff5a82d9f42688f019ab"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/pdf_download_links.csv",
+      "sha256": "1d4e72dc3409e679e3a2a60a496ed6a754a4bcc7e28c062bad44e3fb5106836f"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/pdf_download_links.md",
+      "sha256": "b8b21529f81faa4c07bdf23b34762120f5789f1fcde9dc3ed06a19cc09d7a63d"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/pdf_links.json",
+      "sha256": "f54da45bc24fbdbb2484e8890c0e73ca23fc17535682d76fc7c63d3f44ebd210"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/query_unpaywall.py",
+      "sha256": "4ee390ee80f52e65c337a59848db9e56c2e2df0505dfa840668ff0e70575cc6a"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/report.md",
+      "sha256": "60e35e9a651d6a39aa497b73d63f1d6c1eaef15321eda86c9c08d805251015d0"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/screening.csv",
+      "sha256": "7cfd0d17854da2af93d5f4f9333e32e3e4fd327bc7b63d8f7264eb2f454e8a2c"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/unpaywall_results.json",
+      "sha256": "9966c5b9dbe9984627e69092f26dc01f8b41e9c733ddbde15391a937754a8414"
+    },
+    {
+      "path": "directions/ceramic-corrosion/docs/system-audit-2026-09-05.md",
+      "sha256": "ea68c4e21f4e90b2d88cd280357b45a694bba3bac7e030b4cdb963909d8ed3e0"
+    },
+    {
+      "path": "directions/ceramic-corrosion/inbox.md",
+      "sha256": "a8dbce36018968188f209ef256840160b7aef32adbf1574654525789aa1ec968"
+    },
+    {
+      "path": "directions/ceramic-corrosion/index.md",
+      "sha256": "1220e643310dffc6aa42c48f36370e43410f9a5111527027df2e0b86e5fb8c07"
+    },
+    {
+      "path": "directions/ceramic-corrosion/log.md",
+      "sha256": "df6d9e8ca8b593b2421dcc26d7696bb5d0862c97927278a9b6c400a80bff748e"
+    },
+    {
+      "path": "directions/ceramic-corrosion/memory/current_context.md",
+      "sha256": "25cb65365f0460b9de451d2c5723cbaac4dcdffe19c3c5fef65ed609716aa7a1"
+    },
+    {
+      "path": "directions/ceramic-corrosion/memory/decision_log.md",
+      "sha256": "94131cf082024b68e3c428d7a4f1a599fc4e4d584554c042a2bcfcd5ecf84244"
+    },
+    {
+      "path": "directions/ceramic-corrosion/memory/error_log.md",
+      "sha256": "4f524776debfe8a8da333e0eab5204395b219eb32c3051f573d4ca6c03607250"
+    },
+    {
+      "path": "directions/ceramic-corrosion/memory/project_profile.md",
+      "sha256": "7f9cc79b51e91b81ad0b380b8eeb5c8006883b6a7ab43428aaf82674f24df992"
+    },
+    {
+      "path": "directions/ceramic-corrosion/memory/reading_rules.md",
+      "sha256": "9e4138d3ac0847ab78d876efa3fe768502aea7ed7f093076407c1409c6dd1035"
+    },
+    {
+      "path": "directions/ceramic-corrosion/memory/tag_taxonomy.md",
+      "sha256": "b6032312756f4fcb5cf0523ba7d9795a217d83b0b6855ed3e10b8fe9ba24c0df"
+    },
+    {
+      "path": "directions/ceramic-corrosion/memory/term_aliases.md",
+      "sha256": "fdc49194ada21ce013c3822d7d60d58cf986342a4e2168da877a9205fed612b4"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/assets/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/notes/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+      "sha256": "9549f602a32e0d87d36eb5cb5f5e8402d46c8729ee71974002abfc277fe82fdc"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/papers/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/ceramics_corrosion_QUNDVKXV/import_plan.md",
+      "sha256": "7961291a7bb464f2e1aca0535bc64e3e7c4da4c87b8df4176c190bab21da2f7d"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/ceramics_corrosion_QUNDVKXV/manifest.json",
+      "sha256": "1b4b6bbe1785a5fdb3da3bf93dc4910d7c10149526ea15fff29baacc3d412ca6"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/ceramics_corrosion_QUNDVKXV/screening_metadata_2026-09-09.json",
+      "sha256": "0908c92f9f428d3b573416701a7a45e06308dca5e72357de95f4e71cb08f8e6a"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/scopus_1/import_plan.md",
+      "sha256": "5c375d8be25615e959ce122cd7cf49eb8d54548a79b0468d35313b85a295acc4"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/scopus_1/manifest.json",
+      "sha256": "fe30565544f4c8e093d427f8122a9a95b669e9261b170cfd7119c9bd1a432f8f"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/scopus_1/screening_metadata_2026-09-09.json",
+      "sha256": "6c59e507a41c09f9ae61841acb288f3100fcc6715798699a251179aff5adfd7d"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/scopus_2/import_plan.md",
+      "sha256": "4cc51d2fd22b8f86244fd402311da2b2c615e41486827931dfbe72187fba18f2"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/scopus_2/manifest.json",
+      "sha256": "5d8df82c22f6d7b7476844a9598adcee34111f66a4a64fd697519ad760794d78"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/scopus_2/screening_metadata_2026-09-09.json",
+      "sha256": "614e257b6a00db2970a6bae6138149ceb13497f5706eb027428613531c97cf2a"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/scopus_3/import_plan.md",
+      "sha256": "32bb3e9b0b5212b828c6cd78625d5871ca80bf56b3d4d0d11d769bbf400b0073"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/scopus_3/manifest.json",
+      "sha256": "b43d39ca4158057970619b33f1b9767b64a77ce01737dab3b7119c7ce7cd3c35"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/scopus_3/screening_metadata_2026-09-09.json",
+      "sha256": "e9d10972afdf9feba648d29ff68164843fc9340e9437d52cd332f7cc046d0fcb"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/screening_union_2026-09-09.json",
+      "sha256": "f6075686a57da5f1d73d598fccc5a1c93dfaef7c3ca180b06f3e70db74ac0d4e"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/田志林/import_plan.md",
+      "sha256": "38665b353bbad436efeeda373b763bb7eea4ba5b116d0c4a19418d3b7fce8d47"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/田志林/manifest.json",
+      "sha256": "0620edab7d809b424f9e65018cf384d9f1bd4526bb66b3beb64ea080fa2eb5cc"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/田老师/import_plan.md",
+      "sha256": "5b36ec5c05ad17fe922b283f6c44a91e6226e66531a748daf6bc674871ff2508"
+    },
+    {
+      "path": "directions/ceramic-corrosion/raw/zotero_imports/田老师/manifest.json",
+      "sha256": "aaa8e8d90e15f76d922151a98ab1566c67dd3f9da35f7f4d69e2573de357f204"
+    },
+    {
+      "path": "directions/ceramic-corrosion/synthesis/core-argument-map.md",
+      "sha256": "8713798c5d570144cedde78f53a06d4db864fede85e4e80d33b5c68ad43bdf56"
+    },
+    {
+      "path": "directions/ceramic-corrosion/synthesis/external-literature-register.md",
+      "sha256": "ef516b840a8e6b398098ef58ec705c58929e5a3fb04c5342a5b3bc269754b0ca"
+    },
+    {
+      "path": "directions/ceramic-corrosion/synthesis/literature-map.md",
+      "sha256": "67546f6cabe2b6d24b915efaeb12842c65e92dedd6746f45977c0b27cb85bb32"
+    },
+    {
+      "path": "directions/ceramic-corrosion/synthesis/open-questions.md",
+      "sha256": "7fbba0383caa5c656acf547c889567c3fdeaf9183b53d8dc0fff90f8507492cf"
+    },
+    {
+      "path": "directions/ceramic-corrosion/synthesis/research-positioning.md",
+      "sha256": "2207d8bb581e090e11971acd9ff59e03cb7e5ef59a3b00d0b157792ee9f568e3"
+    },
+    {
+      "path": "directions/ceramic-corrosion/synthesis/review-outline.md",
+      "sha256": "7eed93b05d7e464b0aab13811a6cb7f6f2c979fa681cafe2038e194ccd6ce02f"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/authors/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/claims/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/claims/CMAS-Corrosion-Enthalpy-RE-Radius-Trend.md",
+      "sha256": "044a96c2d81acb9daa137baf1bb685860d3f2615d4106c2d092d47008d0705f6"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/claims/CMAS-Viscosity-1500C-RE-Effect-Weakening.md",
+      "sha256": "10e8e09b03199df0a4333f74db02c57dd4230462080200561bc3d089016066b8"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/claims/Defect-Fluorite-CMAS-Resistance-Mechanism.md",
+      "sha256": "f914088ae82c620a8af3e13294f8127d49c4f9af8f592d3b959b4812d1079136"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/claims/Garnet-Product-RE2SiO5-CMAS.md",
+      "sha256": "15ba8f39d0d89f53f24a40ef1ec4df666f3a4527412701d14c290bfda50065a8"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/claims/Hf6Ta2O17-TGO-Incompatibility.md",
+      "sha256": "949689148464beee65fe814d36993edee09e2b2903cfc0ca1fd9fc83ab5e4dfa"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/claims/High-Entropy-RE2SiO5-Multi-Objective-Design.md",
+      "sha256": "37a8ebf0d7b3f0ec03cafcf2eb53a7faac16667780d5e46ee522193c6e225137"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/claims/Phase-Decomposition-Intergranular-Infiltration.md",
+      "sha256": "68647af83cd41d81c0b843c6301f1f5d8303b8c42979d17cde86a54d5308998b"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/claims/RETaO4-CMAS-Corrosion-Product-Clarification.md",
+      "sha256": "a4f6a6b91a377338d4f5a433e541780e09f9f8455b2ab6369fc490bf1145c102"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/datasets/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/gaps/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/gaps/CMAS-Corrosion-Data-1500C.md",
+      "sha256": "52eff17773c278f8954be7789dee674d50c4bf4ae0d1e75594152bb755970dea"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/gaps/Cooling-Precipitation-Coating-Integrity.md",
+      "sha256": "c13f20a4c9745cf4c310b528be7c674aca102c513aad08d502c07b1a827d3bfd"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/gaps/High-Throughput-Screening-Transfer.md",
+      "sha256": "7173429bc0801c6f5f97f7c8384522c02dca6184a8e8f85fcdebe4ddfcf2d235"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/gaps/Structure-Radius-Decoupling.md",
+      "sha256": "168d824530bfd1da059c6544d59bd8471fb1f8a0e7ed95e5c026a16b2dd746b4"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/gaps/TBC-TGO-High-Temperature-Compatibility.md",
+      "sha256": "7e07a465bccf0461933906dada7eb8b9c742a3fa770bbbb998074a5b5d01913d"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/methods/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/metrics/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/papers/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/papers/2019-RE2Si2O7-CMAS-1300-1500C.md",
+      "sha256": "bf5aae1e094860908a2b3d8a93bddf24c6da0014790e26c1a4b5031393b797e2"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/papers/2019-RE2SiO5-CMAS-General-Trend.md",
+      "sha256": "d074cdb23700817e7a0af4161bb4abbc0161801e932be3a027e7cb3907486c83"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/papers/2022-High-Entropy-RE2SiO5-CMAS-EBC.md",
+      "sha256": "9c96eb037fd1cda9ef4536f0d750c2b3de614d5562ab22f33286f3b302fd478b"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/papers/2023-RE2SiO5-CMAS-In-Situ-Degradation.md",
+      "sha256": "846de35848508235b9371311583d503594c65f01d3aa2b0fd6915275e8ab2bb5"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/papers/2024-Lu2SiO5-CMAS-1500C-In-Situ-Directional-Growth.md",
+      "sha256": "7b626c52a6b99902460b98a6ed5a166bf852cd6d06bfd27dbf7f65e5a08f74b2"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/papers/2024-M-YTaO4-CMAS-Grain-Boundary-Infiltration.md",
+      "sha256": "1299f14053f9d07df1478105b585218c8ce1bc064a0de2bc01c3c06256a54645"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/papers/2025-Hf6Ta2O17-Al2O3-Thermochemical-Compatibility.md",
+      "sha256": "fc17e6030ded4d66c736b833c2f50142875d4f10443a56d48658ad59284297af"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/papers/2025-RE2SiO5-CMAS-Multilayer-Stacking-Screening.md",
+      "sha256": "cd3c8b491cfd073f1891ea87a3df41602da888e8e1df844093b450d32a15ea57"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/papers/2025-RETaO4-CMAS-High-Throughput-Screening.md",
+      "sha256": "57c8e84ac5ca7930ca35323474b4bb0cdc155fe7b4f08dcdb090673f292fdb67"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/papers/2026-High-Entropy-Zirconates-CMAS-High-Throughput.md",
+      "sha256": "66a63c1d6f50ece13c9e609ff150d6d3a37ecbd18d066166c9a0b770dfb4d0ef"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/reviews/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/reviews/CMAS-Review-Section-1-Evaluation-and-Comparability.md",
+      "sha256": "47aa1d8edf49bb5555b1c45809f0d0fca7373658f80eaa78ae95f1e048ff2821"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/topics/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/topics/Ceramic Corrosion.md",
+      "sha256": "c8fb1e8e809a40c0615370be676c99e9c9597c78d1b82eb93e8e11f7df607fe6"
+    },
+    {
+      "path": "directions/ceramic-corrosion/wiki/topics/Thermal Barrier Coatings.md",
+      "sha256": "edee97e8fba1afbe836ad2663630a412e5e1d684d6e69fceada79aaf04eb5c27"
+    },
+    {
+      "path": "docs/direction-workflow.md",
+      "sha256": "93d4faf6b7cd66cfc744f9dc2b23c0df98a9f1a935545b9971206a048e7531ae"
+    },
+    {
+      "path": "docs/initialization.md",
+      "sha256": "1af5850c64ff847a91731da46e34745c67e83481336f93c31dd127cf0527f4f3"
+    },
+    {
+      "path": "docs/multi-direction-migration-plan.md",
+      "sha256": "15b1f3476bc5f662cb2db68898e518725fa02e28eec80ef1e84e8d35a34b2382"
+    },
+    {
+      "path": "docs/obsidian-setup.md",
+      "sha256": "b156c57d03c49c117c0a2c2c1624c867afa4d7df08e5473ef31586edd6788ebe"
+    },
+    {
+      "path": "docs/privacy-and-gitignore.md",
+      "sha256": "f2ca82548cb0669054c5e8bc87f732967b67d5c3af6e1159eaad57197ac7beba"
+    },
+    {
+      "path": "docs/zotero-workflow.md",
+      "sha256": "c31980d01f232a84b841b0228412d64c6d626f7c75b1bcfc674852e4c3bc66d2"
+    },
+    {
+      "path": "inbox.md",
+      "sha256": "c9727fe69bb733b2e7389d89bb981cfbadb79cacd068785b15ee4b8048bb859b"
+    },
+    {
+      "path": "index.md",
+      "sha256": "745b523e9b30023b03aa621a50d4f7d324fe8ecbe3aa35cb6eac0d7d560137da"
+    },
+    {
+      "path": "log.md",
+      "sha256": "221e802e81bdd59954555f1f611648e270c1eb119579f4194338201360fbfdc4"
+    },
+    {
+      "path": "memory/context_policy.md",
+      "sha256": "8f67482f2b310e15b5ba63afa350d3adb377026f7446e2f094759c5f0dee8bb9"
+    },
+    {
+      "path": "memory/decision_log.md",
+      "sha256": "282ef3582749e76946946a210d131bac47e8c265e6a95c0d5cafe157ad58072b"
+    },
+    {
+      "path": "memory/direction_registry.yaml",
+      "sha256": "f1a1e5b546b15779fe63bfb6eeb74be62fb348bb41ee3205eebfd26b7b488a46"
+    },
+    {
+      "path": "memory/error_log.md",
+      "sha256": "ee7e1430ce08d98ad60b73e58a31647fec1db681c35ec412d0474f0c14929874"
+    },
+    {
+      "path": "memory/hard_memory.md",
+      "sha256": "028cc106dc5c0027df44eaa99ba585f1a59d865d4d0d8f8908009aeacd3daca2"
+    },
+    {
+      "path": "memory/style_snapshot.md",
+      "sha256": "b00cef23f16382a36bb940b5d5c773ef24085d03a6720a682599bcbe4b1591d3"
+    },
+    {
+      "path": "memory/tag_taxonomy.md",
+      "sha256": "e9dfbf69ddba96d3c38fc03db88f668f7bc8ca2865ec0f51bcddb92af56b37de"
+    },
+    {
+      "path": "memory/term_aliases.md",
+      "sha256": "0e83a90878ba70cdb51f567619ec6de31b29cfe168d60f6428e073f7860a8e5b"
+    },
+    {
+      "path": "memory/user_profile.md",
+      "sha256": "986c471f4dc0d178a95d076d710032d02be291207d1c1780e39738ceec02f8d9"
+    },
+    {
+      "path": "shared/resource_catalog.md",
+      "sha256": "3bd95ad0cf9e2d1f0bf13ed3bd39a261ce7aa619f6fa7703ff8aca880c90f227"
+    },
+    {
+      "path": "templates/claim.md",
+      "sha256": "51c29977ae64dba5e9ac06a08636e8d2a444e7957ab74993dc33b60c3c97ca61"
+    },
+    {
+      "path": "templates/direction.md",
+      "sha256": "28b68ec0e041f1bc14b493c23531a23743f40f987c053a11e0abf15749a936d5"
+    },
+    {
+      "path": "templates/gap.md",
+      "sha256": "6e34f42de059600b20aabc5bcb2720cd6cae3cf6bf6ba61ae4a3e3f9f90c3dbf"
+    },
+    {
+      "path": "templates/method.md",
+      "sha256": "9c0049f27e05e42352eb681648dd80ff3e8dc64598f586ef52e58aa76556589c"
+    },
+    {
+      "path": "templates/paper.md",
+      "sha256": "ebe0ce5d557b791151a195284ff6d7895356a10d7ff953f9f5db371efb27a678"
+    },
+    {
+      "path": "templates/pdf_ingestion_template.md",
+      "sha256": "1089724fc16994caa4294ce0aea294730174314d38c7ccb5ef5edae7371c1d0d"
+    },
+    {
+      "path": "templates/review.md",
+      "sha256": "63ac979723ab4673b6068e38b64fa5db7cc8516738878c422c2dc187f35a2128"
+    },
+    {
+      "path": "templates/topic.md",
+      "sha256": "8ed663654b4c61ed2627cb32f0a14c4be06adc25d0ad38c23a1515d39654f5b5"
+    }
+  ],
+  "status": "applied-with-locked-legacy-copy",
+  "locked_legacy_copies": [
+    {
+      "source": "docs/scopus-screening-2026-09-09/screening.csv",
+      "target": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/screening.csv",
+      "error": "[WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'F:\\\\industry software\\\\calude_wiki\\\\docs\\\\scopus-screening-2026-09-09\\\\screening.csv'"
+    }
+  ]
+}

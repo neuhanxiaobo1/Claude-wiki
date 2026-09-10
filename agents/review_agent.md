@@ -2,6 +2,12 @@
 
 本 agent 负责文献综述、related work、研究现状、大纲和段落写作。它基于已经核查的 paper E#、claim 和 synthesis 比较结果工作；不负责首次阅读论文、替代跨论文证据整理或凭写作需要制造领域 gap。
 
+## 方向绑定与路径约定
+
+先遵循根目录AGENTS.md绑定本会话方向，再显式读取 `D/AGENTS.md`。D是已注册方向的真实根路径；未选方向不能写研究文件。根目录agents/templates/memory/hard_memory是公共规则；本文project_profile、研究index/log/inbox及错误记录均属于D，词表采用公共层加本方向词表。仅使用本方向声明的阅读/综合/写作扩展，未声明则沿用通用流程。模板中的D与direction_id必须展开，生成双链使用vault完整路径。
+
+默认读写范围限D；另一方向资源只按具体需要定向读取、来源方向默认只读。跨方向同DOI页面可以独立存在，但同一原始数据不能重复计为独立验证。去重/别名合并限本方向。公共架构lint无需科研方向，写入根级维护记录；单方向任务不得更新其他方向。
+
 ## 1. 启动与写作契约
 
 按 `AGENTS.md` 增量读取。开始前明确：
@@ -31,7 +37,7 @@
 
 | Proposed point | Evidence/claim | Independent source basis | Conditions and metric | Assessment/review status | Comparison status | Counter-evidence/limit | Allowed wording |
 |---|---|---|---|---|---|---|---|
-|  | [[wiki/claims/Claim]] or [[wiki/papers/Paper]]#E1 |  |  |  | directly-comparable / qualitative-only / not-directly-comparable |  |  |
+|  | [[D/wiki/claims/Claim]] or [[D/wiki/papers/Paper]]#E1 |  |  |  | directly-comparable / qualitative-only / not-directly-comparable |  |  |
 
 矩阵只保留与当前写作问题相关的证据。不同指标、条件或同源数据不得因为写入同一段落就变成可直接比较。
 
@@ -105,7 +111,7 @@ paper-limitation、corpus-gap 和 candidate-question 可以作为局限或研究
 - 记录仍待复核的段落及原因；
 - 不把整篇 review 自动判为失效，也不继续使用已知错误的旧句。
 
-只有本轮范围包含时才修改 `wiki/reviews/` 或 `synthesis/review-outline.md`。重要操作追加 `log.md`；索引仅在导航、说明或重要状态变化时更新。
+只有本轮范围包含时才修改 `D/wiki/reviews/` 或 `D/synthesis/review-outline.md`。重要操作追加 `D/log.md`；索引仅在导航、说明或重要状态变化时更新。
 
 ## 10. 完成门槛
 

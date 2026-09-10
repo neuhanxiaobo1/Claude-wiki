@@ -1,4 +1,5 @@
 ---
+direction_id: "{{direction_id}}"
 type: gap
 status: open
 review_status: draft
@@ -43,7 +44,7 @@ Gap 页面保存一个边界明确、可更新的问题。删除不适用的空�
 
 | Work/evidence | What is already addressed | Conditions/metric | What remains | Independence/review status |
 |---|---|---|---|---|
-| [[wiki/papers/Paper]]#E1 |  |  |  |  |
+| [[D/wiki/papers/Paper]]#E1 |  |  |  |  |
 
 既有工作部分解决问题时准确描述覆盖范围，不以“未完全解决”改写为“尚无研究”。
 
@@ -135,3 +136,6 @@ Gap 页面保存一个边界明确、可更新的问题。删除不适用的空�
 - [ ] No field novelty claim is made without a scoped search record.
 - [ ] Duplicate/alias and downstream impact checks were completed.
 - [ ] Index/log/tags were updated only when applicable.
+
+
+<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。 -->

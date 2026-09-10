@@ -7,7 +7,7 @@ updated: 2026-09-05
 
 # Hard Memory
 
-本页保存 ResearchWiki 长期稳定、默认不可违背的通用规则。具体研究领域、用户目标、Zotero 设置和写作偏好写入 `memory/project_profile.md`。
+本页保存 ResearchWiki 长期稳定、默认不可违背的通用规则。个人默认偏好见 `memory/user_profile.md`；具体研究领域、用户目标、Zotero设置与方向覆盖偏好见 `D/memory/project_profile.md`。D由根AGENTS绑定。
 
 ## Project Boundary
 
@@ -18,11 +18,11 @@ updated: 2026-09-05
 
 ## Layering Rules
 
-- `raw/` 保存原始资料。除非用户明确要求，不修改、不删除、不重命名原始文件；Zotero PDF、缓存全文、译文及补充材料同样按原件保护。
-- `raw/zotero_imports/` 中由本系统生成的 import_plan/manifest 属于导入管理记录，可在已授权导入任务内按 import_zotero 规则同步更新；这不授权修改其他原件或 Zotero 条目。文件身份不明时先核实。
-- `wiki/` 保存结构化知识页面，例如 paper、author、topic、method、dataset、metric、claim、gap 和 review。
-- `synthesis/` 保存跨论文综合成果，例如 literature map、open questions、research positioning 和 review outline。
-- `memory/` 保存长期规则、项目配置、错误记录、标签体系和术语别名。
+- `D/raw/` 保存原始资料。除非用户明确要求，不修改、不删除、不重命名原始文件；Zotero PDF、缓存全文、译文及补充材料同样按原件保护。
+- `D/raw/zotero_imports/` 中由本系统生成的 import_plan/manifest 属于导入管理记录，可在已授权导入任务内按 import_zotero 规则同步更新；这不授权修改其他原件或 Zotero 条目。文件身份不明时先核实。
+- `D/wiki/` 保存结构化知识页面，例如 paper、author、topic、method、dataset、metric、claim、gap 和 review。
+- `D/synthesis/` 保存跨论文综合成果，例如 literature map、open questions、research positioning 和 review outline。
+- 根 `memory/` 保存公共规则与公共维护；`D/memory/` 保存方向配置、短上下文、错误与研究决定。
 - `agents/` 保存任务型操作规程。
 - `templates/` 保存输出格式模板。
 
@@ -67,15 +67,19 @@ updated: 2026-09-05
 
 ## Maintenance Rules
 
-- 每次重要操作后追加 `log.md`。页面成员、路径、索引说明或重要状态变化时更新 `index.md`，否则只核对一致性。
-- 新增标签前先查 `memory/tag_taxonomy.md`。
-- 新建 topic、method、dataset、metric、gap 或 claim 前先查 `memory/term_aliases.md` 和已有页面。
-- 一旦发现错误，或用户指出错误，必须更新 `memory/error_log.md`。
+- 每次重要操作后追加 `D/log.md`。页面成员、路径、索引说明或重要状态变化时更新 `D/index.md`，否则只核对一致性。
+- 新增标签前先查公共 `memory/tag_taxonomy.md` 与本方向 `D/memory/tag_taxonomy.md`。
+- 新建 topic、method、dataset、metric、gap 或 claim 前先查公共 `memory/term_aliases.md`、本方向 `D/memory/term_aliases.md` 和本方向已有页面。
+- 一旦发现错误，或用户指出错误，必须更新 `D/memory/error_log.md`。
 - 不追求一次性完美，追求持续更新、持续纠错、持续形成研究地图。
 
 ## Output Rules
 
-- 默认使用 `memory/project_profile.md` 中指定的语言、术语和引用偏好。
+- 默认语言、术语显示见 `memory/user_profile.md`，本方向 `D/memory/project_profile.md` 可覆盖默认风格，不得降低证据标准。
 - 如果 project profile 尚未填写，默认用中文、学术简洁风格输出，并把缺失项标注为“待确认”。
 - 页面应尽量使用 YAML frontmatter，方便 Obsidian Dataview 查询。
 - 入库须检查真实知识关系；按本轮范围更新相关页面或列出待复核项。无明确贡献或证据时，不为填模板强行创建 method、claim 或 gap；局部修订只改受影响内容。
+
+## 多方向维护边界
+
+单方向操作追加D/log.md，研究纠错记D/memory/error_log.md；公共架构操作追加根log.md，公共错误记根memory/error_log.md。方向词表不影响其他方向；跨方向引用必须保留共同来源、适用条件和本方向独立评价。原件保护不因方向迁移而降低；用户明确授权的目录迁移可改变指定原件位置，原件内容保持不变。

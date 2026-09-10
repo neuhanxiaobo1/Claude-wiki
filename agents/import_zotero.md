@@ -2,6 +2,12 @@
 
 本规程用于读取用户指定的 Zotero collection、识别候选论文并维护 import_plan/manifest。单篇新入库、完整复核、局部修订交给 `agents/pdf_read_agent.md`；已知论文、附件、缓存或已有页面直接进入阅读流程，不为它重建 collection 清单。
 
+## 方向绑定与路径约定
+
+先遵循根目录AGENTS.md绑定本会话方向，再显式读取 `D/AGENTS.md`。D是已注册方向的真实根路径；未选方向不能写研究文件。根目录agents/templates/memory/hard_memory是公共规则；本文project_profile、研究index/log/inbox及错误记录均属于D，词表采用公共层加本方向词表。仅使用本方向声明的阅读/综合/写作扩展，未声明则沿用通用流程。模板中的D与direction_id必须展开，生成双链使用vault完整路径。
+
+默认读写范围限D；另一方向资源只按具体需要定向读取、来源方向默认只读。跨方向同DOI页面可以独立存在，但同一原始数据不能重复计为独立验证。去重/别名合并限本方向。公共架构lint无需科研方向，写入根级维护记录；单方向任务不得更新其他方向。
+
 ## 1. 启动与授权
 
 - 遵循 AGENTS/context_policy 的增量读取；只读相关来源配置、已有清单、论文索引与必要的近期记录，不重复加载全部规则或历史。
@@ -13,11 +19,11 @@
 ## 2. 来源访问与边界
 
 - 使用当前可用的 Zotero 插件/connector 读取指定 collection；先核对能力，文档不保证本机已连接或有特定工具。
-- 不遍历整个 library/storage，不读取 Zotero 本地数据库，不为候选清单扫描全部 raw/papers，不自动安装工具或搭建同步服务。
+- 不遍历整个 library/storage，不读取 Zotero 本地数据库，不为候选清单扫描全部 D/raw/papers，不自动安装工具或搭建同步服务。
 - 读取元数据、条目标识和附件标识；只有准备阅读指定论文时才访问其附件路径或全文。附件标识不可得时记录实际缺失。
 - connector 不可用时如实说明；可继续核对已有清单、用户提供的导出元数据或已知本地来源，明确来源与更新时间，不能伪称刚从 Zotero 同步。
 - Zotero 条目、PDF、缓存正文、译文及补充材料均按 hard_memory 的原件规则保护。不要求为了阅读而复制 PDF；确需复制时按用户当前指令及已记录授权判断，复制不等于移动。
-- raw/zotero_imports 下本系统生成的 import_plan.md/manifest.json 是管理记录，可在已授权清单或入库任务内同步；该权限不延伸到其他原件或 Zotero 写操作。身份不明的文件先核实。
+- D/raw/zotero_imports 下本系统生成的 import_plan.md/manifest.json 是管理记录，可在已授权清单或入库任务内同步；该权限不延伸到其他原件或 Zotero 写操作。身份不明的文件先核实。
 
 ## 3. 身份、去重与状态
 
@@ -31,7 +37,7 @@
 
 ## 4. 清单与 manifest
 
-输出到 `raw/zotero_imports/<safe_collection_name>/`。目录名需合法且不与其他 collection 冲突，保留原始名称、路径或 key；同名时用稳定标识区分，不覆盖无关清单。
+输出到 `D/raw/zotero_imports/<safe_collection_name>/`。目录名需合法且不与其他 collection 冲突，保留原始名称、路径或 key；同名时用稳定标识区分，不覆盖无关清单。
 
 import_plan.md 记录生成/更新日期、实际来源、collection 身份、版本/覆盖范围及以下表格：
 

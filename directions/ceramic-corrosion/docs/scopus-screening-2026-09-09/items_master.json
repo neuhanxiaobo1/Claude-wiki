@@ -1,0 +1,992 @@
+[
+ {
+  "sid": "S001",
+  "key": "WPTGSGFH",
+  "title": "2ZrO2 ·Y2 O3 Thermal Barrier Coatings Resistant to Degradation by Molten CMAS : Part I, Optical Basicity Considerations and Processing",
+  "doi": "10.1111/jace.13210",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.13210"
+ },
+ {
+  "sid": "S002",
+  "key": "KLZDK3BH",
+  "title": "2ZrO2·Y2O3 thermal barrier coatings resistant to degradation by molten CMAS: part II, interactions with sand and fly ash",
+  "doi": "10.1111/jace.13209",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/84915750654?origin=resultslist"
+ },
+ {
+  "sid": "S004",
+  "key": "X4LLTF56",
+  "title": "Advances in the research of surface modification on the resistance of thermal barrier coatings to CMAS corrosion",
+  "doi": "10.16490/j.cnki.issn.1001-3660.2024.16.003",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85202443956?origin=resultslist"
+ },
+ {
+  "sid": "S006",
+  "key": "2HB85468",
+  "title": "Al2O3-modified 7YSZ thermal barrier coatings for protection against volcanic ash corrosion",
+  "doi": "10.1038/s41529-022-00308-3",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85141807031?origin=resultslist"
+ },
+ {
+  "sid": "S009",
+  "key": "68SMK7Y5",
+  "title": "An aluminum surface modification strategy for enhancing CMAS corrosion resistance of environmental barrier coatings",
+  "doi": "10.26599/JAC.2025.9221222",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/105030658970?origin=resultslist"
+ },
+ {
+  "sid": "S010",
+  "key": "94FX7Y3P",
+  "title": "An experimental simulation of volcanic ash deposition in gas turbines and implications for jet engine safety",
+  "doi": "10.1016/j.chemgeo.2016.11.024",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85007493635?origin=resultslist"
+ },
+ {
+  "sid": "S018",
+  "key": "4QV2CWEN",
+  "title": "Basicity of volcanic ash determining the degradation of thermal barrier coatings at elevated temperatures",
+  "doi": "10.1016/j.jmst.2024.12.083",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105000629901?origin=resultslist"
+ },
+ {
+  "sid": "S020",
+  "key": "R5BQNGXG",
+  "title": "Blade surface blade surface blade surface blade surface-particle interaction and multifunctional coatings for gas turbine engines",
+  "doi": "",
+  "itemType": "conferencePaper",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/84946033435?origin=resultslist"
+ },
+ {
+  "sid": "S021",
+  "key": "KMKUZS4S",
+  "title": "Calcium-magnesium-alumino-silicate (CMAS) degradation of EB-PVD thermal barrier coatings: characterization of CMAS damage on ex-service high pressure blade TBCs",
+  "doi": "10.1016/j.surfcoat.2012.07.074",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/84866176415?origin=resultslist"
+ },
+ {
+  "sid": "S022",
+  "key": "XT4FIUCE",
+  "title": "Calcium–magnesium–aluminum-silicate melt viscosities influenced by lanthanides, yttrium, and zirconium",
+  "doi": "10.1111/jace.19646",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85181446626?origin=resultslist"
+ },
+ {
+  "sid": "S023",
+  "key": "5Y5SX6RG",
+  "title": "Ceramic coatings in turbine applications",
+  "doi": "10.1016/B978-0-323-99624-2.00001-2",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85163445904?origin=resultslist"
+ },
+ {
+  "sid": "S025",
+  "key": "KMWVLG98",
+  "title": "Characterization and hot corrosion behavior of the La2(Zr0.7Ce0.3)2O7/8YSZ:Eu double ceramic layer coating prepared by atmospheric plasma spraying",
+  "doi": "10.1016/j.surfin.2020.100777",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85094615349?origin=resultslist"
+ },
+ {
+  "sid": "S026",
+  "key": "MZE6ZGMW",
+  "title": "Characterization of thermochemical and thermomechanical properties of eyjafjallajokull volcanic ash glass",
+  "doi": "10.3390/coatings10020100",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85080916245?origin=resultslist"
+ },
+ {
+  "sid": "S029",
+  "key": "4LIHSMBV",
+  "title": "CMAS degradation of EB-PVD TBCs: the effect of basicity",
+  "doi": "10.1016/j.surfcoat.2015.03.009",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/84927173922?origin=resultslist"
+ },
+ {
+  "sid": "S030",
+  "key": "ETQVGXTG",
+  "title": "CMAS infiltration and mitigation strategies for minimizing premature degradation failure of high temperature ceramic coatings in turbine engines",
+  "doi": "10.2514/6.2023-0179",
+  "itemType": "conferencePaper",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85179627612?origin=resultslist"
+ },
+ {
+  "sid": "S032",
+  "key": "H8C2MPCY",
+  "title": "CMAS-resistant plasma sprayed thermal barrier coatings based on Y 2O3-stabilized ZrO2 with Al3+ and Ti4+ solute additions",
+  "doi": "10.1007/s11666-014-0077-2",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/84897112196?origin=resultslist"
+ },
+ {
+  "sid": "S035",
+  "key": "N8PIIR98",
+  "title": "Comparative study on the CMAS and volcanic ash corrosion resistance of (Sm0.7Yb0.3)2Zr2O7 ceramics",
+  "doi": "10.1016/j.ceramint.2025.12.379",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105029691342?origin=resultslist"
+ },
+ {
+  "sid": "S036",
+  "key": "RZQN43UZ",
+  "title": "Corrosion behavior of (Yb0.9Y0.1)2SiO5environmental barrier coating material against CMAS and volcanic ash: experimental and first-principles calculation",
+  "doi": "10.1016/j.ceramint.2025.08.055",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/105013985409?origin=resultslist"
+ },
+ {
+  "sid": "S037",
+  "key": "EMFKSLIY",
+  "title": "Corrosion of thermal barrier coatings",
+  "doi": "",
+  "itemType": "conferencePaper",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/84867252740?origin=resultslist"
+ },
+ {
+  "sid": "S038",
+  "key": "VCAZHYKD",
+  "title": "Corrosion of YSZ by different types of CMAS",
+  "doi": "10.1016/j.ceramint.2025.11.441",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105025764783?origin=resultslist"
+ },
+ {
+  "sid": "S039",
+  "key": "293TZ36N",
+  "title": "Corrosion resistance of multicomponent disilicate (Ho0.2Er0.2Tm0.2Yb0.2Lu0.2)2Si2O7 against CMAS and volcanic ash",
+  "doi": "10.1016/j.corsci.2024.112484",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85204786821?origin=resultslist"
+ },
+ {
+  "sid": "S040",
+  "key": "W8RCP364",
+  "title": "Crystallization of coal ash slags at high temperatures and effects on the viscosity",
+  "doi": "10.1021/ef201894p",
+  "itemType": "conferencePaper",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/84862637311?origin=resultslist"
+ },
+ {
+  "sid": "S041",
+  "key": "IPL7U8WM",
+  "title": "Damage progression of thermal barrier coatings by CMAS",
+  "doi": "10.2472/jsms.64.134",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/84923651995?origin=resultslist"
+ },
+ {
+  "sid": "S042",
+  "key": "UTE2QIHK",
+  "title": "Damage quantification and failure mechanism of EB-PVD thermal barrier coatings under CMAS corrosion",
+  "doi": "10.1016/j.surfcoat.2024.131554",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85209402925?origin=resultslist"
+ },
+ {
+  "sid": "S043",
+  "key": "X6AND7WH",
+  "title": "Degradation mechanisms of air plasma sprayed free-standing yttria-stabilized zirconia thermal barrier coatings exposed to volcanic ash",
+  "doi": "10.1016/j.apsusc.2019.03.084",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85063299841?origin=resultslist"
+ },
+ {
+  "sid": "S044",
+  "key": "GXRN8299",
+  "title": "Degradation of La2Zr2O7 and other novel EB-PVD thermal barrier coatings by CMAS (CaO-MgO-Al2O3-SiO2) and volcanic ash deposits",
+  "doi": "10.1016/j.surfcoat.2013.07.029",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/84886290483?origin=resultslist"
+ },
+ {
+  "sid": "S045",
+  "key": "UWZNHAYD",
+  "title": "Densification and embrittlement mechanisms of EB-PVD columnar YSZ coatings under volcanic ash corrosion via in-situ micropillar compression",
+  "doi": "10.1016/j.corsci.2026.114102",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105044111750?origin=resultslist"
+ },
+ {
+  "sid": "S046",
+  "key": "IPBYVK4C",
+  "title": "Droplet size effects on the interfacial behavior between CMAS and GYbZ thermal barrier coating material surface",
+  "doi": "10.1016/j.apsusc.2026.166000",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/105028242249?origin=resultslist"
+ },
+ {
+  "sid": "S047",
+  "key": "DZXEDTUS",
+  "title": "Dual-phase barrier formation and inhibition of environmental deposit-induced grain boundary corrosion in rare earth zirconia-based TBCs",
+  "doi": "10.1016/j.surfcoat.2025.132614",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105014005781?origin=resultslist"
+ },
+ {
+  "sid": "S048",
+  "key": "PP459KXK",
+  "title": "Dynamic redissolution-reprecipitation of a “coral-like” reaction layer enables self-healing corrosion resistance in Yb-Gd-Y co-stabilized zirconia against molten volcanic ash",
+  "doi": "10.1016/j.corsci.2026.114098",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105043785162?origin=resultslist"
+ },
+ {
+  "sid": "S049",
+  "key": "8UJ2YKVC",
+  "title": "EB-PVD alumina (Al2O3) as a top coat on 7YSZ TBCs against CMAS/VA infiltration: deposition and reaction mechanisms",
+  "doi": "10.1016/j.jeurceramsoc.2018.03.027",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85044272715?origin=resultslist"
+ },
+ {
+  "sid": "S054",
+  "key": "8EKFEKR3",
+  "title": "Effect of configuration entropy on resistance of rare-earth zirconate ceramics to CaO-MgO-Al2O3-SiO2",
+  "doi": "10.14062/j.issn.0454-5648.20240647",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/105000461834?origin=resultslist"
+ },
+ {
+  "sid": "S055",
+  "key": "S9NJYQGR",
+  "title": "Effect of semi-molten particulate on tailored thermal barrier coatings for gas turbine engine",
+  "doi": "10.2514/6.2016-4852",
+  "itemType": "conferencePaper",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85088202615?origin=resultslist"
+ },
+ {
+  "sid": "S061",
+  "key": "GAC7DQPH",
+  "title": "Effects of seasalt and sulfate additions on the melting and crystallization behavior of CMAS glass",
+  "doi": "10.1111/ijac.70043",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/ijac.70043"
+ },
+ {
+  "sid": "S062",
+  "key": "YUWL2DCS",
+  "title": "Effects of yttria content on the CMAS infiltration resistance of yttria stabilized thermal barrier coatings system",
+  "doi": "10.1016/j.jmst.2019.09.039",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85079325313?origin=resultslist"
+ },
+ {
+  "sid": "S063",
+  "key": "NLLDU3CE",
+  "title": "Evaluating the sand resistance of tailored thermal barrier coatings for gas turbine engines",
+  "doi": "10.2514/6.2018-4829",
+  "itemType": "conferencePaper",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85066491233?origin=resultslist"
+ },
+ {
+  "sid": "S064",
+  "key": "KPPJW9AL",
+  "title": "Evaluation of molten sand, dust, and ash infiltrating thermal barrier coatings: numerical and analytical approaches",
+  "doi": "10.1063/5.0234882",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85210323622?origin=resultslist"
+ },
+ {
+  "sid": "S065",
+  "key": "B4S9R8QC",
+  "title": "Evolution of hardness and young's modulus with phase transformation of EB-PVD thermal barrier coatings corroded by volcanic ash",
+  "doi": "",
+  "itemType": "conferencePaper",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85066024576?origin=resultslist"
+ },
+ {
+  "sid": "S066",
+  "key": "PYN9N5B4",
+  "title": "Evolution of the microstructure and mechanisms of performance degradation in EB-PVD YSZ thermal barrier coatings corroded by volcanic ash at 1150 °C",
+  "doi": "10.1016/j.corsci.2022.110626",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85137298481?origin=resultslist"
+ },
+ {
+  "sid": "S067",
+  "key": "QMRV4G5N",
+  "title": "Evolution of the thermal conductivity of Sm2Zr2O7 under CMAS attack",
+  "doi": "10.1007/978-3-319-52333-0_21",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85042425173?origin=resultslist"
+ },
+ {
+  "sid": "S071",
+  "key": "WQ5X59JC",
+  "title": "Exploring the comprehensive performance of lotus-leaf-inspired biomimetic NdYbZr2O7 thermal barrier coatings",
+  "doi": "10.1016/j.ceramint.2024.10.181",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85207787698?origin=resultslist"
+ },
+ {
+  "sid": "S072",
+  "key": "39LHJRUQ",
+  "title": "Factors influencing the penetration depth of molten volcanic ash in thermal barrier coatings: theoretical calculation and experimental testing",
+  "doi": "10.1016/j.rinp.2019.102169",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85064147305?origin=resultslist"
+ },
+ {
+  "sid": "S073",
+  "key": "V9H4UGN4",
+  "title": "Failure mechanism and protection strategy of thermal barrier coatings under CMAS attack",
+  "doi": "10.7527/S1000-6893.2022.27613",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85142254785?origin=resultslist"
+ },
+ {
+  "sid": "S074",
+  "key": "9MQSB7UI",
+  "title": "Function of reaction layer in pyrochlore thermal barrier coatings against CMAS corrosion",
+  "doi": "10.1149/06618.0053ecst",
+  "itemType": "conferencePaper",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/84940389571?origin=resultslist"
+ },
+ {
+  "sid": "S076",
+  "key": "WZDBZVBY",
+  "title": "Fusion and TBC penetration characteristics of volcanic ash collected from active volcano",
+  "doi": "10.1007/s11666-020-01015-8",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85081750840?origin=resultslist"
+ },
+ {
+  "sid": "S077",
+  "key": "JC99PYQW",
+  "title": "High temperature composition-controlled spreading dynamics of volcanic melts",
+  "doi": "10.1016/j.chemgeo.2026.123436",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105036668069?origin=resultslist"
+ },
+ {
+  "sid": "S078",
+  "key": "LN7MUQ2N",
+  "title": "High temperature infiltration behavior and reaction characteristics of colima volcanic ashes on gadolinium zirconate coatings deposited by atmospheric plasma spraying",
+  "doi": "10.1007/s42247-024-00677-2",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85193934220?origin=resultslist"
+ },
+ {
+  "sid": "S079",
+  "key": "IVME957G",
+  "title": "High temperature interactions between coal ash and MgO-based refractories in lime kiln conditions",
+  "doi": "10.1016/j.fuel.2023.127711",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85149015295?origin=resultslist"
+ },
+ {
+  "sid": "S080",
+  "key": "Y2KD6QZH",
+  "title": "High-temperature corrosion of sintered RE2Si2O7 (RE = Yb and Ho) environmental barrier coating materials by volcanic ash",
+  "doi": "10.1007/s12613-024-2899-3",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://link.springer.com/10.1007/s12613-024-2899-3"
+ },
+ {
+  "sid": "S081",
+  "key": "EY8LD6U5",
+  "title": "Hot corrosion behavior of plasma sprayed 4 mol% Y2O 3-ZrO2 thermal barrier coatings with volcanic ash",
+  "doi": "10.4191/kcers.2013.50.6.353",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/84893715187?origin=resultslist"
+ },
+ {
+  "sid": "S082",
+  "key": "4SG3G9KM",
+  "title": "Hot corrosion of RE 2 SiO 5 with different cation substitution under calcium–magnesium–aluminosilicate attack",
+  "doi": "10.1016/j.ceramint.2017.04.045",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0272884217306508"
+ },
+ {
+  "sid": "S084",
+  "key": "TZTKDQLF",
+  "title": "Impact interaction of in-flight high-energy molten volcanic ash droplets with jet engines",
+  "doi": "10.1016/j.actamat.2019.04.011",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85064323728?origin=resultslist"
+ },
+ {
+  "sid": "S086",
+  "key": "RTEJB3QN",
+  "title": "In-situ synchrotron X-ray diffraction volcanic ash infiltration studies on high temperature ceramic coatings",
+  "doi": "10.2514/6.2024-2047",
+  "itemType": "conferencePaper",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85196825241?origin=resultslist"
+ },
+ {
+  "sid": "S088",
+  "key": "3UZM3X7C",
+  "title": "Influence of molten volcanic ash infiltration on the friability of APS thermal barrier coatings",
+  "doi": "10.1016/j.ceramint.2020.01.166",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85078342419?origin=resultslist"
+ },
+ {
+  "sid": "S093",
+  "key": "WABHYJH6",
+  "title": "Integrated testing approach using a customized micro turbine for a volcanic ash and CMAS related degradation study of thermal barrier coatings",
+  "doi": "10.1016/j.surfcoat.2018.01.030",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85040310012?origin=resultslist"
+ },
+ {
+  "sid": "S094",
+  "key": "BQY44J7M",
+  "title": "Interaction and infiltration behavior of eyjafjallajökull, sakurajima volcanic ashes and a synthetic CMAS containing FeO with/in EB-PVD ZrO2-65 wt% Y2 O3 coating at high temperature",
+  "doi": "10.1016/j.actamat.2017.06.055",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85021889096?origin=resultslist"
+ },
+ {
+  "sid": "S096",
+  "key": "MLFF3E4L",
+  "title": "Interactions between rare-earth zirconates (RE2Zr2O7) and CMAS silicate melts",
+  "doi": "10.1016/j.corsci.2023.111526",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85171423893?origin=resultslist"
+ },
+ {
+  "sid": "S097",
+  "key": "WR6SIB8J",
+  "title": "Investigation of CMAS resistance of sacrificial suspension sprayed alumina topcoats on EB-PVD 7YSZ layers",
+  "doi": "10.1007/s11666-019-00951-4",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85075186165?origin=resultslist"
+ },
+ {
+  "sid": "S098",
+  "key": "3F2PXAP6",
+  "title": "Investigation of vermiculite infiltration effect on microstructural properties of thermal barrier coatings (TBCs) produced by electron beam physical vapor deposition method (EB-PVD)",
+  "doi": "10.1016/j.surfcoat.2022.128645",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85132812764?origin=resultslist"
+ },
+ {
+  "sid": "S101",
+  "key": "Z2SRQLJB",
+  "title": "Lifetime and failure modes of plasma sprayed thermal barrier coatings in thermal gradient rig tests with simultaneous CMAS injection",
+  "doi": "10.1016/j.surfcoat.2017.04.071",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85019858015?origin=resultslist"
+ },
+ {
+  "sid": "S102",
+  "key": "MYFCVUV3",
+  "title": "Lotus leaf inspired hierarchical micro-nano structure on NdYbZr2O7 ceramic pellet with enhanced volcanic ash repellence",
+  "doi": "10.1016/j.ceramint.2024.05.057",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85192461036?origin=resultslist"
+ },
+ {
+  "sid": "S103",
+  "key": "36ZIPAMJ",
+  "title": "Mechanisms and mitigation of volcanic ash attack on yttria stablized zirconia thermal barrier coatings",
+  "doi": "10.1016/j.surfcoat.2014.09.015",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0257897214008202"
+ },
+ {
+  "sid": "S104",
+  "key": "H9Y7JDKA",
+  "title": "Mechanisms of La2Ce2O7/YSZ double-ceramic-layer thermal barrier coatings against volcanic ash corrosion",
+  "doi": "10.3390/coatings14070877",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85199644384?origin=resultslist"
+ },
+ {
+  "sid": "S106",
+  "key": "Y474XY3E",
+  "title": "Mechanistic study on the degradation of thermal barrier coatings induced by volcanic ash deposition",
+  "doi": "10.1007/s11666-017-0576-z",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85020208950?origin=resultslist"
+ },
+ {
+  "sid": "S107",
+  "key": "45H8KRHD",
+  "title": "Medium-entropy (me,Ti)0.1(Zr,Hf,Ce)0.9O2 (me = Y and Ta): promising thermal barrier materials for high-temperature thermal radiation shielding and CMAS blocking",
+  "doi": "10.1016/j.jmst.2022.01.019",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85127327841?origin=resultslist"
+ },
+ {
+  "sid": "S110",
+  "key": "A4AKW65N",
+  "title": "Microstructural characterization of the interaction between 8YPSZ (EB-PVD) thermal barrier coatings and a synthetic CAS",
+  "doi": "10.1016/j.surfcoat.2013.11.014",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/84892441784?origin=resultslist"
+ },
+ {
+  "sid": "S111",
+  "key": "GFDNU358",
+  "title": "Microstructure characteristics of EB-PVD YSZ thermal barrier coatings corroded by molten volcanic ash",
+  "doi": "10.1016/j.surfcoat.2015.12.003",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/84978705877?origin=resultslist"
+ },
+ {
+  "sid": "S113",
+  "key": "MFJEAK5F",
+  "title": "Microstructure refinement of EB-PVD gadolinium zirconate thermal barrier coatings to improve their CMAS resistance",
+  "doi": "10.3390/coatings13050905",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85160447724?origin=resultslist"
+ },
+ {
+  "sid": "S116",
+  "key": "3B2RYI5U",
+  "title": "Mitigation of damage from molten fly ash to air-plasma-sprayed thermal barrier coatings",
+  "doi": "10.1016/j.msea.2011.06.041",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/79960621184?origin=resultslist"
+ },
+ {
+  "sid": "S118",
+  "key": "XU7QXRNP",
+  "title": "Modeling the viscosity and infiltration kinetics of silicate melt -thermal barrier coating systems based on deep-learning and experimental approach",
+  "doi": "10.1016/j.actamat.2025.121081",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/105003805404?origin=resultslist"
+ },
+ {
+  "sid": "S119",
+  "key": "CXZMZBFF",
+  "title": "Modes of deposit-induced accelerated attack of MCrAlY systems at 1100 °C",
+  "doi": "10.1007/s11085-016-9669-1",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/84996844234?origin=resultslist"
+ },
+ {
+  "sid": "S120",
+  "key": "MTELWNGT",
+  "title": "Molten particulate impact on tailored thermal barrier coatings for gas turbine engine",
+  "doi": "10.1115/1.4037599",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85030661798?origin=resultslist"
+ },
+ {
+  "sid": "S121",
+  "key": "5N2FEVRM",
+  "title": "Molten salt attack on multilayer and functionally-graded YSZ coatings",
+  "doi": "10.1016/j.ceramint.2018.04.062",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85045442608?origin=resultslist"
+ },
+ {
+  "sid": "S122",
+  "key": "9IWH2EPU",
+  "title": "Molten-silicate-induced degradation of ultra-high temperature ceramics",
+  "doi": "10.1016/j.jeurceramsoc.2026.118324",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/105033539706?origin=resultslist"
+ },
+ {
+  "sid": "S123",
+  "key": "U3G2X4VM",
+  "title": "Molten-volcanic-ash-phobic thermal barrier coating based on biomimetic structure",
+  "doi": "10.1002/advs.202205156",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85147444421?origin=resultslist"
+ },
+ {
+  "sid": "S124",
+  "key": "D93X4ERL",
+  "title": "Nanostructured Gd2Zr2O7: a promising thermal barrier coating with high resistance to CaO–MgO–Al2O3–SiO2 corrosion",
+  "doi": "10.1007/s41779-022-00822-2",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85143906176?origin=resultslist"
+ },
+ {
+  "sid": "S125",
+  "key": "ILJ3L6A7",
+  "title": "NdYbZr2O7 thermal barrier coating resistant to degradation by volcanic ash and CMAS",
+  "doi": "10.1016/j.corsci.2022.110795",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85140956656?origin=resultslist"
+ },
+ {
+  "sid": "S126",
+  "key": "DHQT728K",
+  "title": "Novel thermal barrier coatings with hexagonal boron nitride additives resistant to molten volcanic ash wetting",
+  "doi": "10.1016/j.corsci.2020.108587",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85081653025?origin=resultslist"
+ },
+ {
+  "sid": "S127",
+  "key": "DC45PPFU",
+  "title": "Numerical simulation of volcanic ash infiltration into thermal barrier coatings",
+  "doi": "10.4028/www.scientific.net/KEM.827.367",
+  "itemType": "conferencePaper",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85081093878?origin=resultslist"
+ },
+ {
+  "sid": "S128",
+  "key": "WZVAANAM",
+  "title": "On the resistance of rare earth oxide-doped YSZ to high temperature volcanic ash attack",
+  "doi": "10.1016/j.surfcoat.2016.09.033",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/84988600999?origin=resultslist"
+ },
+ {
+  "sid": "S129",
+  "key": "HRQB4LAK",
+  "title": "Partially molten environmental dust spreading on an EB-PVD TBC-analog surface: experimental results enhanced by physics informed machine learning",
+  "doi": "10.1016/j.surfin.2026.108934",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105032216873?origin=resultslist"
+ },
+ {
+  "sid": "S131",
+  "key": "J4PEAY5I",
+  "title": "Phase-informed design strategy of volcanic ash analogues for jet engine degradation",
+  "doi": "10.1016/j.corsci.2025.113484",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105022118981?origin=resultslist"
+ },
+ {
+  "sid": "S132",
+  "key": "CGGQFHXK",
+  "title": "Physicochemical effects influencing the measurements of interfacial surface tension of coal ashes",
+  "doi": "10.1016/0016-2361(91)90050-K",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/0026203945?origin=resultslist"
+ },
+ {
+  "sid": "S133",
+  "key": "829FBCDH",
+  "title": "Plasma sprayed gadolinium zirconate thermal barrier coatings that are resistant to damage by molten Ca-Mg-Al-silicate glass",
+  "doi": "10.1016/j.surfcoat.2012.03.051",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/84861457435?origin=resultslist"
+ },
+ {
+  "sid": "S134",
+  "key": "62UFUICB",
+  "title": "Plasma sprayed Yb4Hf3O12 thermal barrier coatings with excellent thermophysical properties and robust CMAS corrosion resistance",
+  "doi": "10.1016/j.ceramint.2023.06.021",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85163754698?origin=resultslist"
+ },
+ {
+  "sid": "S137",
+  "key": "THL3XCM8",
+  "title": "Protocol for selecting exemplary silicate deposit compositions for evaluating thermal and environmental barrier coatings",
+  "doi": "10.1111/jace.18413",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85125593810?origin=resultslist"
+ },
+ {
+  "sid": "S139",
+  "key": "KPPFFL4K",
+  "title": "Reaction products from high temperature treatments of (LaxGd1-x)2Zr2O7 system and volcanic ash powder mixtures",
+  "doi": "10.1007/s11837-022-05302-3",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85129455027?origin=resultslist"
+ },
+ {
+  "sid": "S140",
+  "key": "PXMJEXXM",
+  "title": "Reaction products of Sm2Zr2O7 with calcium-magnesium-aluminum-silicate (CMAS) and their evolution",
+  "doi": "10.1007/s40145-021-0514-x",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85117906500?origin=resultslist"
+ },
+ {
+  "sid": "S141",
+  "key": "MKJBTUZG",
+  "title": "Recession behavior of plasma-sprayed ytterbium monosilicate environmental barrier coating against silicate deposits",
+  "doi": "10.1016/j.surfcoat.2026.133275",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/105030095820?origin=resultslist"
+ },
+ {
+  "sid": "S143",
+  "key": "VU7XHVZD",
+  "title": "Research progress of CMAS corrosion and protection method for thermal barrier coatings in aero-engines",
+  "doi": "10.11933/j.issn.1007-9289.20221120001",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85182388737?origin=resultslist"
+ },
+ {
+  "sid": "S145",
+  "key": "H2KT556T",
+  "title": "Rheological and chemical interaction between volcanic ash and thermal barrier coatings",
+  "doi": "10.1016/j.surfcoat.2021.127049",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85102360130?origin=resultslist"
+ },
+ {
+  "sid": "S146",
+  "key": "LM5W9L5R",
+  "title": "Rheological properties of high-temperature melts of coal ashes and other silicates",
+  "doi": "10.1016/S0360-1285(00)00023-X",
+  "itemType": "journalArticle",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/0035283245?origin=resultslist"
+ },
+ {
+  "sid": "S147",
+  "key": "5CSSXXGQ",
+  "title": "Rheological properties of molten kilauea iki basalt containing suspended crystals",
+  "doi": "",
+  "itemType": "conferencePaper",
+  "collections": "scopus_2",
+  "url": "https://www.scopus.com/pages/publications/0021621472?origin=resultslist"
+ },
+ {
+  "sid": "S148",
+  "key": "Z9YN223G",
+  "title": "Sand particle-induced deterioration of thermal barrier coatings on gas turbine blades",
+  "doi": "10.12989/aas.2017.4.1.037",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85027354705?origin=resultslist"
+ },
+ {
+  "sid": "S149",
+  "key": "BLGXIZBD",
+  "title": "Sea salt enhances the CMAS corrosion of thermal barrier coating",
+  "doi": "10.1016/j.jeurceramsoc.2025.118030",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/105024075894?origin=resultslist"
+ },
+ {
+  "sid": "S150",
+  "key": "R8QSNY2S",
+  "title": "Silicate ash-resistant novel thermal barrier coatings in gas turbines",
+  "doi": "10.1016/j.corsci.2021.109929",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85119610246?origin=resultslist"
+ },
+ {
+  "sid": "S152",
+  "key": "W67RVJBY",
+  "title": "Size-resolved CMAS deposition characteristics on film-cooled turbine vanes",
+  "doi": "10.1016/j.powtec.2026.122525",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105035878578?origin=resultslist"
+ },
+ {
+  "sid": "S160",
+  "key": "53HZI54F",
+  "title": "Surface roughness affects metastable non-wetting behavior of silicate melts on thermal barrier coatings",
+  "doi": "10.1007/s12598-021-01773-6",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85113624274?origin=resultslist"
+ },
+ {
+  "sid": "S163",
+  "key": "CWWP8QBD",
+  "title": "The accumulation of molten volcanic ash in jet engines; simulating the role of magma composition, ash particle size and thermal barrier coatings",
+  "doi": "10.1016/j.jvolgeores.2019.106707",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85075286561?origin=resultslist"
+ },
+ {
+  "sid": "S165",
+  "key": "5VWS5F88",
+  "title": "The degradation of thermal barrier coatings by molten deposits: introducing the concept of basicity",
+  "doi": "10.1179/1878641315Y.0000000017",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/84964579386?origin=resultslist"
+ },
+ {
+  "sid": "S169",
+  "key": "DKVGBA2H",
+  "title": "The impact of volcanic eruptions on aviation safety",
+  "doi": "10.13745/j.esf.sf.2025.7.8",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105027805740?origin=resultslist"
+ },
+ {
+  "sid": "S170",
+  "key": "8AXWU6CC",
+  "title": "The microstructural investigation of vermiculite-infiltrated electron beam physical vapor deposition thermal barrier coatings",
+  "doi": "10.1515/chem-2018-0097",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85056135637?origin=resultslist"
+ },
+ {
+  "sid": "S175",
+  "key": "JA72FYYY",
+  "title": "Thermal cycling behaviour of plasma sprayed lanthanum zirconate based coatings under concurrent infiltration by a molten glass concoction",
+  "doi": "10.1016/j.ceramint.2012.07.084",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/84870294774?origin=resultslist"
+ },
+ {
+  "sid": "S177",
+  "key": "EDE4YGWZ",
+  "title": "Turbomachinery blade thermomechanical interface science and sandphobic coatings research",
+  "doi": "",
+  "itemType": "conferencePaper",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/84937715794?origin=resultslist"
+ },
+ {
+  "sid": "S178",
+  "key": "IGBFXNTQ",
+  "title": "Ultrafast laser fabricated triple-scale micro/nano structured NdYbZr2O7 thermal barrier coatings with molten volcanic ash repellency",
+  "doi": "10.1016/j.surfcoat.2025.132465",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/105009881533?origin=resultslist"
+ },
+ {
+  "sid": "S179",
+  "key": "YHKVEGWQ",
+  "title": "Understanding the thermal barrier performance of plasma-sprayed rare-earth zirconate coating against volcanic ash ingestion",
+  "doi": "10.1016/j.surfcoat.2022.128745",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/85135723741?origin=resultslist"
+ },
+ {
+  "sid": "S180",
+  "key": "LZ7H6HGY",
+  "title": "Viscosity of CaO-MgO-Al2O3-SiO2 (CMAS) melts: experimental measurements and comparison to model calculations",
+  "doi": "10.1016/j.jnoncrysol.2022.121508",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/85125466016?origin=resultslist"
+ },
+ {
+  "sid": "S184",
+  "key": "8SDT3UXW",
+  "title": "Volcanic ash-induced decomposition of EB-PVD Gd 2 Zr 2 O 7 thermal barrier coatings to Gd-oxyapatite, zircon, and Gd, Fe-zirconolite",
+  "doi": "10.1111/jace.12251",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://www.scopus.com/pages/publications/84878685480?origin=resultslist"
+ },
+ {
+  "sid": "S185",
+  "key": "HHJ5IJBX",
+  "title": "Water vapor and CMAS corrosion tests of Y2SiO5/Si thermal and environmental barrier coating",
+  "doi": "10.1016/j.heliyon.2022.e10262",
+  "itemType": "journalArticle",
+  "collections": "scopus_1",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S240584402201550X"
+ },
+ {
+  "sid": "S186",
+  "key": "ETJ2T4GB",
+  "title": "YPO4: a promising environmental barrier coating candidate against corrosion of molten CMAS",
+  "doi": "10.1016/j.jeurceramsoc.2025.117359",
+  "itemType": "journalArticle",
+  "collections": "scopus_1;scopus_2",
+  "url": "https://www.scopus.com/pages/publications/86000660469?origin=resultslist"
+ }
+]

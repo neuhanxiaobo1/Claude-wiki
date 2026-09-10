@@ -1,0 +1,37 @@
+{
+  "fixture": ".migration-backups/stage3-rehearsal-20260909T221907",
+  "checks": [
+    {
+      "case": "new-direction-neutral-skeleton",
+      "result": "passed",
+      "scope": "explicit fixture creation from template checklist; not a production generator"
+    },
+    {
+      "case": "same-name-method-and-same-source-pages",
+      "result": "passed",
+      "scope": "distinct full paths; no automatic merge; common origin retained"
+    },
+    {
+      "case": "cross-direction-borrow-and-local-log",
+      "result": "passed",
+      "scope": "case-b adds its own assessment and log; every case-a byte unchanged"
+    },
+    {
+      "case": "independent-session-data-model",
+      "result": "passed",
+      "scope": "desktop model only; actual assistant session binding is a rule, not code-enforced"
+    },
+    {
+      "case": "real-library-and-registry-unchanged",
+      "result": "passed",
+      "scope": "88 real direction files verified; no fake registered direction"
+    }
+  ],
+  "real_files_verified": 88,
+  "limitations": [
+    "Fixture operations performed explicitly by this script; this is not OS access control",
+    "No new independent agent conversation or Obsidian UI executed",
+    "No scientific claims or real paper ingestion tested",
+    "Temporary pages retain paper template placeholders because they are fixtures, not completed cards"
+  ]
+}

@@ -1,4 +1,5 @@
 ---
+direction_id: "{{direction_id}}"
 type: topic
 status: active
 review_status: draft
@@ -46,7 +47,7 @@ Topic 页面组织问题、范围和证据地图，不复制每篇论文的详�
 
 | Claim | Assessment / review status | Independent evidence basis | Conditions | Topic role |
 |---|---|---|---|---|
-| [[wiki/claims/Claim]] | supported + checked / other | number or description of original data groups |  | baseline / contrast / mechanism / limitation |
+| [[D/wiki/claims/Claim]] | supported + checked / other | number or description of original data groups |  | baseline / contrast / mechanism / limitation |
 
 链接数量不代表证据数量。若 claim 为 needs-review、contested 或 evidence insufficient，topic 页面必须保留状态，不能在汇总时自动升级。
 
@@ -111,3 +112,6 @@ Topic 页面组织问题、范围和证据地图，不复制每篇论文的详�
 - [ ] Apparent conflicts were checked for comparability.
 - [ ] Corpus gaps are not presented as field consensus or field gaps.
 - [ ] Index/log/tags/aliases were updated only when applicable.
+
+
+<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。 -->

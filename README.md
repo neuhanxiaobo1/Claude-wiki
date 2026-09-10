@@ -70,8 +70,8 @@ ResearchWiki 解决的问题是：
 
 ResearchWiki 使用三层结构：
 
-1. `raw/`：原始资料层，保存 PDF、Zotero 导入记录、附件、笔记等。
-2. `wiki/`：结构化知识层，保存 papers、topics、methods、claims、gaps、reviews。
+1. `D/raw/`：原始资料层，保存 PDF、Zotero 导入记录、附件、笔记等。
+2. `D/wiki/`：结构化知识层，保存 papers、topics、methods、claims、gaps、reviews。
 3. `memory/` + `agents/` + `templates/`：规则层，约束 Codex 如何执行任务。
 
 核心原则：
@@ -89,9 +89,9 @@ flowchart TD
     A["Zotero Collection<br/>指定文献集合"] --> B["import_zotero.md<br/>生成候选清单"]
     B -->|已有明确入库授权| C["pdf_read_agent.md<br/>新入库 / 完整复核 / 局部修订"]
     L["已知 PDF / 附件 / 缓存 / 已有页面"] --> C
-    C --> D["wiki/papers<br/>论文卡片"]
-    D -->|明确关系且属于本轮范围| E["wiki/topics / methods<br/>主题与方法"]
-    D -->|证据与任务需要| F["wiki/claims / gaps<br/>限定判断与候选问题"]
+    C --> D["D/wiki/papers<br/>论文卡片"]
+    D -->|明确关系且属于本轮范围| E["D/wiki/topics / methods<br/>主题与方法"]
+    D -->|证据与任务需要| F["D/wiki/claims / gaps<br/>限定判断与候选问题"]
     E --> G["synthesis_agent.md<br/>literature map"]
     F --> H["gap_agent.md<br/>open questions / positioning"]
     G --> I["review_agent.md<br/>review outline"]
@@ -128,12 +128,12 @@ cd ResearchWiki
 
 用 Codex、Cursor、VS Code、Claude Code 或其他 Agent IDE 打开项目目录。也可以把该目录作为 Obsidian vault 打开。
 
-### Step 2: Configure Project Profile / 配置项目画像
+### Step 2: Select Direction / 选择或创建研究方向
 
-优先编辑：
+先按根AGENTS选择已有方向或新建方向；D是所选方向根。首次配置时按需编辑：
 
 ```text
-memory/project_profile.md
+D/memory/project_profile.md
 memory/tag_taxonomy.md
 memory/term_aliases.md
 ```
@@ -159,13 +159,13 @@ memory/term_aliases.md
 
 从具体候选清单选择一篇论文，或直接指定已知对象；已有明确入库授权不再重复确认：
 ```text
-请按 agents/pdf_read_agent.md 入库 raw/zotero_imports/我的研究方向/import_plan.md 中编号 1 的论文。
+请按 agents/pdf_read_agent.md 入库 D/raw/zotero_imports/我的研究方向/import_plan.md 中编号 1 的论文。
 ```
 
 也可以直接读取本地 PDF：
 
 ```text
-请调用 agents/pdf_read_agent.md，读取 raw/papers/example-paper.pdf 并完成单篇论文入库。
+请调用 agents/pdf_read_agent.md，读取 D/raw/papers/example-paper.pdf 并完成单篇论文入库。
 ```
 
 ### Step 5: Run Lint / 运行检查
@@ -187,13 +187,13 @@ memory/term_aliases.md
 
 ## Knowledge Layers / 知识库分层
 
-- `wiki/papers/`：单篇论文卡片。
-- `wiki/topics/`：研究主题聚合。
-- `wiki/methods/`：方法路线和适用场景。
-- `wiki/claims/`：有证据支撑的可复用判断。
-- `wiki/gaps/`：研究空白、限制和机会。
-- `wiki/reviews/`：综述草稿和 related work。
-- `synthesis/`：跨论文综合页面。
+- `D/wiki/papers/`：单篇论文卡片。
+- `D/wiki/topics/`：研究主题聚合。
+- `D/wiki/methods/`：方法路线和适用场景。
+- `D/wiki/claims/`：有证据支撑的可复用判断。
+- `D/wiki/gaps/`：研究空白、限制和机会。
+- `D/wiki/reviews/`：综述草稿和 related work。
+- `D/synthesis/`：跨论文综合页面。
 - `memory/`：长期规则、项目配置、错误记录和上下文管理。
 - `templates/`：页面模板。
 - `agents/`：任务型智能体规则。
@@ -221,23 +221,23 @@ ResearchWiki 可通过当前可用的 Zotero 插件/connector 读取指定 colle
 ```
 
 ```text
-请按 agents/pdf_read_agent.md 入库 raw/zotero_imports/我的研究方向/import_plan.md 中编号 1–3 的论文。
+请按 agents/pdf_read_agent.md 入库 D/raw/zotero_imports/我的研究方向/import_plan.md 中编号 1–3 的论文。
 ```
 
 ## Wiki Pages / Wiki 页面类型
 
 | Page Type | Folder | Purpose |
 |---|---|---|
-| Paper | `wiki/papers/` | 单篇论文结构化卡片 |
-| Author | `wiki/authors/` | 作者和研究团队信息 |
-| Topic | `wiki/topics/` | 研究主题聚合 |
-| Method | `wiki/methods/` | 方法路线和适用场景 |
-| Dataset | `wiki/datasets/` | 数据集、实验对象或材料 |
-| Metric | `wiki/metrics/` | 评价指标 |
-| Claim | `wiki/claims/` | 有证据支撑的可复用判断 |
-| Gap | `wiki/gaps/` | 研究空白、限制和机会 |
-| Review | `wiki/reviews/` | 综述草稿和 related work |
-| Synthesis | `synthesis/` | 多论文综合、定位和开放问题 |
+| Paper | `D/wiki/papers/` | 单篇论文结构化卡片 |
+| Author | `D/wiki/authors/` | 作者和研究团队信息 |
+| Topic | `D/wiki/topics/` | 研究主题聚合 |
+| Method | `D/wiki/methods/` | 方法路线和适用场景 |
+| Dataset | `D/wiki/datasets/` | 数据集、实验对象或材料 |
+| Metric | `D/wiki/metrics/` | 评价指标 |
+| Claim | `D/wiki/claims/` | 有证据支撑的可复用判断 |
+| Gap | `D/wiki/gaps/` | 研究空白、限制和机会 |
+| Review | `D/wiki/reviews/` | 综述草稿和 related work |
+| Synthesis | `D/synthesis/` | 多论文综合、定位和开放问题 |
 
 ## Synthesis, Gap And Review / 综合、Gap 与综述
 
@@ -257,12 +257,12 @@ ResearchWiki 可通过当前可用的 Zotero 插件/connector 读取指定 colle
 
 ## Context And Maintenance / 上下文与维护
 
-长期使用时，不要依赖聊天历史保存规则；最终决策应该沉淀到 `memory/` 或 `synthesis/`。
+长期使用时，不要依赖聊天历史保存规则；最终决策应该沉淀到 `memory/` 或 `D/synthesis/`。
 
 - `memory/context_policy.md`：增量读取、当前任务与恢复入口。
 - `memory/style_snapshot.md`：默认输出风格。
-- `synthesis/core-argument-map.md`：科学主张、证据关系与研究假设，不保存操作进度。
-- `memory/error_log.md`：AI 曾经犯过的错误和修正规则。
+- `D/synthesis/core-argument-map.md`：科学主张、证据关系与研究假设，不保存操作进度。
+- `D/memory/error_log.md`：AI 曾经犯过的错误和修正规则。
 - `memory/decision_log.md`：结构性决策。
 - `agents/lint_agent.md`：定期检查知识库健康。
 
@@ -270,10 +270,13 @@ ResearchWiki 可通过当前可用的 Zotero 插件/connector 读取指定 colle
 
 | File | Purpose |
 |---|---|
-| `memory/project_profile.md` | 项目领域、目标、用户用途 |
+| `D/memory/project_profile.md` | 项目领域、目标、用户用途 |
 | `memory/tag_taxonomy.md` | 标签体系 |
 | `memory/term_aliases.md` | 术语别名和标准写法 |
-| `memory/context_policy.md` | 增量读取、当前任务与恢复入口 |
+| `memory/context_policy.md` | 公共恢复机制与架构任务入口 |
+| `D/memory/current_context.md` | 所选方向研究进度与恢复入口 |
+| `memory/user_profile.md` | 使用者与公共默认偏好 |
+| `memory/direction_registry.yaml` | 已登记方向导航 |
 | `memory/style_snapshot.md` | 默认输出风格 |
 | `templates/paper.md` | 论文卡片模板 |
 | `templates/claim.md` | claim 页面模板 |
@@ -281,69 +284,26 @@ ResearchWiki 可通过当前可用的 Zotero 插件/connector 读取指定 colle
 
 ## File Structure / 文件结构
 
-当前项目结构：
-
 ```text
-.
-├── AGENTS.md
-├── README.md
-├── QUICKSTART.md
-├── LICENSE
-├── .gitignore
-├── index.md
-├── log.md
-├── inbox.md
-├── agents/
-│   ├── import_zotero.md
-│   ├── pdf_read_agent.md
-│   ├── synthesis_agent.md
-│   ├── gap_agent.md
-│   ├── review_agent.md
-│   └── lint_agent.md
-├── templates/
-│   ├── pdf_ingestion_template.md
-│   ├── paper.md
-│   ├── topic.md
-│   ├── method.md
-│   ├── claim.md
-│   ├── gap.md
-│   └── review.md
-├── memory/
-│   ├── project_profile.md
-│   ├── hard_memory.md
-│   ├── context_policy.md
-│   ├── style_snapshot.md
-│   ├── tag_taxonomy.md
-│   ├── term_aliases.md
-│   ├── error_log.md
-│   └── decision_log.md
-├── raw/
-│   ├── papers/
-│   ├── notes/
-│   ├── assets/
-│   └── zotero_imports/
-├── wiki/
-│   ├── papers/
-│   ├── authors/
-│   ├── topics/
-│   ├── methods/
-│   ├── datasets/
-│   ├── metrics/
-│   ├── claims/
-│   ├── gaps/
-│   └── reviews/
-├── synthesis/
-│   ├── literature-map.md
-│   ├── open-questions.md
-│   ├── research-positioning.md
-│   ├── review-outline.md
-│   └── core-argument-map.md
-└── docs/
-    ├── initialization.md
-    ├── zotero-workflow.md
-    ├── obsidian-setup.md
-    └── privacy-and-gitignore.md
+ResearchWiki/
+├── AGENTS.md / CLAUDE.md
+├── index.md / log.md / inbox.md   # 公共导航与维护
+├── agents/                       # 通用任务流程
+├── templates/                    # 公共模板与新方向骨架
+├── memory/                       # 公共底线、用户默认、注册表与恢复机制
+├── docs/                         # 使用说明与架构记录
+├── shared/                       # 可借鉴资源导航
+└── directions/
+    └── <direction_id>/
+        ├── AGENTS.md / index.md / log.md / inbox.md
+        ├── memory/               # 方向profile、扩展、当前任务与词表
+        ├── raw/                  # papers、notes、assets、zotero_imports
+        ├── wiki/                 # papers、topics、methods、claims等
+        ├── synthesis/            # 本方向综合与写作
+        └── docs/                 # 研究报告与历史
 ```
+
+本库不在根目录保存方向raw/wiki/synthesis。方向专用模板仅在实际需要时放入该方向templates。
 
 ## Usage Examples / 使用示例
 
@@ -362,13 +322,13 @@ ResearchWiki 可通过当前可用的 Zotero 插件/connector 读取指定 colle
 ### 批量测试入库
 
 ```text
-请按 agents/pdf_read_agent.md 入库 raw/zotero_imports/我的研究方向/import_plan.md 中编号 1–3 的论文。
+请按 agents/pdf_read_agent.md 入库 D/raw/zotero_imports/我的研究方向/import_plan.md 中编号 1–3 的论文。
 ```
 
 ### 已有论文局部修订
 
 ```text
-请按 agents/pdf_read_agent.md 修订 wiki/papers/<已有论文>.md 中指定结论，核对原文及支撑图表，只更新受影响段落并记录下游待复核项。
+请按 agents/pdf_read_agent.md 修订 D/wiki/papers/<已有论文>.md 中指定结论，核对原文及支撑图表，只更新受影响段落并记录下游待复核项。
 ```
 
 ### 多论文综合
@@ -403,14 +363,14 @@ ResearchWiki 可通过当前可用的 Zotero 插件/connector 读取指定 colle
 4. 有明确问题时进行综合、gap 或综述写作，证据不足处保留未决。
 5. 阶段切换时更新短状态；需要维护时做限定范围 lint。
 
-本库规则完善进度见 [九阶段计划](docs/rules-improvement-plan.md)；规则更新不代表既有七篇论文和大纲已修复。
+本库规则完善进度见 [九阶段计划](directions/ceramic-corrosion/docs/rules-improvement-plan.md)；规则更新不代表既有七篇论文和大纲已修复。
 
 ## Privacy And Open Source Notes / 隐私与开源注意事项
 
 以下检查只适用于用户明确要求公开发布或制作开源发行副本时。当前工作库可保留私人研究内容；日常阅读、修订和 lint 不触发数据清理或发布。发行内容需逐项确定是否包含：
 
 - 受版权保护的 PDF；
-- `raw/papers/` 中的真实论文；
+- `D/raw/papers/` 中的真实论文；
 - 个人 Zotero item key、attachment key、真实 collection 导入记录；
 - 包含个人研究定位的 synthesis 页面；
 - 本地文件路径、个人操作日志或私有研究方向；
@@ -431,3 +391,8 @@ ResearchWiki 可通过当前可用的 Zotero 插件/connector 读取指定 colle
 ## License / 许可证
 
 This project is released under the [MIT License](./LICENSE).
+
+
+## 多研究方向入口（2026-09-09生效）
+
+按根AGENTS选择已有方向或新建方向；已明确点名方向直接进入，同一任务不重复选择。D代表本会话绑定的directions/<direction_id>，文中D/是路径占位，不是实际文件夹。个人默认配置见memory/user_profile.md，研究配置及进度见D/memory/project_profile.md和D/memory/current_context.md。公共维护由根index/log管理；论文、原件、研究索引/日志和synthesis均归D。具体操作见docs/direction-workflow.md。

@@ -1,0 +1,37 @@
+[
+  {
+    "path": "directions/ceramic-corrosion/raw/papers/probe.pdf",
+    "expected_ignored": true,
+    "actual_ignored": true
+  },
+  {
+    "path": "directions/ceramic-corrosion/raw/zotero_imports/probe.json",
+    "expected_ignored": true,
+    "actual_ignored": true
+  },
+  {
+    "path": "directions/new-research/raw/notes/probe.md",
+    "expected_ignored": true,
+    "actual_ignored": true
+  },
+  {
+    "path": "directions/ceramic-corrosion/raw/papers/.gitkeep",
+    "expected_ignored": false,
+    "actual_ignored": false
+  },
+  {
+    "path": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/screening.csv",
+    "expected_ignored": false,
+    "actual_ignored": false
+  },
+  {
+    "path": "directions/ceramic-corrosion/wiki/papers/probe.md",
+    "expected_ignored": false,
+    "actual_ignored": false
+  },
+  {
+    "path": ".migration-backups/probe.zip",
+    "expected_ignored": true,
+    "actual_ignored": true
+  }
+]

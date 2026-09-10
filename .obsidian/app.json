@@ -3,5 +3,5 @@
   "showUnsupportedFiles": false,
   "userIgnoreFilters": null,
   "useMarkdownLinks": false,
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "absolute"
 }

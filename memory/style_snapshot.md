@@ -9,11 +9,11 @@ tags:
 
 # Style Snapshot
 
-本页只记录默认输出风格和写作偏好。具体研究领域和用途写入 `memory/project_profile.md`。
+本页只记录默认输出风格和写作偏好。具体研究领域和用途写入 `D/memory/project_profile.md`；个人默认偏好写入 `memory/user_profile.md`。
 
 ## 默认语言
 
-- 语言和英文术语保留方式以 `memory/project_profile.md` 为准；当前默认中文。
+- 语言和英文术语保留方式以 `memory/user_profile.md` 为准；当前默认中文。
 - 汇报优先使用易懂的中文，只有定位文件、字段或解释术语时才保留项目结构词。
 
 ## 默认表达风格
@@ -27,7 +27,7 @@ tags:
 ## 文件维护风格
 
 - `AGENTS.md` 保持轻量。
-- 公共规则放入 `memory/`，任务流程和格式放入 `agents/`、`templates/`；`synthesis/` 保存研究综合内容，不承担操作状态管理。
+- 公共规则放入 `memory/`，任务流程和格式放入 `agents/`、`templates/`；`D/synthesis/` 保存研究综合内容，不承担操作状态管理。
 - 不把具体专业写死到通用规则中。
 - 只在当前授权任务确有需要时创建知识页；综合或 gap 任务也可建页，不为填满目录强制产出。
 
@@ -42,3 +42,5 @@ tags:
 
 - 引用展示偏好统一在 project_profile 维护；未确定样式不阻止执行公共来源定位要求。
 - 是否偏好中英双语术语表：待确认
+
+方向可在D/memory/writing_rules.md补充写作格式；未声明时沿用公共风格。

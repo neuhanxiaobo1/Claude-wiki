@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-09",
+  "status": "passed",
+  "registered_ids": [
+    "ceramic-corrosion",
+    "electronic-packaging"
+  ],
+  "new_direction_files": 27,
+  "new_markdown_pages": 12,
+  "new_wiki_papers": 0,
+  "links_checked": 25,
+  "existing_direction_files_unchanged": 88,
+  "required_files_present": 12,
+  "new_raw_ignore_verified": true,
+  "registry_display_name_checked": true,
+  "scope": "Directory creation, field/links validation and cross-direction file isolation; no scientific source review, no real paper trial"
+}

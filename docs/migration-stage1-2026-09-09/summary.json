@@ -1,0 +1,40 @@
+{
+  "created_utc": "20260909T093603349173Z",
+  "head": "4c25038e2ac1734f9cc3a0409371f71bd2033db0",
+  "git_status": "M .gitignore\n M index.md\n M log.md\n M memory/error_log.md\n M memory/project_profile.md\n?? docs/migration-stage1-2026-09-09/\n?? docs/multi-direction-migration-plan.md",
+  "snapshot_scope": "All workspace files except .git, .migration-backups and this stage report directory; no external Zotero/MinerU files",
+  "files": 112,
+  "bytes": 3140060,
+  "tracked": 92,
+  "ignored": 19,
+  "raw_files": 22,
+  "raw_pdf_files": 0,
+  "wiki_markdown_counts": {
+    "claims": 8,
+    "gaps": 5,
+    "papers": 10,
+    "reviews": 1,
+    "topics": 2
+  },
+  "link_counts": {
+    "unresolved": 17,
+    "external-uri-unchecked": 18,
+    "resolved-file": 1042,
+    "same-file": 18
+  },
+  "links": 1095,
+  "path_mentions": 1479,
+  "target_collisions": {},
+  "occupied_targets": [],
+  "backup": ".migration-backups/pre-direction-migration-20260909T093603349173Z.zip",
+  "backup_sha256": "e45de68e988f4722cebe553560ee44a983d5aa31897d02387cd64887f261e02d",
+  "backup_verified_files": 112,
+  "source_drift_during_snapshot": [],
+  "backup_note": "ZIP readback hashes verified; same-disk local rollback copy, not disaster recovery; stage artifacts are excluded and kept alongside this report",
+  "limitations": [
+    "Links: common inline Markdown/wiki syntax only; fenced examples, templates, inline-code annotated",
+    "Heading/block anchors recorded but not validated; trailing #E recorded, not assumed clickable",
+    "No HTTP requests or external local file access; no scientific evidence re-review",
+    "Markdown reference-style links, HTML links, complex nested parentheses and Dataview not parsed; path-mentions.json retained for manual review"
+  ]
+}

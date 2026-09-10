@@ -1,0 +1,116 @@
+{
+  "reason": "User confirmed parallel writers paused; latest membership and appended log reviewed before migration",
+  "files": [
+    {
+      "source": ".claude/settings.local.json",
+      "scope": "global-local-config",
+      "action": "retain-review",
+      "target": ".claude/settings.local.json",
+      "additional_targets": [],
+      "note": "????????????",
+      "tracked": false,
+      "ignored": false,
+      "bytes": 91,
+      "sha256": "747840ef67345f75b297a09b20dcb20705c4cfd7a1f7711a09dcd74c5438cf49"
+    },
+    {
+      "source": "docs/scopus-screening-2026-09-09/items_master.json",
+      "scope": "direction",
+      "action": "move",
+      "target": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/items_master.json",
+      "additional_targets": [],
+      "note": "????????????????????????????",
+      "tracked": false,
+      "ignored": false,
+      "bytes": 39843,
+      "sha256": "74aae575cf393e26907d9486acc60396a20e199e303db9a90bdae9638a2ee583"
+    },
+    {
+      "source": "docs/scopus-screening-2026-09-09/merge_pdf_links.py",
+      "scope": "direction",
+      "action": "move",
+      "target": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/merge_pdf_links.py",
+      "additional_targets": [],
+      "note": "????????????????????????????",
+      "tracked": false,
+      "ignored": false,
+      "bytes": 5326,
+      "sha256": "e7c03235ea62245e77b940626d3cab625792ccf78039b748bfa47a4bf8a18e9f"
+    },
+    {
+      "source": "docs/scopus-screening-2026-09-09/pdf_download_links.csv",
+      "scope": "direction",
+      "action": "move",
+      "target": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/pdf_download_links.csv",
+      "additional_targets": [],
+      "note": "????????????????????????????",
+      "tracked": false,
+      "ignored": true,
+      "bytes": 28258,
+      "sha256": "1d4e72dc3409e679e3a2a60a496ed6a754a4bcc7e28c062bad44e3fb5106836f"
+    },
+    {
+      "source": "docs/scopus-screening-2026-09-09/pdf_download_links.md",
+      "scope": "direction",
+      "action": "move",
+      "target": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/pdf_download_links.md",
+      "additional_targets": [],
+      "note": "????????????????????????????",
+      "tracked": false,
+      "ignored": false,
+      "bytes": 17555,
+      "sha256": "8200282fcf23da57c1fa6c615bf544fa17404f6bfc32da5278907ee087dd63d6"
+    },
+    {
+      "source": "docs/scopus-screening-2026-09-09/pdf_links.json",
+      "scope": "direction",
+      "action": "move",
+      "target": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/pdf_links.json",
+      "additional_targets": [],
+      "note": "????????????????????????????",
+      "tracked": false,
+      "ignored": false,
+      "bytes": 52836,
+      "sha256": "b34c368d794fb57b9fa4b86f83fdfcf07cd2138e1496a9a4b117d344aafeb7ae"
+    },
+    {
+      "source": "docs/scopus-screening-2026-09-09/query_unpaywall.py",
+      "scope": "direction",
+      "action": "move",
+      "target": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/query_unpaywall.py",
+      "additional_targets": [],
+      "note": "????????????????????????????",
+      "tracked": false,
+      "ignored": false,
+      "bytes": 1972,
+      "sha256": "135c544cbd822cf1d2fccd69a90c61790e704687cad3077f24db72c6ffb66813"
+    },
+    {
+      "source": "docs/scopus-screening-2026-09-09/unpaywall_results.json",
+      "scope": "direction",
+      "action": "move",
+      "target": "directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/unpaywall_results.json",
+      "additional_targets": [],
+      "note": "????????????????????????????",
+      "tracked": false,
+      "ignored": false,
+      "bytes": 13576,
+      "sha256": "e6a49de65fc5208aea51cb253b93eca90c014849b2e562f2945fe435234cbff4"
+    },
+    {
+      "source": "log.md",
+      "scope": "mixed",
+      "action": "split-history",
+      "target": "directions/ceramic-corrosion/log.md",
+      "additional_targets": [
+        "log.md"
+      ],
+      "note": "?????????????????????????????????????",
+      "bytes": 66636,
+      "sha256": "6b57b7a6a970d89ccbe3a2fb2d7585bcf2ce49ad898f827c5800345281f7d14c",
+      "tracked": true,
+      "ignored": false,
+      "previous_sha256": "2d2431275c11399d5a265bcbfd2cd9d1fc869e69577adfdf1573fce0272eb194"
+    }
+  ]
+}

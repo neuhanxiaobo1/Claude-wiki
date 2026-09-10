@@ -2,6 +2,12 @@
 
 本 agent 负责多篇已入库论文的比较、证据综合、研究路线和 literature map。公共证据标准见 `memory/hard_memory.md`；单篇原文首次阅读或修订交给 `pdf_read_agent.md`，领域 gap 深挖交给 `gap_agent.md`，正式综述写作交给 `review_agent.md`。
 
+## 方向绑定与路径约定
+
+先遵循根目录AGENTS.md绑定本会话方向，再显式读取 `D/AGENTS.md`。D是已注册方向的真实根路径；未选方向不能写研究文件。根目录agents/templates/memory/hard_memory是公共规则；本文project_profile、研究index/log/inbox及错误记录均属于D，词表采用公共层加本方向词表。仅使用本方向声明的阅读/综合/写作扩展，未声明则沿用通用流程。模板中的D与direction_id必须展开，生成双链使用vault完整路径。
+
+默认读写范围限D；另一方向资源只按具体需要定向读取、来源方向默认只读。跨方向同DOI页面可以独立存在，但同一原始数据不能重复计为独立验证。去重/别名合并限本方向。公共架构lint无需科研方向，写入根级维护记录；单方向任务不得更新其他方向。
+
 ## 1. 启动与范围
 
 按 `AGENTS.md` 增量读取。开始前明确：
@@ -25,7 +31,7 @@
 
 | Paper/evidence | Research object | Key variable | Necessary conditions | Metric/operational definition | Result | Original data source / independence group | Review status |
 |---|---|---|---|---|---|---|---|
-| [[wiki/papers/Paper]]#E1 |  |  |  |  |  |  | checked / partial / needs-review |
+| [[D/wiki/papers/Paper]]#E1 |  |  |  |  |  |  | checked / partial / needs-review |
 
 按任务增加结构、制备、对照、误差或模型假设等列；不为表格完整而补造未报告字段。
 
@@ -71,7 +77,7 @@
 
 按研究问题组织：语料边界 → 比较矩阵 → 可比较发现 → 条件性差异/冲突 → 证据不足 → 候选开放问题。避免逐篇摘要堆叠，也避免先写确定主线再筛选支持材料。
 
-可能更新 `synthesis/literature-map.md`、相关 topic/method 或中间 review。只有本轮范围包含且关系明确时才修改。新发现的问题先分为论文局限、语料缺口或候选研究问题；需要判断领域新颖性时交给 gap_agent。
+可能更新 `D/synthesis/literature-map.md`、相关 topic/method 或中间 review。只有本轮范围包含且关系明确时才修改。新发现的问题先分为论文局限、语料缺口或候选研究问题；需要判断领域新颖性时交给 gap_agent。
 
 来源或 claim 已知有问题时：先限定/撤回当前综合判断，列明直接下游影响；不得只在文末写“待核查”却继续将旧结论作为主线前提。
 
@@ -83,7 +89,7 @@
 - [ ] 转引共同数据没有重复计数。
 - [ ] 冲突经过指标、条件、来源、误差与证据层级检查。
 - [ ] 综合判断有 scope、assessment、反证或边界。
-- [ ] 未用旧 synthesis/log/大纲代替 paper E# 或原文证据。
+- [ ] 未用旧 D/synthesis/log/大纲代替 paper E# 或原文证据。
 - [ ] 候选问题没有被自动升级为领域 gap。
 - [ ] 仅在本轮范围内更新页面；下游待复核已记录。
-- [ ] `log.md` 已追加；只有索引导航/说明/重要状态变化时更新 `index.md`。
+- [ ] `D/log.md` 已追加；只有索引导航/说明/重要状态变化时更新 `D/index.md`。

@@ -2,6 +2,12 @@
 
 本规程负责结构、证据和流程检查，公共标准以 `memory/hard_memory.md` 为准。结构合格不代表科学结论正确。
 
+## 方向绑定与路径约定
+
+方向内检查先遵循根目录AGENTS.md绑定本会话方向，再显式读取 `D/AGENTS.md`；公共架构检查直接按根规则和本轮范围执行，无须绑定科研方向。D是已注册方向的真实根路径；未选方向不能写研究文件。根目录agents/templates/memory/hard_memory是公共规则；本文project_profile、研究index/log/inbox及错误记录均属于D，词表采用公共层加本方向词表。仅使用本方向声明的阅读/综合/写作扩展，未声明则沿用通用流程。模板中的D与direction_id必须展开，生成双链使用vault完整路径。
+
+默认读写范围限D；另一方向资源只按具体需要定向读取、来源方向默认只读。跨方向同DOI页面可以独立存在，但同一原始数据不能重复计为独立验证。去重/别名合并限本方向。公共架构lint无需科研方向，写入根级维护记录；单方向任务不得更新其他方向。
+
 ## 1. 范围与启动
 
 - 复用 AGENTS 和 context_policy 的增量读取规则；只读本轮对象、对应模板及相关错误记录。检查标签/别名时才读取对应词表，不默认加载全部历史和综合页。
@@ -14,7 +20,7 @@
 | 项目 | 判据与处理 |
 |---|---|
 | Frontmatter | 检查 YAML 语法、重复键和字段类型；简单文本搜索不能声称完成 YAML 解析。无 frontmatter 的旧页列迁移项，不编造元数据 |
-| 目录与 type | wiki/papers → paper，authors → author，topics → topic，methods → method，datasets → dataset，metrics → metric，claims → claim，gaps → gap，reviews → review；synthesis 按页面用途判断，不机械要求全部 type: synthesis |
+| 目录与 type | D/wiki/papers → paper，authors → author，topics → topic，methods → method，datasets → dataset，metrics → metric，claims → claim，gaps → gap，reviews → review；synthesis 按页面用途判断，不机械要求全部 type: synthesis |
 | 最小字段 | 新建/完整复核按对应模板检查 type、标题或明确页面标题、status、tags；paper 还核对 title、来源身份及实际来源路径/标识、DOI/Zotero key 的适用性和已知值。未报告、非 Zotero 来源或确无 DOI 不自动判错 |
 | 核查字段 | paper/claim/topic/method/gap/review 的 review_status 若使用，取 draft / checked / needs-review；旧页缺字段先列待迁移，不自动填 checked。正文等价记录按 hard_memory 接受；与 YAML 冲突则报告 |
 | 链接 | 验证真实双链与本地 Markdown 链接的文件目标；标题锚点、块引用与显示别名分别解析。同名短链有多个目标时报告歧义。目录导航不是缺失知识页，不自动建页 |
@@ -42,7 +48,7 @@
 - DOI、item key 按来源适用性核对；清单“已入库”只表示卡片存在，不表示科学复核完成。
 - 检查是否改动原件；生成的导入管理记录与原始 PDF/缓存按 hard_memory 区分，不扩张 Zotero 写权限。
 - 重要操作有 log；实际错误有 error_log；只有成员、路径、说明或重要状态变化才需更新 index。
-- 当前任务与恢复入口归 context_policy，研究目标归 project_profile，科学主张归 synthesis；不因继续阶段而强制压缩或改写科学页。
+- 恢复机制归根context_policy，方向当前任务与恢复入口归 D/memory/current_context.md，研究目标归 project_profile，科学主张归 synthesis；不因继续阶段而强制压缩或改写科学页。
 - 历史决策按日期、适用范围和状态解释，不能将开源发布约束作为清理当前私人库的指令。
 
 ## 5. 发现与修复

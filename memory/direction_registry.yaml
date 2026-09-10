@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "directions": [
+    {
+      "id": "ceramic-corrosion",
+      "name": "陶瓷腐蚀",
+      "path": "directions/ceramic-corrosion",
+      "status": "active",
+      "last_used": null
+    },
+    {
+      "id": "electronic-packaging",
+      "name": "电子封装",
+      "path": "directions/electronic-packaging",
+      "status": "active",
+      "last_used": "2026-09-09"
+    }
+  ]
+}

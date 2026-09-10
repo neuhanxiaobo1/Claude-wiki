@@ -1,4 +1,5 @@
 ---
+direction_id: "{{direction_id}}"
 type: paper
 title: 待确认
 year: 待确认
@@ -155,5 +156,8 @@ tags:
 - [ ] Evidence types, support and verification status separated.
 - [ ] Conditions, metric definitions and independent source status checked.
 - [ ] Related pages were updated only within scope or listed under Downstream Review.
-- [ ] `log.md` appended; `index.md` changed only when navigation, description or important status changed.
+- [ ] `D/log.md` appended; `D/index.md` changed only when navigation, description or important status changed.
 - [ ] Tags and aliases checked when new terms/pages were introduced.
+
+
+<!-- 方向约定：仅在已选方向D内生成；展开direction_id与D/路径。领域额外栏目只从D/AGENTS.md声明的扩展读取，不加载其他方向模板。 -->

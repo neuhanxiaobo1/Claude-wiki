@@ -1,0 +1,148 @@
+{
+  "mode": "live",
+  "errors": [],
+  "exceptions": [
+    {
+      "source": "agents/review_agent.md",
+      "line": 40,
+      "target": "D/wiki/claims/Claim",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "task-template-example"
+    },
+    {
+      "source": "agents/review_agent.md",
+      "line": 40,
+      "target": "D/wiki/papers/Paper",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "task-template-example"
+    },
+    {
+      "source": "agents/synthesis_agent.md",
+      "line": 34,
+      "target": "D/wiki/papers/Paper",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "task-template-example"
+    },
+    {
+      "source": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+      "line": 17,
+      "target": "wiki/topics/Ceramic Corrosion",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "protected-original-link-use-mapping"
+    },
+    {
+      "source": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+      "line": 94,
+      "target": "wiki/topics/Ceramic Corrosion",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "protected-original-link-use-mapping"
+    },
+    {
+      "source": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+      "line": 99,
+      "target": "wiki/topics/Ceramic Corrosion",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "protected-original-link-use-mapping"
+    },
+    {
+      "source": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+      "line": 104,
+      "target": "wiki/topics/Ceramic Corrosion",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "protected-original-link-use-mapping"
+    },
+    {
+      "source": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+      "line": 109,
+      "target": "wiki/topics/Ceramic Corrosion",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "protected-original-link-use-mapping"
+    },
+    {
+      "source": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+      "line": 127,
+      "target": "wiki/topics/Ceramic Corrosion",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "protected-original-link-use-mapping"
+    },
+    {
+      "source": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+      "line": 131,
+      "target": "wiki/topics/Ceramic Corrosion",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "protected-original-link-use-mapping"
+    },
+    {
+      "source": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+      "line": 135,
+      "target": "wiki/topics/Ceramic Corrosion",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "protected-original-link-use-mapping"
+    },
+    {
+      "source": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+      "line": 139,
+      "target": "wiki/topics/Ceramic Corrosion",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "protected-original-link-use-mapping"
+    },
+    {
+      "source": "directions/ceramic-corrosion/raw/notes/2024-Si3N4-Molten-Salt-Corrosion.md",
+      "line": 152,
+      "target": "wiki/topics/Ceramic Corrosion",
+      "status": "unresolved",
+      "resolved": [],
+      "anchor": "",
+      "exception": "protected-original-link-use-mapping"
+    }
+  ],
+  "parsed_markdown_frontmatter": 50,
+  "protected_raw_verified": 10,
+  "scientific_pages_verified": 32,
+  "wiki_markdown_counts": {
+    "claims": 8,
+    "gaps": 5,
+    "papers": 10,
+    "reviews": 1,
+    "topics": 2
+  },
+  "evidence_rules_unchanged": true,
+  "cmasspecial_removed_from_common_reader": true,
+  "links_checked": 1240,
+  "link_status_counts": {
+    "external": 125,
+    "resolved": 1084,
+    "same-file": 18,
+    "unresolved": 13
+  },
+  "limitations": [
+    "Common inline Markdown/wiki syntax only; fenced/template examples excluded",
+    "Heading/block anchors recorded, not all validated; outside-]] E# not treated as clickable",
+    "External files and web URLs not accessed; Obsidian UI not run",
+    "Stage1/2 historical reports and their embedded source paths excluded from active link audit"
+  ]
+}
