@@ -14,6 +14,13 @@
       "path": "directions/electronic-packaging",
       "status": "active",
       "last_used": "2026-09-10"
+    },
+    {
+      "id": "wave-transparent-composites",
+      "name": "透波复合材料",
+      "path": "directions/wave-transparent-composites",
+      "status": "active",
+      "last_used": "2026-09-17"
     }
   ]
 }

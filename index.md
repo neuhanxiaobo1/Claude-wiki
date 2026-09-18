@@ -6,6 +6,7 @@
 
 - [[directions/ceramic-corrosion/index|陶瓷腐蚀]]：独立工作区已建立；研究进度见方向短上下文，领域规则仅在选择该方向后加载。
 - [[directions/electronic-packaging/index|电子封装]]：烧结用电子银膏；五类主要指标已配置，已完成首篇论文入库。
+- [[directions/wave-transparent-composites/index|透波复合材料]]：指定集合9篇主体Markdown已读并建立论文页；关键PDF图表回查，补充材料与争议数据待进一步核查；具体研究范围待细化。
 - 新建方向：给出名称与基本范围，按 [[docs/direction-workflow]] 与 [[templates/direction]] 创建并登记；不会继承旧方向的目标或文献。
 
 ## 公共规则
@@ -40,4 +41,4 @@
 
 旧研究报告、版本记录及完整研究历史保存在陶瓷腐蚀方向，不在本页复制科学判断。
 
-- 当前版本记录：`calude_wiki_2.1`，包含阶段A–C流程优化、阶段D首篇电子封装论文入库及对应结构/隔离验收；具体提交与远程引用以Git核验为准。上一发布基线为`calude_wiki_2.0`（提交`4eae5432a59376156c38ccfde6a9bd6cf661ac25`）。
+- 当前版本记录：`calude_wiki_3.0`，新增透波复合材料方向、9篇主体阅读论文页及组内基础梳理与新课题目标配置，保留此前流程优化成果。提交与远程引用以Git核验为准。上一发布基线为`calude_wiki_2.1`（`180c06016a984598bbd21910db52392e33512acc`）。原件及被忽略的raw导入记录不在Git发布范围。
