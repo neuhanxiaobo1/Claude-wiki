@@ -16,7 +16,7 @@ venue: Journal of the European Ceramic Society
 status: processed
 review_status: draft
 created: '2026-09-17'
-updated: '2026-09-17'
+updated: '2026-09-18'
 source: D:\shuju\zotero1\llm-for-zotero-mineru\10072\full.md
 source_version: 英文主附件的MinerU解析；MD哈希见sources.json
 zotero_collection: BSQRX4DM
@@ -104,7 +104,7 @@ Evidence label: 介电与热学
 - Evidence type: 介电测量；导热率由αCpρ求得。
 - Object and conditions: 见Study Design及本条条件。
 - Metric and result: 室温12–18 GHz ε约3、tanδ<0.004；373–1073 K热膨胀系数约6.66×10⁻⁷ K⁻¹；273–1273 K导热率约0.3–0.6 W·m⁻¹·K⁻¹。
-- Source locator: Sec.3.4及相应热学/介电图。
+- Source locator: Sec.3.4、Fig.11，PDF页序7–8；2026-09-18补查原图及正文。0.3–0.6为作者近似范围，图上低温点约0.36，不作为精确0.300使用。
 - Original data source / independence: 本文主文对应数据；转引或模型已单独说明，不算额外独立实验。
 - Supports / does not establish: 不等于高温透射率或烧蚀后介电结果；不同指标来自不同测试，不能合成为同一服役状态的全性能。
 - Verification status: 主体Markdown已读；已列页序对应图表回查PDF，其余不超出文本核查。冲突与未决保留于本条。

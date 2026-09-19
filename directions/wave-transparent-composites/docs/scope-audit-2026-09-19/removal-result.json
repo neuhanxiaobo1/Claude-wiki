@@ -1,0 +1,8 @@
+﻿{
+    "jsonrpc":  "2.0",
+    "id":  7,
+    "error":  {
+                  "code":  -32603,
+                  "message":  "Error executing remove_items_from_collection: Write operations are currently disabled. Please go to Zotero → Tools → Add-ons → Zotero MCP Plugin → Preferences, and enable \"Write Operations\" to use this feature."
+              }
+}

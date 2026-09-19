@@ -17,7 +17,7 @@ venue: 'Composites Part A: Applied Science and Manufacturing'
 status: processed
 review_status: draft
 created: '2026-09-17'
-updated: '2026-09-17'
+updated: '2026-09-18'
 source: D:\shuju\zotero1\llm-for-zotero-mineru\10075\full.md
 source_version: 英文主附件的MinerU解析；MD哈希见sources.json
 zotero_collection: BSQRX4DM
@@ -42,7 +42,7 @@ tags:
 
 - Processing mode: new-ingestion。
 - Sections read: 摘要、引言、制备与测试/模型方法、所有结果讨论、结论；主文图表说明及公式已读。
-- Figures/tables rechecked: 原PDF页序8、12：Fig.5、Fig.7及热学和界面正文。 页码均指PDF页序；其余完成Markdown正文/图注阅读，不声称全部图像均复核。
+- Figures/tables rechecked: 原PDF页序8、12：Fig.5、Fig.7；2026-09-18补查页序7、9的Fig.4、6图像及页序5–6、10–11相关文字。页码为PDF页序，其余不声称全部图像复核。
 - Supplement/video status: 未读取独立SI或视频；附件名称不能证明SI不存在。影响见下方E#及局限。
 - review_status: draft。主体阅读入库完成，局部PDF核查不升级为整页checked。
 
@@ -68,7 +68,7 @@ Evidence label: 强度与韧性
 
 - Evidence type: 直接测量。
 - Object and conditions: 见Study Design及本条条件。
-- Metric and result: 混编/BN抗弯87.17±13.7 MPa、KIC 3.52±0.12 MPa·m½；SiO2f/SiO2分别49.34±5.29 MPa、2.23±0.15 MPa·m½。由报告均值计算增幅约76.7%和57.8%。
+- Metric and result: 混编/BN抗弯87.17±13.79 MPa、KIC 3.52±0.12 MPa·m½；SiO2f/SiO2分别49.34±5.29 MPa、2.23±0.15 MPa·m½。由报告均值计算增幅约76.7%和57.8%。2026-09-18按PDF页序5正文补正误差末位；E1保留。
 - Source locator: 力学结果及Fig.7比较；PDF页序12对照图。
 - Original data source / independence: 本文主文对应数据；转引或模型已单独说明，不算额外独立实验。
 - Supports / does not establish: 约1.77倍强度不能写成精确翻倍；改变纤维和基体的比较不是单独混编效应。Fig.7也列Si3N4f/BN、Si3N4f/SiO2等对照，但不能据单指标作全面排名。
@@ -109,6 +109,24 @@ Evidence label: 热输运解释的模型边界
 - Original data source / independence: 本文主文对应数据；转引或模型已单独说明，不算额外独立实验。
 - Supports / does not establish: 不可把晶体Umklapp模型当非晶复合体精确预测；未定量独立求解各界面热阻。正文热膨胀排序与早先残余应力解释不完全一致，残余应力机制暂不作为定量依据。
 - Verification status: 主体Markdown已读；已列页序对应图表回查PDF，其余不超出文本核查。冲突与未决保留于本条。
+
+### E5
+
+Evidence label: 组元局部压痕模量，不是复合材料整体模量
+
+- Evidence type: 纳米压痕测量；作者后续用约化模量近似E。
+- Object and result: Si3N4纤维147.08±2.16 GPa、SiO2纤维63.16±0.63 GPa、BN基体21.60±0.58 GPa；均为本文局部组元数据。
+- Source locator: Fig.4d、Sec.3.3–3.4，PDF页序6–8；2026-09-18核对原图。
+- Supports / boundary: 支持局部刚度对比，不支持将147 GPa宣称为复合材料宏观模量。模量映射区间与代表压痕柱值并非处处吻合，引用明确使用Fig.4d；整页仍draft。
+
+### E6
+
+Evidence label: 混编材料热膨胀范围
+
+- Evidence type: 本文膨胀测量及作者区间概括。
+- Object and result: 混编/BN的TEC约(2.0–4.5)×10⁻⁶ K⁻¹；Fig.6c曲线约覆盖500–1273 K。SiO2f/SiO2对照在1073 K以下约(0.21–1.24)×10⁻⁶ K⁻¹，更高温发生收缩趋势。
+- Source locator: Fig.6c，PDF页序9图像、页序10正文；2026-09-18回查。
+- Supports / boundary: 说明膨胀响应，不能直接等同实测热震寿命。不同温度区间的TEC不直接计算领先/落后百分比；并非TEC越低越适合所有连接对象。
 
 ## Conclusions for Reuse
 

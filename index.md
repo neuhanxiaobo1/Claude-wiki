@@ -6,7 +6,7 @@
 
 - [[directions/ceramic-corrosion/index|陶瓷腐蚀]]：独立工作区已建立；研究进度见方向短上下文，领域规则仅在选择该方向后加载。
 - [[directions/electronic-packaging/index|电子封装]]：烧结用电子银膏；五类主要指标已配置，已完成首篇论文入库。
-- [[directions/wave-transparent-composites/index|透波复合材料]]：指定集合9篇主体Markdown已读并建立论文页；关键PDF图表回查，补充材料与争议数据待进一步核查；具体研究范围待细化。
+- [[directions/wave-transparent-composites/index|透波复合材料]]：核心9篇（7篇透波原始研究+2篇综述）；主题筛查及新增候选见方向索引，CMAS论文已本地移除。
 - 新建方向：给出名称与基本范围，按 [[docs/direction-workflow]] 与 [[templates/direction]] 创建并登记；不会继承旧方向的目标或文献。
 
 ## 公共规则

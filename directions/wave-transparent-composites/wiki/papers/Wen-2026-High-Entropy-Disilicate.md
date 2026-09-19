@@ -133,4 +133,3 @@ SI含28幅图、8张表，本轮未读取；影响泛化、全24组分数据、�
 
 - [[directions/wave-transparent-composites/wiki/papers/Wen-2025-RE2Sn2O7|稀土锡酸盐：理论与实验筛选]]
 - [[directions/wave-transparent-composites/wiki/papers/Liu-2024-Entropy-ZrP2O7|中熵焦磷酸盐：相变抑制]]
-- [[directions/wave-transparent-composites/wiki/papers/Tian-2025-RETaO4-CMAS|层合法RETaO4抗CMAS筛选]]

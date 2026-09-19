@@ -1,6 +1,6 @@
 ---
 direction_id: wave-transparent-composites
-type: paper
+type: archive
 title: High Throughput Screening of CMAS Corrosion‐Resistant RETaO4 Based on Lamination
   Method
 year: 2025
@@ -12,7 +12,7 @@ authors:
 - Liya Zheng
 - Bin Li
 venue: Advanced Science
-status: processed
+status: excluded
 review_status: draft
 created: '2026-09-17'
 updated: '2026-09-17'
@@ -30,11 +30,15 @@ tags:
 
 # High Throughput Screening of CMAS Corrosion‐Resistant RETaO4 Based on Lamination Method
 
+## 移除说明（2026-09-19）
+
+用户明确要求从透波文献库移除：本研究为RETaO4抗CMAS腐蚀，未提供透波/介电验证。该页已退出wiki/papers和当前研究证据集，以下仅保存历史阅读记录，E1–E3不再作为本方向有效证据。Zotero集合移除请求因插件Write Operations禁用而未执行；原条目、PDF和缓存保留。
+
 ## Metadata and Sources
 
 主来源：`D:\shuju\zotero1\llm-for-zotero-mineru\10100\full.md`。英文主附件`9TBX9XTZ`，用缓存`_llm_source.json`的parentItemKey/attachmentKey核对身份。
 
-原PDF：`C:\Users\youthcookie\OneDrive\1.Science\1.Zotero\pdf2\2025-(Advanced Science)\Tian 等 - 2025 - High Throughput Screening of CMAS Corrosion‐Resistant RETaO4 Based on Lamination Method 5.pdf`（13页）。原件、译文及缓存只读；译文不作为独立证据。映射与读取时MD哈希见[sources.json](../../docs/ingestion-2026-09-17/sources.json)。
+原PDF：`C:\Users\youthcookie\OneDrive\1.Science\1.Zotero\pdf2\2025-(Advanced Science)\Tian 等 - 2025 - High Throughput Screening of CMAS Corrosion‐Resistant RETaO4 Based on Lamination Method 5.pdf`（13页）。原件、译文及缓存只读；译文不作为独立证据。映射与读取时MD哈希见[sources.json](../ingestion-2026-09-17/sources.json)。
 
 ## Reading and Verification Status
 
@@ -101,7 +105,7 @@ Evidence label: 形成焓解释不是腐蚀速率定律
 ### Finding 1
 
 - Finding / safe wording: 层合法可用于同条件初筛（E1），但结果独立性和模型解释须受E2–E3限制。本文不能证明RETaO4适合透波窗口；保留为方法借鉴，尚未做本方向材料迁移实验。
-- Evidence: [[directions/wave-transparent-composites/wiki/papers/Tian-2025-RETaO4-CMAS#E1|E1]], [[directions/wave-transparent-composites/wiki/papers/Tian-2025-RETaO4-CMAS#E2|E2]], [[directions/wave-transparent-composites/wiki/papers/Tian-2025-RETaO4-CMAS#E3|E3]]。
+- Evidence: [[directions/wave-transparent-composites/docs/excluded-papers/Tian-2025-RETaO4-CMAS#E1|E1]], [[directions/wave-transparent-composites/docs/excluded-papers/Tian-2025-RETaO4-CMAS#E2|E2]], [[directions/wave-transparent-composites/docs/excluded-papers/Tian-2025-RETaO4-CMAS#E3|E3]]。
 - Support: partial；支持上述限定结果，不支持未测工况、完全因果解释或跨方法无条件排名。
 - Author interpretation / this reading: 作者解释在E#中标注；本页限制性判断为AI证据评价，不是新增实验。
 - Decision: narrow；保留有定位的结果，对冲突及未读SI依赖项保持pending。

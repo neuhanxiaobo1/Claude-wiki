@@ -40,3 +40,7 @@ Thumbs.db
 # Reviewed derived screening table migrated from tracked docs
 !/directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/screening.csv
 !/directions/ceramic-corrosion/docs/scopus-screening-2026-09-09/pdf_download_links.csv
+
+# Local source excerpts used for review verification
+/directions/wave-transparent-composites/docs/ingestion-reviews-2026-09-18/kenion-table5.png
+/directions/wave-transparent-composites/docs/ingestion-reviews-2026-09-18/zhou-table11.png

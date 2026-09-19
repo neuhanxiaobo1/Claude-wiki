@@ -1,0 +1,184 @@
+﻿[
+    {
+        "key":  "XLB9BUFZ",
+        "itemType":  "journalArticle",
+        "zoteroUrl":  "zotero://select/library/items/XLB9BUFZ",
+        "title":  "Development of high-temperature wave-transparent nitride-based CFCMCs for aircraft radomes",
+        "abstractNote":  "Taking into account the requirements for structural–functional integration, the main developments in hightemperature wave-transparent materials for supersonic/hypersonic aircraft radomes are summarized. Nitridebased continuous fiber-reinforced ceramic matrix composites (CFCMCs) have been studied in terms of preparation and properties of the four structural units, i.e. reinforcing fibers, interphase, matrix, and surface coating based on nitride system. Precise control of preparation process of each structural unit is crucial, which determines its composition, structure and properties, and strategy for structural design of composites. As the main load-bearing unit, fibers play a critical role in the properties of composites and it is paramount to obtain highperformance fibers, which depends on the composition and structure of the fibers. In addition, control of interfacial bonding and the modulus matching relationship between the fibers and matrix is the key to ensure that the fiber exerts its strengthening and toughening effects.",
+        "publicationTitle":  "Composites Part A: Applied Science and Manufacturing",
+        "publisher":  "",
+        "place":  "",
+        "date":  "04/2023",
+        "volume":  "167",
+        "issue":  "",
+        "section":  "",
+        "partNumber":  "",
+        "partTitle":  "",
+        "pages":  "107444",
+        "series":  "",
+        "seriesTitle":  "",
+        "seriesText":  "",
+        "journalAbbreviation":  "Composites Part A: Applied Science and Manufacturing",
+        "DOI":  "10.1016/j.compositesa.2023.107444",
+        "citationKey":  "",
+        "url":  "https://linkinghub.elsevier.com/retrieve/pii/S1359835X23000209",
+        "accessDate":  "2026-09-18 06:33:06",
+        "PMID":  "",
+        "PMCID":  "",
+        "ISSN":  "1359835X",
+        "archive":  "",
+        "archiveLocation":  "",
+        "shortTitle":  "",
+        "language":  "en",
+        "libraryCatalog":  "DOI.org (Crossref)",
+        "callNumber":  "",
+        "rights":  "",
+        "extra":  "",
+        "creators":  [
+                         {
+                             "firstName":  "Jie",
+                             "lastName":  "Zhou",
+                             "creatorType":  "author"
+                         },
+                         {
+                             "firstName":  "Fang",
+                             "lastName":  "Ye",
+                             "creatorType":  "author"
+                         },
+                         {
+                             "firstName":  "Laifei",
+                             "lastName":  "Cheng",
+                             "creatorType":  "author"
+                         },
+                         {
+                             "firstName":  "Kai",
+                             "lastName":  "Zhao",
+                             "creatorType":  "author"
+                         },
+                         {
+                             "firstName":  "Yucong",
+                             "lastName":  "Wei",
+                             "creatorType":  "author"
+                         },
+                         {
+                             "firstName":  "Mingxing",
+                             "lastName":  "Li",
+                             "creatorType":  "author"
+                         },
+                         {
+                             "firstName":  "Nan",
+                             "lastName":  "Meng",
+                             "creatorType":  "author"
+                         }
+                     ],
+        "tags":  [
+
+                 ],
+        "notes":  [
+
+                  ],
+        "attachments":  [
+                            {
+                                "key":  "VRJY278T",
+                                "linkMode":  2,
+                                "hasFulltext":  true,
+                                "size":  62125729,
+                                "title":  "Zhou 等 - 2023 - Development of high-temperature wave-transparent nitride-based CFCMCs for aircraft radomes.pdf",
+                                "path":  "C:\\Users\\youthcookie\\OneDrive\\1.Science\\1.Zotero\\pdf2\\2023-(Composites Part A_ Applied Science and Manufacturing)\\Zhou 等 - 2023 - Development of high-temperature wave-transparent nitride-based CFCMCs for aircraft radomes.pdf",
+                                "contentType":  "application/pdf",
+                                "filename":  "Zhou 等 - 2023 - Development of high-temperature wave-transparent nitride-based CFCMCs for aircraft radomes.pdf"
+                            }
+                        ]
+    },
+    {
+        "key":  "G8TMSGFC",
+        "itemType":  "journalArticle",
+        "zoteroUrl":  "zotero://select/library/items/G8TMSGFC",
+        "title":  "Dielectric and mechanical properties of hypersonic radome materials and metamaterial design: A review",
+        "abstractNote":  "This review paper examines ten current ceramic radome materials under research and development and provides a comprehensive overview of available high temperature and high frequency data from literature. An examination of metamaterials for radio-frequency transparent radomes is given and our preliminary experimental results of a high-temperature metamaterial design are presented. The next-generation hypersonic vehicles’ radome temperatures will exceed 1000℃ and speeds will exceed Mach 5. An ideal radome material will have a high flexural strength, low dielectric constant and loss tangent, and high resistance to thermal shock and corrosion. The microstructural effect on the dielectric and mechanical properties and the effects of environmental factors such as rain are discussed. The impact of metamaterial structure on key radome factors such as boresight error, gain, and polarization is examined. After examining the associated benefits with the use of metamaterials, our preliminary results for a potential high-temperature metamaterial design are presented.",
+        "publicationTitle":  "Journal of the European Ceramic Society",
+        "publisher":  "",
+        "place":  "",
+        "date":  "01/2022",
+        "volume":  "42",
+        "issue":  "1",
+        "section":  "",
+        "partNumber":  "",
+        "partTitle":  "",
+        "pages":  "1-17",
+        "series":  "",
+        "seriesTitle":  "",
+        "seriesText":  "",
+        "journalAbbreviation":  "Journal of the European Ceramic Society",
+        "DOI":  "10.1016/j.jeurceramsoc.2021.10.006",
+        "citationKey":  "",
+        "url":  "https://linkinghub.elsevier.com/retrieve/pii/S0955221921007159",
+        "accessDate":  "2026-09-18 06:32:56",
+        "PMID":  "",
+        "PMCID":  "",
+        "ISSN":  "09552219",
+        "archive":  "",
+        "archiveLocation":  "",
+        "shortTitle":  "Dielectric and mechanical properties of hypersonic radome materials and metamaterial design",
+        "language":  "en",
+        "libraryCatalog":  "DOI.org (Crossref)",
+        "callNumber":  "",
+        "rights":  "",
+        "extra":  "",
+        "creators":  [
+                         {
+                             "firstName":  "Taylor",
+                             "lastName":  "Kenion",
+                             "creatorType":  "author"
+                         },
+                         {
+                             "firstName":  "Ni",
+                             "lastName":  "Yang",
+                             "creatorType":  "author"
+                         },
+                         {
+                             "firstName":  "Chengying",
+                             "lastName":  "Xu",
+                             "creatorType":  "author"
+                         }
+                     ],
+        "tags":  [
+
+                 ],
+        "notes":  [
+
+                  ],
+        "attachments":  [
+                            {
+                                "key":  "XABPJSGR",
+                                "linkMode":  2,
+                                "hasFulltext":  true,
+                                "size":  6978051,
+                                "title":  "Kenion 等 - 2022 - Dielectric and mechanical properties of hypersonic radome materials and metamaterial design A revie.pdf",
+                                "path":  "C:\\Users\\youthcookie\\OneDrive\\1.Science\\1.Zotero\\pdf2\\2022-(Journal of the European Ceramic Society)\\Kenion 等 - 2022 - Dielectric and mechanical properties of hypersonic radome materials and metamaterial design A revie.pdf",
+                                "contentType":  "application/pdf",
+                                "filename":  "Kenion 等 - 2022 - Dielectric and mechanical properties of hypersonic radome materials and metamaterial design A revie.pdf"
+                            }
+                        ]
+    },
+    {
+        "key":  "D7TP8Z6X",
+        "itemType":  "attachment",
+        "zoteroUrl":  "zotero://select/library/items/D7TP8Z6X",
+        "title":  "s41524-025-01554-0.pdf",
+        "accessDate":  "",
+        "url":  "",
+        "creators":  [
+
+                     ],
+        "tags":  [
+                     "zotmoov"
+                 ],
+        "notes":  [
+
+                  ],
+        "attachments":  [
+
+                        ]
+    }
+]

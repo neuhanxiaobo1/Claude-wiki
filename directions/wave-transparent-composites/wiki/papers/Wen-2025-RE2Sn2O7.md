@@ -14,7 +14,7 @@ venue: Materials Today Physics
 status: processed
 review_status: draft
 created: '2026-09-17'
-updated: '2026-09-17'
+updated: '2026-09-18'
 source: D:\shuju\zotero1\llm-for-zotero-mineru\10147\full.md
 source_version: 英文主附件的MinerU解析；MD哈希见sources.json
 zotero_collection: BSQRX4DM
@@ -94,6 +94,15 @@ Evidence label: 导热率的求得方式与温度
 - Original data source / independence: 本文主文对应数据；转引或模型已单独说明，不算额外独立实验。
 - Supports / does not establish: 可在注明温度、Cp及孔隙修正前提下引用；理论最小导热率约1.12–1.19不是实测值。高温辐射贡献使简单1/T模型不能覆盖所有温度。
 - Verification status: 主体Markdown已读；已列页序对应图表回查PDF，其余不超出文本核查。冲突与未决保留于本条。
+
+### E4
+
+Evidence label: 锡酸盐热膨胀系数
+
+- Evidence type: 本文膨胀测量的线性拟合。
+- Object and result: La/Er热膨胀系数分别8.62/9.24×10⁻⁶ K⁻¹；图示测量温区约373–1273 K，精确拟合窗口未另列。
+- Source locator: 原PDF页序11 Fig.14、页序12正文，2026-09-18补充局部核查。
+- Supports / boundary: 仅描述本文陶瓷，不作为复合材料CTE，也不据不同温区结果计算定量差距；整页状态不升级。
 
 ## Conclusions for Reuse
 

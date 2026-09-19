@@ -1,6 +1,7 @@
 ---
 direction_id: wave-transparent-composites
 type: paper
+scope_status: out-of-scope-candidate
 title: Hierarchical rGO/MXene aerogels assembled with SiC nanowires for excellent
   electromagnetic wave absorption and multifunctionality
 year: 2025
@@ -29,6 +30,10 @@ tags:
 ---
 
 # Hierarchical rGO/MXene aerogels assembled with SiC nanowires for excellent electromagnetic wave absorption and multifunctionality
+
+## 主题筛查（2026-09-19）
+
+本篇研究吸波而非透波，已从透波核心文献计数和综合证据中排除。保留页面与Zotero条目作为待移除候选，未将用户对Tian论文的移除授权扩展为删除本篇。E1–E3仅描述原吸波研究，不能作为透波性能证据。
 
 ## Metadata and Sources
 

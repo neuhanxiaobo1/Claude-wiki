@@ -1,0 +1,40 @@
+[
+  {
+    "item_key": "XLB9BUFZ",
+    "attachment_key": "VRJY278T",
+    "pdf_path": "C:\\Users\\youthcookie\\OneDrive\\1.Science\\1.Zotero\\pdf2\\2023-(Composites Part A_ Applied Science and Manufacturing)\\Zhou 等 - 2023 - Development of high-temperature wave-transparent nitride-based CFCMCs for aircraft radomes.pdf",
+    "cache": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\11098",
+    "md_sha256": "c8c0f56be6755fd52ea04464fb588983e09b879e2c7c5401825e9e82d8c87925",
+    "pages": 40,
+    "mapping": {
+      "kind": "llm-for-zotero/mineru-cache-source",
+      "version": 2,
+      "attachmentId": 11098,
+      "attachmentKey": "VRJY278T",
+      "parentItemKey": "XLB9BUFZ",
+      "sourceFilename": "Zhou 等 - 2023 - Development of high-temperature wave-transparent nitride-based CFCMCs for aircraft radomes.pdf",
+      "origin": "parsed",
+      "recordedAt": "2026-09-18T06:37:02.008Z",
+      "parsedAt": "2026-09-18T06:37:02.008Z"
+    }
+  },
+  {
+    "item_key": "G8TMSGFC",
+    "attachment_key": "XABPJSGR",
+    "pdf_path": "C:\\Users\\youthcookie\\OneDrive\\1.Science\\1.Zotero\\pdf2\\2022-(Journal of the European Ceramic Society)\\Kenion 等 - 2022 - Dielectric and mechanical properties of hypersonic radome materials and metamaterial design A revie.pdf",
+    "cache": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\11100",
+    "md_sha256": "153baa708ed84382cdeea3c6755611ca2de8c57ab14615979170c6cff71d1968",
+    "pages": 17,
+    "mapping": {
+      "kind": "llm-for-zotero/mineru-cache-source",
+      "version": 2,
+      "attachmentId": 11100,
+      "attachmentKey": "XABPJSGR",
+      "parentItemKey": "G8TMSGFC",
+      "sourceFilename": "Kenion 等 - 2022 - Dielectric and mechanical properties of hypersonic radome materials and metamaterial design A revie.pdf",
+      "origin": "parsed",
+      "recordedAt": "2026-09-18T06:34:49.752Z",
+      "parsedAt": "2026-09-18T06:34:49.752Z"
+    }
+  }
+]

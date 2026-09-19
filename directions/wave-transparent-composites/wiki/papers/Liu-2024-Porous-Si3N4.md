@@ -128,5 +128,4 @@ Evidence label: 室温与高温介电方法不同
 
 相关阅读仅表示明确材料/方法比较关系，不表示条件相同或可直接排名：
 
-- [[directions/wave-transparent-composites/wiki/papers/Tan-2025-rGO-MXene-SiC|rGO/MXene/SiC：吸波与多功能对照]]
 - [[directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2|层合穿刺SiO2f/SiO2]]
