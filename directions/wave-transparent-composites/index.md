@@ -1,12 +1,12 @@
 ---
 direction_id: wave-transparent-composites
 created: 2026-09-17
-updated: 2026-09-19
+updated: 2026-09-21
 ---
 
 # 透波复合材料
 
-研究目标：梳理组内基础，寻找透波复合材料新课题。工艺创新、性能提升和大模型结合均可探索，具体体系与技术路线尚未选定。目标及边界见[[directions/wave-transparent-composites/memory/project_profile]]。
+当前目标：撰写透波复合材料综述；具体基体与应用边界尚未选定。前期组内基础与选题梳理作为背景。目标及边界见[[directions/wave-transparent-composites/memory/project_profile]]。
 
 ## 方向入口
 
@@ -22,7 +22,7 @@ updated: 2026-09-19
 
 ## 研究内容
 
-原清单9篇已阅读；2026-09-19移除CMAS论文，吸波论文列为非核心候选。当前核心文献9篇（7篇透波原始研究+2篇综述），另保留1篇待移除吸波候选。均为processed/draft；补充材料和原文冲突在各页限定，未宣称完整复核通过。
+原清单9篇已阅读；2026-09-19移除CMAS论文，吸波论文列为非核心候选。当前有7篇组内透波原始研究、10篇新增外部原始研究、5篇材料综述和4篇方法/背景综述，另保留1篇非核心吸波候选，共27个paper页。均为processed/draft；各页阅读范围与未决已限定，不代表全部原始引用已复核。
 
 - 1. [[directions/wave-transparent-composites/wiki/papers/Du-2024-RE2SiO5|稀土单硅酸盐：力学与介电]]。
 - 2. [[directions/wave-transparent-composites/wiki/papers/Wen-2025-RE2Sn2O7|稀土锡酸盐：理论与实验筛选]]。
@@ -40,7 +40,7 @@ PDF原件未复制。[[directions/wave-transparent-composites/raw/zotero_imports
 
 ## 外部综述
 
-本轮新增2篇外部综述，方向核心文献现有9篇（7篇透波原始研究+2篇综述）；均为processed/draft。综述提供研究框架与原始文献线索，不计为新增组内成果。
+“2.透波综述”当前9篇已入库：原2篇加2026-09-20新增7篇，其中5篇材料综述、4篇方法/背景参考。均为processed/draft；不计为组内成果。
 
 - [[directions/wave-transparent-composites/wiki/papers/Zhou-2023-Nitride-CFCMCs-Review|Zhou 2023：氮化物连续纤维复合材料综述]]——纤维、界面、基体、涂层；转引数据与温度口径已限定。
 - [[directions/wave-transparent-composites/wiki/papers/Kenion-2022-Radome-Materials-Review|Kenion 2022：材料介电/力学与超材料综述]]——性能比较条件、微结构与环境影响、初步实验边界。
@@ -52,3 +52,23 @@ PDF原件未复制。[[directions/wave-transparent-composites/raw/zotero_imports
 - [[directions/wave-transparent-composites/wiki/papers/Tan-2025-rGO-MXene-SiC|待移除候选：rGO/MXene/SiC吸波论文]]（不计入透波核心文献）。
 
 - [[directions/wave-transparent-composites/docs/group-screening-prompt-2026-09-19/report|组内材料范围与新版文献筛选提示词]]：跨陶瓷/透波来源的定性梳理，区分已有研究、可迁移方法与待核扩展。
+
+## 2026-09-20新增综述与核查
+
+- 10. [[directions/wave-transparent-composites/wiki/papers/Nag-2021-High-Temperature-Ceramic-Review|High temperature ceramic radomes (HTCR) – a review]]。
+- 7. [[directions/wave-transparent-composites/wiki/papers/Xiang-2023-High-Temperature-Wave-Transparent-Review|Research progress of high temperature resistant electromagnetic wave-transparent materials]]。
+- 5. [[directions/wave-transparent-composites/wiki/papers/Liu-2025-Microwave-Sintering-Wave-Transparent-Review|Progress on high-temperature wave-transmitting materials in microwave sintering]]。
+- 9. [[directions/wave-transparent-composites/wiki/papers/Khatavkar-2016-Composite-Radome-Review|Composite materials for supersonic aircraft radomes with ameliorated radio frequency transmission-a review]]。
+- 6. [[directions/wave-transparent-composites/wiki/papers/Fidan-2023-Ceramic-Defects-Review|A survey on ceramic radome failure types and the importance of defect determination]]。
+- 8. [[directions/wave-transparent-composites/wiki/papers/Wu-2019-Ceramic-Thermomechanical-Testing-Review|A review of thermal-mechanical performance test technology for ceramic missile radome]]。
+- 4. [[directions/wave-transparent-composites/wiki/papers/Jiang-2025-NLP-LLM-Materials-Review|Applications of natural language processing and large language models in materials discovery]]。
+- [[directions/wave-transparent-composites/docs/ingestion-reviews-2026-09-20/report|入库结果、PDF/重复核查与补全方案]]：9篇/19个PDF无缺失，新增7篇MD映射已核；Zotero作者和摘要修正待同步。
+
+- [[directions/wave-transparent-composites/docs/review-corpus-audit-2026-09-21/report|2026-09-21：新增7篇综述的写作纳入与排除建议]]；档案收录数量不等于核心写作语料数量。
+
+- [[directions/wave-transparent-composites/docs/literature-selection-2026-09-21/report|1.透波文献：首批10篇入库候选]]（筛选记录；首批10篇已全部入库）。
+
+## 2026-09-21新增原始研究
+
+- [[directions/wave-transparent-composites/docs/ingestion-literature-2026-09-21/report|10篇顺序入库报告、论文导航与引用边界]]。
+- [[directions/wave-transparent-composites/raw/zotero_imports/literature-PI5UBPW7/import_plan|10/10已入库清单]]；均为processed / draft。

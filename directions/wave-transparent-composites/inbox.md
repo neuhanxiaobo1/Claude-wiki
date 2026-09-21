@@ -4,7 +4,7 @@ direction_id: wave-transparent-composites
 
 created: 2026-09-17
 
-updated: 2026-09-18
+updated: 2026-09-21
 
 ---
 
@@ -28,7 +28,7 @@ updated: 2026-09-18
 
 
 
-2026-09-18：用户指定的两篇综述已入库，详情见[[directions/wave-transparent-composites/raw/zotero_imports/reviews-GS7STC5N/import_plan]]。当时集合另有独立附件D7TP8Z6X；2026-09-19该key已不在集合直接成员中，现有YJGX6KP7大模型综述书目，附件映射未核。历史未入库记录保留。
+2026-09-18：用户指定的两篇综述已入库，详情见[[directions/wave-transparent-composites/raw/zotero_imports/reviews-GS7STC5N/import_plan]]。当时集合另有独立附件D7TP8Z6X；2026-09-19该key已不在集合直接成员中，现有YJGX6KP7大模型综述书目，2026-09-20已核UWQCJYL9及缓存并入库。旧key查询not found，保留历史记录，不重复建页。
 
 
 
@@ -37,3 +37,7 @@ updated: 2026-09-18
 
 
 2026-09-19主题筛查：CMAS页已移除；其余明确偏题及边界候选见[[directions/wave-transparent-composites/docs/scope-audit-2026-09-19/report]]，不再用纯吸波/腐蚀数据支持透波结论。Zotero移除待插件启用Write Operations；新增清单不自动导入。
+
+2026-09-20：综述9个当前成员全部入库；无缺PDF。元数据补全及原文冲突的后续方案见[[directions/wave-transparent-composites/docs/ingestion-reviews-2026-09-20/report]]，当前批次不再列待入库。
+
+2026-09-21：首批10篇已按顺序全部入库，清单版本2026-09-21-v2；无剩余待建页，SI与原文冲突补核候选见[[directions/wave-transparent-composites/memory/current_context]]。
