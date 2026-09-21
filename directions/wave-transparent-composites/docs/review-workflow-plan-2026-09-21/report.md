@@ -1,4 +1,4 @@
-﻿---
+---
 direction_id: wave-transparent-composites
 created: 2026-09-21
 updated: 2026-09-21
@@ -6,6 +6,10 @@ status: proposed
 ---
 
 # 陶瓷透波复合材料综述：入库至写作的规则完善方案
+
+## 最新决策覆盖
+
+用户随后决定：先讨论两个候选方案，由用户补第三方案，统一比较选定综述后才专项完善规则；本文实施顺序仅作历史建议，当前不执行。入口见[[directions/wave-transparent-composites/docs/review-options-2026-09-21/report]]。此前推送阻塞已在用户确认后解除，远程main核验cff1e40；第11节保留当时状态。
 
 ## 1. 结论与本次交付边界
 

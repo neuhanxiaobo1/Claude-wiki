@@ -1,0 +1,27 @@
+{
+  "mode": "direction",
+  "direction": "wave-transparent-composites",
+  "selected_files": 35,
+  "read_files": 36,
+  "links_seen": 178,
+  "errors": 0,
+  "warnings": 0,
+  "findings": [],
+  "limitations": [
+    "Structure only: no scientific evidence, source availability, tag semantics or DOI deduplication review.",
+    "No raw, external files, hidden directories, symlinks/junctions or historical report/log contents scanned.",
+    "Wikilinks: scoped file targets, aliases, exact ATX headings and block ID existence; not desktop rendering.",
+    "Markdown: simple inline local file targets only; anchors and complex/reference-style syntax not validated.",
+    "Fenced code, inline code and HTML comments excluded; explicit template placeholders are not real pages.",
+    "No write protection for other programs, backup creation, restore or concurrent-write locking is provided."
+  ],
+  "scientific_evidence_checked": false,
+  "design_file_links_verified": 9,
+  "design_frontmatter_verified": 7,
+  "not_executed": [
+    "deployment",
+    "original-paper pilot",
+    "scientific verification",
+    "writing trial"
+  ]
+}

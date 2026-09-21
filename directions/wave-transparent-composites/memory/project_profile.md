@@ -32,9 +32,20 @@ updated: 2026-09-21
 - 具体科学问题、性能指标、可用设备/数据、时间与成本约束：待确认；缺项不阻断文献基础梳理。
 - 最终选定课题、是否采用大模型及其具体任务：尚未决定；这是前期选题事项，不作为当前陶瓷综述的强制主线。
 - 主附件及Markdown来源已逐篇登记于manifest和论文页；更多补充材料按具体引用需要核对。
-- 专用阅读、综合与写作要求：目前沿用通用流程；完善方案已形成但未启用，见[[directions/wave-transparent-composites/docs/review-workflow-plan-2026-09-21/report]]。
+- 专用阅读、综合与写作要求：目前沿用通用流程；完善方案已形成但未启用；用户已给三方案总结且更倾向C；现以多尺度介电响应/电磁波传输为优先验证主线，具体题目与机制链充分性仍待验证，变动只限本方向。原备选设计见[[directions/wave-transparent-composites/docs/review-workflow-plan-2026-09-21/report]]。
 - 语言与表达沿用 [[memory/user_profile]]，未定偏好保持待确认。
 
 - 2026-09-18新增来源：父集合下“综述”（GS7STC5N）返回3个直接成员；用户指定的Zhou 2023、Kenion 2022两篇已入库，另一独立PDF仅记录待分配。目录归属不用于判断作者是否属于本组。
 
 - 2026-09-19重新核对Zotero：BSQRX4DM下有5个子集合，GS7STC5N现名“2.透波综述”；新增条目仅完成主题初筛，未自动入库。完整范围及插件写入阻塞见[[directions/wave-transparent-composites/docs/scope-audit-2026-09-19/report]]。
+
+## C优先验证及指定写作参照（2026-09-21）
+
+- 当前用户偏向C，优先围绕组成/实际结构—物理过程—介电响应—电磁传输梳理；旧总结A优先不覆盖新指令。科学层级高低及发表前景不由标题判定。
+- 写作思路、用词和规范参照博士集合W4JKWG9B两篇：Nature Reviews Bioengineering 2024写作社论（10.1038/s44222-024-00256-4）及Tang 2021树脂基透波综述（10.1016/j.jmst.2020.09.017）。学习论证与表达，不照抄段落、目录/图形或迁移未核科学结论；阅读边界见[[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/style-reference-notes]]。
+- 新专项方案见[[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/report]]，本轮仅形成方案并记录上述偏好，未启用新扩展，未改变paper状态。
+
+## 当前规则设计入口
+
+- 用户最新明确基于确定的C目标方向设计专有规则；不再等待三个方案选择。最终科学结论、标题和章节范围仍由证据检验。
+- 现行规则仍为通用流程；拟部署设计以[[directions/wave-transparent-composites/docs/c-rules-design-v2-2026-09-21/report]]和所附四扩展/一模板为准，前稿保留背景，不同时作为生效条款。

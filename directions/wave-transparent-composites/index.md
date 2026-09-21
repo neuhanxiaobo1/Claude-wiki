@@ -76,3 +76,18 @@ PDF原件未复制。[[directions/wave-transparent-composites/raw/zotero_imports
 ## 综述工作流完善方案
 
 - [[directions/wave-transparent-composites/docs/review-workflow-plan-2026-09-21/report|入库、阅读、证据记录、综合与写作的详细完善方案]]：已形成建议，尚未启用专用扩展；含样品/条件字段、试点与阶段验收。
+
+## 待比较的综述写作方案
+
+- [[directions/wave-transparent-composites/docs/review-options-2026-09-21/report|方案A/B、证据依据及第三方案比较接口]]。
+- [供其他大模型讨论的独立提示词](docs/review-options-2026-09-21/discussion-prompt.md)。选定主线后再专项完善规则。
+
+## C方向专项完善方案与写作参照
+
+- [[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/report|C优先验证：机制证据、阅读、综合与写作的完善方案]]。
+- [[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/style-reference-notes|博士集合两篇指定写作参照的阅读与适用边界]]。
+- 用户三方案文件保留原样，最新用户C倾向优先；前述等待第三方案已经结束，专项扩展尚未启用。
+
+## 专有规则文件级设计 v2
+
+- [[directions/wave-transparent-composites/docs/c-rules-design-v2-2026-09-21/report|当前拟部署方案：四份规则草案、一份模板及验收]]。尚未接入方向AGENTS；仅限本方向。
