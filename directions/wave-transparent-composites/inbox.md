@@ -41,3 +41,5 @@ updated: 2026-09-21
 2026-09-20：综述9个当前成员全部入库；无缺PDF。元数据补全及原文冲突的后续方案见[[directions/wave-transparent-composites/docs/ingestion-reviews-2026-09-20/report]]，当前批次不再列待入库。
 
 2026-09-21：首批10篇已按顺序全部入库，清单版本2026-09-21-v2；无剩余待建页，SI与原文冲突补核候选见[[directions/wave-transparent-composites/memory/current_context]]。
+
+2026-09-21：陶瓷综述规则完善方案已形成，实施建议及验收见[[directions/wave-transparent-composites/docs/review-workflow-plan-2026-09-21/report]]；进度统一见current_context。当前版本提交cc602ad的上传因自动审批拒绝而待明确目的地/分支确认。

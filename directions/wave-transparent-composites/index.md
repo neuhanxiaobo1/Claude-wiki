@@ -6,7 +6,7 @@ updated: 2026-09-21
 
 # 透波复合材料
 
-当前目标：撰写透波复合材料综述；具体基体与应用边界尚未选定。前期组内基础与选题梳理作为背景。目标及边界见[[directions/wave-transparent-composites/memory/project_profile]]。
+当前目标：撰写陶瓷透波复合材料综述；具体陶瓷体系与应用边界尚未选定。前期组内基础与选题梳理作为背景。目标及边界见[[directions/wave-transparent-composites/memory/project_profile]]。
 
 ## 方向入口
 
@@ -72,3 +72,7 @@ PDF原件未复制。[[directions/wave-transparent-composites/raw/zotero_imports
 
 - [[directions/wave-transparent-composites/docs/ingestion-literature-2026-09-21/report|10篇顺序入库报告、论文导航与引用边界]]。
 - [[directions/wave-transparent-composites/raw/zotero_imports/literature-PI5UBPW7/import_plan|10/10已入库清单]]；均为processed / draft。
+
+## 综述工作流完善方案
+
+- [[directions/wave-transparent-composites/docs/review-workflow-plan-2026-09-21/report|入库、阅读、证据记录、综合与写作的详细完善方案]]：已形成建议，尚未启用专用扩展；含样品/条件字段、试点与阶段验收。
