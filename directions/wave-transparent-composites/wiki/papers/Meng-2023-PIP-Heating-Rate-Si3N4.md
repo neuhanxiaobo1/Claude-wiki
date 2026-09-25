@@ -17,7 +17,7 @@ venue: Journal of Materials Research and Technology
 status: processed
 review_status: draft
 created: '2026-09-21'
-updated: '2026-09-21'
+updated: '2026-09-25'
 source: C:\Users\youthcookie\OneDrive\1.Science\1.Zotero\pdf2\2023-(J. Mater. Res.
   Technol.)\Meng 等 - 2023 - Effects of heating rate on mechanical and dielectric properties
   of the Si3N4fBNSi3N4composites by.pdf
@@ -31,6 +31,8 @@ tags:
 ---
 
 # Effects of heating rate on mechanical and dielectric properties of the Si3N4f/BN/Si3N4composites by PIP
+
+> 2026-09-25 B/C迁移：P0004；范围为EV000013—EV000017；旧E1孔隙/密度及E2/E3介电/组成孔结构。后续BC事实维护见[正式工作簿](../../synthesis/review_BC/BC_review_evidence.xlsx)，流程见[[directions/wave-transparent-composites/rules/bc-review-workflow]]。以下保留历史阅读记录及本轮必要纠错；旧E#不变，整页仍draft，未迁移部分不自动放行。
 
 ## Metadata and Sources
 

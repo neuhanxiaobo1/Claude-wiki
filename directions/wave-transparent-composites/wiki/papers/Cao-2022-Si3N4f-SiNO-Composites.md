@@ -17,7 +17,7 @@ venue: Journal of the European Ceramic Society
 status: processed
 review_status: draft
 created: '2026-09-21'
-updated: '2026-09-21'
+updated: '2026-09-25'
 source: C:\Users\youthcookie\OneDrive\1.Science\1.Zotero\pdf2\2022-(J. Eur. Ceram.
   Soc.)\Cao 等 - 2022 - Microstructure, high-temperature mechanical and dielectric
   properties of novel Si3N4 fSiNO wave-tra.pdf
@@ -31,6 +31,8 @@ tags:
 ---
 
 # Microstructure, high-temperature mechanical and dielectric properties of novel Si3N4 f/SiNO wave-transparent composites
+
+> 2026-09-25 B/C迁移：P0002；范围为EV000005—EV000008；旧E2/E3相关温度结构、介电及力学边界。后续BC事实维护见[正式工作簿](../../synthesis/review_BC/BC_review_evidence.xlsx)，流程见[[directions/wave-transparent-composites/rules/bc-review-workflow]]。以下保留历史阅读记录及本轮必要纠错；旧E#不变，整页仍draft，未迁移部分不自动放行。
 
 ## Metadata and Sources
 

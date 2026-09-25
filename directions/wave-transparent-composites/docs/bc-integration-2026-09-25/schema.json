@@ -1,0 +1,317 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "version": "2026-09-25-candidate",
+  "status": "empty-design-candidate-not-production",
+  "source_sha256": "b6028df1f9334c5b55a87080dd65012fc8af6317ac089b26c3fa1e4c58e0fc7e",
+  "id_policy": {
+    "paper": "P0001, never reuse",
+    "evidence": "EV000001, never reuse",
+    "synthesis": "SYN-B-001 / SYN-C-001, never reuse",
+    "multi_id_separator": ";",
+    "legacy_evidence": "retain original page-local E#"
+  },
+  "tables": {
+    "Paper_Index": {
+      "original_headers": [
+        "Paper_ID",
+        "Citation",
+        "DOI",
+        "Year",
+        "Material_System",
+        "Composite_Type",
+        "B_Relevance",
+        "C_Relevance",
+        "Primary_Track",
+        "Thermal_Exposure",
+        "Dielectric_Frequency",
+        "Main_Structure_Variables",
+        "Key_Conclusion_OneSentence",
+        "Main_Limitation",
+        "Needs_Check",
+        "Check_Reason",
+        "Read_Status",
+        "Source_File_or_URL"
+      ],
+      "columns": [
+        "Paper_ID",
+        "Citation",
+        "DOI",
+        "Year",
+        "Material_System",
+        "Composite_Type",
+        "B_Relevance",
+        "C_Relevance",
+        "Primary_Track",
+        "Thermal_Exposure",
+        "Dielectric_Frequency",
+        "Main_Structure_Variables",
+        "Key_Conclusion_OneSentence",
+        "Main_Limitation",
+        "Needs_Check",
+        "Check_Reason",
+        "Read_Status",
+        "Source_File_or_URL",
+        "B_Use",
+        "C_Use",
+        "Zotero_Item_Key",
+        "Legacy_Wiki_Page",
+        "Source_Version",
+        "Verification_Scope"
+      ],
+      "added_fields": [
+        {
+          "name": "B_Use",
+          "meaning": "B的论证用途；相关度不等于用途，Core不代表已核查。",
+          "allowed_values": [
+            "Core",
+            "Context",
+            "Method",
+            "Review",
+            "Exclude"
+          ]
+        },
+        {
+          "name": "C_Use",
+          "meaning": "C的论证用途，与B独立判断。",
+          "allowed_values": [
+            "Core",
+            "Context",
+            "Method",
+            "Review",
+            "Exclude"
+          ]
+        },
+        {
+          "name": "Zotero_Item_Key",
+          "meaning": "条目键；有多文库时同时注明libraryID。",
+          "allowed_values": []
+        },
+        {
+          "name": "Legacy_Wiki_Page",
+          "meaning": "相对vault根的完整旧paper路径；无旧页写NA。",
+          "allowed_values": []
+        },
+        {
+          "name": "Source_Version",
+          "meaning": "实际所读主PDF/MD/SI的版本与来源manifest或哈希；不是文献出版年份。",
+          "allowed_values": []
+        },
+        {
+          "name": "Verification_Scope",
+          "meaning": "Read_Status=Verified时必须说明实际核查范围及残余缺项。",
+          "allowed_values": []
+        }
+      ],
+      "table_ref": "A1:X1000"
+    },
+    "Evidence_Records": {
+      "original_headers": [
+        "Evidence_ID",
+        "Paper_ID",
+        "Track",
+        "Review_Question",
+        "Sample_or_Group",
+        "Intervention_or_Condition",
+        "Thermal_State",
+        "Structure_Change",
+        "Structure_Evidence_Method",
+        "Dielectric_Result",
+        "Dielectric_Test_Condition",
+        "Wave_Transmission_Result",
+        "Mechanical_Boundary",
+        "Author_Mechanism",
+        "Mechanism_Evidence",
+        "Alternative_Explanation",
+        "Evidence_Directness",
+        "Comparison_Type",
+        "Source_Location",
+        "Review_Usable_Claim",
+        "Limitation",
+        "Needs_Check"
+      ],
+      "columns": [
+        "Evidence_ID",
+        "Paper_ID",
+        "Track",
+        "Review_Question",
+        "Sample_or_Group",
+        "Intervention_or_Condition",
+        "Thermal_State",
+        "Structure_Change",
+        "Structure_Evidence_Method",
+        "Dielectric_Result",
+        "Dielectric_Test_Condition",
+        "Wave_Transmission_Result",
+        "Mechanical_Boundary",
+        "Author_Mechanism",
+        "Mechanism_Evidence",
+        "Alternative_Explanation",
+        "Evidence_Directness",
+        "Comparison_Type",
+        "Source_Location",
+        "Review_Usable_Claim",
+        "Limitation",
+        "Needs_Check",
+        "Evidence_Type",
+        "Verification_Status",
+        "Verification_Scope",
+        "Check_Reason",
+        "Pairing_Status",
+        "Data_Group_ID",
+        "Related_Evidence_IDs",
+        "Legacy_Evidence_Ref",
+        "Support_Assessment"
+      ],
+      "added_fields": [
+        {
+          "name": "Evidence_Type",
+          "meaning": "本行主要断言类型，观察与解释拆行并关联。",
+          "allowed_values": [
+            "Observation",
+            "Model-output",
+            "Author-interpretation",
+            "Secondary-citation",
+            "AI-inference"
+          ]
+        },
+        {
+          "name": "Verification_Status",
+          "meaning": "仅本条的核查状态，不替代paper review_status。",
+          "allowed_values": [
+            "Checked",
+            "Partial",
+            "Pending",
+            "Unavailable"
+          ]
+        },
+        {
+          "name": "Verification_Scope",
+          "meaning": "核过的原文材料/定位及未核范围，不能只写已读。",
+          "allowed_values": []
+        },
+        {
+          "name": "Check_Reason",
+          "meaning": "Needs_Check=Yes时说明问题及影响；未解决来源矛盾保留各位置。",
+          "allowed_values": []
+        },
+        {
+          "name": "Pairing_Status",
+          "meaning": "针对本行关系：同试样、同批匹配、不同状态、未知或不适用。不能单独证明控制变量。",
+          "allowed_values": [
+            "Same-specimen",
+            "Matched-batch",
+            "Different-state",
+            "Unclear",
+            "NA"
+          ]
+        },
+        {
+          "name": "Data_Group_ID",
+          "meaning": "独立性分组标识；共用原始数据的多篇论文共用组。未知写Unknown并限制独立验证计数。",
+          "allowed_values": []
+        },
+        {
+          "name": "Related_Evidence_IDs",
+          "meaning": "关联EV编号，以分号分隔；配对关系及角色在本行条件/限制列说明。",
+          "allowed_values": []
+        },
+        {
+          "name": "Legacy_Evidence_Ref",
+          "meaning": "完整旧paper路径及实际E标题/块锚点；多项分号分隔；无旧证据写NA。",
+          "allowed_values": []
+        },
+        {
+          "name": "Support_Assessment",
+          "meaning": "相对于Review_Usable_Claim的支持程度；理由写Limitation（含支持理由）。",
+          "allowed_values": [
+            "Sufficient",
+            "Partial",
+            "Insufficient"
+          ]
+        }
+      ],
+      "table_ref": "A1:AE1000"
+    },
+    "Synthesis_Map": {
+      "original_headers": [
+        "Synthesis_ID",
+        "Track",
+        "Section_Target",
+        "Synthesis_Question",
+        "Candidate_Claim",
+        "Supporting_Paper_IDs",
+        "Contradicting_or_Limiting_Paper_IDs",
+        "Common_Conditions",
+        "Key_Differences",
+        "Evidence_Strength",
+        "What_Is_Established",
+        "What_Remains_Uncertain",
+        "Review_Paragraph_Logic",
+        "Figure_or_Table_Idea"
+      ],
+      "columns": [
+        "Synthesis_ID",
+        "Track",
+        "Section_Target",
+        "Synthesis_Question",
+        "Candidate_Claim",
+        "Supporting_Paper_IDs",
+        "Contradicting_or_Limiting_Paper_IDs",
+        "Common_Conditions",
+        "Key_Differences",
+        "Evidence_Strength",
+        "What_Is_Established",
+        "What_Remains_Uncertain",
+        "Review_Paragraph_Logic",
+        "Figure_or_Table_Idea",
+        "Supporting_Evidence_IDs",
+        "Limiting_Evidence_IDs",
+        "Comparability",
+        "Strength_Rationale",
+        "Readiness"
+      ],
+      "added_fields": [
+        {
+          "name": "Supporting_Evidence_IDs",
+          "meaning": "精确支持本句的EV编号，分号分隔；须能回到Supporting_Paper_IDs。",
+          "allowed_values": []
+        },
+        {
+          "name": "Limiting_Evidence_IDs",
+          "meaning": "限制/反对本句的EV编号，分号分隔；不得省略已知实质反证。无记录不等于无反例。",
+          "allowed_values": []
+        },
+        {
+          "name": "Comparability",
+          "meaning": "本次综合可比性；理由与条件写Common_Conditions/Key_Differences。",
+          "allowed_values": [
+            "Comparable",
+            "Conditional",
+            "Qualitative-only",
+            "Not-comparable"
+          ]
+        },
+        {
+          "name": "Strength_Rationale",
+          "meaning": "证据强度相对于Candidate_Claim的理由，含独立性、未决影响及适用范围。",
+          "allowed_values": []
+        },
+        {
+          "name": "Readiness",
+          "meaning": "Ready仅当前限定句子可用；Provisional内部分析；Blocked不进确定性正文。",
+          "allowed_values": [
+            "Ready",
+            "Provisional",
+            "Blocked"
+          ]
+        }
+      ],
+      "table_ref": "A1:S1000"
+    }
+  },
+  "validation_limits": [
+    "Excel dropdowns do not enforce pasted/programmatic values.",
+    "Required fields depend on row stage; empty template rows are allowed.",
+    "Foreign keys, DOI identity, source locations, sample pairing and scientific support require separate checks."
+  ]
+}

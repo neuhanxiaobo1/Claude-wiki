@@ -1,0 +1,25 @@
+{
+  "Paper_Index": {
+    "data_rows": 0,
+    "columns": 24,
+    "table_ref": "A1:X1000",
+    "validation_count": 6
+  },
+  "Evidence_Records": {
+    "data_rows": 0,
+    "columns": 31,
+    "table_ref": "A1:AE1000",
+    "validation_count": 8
+  },
+  "Synthesis_Map": {
+    "data_rows": 0,
+    "columns": 19,
+    "table_ref": "A1:S1000",
+    "validation_count": 4
+  },
+  "external_sources_unchanged": true,
+  "original_headers_preserved": true,
+  "candidate_sha256": "4e1600455445647c41248d528abc1f7fb175b351b8ec4630c5531b52a735899e",
+  "scientific_evidence_checked": false,
+  "production_activated": false
+}

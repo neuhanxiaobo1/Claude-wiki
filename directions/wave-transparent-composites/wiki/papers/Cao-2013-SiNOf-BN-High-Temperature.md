@@ -12,7 +12,7 @@ venue: Materials & Design
 status: processed
 review_status: draft
 created: '2026-09-21'
-updated: '2026-09-21'
+updated: '2026-09-25'
 source: C:\Users\youthcookie\OneDrive\1.Science\1.Zotero\pdf2\2013-(Mater. Des.)\Cao
   等 - 2013 - High-temperature properties and associated structure evolution of continuous
   SiNO fiber-reinforced B.pdf
@@ -26,6 +26,8 @@ tags:
 ---
 
 # High-temperature properties and associated structure evolution of continuous SiNO fiber-reinforced BN composites for wave transparency
+
+> 2026-09-25 B/C迁移：P0001；范围为EV000001—EV000004；旧E1/E2及E3的结构部分，新增解释另列EV。后续BC事实维护见[正式工作簿](../../synthesis/review_BC/BC_review_evidence.xlsx)，流程见[[directions/wave-transparent-composites/rules/bc-review-workflow]]。以下保留历史阅读记录及本轮必要纠错；旧E#不变，整页仍draft，未迁移部分不自动放行。
 
 ## Metadata and Sources
 

@@ -1,0 +1,275 @@
+{
+  "source": "F:\\industry software\\onedrive\\1.Science\\1.Zotero\\fenqu\\review\\BC_综述文献证据数据库模板.xlsx",
+  "sheets": [
+    {
+      "name": "Paper_Index",
+      "dimensions": "A1:R1000",
+      "nonempty_rows": 1,
+      "rows": [
+        {
+          "row": 1,
+          "values": [
+            "Paper_ID",
+            "Citation",
+            "DOI",
+            "Year",
+            "Material_System",
+            "Composite_Type",
+            "B_Relevance",
+            "C_Relevance",
+            "Primary_Track",
+            "Thermal_Exposure",
+            "Dielectric_Frequency",
+            "Main_Structure_Variables",
+            "Key_Conclusion_OneSentence",
+            "Main_Limitation",
+            "Needs_Check",
+            "Check_Reason",
+            "Read_Status",
+            "Source_File_or_URL"
+          ]
+        }
+      ],
+      "tables": [
+        "PaperIndexTable"
+      ],
+      "merged_ranges": [],
+      "validations": [
+        {
+          "type": "list",
+          "range": "G2:H1000",
+          "formula1": "\"High,Medium,Low,No\"",
+          "allowBlank": false,
+          "errorStyle": null,
+          "showErrorMessage": false
+        },
+        {
+          "type": "list",
+          "range": "I2:I1000",
+          "formula1": "\"B,C,Both,Exclude\"",
+          "allowBlank": false,
+          "errorStyle": null,
+          "showErrorMessage": false
+        },
+        {
+          "type": "list",
+          "range": "O2:O1000",
+          "formula1": "\"Yes,No\"",
+          "allowBlank": false,
+          "errorStyle": null,
+          "showErrorMessage": false
+        },
+        {
+          "type": "list",
+          "range": "Q2:Q1000",
+          "formula1": "\"Screened,Core-read,Verified\"",
+          "allowBlank": false,
+          "errorStyle": null,
+          "showErrorMessage": false
+        }
+      ]
+    },
+    {
+      "name": "Evidence_Records",
+      "dimensions": "A1:V1000",
+      "nonempty_rows": 1,
+      "rows": [
+        {
+          "row": 1,
+          "values": [
+            "Evidence_ID",
+            "Paper_ID",
+            "Track",
+            "Review_Question",
+            "Sample_or_Group",
+            "Intervention_or_Condition",
+            "Thermal_State",
+            "Structure_Change",
+            "Structure_Evidence_Method",
+            "Dielectric_Result",
+            "Dielectric_Test_Condition",
+            "Wave_Transmission_Result",
+            "Mechanical_Boundary",
+            "Author_Mechanism",
+            "Mechanism_Evidence",
+            "Alternative_Explanation",
+            "Evidence_Directness",
+            "Comparison_Type",
+            "Source_Location",
+            "Review_Usable_Claim",
+            "Limitation",
+            "Needs_Check"
+          ]
+        }
+      ],
+      "tables": [
+        "EvidenceRecordsTable"
+      ],
+      "merged_ranges": [],
+      "validations": [
+        {
+          "type": "list",
+          "range": "C2:C2000",
+          "formula1": "\"B,C,Both\"",
+          "allowBlank": false,
+          "errorStyle": null,
+          "showErrorMessage": false
+        },
+        {
+          "type": "list",
+          "range": "Q2:Q2000",
+          "formula1": "\"Direct,Indirect,Author-interpretation,Unclear\"",
+          "allowBlank": false,
+          "errorStyle": null,
+          "showErrorMessage": false
+        },
+        {
+          "type": "list",
+          "range": "R2:R2000",
+          "formula1": "\"Within-paper controlled,Within-paper uncontrolled,Cross-paper only\"",
+          "allowBlank": false,
+          "errorStyle": null,
+          "showErrorMessage": false
+        },
+        {
+          "type": "list",
+          "range": "V2:V2000",
+          "formula1": "\"Yes,No\"",
+          "allowBlank": false,
+          "errorStyle": null,
+          "showErrorMessage": false
+        }
+      ]
+    },
+    {
+      "name": "Synthesis_Map",
+      "dimensions": "A1:N1000",
+      "nonempty_rows": 1,
+      "rows": [
+        {
+          "row": 1,
+          "values": [
+            "Synthesis_ID",
+            "Track",
+            "Section_Target",
+            "Synthesis_Question",
+            "Candidate_Claim",
+            "Supporting_Paper_IDs",
+            "Contradicting_or_Limiting_Paper_IDs",
+            "Common_Conditions",
+            "Key_Differences",
+            "Evidence_Strength",
+            "What_Is_Established",
+            "What_Remains_Uncertain",
+            "Review_Paragraph_Logic",
+            "Figure_or_Table_Idea"
+          ]
+        }
+      ],
+      "tables": [
+        "SynthesisMapTable"
+      ],
+      "merged_ranges": [],
+      "validations": [
+        {
+          "type": "list",
+          "range": "B2:B1000",
+          "formula1": "\"B,C\"",
+          "allowBlank": false,
+          "errorStyle": null,
+          "showErrorMessage": false
+        },
+        {
+          "type": "list",
+          "range": "J2:J1000",
+          "formula1": "\"Strong,Moderate,Weak\"",
+          "allowBlank": false,
+          "errorStyle": null,
+          "showErrorMessage": false
+        }
+      ]
+    },
+    {
+      "name": "Instructions",
+      "dimensions": "A1:B10",
+      "nonempty_rows": 10,
+      "rows": [
+        {
+          "row": 1,
+          "values": [
+            "B/C 综述证据数据库使用说明",
+            null
+          ]
+        },
+        {
+          "row": 2,
+          "values": [
+            "核心原则",
+            "一篇论文只登记一次；一条独立证据只登记一次；B/C 共用证据用 Track=Both，不复制。"
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            "Paper_Index",
+            "每篇论文一行。用于身份、范围、B/C相关性、阅读状态和一句话结论。"
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "Evidence_Records",
+            "每条可用于综述的独立证据一行。保留条件、结果、机制、证据直接性、替代解释和来源位置。"
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "Synthesis_Map",
+            "至少两篇论文能够共同回答一个问题后再填写。按综述论点组织，不按论文组织。"
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "B 主线",
+            "热暴露 → 结构演化 → 介电稳定性。力学仅作为结构完整性边界。"
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "C 主线",
+            "界面/孔结构 → 极化或局域场 → 有效介电响应。"
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "正文生成",
+            "不要从单篇摘要复制正文；先 Evidence → Synthesis → Review prose。"
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "复核策略",
+            "发现冲突、SI未读、样品/状态不清时只标 Needs_Check=Yes，集中二次核查。"
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "建议项目保存路径",
+            "review_BC/BC_review_evidence.xlsx；review_BC/BC_synthesis_notes.md；review_BC/source_check_log.md"
+          ]
+        }
+      ],
+      "tables": [],
+      "merged_ranges": [],
+      "validations": []
+    }
+  ],
+  "defined_names": [],
+  "external_links": 0
+}

@@ -13,7 +13,7 @@ venue: Journal of Advanced Ceramics
 status: processed
 review_status: draft
 created: '2026-09-17'
-updated: '2026-09-17'
+updated: '2026-09-25'
 source: D:\shuju\zotero1\llm-for-zotero-mineru\10110\full.md
 source_version: 英文主附件的MinerU解析；MD哈希见sources.json
 zotero_collection: BSQRX4DM
@@ -27,6 +27,8 @@ tags:
 ---
 
 # Synergistic promotion of dielectric and thermomechanical properties of porous Si3 N4 ceramics by a dual-solvent template method
+
+> 2026-09-25 B/C迁移：P0005；范围为EV000018—EV000022；旧E1孔结构及E4介电，新增作者解释另列EV。后续BC事实维护见[正式工作簿](../../synthesis/review_BC/BC_review_evidence.xlsx)，流程见[[directions/wave-transparent-composites/rules/bc-review-workflow]]。以下保留历史阅读记录及本轮必要纠错；旧E#不变，整页仍draft，未迁移部分不自动放行。
 
 ## Metadata and Sources
 

@@ -1,7 +1,7 @@
 ---
 direction_id: wave-transparent-composites
 created: 2026-09-17
-updated: 2026-09-21
+updated: 2026-09-25
 ---
 
 # 透波复合材料研究配置
@@ -9,7 +9,7 @@ updated: 2026-09-21
 ## 已明确范围
 
 - 用户指定名称：透波复合材料。
-- 当前阶段目标（用户2026-09-21明确）：撰写陶瓷透波复合材料综述（本轮用户进一步明确陶瓷范围）；按写作问题区分核心材料文献、基础参照、辅助表征与跨体系背景。具体题目、应用、频段和温区尚未确定，不自动限定航空高温。
+- 当前阶段目标（用户2026-09-25更新）：为陶瓷基透波复合材料综述并行验证B“热暴露—结构演化—介电稳定性”和C“界面/孔结构—物理解释—介电响应”。A退出当前候选，旧C优先被新安排替代；暂不正式同时写两篇，最终主线、题目和目录按证据收敛。B以热暴露为问题范围，C不强制高温；具体应用、频段与温区尚未固定。
 - 前期目标（用户2026-09-18明确）：梳理组内已有研究基础，在此基础上寻找透波复合材料新课题。
 - 研究对象：当前综述聚焦陶瓷透波复合材料；具体陶瓷体系和增强结构不预设，单相、多孔及PDC按实际构成与论证用途分类。树脂基文献作为跨体系背景，不进入核心陶瓷性能比较。
 - 开放路径：工艺创新、性能提升，以及与大模型结合；可以单独探索，也可以交叉，不要求每个课题都使用大模型。
@@ -32,20 +32,20 @@ updated: 2026-09-21
 - 具体科学问题、性能指标、可用设备/数据、时间与成本约束：待确认；缺项不阻断文献基础梳理。
 - 最终选定课题、是否采用大模型及其具体任务：尚未决定；这是前期选题事项，不作为当前陶瓷综述的强制主线。
 - 主附件及Markdown来源已逐篇登记于manifest和论文页；更多补充材料按具体引用需要核对。
-- 专用阅读、综合与写作要求：目前沿用通用流程；完善方案已形成但未启用；用户已给三方案总结且更倾向C；现以多尺度介电响应/电磁波传输为优先验证主线，具体题目与机制链充分性仍待验证，变动只限本方向。原备选设计见[[directions/wave-transparent-composites/docs/review-workflow-plan-2026-09-21/report]]。
+- 专用阅读、综合与写作要求：2026-09-25用户授权后已启用[[directions/wave-transparent-composites/rules/bc-review-workflow]]，方向AGENTS已接入。一套Excel三主表服务B/C，不额外重复生成长篇单论文摘要；原文、核查与准入底线不变。正式库为本方向`synthesis/review_BC/BC_review_evidence.xlsx`，不得另建平行事实库。
 - 语言与表达沿用 [[memory/user_profile]]，未定偏好保持待确认。
 
 - 2026-09-18新增来源：父集合下“综述”（GS7STC5N）返回3个直接成员；用户指定的Zhou 2023、Kenion 2022两篇已入库，另一独立PDF仅记录待分配。目录归属不用于判断作者是否属于本组。
 
 - 2026-09-19重新核对Zotero：BSQRX4DM下有5个子集合，GS7STC5N现名“2.透波综述”；新增条目仅完成主题初筛，未自动入库。完整范围及插件写入阻塞见[[directions/wave-transparent-composites/docs/scope-audit-2026-09-19/report]]。
 
-## C优先验证及指定写作参照（2026-09-21）
+## 指定写作参照及历史主线
 
-- 当前用户偏向C，优先围绕组成/实际结构—物理过程—介电响应—电磁传输梳理；旧总结A优先不覆盖新指令。科学层级高低及发表前景不由标题判定。
+- 2026-09-21的C优先为历史安排，已由2026-09-25的B/C并行验证替代；旧A/B/C标签不能用来指代新方案的具体内容。科学层级高低及发表前景不由标题判定。
 - 写作思路、用词和规范参照博士集合W4JKWG9B两篇：Nature Reviews Bioengineering 2024写作社论（10.1038/s44222-024-00256-4）及Tang 2021树脂基透波综述（10.1016/j.jmst.2020.09.017）。学习论证与表达，不照抄段落、目录/图形或迁移未核科学结论；阅读边界见[[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/style-reference-notes]]。
-- 新专项方案见[[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/report]]，本轮仅形成方案并记录上述偏好，未启用新扩展，未改变paper状态。
+- 历史C专项方案见[[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/report]]，保留来源、条件、机制边界及写作原则可借鉴部分，不作为当前部署指令。
 
 ## 当前规则设计入口
 
-- 用户最新明确基于确定的C目标方向设计专有规则；不再等待三个方案选择。最终科学结论、标题和章节范围仍由证据检验。
-- 现行规则仍为通用流程；拟部署设计以[[directions/wave-transparent-composites/docs/c-rules-design-v2-2026-09-21/report]]和所附四扩展/一模板为准，前稿保留背景，不同时作为生效条款。
+- 生效流程入口：[[directions/wave-transparent-composites/rules/bc-review-workflow]]；原设计保留在[[directions/wave-transparent-composites/docs/bc-integration-2026-09-25/report]]。
+- 五篇试点已完成：5个Paper_ID、22条EV、3条综合，详见[[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report]]。旧27个paper/108条E#保留，五页增加BC迁移入口并定向纠错；未迁移其余页面，未升级旧页状态。工作簿为BC唯一维护事实源，旧页为历史及来源导航；纳入calude_wiki_3.9.9发布范围，远程状态以Git核验为准。

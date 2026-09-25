@@ -1,0 +1,34 @@
+{
+  "report_links": [
+    {
+      "target": "F:\\industry software\\calude_wiki\\directions\\wave-transparent-composites\\docs\\c-oriented-rules-2026-09-21\\style-reference-notes.md",
+      "exists": true
+    },
+    {
+      "target": "F:\\industry software\\calude_wiki\\directions\\wave-transparent-composites\\docs\\bc-integration-2026-09-25\\sources.json",
+      "exists": true
+    },
+    {
+      "target": "F:\\industry software\\calude_wiki\\directions\\wave-transparent-composites\\docs\\bc-integration-2026-09-25\\template-audit.json",
+      "exists": true
+    },
+    {
+      "target": "F:\\industry software\\calude_wiki\\directions\\wave-transparent-composites\\docs\\bc-integration-2026-09-25\\BC_review_evidence_v2_candidate.xlsx",
+      "exists": true
+    },
+    {
+      "target": "F:\\industry software\\calude_wiki\\directions\\wave-transparent-composites\\docs\\bc-integration-2026-09-25\\schema.json",
+      "exists": true
+    },
+    {
+      "target": "F:\\industry software\\calude_wiki\\directions\\wave-transparent-composites\\docs\\bc-integration-2026-09-25\\candidate-validation.json",
+      "exists": true
+    }
+  ],
+  "external_sources_unchanged": true,
+  "direction_structure_check": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "scientific_evidence_checked": false
+}

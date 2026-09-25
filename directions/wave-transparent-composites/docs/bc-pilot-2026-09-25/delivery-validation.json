@@ -1,0 +1,107 @@
+{
+  "links": [
+    {
+      "source": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report.md",
+      "target": "directions/wave-transparent-composites/rules/bc-review-workflow",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report.md",
+      "target": "../../synthesis/review_BC/BC_review_evidence.xlsx",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report.md",
+      "target": "../../synthesis/review_BC/schema.json",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report.md",
+      "target": "../../synthesis/review_BC/BC_synthesis_notes.md",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report.md",
+      "target": "../../synthesis/review_BC/source_check_log.md",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report.md",
+      "target": "sources.json",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report.md",
+      "target": "workbook-validation.json",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report.md",
+      "target": "structure-validation.json",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report.md",
+      "target": "../../synthesis/review_BC/source_check_log.md",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/rules/bc-review-workflow.md",
+      "target": "memory/hard_memory",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/rules/bc-review-workflow.md",
+      "target": "directions/wave-transparent-composites/docs/bc-integration-2026-09-25/report",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/rules/bc-review-workflow.md",
+      "target": "directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/style-reference-notes",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/rules/bc-review-workflow.md",
+      "target": "../synthesis/review_BC/BC_review_evidence.xlsx",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/rules/bc-review-workflow.md",
+      "target": "../synthesis/review_BC/schema.json",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes.md",
+      "target": "directions/wave-transparent-composites/rules/bc-review-workflow",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes.md",
+      "target": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes.md",
+      "target": "BC_review_evidence.xlsx",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes.md",
+      "target": "source_check_log.md",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes.md",
+      "target": "schema.json",
+      "exists": true
+    },
+    {
+      "source": "directions/wave-transparent-composites/synthesis/review_BC/source_check_log.md",
+      "target": "BC_review_evidence.xlsx",
+      "exists": true
+    }
+  ],
+  "git_diff_check": "passed",
+  "external_sources_unchanged": "see workbook-validation.json",
+  "publication": "not committed or uploaded"
+}

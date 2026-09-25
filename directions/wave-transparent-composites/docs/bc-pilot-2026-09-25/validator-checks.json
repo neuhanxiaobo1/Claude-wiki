@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "case": "duplicate_id",
+      "rejected": true
+    },
+    {
+      "case": "unknown_fk",
+      "rejected": true
+    },
+    {
+      "case": "bad_enum",
+      "rejected": true
+    },
+    {
+      "case": "interpretation_as_observation",
+      "rejected": true
+    },
+    {
+      "case": "unchecked_ready_basis",
+      "rejected": true
+    }
+  ],
+  "workbook_unchanged": true
+}

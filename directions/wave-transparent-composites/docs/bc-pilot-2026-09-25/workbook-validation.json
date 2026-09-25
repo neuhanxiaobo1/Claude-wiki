@@ -1,0 +1,121 @@
+{
+  "workbook_sha256": "3502754946f026bf4b79d16f857756d207479158106066c79033321eaaefe4a4",
+  "counts": {
+    "Paper_Index": 5,
+    "Evidence_Records": 22,
+    "Synthesis_Map": 3
+  },
+  "B_core": [
+    "P0001",
+    "P0002"
+  ],
+  "C_core": [
+    "P0004"
+  ],
+  "core_intersection": [],
+  "primary_track": {
+    "Both": 4,
+    "C": 1
+  },
+  "evidence_per_paper": {
+    "P0001": 4,
+    "P0002": 4,
+    "P0003": 4,
+    "P0004": 5,
+    "P0005": 5
+  },
+  "evidence_type": {
+    "Observation": 17,
+    "Author-interpretation": 5
+  },
+  "directness": {
+    "Direct": 17,
+    "Author-interpretation": 5
+  },
+  "verification_status": {
+    "Checked": 21,
+    "Partial": 1
+  },
+  "needs_check_evidence": [
+    "EV000001",
+    "EV000005",
+    "EV000008",
+    "EV000010",
+    "EV000011",
+    "EV000013",
+    "EV000020"
+  ],
+  "pairing_status": {
+    "Unclear": 15,
+    "NA": 1,
+    "Different-state": 6
+  },
+  "synthesis_readiness": {
+    "Provisional": 2,
+    "Ready": 1
+  },
+  "unmapped_new_extracts": [
+    "EV000003",
+    "EV000009",
+    "EV000021"
+  ],
+  "legacy_paper_count": 27,
+  "legacy_evidence_count": 108,
+  "sources": [
+    {
+      "paper": "P0001",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0001",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0002",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0002",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0003",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0003",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0004",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0004",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0005",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0005",
+      "kind": "md",
+      "unchanged": true
+    }
+  ],
+  "git_eligible": true,
+  "git_already_tracked": false,
+  "errors": [],
+  "machine_scientific_evidence_checked": false,
+  "manual_verification_scope": "Per-record Verification_Scope and docs/bc-pilot-2026-09-25/report.md; not whole-paper approval."
+}

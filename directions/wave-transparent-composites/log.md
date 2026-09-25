@@ -6,6 +6,33 @@ updated: 2026-09-17
 
 # 方向日志
 
+## [2026-09-25] update | calude_wiki_3.9.9版本发布
+
+- 输入：用户明确要求上传当前版本并记录为calude_wiki_3.9.9。
+- 操作：核对origin/main及标签，提交当前方向成果，创建同名版本标签并推送；提交号与实际推送结果以Git引用核验为准。
+- 新建：版本标签calude_wiki_3.9.9。
+- 更新：根版本导航、方向发布边界与工作入口；发布B/C方案接入设计、生效规则、正式Excel、五篇试点与纠错记录。
+- 发现：正式库含5篇论文、22条证据和3条综合；旧页核查状态与试点证据限制保持。试点验收文件和工作簿Instructions的未提交说明是当时状态，当前发布以本记录及Git为准。
+- 后续：按现有证据缺口继续工作；本版本不包含候选xlsx、外部PDF/缓存及被忽略raw的备份，不改外部原件或历史标签。
+
+## [2026-09-25] ingest | BC专用流程启用及五篇已有论文试点
+
+- 输入：用户授权按计划接入方向流程并完成五篇试点；复用新B/C方案和空白候选，定向读取五篇主PDF/MD及身份manifest。
+- 操作：AGENTS接入BC规则，启用唯一正式工作簿及schema/IO/只读校验；按P0001—P0005顺序写入22条证据、3条综合，逐条分开观察/作者解释、核查、支持与配对。
+- 新建：[[directions/wave-transparent-composites/rules/bc-review-workflow]]、[[directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes]]、正式Excel/复核行动和[[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report]]。
+- 更新：五篇旧paper迁移导航，Li 2023两处定向纠错（见error_log）；本方向profile/短状态/index/inbox/决定记录及精确xlsx忽略例外。公共规则、其他方向及外部原件未改。
+- 发现：B核心2、C核心1，其余为背景/结构参照；同状态样品配对的完整机制链仍未确认。5个主PDF均可读、DOI互异；SI未读而非确认缺失。21条EV限定范围Checked、1条Partial、7条待核，不升级旧paper。
+- 后续：按实际证据缺口处理剩余相关原始研究及定向补查；本轮工作已落地，未固定主线、写正式综述、提交或上传。可跟踪正式xlsx不等于已远程备份。
+
+## [2026-09-25] review | 新B/C方案审查、Excel候选与项目接入设计
+
+- 输入：用户fenqu/review中的两份Markdown及BC综述文献证据数据库模板；A弃用、B/C并行验证的新目标。
+- 操作：完整读取两份说明及工作簿非空内容、验证配置，保存来源哈希与模板审查；对照本方向现行规则、公共证据/综合/写作门槛和已有风格参照，完善章节职责、筛选、配对、机制支持与迁移设计。
+- 新建：[[directions/wave-transparent-composites/docs/bc-integration-2026-09-25/report]]、保留原列的空白Excel候选、schema、构建脚本及校验记录；候选不含文献数据，未作为正式库启用。
+- 更新：本方向profile、current_context、index、inbox和决定记录；过期待办修正见error_log。现行AGENTS、公共规则、其他方向、27篇paper及外部原件均未改。
+- 发现：原工作簿三主表实际记录均为0；缺少综合到具体证据的引用和逐条核查接口；证据表下拉与表范围不同。候选已补强，但科学验证及真实迁移仍未执行。xlsx当前被Git忽略，未宣称已备份。
+- 后续：完成方向专用契约/正式工作簿最小接入，5篇试点后处理其余相关文献及关键缺口，再比较B/C；本轮无新科研全文复核、文献入库、提交或上传。
+
 ## [2026-09-18] synthesis | 组内材料指标与国际公开参照
 
 - 输入：用户要求深挖组内文献，以一段话总结材料、指标、达到数值与国际领先差距。

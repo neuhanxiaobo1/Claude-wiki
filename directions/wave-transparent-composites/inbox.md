@@ -42,10 +42,4 @@ updated: 2026-09-21
 
 2026-09-21：首批10篇已按顺序全部入库，清单版本2026-09-21-v2；无剩余待建页，SI与原文冲突补核候选见[[directions/wave-transparent-composites/memory/current_context]]。
 
-2026-09-21：陶瓷综述规则完善方案已形成，实施建议及验收见[[directions/wave-transparent-composites/docs/review-workflow-plan-2026-09-21/report]]；进度统一见current_context。当前版本提交cc602ad的上传因自动审批拒绝而待明确目的地/分支确认。
-
-2026-09-21最新安排：[[directions/wave-transparent-composites/docs/review-options-2026-09-21/report|A/B方案及讨论提示词]]已交付，下一输入为用户第三方案。前述规则实施建议暂缓至三方案比较及主线选定之后。
-
-2026-09-21最新：用户三方案总结已收到并读完，C优先验证；[[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/report|专项方案]]已形成，指定两篇写作参照已定向阅读。后续建议为C机制卡试点，不再等待第三方案。
-
-2026-09-21规则设计更新：C主线下四扩展/一模板的v2草案已交付，具体入口及下一步见current_context。旧A/B/C选择待办已结束；部署及5篇增量试点未执行。
+2026-09-25：B/C专用流程接入及五篇试点已完成，见[[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report]]；余下阅读/补核对象与边界统一见[[directions/wave-transparent-composites/memory/current_context]]。旧“等待第三方案”、上传确认、C-v2直接部署待办均已结束或被替代，不重复执行。

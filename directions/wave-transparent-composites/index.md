@@ -1,12 +1,14 @@
 ---
 direction_id: wave-transparent-composites
 created: 2026-09-17
-updated: 2026-09-21
+updated: 2026-09-25
 ---
 
 # 透波复合材料
 
-当前目标：撰写陶瓷透波复合材料综述；具体陶瓷体系与应用边界尚未选定。前期组内基础与选题梳理作为背景。目标及边界见[[directions/wave-transparent-composites/memory/project_profile]]。
+当前目标：并行验证陶瓷基透波复合材料综述B（热暴露—结构演化—介电稳定性）与C（界面/孔结构—介电响应），A退出当前候选；最终主线和目录按证据收敛。目标及边界见[[directions/wave-transparent-composites/memory/project_profile]]。
+
+当前工作入口：[[directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes|B/C正式证据库与综合工作]]，生效流程见[[directions/wave-transparent-composites/rules/bc-review-workflow]]。[正式Excel](synthesis/review_BC/BC_review_evidence.xlsx)已完成五篇试点，结果见[[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report]]。原[[directions/wave-transparent-composites/docs/bc-integration-2026-09-25/report|接入设计]]保留溯源，下方旧C优先设计为历史，不直接部署。
 
 ## 方向入口
 
@@ -77,17 +79,17 @@ PDF原件未复制。[[directions/wave-transparent-composites/raw/zotero_imports
 
 - [[directions/wave-transparent-composites/docs/review-workflow-plan-2026-09-21/report|入库、阅读、证据记录、综合与写作的详细完善方案]]：已形成建议，尚未启用专用扩展；含样品/条件字段、试点与阶段验收。
 
-## 待比较的综述写作方案
+## 历史综述写作方案（2026-09-21）
 
 - [[directions/wave-transparent-composites/docs/review-options-2026-09-21/report|方案A/B、证据依据及第三方案比较接口]]。
-- [供其他大模型讨论的独立提示词](docs/review-options-2026-09-21/discussion-prompt.md)。选定主线后再专项完善规则。
+- [当时供其他大模型讨论的独立提示词](docs/review-options-2026-09-21/discussion-prompt.md)。已由2026-09-25的B/C工作目标替代。
 
 ## C方向专项完善方案与写作参照
 
 - [[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/report|C优先验证：机制证据、阅读、综合与写作的完善方案]]。
 - [[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/style-reference-notes|博士集合两篇指定写作参照的阅读与适用边界]]。
-- 用户三方案文件保留原样，最新用户C倾向优先；前述等待第三方案已经结束，专项扩展尚未启用。
+- 用户旧三方案文件保留原样；当时C优先已被B/C并行验证替代。两篇写作参照继续有效，专项扩展尚未启用。
 
 ## 专有规则文件级设计 v2
 
-- [[directions/wave-transparent-composites/docs/c-rules-design-v2-2026-09-21/report|当前拟部署方案：四份规则草案、一份模板及验收]]。尚未接入方向AGENTS；仅限本方向。
+- [[directions/wave-transparent-composites/docs/c-rules-design-v2-2026-09-21/report|历史C设计：四份规则草案、一份模板及验收]]。未接入方向AGENTS；不再直接部署，当前入口见本页开头的BC设计。
