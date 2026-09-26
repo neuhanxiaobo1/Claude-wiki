@@ -4,7 +4,7 @@ direction_id: wave-transparent-composites
 
 created: 2026-09-17
 
-updated: 2026-09-21
+updated: 2026-09-25
 
 ---
 
@@ -43,3 +43,5 @@ updated: 2026-09-21
 2026-09-21：首批10篇已按顺序全部入库，清单版本2026-09-21-v2；无剩余待建页，SI与原文冲突补核候选见[[directions/wave-transparent-composites/memory/current_context]]。
 
 2026-09-25：B/C专用流程接入及五篇试点已完成，见[[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report]]；余下阅读/补核对象与边界统一见[[directions/wave-transparent-composites/memory/current_context]]。旧“等待第三方案”、上传确认、C-v2直接部署待办均已结束或被替代，不重复执行。
+
+2026-09-25（第二批）：新增五篇文献及目录/规则完善已完成，见[[directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/report]]。该任务不再列待入库；后续候选与优先补核统一指向[[directions/wave-transparent-composites/memory/current_context]]及source_check_log，不在此复制执行清单。

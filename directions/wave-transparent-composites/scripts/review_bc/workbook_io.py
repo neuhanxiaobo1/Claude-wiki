@@ -6,13 +6,15 @@ from openpyxl.styles import Alignment
 from openpyxl.utils.cell import range_boundaries
 
 HERE=Path(__file__).resolve().parent
-BOOK=HERE/'BC_review_evidence.xlsx'
+D=HERE.parents[1]
+BOOK=D/'synthesis/review_BC/BC_review_evidence.xlsx'
+SCHEMA=D/'rules/bc-evidence.schema.json'
 def digest(path=BOOK):return hashlib.sha256(path.read_bytes()).hexdigest()
 def rows(ws):
     headers=[c.value for c in ws[1]]
     return [dict(zip(headers,values)) for values in ws.iter_rows(min_row=2,values_only=True) if any(v is not None for v in values)]
 def validate(wb):
-    schema=json.loads((HERE/'schema.json').read_text(encoding='utf-8'));data={};errors=[]
+    schema=json.loads(SCHEMA.read_text(encoding='utf-8'));data={};errors=[]
     ids={'Paper_Index':'Paper_ID','Evidence_Records':'Evidence_ID','Synthesis_Map':'Synthesis_ID'}
     for name,spec in schema['tables'].items():
         ws=wb[name];head=[c.value for c in ws[1]]
@@ -29,6 +31,13 @@ def validate(wb):
                     for c in row:
                         if c.value is not None and c.value not in allowed:errors.append(f'{name}!{c.coordinate}: invalid enum')
     papers={r['Paper_ID']:r for r in data['Paper_Index']};ev={r['Evidence_ID']:r for r in data['Evidence_Records']}
+    for r in papers.values():
+        for field in ['Citation','B_Use','C_Use','Read_Status','Source_Manifest','Verification_Scope']:
+            if not r.get(field):errors.append(r['Paper_ID']+': missing '+field)
+    for r in data['Paper_Index']:
+        key=str(r.get('Source_Manifest',''))
+        candidate=(D.parents[1]/key).resolve()
+        if not candidate.is_relative_to(D.resolve()) or not candidate.is_file():errors.append(r['Paper_ID']+': invalid source manifest')
     required=['Paper_ID','Track','Review_Question','Sample_or_Group','Intervention_or_Condition','Source_Location','Review_Usable_Claim','Evidence_Type','Verification_Status','Verification_Scope','Support_Assessment','Limitation','Data_Group_ID']
     for r in ev.values():
         for field in required:
@@ -38,6 +47,8 @@ def validate(wb):
         if r.get('Evidence_Type')=='Author-interpretation' and r.get('Evidence_Directness')!='Author-interpretation':errors.append(r['Evidence_ID']+': interpretation mislabeled')
         for ref in splitids(r.get('Related_Evidence_IDs')):
             if ref not in ev:errors.append(r['Evidence_ID']+': unknown related evidence '+ref)
+        if r.get('Evidence_Type')=='Unclassified-report' and (r.get('Verification_Status')=='Checked' or r.get('Needs_Check')!='Yes'):
+            errors.append(r['Evidence_ID']+': unclassified report cannot be Checked or unchecked-for-followup')
     for r in data['Synthesis_Map']:
         supports=splitids(r.get('Supporting_Evidence_IDs'));limits=splitids(r.get('Limiting_Evidence_IDs'))
         if not supports:errors.append(r['Synthesis_ID']+': evidence IDs missing')
@@ -49,6 +60,7 @@ def validate(wb):
         if len(actual)<2:errors.append(r['Synthesis_ID']+': fewer than two papers')
         if not r.get('Strength_Rationale') or not r.get('Comparability'):errors.append(r['Synthesis_ID']+': evaluation missing')
         if r.get('Readiness')=='Ready' and any(ev[e]['Verification_Status']!='Checked' for e in supports if e in ev):errors.append(r['Synthesis_ID']+': unchecked Ready basis')
+        if r.get('Readiness')=='Ready' and any(ev[e].get('Evidence_Type')=='Unclassified-report' for e in supports if e in ev):errors.append(r['Synthesis_ID']+': unclassified Ready basis')
     return errors,data
 def splitids(value):return [s.strip() for s in str(value or '').split(';') if s.strip() and s.strip()!='NA']
 def append_batch(updates,expected_hash):

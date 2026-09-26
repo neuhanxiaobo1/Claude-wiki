@@ -1,0 +1,66 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "checked": "2026-09-25",
+  "workbook_sha256": "72540d1f6ec53c0437681608bdd839b648f0c37b01e2730337441a45fc8e744e",
+  "published_base": "1701cd37c91a5d1d2f7b33e5b4cc6c35b861d1ca",
+  "reports": {
+    "workbook-validation.json": {
+      "exit_code": 0
+    },
+    "contract-checks.json": {
+      "exit_code": 0
+    },
+    "structure-validation.json": {
+      "exit_code": 0
+    }
+  },
+  "published_records_preserved": {
+    "Paper_Index": {
+      "published_records": 5,
+      "differences": []
+    },
+    "Evidence_Records": {
+      "published_records": 22,
+      "differences": []
+    },
+    "Synthesis_Map": {
+      "published_records": 3,
+      "differences": []
+    }
+  },
+  "legacy_paper_count": 27,
+  "changed_legacy_papers": [],
+  "import_version": "2026-09-25-v3",
+  "import_items": 15,
+  "new_paper_ids": [
+    "P0006",
+    "P0007",
+    "P0008",
+    "P0009",
+    "P0010"
+  ],
+  "local_link_check": {
+    "files": 17,
+    "targets": 189,
+    "missing": [],
+    "anchor_slugs_checked": false
+  },
+  "review_workspace_files": [
+    "BC_review_evidence.xlsx",
+    "BC_synthesis_notes.md",
+    "source_check_log.md"
+  ],
+  "all_git_changes_within_direction": true,
+  "diff_check_exit_code": 0,
+  "git_read_warnings": [
+    "warning: unable to access 'C:\\Users\\youthcookie/.config/git/ignore': Permission denied"
+  ],
+  "uploaded": false,
+  "scientific_correctness_automatically_verified": false,
+  "limitations": [
+    "Raw and external attachments are not Git backups.",
+    "Source hashes validate identity/integrity, not scientific truth.",
+    "Per-row unresolved evidence remains restricted."
+  ],
+  "errors": []
+}

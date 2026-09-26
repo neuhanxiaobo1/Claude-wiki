@@ -16,7 +16,7 @@ updated: 2026-09-25
 - 文献定位：复合材料论文作为直接研究基础；单相/多孔陶瓷作为组成与结构设计参考；纯吸波、纯腐蚀论文不因方法相似而纳入透波核心文献；与透波问题明确相关的工艺/表征/大模型方法另标用途。此口径按2026-09-19用户纠正更新。
 - 选题工作口径（本次执行解释）：先区分组内已展示的材料、工艺、表征与模型能力，再提出可验证的新问题；候选方案说明基础来源、拟解决问题、验证路径及资源缺项。组内论文出现某设备/方法不自动证明当前可调用；尚未做外部检索的候选不称已确认创新点。
 - 大模型路径边界（本次执行解释）：大模型可参与知识整理、设计建议或研究流程，但应服务于明确的透波复合材料问题，并有可评价的结果；具体结合方式尚未选定。已有传统机器学习论文不等同于已有大模型研究基础。
-- 阶段：当前有7篇组内透波原始研究、10篇外部原始研究、5篇材料综述和4篇方法/背景综述，另保留1篇非核心吸波候选。均为processed/draft；各页阅读范围与未决已限定，不代表全部原始引用已复核。 CMAS页仅保留历史归档。
+- 阶段：论文身份并集32篇：7篇既有组内研究、15篇外部原始研究、9篇综述/方法参考及1篇非核心吸波候选。旧27个paper页/108条E#保持draft；Excel有10篇（前5篇与旧页重合），45条EV/6个SYN，逐条核查不等同整篇Verified。CMAS仅保留历史归档。
 
 ## 文献来源
 
@@ -32,7 +32,7 @@ updated: 2026-09-25
 - 具体科学问题、性能指标、可用设备/数据、时间与成本约束：待确认；缺项不阻断文献基础梳理。
 - 最终选定课题、是否采用大模型及其具体任务：尚未决定；这是前期选题事项，不作为当前陶瓷综述的强制主线。
 - 主附件及Markdown来源已逐篇登记于manifest和论文页；更多补充材料按具体引用需要核对。
-- 专用阅读、综合与写作要求：2026-09-25用户授权后已启用[[directions/wave-transparent-composites/rules/bc-review-workflow]]，方向AGENTS已接入。一套Excel三主表服务B/C，不额外重复生成长篇单论文摘要；原文、核查与准入底线不变。正式库为本方向`synthesis/review_BC/BC_review_evidence.xlsx`，不得另建平行事实库。
+- 专用阅读、综合与写作要求：2026-09-25用户授权后已启用[[directions/wave-transparent-composites/rules/bc-review-workflow]]，方向AGENTS已接入。一套Excel三主表服务B/C，不额外重复生成长篇单论文摘要；原文、核查与准入底线不变。正式库为本方向`synthesis/review_BC/BC_review_evidence.xlsx`，不得另建平行事实库。领域判断归[[directions/wave-transparent-composites/rules/bc-evidence-contract]]，schema归rules，操作/校验脚本归scripts/review_bc，来源逐篇登记Source_Manifest。
 - 语言与表达沿用 [[memory/user_profile]]，未定偏好保持待确认。
 
 - 2026-09-18新增来源：父集合下“综述”（GS7STC5N）返回3个直接成员；用户指定的Zhou 2023、Kenion 2022两篇已入库，另一独立PDF仅记录待分配。目录归属不用于判断作者是否属于本组。
@@ -48,4 +48,4 @@ updated: 2026-09-25
 ## 当前规则设计入口
 
 - 生效流程入口：[[directions/wave-transparent-composites/rules/bc-review-workflow]]；原设计保留在[[directions/wave-transparent-composites/docs/bc-integration-2026-09-25/report]]。
-- 五篇试点已完成：5个Paper_ID、22条EV、3条综合，详见[[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report]]。旧27个paper/108条E#保留，五页增加BC迁移入口并定向纠错；未迁移其余页面，未升级旧页状态。工作簿为BC唯一维护事实源，旧页为历史及来源导航；纳入calude_wiki_3.9.9发布范围，远程状态以Git核验为准。
+- 已完成五篇既有论文试点及五篇新文献入库，现有10个Paper_ID、45条EV、6个SYN；最新边界见[[directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/report]]。工作簿是BC唯一维护事实源；旧27页/108条E#保留，本批未改写旧页。上一发布calude_wiki_3.9.9为1701cd3，本轮新增及目录改动按2026-09-26用户授权纳入calude_wiki_4.0，实际发布状态以Git引用为准。

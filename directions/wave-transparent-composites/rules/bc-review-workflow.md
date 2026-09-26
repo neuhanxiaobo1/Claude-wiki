@@ -11,7 +11,9 @@ updated: 2026-09-25
 
 用户2026-09-25授权启用。仅用于本方向B/C综述筛选、原文阅读、证据整理、综合和写作。B为热暴露—结构演化—介电稳定性；C为界面/孔结构—物理解释—介电响应。A退出候选，B/C并行验证，最终主次和目录尚未固定。
 
-公共证据底线仍见[[memory/hard_memory]]；按任务读取根agents对应流程。本规则按用户要求覆盖默认“新文献必须生成长篇paper页”的输出格式，改用本方向唯一工作簿[synthesis/review_BC/BC_review_evidence.xlsx](../synthesis/review_BC/BC_review_evidence.xlsx)。不降低原文阅读、证据准入、纠错或来源保护要求。非BC任务仍沿用公共输出。字段定义见[schema.json](../synthesis/review_BC/schema.json)，设计论证见[[directions/wave-transparent-composites/docs/bc-integration-2026-09-25/report]]，历史C四扩展不启用。
+公共证据底线仍见[[memory/hard_memory]]；按任务读取根agents对应流程。本规则按用户要求覆盖默认“新文献必须生成长篇paper页”的输出格式，改用本方向唯一工作簿[synthesis/review_BC/BC_review_evidence.xlsx](../synthesis/review_BC/BC_review_evidence.xlsx)。不降低原文阅读、证据准入、纠错或来源保护要求。非BC任务仍沿用公共输出。领域证据判据只在[[directions/wave-transparent-composites/rules/bc-evidence-contract]]定义；字段名、枚举、顺序以[bc-evidence.schema.json](bc-evidence.schema.json)为准。历史C四扩展不启用；目录职责与迁移表见[[directions/wave-transparent-composites/docs/directory-guide]]。
+
+本规则负责执行顺序与完成门槛，证据契约负责“什么可以推成什么”，schema只负责存储结构；三者不重复维护同一规则。用户目标归profile、当前进度归current_context、事实及综合归Excel，历史设计不作为当前入口。
 
 ## 1. 身份、筛选与阅读
 
@@ -20,6 +22,7 @@ updated: 2026-09-25
 3. B_Use/C_Use分别选Core、Context、Method、Review、Exclude；相关度与用途分开。Core不表示核查通过。多孔单相陶瓷默认组成/结构参照，不自动当纤维复合材料核心。
 4. B区分制备热处理、原位测量、热后冷却测量及循环/氧化。暴露温度/时间/气氛与测量温度/频率/方法分别写清。没有恢复过程不判可逆性，没有时间/循环依据不判长期稳定。
 5. C记录实际界面/孔变量和共变的密度、相组成、残碳、批次。频谱、模型、DFT是证据类型，不能自动成为机制等级；检验是否能区分竞争解释。
+6. 下一批按“会改变哪个综合判断/目录决定”选择，而非高性能数字、年份或作者声望。先查Excel及旧paper身份并排除重复；候选保留纳入理由和暂缓原因。有授权入库时逐篇完成，不把整集合默认转为核心。主体研究所属团队按作者单位确认，收藏在“组内文章”不代表本组作者。
 
 ## 2. 三表唯一记录
 
@@ -31,6 +34,8 @@ P0001、EV000001、SYN-B-001/SYN-C-001在本工作簿稳定且不复用。旧页
 
 同试样/同批匹配/不同状态/未知分别记录。Matched-batch只用于来源明确说明同批可匹配时；仅同配方或同论文而批次未交代，用Unclear，并在条件中写“同配方系列”。破坏性测试允许匹配样，不强求同一试样；必须有可核对应关系。
 
+Source_Manifest逐篇指向本方向的来源清单，校验器按Paper_ID检查所有已登记论文，不再只检查首批。工作簿新增行即为BC入库，不要求同步生成空paper页。目录中的27个旧paper页与Excel有重叠，文献总数须按DOI/item key取并集，不能将页数相加。
+
 ## 3. 核查与写作准入
 
 Verification_Status区分Checked、Partial、Pending、Unavailable；Checked限本行声明范围且有具体原文定位。Direct仅相对于本行断言，不自动代表机制因果。Support_Assessment另判Sufficient/Partial/Insufficient并说明理由。Paper_Index的Read_Status=Core-read不因若干Checked而自动变Verified。
@@ -41,11 +46,17 @@ Ready只表示当前限定表述可用：所需证据在该范围完成上述核
 
 非关键问题集中复核；身份、单位、样品/热状态、趋势冲突影响当前论断时先回查或隔离。source_check_log只记问题ID、影响EV、动作/处置，不重复维护事实。没有独立SI只能写未读/未取得，不能声明不存在。
 
+来源类型未明确的曲线用Unclassified-report隔离，Evidence_Directness=Unclear、Needs_Check=Yes，不能Checked或作为Ready支持；既不凭光滑曲线猜测模拟，也不因出现在结果段认作实测。正文/表/图冲突先保留各自口径，关键数值行Partial；若支持句只陈述无争议事实，可另建范围准确的证据，不让局部冲突冻结整篇。
+
 ## 4. 综合、目录与写作
 
 先用比较矩阵核对象、指标定义、温频、方法、原始数据来源，区分直接可比、条件可比、仅定性及不可比；跨方法数据不拼连续曲线、不统一排名。Strong/Moderate/Weak必须相对于具体判断说明依据，不按方法数或论文数打分。
 
 B优先验证热暴露—结构—介电是否能配对；C优先验证界面/孔结构变化是否能与介电解释相连。证据不足删小节/缩题，不扩至纯吸波/腐蚀凑数。语料缺口不是全领域gap；新颖性需要另行限定检索。
+
+每批收尾只更新[[directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes]]中的章节功能/证据ID/状态/缺口，不另建B和C事实表。固定使用当前用户方案的B2—B5、C2—C5章节编号；其余章节为后续整合。每节回答一个问题：来源足够则保留；问题重叠则合并；只有作者解释则收窄标题；关键来源缺失则Blocked。Core篇数和方法数量不作为自动定题阈值。
+
+进入正式撰写前，逐主线检验：移除最关键论文或同源数据组后剩余支持、代表性/反例、原始研究与现有综述的重叠，以及“机制”“稳定”“普适”等题目承诺是否超过证据。未做全领域检索不得声称新颖性已确认。力学、热导率、CTE只在限制结构完整性或解释结构演化时进入，不新增平行性能百科章节。
 
 正文由Synthesis_Map组织判断、Evidence_Records供给事实，必要时回查原文；不在阅读阶段写完整综述，不另生成长篇单论文摘要。复杂SI/冲突允许定向附记。两篇指定风格参照见[[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/style-reference-notes]]，学习问题组织和表达，不迁移未核物理结论或抄写文字。
 
@@ -56,5 +67,7 @@ B优先验证热暴露—结构—介电是否能配对；C优先验证界面/�
 旧页只增加Paper_ID、迁移范围及正式库入口；原E#不变。不同时手改新旧两套事实。确有旧错误时定向纠错并检查直接下游，不能以历史归档为由继续采用错误。
 
 本方向.gitignore仅对正式工作簿设置例外；候选、外部PDF及raw仍不自动备份。Git可跟踪不等于已提交或上传。schema是格式定义，不是第二事实源；只读校验脚本可以生成带源工作簿哈希的统计报告，不生成可手改的事实副本。
+
+脚本位于`scripts/review_bc/`，用`python -B directions/wave-transparent-composites/scripts/review_bc/validate_workbook.py`只读校验。迁移前后核旧ID/原值、链接和来源哈希；只有当新研究需求不能用现有字段表达时新增字段。本轮只新增Source_Manifest及一个来源未明的类型，不为每篇论文扩表。一次性写入脚本完成后移除；本机迁移快照只用于恢复，不成为第二维护库。
 
 每篇最低交付：Paper_ID、B/C用途、EV条数、Needs_Check及一句用途。批次交付：去重论文及Both交集、证据类型/直接性/核查分布、有效配对、综合单元、关键缺口及下一步。引用完整性、枚举/必填项、旧锚点、来源哈希与结构检查通过不等于科学充分；验收必须另说明原文覆盖和未决。

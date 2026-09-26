@@ -11,5 +11,7 @@ updated: 2026-09-25
 - 遵循 [根AGENTS](../../AGENTS.md) 与 [[memory/hard_memory]]，本方向规则仅作用于本方向。
 - 配置：[[directions/wave-transparent-composites/memory/project_profile]]；状态：[[directions/wave-transparent-composites/memory/current_context]]；导航：[[directions/wave-transparent-composites/index]]。
 - 通用流程按根AGENTS任务路由读取；B/C综述的corpus_rules、reading_rules、synthesis_rules、writing_rules共同指向[[directions/wave-transparent-composites/rules/bc-review-workflow]]，按对应小节加载，不创建四份重复规则。2026-09-25用户授权启用。
+- 领域判据由[[directions/wave-transparent-composites/rules/bc-evidence-contract]]补充；字段权威为`rules/bc-evidence.schema.json`。筛选/阅读按契约中的对象、状态、指标小节；综合/写作按机制与收窄小节，均不重复定义公共底线。目录职责与历史入口见[[directions/wave-transparent-composites/docs/directory-guide]]。
 - B/C证据使用本方向`synthesis/review_BC/BC_review_evidence.xlsx`作为唯一维护事实源，替代默认长篇paper输出；原文阅读、证据准入及纠错底线不变。旧paper保留历史ID与迁移导航，非BC任务沿用公共输出。
+- 工作区`synthesis/review_BC/`仅维护工作簿、章节工作入口、复核行动三个主文件；可执行工具在`scripts/review_bc/`，来源清单及阶段验收在`docs/`。BC新入库以Paper_ID/EV登记，不额外制造空paper页；总数按身份去重。
 - 默认研究检索与写入限本方向。

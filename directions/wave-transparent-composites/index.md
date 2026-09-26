@@ -8,7 +8,7 @@ updated: 2026-09-25
 
 当前目标：并行验证陶瓷基透波复合材料综述B（热暴露—结构演化—介电稳定性）与C（界面/孔结构—介电响应），A退出当前候选；最终主线和目录按证据收敛。目标及边界见[[directions/wave-transparent-composites/memory/project_profile]]。
 
-当前工作入口：[[directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes|B/C正式证据库与综合工作]]，生效流程见[[directions/wave-transparent-composites/rules/bc-review-workflow]]。[正式Excel](synthesis/review_BC/BC_review_evidence.xlsx)已完成五篇试点，结果见[[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report]]。原[[directions/wave-transparent-composites/docs/bc-integration-2026-09-25/report|接入设计]]保留溯源，下方旧C优先设计为历史，不直接部署。
+当前工作入口：[[directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes|B/C证据与章节工作入口]]。[正式Excel](synthesis/review_BC/BC_review_evidence.xlsx)现有10篇、45条EV、6个SYN；第二批五篇及结构调整见[[directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/report]]。现行流程、领域证据判据和目录职责分别见[[directions/wave-transparent-composites/rules/bc-review-workflow]]、[[directions/wave-transparent-composites/rules/bc-evidence-contract]]、[[directions/wave-transparent-composites/docs/directory-guide]]。本轮成果纳入calude_wiki_4.0发布，实际提交及远程状态以Git引用核验为准。
 
 ## 方向入口
 
@@ -24,7 +24,7 @@ updated: 2026-09-25
 
 ## 研究内容
 
-原清单9篇已阅读；2026-09-19移除CMAS论文，吸波论文列为非核心候选。当前有7篇组内透波原始研究、10篇新增外部原始研究、5篇材料综述和4篇方法/背景综述，另保留1篇非核心吸波候选，共27个paper页。均为processed/draft；各页阅读范围与未决已限定，不代表全部原始引用已复核。
+按论文身份取并集共32篇：7篇既有组内研究、15篇外部原始研究、9篇综述/方法参考及1篇非核心吸波候选。旧27个paper页/108条E#保持draft；Excel前5篇与旧页重合，本轮新增5篇只在Excel入库。Excel共10篇的Core-read、逐条核查及用途不能混同整页Verified。2026-09-19移除的CMAS不计入。
 
 - 1. [[directions/wave-transparent-composites/wiki/papers/Du-2024-RE2SiO5|稀土单硅酸盐：力学与介电]]。
 - 2. [[directions/wave-transparent-composites/wiki/papers/Wen-2025-RE2Sn2O7|稀土锡酸盐：理论与实验筛选]]。
@@ -73,23 +73,11 @@ PDF原件未复制。[[directions/wave-transparent-composites/raw/zotero_imports
 ## 2026-09-21新增原始研究
 
 - [[directions/wave-transparent-composites/docs/ingestion-literature-2026-09-21/report|10篇顺序入库报告、论文导航与引用边界]]。
-- [[directions/wave-transparent-composites/raw/zotero_imports/literature-PI5UBPW7/import_plan|10/10已入库清单]]；均为processed / draft。
+- [[directions/wave-transparent-composites/raw/zotero_imports/literature-PI5UBPW7/import_plan|分批入库清单（当前15篇）]]；首批10篇均为processed / draft。
 
-## 综述工作流完善方案
+## 当前规则与历史设计导航
 
-- [[directions/wave-transparent-composites/docs/review-workflow-plan-2026-09-21/report|入库、阅读、证据记录、综合与写作的详细完善方案]]：已形成建议，尚未启用专用扩展；含样品/条件字段、试点与阶段验收。
-
-## 历史综述写作方案（2026-09-21）
-
-- [[directions/wave-transparent-composites/docs/review-options-2026-09-21/report|方案A/B、证据依据及第三方案比较接口]]。
-- [当时供其他大模型讨论的独立提示词](docs/review-options-2026-09-21/discussion-prompt.md)。已由2026-09-25的B/C工作目标替代。
-
-## C方向专项完善方案与写作参照
-
-- [[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/report|C优先验证：机制证据、阅读、综合与写作的完善方案]]。
-- [[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/style-reference-notes|博士集合两篇指定写作参照的阅读与适用边界]]。
-- 用户旧三方案文件保留原样；当时C优先已被B/C并行验证替代。两篇写作参照继续有效，专项扩展尚未启用。
-
-## 专有规则文件级设计 v2
-
-- [[directions/wave-transparent-composites/docs/c-rules-design-v2-2026-09-21/report|历史C设计：四份规则草案、一份模板及验收]]。未接入方向AGENTS；不再直接部署，当前入口见本页开头的BC设计。
+- [[directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/report|第二批五篇及规则/目录实施结果]]；新文献清单11—15、Paper_ID P0006—P0010。
+- [[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report|首批五篇已有论文的试点记录]]。
+- [[directions/wave-transparent-composites/docs/directory-guide|目录职责、现行入口与历史设计索引]]：旧方案文件原位保留，不作为待部署规则。
+- [[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/style-reference-notes|两篇指定写作参照及适用边界]]：继续有效，学习论证和表达，不照抄或迁移未核结论。

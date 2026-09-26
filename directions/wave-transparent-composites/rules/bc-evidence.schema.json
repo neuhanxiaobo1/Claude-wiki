@@ -1,6 +1,6 @@
 {
   "direction_id": "wave-transparent-composites",
-  "version": "2026-09-25-active-pilot",
+  "version": "2026-09-25-batch2",
   "status": "active",
   "source_sha256": "b6028df1f9334c5b55a87080dd65012fc8af6317ac089b26c3fa1e4c58e0fc7e",
   "id_policy": {
@@ -56,7 +56,8 @@
         "Zotero_Item_Key",
         "Legacy_Wiki_Page",
         "Source_Version",
-        "Verification_Scope"
+        "Verification_Scope",
+        "Source_Manifest"
       ],
       "added_fields": [
         {
@@ -100,9 +101,14 @@
           "name": "Verification_Scope",
           "meaning": "Read_Status=Verified时必须说明实际核查范围及残余缺项。",
           "allowed_values": []
+        },
+        {
+          "name": "Source_Manifest",
+          "meaning": "本方向内的来源清单，相对vault根路径；按Paper_ID定位，支持所有批次校验。",
+          "allowed_values": []
         }
       ],
-      "table_ref": "A1:X1000"
+      "table_ref": "A1:Y1000"
     },
     "Evidence_Records": {
       "original_headers": [
@@ -171,7 +177,8 @@
             "Model-output",
             "Author-interpretation",
             "Secondary-citation",
-            "AI-inference"
+            "AI-inference",
+            "Unclassified-report"
           ]
         },
         {
@@ -312,6 +319,7 @@
   "validation_limits": [
     "Excel dropdowns do not enforce pasted/programmatic values.",
     "Required fields depend on row stage; empty template rows are allowed.",
-    "Foreign keys, DOI identity, source locations, sample pairing and scientific support require separate checks."
+    "Foreign keys, DOI identity, source locations, sample pairing and scientific support require separate checks.",
+    "Unclassified-report isolates author-reported results of unresolved provenance; never a Checked/Ready support."
   ]
 }

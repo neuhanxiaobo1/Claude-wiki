@@ -1,17 +1,26 @@
-"""Read-only validation of the direction's authoritative B/C workbook and pilot sources."""
+"""Read-only validation of the authoritative B/C workbook and every registered paper source."""
 from pathlib import Path
 from collections import Counter
 import json,re,hashlib,subprocess,sys
 import openpyxl
-from workbook_io import BOOK,HERE,rows,validate,digest,splitids
+from workbook_io import BOOK,HERE,D,rows,validate,digest,splitids
 
 def run():
     wb=openpyxl.load_workbook(BOOK);errors,data=validate(wb)
-    D=HERE.parents[1];root=D.parents[1]
-    sources=json.loads((D/'docs/bc-pilot-2026-09-25/sources.json').read_text(encoding='utf-8'))
+    root=D.parents[1]
+    sources=[]
+    for paper in data['Paper_Index']:
+        path=(root/str(paper.get('Source_Manifest',''))).resolve()
+        if not path.is_relative_to(D.resolve()) or not path.is_file():continue
+        entries=json.loads(path.read_text(encoding='utf-8'))
+        matches=[s for s in entries if s.get('Paper_ID')==paper['Paper_ID']]
+        if len(matches)!=1:errors.append(paper['Paper_ID']+': missing/duplicate source entry');continue
+        s=matches[0];sources.append(s)
+        if str(s['doi']).strip().lower()!=str(paper['DOI']).strip().lower():errors.append(paper['Paper_ID']+': source DOI mismatch')
+        if s['item_key']!=str(paper['Zotero_Item_Key']).split(':')[-1]:errors.append(paper['Paper_ID']+': source item mismatch')
     source_checks=[]
     for s in sources:
-        for kind in ['pdf','md']:
+        for kind in [k for k in ['pdf','md','manifest','identity'] if k+'_sha256' in s]:
             p=Path(s[kind]);same=p.is_file() and hashlib.sha256(p.read_bytes()).hexdigest()==s[kind+'_sha256']
             source_checks.append({'paper':s['Paper_ID'],'kind':kind,'unchanged':same})
             if not same:errors.append(s['Paper_ID']+': source missing/changed '+kind)
@@ -43,7 +52,7 @@ def run():
       'legacy_paper_count':len(pages),'legacy_evidence_count':legacy_count,
       'sources':source_checks,'git_eligible':eligible or tracked,'git_already_tracked':tracked,
       'errors':errors,'machine_scientific_evidence_checked':False,
-      'manual_verification_scope':'Per-record Verification_Scope and docs/bc-pilot-2026-09-25/report.md; not whole-paper approval.'}
+      'manual_verification_scope':'Per-record Verification_Scope and corresponding batch report; not whole-paper approval.'}
 
 if __name__=='__main__':
     result=run();print(json.dumps(result,ensure_ascii=False,indent=2));sys.exit(bool(result['errors']))

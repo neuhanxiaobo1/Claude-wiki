@@ -11,7 +11,7 @@ status: completed
 
 按用户授权完成方向专用流程接入及五篇已有论文的定向复核、BC证据迁移与试点综合。不是五篇新论文入库，也不是全部科研结论复核通过；原27篇paper、108条旧E#计数保持，页面仍draft。
 
-正式入口为[[directions/wave-transparent-composites/rules/bc-review-workflow]]及[BC_review_evidence.xlsx](../../synthesis/review_BC/BC_review_evidence.xlsx)。AGENTS已按筛选/阅读/综合/写作路由接入同一份契约；唯一工作簿配[schema.json](../../synthesis/review_BC/schema.json)、[综合工作入口](../../synthesis/review_BC/BC_synthesis_notes.md)和[复核行动](../../synthesis/review_BC/source_check_log.md)。公共规则及其他方向未改。
+正式入口为[[directions/wave-transparent-composites/rules/bc-review-workflow]]及[BC_review_evidence.xlsx](../../synthesis/review_BC/BC_review_evidence.xlsx)。AGENTS已按筛选/阅读/综合/写作路由接入同一份契约；唯一工作簿配[当前schema](../../rules/bc-evidence.schema.json)、[综合工作入口](../../synthesis/review_BC/BC_synthesis_notes.md)和[复核行动](../../synthesis/review_BC/source_check_log.md)。本报告为首批试点快照；schema/脚本随后移位见[[directions/wave-transparent-composites/docs/directory-guide]]，历史验收JSON保留当时路径。公共规则及其他方向未改。
 
 来源清单、PDF/MD哈希、试点前旧页哈希见[sources.json](sources.json)。主PDF均可读取，主条目与附件键均由缓存源文件核对，五个DOI互异。未读独立SI及引用原件，不宣称SI缺失。外部原件未改，raw仅保存PDF派生核查图。
 

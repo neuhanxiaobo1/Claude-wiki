@@ -1,0 +1,25 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "before_workbook_sha256": "0c98b62ca0361e68db189c0d374d2e69ec60cc141c00a0b4a3e9e8d7ead50b49",
+  "after_workbook_sha256": "72540d1f6ec53c0437681608bdd839b648f0c37b01e2730337441a45fc8e744e",
+  "preserved_old_rows": true,
+  "changed_evidence": [
+    "EV000044 classification only"
+  ],
+  "moves": [
+    {
+      "old": "synthesis/review_BC/workbook_io.py",
+      "new": "scripts/review_bc/workbook_io.py"
+    },
+    {
+      "old": "synthesis/review_BC/validate_workbook.py",
+      "new": "scripts/review_bc/validate_workbook.py"
+    },
+    {
+      "old": "synthesis/review_BC/schema.json",
+      "new": "rules/bc-evidence.schema.json"
+    }
+  ],
+  "originals_moved": false,
+  "historical_validation_paths": "Historical snapshots are unchanged; use this map for old paths."
+}

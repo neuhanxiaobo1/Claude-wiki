@@ -6,18 +6,14 @@ updated: 2026-09-25
 
 # 当前上下文
 
-- 当前目标：B热暴露—结构演化—介电稳定性、C界面/孔结构—介电响应并行验证；A退出当前候选，不沿用旧C优先。最终主线及目录由证据决定，尚未正式写两篇综述。
-- 完成边界：按1→10完成PI5UBPW7首批原始研究入库，新增10页、39条E#；当前27个paper页、108条E#（7篇组内研究、10篇外部原始研究、9篇综述/方法参考、1篇非核心吸波候选）。均为draft，核查范围以各页为准。
-- 当前清单：[[directions/wave-transparent-composites/raw/zotero_imports/literature-PI5UBPW7/import_plan]]，版本2026-09-21-v2，10/10已入库。
-- 恢复入口：[[directions/wave-transparent-composites/docs/ingestion-literature-2026-09-21/report]]，含sources.json、关键冲突、SI补核方案；本批无重复DOI或缺主PDF。
-- 当前完成：专用流程已接入AGENTS，正式Excel已启用；五篇试点P0001—P0005完成，22条EV、3条综合。21条EV为限定范围Checked、1条Partial，7条有待核事项；旧27页/108条E#仍保留且全部draft，不把迁移等同整页核查通过。
-- 下一步：按BC规则整理其余相关已有原始研究，优先寻找B同状态热结构—介电配对和C界面/孔结构介电对照；关键补核见正式库source_check_log。未固定B/C主次，不扩写目录或正式正文，不自动全量迁移余下页面。
-- 既有综述用途：[[directions/wave-transparent-composites/docs/review-corpus-audit-2026-09-21/report]]；4号大模型非核心、6/8号辅助、9号树脂基现按陶瓷范围转为跨体系背景，编号属于综述清单。
-- 组内基础：[[directions/wave-transparent-composites/synthesis/group-baseline-and-benchmarks-2026-09-18]]；原有图文冲突仍以对应页限制为准，新10篇未自动并入性能排名。
-- 主题清理与筛选提示词：[[directions/wave-transparent-composites/docs/scope-audit-2026-09-19/report]]、[[directions/wave-transparent-composites/docs/group-screening-prompt-2026-09-19/report]]。Zotero写入曾被禁用，本轮未修改Zotero或外部原件。
-- 发布边界：本轮按用户授权记录为calude_wiki_3.9.9，发布目标origin/main及同名标签，实际提交和远程状态以Git引用核验为准；包含BC设计/接入/试点及唯一正式xlsx。候选xlsx、PDF、外部缓存及被忽略raw不在发布范围。上一版本calude_wiki_3.9对应9bc15f62e829fa806a6d3d1cdc3db78b56131c83。
-
-- 最新交付：[[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report]]；工作入口[[directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes]]；生效流程[[directions/wave-transparent-composites/rules/bc-review-workflow]]。旧C设计不启用，两篇指定写作参照继续有效。
-- 试点边界：B核心2、C核心1，其余为背景/结构参照；不是全领域计数。Li 2023旧E1密度抄录及E2“图文一致”判断已修正；5个主PDF均可读、未见试点内重复DOI；未读SI。
-
-- 当前用户来源：F:/industry software/onedrive/1.Science/1.Zotero/fenqu/review三文件，只读；文件列表/哈希见新设计目录sources.json。旧三方案总结及C设计为历史，不覆盖当前指令。
+- 目标：B“热暴露—结构演化—介电稳定性”与C“界面/孔结构—介电响应”并行验证；A退出，旧C优先不启用，尚未最终定题或正式同时写两篇。
+- 当前任务已完成：Zotero PI5UBPW7新增五篇按11→15顺序入库，P0006—P0010，新增23条EV与3个SYN；完成方向规则及目录实际调整。交付入口[[directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/report]]。
+- 唯一BC事实库：synthesis/review_BC/BC_review_evidence.xlsx；共10篇、45条EV、6个SYN；39 Checked/6 Partial，16条Needs_Check，5 Provisional/1限定用途Ready。Checked仅针对各行Verification_Scope。
+- 计数：身份并集32篇。旧27个paper页/108条E#保持draft；Excel前5篇与旧页重合。原始研究22篇、综述/方法9篇、非核心候选1篇，不把收藏位置当作者单位。
+- 当前集合清单：[[directions/wave-transparent-composites/raw/zotero_imports/literature-PI5UBPW7/import_plan]]，版本2026-09-25-v3；已选15/15入库，集合88成员未全量阅读。新五篇无重复DOI、无缺主PDF；SI未取得/未读不等于不存在。
+- 当前入口：[[directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes]]组织章节；[[directions/wave-transparent-composites/synthesis/review_BC/source_check_log]]维护Q01—17。事实仍以Excel为准。
+- 关键限制：B已有热后同条件系列，不等于同试样因果链或原位稳定；C孔结构关联较集中，界面极化独立归因不足。优先处理Song损耗Q11、Ye基线及曲线来源Q15—16，其他未决按具体论断依赖处理。
+- 下一步候选：优先整理旧页中尚未进入BC表的相关原始研究，再按章节缺口补资料；不自动全量迁移、扩大范围或写正式正文。最终B/C选择需代表性、反例、同源性及同题综述检索，不按Core数量定题。
+- 规则结构：[[directions/wave-transparent-composites/AGENTS]]→[[directions/wave-transparent-composites/rules/bc-review-workflow]]→[[directions/wave-transparent-composites/rules/bc-evidence-contract]]/schema；脚本在scripts/review_bc。职责及历史入口见[[directions/wave-transparent-composites/docs/directory-guide]]；两篇指定风格参照继续有效。
+- 用户方案源：F:/industry software/onedrive/1.Science/1.Zotero/fenqu/review三文件，只读；来源版本见docs/bc-integration-2026-09-25/sources.json。旧A/B/C命名不覆盖当前方案。
+- 发布边界：上一发布calude_wiki_3.9.9，commit 1701cd37c91a5d1d2f7b33e5b4cc6c35b861d1ca；2026-09-26用户授权将当前成果提交/上传为calude_wiki_4.0，目标origin/main及同名标签，实际状态以Git引用核验为准。未改Zotero/外部原件/其他方向研究内容。被忽略raw及外部PDF不属于Git备份。
