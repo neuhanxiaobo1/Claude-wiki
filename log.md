@@ -154,3 +154,12 @@
 - 输入：用户授权上传当前版本并标记calude_wiki_3.9。
 - 更新：根index版本导航；研究成果与发布范围详见[[directions/wave-transparent-composites/log]]。
 - 边界：本版本包含透波方向规则设计，尚未部署；原件与被忽略raw不因发布而视为已备份。
+
+## [2026-10-07] error-fix | 修复本机GitHub代理连接
+
+- 输入：用户要求检查本地Git、分析并修复VS Code截图中的GitHub连接失败。
+- 操作：核对配置来源、监听端口、仓库状态及对象完整性；验证FlClash的7890端口后修正全局GitHub代理；执行修复脚本、远程查询与fetch验证。
+- 新建：无。
+- 更新：`git-proxy-fix.bat`、本机全局GitHub代理配置、公共短状态与[[memory/error_log]]。
+- 发现：根因是7897旧端口没有服务监听；正常Windows用户环境下连接与fetch已恢复。`git fsck --full`未发现对象损坏，仅报告悬空tree；保留这些对象。fetch后main仍领先origin/main四个提交，无落后提交，本轮开始时工作区干净。
+- 后续：VS Code可重试原Git操作；本轮未提交或推送。代理软件须运行且HTTP/mixed端口为7890，端口变化时需同步脚本及Git配置。详细原因、修复与检查边界见公共错误记录。
