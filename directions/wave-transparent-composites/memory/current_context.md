@@ -17,5 +17,5 @@ updated: 2026-10-07
 - 关键限制：P0021 B Core/C Context，10kHz—1MHz温度测试不等于GHz；水淬后力学/SEM未配介电，表2与Fig5起点/仪器口径不同，不能算统一保持率。Q40—42新增。P0020混样与涂覆片对象限制保持；B恢复/时间序列、C受控界面仍缺。
 - 下一步：先补BC-S1-085、032、059主PDF及SI；003作综述覆盖检查，027为低IF恢复协议定向例外候选。相关不等于全入库；其余按清单后备。多数导入IF年份/来源未核，AIP官方2025 JCR表值已核；093摘要指数待PDF消歧。检索式1已返回并筛完，不再列待检索；[[directions/wave-transparent-composites/docs/bc-stage8-2026-09-30/scopus-searches|检索式2/3]]仍按缺口安排。P0014 TableS1/FigS6不用再补；Q22高温协议/恢复、Q23模型及Q43组成口径/灰线仍未决。取得全文后再核代表性、反例、同源性和综述重叠。
 - 规则：方向AGENTS→bc-review-workflow→bc-evidence-contract/schema；结构未另起系统。两篇博士集合写作参照继续有效。用户方案源F:/industry software/onedrive/1.Science/1.Zotero/fenqu/review三文件只读，版本见docs/bc-integration-2026-09-25/sources.json。
-- 发布边界：用户2026-10-07确认上传，当前成果进入本轮Git提交；远程上传待成功核验（GitHub TLS握手失败，已询问本机代理）。记录见[[directions/wave-transparent-composites/docs/publication-2026-10-07/report]]；上一确认远程版本仍为calude_wiki_4.0 / 413a8ca。本次未指定新标签。BC-S1派生Excel/CSV已纳入Git范围；外部PDF/raw不属Git备份。
+- 发布边界：用户2026-10-07确认上传，当前成果已本地提交e576e1d（86文件），本条状态修订由后续Git提交记录；git push origin main因GitHub TLS握手失败，尚未上传。已询问本机代理；连接恢复后fetch核远程，再推送并核SHA，授权继续有效。记录见[[directions/wave-transparent-composites/docs/publication-2026-10-07/report]]；上一确认远程版本仍为calude_wiki_4.0 / 413a8ca。本次未指定新标签。BC-S1派生Excel/CSV已纳入Git范围；外部PDF/raw不属Git备份。
 - 发布前复核：科学工作簿哈希未变；外部MinerU的14项manifest相对历史哈希漂移，全来源校验未通过，PDF/MD/身份/SI的57项哈希一致。旧预期值和原件保留；仅解析清单映射待复核，详见发布记录，不据此变更EV科学状态。
