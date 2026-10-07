@@ -2,7 +2,7 @@
 direction_id: wave-transparent-composites
 status: active
 created: 2026-09-25
-updated: 2026-09-30
+updated: 2026-10-07
 ---
 
 # B/C综述工作入口
@@ -10,6 +10,8 @@ updated: 2026-09-30
 唯一事实及综合库：[BC_review_evidence.xlsx](BC_review_evidence.xlsx)。正式流程：[[directions/wave-transparent-composites/rules/bc-review-workflow]]；领域判断：[[directions/wave-transparent-composites/rules/bc-evidence-contract]]。本页只维护章节职责、ID导航和目录决定，不复制数值或长篇单文摘要。
 
 ## 当前阶段与目录决定
+
+2026-10-07用户指出上一稿标题和写作思路降级，已重读两篇指定参照，形成[[directions/wave-transparent-composites/docs/review-framework-revision-2026-10-07/report|界面与孔结构设计：介电机制与性能权衡——修订方案]]及[[directions/wave-transparent-composites/docs/review-framework-revision-2026-10-07/chapter-crosswalk|35篇文献的新章节归属]]。本版建议C组织主体、B用于热暴露下设计关系的适用性讨论；尚未获用户确认。下表现行B/C编号、工作簿用途及综合状态不变；上一稿仅留作历史快照，修订方案不是新事实源。
 
 已完成Wan2016精读及P0014 TableS1/S6补核（P0001—P0021，115条EV、9个SYN）；B Core6、C Core13、交集3。最新边界见[[directions/wave-transparent-composites/docs/bc-stage8-2026-09-30/report]]。身份并集35篇；Sun2011 CBS暂缓、不再列优先补全文。既有4篇背景候选保持，旧C优先不启用。
 
@@ -30,7 +32,7 @@ updated: 2026-09-30
 
 章节动作是本次执行建议，不表示用户已确认最终目录。B/C继续并行；没有因本批新增而确定C优先。若后续仍只有相关性，分别将题目收窄为“热后/温度相关介电响应”或“界面/孔结构—介电关系”。两篇指定写作参照继续有效。
 
-Q11、Q15—17的既有边界保持；Q18—43按论断依赖安排。Wan2016已读，不再缺主PDF；Sun2011按新偏好暂缓。下一轮优先按期刊偏好与证据缺口选少量原始研究，P0014 SI已补核，下一步按检索式获取题录。Xia2019不能替代内部界面，Wan2016不能替代微波/循环恢复。问题处理见[source_check_log.md](source_check_log.md)。
+Q11、Q15—17的既有边界保持；Q18—43按论断依赖安排。Wan2016已读，不再缺主PDF；Sun2011按新偏好暂缓。P0014 SI已补核，检索式1返回的95篇已完成BC-S1摘要筛选，尚未全文入库；下一步在目录确认与少量全文补证之间推进，任务统一见current_context。Xia2019不能替代内部界面，Wan2016不能替代微波/循环恢复。问题处理见[source_check_log.md](source_check_log.md)。
 
 ## B/C论点—证据缺口比较
 
@@ -55,4 +57,4 @@ Q11、Q15—17的既有边界保持；Q18—43按论断依赖安排。Wan2016已
 
 按Paper_ID/EV/SYN筛选工作簿，来源沿Source_Manifest及Source_Location追溯。旧paper的E#路径保留；BC新入库不生成空paper页。字段见[bc-evidence.schema.json](../../rules/bc-evidence.schema.json)，命令见[工具说明](../../scripts/review_bc/README.md)。
 
-`calude_wiki_4.0`已发布，提交`413a8ca`；本阶段为其后的本地增量，尚未提交/上传。外部PDF、MinerU缓存、raw复核图不在Git备份范围。
+`calude_wiki_4.0`为上一确认远程版本；截至2026-10-07，阶段3—8及BC-S1已本地提交e576e1d，上传失败状态提交6df4821，GitHub TLS握手失败导致尚未上传。本轮目录确认稿为其后新的本地增量。14份外部解析清单漂移及备份边界见[[directions/wave-transparent-composites/docs/publication-2026-10-07/report]]；外部PDF、MinerU缓存、raw复核图不在Git备份范围。

@@ -1,0 +1,30 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "date": "2026-10-07",
+  "scope": "Editorial artifacts, identities, EV references, links, unchanged workbook and two style PDFs only; not full scientific revalidation.",
+  "workbook_sha256": "00e196b6fac783db3bc74101327fe2382b29cf02802a16c8351ae50fbbe3f28c",
+  "workbook_unchanged": true,
+  "BC_identity_count": 21,
+  "other_identity_count": 14,
+  "unique_EV_ids_in_crosswalk": 115,
+  "EV_refs_in_report_exist": true,
+  "BC_DOI_and_EV_ownership_checked": true,
+  "missing_local_links": [],
+  "style_reference_pdf_checks": [
+    {
+      "title": "How to write an excellent review article",
+      "doi": "10.1038/s44222-024-00256-4",
+      "pdf_sha256": "d2d68dcd1d5303f48d4c40c8aa5f1938fdc89fbee462bda27a57e3d39334ba2a",
+      "matches_recorded": true
+    },
+    {
+      "title": "Polymer matrix wave-transparent composites: a review",
+      "doi": "10.1016/j.jmst.2020.09.017",
+      "pdf_sha256": "cf25e410c1a54eb917f08fcf2debc2bfe3e0ea5a002000a00522c47c72759c5d",
+      "matches_recorded": true
+    }
+  ],
+  "formal_goals_roles_Section_Target_unchanged": true,
+  "previous_external_manifest_drift": "Not resolved; 14 external MinerU manifests remain pending under publication-2026-10-07/report.md.",
+  "publication": "Local files only; not committed or uploaded."
+}

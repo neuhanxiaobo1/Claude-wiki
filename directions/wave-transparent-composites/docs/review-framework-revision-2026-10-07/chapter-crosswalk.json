@@ -1,0 +1,522 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "date": "2026-10-07",
+  "status": "proposal-awaiting-user-confirmation",
+  "source_workbook_sha256": "00e196b6fac783db3bc74101327fe2382b29cf02802a16c8351ae50fbbe3f28c",
+  "note": "Editorial crosswalk only. Formal goals, Section_Target, roles and evidence states unchanged.",
+  "BC_papers": [
+    {
+      "Paper_ID": "P0001",
+      "doi": "10.1016/j.matdes.2012.07.037",
+      "old_proposal_section": "C5.2",
+      "new_proposal_sections": [
+        "5.1",
+        "5.2"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000001",
+        "EV000002",
+        "EV000004",
+        "EV000003"
+      ],
+      "unchanged_B_use": "Core",
+      "unchanged_C_use": "Context"
+    },
+    {
+      "Paper_ID": "P0002",
+      "doi": "10.1016/j.jeurceramsoc.2022.03.055",
+      "old_proposal_section": "C5.2",
+      "new_proposal_sections": [
+        "5.1",
+        "5.2"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000005",
+        "EV000006",
+        "EV000008",
+        "EV000007"
+      ],
+      "unchanged_B_use": "Core",
+      "unchanged_C_use": "Context"
+    },
+    {
+      "Paper_ID": "P0003",
+      "doi": "10.1016/j.jeurceramsoc.2023.08.010",
+      "old_proposal_section": "C3.1",
+      "new_proposal_sections": [
+        "3.1",
+        "3.3"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000009",
+        "EV000012",
+        "EV000010",
+        "EV000011"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Context"
+    },
+    {
+      "Paper_ID": "P0004",
+      "doi": "10.1016/j.jmrt.2022.12.175",
+      "old_proposal_section": "C5.1",
+      "new_proposal_sections": [
+        "4.4",
+        "6.2",
+        "3.2"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000013",
+        "EV000014",
+        "EV000015",
+        "EV000016",
+        "EV000017"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0005",
+      "doi": "10.26599/JAC.2024.9220962",
+      "old_proposal_section": "C4.2",
+      "new_proposal_sections": [
+        "4.2",
+        "4.4"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000018",
+        "EV000019",
+        "EV000020",
+        "EV000021",
+        "EV000022"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Context"
+    },
+    {
+      "Paper_ID": "P0006",
+      "doi": "10.1016/j.jeurceramsoc.2020.06.018",
+      "old_proposal_section": "C5.2",
+      "new_proposal_sections": [
+        "5.2",
+        "5.3"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000023",
+        "EV000024",
+        "EV000025",
+        "EV000027",
+        "EV000026"
+      ],
+      "unchanged_B_use": "Core",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0007",
+      "doi": "10.1016/j.jallcom.2019.07.296",
+      "old_proposal_section": "C5.2",
+      "new_proposal_sections": [
+        "5.2"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000028",
+        "EV000029",
+        "EV000030",
+        "EV000031"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Context"
+    },
+    {
+      "Paper_ID": "P0008",
+      "doi": "10.1016/j.jeurceramsoc.2021.12.037",
+      "old_proposal_section": "C4.1",
+      "new_proposal_sections": [
+        "4.1",
+        "4.4"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000032",
+        "EV000033",
+        "EV000035",
+        "EV000034"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0009",
+      "doi": "10.1016/j.ceramint.2012.11.005",
+      "old_proposal_section": "C5.1",
+      "new_proposal_sections": [
+        "4.1",
+        "4.4"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000036",
+        "EV000038",
+        "EV000037",
+        "EV000039"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0010",
+      "doi": "10.1016/j.ceramint.2024.01.149",
+      "old_proposal_section": "C4.3",
+      "new_proposal_sections": [
+        "4.1",
+        "4.3",
+        "6.1"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000040",
+        "EV000041",
+        "EV000042",
+        "EV000043",
+        "EV000044",
+        "EV000045"
+      ],
+      "unchanged_B_use": "Core",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0011",
+      "doi": "10.1016/j.jallcom.2024.177974",
+      "old_proposal_section": "C3.2",
+      "new_proposal_sections": [
+        "3.1",
+        "3.2",
+        "3.3"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000046",
+        "EV000047",
+        "EV000050",
+        "EV000048",
+        "EV000049"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0012",
+      "doi": "10.1016/j.addma.2024.104540",
+      "old_proposal_section": "C4.1",
+      "new_proposal_sections": [
+        "4.1",
+        "4.2",
+        "6.2"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000051",
+        "EV000052",
+        "EV000053",
+        "EV000054"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0013",
+      "doi": "10.1016/j.ceramint.2025.07.175",
+      "old_proposal_section": "C5.3",
+      "new_proposal_sections": [
+        "4.3",
+        "2.3"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000056",
+        "EV000059",
+        "EV000055",
+        "EV000057",
+        "EV000058"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0014",
+      "doi": "10.1016/j.jmst.2024.02.008",
+      "old_proposal_section": "C5.1",
+      "new_proposal_sections": [
+        "5.1"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000060",
+        "EV000061",
+        "EV000062",
+        "EV000114",
+        "EV000115",
+        "EV000063",
+        "EV000064"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Context"
+    },
+    {
+      "Paper_ID": "P0015",
+      "doi": "10.26599/JAC.2023.9220813",
+      "old_proposal_section": "C4.2",
+      "new_proposal_sections": [
+        "4.3",
+        "5.1",
+        "5.2"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000065",
+        "EV000066",
+        "EV000068",
+        "EV000067",
+        "EV000069"
+      ],
+      "unchanged_B_use": "Core",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0016",
+      "doi": "10.1039/c7ra09905c",
+      "old_proposal_section": "C5.1",
+      "new_proposal_sections": [
+        "4.1",
+        "5.3"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000070",
+        "EV000073",
+        "EV000071",
+        "EV000072",
+        "EV000074",
+        "EV000075"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0017",
+      "doi": "10.1016/j.jeurceramsoc.2026.118181",
+      "old_proposal_section": "C4.3",
+      "new_proposal_sections": [
+        "4.3"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000076",
+        "EV000077",
+        "EV000078"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0018",
+      "doi": "10.1016/j.compositesa.2026.109897",
+      "old_proposal_section": "C3.3",
+      "new_proposal_sections": [
+        "3.1",
+        "3.3"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000079",
+        "EV000081",
+        "EV000080",
+        "EV000082",
+        "EV000083",
+        "EV000084"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0019",
+      "doi": "10.3390/molecules30061385",
+      "old_proposal_section": "C5.1",
+      "new_proposal_sections": [
+        "3.1",
+        "4.2",
+        "5.2",
+        "6.2"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000085",
+        "EV000086",
+        "EV000088",
+        "EV000090",
+        "EV000094",
+        "EV000087",
+        "EV000089",
+        "EV000091",
+        "EV000092",
+        "EV000093",
+        "EV000095",
+        "EV000096"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Core"
+    },
+    {
+      "Paper_ID": "P0020",
+      "doi": "10.1016/j.cja.2018.11.008",
+      "old_proposal_section": "C5.2",
+      "new_proposal_sections": [
+        "5.2",
+        "6.1"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000097",
+        "EV000098",
+        "EV000099",
+        "EV000100",
+        "EV000101",
+        "EV000102",
+        "EV000103",
+        "EV000104"
+      ],
+      "unchanged_B_use": "Context",
+      "unchanged_C_use": "Context"
+    },
+    {
+      "Paper_ID": "P0021",
+      "doi": "10.1016/j.ceramint.2016.01.063",
+      "old_proposal_section": "C6.1",
+      "new_proposal_sections": [
+        "5.1",
+        "4.4"
+      ],
+      "source_mapping": "../review-outline-confirmation-2026-10-07/chapter-map.json",
+      "source_evidence_ids": [
+        "EV000105",
+        "EV000106",
+        "EV000107",
+        "EV000108",
+        "EV000109",
+        "EV000110",
+        "EV000111",
+        "EV000112",
+        "EV000113"
+      ],
+      "unchanged_B_use": "Core",
+      "unchanged_C_use": "Context"
+    }
+  ],
+  "other_existing_papers": [
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Du-2024-RE2SiO5.md",
+      "doi": "10.1016/j.ceramint.2024.06.026",
+      "unchanged_role": "背景暂缓",
+      "old_proposal_sections": "C2.1；B4.1",
+      "new_proposal_sections": "2.1；5.1"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Wen-2025-RE2Sn2O7.md",
+      "doi": "10.1016/j.mtphys.2024.101622",
+      "unchanged_role": "背景暂缓",
+      "old_proposal_sections": "C2.1；C6.3",
+      "new_proposal_sections": "2.1；6.4"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Liu-2024-Entropy-ZrP2O7.md",
+      "doi": "10.26599/JAC.2024.9220926",
+      "unchanged_role": "背景暂缓",
+      "old_proposal_sections": "B3.1；C5.2",
+      "new_proposal_sections": "5.2"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Wen-2026-High-Entropy-Disilicate.md",
+      "doi": "10.34133/research.1308",
+      "unchanged_role": "背景暂缓",
+      "old_proposal_sections": "C6.3",
+      "new_proposal_sections": "6.4（可选短段）"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Zhou-2023-Nitride-CFCMCs-Review.md",
+      "doi": "10.1016/j.compositesa.2023.107444",
+      "unchanged_role": "综述导航",
+      "old_proposal_sections": "C1.2；C2.1；C3.1；B1",
+      "new_proposal_sections": "1.2；3.1"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Kenion-2022-Radome-Materials-Review.md",
+      "doi": "10.1016/j.jeurceramsoc.2021.10.006",
+      "unchanged_role": "综述导航",
+      "old_proposal_sections": "C1.1；C2.2；C6.1；B1",
+      "new_proposal_sections": "1.1；2.3；6.1"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Nag-2021-High-Temperature-Ceramic-Review.md",
+      "doi": "10.1016/j.ceramint.2021.04.203",
+      "unchanged_role": "综述导航",
+      "old_proposal_sections": "C2.1；C4.1；B1",
+      "new_proposal_sections": "2.1；4.1"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Xiang-2023-High-Temperature-Wave-Transparent-Review.md",
+      "doi": "10.11896/cldb.22090029",
+      "unchanged_role": "综述导航",
+      "old_proposal_sections": "C1.2；C3.1；C5.2；B1",
+      "new_proposal_sections": "1.2；5.2"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Liu-2025-Microwave-Sintering-Wave-Transparent-Review.md",
+      "doi": "10.14062/j.issn.0454-5648.20240530",
+      "unchanged_role": "跨应用辅助",
+      "old_proposal_sections": "C4.2；C6.1；B1",
+      "new_proposal_sections": "4.4；6.1（辅助）"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Fidan-2023-Ceramic-Defects-Review.md",
+      "doi": "10.1016/j.engfailanal.2023.107234",
+      "unchanged_role": "方法辅助",
+      "old_proposal_sections": "C2.3；C6.2；B2.3",
+      "new_proposal_sections": "4.2；6.3（方法）"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Wu-2019-Ceramic-Thermomechanical-Testing-Review.md",
+      "doi": "10.13957/j.cnki.tcxb.2019.04.002",
+      "unchanged_role": "方法辅助",
+      "old_proposal_sections": "C6.1；B2.3",
+      "new_proposal_sections": "6.1；6.3（方法）"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Khatavkar-2016-Composite-Radome-Review.md",
+      "doi": "10.1039/c5ra18712e",
+      "unchanged_role": "跨体系背景，可不引用",
+      "old_proposal_sections": "C1.2",
+      "new_proposal_sections": "1.2（可不引用）"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Jiang-2025-NLP-LLM-Materials-Review.md",
+      "doi": "10.1038/s41524-025-01554-0",
+      "unchanged_role": "可选展望，非核心",
+      "old_proposal_sections": "C6.3",
+      "new_proposal_sections": "6.4（可选短段）"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Tan-2025-rGO-MXene-SiC.md",
+      "doi": "10.1016/j.cej.2025.170964",
+      "unchanged_role": "排除",
+      "old_proposal_sections": "不进入任何核心章节",
+      "new_proposal_sections": "排除，不分配章节"
+    }
+  ]
+}

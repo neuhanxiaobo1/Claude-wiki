@@ -1,11 +1,13 @@
 ﻿---
 direction_id: wave-transparent-composites
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-07
 status: draft
 ---
 
 # 指定两篇写作参照：可借鉴结构与适用边界
+
+> 2026-10-07补充：已重新定向阅读两篇实际PDF，见[[directions/wave-transparent-composites/docs/review-framework-revision-2026-10-07/reference-reread|复读范围与写作应用]]。本页下文保留2026-09-21阅读记录。须纠正后续应用中的过度收缩：机制证据尚不完整，不意味着综述只能罗列结构与响应；可以比较机制解释、替代解释及适用条件。限制具体因果论断的强度，同时保留科学问题、设计取舍和跨研究综合。不得将本页的核查示例扩成整篇综述的叙事主线。
 
 ## 来源及实际阅读
 

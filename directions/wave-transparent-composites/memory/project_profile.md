@@ -1,7 +1,7 @@
 ---
 direction_id: wave-transparent-composites
 created: 2026-09-17
-updated: 2026-09-30
+updated: 2026-10-07
 ---
 
 # 透波复合材料研究配置
@@ -55,4 +55,4 @@ updated: 2026-09-30
 ## 当前规则设计入口
 
 - 生效流程入口：[[directions/wave-transparent-composites/rules/bc-review-workflow]]；原设计保留在[[directions/wave-transparent-composites/docs/bc-integration-2026-09-25/report]]。
-- 已完成前三阶段、剩余7篇初筛/3篇定向整理、Zhang2025精读、Xia2019背景精读及Wan2016温度系列精读、P0014的SI补核，现有21个Paper_ID、115条EV、9个SYN；最新边界见[[directions/wave-transparent-composites/docs/bc-stage8-2026-09-30/report]]。工作簿是BC唯一维护事实源；旧27页/108条E#保留，前一阶段三页及相关下游已纠错，P0021入库后本轮补P0014 SI、EV000114—115；不新增论文身份。上一发布calude_wiki_4.0为413a8ca；本阶段增量尚未提交/上传。
+- 已完成前三阶段、剩余7篇初筛/3篇定向整理、Zhang2025精读、Xia2019背景精读及Wan2016温度系列精读、P0014的SI补核，现有21个Paper_ID、115条EV、9个SYN；最新科学证据边界见[[directions/wave-transparent-composites/docs/bc-stage8-2026-09-30/report]]。工作簿是BC唯一维护事实源；旧27页/108条E#保留，相关下游已纠错；不新增论文身份。阶段3—8及BC-S1已本地提交e576e1d，上传失败状态提交6df4821，上一确认远程版本仍为calude_wiki_4.0 / 413a8ca；后续版本状态统一见[[directions/wave-transparent-composites/memory/current_context]]。2026-10-07目录建议尚待用户确认，不改变本页既定双轨目标。

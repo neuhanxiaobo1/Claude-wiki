@@ -1,0 +1,1663 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "date": "2026-10-07",
+  "status": "proposal-awaiting-user-confirmation",
+  "description": "章节配置的导出快照；只保存编辑归属与证据定位，BC科学事实/核查状态仍以原工作簿为唯一维护源。",
+  "source_workbook_sha256": "00e196b6fac783db3bc74101327fe2382b29cf02802a16c8351ae50fbbe3f28c",
+  "counts": {
+    "BC_papers": 21,
+    "existing_other_pages": 14,
+    "existing_identity_union": 35
+  },
+  "proposed_C_title": "陶瓷基透波复合材料的界面与孔结构：介电响应与设计",
+  "proposed_B_title": "热暴露下陶瓷基透波复合材料的结构演化与介电响应",
+  "recommendation": "C作为优先候选，B保留备选；用户未确认，不更改profile或正式Section_Target。",
+  "BC_papers": [
+    {
+      "Paper_ID": "P0001",
+      "label": "Cao 2013：SiNOf/BN",
+      "title": "High-temperature properties and associated structure evolution of continuous SiNO fiber-reinforced BN composites for wave transparency",
+      "doi": "10.1016/j.matdes.2012.07.037",
+      "year": 2013,
+      "material": "SiNO纤维/BN基体",
+      "primary_C_section": "C5.2",
+      "secondary_sections": [
+        "B4.1",
+        "B3.1"
+      ],
+      "allowed_summary": "有温度相关介电数据及热后晶化/孔形变化，适合并列讨论两种状态；不是已配对的完整因果链。",
+      "supporting_evidence_ids": [
+        "EV000001",
+        "EV000002",
+        "EV000004"
+      ],
+      "limiting_evidence_ids": [
+        "EV000003"
+      ],
+      "original_B_use": "Core",
+      "original_C_use": "Context",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000001",
+          "location": "§2.3、§3.1；Fig.2，PDF p2—3（印刷259—260）",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000002",
+          "location": "§2.2、§3.1；Fig.3、5，PDF p2—4",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000004",
+          "location": "§2.3、§3.1 Fig.1，PDF p2",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000003",
+          "location": "§3.1 Fig.2—3相邻讨论及结论(2)，PDF p3、5",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0002",
+      "label": "Cao 2022：Si3N4f/SiNO",
+      "title": "Microstructure, high-temperature mechanical and dielectric properties of novel Si3N4 f/SiNO wave-transparent composites",
+      "doi": "10.1016/j.jeurceramsoc.2022.03.055",
+      "year": 2022,
+      "material": "Si3N4纤维/SiNO命名基体（Si3N4粉体+硅溶胶）",
+      "primary_C_section": "C5.2",
+      "secondary_sections": [
+        "B4.1",
+        "B3.2"
+      ],
+      "allowed_summary": "介电测试到800℃与更高温热后结构/力学需分开；不能以1550℃残余承载推断同温介电稳定。",
+      "supporting_evidence_ids": [
+        "EV000005",
+        "EV000006",
+        "EV000008"
+      ],
+      "limiting_evidence_ids": [
+        "EV000007"
+      ],
+      "original_B_use": "Core",
+      "original_C_use": "Context",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000005",
+          "location": "§2.3、§3.3；Fig.12，PDF p2、9",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000006",
+          "location": "§3.2 Fig.10—11，PDF p6、8—9",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000008",
+          "location": "§2.3、§3.2 Fig.9相邻正文、结论(3)，PDF p2、5—7、9",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000007",
+          "location": "§3.3，Fig.12(b)相邻正文，PDF p6—7、9",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0003",
+      "label": "Li 2023：BN/SiON双层界面",
+      "title": "Study on the fiber/matrix interface modification of Si3N4 f/SiO2 composites with polymer derived double-layer coatings",
+      "doi": "10.1016/j.jeurceramsoc.2023.08.010",
+      "year": 2023,
+      "material": "Si3N4f/BNc/SiONc/SiO2",
+      "primary_C_section": "C3.1",
+      "secondary_sections": [
+        "B3.2",
+        "C6.1"
+      ],
+      "allowed_summary": "双层界面结构和密度/力学对照可展示界面设计路径；缺对应涂层组间介电对照，不作为双层改善介电的实证。",
+      "supporting_evidence_ids": [
+        "EV000009",
+        "EV000012"
+      ],
+      "limiting_evidence_ids": [
+        "EV000010",
+        "EV000011"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Context",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000009",
+          "location": "§2.2、§3.4 Fig.8(a)，PDF p2、7",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000012",
+          "location": "§2.3、§3.4 Fig.9(a)，PDF p2、8",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000010",
+          "location": "§2.3、§3.4、摘要及Fig.8(d)，PDF p1—2、7",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000011",
+          "location": "§3.3、Fig.7(a)，PDF p6",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0004",
+      "label": "Meng 2023：PIP升温速率",
+      "title": "Effects of heating rate on mechanical and dielectric properties of the Si3N4f/BN/Si3N4composites by PIP",
+      "doi": "10.1016/j.jmrt.2022.12.175",
+      "year": 2023,
+      "material": "Si3N4f/BN/Si3N4（含残碳/氧的PSZ衍生基体）",
+      "primary_C_section": "C5.1",
+      "secondary_sections": [
+        "C4.2",
+        "B5.2"
+      ],
+      "allowed_summary": "制备升温速率同时改变碳/氧、纳米孔与开孔分布，介电代表值随之变化；适合讨论工艺引起的多变量耦合。",
+      "supporting_evidence_ids": [
+        "EV000013",
+        "EV000014",
+        "EV000015",
+        "EV000016"
+      ],
+      "limiting_evidence_ids": [
+        "EV000017"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000013",
+          "location": "§2.1、2.3、3.3；Fig.15/表5，PDF p2—3、9—10",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000014",
+          "location": "§3.1；表3，PDF p4、7",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000015",
+          "location": "§2.2、§3.1；Fig.4—5，PDF p2—5",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000016",
+          "location": "§2.3；表4/5，PDF p3、7、10",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000017",
+          "location": "§3.1、3.3、结论(3)；Fig.5—6、15/表2—3、5，PDF p4—7、9—11",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0005",
+      "label": "Liu 2024：双溶剂多孔Si3N4",
+      "title": "Synergistic promotion of dielectric and thermomechanical properties of porous Si3 N4 ceramics by a dual-solvent template method",
+      "doi": "10.26599/JAC.2024.9220962",
+      "year": 2024,
+      "material": "多孔Si3N4，含Mg/Y/O晶界相",
+      "primary_C_section": "C4.2",
+      "secondary_sections": [
+        "C2.3",
+        "B4.1"
+      ],
+      "allowed_summary": "孔形与孔隙率共变，可作多孔陶瓷参照；较低ε′不保证各频点损耗最低，异方法室温/高温数据不拼接。",
+      "supporting_evidence_ids": [
+        "EV000018",
+        "EV000019",
+        "EV000020"
+      ],
+      "limiting_evidence_ids": [
+        "EV000021",
+        "EV000022"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Context",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000018",
+          "location": "§2.2、§3.1；Fig.2/4/9，PDF p3—6、9",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000019",
+          "location": "§2.3、§3.4 Fig.13，PDF p3、11",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000020",
+          "location": "§2.3、§3.4 Fig.14，PDF p3、11—12",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000021",
+          "location": "§3.4 Fig.13相邻讨论，PDF p11；相关引用[38—40]原文未读",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000022",
+          "location": "§3.4末段，PDF p12；原文称Figs.12/13，实际介电两图为13/14，按内容定位",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0006",
+      "label": "Zhou 2020：CVI复合体真空退火",
+      "title": "Effects of heat treatment on mechanical and dielectric properties of 3D Si3N4f/BN/Si3N4 composites by CVI",
+      "doi": "10.1016/j.jeurceramsoc.2020.06.018",
+      "year": 2020,
+      "material": "Si3N4纤维/BN界面/Si3N4基体",
+      "primary_C_section": "C5.2",
+      "secondary_sections": [
+        "C3.1",
+        "B3.2",
+        "B4.2"
+      ],
+      "allowed_summary": "热后开孔率与室温介电均有非单调变化，1200℃后局部可见界面反应区；适合热暴露改变原有结构关系的案例。",
+      "supporting_evidence_ids": [
+        "EV000023",
+        "EV000024",
+        "EV000025",
+        "EV000027"
+      ],
+      "limiting_evidence_ids": [
+        "EV000026"
+      ],
+      "original_B_use": "Core",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000023",
+          "location": "§2.1/3.1；Table 1，PDF p2—3（5306—5307）",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000024",
+          "location": "§2.3/3.3；Table 3、Fig.10；PDF p3、8—10（5307、5312—5314）",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000025",
+          "location": "§3.2；Fig.8—9；PDF p5、7—9（5309、5311—5313）",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000027",
+          "location": "§2.3；Table 1，PDF p3（5307）",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000026",
+          "location": "§3.3，PDF p9—10（5313—5314）",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0007",
+      "label": "Song 2019：SiBCN氧化/玻璃层",
+      "title": "Microstructure and dielectric property evolution of self-healing PDC-SiBCN in static air",
+      "doi": "10.1016/j.jallcom.2019.07.296",
+      "year": 2019,
+      "material": "PDC-SiBCN及氧化玻璃层",
+      "primary_C_section": "C5.2",
+      "secondary_sections": [
+        "B3.1",
+        "B4.2"
+      ],
+      "allowed_summary": "氧化后玻璃层/局部裂纹填充与ε′下降可作基体化学参照；损耗数值冲突隔离，不表述为复合体长期自愈。",
+      "supporting_evidence_ids": [
+        "EV000028",
+        "EV000029"
+      ],
+      "limiting_evidence_ids": [
+        "EV000030",
+        "EV000031"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Context",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000028",
+          "location": "§2/3.1；Fig.2、7，PDF p2、6—7；结论p8",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000029",
+          "location": "§2/3.3；Fig.10(a)，PDF p2、7—8",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000030",
+          "location": "§3.3与§4；Fig.10(b,c)，PDF p7—8",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000031",
+          "location": "§3.1—3.3，PDF p3—7",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0008",
+      "label": "Li 2022：晶须复合体PIP致密化",
+      "title": "Evolution of microstructure and properties of Si3N4 whisker reinforced composites during densification by polymer infiltration and pyrolysis",
+      "doi": "10.1016/j.jeurceramsoc.2021.12.037",
+      "year": 2022,
+      "material": "Si3N4晶须/前驱体衍生SiN(O)基体",
+      "primary_C_section": "C4.1",
+      "secondary_sections": [
+        "C4.3",
+        "C5.3"
+      ],
+      "allowed_summary": "填充伴随空间密度梯度和ε′升高；平均密度不足以表征完整结构，工艺模型及解析指标各有适用边界。",
+      "supporting_evidence_ids": [
+        "EV000032",
+        "EV000033",
+        "EV000035"
+      ],
+      "limiting_evidence_ids": [
+        "EV000034"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000032",
+          "location": "§2/4.1/4.2；Fig.5、7，PDF p2—3、6—7",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000033",
+          "location": "§2.2/4.3；Fig.11，PDF p3、9—10（2148、2154—2155）",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000035",
+          "location": "§4.3，Eq.14—17、Fig.12，PDF p9—10",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000034",
+          "location": "§4.1—4.3，PDF p6—10",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0009",
+      "label": "Wang 2013：BN/Si3N4复相多孔陶瓷",
+      "title": "Effect of BN content on microstructures, mechanical and dielectric properties of porous BN/Si3N4 composite ceramics prepared by gel casting",
+      "doi": "10.1016/j.ceramint.2012.11.005",
+      "year": 2013,
+      "material": "多孔BN/Si3N4，La2O3/Y2O3助剂",
+      "primary_C_section": "C5.1",
+      "secondary_sections": [
+        "C4.1",
+        "B5.2"
+      ],
+      "allowed_summary": "BN含量、孔隙与相比例共同变化；图示介电下降仅限定讨论，频段冲突未清，混合律未独立分离贡献。",
+      "supporting_evidence_ids": [
+        "EV000036",
+        "EV000038"
+      ],
+      "limiting_evidence_ids": [
+        "EV000037",
+        "EV000039"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000036",
+          "location": "§2/3.2/3.3；Table 1—2、Fig.4，PDF p2—4",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000038",
+          "location": "§3.6；Eq.2、Table 3，PDF p6（4236）",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000037",
+          "location": "§2.2/3.5；Fig.7，PDF p2、6（4232、4236）",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000039",
+          "location": "§3.5，PDF p5—6",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0010",
+      "label": "Ye 2024：Si3N4壳芯夹层",
+      "title": "Design and preparation of sandwich structured Si3N4 ceramics for broadband microwave transmission",
+      "doi": "10.1016/j.ceramint.2024.01.149",
+      "year": 2024,
+      "material": "Si3N4晶须多孔芯/PDC基体/CVD致密壳",
+      "primary_C_section": "C4.3",
+      "secondary_sections": [
+        "C4.1",
+        "C5.2",
+        "C5.3",
+        "B4.2"
+      ],
+      "allowed_summary": "芯层PIP及壳厚系列连接致密化、层结构和有效介电；氧化后基线/宽频透射来源未决，不作为构件宽频实测标杆。",
+      "supporting_evidence_ids": [
+        "EV000040",
+        "EV000041"
+      ],
+      "limiting_evidence_ids": [
+        "EV000042",
+        "EV000043",
+        "EV000044",
+        "EV000045"
+      ],
+      "original_B_use": "Core",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000040",
+          "location": "§2.2—2.3/3.1—3.2；Fig.4，PDF p2、4—5",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000041",
+          "location": "§3.3；Fig.6、8—9，PDF p5—6",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000042",
+          "location": "§3.4；Fig.10—11、Table1，PDF p5—8",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000043",
+          "location": "§3.3—3.4；Eq.3—4，PDF p5—6",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000044",
+          "location": "§2.1/2.3/3.4；Fig.12，PDF p2、7；SI推导未读",
+          "verification": "Partial",
+          "support": "Insufficient",
+          "role": "limit"
+        },
+        {
+          "id": "EV000045",
+          "location": "§3.4/4；Fig.11(a)、Table1，PDF p6—8",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0011",
+      "label": "Jing 2025：LaPO4界面/氧化物复合体",
+      "title": "Mechanically robust Al2O3 f/LaPO4/Al2O3 composite for high-performance microwave transparent",
+      "doi": "10.1016/j.jallcom.2024.177974",
+      "year": 2025,
+      "material": "Al2O3-SiO2纤维/镧磷酸盐界面/Al2O3基体",
+      "primary_C_section": "C3.2",
+      "secondary_sections": [
+        "C6.1",
+        "B3.2"
+      ],
+      "allowed_summary": "界面层系列ε′接近而损耗有所差异，强度与断裂位移最优配方不同；孔隙/填充共变，不独立证明界面极化。",
+      "supporting_evidence_ids": [
+        "EV000046",
+        "EV000047",
+        "EV000050"
+      ],
+      "limiting_evidence_ids": [
+        "EV000048",
+        "EV000049"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-stage3-2026-09-26/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000046",
+          "location": "§2.1—2.4、§3.2—3.3；Table1，Fig.3—7；PDF p2、5—6",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000047",
+          "location": "§2.4/3.4；Fig.8(a—c)、Table2；PDF p2、7—8",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000050",
+          "location": "§2.4/3.3；Fig.5(a)；PDF p2、6",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000048",
+          "location": "§3.4；Fig.8(d—g)、Fig.5(b)；PDF p6—7",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000049",
+          "location": "§2.4 Eqs.4—7、§3.4 Fig.8(h,i)/9；PDF p2、7—8",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0012",
+      "label": "Wang 2024：VPP–CVI短纤维Si3N4",
+      "title": "Preparation of Si3N4f/Si3N4 wave-transparent composites by vat photopolymerization combined with chemical vapor infiltration",
+      "doi": "10.1016/j.addma.2024.104540",
+      "year": 2024,
+      "material": "短切Si3N4纤维/Si3N4",
+      "primary_C_section": "C4.1",
+      "secondary_sections": [
+        "C3.3",
+        "C6.1"
+      ],
+      "allowed_summary": "同配方CVI致密化时ε′升高；固定CVI时间的纤维含量系列ε′近似不变。两组对照可说明变量路径不同，不推出统一损耗规律。",
+      "supporting_evidence_ids": [
+        "EV000051",
+        "EV000052",
+        "EV000053"
+      ],
+      "limiting_evidence_ids": [
+        "EV000054"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-stage3-2026-09-26/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000051",
+          "location": "§2.2—2.3/3.3；Fig.9(a,d—g)；PDF p9",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000052",
+          "location": "§2.3/3.3；Fig.9(i,j)（正文子图号存在错位）；PDF p9",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000053",
+          "location": "§3.3；Fig.10(d,e)；PDF p10",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000054",
+          "location": "§2.3/3.3；Fig.10(c,f—h)；PDF p10",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0013",
+      "label": "Zhang 2025：针刺SiO2f/SiO2",
+      "title": "Low-cost needle-punched SiO2/SiO2ceramic composites with low permittivity and enhanced high-temperature mechanical behavior",
+      "doi": "10.1016/j.ceramint.2025.07.175",
+      "year": 2025,
+      "material": "SiO2纤维/SiO2",
+      "primary_C_section": "C5.3",
+      "secondary_sections": [
+        "C2.2",
+        "B2.3"
+      ],
+      "allowed_summary": "介电、S参数及CST可组织材料参数到结构传输的案例；功率归一化/模型对应待核，800℃力学与电学状态分开。",
+      "supporting_evidence_ids": [
+        "EV000056",
+        "EV000059"
+      ],
+      "limiting_evidence_ids": [
+        "EV000055",
+        "EV000057",
+        "EV000058"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-stage3-2026-09-26/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000056",
+          "location": "§2.2.2/3.3.2；Fig.10(c—f)；PDF p10",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000059",
+          "location": "§2.2.1/3.2.3；Fig.9；PDF p9",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000055",
+          "location": "§2.1（PDF p2）、§3.1（PDF p3）；密度/孔隙来自正文，非图像反演",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000057",
+          "location": "§2.3/3.3.2 Eqs.5—9；Fig.10(f—i)；PDF p9—10",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000058",
+          "location": "§3.3.3；Fig.11—12；PDF p10—11",
+          "verification": "Checked",
+          "support": "Insufficient",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0014",
+      "label": "Yu 2024：低碳SiBCN基体",
+      "title": "Hyperbranched polyborosilazanes derived SiBCN ceramic for high-temperature wave-transparent performance",
+      "doi": "10.1016/j.jmst.2024.02.008",
+      "year": 2024,
+      "material": "PDC-SiBCN块体",
+      "primary_C_section": "C5.1",
+      "secondary_sections": [
+        "C5.2",
+        "B4.1",
+        "B5.2"
+      ],
+      "allowed_summary": "组成系列、局部碳结构和100—800℃范围资料可作基体参照；原子组成不等于游离碳体积分数，温度频谱不证明恢复性。",
+      "supporting_evidence_ids": [
+        "EV000060",
+        "EV000061",
+        "EV000062",
+        "EV000114",
+        "EV000115"
+      ],
+      "limiting_evidence_ids": [
+        "EV000063",
+        "EV000064"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Context",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-stage8-2026-09-30/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000060",
+          "location": "§3.1；Fig.5—6；PDF p5",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000061",
+          "location": "§3.2；Fig.7(a—c)/Table1；PDF p5—6",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000062",
+          "location": "§2.4/3.4；Fig.9(A)；PDF p2、7",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000114",
+          "location": "SI DOCX TableS1；主PDF p2 §2.4、p4 §3.1；SI FigS3(A)；用户表格截图一致",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000115",
+          "location": "SI DOCX FigS6（嵌入image6.jpeg）及图注；主PDF p2 §2.4、p7 §3.4；用户S6截图",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000063",
+          "location": "§2.5 Eqs.1—3；Table2/3、Fig.7/9；PDF p2、6—8",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000064",
+          "location": "§3.1/3.2/3.4；Fig.5—7/10；PDF p5—8",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0015",
+      "label": "Zhang 2023：Si3N4@SiO2核壳气凝胶",
+      "title": "Resilient Si3N4@SiO2 nanowire aerogels for high-temperature electromagnetic wave transparency and thermal insulation",
+      "doi": "10.26599/JAC.2023.9220813",
+      "year": 2023,
+      "material": "Si3N4核/SiO2壳纳米线气凝胶",
+      "primary_C_section": "C4.2",
+      "secondary_sections": [
+        "C3.3",
+        "C5.2",
+        "B4.1",
+        "B4.2"
+      ],
+      "allowed_summary": "核壳网络与密度系列已有结构/介电记录，室温损耗不随密度简单单调；热后变化与热态曲线分开，后者频段冲突保留。",
+      "supporting_evidence_ids": [
+        "EV000065",
+        "EV000066",
+        "EV000068"
+      ],
+      "limiting_evidence_ids": [
+        "EV000067",
+        "EV000069"
+      ],
+      "original_B_use": "Core",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-stage3-2026-09-26/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000065",
+          "location": "§2.2/3.1；Fig.1(e—i)；PDF p4",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000066",
+          "location": "§2.3/3.5；Fig.5(a,b)；PDF p9",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000068",
+          "location": "§3.3；Fig.3(c—i)；PDF p6",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000067",
+          "location": "§2.3/3.5、结论；Fig.5(c,d)；PDF p9",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000069",
+          "location": "§3.3/3.5；Fig.3、5；PDF p6、9",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0016",
+      "label": "Li 2017：BN/SiO2热震与组成系列",
+      "title": "Q. Li, Z. Yang, Y. Miao, B. Liang, D. Cai, S. Wang, X. Duan, D. Jia, Y. Zhou (2017). Effect of the BN content on the thermal shock resistance and properties of BN/SiO2 composites fabricated from mechanically alloyed SiBON powders",
+      "doi": "10.1039/c7ra09905c",
+      "year": 2017,
+      "material": "BN/SiO2",
+      "primary_C_section": "C5.1",
+      "secondary_sections": [
+        "C4.1",
+        "C5.3",
+        "B3.2"
+      ],
+      "allowed_summary": "BN含量、取向和相对密度共变，可讨论混合律输入与各向异性；水淬后强度不能补热后介电。",
+      "supporting_evidence_ids": [
+        "EV000070",
+        "EV000073"
+      ],
+      "limiting_evidence_ids": [
+        "EV000071",
+        "EV000072",
+        "EV000074",
+        "EV000075"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-stage4-2026-09-28/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000070",
+          "location": "§2/3.1；Table1/2，PDF p3",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000073",
+          "location": "§2/3.3；PDF p5正文、p6 Fig.5，基线Table2 p3",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000071",
+          "location": "§2/3.4；PDF p6正文、p9 Fig.10",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000072",
+          "location": "§3.4式5；PDF p6",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000074",
+          "location": "§3.3；PDF p6正文、p7 Fig.6/7",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000075",
+          "location": "§3.3、结论；Fig.6/7",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0017",
+      "label": "Wen 2026：层合穿刺SiO2f/SiO2",
+      "title": "Shuping Wen, Wei Hu, Zhilin Chen, Zhilin Tian, Jijin Huang, Liya Zheng, Bin Li (2026). High-performance SiO2f/SiO2 wave-transparent composites based on laminated puncture method",
+      "doi": "10.1016/j.jeurceramsoc.2026.118181",
+      "year": 2026,
+      "material": "SiO2f/SiO2",
+      "primary_C_section": "C4.3",
+      "secondary_sections": [
+        "C2.3",
+        "B3.2"
+      ],
+      "allowed_summary": "CT孔/裂纹分割和该结构低介电曲线可形成织构案例；单结构不能证明孔的独立贡献，烧蚀后形貌没有配套残余介电。",
+      "supporting_evidence_ids": [
+        "EV000076",
+        "EV000077",
+        "EV000078"
+      ],
+      "limiting_evidence_ids": [],
+      "original_B_use": "Context",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-stage4-2026-09-28/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000076",
+          "location": "§2.2/3.1；PDF p2方法、p3 Fig.3及正文",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000077",
+          "location": "§2.2/3.4；PDF p2方法、p7 Fig.11a、p8正文",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000078",
+          "location": "§2.2/3.3；PDF p6 Fig.8/9、p7 Fig.10",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0018",
+      "label": "Chen 2026：Si3N4/SiO2混编纤维–BN",
+      "title": "Zhilin Chen, Bin Li, Hao Tang, Yingpeng Zhang, Shuping Wen, Anle Wang, Hao Liu, Zhilin Tian (2026). Synergistic enhancement of the performance of BN based wave-transparent composites by hybrid weaving of Si3N4 and SiO2 fibers",
+      "doi": "10.1016/j.compositesa.2026.109897",
+      "year": 2026,
+      "material": "(Si3N4–SiO2)f/BN",
+      "primary_C_section": "C3.3",
+      "secondary_sections": [
+        "C5.3",
+        "C6.1"
+      ],
+      "allowed_summary": "局部TEM显示不同界面过渡，混编复合体有低介电数据；push-in为力学模型量，弛豫时间解释及多相模型未独立验证。",
+      "supporting_evidence_ids": [
+        "EV000079",
+        "EV000081"
+      ],
+      "limiting_evidence_ids": [
+        "EV000080",
+        "EV000082",
+        "EV000083",
+        "EV000084"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-stage4-2026-09-28/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000079",
+          "location": "§3.3；PDF p8 Fig.5",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000081",
+          "location": "§2.2/3.4；PDF p3方法、p9 Fig.6e、p11正文",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000080",
+          "location": "§2.2/3.3式10；PDF p3方法、p7 Fig.4f—i",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000082",
+          "location": "§3.4式22—24；PDF p11、Fig.6f p9",
+          "verification": "Checked",
+          "support": "Insufficient",
+          "role": "limit"
+        },
+        {
+          "id": "EV000083",
+          "location": "§3.4末段、PDF p11—12 Fig.7",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000084",
+          "location": "§3.4式20/21；PDF p11",
+          "verification": "Checked",
+          "support": "Insufficient",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0019",
+      "label": "Zhang 2025：PESO/SiO2复合体及表层",
+      "title": "Xia Zhang, Bo Xiao, Yongzhao Hou, Guangwu Wen (2025). Performance Optimization of SiO2f/SiO2 Composites Derived from Polysiloxane Ceramic Precursors. Molecules 30, 1385.",
+      "doi": "10.3390/molecules30061385",
+      "year": 2025,
+      "material": "SiO2f/SiO2(PESO)，PyC-SiO2/BNNSs名义双界面；另有PESO防潮表层",
+      "primary_C_section": "C5.1",
+      "secondary_sections": [
+        "C3.1",
+        "C5.2"
+      ],
+      "allowed_summary": "基体化学、名义双界面与开孔率同时变化；可作工艺耦合与内外界面区分的限定案例，暂不采用无条件全频低损耗结论。",
+      "supporting_evidence_ids": [
+        "EV000085",
+        "EV000086",
+        "EV000088",
+        "EV000090",
+        "EV000094"
+      ],
+      "limiting_evidence_ids": [
+        "EV000087",
+        "EV000089",
+        "EV000091",
+        "EV000092",
+        "EV000093",
+        "EV000095",
+        "EV000096"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Core",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-stage5-2026-09-29/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000085",
+          "location": "PDF p4—5 §2.2.3—2.2.5；p20 Table3；p25 Fig.16",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000086",
+          "location": "PDF p13 Table1及分析仪器说明；p14 §3.1.3",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000088",
+          "location": "PDF p5—6 §2.3式1/2；p20 Table3",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000090",
+          "location": "PDF p6—7机械方法；p21 Fig.13；p22 Table4/Fig.14",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000094",
+          "location": "PDF p26—27 §3.3.7/Table7",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000087",
+          "location": "PDF p13 Fig.8及末段；p14首段",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000089",
+          "location": "PDF p4 §2.2.3；p16—17 Fig.11",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000091",
+          "location": "PDF p7 §2.3；p24—25 §3.3.5/Fig.16；p28结论",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000092",
+          "location": "PDF p25 §3.3.5 Fig.16后解释段；p4—7方法",
+          "verification": "Checked",
+          "support": "Insufficient",
+          "role": "limit"
+        },
+        {
+          "id": "EV000093",
+          "location": "PDF p15 Eq.21及后两段",
+          "verification": "Partial",
+          "support": "Insufficient",
+          "role": "limit"
+        },
+        {
+          "id": "EV000095",
+          "location": "PDF p27—28 §3.3.7/Fig.18及Table6",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000096",
+          "location": "PDF p27 §3.3.7解释段；p13 Table1；p28 Fig.18",
+          "verification": "Checked",
+          "support": "Insufficient",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0020",
+      "label": "Xia 2019：聚硼硅氧烷防潮层",
+      "title": "Long Xia, Siru Lu, Bo Zhong, Longnan Huang, Hua Yang, Tao Zhang, Haibo Han, Pan Wang, Li Xiong, Guangwu Wen (2019). Effect of boron doping on waterproof and dielectric properties of polyborosiloxane coating on SiO2f/SiO2 composites. Chinese Journal of Aeronautics 32(8), 2017–2027.",
+      "doi": "10.1016/j.cja.2018.11.008",
+      "year": 2019,
+      "material": "2.5D SiO2f/SiO2基底上的聚硼硅氧烷防潮层；介电对象为前驱体/石蜡混样",
+      "primary_C_section": "C5.2",
+      "secondary_sections": [
+        "C2.3",
+        "C6.2"
+      ],
+      "allowed_summary": "接触角与吸湿率排序不同，且介电对象为前驱体/石蜡混样；适合作外表层及测试对象边界，不是内部陶瓷界面核心。",
+      "supporting_evidence_ids": [
+        "EV000097",
+        "EV000098",
+        "EV000099",
+        "EV000100",
+        "EV000101"
+      ],
+      "limiting_evidence_ids": [
+        "EV000102",
+        "EV000103",
+        "EV000104"
+      ],
+      "original_B_use": "Context",
+      "original_C_use": "Context",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-stage6-2026-09-29/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000097",
+          "location": "PDF p3 §2.4；p9 Fig.10图注",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000098",
+          "location": "PDF p2 §2.2—2.3；p3 Table1；p8 Fig9",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000099",
+          "location": "PDF p3—4 WCA/MA方法；p6正文、p7 Fig7/8、p8正文",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000100",
+          "location": "PDF p8 Fig9；p8—9形貌讨论",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000101",
+          "location": "PDF p2—3 TG方法；p5正文；p7 Fig6(a)",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000102",
+          "location": "PDF p3方法；p9 Fig10及正文",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000103",
+          "location": "PDF p4—6 FTIR/XPS讨论；p8—9 SEM/防潮解释",
+          "verification": "Checked",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000104",
+          "location": "PDF p3—4方法；p9介电讨论末句及Fig10",
+          "verification": "Checked",
+          "support": "Insufficient",
+          "role": "limit"
+        }
+      ]
+    },
+    {
+      "Paper_ID": "P0021",
+      "label": "Wan 2016：ZrO2颗粒/熔融石英",
+      "title": "Wei Wan, Yongbao Feng, Jian Yang, Wenbo Bu, Tai Qiu (2016). Microstructure, mechanical and high-temperature dielectric properties of zirconia-reinforced fused silica ceramics. Ceramics International 42(5), 6436–6443.",
+      "doi": "10.1016/j.ceramint.2016.01.063",
+      "year": 2016,
+      "material": "钇稳定氧化锆颗粒增强熔融石英；名义0/5/10/15/20wt%添加",
+      "primary_C_section": "C6.1",
+      "secondary_sections": [
+        "C5.2",
+        "B4.3",
+        "B3.2"
+      ],
+      "allowed_summary": "增强收益与热震后残余性能有取舍；1MHz温度系列损耗明显增加，低ε′与低损耗需分别评价，不能推为GHz高温结果。",
+      "supporting_evidence_ids": [
+        "EV000105",
+        "EV000106",
+        "EV000107",
+        "EV000108",
+        "EV000109",
+        "EV000110"
+      ],
+      "limiting_evidence_ids": [
+        "EV000111",
+        "EV000112",
+        "EV000113"
+      ],
+      "original_B_use": "Core",
+      "original_C_use": "Context",
+      "status": "provisional章节归属；仅已核限定事实可用，限制项不升格",
+      "scientific_source": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "source_manifest": "directions/wave-transparent-composites/docs/bc-stage7-2026-09-30/sources.json",
+      "evidence_locators": [
+        {
+          "id": "EV000105",
+          "location": "PDF p2—4 §2.2；p6 Fig5；p7末段",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000106",
+          "location": "PDF p2 Table1；p3 Fig2；p4 Table2/Fig3；p6讨论",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000107",
+          "location": "PDF p2 §2.2；p4 Table2及正文",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000108",
+          "location": "PDF p2 §2.1；p4 Table2脚注；p5 Fig4；p6讨论",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000109",
+          "location": "PDF p4 Table2；p2—4方法；p6讨论",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000110",
+          "location": "PDF p6 Fig5(a—d)；p7结果首两段/结论",
+          "verification": "Checked",
+          "support": "Sufficient",
+          "role": "support"
+        },
+        {
+          "id": "EV000111",
+          "location": "PDF p2—4方法/Table2；p6 Fig5；p7结果/结论",
+          "verification": "Partial",
+          "support": "Partial",
+          "role": "limit"
+        },
+        {
+          "id": "EV000112",
+          "location": "PDF p4—7讨论；Fig2—5/Table2",
+          "verification": "Checked",
+          "support": "Insufficient",
+          "role": "limit"
+        },
+        {
+          "id": "EV000113",
+          "location": "PDF p7结果末段及结论；p6 Fig5",
+          "verification": "Checked",
+          "support": "Insufficient",
+          "role": "limit"
+        }
+      ]
+    }
+  ],
+  "other_existing_papers": [
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Du-2024-RE2SiO5.md",
+      "label": "Du 2024：稀土单硅酸盐",
+      "title": "Mechanical and dielectric properties of RE2SiO5 (RE=Ho, Er, Tm, Yb, and Lu) as high-temperature wave-transparent materials",
+      "doi": "10.1016/j.ceramint.2024.06.026",
+      "role": "背景暂缓",
+      "proposed_sections": "C2.1；B4.1",
+      "source_E_ids": [
+        "E1",
+        "E3"
+      ],
+      "summary": "组成与温度介电的候选参照；高温损耗图文矛盾尚未解决，不能给定阈值结论。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Wen-2025-RE2Sn2O7.md",
+      "label": "Wen 2025：稀土锡酸盐",
+      "title": "Rare earth stannates: A new high-performance wave-transparent material investigated through theoretical and experimental approaches",
+      "doi": "10.1016/j.mtphys.2024.101622",
+      "role": "背景暂缓",
+      "proposed_sections": "C2.1；C6.3",
+      "source_E_ids": [
+        "E1"
+      ],
+      "summary": "组成/理论—实验筛选的背景线索；不直接支持复合界面与孔结构归因。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Liu-2024-Entropy-ZrP2O7.md",
+      "label": "Liu 2024：中熵焦磷酸盐",
+      "title": "Suppressing the phase transition of ZrP2 O7 by defect and entropy regulation for high-temperature wave-transparent material application",
+      "doi": "10.26599/JAC.2024.9220926",
+      "role": "背景暂缓",
+      "proposed_sections": "B3.1；C5.2",
+      "source_E_ids": [
+        "E1",
+        "E4"
+      ],
+      "summary": "相变调控与高温介电可作基体背景；不把缺陷/熵归因当独立控制，也不扩成高熵材料专章。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Wen-2026-High-Entropy-Disilicate.md",
+      "label": "Wen 2026：高熵二硅酸盐与ML",
+      "title": "Data-Driven Discovery of Composition–Structure–Property Relationship in Novel Wave-Transparent High-Entropy Rare Earth Disilicate",
+      "doi": "10.34133/research.1308",
+      "role": "背景暂缓",
+      "proposed_sections": "C6.3",
+      "source_E_ids": [
+        "E2",
+        "E4"
+      ],
+      "summary": "组成—结构—性质筛选及模型外推边界参考；传统ML不等于LLM，SI/数据未核部分不能支持强泛化。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Zhou-2023-Nitride-CFCMCs-Review.md",
+      "label": "Zhou 2023：氮化物CFCMC综述",
+      "title": "Development of high-temperature wave-transparent nitride-based CFCMCs for aircraft radomes",
+      "doi": "10.1016/j.compositesa.2023.107444",
+      "role": "综述导航",
+      "proposed_sections": "C1.2；C2.1；C3.1；B1",
+      "source_E_ids": [
+        "E1",
+        "E2"
+      ],
+      "summary": "增强体—基体—界面—保护层框架及原始研究导航；转引不增加独立证据数。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Kenion-2022-Radome-Materials-Review.md",
+      "label": "Kenion 2022：天线罩材料与结构",
+      "title": "Dielectric and mechanical properties of hypersonic radome materials and metamaterial design: A review",
+      "doi": "10.1016/j.jeurceramsoc.2021.10.006",
+      "role": "综述导航",
+      "proposed_sections": "C1.1；C2.2；C6.1；B1",
+      "source_E_ids": [
+        "E1",
+        "E3",
+        "E5"
+      ],
+      "summary": "材料/构件层级、孔结构与环境变量的组织参考；不把综合表当统一性能排名。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Nag-2021-High-Temperature-Ceramic-Review.md",
+      "label": "Nag 2021：高温陶瓷天线罩",
+      "title": "High temperature ceramic radomes (HTCR) – a review",
+      "doi": "10.1016/j.ceramint.2021.04.203",
+      "role": "综述导航",
+      "proposed_sections": "C2.1；C4.1；B1",
+      "source_E_ids": [
+        "E1",
+        "E2"
+      ],
+      "summary": "陶瓷材料、制备与孔隙权衡的文献入口，不能将单相数据全称复合体。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Xiang-2023-High-Temperature-Wave-Transparent-Review.md",
+      "label": "Xiang 2023：耐高温透波材料",
+      "title": "Research progress of high temperature resistant electromagnetic wave-transparent materials",
+      "doi": "10.11896/cldb.22090029",
+      "role": "综述导航",
+      "proposed_sections": "C1.2；C3.1；C5.2；B1",
+      "source_E_ids": [
+        "E1",
+        "E2"
+      ],
+      "summary": "纤维/基体/界面/防护的背景及检索线索；室温电学和高温力学分开。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Liu-2025-Microwave-Sintering-Wave-Transparent-Review.md",
+      "label": "Liu 2025：微波烧结炉衬",
+      "title": "Progress on high-temperature wave-transmitting materials in microwave sintering",
+      "doi": "10.14062/j.issn.0454-5648.20240530",
+      "role": "跨应用辅助",
+      "proposed_sections": "C4.2；C6.1；B1",
+      "source_E_ids": [
+        "E1",
+        "E2"
+      ],
+      "summary": "隔热—介电—强度的条件性比较参考，炉衬工况不能当航空GHz服役验证。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Fidan-2023-Ceramic-Defects-Review.md",
+      "label": "Fidan 2023：陶瓷缺陷与失效",
+      "title": "A survey on ceramic radome failure types and the importance of defect determination",
+      "doi": "10.1016/j.engfailanal.2023.107234",
+      "role": "方法辅助",
+      "proposed_sections": "C2.3；C6.2；B2.3",
+      "source_E_ids": [
+        "E3"
+      ],
+      "summary": "缺陷表征尺度与样品适配的导航；不支撑新的独立材料性能数据。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Wu-2019-Ceramic-Thermomechanical-Testing-Review.md",
+      "label": "Wu 2019：陶瓷力热测试",
+      "title": "A review of thermal-mechanical performance test technology for ceramic missile radome",
+      "doi": "10.13957/j.cnki.tcxb.2019.04.002",
+      "role": "方法辅助",
+      "proposed_sections": "C6.1；B2.3",
+      "source_E_ids": [
+        "E2",
+        "E3"
+      ],
+      "summary": "力热指标和材料/构件测试层级的辅助说明，不新增力热性能百科章。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Khatavkar-2016-Composite-Radome-Review.md",
+      "label": "Khatavkar 2016：树脂基及夹层",
+      "title": "Composite materials for supersonic aircraft radomes with ameliorated radio frequency transmission-a review",
+      "doi": "10.1039/c5ra18712e",
+      "role": "跨体系背景，可不引用",
+      "proposed_sections": "C1.2",
+      "source_E_ids": [
+        "E2",
+        "E4"
+      ],
+      "summary": "只用于区分陶瓷与聚合物体系、宏观夹层边界；不进入陶瓷核心比较。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Jiang-2025-NLP-LLM-Materials-Review.md",
+      "label": "Jiang 2025：NLP/LLM材料发现",
+      "title": "Applications of natural language processing and large language models in materials discovery",
+      "doi": "10.1038/s41524-025-01554-0",
+      "role": "可选展望，非核心",
+      "proposed_sections": "C6.3",
+      "source_E_ids": [
+        "E1",
+        "E3"
+      ],
+      "summary": "若保留数据辅助展望，可讨论证据抽取与人工核验；不据此声称已解决陶瓷设计或机制问题。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    },
+    {
+      "page": "directions/wave-transparent-composites/wiki/papers/Tan-2025-rGO-MXene-SiC.md",
+      "label": "Tan 2025：rGO/MXene/SiC吸波",
+      "title": "Hierarchical rGO/MXene aerogels assembled with SiC nanowires for excellent electromagnetic wave absorption and multifunctionality",
+      "doi": "10.1016/j.cej.2025.170964",
+      "role": "排除",
+      "proposed_sections": "不进入任何核心章节",
+      "source_E_ids": [],
+      "summary": "整体目标为吸收；仅保留档案及历史清理状态，不为填机制章节重新启用。",
+      "status": "原页draft；本轮仅分配用途，未重新核全文或升级写作准入"
+    }
+  ]
+}

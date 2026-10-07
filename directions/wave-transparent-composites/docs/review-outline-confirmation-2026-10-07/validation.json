@@ -1,0 +1,26 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "date": "2026-10-07",
+  "status": "proposal-awaiting-user-confirmation",
+  "checks_passed": [
+    "21 BC papers plus 14 other existing identities",
+    "115 EV references belong to mapped papers; support entries Checked/Sufficient",
+    "DOI, title and first-author short labels checked",
+    "all proposed BC section references valid",
+    "XLSX 21/14/115 row counts",
+    "report and mapping local files and E anchors resolve",
+    "authoritative workbook hash and formal goals unchanged",
+    "direction structure check and git diff --check passed"
+  ],
+  "workbook_sha256": "00e196b6fac783db3bc74101327fe2382b29cf02802a16c8351ae50fbbe3f28c",
+  "source_checks_limit": "14 external parser manifest drifts already recorded; not reclassified as passed; no new PDF reading",
+  "new_scientific_evidence": false,
+  "new_user_decision": false,
+  "artifact_sha256": {
+    "chapter-map.json": "83199249d0fcedaecbdaee9a32d01624e71fa89224dfc387b36946c1968e2ef0",
+    "literature-chapter-map.md": "363defbecfc632579e4090f9f26f480cabe1aea3f18e8c4b3b1b3b9592dd8ce7",
+    "literature-chapter-map.xlsx": "5e4fb84637f8e43638f47fafd583b99e2f1539bd900efa30eac27a9c87042813",
+    "report.md": "f7584dc0b6ff245ac5717b55fd04d485acd4998b684771f2c5617f3301403f04",
+    "structure-validation.json": "c698d14c376705f23b9c6844f8ed16940555200c667c2266bce90586d6746a47"
+  }
+}
