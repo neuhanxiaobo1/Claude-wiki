@@ -12,6 +12,8 @@ updated: 2026-10-07
 
 ## 方向入口
 
+- [[directions/wave-transparent-composites/docs/cleanup-2026-10-07/report|当前维护：清理前版本d164ab6已本地提交，上传受阻；13项冗余已核、尚未删除]]。
+
 - [[directions/wave-transparent-composites/docs/review-framework-revision-2026-10-07/report|待确认：参照复读后的综述方案修订]]；[[directions/wave-transparent-composites/docs/review-framework-revision-2026-10-07/chapter-crosswalk|35篇文献的新章节归属]]。上一版标题/目录已被用户要求重做；本版建议C组织主体、B讨论热暴露适用性，尚未替换正式B/C并行目标。原35篇证据定位表作为来源导航保留。
 - [[directions/wave-transparent-composites/AGENTS|方向规则]]
 - [[directions/wave-transparent-composites/memory/project_profile|研究配置]]

@@ -1,0 +1,263 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "date": "2026-10-07",
+  "status": "audit-complete-deletion-pending-upload",
+  "checkpoint": "d164ab6082f7e0d981b99f224af9bb4895537f35",
+  "remote": "https://github.com/neuhanxiaobo1/Claude-wiki.git",
+  "branch": "main",
+  "blockers": [
+    "Automatic approval rejected git push pending explicit destination/content approval.",
+    "Configured proxy 127.0.0.1:7897 unavailable; direct connection to GitHub also failed."
+  ],
+  "inventory_file_count": 421,
+  "inventory_top_level_counts": {
+    ".gitignore": 1,
+    "AGENTS.md": 1,
+    "inbox.md": 1,
+    "index.md": 1,
+    "log.md": 1,
+    "docs": 137,
+    "memory": 6,
+    "raw": 223,
+    "rules": 3,
+    "scripts": 6,
+    "synthesis": 5,
+    "wiki": 36
+  },
+  "scope": "Filename inventory across this direction; hash comparison excludes raw; manual semantic review of retired drafts/template, active replacements and references. No external originals or other direction contents read.",
+  "exact_duplicate_nonempty_groups": [
+    [
+      "docs/bc-stage4-2026-09-28/structure-validation.json",
+      "docs/bc-stage5-2026-09-29/structure-validation.json"
+    ]
+  ],
+  "candidate_count": 13,
+  "candidate_bytes": 211951,
+  "deleted_count": 0,
+  "entries": [
+    {
+      "path": "docs/c-rules-design-v2-2026-09-21/corpus-rules-draft.md",
+      "bytes": 3209,
+      "sha256": "a2108c8bd9f01eb8d9d5b06b2026ccedc9e651e0989bc2cf6de7bbc4ac0a85ea",
+      "reason": "旧C筛选草案",
+      "replacement": "rules/bc-review-workflow.md §1及bc-evidence-contract.md材料对象与用途",
+      "tracked_in_checkpoint": true,
+      "checkpoint_blob": "b03e426efd543265786fa3e81a0763761e0b4b5c",
+      "rebuildable_cache": false,
+      "references": [
+        {
+          "file": "docs/c-rules-design-v2-2026-09-21/report.md",
+          "line": 54,
+          "text": "| [语料与筛选](corpus-rules-draft.md) | memory/corpus_rules.md | C用途、贡献环节、材料边界、检索与下一篇选择 |"
+        }
+      ],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "docs/c-rules-design-v2-2026-09-21/reading-rules-draft.md",
+      "bytes": 3873,
+      "sha256": "59e0e9ba5b3dd1e255d076c79b08381611d83de5f6955f5c53d1903d822d0f9a",
+      "reason": "旧C阅读草案",
+      "replacement": "rules/bc-review-workflow.md §1—3及bc-evidence-contract.md",
+      "tracked_in_checkpoint": true,
+      "checkpoint_blob": "61f5e041f9994e21736809ab33bd2fbfe6202263",
+      "rebuildable_cache": false,
+      "references": [
+        {
+          "file": "docs/c-rules-design-v2-2026-09-21/report.md",
+          "line": 55,
+          "text": "| [阅读与记录](reading-rules-draft.md) | memory/reading_rules.md | 六项最小记录、条件触发模块、机制五问 |"
+        }
+      ],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "docs/c-rules-design-v2-2026-09-21/synthesis-rules-draft.md",
+      "bytes": 3535,
+      "sha256": "66ffcb9b72cf28bcff8441f4f2415f4fe12d087091e09564273174da491c2844",
+      "reason": "旧C综合草案",
+      "replacement": "rules/bc-review-workflow.md §2—4及公共synthesis流程",
+      "tracked_in_checkpoint": true,
+      "checkpoint_blob": "9264be72a7233c009261610a8b35202b8f81199b",
+      "rebuildable_cache": false,
+      "references": [
+        {
+          "file": "docs/c-rules-design-v2-2026-09-21/report.md",
+          "line": 56,
+          "text": "| [综合与比较](synthesis-rules-draft.md) | memory/synthesis_rules.md | 跨尺度接口、独立性、冲突、写作交接 |"
+        }
+      ],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "docs/c-rules-design-v2-2026-09-21/writing-rules-draft.md",
+      "bytes": 4107,
+      "sha256": "cac91e443f1c3dada6c006222907dbdb76e66dabdac5912fb098fbfb1411cbe4",
+      "reason": "旧C写作草案",
+      "replacement": "rules/bc-review-workflow.md §4、公共review流程和保留的style-reference-notes.md",
+      "tracked_in_checkpoint": true,
+      "checkpoint_blob": "e3420500eabbfc28421e5c04524d0f90af778e4b",
+      "rebuildable_cache": false,
+      "references": [
+        {
+          "file": "docs/c-rules-design-v2-2026-09-21/report.md",
+          "line": 57,
+          "text": "| [写作与表达](writing-rules-draft.md) | memory/writing_rules.md | 问题组织、参照转化、措辞、公式/图表与展望 |"
+        }
+      ],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "docs/c-rules-design-v2-2026-09-21/mechanism-record-template.md",
+      "bytes": 1359,
+      "sha256": "fb997fd22e3893f8af93c51b40c487b49b4db984def14ba3e6f200d1b76d405a",
+      "reason": "未启用的重复记录模板",
+      "replacement": "正式Evidence_Records/Synthesis_Map及rules/bc-evidence.schema.json",
+      "tracked_in_checkpoint": true,
+      "checkpoint_blob": "1f3e2f95d711629b16d3e95e192df5c311d9620a",
+      "rebuildable_cache": false,
+      "references": [
+        {
+          "file": "docs/c-rules-design-v2-2026-09-21/report.md",
+          "line": 58,
+          "text": "| [机制记录模板](mechanism-record-template.md) | templates/mechanism-record.md | 原页按需使用，不另填重复表 |"
+        }
+      ],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "docs/bc-integration-2026-09-25/build_candidate.py",
+      "bytes": 10402,
+      "sha256": "a39408a766b569a4b609a480354c88d322aa12361a3131e918d8a2e165d301cd",
+      "reason": "已完成的一次性空模板生成器",
+      "replacement": "正式工作簿和scripts/review_bc/workbook_io.py；不再生成候选库",
+      "tracked_in_checkpoint": true,
+      "checkpoint_blob": "77349ed58673a26c41205ad01784c64977d8bfb8",
+      "rebuildable_cache": false,
+      "references": [],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "docs/bc-integration-2026-09-25/schema.json",
+      "bytes": 9933,
+      "sha256": "7ec16008b7f3a79279661ec243941efbe12212a8b7228fcaf88f32d1e8117da7",
+      "reason": "历史候选字段定义",
+      "replacement": "rules/bc-evidence.schema.json完整保留旧列，并增加Source_Manifest",
+      "tracked_in_checkpoint": true,
+      "checkpoint_blob": "a26afb2e377b36e93e5c6a63ee81a755d7aa08a3",
+      "rebuildable_cache": false,
+      "references": [
+        {
+          "file": "docs/bc-integration-2026-09-25/build_candidate.py",
+          "line": 117,
+          "text": "    ('详细依据', '同目录report.md、schema.json及sources.json；本表为空，不作已入库证明。'),"
+        },
+        {
+          "file": "docs/bc-integration-2026-09-25/build_candidate.py",
+          "line": 130,
+          "text": "(HERE/'schema.json').write_text(json.dumps(schema,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')"
+        },
+        {
+          "file": "docs/bc-integration-2026-09-25/delivery-validation.json",
+          "line": 20,
+          "text": "      \"target\": \"F:\\\\industry software\\\\calude_wiki\\\\directions\\\\wave-transparent-composites\\\\docs\\\\bc-integration-2026-09-25\\\\schema.json\","
+        },
+        {
+          "file": "docs/bc-integration-2026-09-25/report.md",
+          "line": 89,
+          "text": "候选版本[BC_review_evidence_v2_candidate.xlsx](BC_review_evidence_v2_candidate.xlsx)保留全部原列及顺序、三个主表，不加入真实或虚构文献。新增字段与定义见[schema.json](schema.json)。字段按实际用途填写，不要求初筛时填完机制信息："
+        }
+      ],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "docs/bc-integration-2026-09-25/BC_review_evidence_v2_candidate.xlsx",
+      "bytes": 162414,
+      "sha256": "4e1600455445647c41248d528abc1f7fb175b351b8ec4630c5531b52a735899e",
+      "reason": "三个数据表均为空的旧候选模板",
+      "replacement": "synthesis/review_BC/BC_review_evidence.xlsx",
+      "tracked_in_checkpoint": true,
+      "checkpoint_blob": "ec8c080dd24baec08d74adbec1b21ca5aff2f1b3",
+      "rebuildable_cache": false,
+      "references": [
+        {
+          "file": "docs/bc-integration-2026-09-25/build_candidate.py",
+          "line": 17,
+          "text": "target = HERE / 'BC_review_evidence_v2_candidate.xlsx'"
+        },
+        {
+          "file": "docs/bc-integration-2026-09-25/delivery-validation.json",
+          "line": 16,
+          "text": "      \"target\": \"F:\\\\industry software\\\\calude_wiki\\\\directions\\\\wave-transparent-composites\\\\docs\\\\bc-integration-2026-09-25\\\\BC_review_evidence_v2_candidate.xlsx\","
+        },
+        {
+          "file": "docs/bc-integration-2026-09-25/report.md",
+          "line": 89,
+          "text": "候选版本[BC_review_evidence_v2_candidate.xlsx](BC_review_evidence_v2_candidate.xlsx)保留全部原列及顺序、三个主表，不加入真实或虚构文献。新增字段与定义见[schema.json](schema.json)。字段按实际用途填写，不要求初筛时填完机制信息："
+        }
+      ],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "docs/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "已有跟踪文件目录的空占位",
+      "replacement": "目录有实际跟踪内容，无需占位",
+      "tracked_in_checkpoint": true,
+      "checkpoint_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "rebuildable_cache": false,
+      "references": [],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "synthesis/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "已有跟踪文件目录的空占位",
+      "replacement": "目录有实际跟踪内容，无需占位",
+      "tracked_in_checkpoint": true,
+      "checkpoint_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "rebuildable_cache": false,
+      "references": [],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "wiki/papers/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "已有跟踪文件目录的空占位",
+      "replacement": "目录有27个论文页面，无需占位",
+      "tracked_in_checkpoint": true,
+      "checkpoint_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "rebuildable_cache": false,
+      "references": [],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "scripts/review_bc/__pycache__/validate_workbook.cpython-310.pyc",
+      "bytes": 5700,
+      "sha256": "5ddf0c102339f4e36f23d8e4e9a2804a1b4bb5bb344fd2c462db6483ac6cf1a2",
+      "reason": "Python可再生成缓存",
+      "replacement": "对应validate_workbook.py保留",
+      "tracked_in_checkpoint": false,
+      "checkpoint_blob": null,
+      "rebuildable_cache": true,
+      "references": [],
+      "status": "pending-upload-no-deletion"
+    },
+    {
+      "path": "scripts/review_bc/__pycache__/workbook_io.cpython-310.pyc",
+      "bytes": 7419,
+      "sha256": "9b2fbdf7adf1314f9684708a6f4c1609d31a038fcf33632fdae33d53e5e4621e",
+      "reason": "Python可再生成缓存",
+      "replacement": "对应workbook_io.py保留",
+      "tracked_in_checkpoint": false,
+      "checkpoint_blob": null,
+      "rebuildable_cache": true,
+      "references": [],
+      "status": "pending-upload-no-deletion"
+    }
+  ],
+  "workbook_sha256": "00e196b6fac783db3bc74101327fe2382b29cf02802a16c8351ae50fbbe3f28c"
+}

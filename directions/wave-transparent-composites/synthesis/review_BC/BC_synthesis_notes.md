@@ -57,4 +57,4 @@ Q11、Q15—17的既有边界保持；Q18—43按论断依赖安排。Wan2016已
 
 按Paper_ID/EV/SYN筛选工作簿，来源沿Source_Manifest及Source_Location追溯。旧paper的E#路径保留；BC新入库不生成空paper页。字段见[bc-evidence.schema.json](../../rules/bc-evidence.schema.json)，命令见[工具说明](../../scripts/review_bc/README.md)。
 
-`calude_wiki_4.0`为上一确认远程版本；截至2026-10-07，阶段3—8及BC-S1已本地提交e576e1d，上传失败状态提交6df4821，GitHub TLS握手失败导致尚未上传。本轮目录确认稿为其后新的本地增量。14份外部解析清单漂移及备份边界见[[directions/wave-transparent-composites/docs/publication-2026-10-07/report]]；外部PDF、MinerU缓存、raw复核图不在Git备份范围。
+`calude_wiki_4.0`为上一确认远程版本；阶段3—8、BC-S1和最新综述方案已包含在清理前本地提交d164ab6。当前上传同时受网络连接与具体目的地/范围审批阻断；13项冗余已核、尚未删除，最新状态见[[directions/wave-transparent-composites/memory/current_context]]和[[directions/wave-transparent-composites/docs/cleanup-2026-10-07/report]]。14份外部解析清单漂移及备份边界见[[directions/wave-transparent-composites/docs/publication-2026-10-07/report]]；外部PDF、MinerU缓存、raw复核图不在Git备份范围。
