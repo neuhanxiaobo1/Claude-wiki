@@ -1,14 +1,14 @@
 ---
 direction_id: wave-transparent-composites
 created: 2026-09-17
-updated: 2026-09-25
+updated: 2026-10-07
 ---
 
 # 透波复合材料
 
 当前目标：并行验证陶瓷基透波复合材料综述B（热暴露—结构演化—介电稳定性）与C（界面/孔结构—介电响应），A退出当前候选；最终主线和目录按证据收敛。目标及边界见[[directions/wave-transparent-composites/memory/project_profile]]。
 
-当前工作入口：[[directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes|B/C证据与章节工作入口]]。[正式Excel](synthesis/review_BC/BC_review_evidence.xlsx)现有10篇、45条EV、6个SYN；第二批五篇及结构调整见[[directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/report]]。现行流程、领域证据判据和目录职责分别见[[directions/wave-transparent-composites/rules/bc-review-workflow]]、[[directions/wave-transparent-composites/rules/bc-evidence-contract]]、[[directions/wave-transparent-composites/docs/directory-guide]]。本轮成果纳入calude_wiki_4.0发布，实际提交及远程状态以Git引用核验为准。
+当前工作入口：[[directions/wave-transparent-composites/synthesis/review_BC/BC_synthesis_notes|B/C证据与章节工作入口]]。[正式Excel](synthesis/review_BC/BC_review_evidence.xlsx)现有21篇、115条EV、9个SYN；最新P0014补充资料核查及Scopus检索安排见[[directions/wave-transparent-composites/docs/bc-stage8-2026-09-30/report]]。现行流程、领域证据判据和目录职责分别见[[directions/wave-transparent-composites/rules/bc-review-workflow]]、[[directions/wave-transparent-composites/rules/bc-evidence-contract]]、[[directions/wave-transparent-composites/docs/directory-guide]]。用户2026-10-07授权提交并上传当前增量，远程仍待成功核验；[[directions/wave-transparent-composites/docs/publication-2026-10-07/report|发布范围、检查与连接状态]]。上一确认远程发布为calude_wiki_4.0（413a8ca）。
 
 ## 方向入口
 
@@ -24,7 +24,7 @@ updated: 2026-09-25
 
 ## 研究内容
 
-按论文身份取并集共32篇：7篇既有组内研究、15篇外部原始研究、9篇综述/方法参考及1篇非核心吸波候选。旧27个paper页/108条E#保持draft；Excel前5篇与旧页重合，本轮新增5篇只在Excel入库。Excel共10篇的Core-read、逐条核查及用途不能混同整页Verified。2026-09-19移除的CMAS不计入。
+按论文身份取并集共35篇：7篇既有组内研究、18篇外部原始研究、9篇综述/方法参考及1篇非核心吸波候选。旧27个paper页/108条E#保持draft；Excel有13篇与旧页重合，另8篇仅在Excel入库；本轮新纳入Wan2016（P0021），身份并集增加1篇；Sun2011 CBS按新偏好暂缓且未入库。Excel共21篇的Core-read、逐条核查及用途不能混同整页Verified。2026-09-19移除的CMAS不计入。
 
 - 1. [[directions/wave-transparent-composites/wiki/papers/Du-2024-RE2SiO5|稀土单硅酸盐：力学与介电]]。
 - 2. [[directions/wave-transparent-composites/wiki/papers/Wen-2025-RE2Sn2O7|稀土锡酸盐：理论与实验筛选]]。
@@ -50,6 +50,7 @@ PDF原件未复制。[[directions/wave-transparent-composites/raw/zotero_imports
 
 ## 主题筛查
 
+- [[directions/wave-transparent-composites/docs/scopus-S1-screening-2026-10-01/report|BC-S1检索式1筛选：相关30、边界20、排除45]]；[95篇可筛选Excel](docs/scopus-S1-screening-2026-10-01/screening.xlsx)。只读题名/摘要，未计入已入库35篇；先补全文候选及逐篇理由见报告。
 - [[directions/wave-transparent-composites/docs/scope-audit-2026-09-19/report|2026-09-19完整筛查清单与移除结果]]。
 - [[directions/wave-transparent-composites/wiki/papers/Tan-2025-rGO-MXene-SiC|待移除候选：rGO/MXene/SiC吸波论文]]（不计入透波核心文献）。
 
@@ -73,9 +74,13 @@ PDF原件未复制。[[directions/wave-transparent-composites/raw/zotero_imports
 ## 2026-09-21新增原始研究
 
 - [[directions/wave-transparent-composites/docs/ingestion-literature-2026-09-21/report|10篇顺序入库报告、论文导航与引用边界]]。
-- [[directions/wave-transparent-composites/raw/zotero_imports/literature-PI5UBPW7/import_plan|分批入库清单（当前15篇）]]；首批10篇均为processed / draft。
+- [[directions/wave-transparent-composites/raw/zotero_imports/literature-PI5UBPW7/import_plan|分批入库清单（当前18篇）]]；首批10篇均为processed / draft。
 
 ## 当前规则与历史设计导航
+
+- [[directions/wave-transparent-composites/docs/bc-stage4-2026-09-28/report|7篇筛选、3篇定向复核与外部补充任务]]。
+
+- [[directions/wave-transparent-composites/docs/bc-stage3-2026-09-26/report|下一阶段交付：关键补核、已有五篇整理及B/C章节缺口]]。
 
 - [[directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/report|第二批五篇及规则/目录实施结果]]；新文献清单11—15、Paper_ID P0006—P0010。
 - [[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report|首批五篇已有论文的试点记录]]。

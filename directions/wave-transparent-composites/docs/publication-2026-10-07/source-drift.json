@@ -1,0 +1,483 @@
+{
+  "date": "2026-10-07",
+  "scope": "Only registered source paths of current 21 BC papers",
+  "changes": [
+    {
+      "Paper_ID": "P0006",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-batch2-2026-09-25\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\11878\\manifest.json",
+      "expected_sha256": "593de7d99c111b05d63d864eeb76de5e9debfa6f16042d1bd735a49e32bcb192",
+      "observed_sha256": "cfd45fb81f641de786c6c753939471dd011bca1448c6cb2e8f81fbf1c70a8de4",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0006",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0006",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0006",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0007",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-batch2-2026-09-25\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\12820\\manifest.json",
+      "expected_sha256": "7f15c82c8b68b27af432c0d5047db37310ebfb786d66dcfffd1721783ef7fa84",
+      "observed_sha256": "5d39be16d91552d68968916e5bd7e13760144e48e3166d0a80ffc84f957f326e",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0007",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0007",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0007",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0008",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-batch2-2026-09-25\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\12802\\manifest.json",
+      "expected_sha256": "ecb92004cb65d711000bdeba3edd9835a9e06e9c90a1d0ab842f26e7c294b2df",
+      "observed_sha256": "d9c47f5827734190c8487d8df8ad4d6281147c2213c6788360725c0dd16f0a86",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0008",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0008",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0008",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0009",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-batch2-2026-09-25\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\12868\\manifest.json",
+      "expected_sha256": "24e58a3576cb27058765f82fdbe15435419efad8bd1574e7b5101ffe7f3169a2",
+      "observed_sha256": "b8fb4c491371ebe9a41130181b70975de58970e81d3beeadea904a85acc82196",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0009",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0009",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0009",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0010",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-batch2-2026-09-25\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\12749\\manifest.json",
+      "expected_sha256": "214d7ad05850071c04fdee69740d5e5a7b634b542a9a7d5f12ba6129623de50f",
+      "observed_sha256": "4442bf18d81cee991ef8ddccd0b322a5d200ad45b61158f7caad4120f328cbf8",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0010",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0010",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0010",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0011",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-stage3-2026-09-26\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\12736\\manifest.json",
+      "expected_sha256": "e35b612807e274f92f5c0a07af27e4034211343b28e1e46d313209050fc8f4ba",
+      "observed_sha256": "600da1f9a97be30dde4f3af539dd8c91dbe4514e9d421de5624b5bca9abb1334",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0011",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0011",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0011",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0012",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-stage3-2026-09-26\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\11848\\manifest.json",
+      "expected_sha256": "c3557814e162066699066cc8a54d90bdcc77fd3f76c629ae6ab3ae1ad713a7f0",
+      "observed_sha256": "cc346a8387f75a43068eb0f93ae708a7511de8e772f3c5ca0d90c3382ba9b2f2",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0012",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0012",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0012",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0013",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-stage3-2026-09-26\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\12711\\manifest.json",
+      "expected_sha256": "7eac53739e94823147a95c1b4c30e5dc54ffe38ae9b0467f228ec07a1fa680b1",
+      "observed_sha256": "ad63dfdbad3ccfa0c6944939a552e09dc1d1fdea314f4ce589cb1c2548c0430a",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0013",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0013",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0013",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0015",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-stage3-2026-09-26\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\12786\\manifest.json",
+      "expected_sha256": "710d23058c929f05e98d8240716a7d8e0ff54ad408323ce12716ceca633639f7",
+      "observed_sha256": "60d02a1cf56f3da0a16f37eb576e05475dab93286990622aa3b3c5f68712033c",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0015",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0015",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0015",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0016",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-stage4-2026-09-28\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\12871\\manifest.json",
+      "expected_sha256": "37890fb9e0002e49876f790484fa31e55bc87a3d261fd42cc38ff320ac91f69c",
+      "observed_sha256": "e10cb0aa6e7261f2a81965f26237d51c9e54be0056ef581ce97dd6c7996de07b",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0016",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0016",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0016",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0017",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-stage4-2026-09-28\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\10072\\manifest.json",
+      "expected_sha256": "efe97d7316256de67209d4ee6758795482f9b33dc3682a500f616c95c345ac3f",
+      "observed_sha256": "ef1cbfe692543f4705a921b08ff5c4996b3fbb747cde0f632aadf04d88d424ae",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0017",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0017",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0017",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0018",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-stage4-2026-09-28\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\10075\\manifest.json",
+      "expected_sha256": "36d784512579c7cb9550fb7437b458f6f8a9b4827b33d4188e3916877eeca381",
+      "observed_sha256": "be7dd3bb5ef1af22902c8ea52ce9c9ef6e327774b3942c218ca698bbb4ba9fe3",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0018",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0018",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0018",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0019",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-stage5-2026-09-29\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\12713\\manifest.json",
+      "expected_sha256": "793f70dbf3fbf4e45abdc82a966827593274c085fa0f0c783a6cc007b0485330",
+      "observed_sha256": "b722662f58421553918c77bb51e04364d0070171ec04a257afbfaa9271e9a8c8",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0019",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0019",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0019",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    },
+    {
+      "Paper_ID": "P0020",
+      "source_record": "directions\\wave-transparent-composites\\docs\\bc-stage6-2026-09-29\\sources.json",
+      "external_manifest": "D:\\shuju\\zotero1\\llm-for-zotero-mineru\\11871\\manifest.json",
+      "expected_sha256": "a8448672fa2f4a1217a6ac9043e90010cbc09d7996dce8a3f09f6a6f2befe443",
+      "observed_sha256": "8b619b4121159ecefd564cf2848e74f30cb60007aab4374d4ee100bdd539e2a9",
+      "observed_root_keys": [
+        "sections",
+        "allFigures",
+        "allTables",
+        "figureBlocks",
+        "totalPages",
+        "totalChars",
+        "structure"
+      ],
+      "pdf_md_identity_checks": [
+        {
+          "paper": "P0020",
+          "kind": "pdf",
+          "unchanged": true
+        },
+        {
+          "paper": "P0020",
+          "kind": "md",
+          "unchanged": true
+        },
+        {
+          "paper": "P0020",
+          "kind": "identity",
+          "unchanged": true
+        }
+      ],
+      "disposition": "External parser manifest drift remains unresolved. Original PDF/MD/identity hashes match. Preserve historical expected hash and original files; do not use changed parser layout as verified provenance."
+    }
+  ],
+  "scientific_workbook_modified": false
+}

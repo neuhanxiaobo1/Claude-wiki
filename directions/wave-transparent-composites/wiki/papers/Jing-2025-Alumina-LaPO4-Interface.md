@@ -14,7 +14,7 @@ venue: Journal of Alloys and Compounds
 status: processed
 review_status: draft
 created: '2026-09-21'
-updated: '2026-09-21'
+updated: 2026-09-26
 source: C:\Users\youthcookie\OneDrive\1.Science\1.Zotero\pdf2\2025-(J. Alloys Compd.)\Jing
   等 - 2025 - Mechanically robust Al2O3 fLaPO4Al2O3 composite for high-performance
   microwave transparent.pdf
@@ -81,3 +81,7 @@ tags:
 ## Downstream Review
 
 与[[directions/wave-transparent-composites/wiki/papers/Li-2023-BN-SiON-Double-Interphase]]构成氧化物与氮化物界面案例对照；不据两文材料名直接判耐温优劣。候选清单只给阅读理由，尚未传播摘要混合指标。
+
+## B/C定向复核与事实库入口（2026-09-26）
+
+本篇已按现行流程整理为P0011，新增证据EV000046—050。逐条数据、核查范围与综述用途统一维护于[BC正式工作簿](../../synthesis/review_BC/BC_review_evidence.xlsx)；本页保留历史E#及draft状态，不作为第二套同步事实库。该次主文阅读/关键图表覆盖与未决见[[directions/wave-transparent-composites/docs/bc-stage3-2026-09-26/report]]；未读SI不算已核，旧E#未重编号。

@@ -4,7 +4,7 @@ direction_id: wave-transparent-composites
 
 created: 2026-09-17
 
-updated: 2026-09-25
+updated: 2026-10-01
 
 ---
 
@@ -45,3 +45,19 @@ updated: 2026-09-25
 2026-09-25：B/C专用流程接入及五篇试点已完成，见[[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report]]；余下阅读/补核对象与边界统一见[[directions/wave-transparent-composites/memory/current_context]]。旧“等待第三方案”、上传确认、C-v2直接部署待办均已结束或被替代，不重复执行。
 
 2026-09-25（第二批）：新增五篇文献及目录/规则完善已完成，见[[directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/report]]。该任务不再列待入库；后续候选与优先补核统一指向[[directions/wave-transparent-composites/memory/current_context]]及source_check_log，不在此复制执行清单。
+
+2026-09-26：关键补核、五篇已有论文BC整理及章节缺口比较已完成，见[[directions/wave-transparent-composites/docs/bc-stage3-2026-09-26/report]]。本次已选工作不再列待办；未决依赖及下一阶段范围统一见[[directions/wave-transparent-composites/memory/current_context]]。
+
+2026-09-28：剩余7篇已有原始研究已筛选，3篇完成BC定向整理，4篇保留为背景候选；不再重复全量筛这7篇。外部补充候选及筛选门槛见[[directions/wave-transparent-composites/docs/bc-stage4-2026-09-28/report]]，执行状态以current_context为准。
+
+2026-09-29：SHMYTXHH已完成定向精读并入库P0019。后续按阶段5报告补原位/热后介电及受控界面资料；进度见current_context，不重复安排本篇入库。
+
+2026-09-29后续：Wan2016（10.1016/j.ceramint.2016.01.063）在本轮本地搜索未找到全文；Sun2011 CBS（VLPDHM46）实时确认无附件，均保留待补PDF。Xia2019已完成P0020背景入库。候选筛选/获取边界见[[directions/wave-transparent-composites/docs/bc-stage6-2026-09-29/report]]；进度仅以current_context为准。
+
+
+2026-09-30更新：Wan2016附件已补并入库P0021；Sun2011按用户新偏好暂缓，上一条“均待补PDF”不再是当前任务。下一步筛选与可选SI补件统一见current_context及[[directions/wave-transparent-composites/docs/bc-stage7-2026-09-30/report]]。
+
+
+2026-09-30 SI后续：P0014 TableS1/S6已补核，不再列缺件；用户愿在Scopus检索，待返回[[directions/wave-transparent-composites/docs/bc-stage8-2026-09-30/scopus-searches|定向检索题录]]后筛选，未自动导入新论文。进度统一见current_context。
+
+2026-10-01：检索式1返回“透波词条”95篇已完成BC-S1摘要筛选，见[[directions/wave-transparent-composites/docs/scopus-S1-screening-2026-10-01/report]]；不再列等待S1题录。候选尚未入库，少量PDF补件与检索式2/3安排统一见current_context。

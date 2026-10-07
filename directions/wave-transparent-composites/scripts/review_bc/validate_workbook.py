@@ -20,7 +20,7 @@ def run():
         if s['item_key']!=str(paper['Zotero_Item_Key']).split(':')[-1]:errors.append(paper['Paper_ID']+': source item mismatch')
     source_checks=[]
     for s in sources:
-        for kind in [k for k in ['pdf','md','manifest','identity'] if k+'_sha256' in s]:
+        for kind in [k for k in ['pdf','md','manifest','identity','si'] if k+'_sha256' in s]:
             p=Path(s[kind]);same=p.is_file() and hashlib.sha256(p.read_bytes()).hexdigest()==s[kind+'_sha256']
             source_checks.append({'paper':s['Paper_ID'],'kind':kind,'unchanged':same})
             if not same:errors.append(s['Paper_ID']+': source missing/changed '+kind)

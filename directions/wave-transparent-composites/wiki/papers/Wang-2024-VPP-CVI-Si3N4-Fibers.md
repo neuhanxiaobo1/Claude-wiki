@@ -15,7 +15,7 @@ venue: Additive Manufacturing
 status: processed
 review_status: draft
 created: '2026-09-21'
-updated: '2026-09-21'
+updated: 2026-09-26
 source: C:\Users\youthcookie\OneDrive\1.Science\1.Zotero\pdf2\2024-(Addit. Manuf.)\Wang
   等 - 2024 - Preparation of Si3N4fSi3N4 wave-transparent composites by vat photopolymerization
   combined with che.pdf
@@ -82,3 +82,7 @@ tags:
 ## Downstream Review
 
 与[[directions/wave-transparent-composites/wiki/papers/Meng-2023-PIP-Heating-Rate-Si3N4]]形成不同致密化路线参考；短纤维与连续纤维结构、孔隙及测试不同，不能按KIC数值直接排名。
+
+## B/C定向复核与事实库入口（2026-09-26）
+
+本篇已按现行流程整理为P0012，新增证据EV000051—054。逐条数据、核查范围与综述用途统一维护于[BC正式工作簿](../../synthesis/review_BC/BC_review_evidence.xlsx)；本页保留历史E#及draft状态，不作为第二套同步事实库。该次主文阅读/关键图表覆盖与未决见[[directions/wave-transparent-composites/docs/bc-stage3-2026-09-26/report]]；未读SI不算已核，旧E#未重编号。

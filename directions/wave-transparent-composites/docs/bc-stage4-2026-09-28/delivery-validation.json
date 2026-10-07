@@ -1,0 +1,280 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "checked": "2026-09-28",
+  "published_base": "413a8cab53c4ac6cc36d01d2f8237cdc5ef1c7b1",
+  "workbook_sha256": "981d20bcc9dca3a6a97e51ac7bdf7b4955d8a96c0d2e3fdeb45e658952b262fc",
+  "reports": {
+    "workbook-validation.json": {
+      "exit_code": 0
+    },
+    "contract-checks.json": {
+      "exit_code": 0
+    },
+    "structure-validation.json": {
+      "exit_code": 0
+    }
+  },
+  "counts": {
+    "Paper_Index": 18,
+    "Evidence_Records": 84,
+    "Synthesis_Map": 9
+  },
+  "previous_stage_record_changes": {
+    "Paper_Index": {
+      "old_records": 15,
+      "differences": []
+    },
+    "Evidence_Records": {
+      "old_records": 69,
+      "differences": []
+    },
+    "Synthesis_Map": {
+      "old_records": 8,
+      "differences": [
+        {
+          "id": "SYN-B-003",
+          "field": "Contradicting_or_Limiting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-B-003",
+          "field": "Key_Differences",
+          "allowed": true
+        },
+        {
+          "id": "SYN-B-003",
+          "field": "What_Remains_Uncertain",
+          "allowed": true
+        },
+        {
+          "id": "SYN-B-003",
+          "field": "Limiting_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-005",
+          "field": "Candidate_Claim",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-005",
+          "field": "Supporting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-005",
+          "field": "Contradicting_or_Limiting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-005",
+          "field": "Common_Conditions",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-005",
+          "field": "Key_Differences",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-005",
+          "field": "What_Remains_Uncertain",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-005",
+          "field": "Supporting_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-005",
+          "field": "Limiting_Evidence_IDs",
+          "allowed": true
+        }
+      ]
+    }
+  },
+  "screened_source_checks": [
+    {
+      "screen_id": "S1",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S1",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S1",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S1",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S2",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S2",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S2",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S2",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S3",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S3",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S3",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S3",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S4",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S4",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S4",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S4",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S5",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S5",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S5",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S5",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S6",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S6",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S6",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S6",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S7",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S7",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S7",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "screen_id": "S7",
+      "kind": "identity",
+      "unchanged": true
+    }
+  ],
+  "legacy_paper_count": 27,
+  "legacy_evidence_anchors_before_after": [
+    108,
+    108
+  ],
+  "changed_legacy_papers": [
+    "directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN.md",
+    "directions/wave-transparent-composites/wiki/papers/Jing-2025-Alumina-LaPO4-Interface.md",
+    "directions/wave-transparent-composites/wiki/papers/Li-2017-BN-SiO2-Thermal-Shock.md",
+    "directions/wave-transparent-composites/wiki/papers/Wang-2024-VPP-CVI-Si3N4-Fibers.md",
+    "directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2.md",
+    "directions/wave-transparent-composites/wiki/papers/Yu-2024-Low-Carbon-SiBCN.md",
+    "directions/wave-transparent-composites/wiki/papers/Zhang-2023-Si3N4-SiO2-Nanowire-Aerogels.md",
+    "directions/wave-transparent-composites/wiki/papers/Zhang-2025-Needle-Punched-SiO2-Composites.md"
+  ],
+  "import_version": "2026-09-28-v5",
+  "import_items": 15,
+  "source_ids": [
+    "P0016",
+    "P0017",
+    "P0018"
+  ],
+  "local_link_check": {
+    "files": 23,
+    "targets": 245,
+    "missing": [],
+    "anchor_slugs_checked": false
+  },
+  "review_workspace_files": [
+    "BC_review_evidence.xlsx",
+    "BC_synthesis_notes.md",
+    "source_check_log.md"
+  ],
+  "all_git_changes_within_direction": true,
+  "diff_check_exit_code": 0,
+  "git_read_warnings": [
+    "warning: unable to access 'C:\\Users\\youthcookie/.config/git/ignore': Permission denied"
+  ],
+  "uploaded": false,
+  "scientific_correctness_automatically_verified": false,
+  "errors": []
+}

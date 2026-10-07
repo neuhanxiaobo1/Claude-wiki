@@ -5,7 +5,7 @@ title: 组内透波材料基础与公开性能参照
 status: draft
 review_status: draft
 created: 2026-09-18
-updated: 2026-09-19
+updated: 2026-09-28
 tags: [synthesis]
 ---
 
@@ -25,8 +25,8 @@ tags: [synthesis]
 
 | 材料/变量 | 介电结果及条件 | 热学结果及条件 | 力学结果/操作定义 | 证据及核查 |
 |---|---|---|---|---|
-| 层合穿刺SiO2f/SiO2；Z向纤维、溶胶凝胶 | 室温12–18 GHz εr≈3、tanδ<0.004 | κ约0.3–0.6（作者概括，273–1273 K）；CTE约6.66×10⁻⁷（373–1073 K） | 抗弯93±18.1 MPa、压缩146±9.6 MPa；不是模量 | [[directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2#E1]]、[[directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2#E4]]；本轮新增Fig.11核查；draft |
-| (Si3N4–SiO2)f/BN；混编、PIP、差异界面 | 室温12–18 GHz εr<3.8；tanδ约0.005，Fig.7代表值0.0058 | κ室温0.822、1073 K为1.752；CTE约(2–4.5)×10⁻⁶，图示约500–1273 K | 抗弯87.17±13.79 MPa，KIC=3.52±0.12 MPa·m½；组元压痕模量147.08/63.16/21.60 GPa分别对应氮化硅纤维/石英纤维/BN，不是整体模量 | [[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E1]]、[[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E3]]、[[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E5]]、[[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E6]]；本轮Fig.4/6核查；draft |
+| 层合穿刺SiO2f/SiO2；Z向纤维、溶胶凝胶 | 12–18 GHz（介电测温NR，2026-09-28更正）εr≈3、tanδ<0.004 | κ约0.3–0.6（作者概括，273–1273 K）；CTE约6.66×10⁻⁷（373–1073 K） | 抗弯93±18.1 MPa、压缩146±9.6 MPa；不是模量 | [[directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2#E1]]、[[directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2#E4]]；本轮新增Fig.11核查；draft |
+| (Si3N4–SiO2)f/BN；混编、PIP、差异界面 | 12–18 GHz（介电测温NR，2026-09-28更正）εr<3.8；tanδ约0.005，Fig.7代表值0.0058 | κ室温0.822、1073 K为1.752；CTE约(2–4.5)×10⁻⁶，图示约500–1273 K | 抗弯87.17±13.79 MPa，KIC=3.52±0.12 MPa·m½；组元压痕模量147.08/63.16/21.60 GPa分别对应氮化硅纤维/石英纤维/BN，不是整体模量 | [[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E1]]、[[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E3]]、[[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E5]]、[[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E6]]；本轮Fig.4/6核查；draft |
 | 双溶剂模板多孔Si3N4；1:2配比、孔结构 | 室温12.4–18 GHz εr≈3.3；高温另法25–1100 °C εr约5.0–5.5、tanδ<0.006 | 室温κ≈4.2 | 抗弯95±14.8 MPa、压缩132±4.5 MPa（摘要口径）；正文最大值不同，保持争议 | [[directions/wave-transparent-composites/wiki/papers/Liu-2024-Porous-Si3N4#E1]]、[[directions/wave-transparent-composites/wiki/papers/Liu-2024-Porous-Si3N4#E2]]、[[directions/wave-transparent-composites/wiki/papers/Liu-2024-Porous-Si3N4#E4]]；已核关键原图，draft |
 | RE2SiO5；Ho/Er/Tm/Yb/Lu | 室温9.7/14.5 GHz εr约5.3–6.6，Yb tanδ约0.0017 | 本文不能用引言转引κ冒充新测量 | 压痕约化模量均值约131.55–160.33 GPa；并非复合材料宏观模量 | [[directions/wave-transparent-composites/wiki/papers/Du-2024-RE2SiO5#E1]]、[[directions/wave-transparent-composites/wiki/papers/Du-2024-RE2SiO5#E2]]；高温损耗图文冲突，draft |
 | RE2Sn2O7；九种稀土 | 室温9.6/14.4 GHz εr约7–9，Er tanδ约0.001 | 1000 °C Eu κ≈1.85、Nd≈4.28；CTE La/Er 8.62/9.24×10⁻⁶，曲线约373–1273 K | 实验压痕推得模量均值约214.1–245.3 GPa；不是宏观抗弯模量，实测不严格随半径单调 | [[directions/wave-transparent-composites/wiki/papers/Wen-2025-RE2Sn2O7#E2]]、[[directions/wave-transparent-composites/wiki/papers/Wen-2025-RE2Sn2O7#E3]]；CTE本轮原PDF Fig.14核查，draft |
@@ -52,7 +52,7 @@ tags: [synthesis]
 1. **材料与指标重点**：supported within corpus。复合材料路线已做纤维织构、混编和界面表征；陶瓷路线已做孔结构、稀土组成、固溶和熵调控。主要目标是低κ、较低εr/tanδ、受控CTE与足够的强度/韧性，不是单独追求高模量。证据为上述7个独立组内数据组。
 2. **性能位置**：partially-supported / qualitative-only。层合石英体系的力学和隔热数值与公开同类处于相近量级；混编BN体系已展示性能协调，但另一些氮化硅基纤维体系给出更高强度/韧性。不能把两条路线写成一个总分或“离国际领先差X%”。
 3. **模量口径**：supported。组内131–160、214–245 GPa主要来自陶瓷局部压痕，混编页147/63/22 GPa来自组元；国际石英107 MPa文中的17.5 GPa为复合材料整体弯曲模量。指标层级不同，not-directly-comparable，不构成组内高一个数量级的优势。
-4. **验证完整度**：insufficient-evidence for world-leading service performance。这7篇透波相关论文中的两种纤维复合材料主要证明室温介电与分别测得的热/力学性质，尚缺同一服役工况下高温透射/插入损耗、受载后性能、长期循环与残余强度的完整链条；这是当前语料的验证缺项，不推定课题组从未开展，也不直接称领域空白。
+4. **验证完整度**：insufficient-evidence for world-leading service performance。这7篇透波相关论文中的两种纤维复合材料主要提供介电（测试温度未明确，不能继续标为室温）与分别测得的热/力学性质，尚缺同一服役工况下高温透射/插入损耗、受载后性能、长期循环与残余强度的完整链条；这是当前语料的验证缺项，不推定课题组从未开展，也不直接称领域空白。
 5. **低指标不是万能目标**：AI评价。低κ有利于隔热，不代表散热应用更好；低CTE需兼顾连接匹配；低εr需同时看tanδ、厚度和透射率；高模量需与强度/韧性及热应力一起评价。后续课题应选定应用和比较条件再设门槛。
 
 ## 本轮结论与后续

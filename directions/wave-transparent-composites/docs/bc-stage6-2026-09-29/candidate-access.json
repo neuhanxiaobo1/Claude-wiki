@@ -1,0 +1,90 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "checked": "2026-09-29",
+  "wan_doi": "10.1016/j.ceramint.2016.01.063",
+  "wan_fulltext_obtained": false,
+  "cbs_item_key": "VLPDHM46",
+  "cbs_live_attachment_count": 0,
+  "title_searches": {
+    "zirconia-reinforced": 0,
+    "fused silica": 5
+  },
+  "general_doi_query": "325 noisy matches, first100 returned; not an exact DOI exclusion test",
+  "screen_scope": "6 title matches from 88-item 2026-09-21 snapshot; abstracts read; only Xia2019 fulltext read",
+  "candidates": [
+    {
+      "item_key": "NATGYNND",
+      "title": "Influence of dip-coated boron nitride interphase on mechanical and dielectric properties of SiCf/SiC composites",
+      "doi": "10.1016/j.msea.2013.04.054",
+      "snapshot_pdf_count": 1,
+      "decision": "暂缓；摘要介电对象为SiC织物，需核低损耗及对象映射"
+    },
+    {
+      "item_key": "5RPEN4VF",
+      "title": "Effect of boron doping on waterproof and dielectric properties of polyborosiloxane coating on SiO2f/SiO2 composites",
+      "doi": "10.1016/j.cja.2018.11.008",
+      "snapshot_pdf_count": 1,
+      "decision": "P0020，B/C Context"
+    },
+    {
+      "item_key": "4YN4LWP9",
+      "title": "Study on the fiber/matrix interface modification of Si3N4 f/SiO2 composites with polymer derived double-layer coatings",
+      "doi": "10.1016/j.jeurceramsoc.2023.08.010",
+      "snapshot_pdf_count": 1,
+      "decision": "已入BC P0003，跳过重复"
+    },
+    {
+      "item_key": "8ZL4IPXL",
+      "title": "Flexible and antistatic carbon fiber/silicone rubber composite coating with improved thermal stability, mechanical and wave-transmission properties",
+      "doi": "10.1016/j.coco.2024.102130",
+      "snapshot_pdf_count": 1,
+      "decision": "本轮不选，树脂体系"
+    },
+    {
+      "item_key": "5C89DVSE",
+      "title": "Effects of coatings of SiO2/(Si3N4+BN) radome materials on its mechanical and dielectric properties",
+      "doi": "",
+      "snapshot_pdf_count": 0,
+      "decision": "待全文，快照无附件，未刷新该条目"
+    },
+    {
+      "item_key": "VLPDHM46",
+      "title": "Effects of CBS coating on dielectric properties of porous Si3N4 ceramic at high temperature and high frequency",
+      "doi": "",
+      "snapshot_pdf_count": 0,
+      "decision": "优先补全文，实时MCP无附件"
+    }
+  ],
+  "public_requests": [
+    {
+      "label": "crossref",
+      "url": "https://api.crossref.org/works?rows=2&query.title=Microstructure%20mechanical%20and%20high-temperature%20dielectric%20properties%20of%20zirconia-reinforced%20fused%20silica%20ceramics",
+      "status": 200,
+      "bytes": 22284
+    },
+    {
+      "label": "publisher",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272884216000948",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "label": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.ceramint.2016.01.063",
+      "status": 200,
+      "bytes": 14505
+    },
+    {
+      "label": "semantic",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.ceramint.2016.01.063?fields=title,openAccessPdf",
+      "status": 200,
+      "bytes": 250
+    },
+    {
+      "label": "elsevier",
+      "url": "https://api.elsevier.com/content/article/PII:S0272884216000948?httpAccept=text/xml",
+      "status": 200,
+      "bytes": 1866
+    }
+  ],
+  "zotero_written": false
+}

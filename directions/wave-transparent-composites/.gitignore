@@ -1,2 +1,6 @@
 # Track only the authoritative, derived B/C review workbook.
 !/synthesis/review_BC/BC_review_evidence.xlsx
+
+# Reviewed derived BC-S1 screening exports included in the 2026-10-07 publication.
+!/docs/scopus-S1-screening-2026-10-01/screening.xlsx
+!/docs/scopus-S1-screening-2026-10-01/screening.csv

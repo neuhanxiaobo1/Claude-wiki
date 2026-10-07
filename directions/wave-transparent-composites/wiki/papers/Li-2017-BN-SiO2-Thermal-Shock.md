@@ -18,7 +18,7 @@ venue: RSC Advances
 status: processed
 review_status: draft
 created: '2026-09-21'
-updated: '2026-09-21'
+updated: 2026-09-28
 source: C:\Users\youthcookie\OneDrive\1.Science\1.Zotero\pdf2\2017-(RSC Adv.)\Li 等
   - 2017 - Effect of the BN content on the thermal shock resistance and properties
   of BNSiO2 composites fabric.pdf
@@ -66,7 +66,7 @@ tags:
 
 ## 机制与综述用途
 
-作者以BN取向、相对密度及界面应力解释力学变化；以硼硅酸盐玻璃和表层SiO2晶体解释热震后较高保留率。形貌/XRD/EDS提供关联证据，但玻璃封孔、晶体增强与孔隙效应未被完全独立分离，属于作者机制解释。
+作者以BN取向、相对密度及界面应力解释力学变化；以硼硅酸盐玻璃和表层SiO2晶体解释热震后较高保留率。形貌/XRD/EDS提供关联证据，但玻璃封孔、晶体增强与孔隙效应未被完全独立分离，属于作者机制解释。2026-09-28补核发现Fig.7的正文指1000℃、图注指900℃，结构变化的具体热状态未决；见EV000074/Q26，不擅定其中一个温度。
 
 适合综述的“组成—微结构—热震/介电权衡”章节。不能拼接S5BN强度、S6BN热震保持率和其他配比介电最低值。没有据此作国际领先排名。
 
@@ -75,3 +75,7 @@ tags:
 - PDF/MD来源映射已核；方法、主结果和结论已读，关键表和图已目视核对。
 - 力学、热震后与高温原位性能已区分，样品摩尔比及温区已记录。
 - 介电图文冲突、导热温区和最低密度表述已限定；热震完整协议与原始数据仍待补核。
+
+## B/C定向复核入口（2026-09-28）
+
+本篇整理为P0016，本次证据EV000070—075。事实/综合统一维护于[BC正式工作簿](../../synthesis/review_BC/BC_review_evidence.xlsx)，旧E#及draft状态保留；覆盖见[[directions/wave-transparent-composites/docs/bc-stage4-2026-09-28/report]]。不新增重复论文身份，不将未读SI标为已核。

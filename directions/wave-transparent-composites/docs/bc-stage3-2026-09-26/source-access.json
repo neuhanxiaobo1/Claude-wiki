@@ -1,0 +1,39 @@
+[
+  {
+    "item": "J9H688ET",
+    "attachment_count": 1,
+    "attachments": [
+      {
+        "key": "8UBI7IJV",
+        "title": "Song 等 - 2019 - Microstructure and dielectric property evolution of self-healing PDC-SiBCN in static air.pdf",
+        "contentType": "application/pdf"
+      }
+    ]
+  },
+  {
+    "item": "UPBQGISW",
+    "attachment_count": 1,
+    "attachments": [
+      {
+        "key": "75DNT4YX",
+        "title": "Ye 等 - 2024 - Design and preparation of sandwich structured Si3N4 ceramics for broadband microwave transmission.pdf",
+        "contentType": "application/pdf"
+      }
+    ]
+  },
+  {
+    "candidate_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0272884224001639-mmc1.pdf",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "candidate_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0272884224001639-mmc1.docx",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "candidate_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0272884224001639-mmc1.doc",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

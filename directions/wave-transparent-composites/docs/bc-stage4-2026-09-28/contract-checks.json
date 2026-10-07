@@ -1,0 +1,39 @@
+{
+  "source_sha256": "981d20bcc9dca3a6a97e51ac7bdf7b4955d8a96c0d2e3fdeb45e658952b262fc",
+  "negative_checks": [
+    {
+      "case": "duplicate EV",
+      "rejected": true
+    },
+    {
+      "case": "unknown paper",
+      "rejected": true
+    },
+    {
+      "case": "missing source manifest",
+      "rejected": true
+    },
+    {
+      "case": "out-of-direction source",
+      "rejected": true
+    },
+    {
+      "case": "unchecked Ready",
+      "rejected": true
+    },
+    {
+      "case": "unclassified cannot be Checked",
+      "rejected": true
+    },
+    {
+      "case": "interpretation is not observation",
+      "rejected": true
+    },
+    {
+      "case": "unknown related EV",
+      "rejected": true
+    }
+  ],
+  "workbook_unchanged": true,
+  "scientific_correctness_tested": false
+}

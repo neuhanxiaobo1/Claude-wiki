@@ -1,0 +1,28 @@
+{
+  "before_sha256": "981d20bcc9dca3a6a97e51ac7bdf7b4955d8a96c0d2e3fdeb45e658952b262fc",
+  "after_sha256": "5c871b42c0aa02f007c4cb2f6004c4beab98f4a8b4045cf77c37ede4e662eef6",
+  "new_papers": [
+    "P0019"
+  ],
+  "new_evidence": [
+    "EV000085",
+    "EV000086",
+    "EV000087",
+    "EV000088",
+    "EV000089",
+    "EV000090",
+    "EV000091",
+    "EV000092",
+    "EV000093",
+    "EV000094",
+    "EV000095",
+    "EV000096"
+  ],
+  "updated_syntheses": [
+    "SYN-B-003",
+    "SYN-C-005",
+    "SYN-C-006"
+  ],
+  "new_syntheses": [],
+  "prior_paper_and_evidence_cells_unchanged": true
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-07",
+  "screening_artifact_hashes_unchanged": {
+    "screening.xlsx": true,
+    "screening.csv": true,
+    "report.md": true,
+    "sources.json": true
+  },
+  "contract_checks_passed": 8,
+  "BC_workbook_sha256_unchanged": "00e196b6fac783db3bc74101327fe2382b29cf02802a16c8351ae50fbbe3f28c",
+  "source_check_status": "14 external parser manifest hash mismatches; see workbook-validation.json; not passed",
+  "scope": "derived direction knowledge and screening outputs; raw/external sources not uploaded"
+}

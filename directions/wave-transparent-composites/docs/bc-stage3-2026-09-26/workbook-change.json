@@ -1,0 +1,32 @@
+{
+  "before_sha256": "72540d1f6ec53c0437681608bdd839b648f0c37b01e2730337441a45fc8e744e",
+  "after_sha256": "c95ad0ef54412f720e58327fea40e60b7d45aeea554e7b5a2517eccb1f2d8494",
+  "new_papers": [
+    "P0011",
+    "P0012",
+    "P0013",
+    "P0014",
+    "P0015"
+  ],
+  "new_evidence": [
+    "EV000046",
+    "EV000069"
+  ],
+  "new_syntheses": [
+    "SYN-B-003",
+    "SYN-C-005"
+  ],
+  "updated_syntheses": [
+    "SYN-C-003",
+    "SYN-C-004"
+  ],
+  "followup_scope_only": [
+    "EV000030",
+    "EV000041",
+    "EV000042",
+    "EV000044",
+    "EV000045"
+  ],
+  "prior_numeric_values_changed": false,
+  "new_record_locator_reviewed": true
+}

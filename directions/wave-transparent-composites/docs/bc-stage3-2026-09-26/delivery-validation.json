@@ -1,0 +1,213 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "checked": "2026-09-26",
+  "published_base": "413a8cab53c4ac6cc36d01d2f8237cdc5ef1c7b1",
+  "workbook_sha256": "c95ad0ef54412f720e58327fea40e60b7d45aeea554e7b5a2517eccb1f2d8494",
+  "reports": {
+    "workbook-validation.json": {
+      "exit_code": 0
+    },
+    "contract-checks.json": {
+      "exit_code": 0
+    },
+    "structure-validation.json": {
+      "exit_code": 0
+    }
+  },
+  "counts": {
+    "Paper_Index": 15,
+    "Evidence_Records": 69,
+    "Synthesis_Map": 8
+  },
+  "published_record_changes": {
+    "Paper_Index": {
+      "old_records": 10,
+      "differences": []
+    },
+    "Evidence_Records": {
+      "old_records": 45,
+      "differences": [
+        {
+          "id": "EV000030",
+          "field": "Verification_Scope",
+          "allowed": true
+        },
+        {
+          "id": "EV000030",
+          "field": "Check_Reason",
+          "allowed": true
+        },
+        {
+          "id": "EV000041",
+          "field": "Verification_Scope",
+          "allowed": true
+        },
+        {
+          "id": "EV000041",
+          "field": "Check_Reason",
+          "allowed": true
+        },
+        {
+          "id": "EV000042",
+          "field": "Verification_Scope",
+          "allowed": true
+        },
+        {
+          "id": "EV000042",
+          "field": "Check_Reason",
+          "allowed": true
+        },
+        {
+          "id": "EV000044",
+          "field": "Verification_Scope",
+          "allowed": true
+        },
+        {
+          "id": "EV000044",
+          "field": "Check_Reason",
+          "allowed": true
+        },
+        {
+          "id": "EV000045",
+          "field": "Verification_Scope",
+          "allowed": true
+        },
+        {
+          "id": "EV000045",
+          "field": "Check_Reason",
+          "allowed": true
+        }
+      ]
+    },
+    "Synthesis_Map": {
+      "old_records": 6,
+      "differences": [
+        {
+          "id": "SYN-C-003",
+          "field": "Synthesis_Question",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-003",
+          "field": "Candidate_Claim",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-003",
+          "field": "Supporting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-003",
+          "field": "Contradicting_or_Limiting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-003",
+          "field": "Common_Conditions",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-003",
+          "field": "Key_Differences",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-003",
+          "field": "What_Is_Established",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-003",
+          "field": "Figure_or_Table_Idea",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-003",
+          "field": "Supporting_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-003",
+          "field": "Limiting_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-004",
+          "field": "Candidate_Claim",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-004",
+          "field": "Supporting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-004",
+          "field": "Contradicting_or_Limiting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-004",
+          "field": "Key_Differences",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-004",
+          "field": "What_Remains_Uncertain",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-004",
+          "field": "Supporting_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-004",
+          "field": "Limiting_Evidence_IDs",
+          "allowed": true
+        }
+      ]
+    }
+  },
+  "legacy_paper_count": 27,
+  "legacy_evidence_anchors_before_after": [
+    108,
+    108
+  ],
+  "changed_legacy_papers": [
+    "directions/wave-transparent-composites/wiki/papers/Jing-2025-Alumina-LaPO4-Interface.md",
+    "directions/wave-transparent-composites/wiki/papers/Wang-2024-VPP-CVI-Si3N4-Fibers.md",
+    "directions/wave-transparent-composites/wiki/papers/Yu-2024-Low-Carbon-SiBCN.md",
+    "directions/wave-transparent-composites/wiki/papers/Zhang-2023-Si3N4-SiO2-Nanowire-Aerogels.md",
+    "directions/wave-transparent-composites/wiki/papers/Zhang-2025-Needle-Punched-SiO2-Composites.md"
+  ],
+  "import_version": "2026-09-26-v4",
+  "import_items": 15,
+  "source_ids": [
+    "P0011",
+    "P0012",
+    "P0013",
+    "P0014",
+    "P0015"
+  ],
+  "local_link_check": {
+    "files": 16,
+    "targets": 177,
+    "missing": [],
+    "anchor_slugs_checked": false
+  },
+  "review_workspace_files": [
+    "BC_review_evidence.xlsx",
+    "BC_synthesis_notes.md",
+    "source_check_log.md"
+  ],
+  "all_git_changes_within_direction": true,
+  "diff_check_exit_code": 0,
+  "git_read_warnings": [
+    "warning: unable to access 'C:\\Users\\youthcookie/.config/git/ignore': Permission denied"
+  ],
+  "uploaded": false,
+  "scientific_correctness_automatically_verified": false,
+  "errors": []
+}

@@ -16,7 +16,7 @@ venue: Journal of the European Ceramic Society
 status: processed
 review_status: draft
 created: '2026-09-17'
-updated: '2026-09-18'
+updated: 2026-09-28
 source: D:\shuju\zotero1\llm-for-zotero-mineru\10072\full.md
 source_version: 英文主附件的MinerU解析；MD哈希见sources.json
 zotero_collection: BSQRX4DM
@@ -55,7 +55,7 @@ Novelty status: not assessed。未做领域优先性检索，作者首次性宣�
 
 | Element | Details | Source |
 |---|---|---|
-| 对象、条件、测试与模型 | 准三维预制体，硅溶胶浸渍、分级干燥及800 °C热处理，累计6次循环；密度约1.75 g/cm³。μCT、三点弯曲/压缩、DIC、氧乙炔烧蚀10 s、室温12–18 GHz介电及热学测试；不少织构比较来自既有文献，非同期同批控制。 | 主文方法及结果节 |
+| 对象、条件、测试与模型 | 准三维预制体，硅溶胶浸渍、分级干燥及800 °C热处理，累计6次循环；密度约1.75 g/cm³。μCT、三点弯曲/压缩、DIC、氧乙炔烧蚀10 s、12–18 GHz（介电测试温度NR）介电及热学测试；不少织构比较来自既有文献，非同期同批控制。 | 主文方法及结果节 |
 | 对照及独立性 | 下列E#区分本文测量、计算、作者解释及转引；同源图表不计作独立验证。 | E#定位 |
 | 误差与重复 | ±按原文保留；未核明的误差类型、独立制备批次与显著性不补造。明确重复见上行。 | 主文方法/图表 |
 
@@ -103,17 +103,17 @@ Evidence label: 介电与热学
 
 - Evidence type: 介电测量；导热率由αCpρ求得。
 - Object and conditions: 见Study Design及本条条件。
-- Metric and result: 室温12–18 GHz ε约3、tanδ<0.004；373–1073 K热膨胀系数约6.66×10⁻⁷ K⁻¹；273–1273 K导热率约0.3–0.6 W·m⁻¹·K⁻¹。
+- Metric and result: 12–18 GHz（介电测试温度NR） ε约3、tanδ<0.004；373–1073 K热膨胀系数约6.66×10⁻⁷ K⁻¹；273–1273 K导热率约0.3–0.6 W·m⁻¹·K⁻¹。
 - Source locator: Sec.3.4、Fig.11，PDF页序7–8；2026-09-18补查原图及正文。0.3–0.6为作者近似范围，图上低温点约0.36，不作为精确0.300使用。
 - Original data source / independence: 本文主文对应数据；转引或模型已单独说明，不算额外独立实验。
-- Supports / does not establish: 不等于高温透射率或烧蚀后介电结果；不同指标来自不同测试，不能合成为同一服役状态的全性能。
+- Supports / does not establish: 2026-09-28核PDF方法及Fig.11，介电测温未明确，撤回旧室温标签；不等于高温透射率或烧蚀后介电结果；不同指标来自不同测试，不能合成为同一服役状态的全性能。
 - Verification status: 主体Markdown已读；已列页序对应图表回查PDF，其余不超出文本核查。冲突与未决保留于本条。
 
 ## Conclusions for Reuse
 
 ### Finding 1
 
-- Finding / safe wording: 层合穿刺SiO2f/SiO2在本文条件下兼有室温力学和低介电参数（E1、E4）；短时烧蚀表现必须分别报告线退蚀与质量损失（E2），不能将形貌保持代替残余性能（E3）。
+- Finding / safe wording: 层合穿刺SiO2f/SiO2在本文条件下兼有力学和低介电参数（E1、E4）；短时烧蚀表现必须分别报告线退蚀与质量损失（E2），不能将形貌保持代替残余性能（E3）。
 - Evidence: [[directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2#E1|E1]], [[directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2#E2|E2]], [[directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2#E3|E3]], [[directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2#E4|E4]]。
 - Support: partial；支持上述限定结果，不支持未测工况、完全因果解释或跨方法无条件排名。
 - Author interpretation / this reading: 作者解释在E#中标注；本页限制性判断为AI证据评价，不是新增实验。
@@ -133,3 +133,7 @@ Evidence label: 介电与热学
 
 - [[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN|Si3N4/SiO2混编纤维增强BN]]
 - [[directions/wave-transparent-composites/wiki/papers/Liu-2024-Porous-Si3N4|双溶剂模板多孔氮化硅]]
+
+## B/C定向复核入口（2026-09-28）
+
+本篇整理为P0017，本次证据EV000076—078。事实/综合统一维护于[BC正式工作簿](../../synthesis/review_BC/BC_review_evidence.xlsx)，旧E#及draft状态保留；覆盖见[[directions/wave-transparent-composites/docs/bc-stage4-2026-09-28/report]]。不新增重复论文身份，不将未读SI标为已核。

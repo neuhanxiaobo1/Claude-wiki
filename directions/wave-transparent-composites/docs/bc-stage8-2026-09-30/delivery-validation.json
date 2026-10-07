@@ -1,0 +1,280 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "checked": "2026-09-30",
+  "published_base": "413a8cab53c4ac6cc36d01d2f8237cdc5ef1c7b1",
+  "workbook_sha256": "00e196b6fac783db3bc74101327fe2382b29cf02802a16c8351ae50fbbe3f28c",
+  "reports": {
+    "workbook-validation.json": {
+      "exit_code": 0
+    },
+    "contract-checks.json": {
+      "exit_code": 0
+    },
+    "structure-validation.json": {
+      "exit_code": 0
+    }
+  },
+  "counts": {
+    "Paper_Index": 21,
+    "Evidence_Records": 115,
+    "Synthesis_Map": 9
+  },
+  "previous_stage_record_changes": {
+    "Paper_Index": {
+      "old_records": 21,
+      "differences": [
+        {
+          "id": "P0014",
+          "field": "Key_Conclusion_OneSentence",
+          "allowed": true
+        },
+        {
+          "id": "P0014",
+          "field": "Main_Limitation",
+          "allowed": true
+        },
+        {
+          "id": "P0014",
+          "field": "Check_Reason",
+          "allowed": true
+        },
+        {
+          "id": "P0014",
+          "field": "Source_Version",
+          "allowed": true
+        },
+        {
+          "id": "P0014",
+          "field": "Verification_Scope",
+          "allowed": true
+        },
+        {
+          "id": "P0014",
+          "field": "Source_Manifest",
+          "allowed": true
+        }
+      ]
+    },
+    "Evidence_Records": {
+      "old_records": 113,
+      "differences": [
+        {
+          "id": "EV000060",
+          "field": "Limitation",
+          "allowed": true
+        },
+        {
+          "id": "EV000060",
+          "field": "Verification_Scope",
+          "allowed": true
+        },
+        {
+          "id": "EV000060",
+          "field": "Related_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "EV000061",
+          "field": "Limitation",
+          "allowed": true
+        },
+        {
+          "id": "EV000061",
+          "field": "Verification_Scope",
+          "allowed": true
+        },
+        {
+          "id": "EV000061",
+          "field": "Related_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "EV000062",
+          "field": "Limitation",
+          "allowed": true
+        },
+        {
+          "id": "EV000062",
+          "field": "Verification_Scope",
+          "allowed": true
+        },
+        {
+          "id": "EV000062",
+          "field": "Check_Reason",
+          "allowed": true
+        },
+        {
+          "id": "EV000062",
+          "field": "Related_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "EV000063",
+          "field": "Limitation",
+          "allowed": true
+        },
+        {
+          "id": "EV000063",
+          "field": "Verification_Scope",
+          "allowed": true
+        },
+        {
+          "id": "EV000063",
+          "field": "Related_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "EV000064",
+          "field": "Limitation",
+          "allowed": true
+        },
+        {
+          "id": "EV000064",
+          "field": "Verification_Scope",
+          "allowed": true
+        },
+        {
+          "id": "EV000064",
+          "field": "Check_Reason",
+          "allowed": true
+        },
+        {
+          "id": "EV000064",
+          "field": "Related_Evidence_IDs",
+          "allowed": true
+        }
+      ]
+    },
+    "Synthesis_Map": {
+      "old_records": 9,
+      "differences": [
+        {
+          "id": "SYN-C-004",
+          "field": "What_Remains_Uncertain",
+          "allowed": true
+        },
+        {
+          "id": "SYN-B-003",
+          "field": "Candidate_Claim",
+          "allowed": true
+        },
+        {
+          "id": "SYN-B-003",
+          "field": "Key_Differences",
+          "allowed": true
+        },
+        {
+          "id": "SYN-B-003",
+          "field": "What_Remains_Uncertain",
+          "allowed": true
+        },
+        {
+          "id": "SYN-B-003",
+          "field": "Supporting_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Candidate_Claim",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Supporting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Contradicting_or_Limiting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Key_Differences",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "What_Remains_Uncertain",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Supporting_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Limiting_Evidence_IDs",
+          "allowed": true
+        }
+      ]
+    }
+  },
+  "screened_source_checks": [
+    {
+      "screen_id": "P0014",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "screen_id": "P0014",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "screen_id": "P0014",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "screen_id": "P0014",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "screen_id": "P0014",
+      "kind": "si",
+      "unchanged": true
+    }
+  ],
+  "legacy_paper_count": 27,
+  "legacy_evidence_anchors_before_after": [
+    108,
+    108
+  ],
+  "changed_legacy_papers": [
+    "directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN.md",
+    "directions/wave-transparent-composites/wiki/papers/Jing-2025-Alumina-LaPO4-Interface.md",
+    "directions/wave-transparent-composites/wiki/papers/Li-2017-BN-SiO2-Thermal-Shock.md",
+    "directions/wave-transparent-composites/wiki/papers/Wang-2024-VPP-CVI-Si3N4-Fibers.md",
+    "directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2.md",
+    "directions/wave-transparent-composites/wiki/papers/Yu-2024-Low-Carbon-SiBCN.md",
+    "directions/wave-transparent-composites/wiki/papers/Zhang-2023-Si3N4-SiO2-Nanowire-Aerogels.md",
+    "directions/wave-transparent-composites/wiki/papers/Zhang-2025-Needle-Punched-SiO2-Composites.md"
+  ],
+  "import_version": "2026-09-30-v9",
+  "import_items": 18,
+  "source_ids": [
+    "P0014"
+  ],
+  "local_link_check": {
+    "files": 30,
+    "targets": 301,
+    "missing": [],
+    "anchor_slugs_checked": false
+  },
+  "review_workspace_files": [
+    "BC_review_evidence.xlsx",
+    "BC_synthesis_notes.md",
+    "source_check_log.md"
+  ],
+  "all_git_changes_within_direction": true,
+  "diff_check_exit_code": 0,
+  "git_read_warnings": [
+    "warning: unable to access 'C:\\Users\\youthcookie/.config/git/ignore': Permission denied"
+  ],
+  "uploaded": false,
+  "scientific_correctness_automatically_verified": false,
+  "errors": []
+}

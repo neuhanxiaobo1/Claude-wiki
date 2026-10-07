@@ -2,7 +2,7 @@
 direction_id: wave-transparent-composites
 status: active
 created: 2026-09-25
-updated: 2026-09-25
+updated: 2026-10-01
 ---
 
 # 目录职责与规则入口
@@ -36,7 +36,7 @@ wave-transparent-composites/
 | 哪章留/合并/缩题 | BC_synthesis_notes的章节表及SYN | Core计数自动投票 |
 | 如何运行校验 | scripts/review_bc/README.md | 旧验收JSON里的历史命令 |
 
-当前交付：[[directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/report]]；原始五篇试点：[[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report]]。
+当前交付：[[directions/wave-transparent-composites/docs/scopus-S1-screening-2026-10-01/report|BC-S1检索候选筛选]]；上一轮证据更新：[[directions/wave-transparent-composites/docs/bc-stage8-2026-09-30/report]]；上阶段结构调整：[[directions/wave-transparent-composites/docs/bc-batch2-2026-09-25/report]]；原始五篇试点：[[directions/wave-transparent-composites/docs/bc-pilot-2026-09-25/report]]。
 
 历史设计导航：[[directions/wave-transparent-composites/docs/review-workflow-plan-2026-09-21/report]] → [[directions/wave-transparent-composites/docs/review-options-2026-09-21/report]] → [[directions/wave-transparent-composites/docs/c-oriented-rules-2026-09-21/report]] → [[directions/wave-transparent-composites/docs/c-rules-design-v2-2026-09-21/report]] → [[directions/wave-transparent-composites/docs/bc-integration-2026-09-25/report]]。仅按溯源需要读取；其中两篇写作参照继续有效，旧A/C优先方案不再执行。
 
@@ -49,3 +49,7 @@ wave-transparent-composites/
 | synthesis/review_BC/schema.json | rules/bc-evidence.schema.json |
 
 迁移核验见[迁移记录](bc-batch2-2026-09-25/migration.json)。历史验收JSON保留当时路径，不改写成当前验收；当前Markdown入口已修复。候选schema只描述历史空白模板，不是生效规则。
+
+- [[directions/wave-transparent-composites/docs/bc-stage7-2026-09-30/report|2026-09-30：Wan2016入库、新选文偏好及下一步]]。
+
+- [[directions/wave-transparent-composites/docs/bc-stage8-2026-09-30/report|P0014补充资料核查]]；[[directions/wave-transparent-composites/docs/bc-stage8-2026-09-30/scopus-searches|下一轮Scopus检索式及导出要求]]。

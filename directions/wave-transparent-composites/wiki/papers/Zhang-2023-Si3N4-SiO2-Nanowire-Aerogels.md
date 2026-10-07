@@ -17,7 +17,7 @@ venue: Journal of Advanced Ceramics
 status: processed
 review_status: draft
 created: '2026-09-21'
-updated: '2026-09-21'
+updated: 2026-09-26
 source: C:\Users\youthcookie\OneDrive\1.Science\1.Zotero\pdf2\2023-(J. Adv. Ceram.)\Zhang
   等 - 2023 - Resilient Si3N4@SiO2 nanowire aerogels for high-temperature electromagnetic
   wave transparency and th.pdf
@@ -63,6 +63,8 @@ tags:
 
 高温介电实测：密度10 mg/cm³样品在25–1000 ℃、7–20 GHz的测量中εr为1.02–1.05；1000 ℃时tanδ约3.5×10⁻³–5.5×10⁻³。定位§3.5、结论及PDF第9页Fig.5c–d，曲线目视核对。正文“几乎低于5×10⁻³”不是严格上限；不能统一写为小于5×10⁻³。残余干凝胶导致损耗变化属于作者解释，未作独立因果验证。
 
+2026-09-26补核：§2.3给出7–18 GHz，图5(c/d)及正文为7–20 GHz，高温夹具、气氛和平衡/升降温流程未明确。上述7–20 GHz为作者结果口径，不能视作全频段方法已核实；EV000067保持Partial，Q24限定定量基准。1200℃热后系列另见EV000068，不能与本条强行配为同试样前后。
+
 ## 机制、局限与综述用途
 
 核壳纳米线网络与低固相体积分数关联低介电常数和隔热；弹性恢复依赖网络及应变幅度。热处理稳定性、火焰形变演示与高温介电测量具有不同试样、时间和气氛条件，不能拼接成一个样品的综合长期服役指标。正文所谓平均“micropore”尺寸68.93 μm不作为纳米孔限域证据。ESM中成分映射、长时热处理及相关形貌未复核。
@@ -74,3 +76,7 @@ tags:
 - 主文方法/结果/结论已读；关键定量图已目视核对。
 - 测试温度与热处理温度、不同密度样品、介电与透射率已区分。
 - 补充材料未核查；跨论文领先程度和原始数据复算未完成。
+
+## B/C定向复核与事实库入口（2026-09-26）
+
+本篇已按现行流程整理为P0015，新增证据EV000065—069。逐条数据、核查范围与综述用途统一维护于[BC正式工作簿](../../synthesis/review_BC/BC_review_evidence.xlsx)；本页保留历史E#及draft状态，不作为第二套同步事实库。该次主文阅读/关键图表覆盖与未决见[[directions/wave-transparent-composites/docs/bc-stage3-2026-09-26/report]]；未读SI不算已核，旧E#未重编号。

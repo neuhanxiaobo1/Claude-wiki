@@ -1,0 +1,522 @@
+{
+  "workbook_sha256": "5c871b42c0aa02f007c4cb2f6004c4beab98f4a8b4045cf77c37ede4e662eef6",
+  "counts": {
+    "Paper_Index": 19,
+    "Evidence_Records": 96,
+    "Synthesis_Map": 9
+  },
+  "B_core": [
+    "P0001",
+    "P0002",
+    "P0006",
+    "P0010",
+    "P0015"
+  ],
+  "C_core": [
+    "P0004",
+    "P0006",
+    "P0008",
+    "P0009",
+    "P0010",
+    "P0011",
+    "P0012",
+    "P0013",
+    "P0015",
+    "P0016",
+    "P0017",
+    "P0018",
+    "P0019"
+  ],
+  "core_intersection": [
+    "P0006",
+    "P0010",
+    "P0015"
+  ],
+  "primary_track": {
+    "Both": 9,
+    "C": 10
+  },
+  "evidence_per_paper": {
+    "P0001": 4,
+    "P0002": 4,
+    "P0003": 4,
+    "P0004": 5,
+    "P0005": 5,
+    "P0006": 5,
+    "P0007": 4,
+    "P0008": 4,
+    "P0009": 4,
+    "P0010": 6,
+    "P0011": 5,
+    "P0012": 4,
+    "P0013": 5,
+    "P0014": 5,
+    "P0015": 5,
+    "P0016": 6,
+    "P0017": 3,
+    "P0018": 6,
+    "P0019": 12
+  },
+  "evidence_type": {
+    "Observation": 68,
+    "Author-interpretation": 21,
+    "Model-output": 6,
+    "Unclassified-report": 1
+  },
+  "directness": {
+    "Direct": 68,
+    "Author-interpretation": 21,
+    "Indirect": 6,
+    "Unclear": 1
+  },
+  "verification_status": {
+    "Checked": 77,
+    "Partial": 19
+  },
+  "needs_check_evidence": [
+    "EV000001",
+    "EV000005",
+    "EV000008",
+    "EV000010",
+    "EV000011",
+    "EV000013",
+    "EV000020",
+    "EV000026",
+    "EV000029",
+    "EV000030",
+    "EV000033",
+    "EV000037",
+    "EV000041",
+    "EV000042",
+    "EV000044",
+    "EV000045",
+    "EV000047",
+    "EV000049",
+    "EV000051",
+    "EV000054",
+    "EV000055",
+    "EV000057",
+    "EV000062",
+    "EV000063",
+    "EV000064",
+    "EV000067",
+    "EV000068",
+    "EV000071",
+    "EV000073",
+    "EV000074",
+    "EV000076",
+    "EV000077",
+    "EV000081",
+    "EV000082",
+    "EV000083",
+    "EV000084",
+    "EV000085",
+    "EV000087",
+    "EV000088",
+    "EV000089",
+    "EV000090",
+    "EV000091",
+    "EV000092",
+    "EV000093",
+    "EV000094",
+    "EV000095",
+    "EV000096"
+  ],
+  "pairing_status": {
+    "Unclear": 79,
+    "NA": 7,
+    "Different-state": 10
+  },
+  "synthesis_readiness": {
+    "Provisional": 8,
+    "Ready": 1
+  },
+  "unmapped_new_extracts": [
+    "EV000003",
+    "EV000009",
+    "EV000021",
+    "EV000023",
+    "EV000024",
+    "EV000025",
+    "EV000026",
+    "EV000027",
+    "EV000028",
+    "EV000029",
+    "EV000030",
+    "EV000031",
+    "EV000032",
+    "EV000033",
+    "EV000034",
+    "EV000035",
+    "EV000036",
+    "EV000037",
+    "EV000038",
+    "EV000039",
+    "EV000040",
+    "EV000041",
+    "EV000042",
+    "EV000043",
+    "EV000044",
+    "EV000045",
+    "EV000051",
+    "EV000052",
+    "EV000065",
+    "EV000068",
+    "EV000072",
+    "EV000074",
+    "EV000075",
+    "EV000082",
+    "EV000084",
+    "EV000085",
+    "EV000086",
+    "EV000087",
+    "EV000088",
+    "EV000089",
+    "EV000090",
+    "EV000091",
+    "EV000092",
+    "EV000093",
+    "EV000094",
+    "EV000095",
+    "EV000096"
+  ],
+  "legacy_paper_count": 27,
+  "legacy_evidence_count": 108,
+  "sources": [
+    {
+      "paper": "P0001",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0001",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0002",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0002",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0003",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0003",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0004",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0004",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0005",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0005",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0006",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0006",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0006",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0006",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0007",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0007",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0007",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0007",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0008",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0008",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0008",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0008",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0009",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0009",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0009",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0009",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0010",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0010",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0010",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0010",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0011",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0011",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0011",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0011",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0012",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0012",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0012",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0012",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0013",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0013",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0013",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0013",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0014",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0014",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0014",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0014",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0015",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0015",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0015",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0015",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0016",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0016",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0016",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0016",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0017",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0017",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0017",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0017",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0018",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0018",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0018",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0018",
+      "kind": "identity",
+      "unchanged": true
+    },
+    {
+      "paper": "P0019",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "paper": "P0019",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "paper": "P0019",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "paper": "P0019",
+      "kind": "identity",
+      "unchanged": true
+    }
+  ],
+  "git_eligible": true,
+  "git_already_tracked": true,
+  "errors": [],
+  "machine_scientific_evidence_checked": false,
+  "manual_verification_scope": "Per-record Verification_Scope and corresponding batch report; not whole-paper approval."
+}

@@ -1,0 +1,53 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "date": "2026-10-01",
+  "result": "passed",
+  "counts": {
+    "不相关": 45,
+    "相关": 30,
+    "边界相关": 20
+  },
+  "checks": [
+    "95 stable IDs, item keys and source identities",
+    "94 DOI, 1 missing DOI, no listed attachments",
+    "manifest / CSV / XLSX cells and grouped row counts match",
+    "95 import_plan rows match manifest",
+    "all records have rationale, thermal interpretation, next action and explicit reading scope",
+    "report local links resolve",
+    "raw metadata snapshot and BC scientific workbook unchanged",
+    "git diff --check for selected direction passed"
+  ],
+  "duplicate_scope": {
+    "direction_paper_pages": 27,
+    "BC_rows": 21,
+    "identity_union": 35,
+    "within_batch_duplicates": 0,
+    "direction_duplicates": 0,
+    "method": "DOI规范化、item key、HTML/Unicode/标点规范化题名精确匹配；题名近似比较未产生待核对（已有库阈值0.85/批内0.88）；不是全Zotero去重"
+  },
+  "workbook_sha256_unchanged": "00e196b6fac783db3bc74101327fe2382b29cf02802a16c8351ae50fbbe3f28c",
+  "artifacts_sha256": {
+    "screening.xlsx": "a320fc99aca123b4074086d3bd64fe2eab058955cb91343dee33110c50f6a9f2",
+    "screening.csv": "c86a166c0d7357fb7db200854554a49ddd5ec8835fdac1b839a94a15c1bf0329",
+    "report.md": "6d7ae3bfaf4819276d343a98eb07253e2ded7b4de3c6b8dc1694ed0dd21d7d8e",
+    "sources.json": "025266f26d3c8fe5cb4204d561f64fc5ee6fa86ad0e3c0ef76dc4cd50cbc99f6",
+    "manifest.json": "704a198d5fa6cf884ade837b3d7deaca8e3e215a564a84e8d51aae55aed5c1e5",
+    "import_plan.md": "af19dffe40fa7dba3101ce2bef8fb27ab18db013d7be24dd6a07f35d87e54c44"
+  },
+  "structure_check": {
+    "command": "python -B scripts/wiki_check.py --direction wave-transparent-composites",
+    "errors": 0,
+    "warnings": 0,
+    "selected_files": 37,
+    "read_files": 38,
+    "links_seen": 239,
+    "scientific_evidence_checked": false,
+    "coverage": "selected current direction entry/memory/wiki/synthesis; does not scan docs/raw; report links additionally checked above"
+  },
+  "limitations": [
+    "abstract-level screening only, no scientific evidence admission or fulltext verification",
+    "no all-library duplicate or disk-PDF search",
+    "most imported journal IF years/sources unverified",
+    "no Zotero writes or publishing"
+  ]
+}

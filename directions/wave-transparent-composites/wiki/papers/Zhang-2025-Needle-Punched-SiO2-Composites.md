@@ -15,7 +15,7 @@ venue: Ceramics International
 status: processed
 review_status: draft
 created: '2026-09-21'
-updated: '2026-09-21'
+updated: 2026-09-26
 source: C:\Users\youthcookie\OneDrive\1.Science\1.Zotero\pdf2\2025-(Ceram. Int.)\Zhang
   等 - 2025 - Low-cost needle-punched SiO2SiO2ceramic composites with low permittivity
   and enhanced high-temperat.pdf
@@ -55,7 +55,7 @@ tags:
 ### E1
 
 - 类型：本文弯曲测量。NP-5s室温强度87.3 MPa；800℃三个试样91.45、112.56、101.85 MPa，作者平均101.95 MPa。
-- 定位：§3.2.3、图9、§4；正文已核，图9未单独视觉核查，不将均值称统计显著增强。高温气氛和保温时长在已读方法中未明确，不能推成长期氧化服役强度。
+- 定位：§3.2.3、图9、§4；正文已核；2026-09-26补核PDF第9页图9，图中为载荷曲线，未据曲线独立重算强度，不将均值称统计显著增强。高温气氛和保温时长在已读方法中未明确，不能推成长期氧化服役强度。
 
 ### E2
 
@@ -66,6 +66,7 @@ tags:
 
 - 类型：波导介电/S参数测量及透射计算。5.4—18 GHz中NP-5s的ε′<4、tanδ<0.1；图10(g)透射曲线随频率显著起伏，不能写作全频段>90%。
 - 定位：§2.2.2、§3.3.2、图10；PDF第10页已视觉复核。|T|²由公式评价，与S21(dB)不可混用；未将曲线估读值作精确数据。没有证明800℃下仍满足该介电范围。
+- 2026-09-26补核：图10(f/g)的S21(dB)与标作|T|²的曲线存在振幅/功率/归一化口径疑点；公式另算结果尚未与原始S参数对应，不能断定作者算错。图10(i)模拟与实验特征频率也存在偏移，不能概括为定量吻合。限制详见EV000057/Q21；保留E3编号，实测介电部分与模型部分分开使用。
 
 ### E4
 
@@ -74,7 +75,7 @@ tags:
 
 ## Conclusions for Reuse
 
-- Finding 1：保留针刺结构与力学—热导—介电联合表征案例（E1—E3）；用于综述结构/工艺章节，条件限定下支持充分，不作统一最优针距建议。
+- Finding 1：保留针刺结构与力学—热导—介电联合表征案例（E1—E3），可作结构/工艺章节的条件性观察；E3中的透射量定义与模型验证仍受下述限制，不作定量透射排名或统一最优针距建议。
 - Finding 2：限制磁损耗、TG抗氧化与孔隙因果解释（E4）；实测与机理分开，不将作者的宽泛结论当共识。
 
 ## Limitations and Open Questions
@@ -84,3 +85,7 @@ tags:
 ## Downstream Review
 
 与[[directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2]]存在织构与力学/介电关系，可作后续比较；未据不同条件直接排名。既有综合未引用本篇，无需更改其数值。
+
+## B/C定向复核与事实库入口（2026-09-26）
+
+本篇已按现行流程整理为P0013，新增证据EV000055—059。逐条数据、核查范围与综述用途统一维护于[BC正式工作簿](../../synthesis/review_BC/BC_review_evidence.xlsx)；本页保留历史E#及draft状态，不作为第二套同步事实库。该次主文阅读/关键图表覆盖与未决见[[directions/wave-transparent-composites/docs/bc-stage3-2026-09-26/report]]；未读SI不算已核，旧E#未重编号。

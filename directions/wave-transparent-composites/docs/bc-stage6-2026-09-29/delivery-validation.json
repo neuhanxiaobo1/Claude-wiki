@@ -1,0 +1,148 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "checked": "2026-09-29",
+  "published_base": "413a8cab53c4ac6cc36d01d2f8237cdc5ef1c7b1",
+  "workbook_sha256": "3355375f1880acf1d002d99b3b9bcb78406cdeaa5123bf2fb0c4c7fa6caa74ac",
+  "reports": {
+    "workbook-validation.json": {
+      "exit_code": 0
+    },
+    "contract-checks.json": {
+      "exit_code": 0
+    },
+    "structure-validation.json": {
+      "exit_code": 0
+    }
+  },
+  "counts": {
+    "Paper_Index": 20,
+    "Evidence_Records": 104,
+    "Synthesis_Map": 9
+  },
+  "previous_stage_record_changes": {
+    "Paper_Index": {
+      "old_records": 19,
+      "differences": []
+    },
+    "Evidence_Records": {
+      "old_records": 96,
+      "differences": []
+    },
+    "Synthesis_Map": {
+      "old_records": 9,
+      "differences": [
+        {
+          "id": "SYN-B-003",
+          "field": "Contradicting_or_Limiting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-B-003",
+          "field": "What_Remains_Uncertain",
+          "allowed": true
+        },
+        {
+          "id": "SYN-B-003",
+          "field": "Limiting_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Candidate_Claim",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Supporting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Contradicting_or_Limiting_Paper_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Key_Differences",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "What_Remains_Uncertain",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Supporting_Evidence_IDs",
+          "allowed": true
+        },
+        {
+          "id": "SYN-C-006",
+          "field": "Limiting_Evidence_IDs",
+          "allowed": true
+        }
+      ]
+    }
+  },
+  "screened_source_checks": [
+    {
+      "screen_id": "P0020",
+      "kind": "pdf",
+      "unchanged": true
+    },
+    {
+      "screen_id": "P0020",
+      "kind": "md",
+      "unchanged": true
+    },
+    {
+      "screen_id": "P0020",
+      "kind": "manifest",
+      "unchanged": true
+    },
+    {
+      "screen_id": "P0020",
+      "kind": "identity",
+      "unchanged": true
+    }
+  ],
+  "legacy_paper_count": 27,
+  "legacy_evidence_anchors_before_after": [
+    108,
+    108
+  ],
+  "changed_legacy_papers": [
+    "directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN.md",
+    "directions/wave-transparent-composites/wiki/papers/Jing-2025-Alumina-LaPO4-Interface.md",
+    "directions/wave-transparent-composites/wiki/papers/Li-2017-BN-SiO2-Thermal-Shock.md",
+    "directions/wave-transparent-composites/wiki/papers/Wang-2024-VPP-CVI-Si3N4-Fibers.md",
+    "directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2.md",
+    "directions/wave-transparent-composites/wiki/papers/Yu-2024-Low-Carbon-SiBCN.md",
+    "directions/wave-transparent-composites/wiki/papers/Zhang-2023-Si3N4-SiO2-Nanowire-Aerogels.md",
+    "directions/wave-transparent-composites/wiki/papers/Zhang-2025-Needle-Punched-SiO2-Composites.md"
+  ],
+  "import_version": "2026-09-29-v7",
+  "import_items": 17,
+  "source_ids": [
+    "P0020"
+  ],
+  "local_link_check": {
+    "files": 25,
+    "targets": 265,
+    "missing": [],
+    "anchor_slugs_checked": false
+  },
+  "review_workspace_files": [
+    "BC_review_evidence.xlsx",
+    "BC_synthesis_notes.md",
+    "source_check_log.md"
+  ],
+  "all_git_changes_within_direction": true,
+  "diff_check_exit_code": 0,
+  "git_read_warnings": [
+    "warning: unable to access 'C:\\Users\\youthcookie/.config/git/ignore': Permission denied"
+  ],
+  "uploaded": false,
+  "scientific_correctness_automatically_verified": false,
+  "errors": []
+}

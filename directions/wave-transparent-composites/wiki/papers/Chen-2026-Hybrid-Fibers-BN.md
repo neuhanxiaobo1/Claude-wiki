@@ -17,7 +17,7 @@ venue: 'Composites Part A: Applied Science and Manufacturing'
 status: processed
 review_status: draft
 created: '2026-09-17'
-updated: '2026-09-18'
+updated: 2026-09-28
 source: D:\shuju\zotero1\llm-for-zotero-mineru\10075\full.md
 source_version: 英文主附件的MinerU解析；MD哈希见sources.json
 zotero_collection: BSQRX4DM
@@ -92,10 +92,10 @@ Evidence label: 导热与介电的条件
 
 - Evidence type: 直接测量参数＋导热率求值。
 - Object and conditions: 见Study Design及本条条件。
-- Metric and result: 导热率室温0.822、1073 K时1.752 W·m⁻¹·K⁻¹；室温12–18 GHz ε<3.8、损耗约0.005量级且低于0.01。Fig.7概括值ε3.76、tanδ0.0058，而SiO2f/SiO2为3.30和0.0044。
+- Metric and result: 导热率室温0.822、1073 K时1.752 W·m⁻¹·K⁻¹；12–18 GHz（介电测试温度NR） ε<3.8、损耗约0.005量级且低于0.01。Fig.7概括值ε3.76、tanδ0.0058，而SiO2f/SiO2为3.30和0.0044。
 - Source locator: Sec.3.4、Fig.6–7，PDF页序8、12。
 - Original data source / independence: 本文主文对应数据；转引或模型已单独说明，不算额外独立实验。
-- Supports / does not establish: 混编材料并非所有介电指标低于纯硅氧体系，也未测高温介电或烧蚀后透波。温度点重复的标准差与独立样品离散应分开。
+- Supports / does not establish: 2026-09-28核PDF方法及Fig.6，介电测温未明确，撤回旧室温标签；Fig.7代表频点/平均方式未明，暂不作精确频点比较。混编材料并非所有介电指标低于纯硅氧体系，也未测高温介电或烧蚀后透波。温度点重复的标准差与独立样品离散应分开。
 - Verification status: 主体Markdown已读；已列页序对应图表回查PDF，其余不超出文本核查。冲突与未决保留于本条。
 
 ### E4
@@ -132,7 +132,7 @@ Evidence label: 混编材料热膨胀范围
 
 ### Finding 1
 
-- Finding / safe wording: 同文比较支持力学改善与可用室温介电参数共存（E1、E3）；不是每项性能均改善。弱/强界面协同是有表征支持的作者解释（E2），但其定量分解和热输运模型受E4限制。
+- Finding / safe wording: 同文比较支持力学改善与已报告介电参数（测温NR）共存（E1、E3）；不是每项性能均改善。弱/强界面协同是有表征支持的作者解释（E2），但其定量分解和热输运模型受E4限制。
 - Evidence: [[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E1|E1]], [[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E2|E2]], [[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E3|E3]], [[directions/wave-transparent-composites/wiki/papers/Chen-2026-Hybrid-Fibers-BN#E4|E4]]。
 - Support: partial；支持上述限定结果，不支持未测工况、完全因果解释或跨方法无条件排名。
 - Author interpretation / this reading: 作者解释在E#中标注；本页限制性判断为AI证据评价，不是新增实验。
@@ -140,7 +140,7 @@ Evidence label: 混编材料热膨胀范围
 
 ## Limitations and Open Questions
 
-没有服役高温透波、长期氧化或烧蚀测试。纳米压痕/剪滞模型参数、局部TEM和宏观性能不能互相替代。未评估新颖性检索范围。
+没有服役高温透波、长期氧化或烧蚀测试。2026-09-28补核式20—24：电学模型单位约定、双纤维/BN/孔输入及电阻率测法仍需核实；“长弛豫时间抑制损耗”仅为作者解释，见EV000082/084及Q30。纳米压痕/剪滞模型参数、局部TEM和宏观性能不能互相替代。未评估新颖性检索范围。
 
 未做领域系统检索，不将本文未测事项自动认定为领域空白。
 
@@ -151,3 +151,7 @@ Evidence label: 混编材料热膨胀范围
 相关阅读仅表示明确材料/方法比较关系，不表示条件相同或可直接排名：
 
 - [[directions/wave-transparent-composites/wiki/papers/Wen-2026-Laminated-SiO2f-SiO2|层合穿刺SiO2f/SiO2]]
+
+## B/C定向复核入口（2026-09-28）
+
+本篇整理为P0018，本次证据EV000079—084。事实/综合统一维护于[BC正式工作簿](../../synthesis/review_BC/BC_review_evidence.xlsx)，旧E#及draft状态保留；覆盖见[[directions/wave-transparent-composites/docs/bc-stage4-2026-09-28/report]]。不新增重复论文身份，不将未读SI标为已核。

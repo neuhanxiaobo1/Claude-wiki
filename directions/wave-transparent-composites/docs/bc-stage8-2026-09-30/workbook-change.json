@@ -1,0 +1,32 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "date": "2026-09-30",
+  "before_sha256": "5f354ed10e4f2f554d41ebdd29aa8f335a3fcd46b3aa938769ea267b8048d964",
+  "after_sha256": "00e196b6fac783db3bc74101327fe2382b29cf02802a16c8351ae50fbbe3f28c",
+  "new_papers": [],
+  "new_evidence": [
+    "EV000114",
+    "EV000115"
+  ],
+  "updated_papers": [
+    "P0014"
+  ],
+  "updated_evidence": [
+    "EV000060",
+    "EV000061",
+    "EV000062",
+    "EV000063",
+    "EV000064"
+  ],
+  "updated_syntheses": [
+    "SYN-B-003",
+    "SYN-C-006",
+    "SYN-C-004"
+  ],
+  "counts": {
+    "Paper_Index": 21,
+    "Evidence_Records": 115,
+    "Synthesis_Map": 9
+  },
+  "uploaded": false
+}

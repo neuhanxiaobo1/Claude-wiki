@@ -1,0 +1,23 @@
+{
+  "before_sha256": "5c871b42c0aa02f007c4cb2f6004c4beab98f4a8b4045cf77c37ede4e662eef6",
+  "after_sha256": "3355375f1880acf1d002d99b3b9bcb78406cdeaa5123bf2fb0c4c7fa6caa74ac",
+  "new_papers": [
+    "P0020"
+  ],
+  "new_evidence": [
+    "EV000097",
+    "EV000098",
+    "EV000099",
+    "EV000100",
+    "EV000101",
+    "EV000102",
+    "EV000103",
+    "EV000104"
+  ],
+  "updated_syntheses": [
+    "SYN-C-006",
+    "SYN-B-003"
+  ],
+  "new_syntheses": [],
+  "prior_paper_and_evidence_cells_unchanged": true
+}

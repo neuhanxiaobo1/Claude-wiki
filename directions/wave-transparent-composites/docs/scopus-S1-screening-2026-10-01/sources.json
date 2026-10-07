@@ -1,0 +1,49 @@
+{
+  "direction_id": "wave-transparent-composites",
+  "date": "2026-10-01",
+  "source_snapshot": "2a6e591a5863df6a840602711d1d7906861c181f7e9f3862d8a1d08e036edc61",
+  "collection": {
+    "key": "DDQC2V8Y",
+    "version": 126843,
+    "libraryID": 1,
+    "name": "透波词条",
+    "path": "3.毕设 > 组内文章 > 博士 > 田老师 > 透波复合材料 > 透波词条",
+    "depth": 5,
+    "parentCollection": "BSQRX4DM",
+    "relations": {},
+    "meta": {
+      "numItems": 95,
+      "numCollections": 0
+    }
+  },
+  "reading_scope": "95题名及完整导入摘要；无PDF/SI",
+  "primary_web_checks": [
+    {
+      "url": "https://publishing.aip.org/publications/find-the-right-journal/",
+      "checked": "2026-10-01",
+      "finding": "AIP Advances=1.7；APL=3.8；JAP=2.7；RSI=1.6。页面脚注2025 Journal Citation Reports Science Edition（Clarivate, 2026）。"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S1359836826008437",
+      "doi": "10.1016/j.compositesb.2026.114222",
+      "checked": "2026-10-01",
+      "access": "出版方索引搜索结果；随后直接open返回403，不声称已读整篇网页或PDF",
+      "finding": "Available online 13 September 2026；In Press, Journal Pre-proof；与Zotero题名/DOI一致，保留导入刊期01/2027。"
+    },
+    {
+      "url": "https://www.sciencedirect.com/journal/journal-of-materials-research-and-technology/vol/41/suppl/C?page=4",
+      "finding": "官方页面索引表头曾返回IF=6.6，与Zotero extra=7.3不同；年份未明，不选一作为已核JCR。"
+    },
+    {
+      "url": "https://www.sciencedirect.com/journal/composites-part-b-engineering/about/awards/jcomb-mid-career-2027-excellence-in-composites-engineering-award-nominations-now-open",
+      "finding": "官方页面索引表头曾返回14.2，与Zotero extra=14.0不同；年份未明，保留未核。"
+    }
+  ],
+  "limitations": [
+    "未验证用户在Scopus实际执行的查询参数、日期和总命中数；只是当前collection全部直接成员。",
+    "不使用源透波相关标签作结论；保留原标签，仅本地分类。",
+    "没有全Zotero库扫描或附件磁盘搜寻。",
+    "95个摘要是用户Zotero提供内容；数值与机制不作为已核科学证据。",
+    "未修改Zotero、PDF或BC事实工作簿；raw受Git忽略，不能声称已上传备份。"
+  ]
+}
